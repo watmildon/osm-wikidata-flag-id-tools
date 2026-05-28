@@ -3,6 +3,28 @@ import { subscribe, matches, activeCount, clear, setQuery } from "./filters.js";
 import { renderFilters, renderGrid, updateFilterSummary, fullSrc } from "./render.js";
 import { copyTags, tagsFor, showToast } from "./clipboard.js";
 
+// Inline SVG icons for the detail dialog's action buttons. Matches the
+// convention used on wikidata-suggestions / review pages so the visual
+// vocabulary is consistent across the site.
+const ICON_WIKIDATA =
+  '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+  '<path d="M6 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V10"/>' +
+  '<path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>';
+const ICON_MAP_PIN =
+  '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+  '<path d="M8 14s5-4.5 5-8.5a5 5 0 0 0-10 0C3 9.5 8 14 8 14z"/>' +
+  '<circle cx="8" cy="5.5" r="1.75"/></svg>';
+const ICON_PENCIL =
+  '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+  '<path d="m11 2 3 3-8 8H3v-3z"/></svg>';
+
+function overpassTurboUrl(qid) {
+  const query = `[out:json][timeout:60];
+nwr["flag:wikidata"="${qid}"];
+out center meta;`;
+  return `https://overpass-turbo.eu/?Q=${encodeURIComponent(query)}&R`;
+}
+
 let allFlags = [];
 let currentFlag = null;
 
@@ -20,8 +42,15 @@ function openDetail(flag) {
   document.getElementById("detail-tags").textContent = tagsFor(flag);
   const wd = document.getElementById("detail-wikidata");
   wd.href = `https://www.wikidata.org/wiki/${flag.qid}`;
-  wd.textContent = `View ${flag.qid} on Wikidata ↗`;
-  document.getElementById("detail-curate").href = `curate.html?qid=${flag.qid}`;
+  wd.title = `View ${flag.qid} on Wikidata`;
+  wd.setAttribute("aria-label", wd.title);
+  wd.innerHTML = ICON_WIKIDATA;
+  const overpass = document.getElementById("detail-overpass");
+  overpass.href = overpassTurboUrl(flag.qid);
+  overpass.innerHTML = ICON_MAP_PIN;
+  const curate = document.getElementById("detail-curate");
+  curate.href = `curate.html?qid=${flag.qid}`;
+  curate.innerHTML = ICON_PENCIL;
   const src = document.getElementById("detail-source");
   if (flag.flagType && typeof flag.flagTypeSample === "number") {
     src.textContent = `flag:type inferred from ${flag.flagTypeSample.toLocaleString()} OSM uses`;

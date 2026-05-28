@@ -60,11 +60,15 @@
     <img id="detail-img" alt="" />
     <h2 id="detail-name"></h2>
     <pre id="detail-tags" class="tags"></pre>
-    <p class="detail-links">
-      <a id="detail-wikidata" target="_blank" rel="noopener">View on Wikidata ↗</a>
-      &nbsp;·&nbsp;
-      <a id="detail-curate">Curate this flag →</a>
-    </p>
+    <div class="detail-links fix-actions-inner">
+      <a id="detail-wikidata" class="icon-btn" target="_blank" rel="noopener"
+         title="View on Wikidata" aria-label="View on Wikidata"></a>
+      <a id="detail-overpass" class="icon-btn" target="_blank" rel="noopener"
+         title="Find OSM elements with this flag in overpass-turbo"
+         aria-label="Find OSM elements with this flag in overpass-turbo"></a>
+      <a id="detail-curate" class="icon-btn"
+         title="Curate this flag" aria-label="Curate this flag"></a>
+    </div>
     <p id="detail-source" class="detail-source"></p>
     <button id="detail-copy" class="copy-btn" type="button">Copy tags</button>
   </dialog>

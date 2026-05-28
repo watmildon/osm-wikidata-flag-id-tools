@@ -283,15 +283,12 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   font-size: 0.75rem;
   color: var(--muted);
 }
+/* Icon-button row at the bottom of the detail dialog. Reuses the
+   .fix-actions-inner flex container + .icon-btn styling defined for the
+   review/suggestions pages so the visual vocabulary is consistent. */
 .detail-links {
-  margin: 0 0 8px;
-  font-size: 0.8125rem;
+  margin: 0 0 12px;
 }
-.detail-links a {
-  color: var(--accent);
-  text-decoration: none;
-}
-.detail-links a:hover { text-decoration: underline; }
 .detail-close {
   position: absolute;
   top: 8px;
