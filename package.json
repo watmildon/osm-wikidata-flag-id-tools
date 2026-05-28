@@ -7,6 +7,7 @@
     "build": "node scripts/build-flags.mjs",
     "build:force": "node scripts/build-flags.mjs --force",
     "build:review": "node scripts/build-review.mjs",
+    "fetch:descriptions": "node scripts/fetch-wikipedia-descriptions.mjs",
     "serve": "python -m http.server 8000"
   }
 }

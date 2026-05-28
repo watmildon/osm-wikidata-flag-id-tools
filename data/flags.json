@@ -61,7 +61,8 @@
         "subject:wikidata": "Q30",
         "country": "US"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Thirteen alternating red and white horizontal stripes, with a blue rectangle in the upper-left corner containing fifty white stars arranged in nine rows."
     },
     {
       "qid": "Q43192",
@@ -84,7 +85,8 @@
         "subject:wikidata": "Q142",
         "country": "FR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of blue, white, and red."
     },
     {
       "qid": "Q122482",
@@ -105,7 +107,8 @@
         "subject": "Europe",
         "subject:wikidata": "Q46"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A circle of twelve five-pointed yellow stars on a dark blue field."
     },
     {
       "qid": "Q134627",
@@ -130,7 +133,8 @@
         "subject:wikidata": "Q928",
         "country": "PH"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A horizontal bicolor of royal blue (top) and crimson red (bottom), with a white equilateral triangle at the hoist. In the center of the triangle is a golden-yellow sun with eight primary rays. Each of the triangle's three vertices bears a small five-pointed golden-yellow star."
     },
     {
       "qid": "Q80110",
@@ -152,7 +156,8 @@
         "subject:wikidata": "Q16",
         "country": "CA"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red and white vertical triband with a stylized red maple leaf centered on the white middle panel."
     },
     {
       "qid": "Q131147",
@@ -176,7 +181,8 @@
         "subject:wikidata": "Q148",
         "country": "CN"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with one large yellow five-pointed star in the upper-left, accompanied by four smaller yellow stars arcing around it."
     },
     {
       "qid": "Q60149",
@@ -200,7 +206,8 @@
         "subject:wikidata": "Q35",
         "country": "DK"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white Nordic cross on a red field, offset toward the hoist."
     },
     {
       "qid": "Q1463762",
@@ -221,7 +228,8 @@
         "subject": "National League of POW/MIA Families",
         "subject:wikidata": "Q6974069"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A black field with a white silhouette of a head in profile, a guard tower, and a strand of barbed wire, with the text \"POW * MIA\" above and \"YOU ARE NOT FORGOTTEN\" below."
     },
     {
       "qid": "Q81286",
@@ -245,7 +253,8 @@
         "subject:wikidata": "Q34",
         "country": "SE"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A yellow Nordic cross on a light blue field, offset toward the hoist."
     },
     {
       "qid": "Q42436",
@@ -267,7 +276,8 @@
         "subject:wikidata": "Q36",
         "country": "PL"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of white above red."
     },
     {
       "qid": "Q130774",
@@ -290,7 +300,8 @@
         "subject:wikidata": "Q414",
         "country": "AR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of light blue, white, and light blue, with a yellow Sun of May (a sun face with rays) centered on the white band."
     },
     {
       "qid": "Q42876",
@@ -313,7 +324,8 @@
         "subject:wikidata": "Q38",
         "country": "IT"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of green, white, and red."
     },
     {
       "qid": "Q83149",
@@ -338,7 +350,8 @@
         "subject:wikidata": "Q20",
         "country": "NO"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue Nordic cross outlined in white on a red field, offset toward the hoist."
     },
     {
       "qid": "Q1402799",
@@ -360,7 +373,8 @@
         "subject": "Chicago",
         "subject:wikidata": "Q1297"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three horizontal white bands separated by two light-blue bands, with four red six-pointed stars centered on the broad middle white band."
     },
     {
       "qid": "Q160872",
@@ -383,7 +397,8 @@
         "subject:wikidata": "Q298",
         "country": "CL"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of white (top) and red, with a blue square in the upper hoist (the height of the white band) bearing a single white five-pointed star."
     },
     {
       "qid": "Q752837",
@@ -403,7 +418,8 @@
         "subject": "Illinois",
         "subject:wikidata": "Q1204"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field bearing the central elements of the state seal: a bald eagle in profile perched on a rock, wings uplifted, holding a shield and a banner in its beak, with a rising sun over water in the background. The word \"Illinois\" appears below."
     },
     {
       "qid": "Q121688",
@@ -427,7 +443,8 @@
         "subject:wikidata": "Q29",
         "country": "ES"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three horizontal bands of red, yellow, and red, with the yellow band twice as wide as the red bands, bearing the Spanish coat of arms toward the hoist."
     },
     {
       "qid": "Q81676",
@@ -450,7 +467,8 @@
         "subject:wikidata": "Q408",
         "country": "AU"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field with the Union Jack in the upper hoist quarter, a large white seven-pointed Commonwealth Star below the Union Jack, and five white stars on the fly representing the Southern Cross (one small five-pointed star and four larger seven-pointed stars)."
     },
     {
       "qid": "Q752559",
@@ -468,7 +486,8 @@
         "subject": "Ohio",
         "subject:wikidata": "Q1397"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red, white, and blue swallowtail (triangular-cut) flag. Two horizontal red stripes top and bottom flank a white middle stripe, with a blue triangular peak at the hoist bearing 13 white stars around a red disc."
     },
     {
       "qid": "Q127974",
@@ -490,7 +509,8 @@
         "subject:wikidata": "Q212",
         "country": "UA"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of blue (top) and yellow."
     },
     {
       "qid": "Q98055852",
@@ -511,7 +531,8 @@
         "subject:wikidata": "Q458",
         "country": "EU"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A circle of twelve five-pointed yellow stars on a blue field."
     },
     {
       "qid": "Q48160",
@@ -534,7 +555,8 @@
         "subject:wikidata": "Q183",
         "country": "DE"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of black, red, and gold."
     },
     {
       "qid": "Q47891",
@@ -558,7 +580,8 @@
         "subject:wikidata": "Q33",
         "country": "FI"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue Nordic cross on a white field, offset toward the hoist."
     },
     {
       "qid": "Q41327",
@@ -582,7 +605,8 @@
         "subject:wikidata": "Q874",
         "country": "TM"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A green field with a vertical red stripe near the hoist containing five traditional carpet medallions (göls) and an olive branch at its base, plus a white crescent and five small white stars in the upper hoist of the green portion."
     },
     {
       "qid": "Q19000",
@@ -600,7 +624,8 @@
         "subject": "Texas",
         "subject:wikidata": "Q1439"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A vertical blue band at the hoist bearing a single large white five-pointed star, alongside two equal horizontal bands of white (top) and red on the fly."
     },
     {
       "qid": "Q83278",
@@ -625,7 +650,8 @@
         "subject:wikidata": "Q145",
         "country": "GB"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field overlaid by the red and white crosses of Saint George, Saint Andrew, and Saint Patrick, forming three superimposed crosses on a blue background."
     },
     {
       "qid": "Q330517",
@@ -643,7 +669,8 @@
         "subject": "California",
         "subject:wikidata": "Q99"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a wide red stripe along the bottom edge. Centered on the white field is a California grizzly bear walking on a patch of green grass, with a red five-pointed star in the upper-left. The words \"CALIFORNIA REPUBLIC\" appear in black below the bear."
     },
     {
       "qid": "Q81952",
@@ -668,7 +695,8 @@
         "subject:wikidata": "Q43",
         "country": "TR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a white crescent and a white five-pointed star next to it, both in the center."
     },
     {
       "qid": "Q122462",
@@ -693,7 +721,8 @@
         "subject:wikidata": "Q96",
         "country": "MX"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of green (hoist), white, and red, with the Mexican coat of arms (a golden eagle perched on a nopal cactus devouring a serpent) centered on the white band."
     },
     {
       "qid": "Q129132",
@@ -715,7 +744,8 @@
         "subject:wikidata": "Q41",
         "country": "GR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Nine equal horizontal stripes of blue and white alternating (blue at the top and bottom), with a blue canton in the upper hoist bearing a white cross."
     },
     {
       "qid": "Q101472",
@@ -737,7 +767,8 @@
         "subject:wikidata": "Q252",
         "country": "ID"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of red (top) and white."
     },
     {
       "qid": "Q64300176",
@@ -781,7 +812,8 @@
         "subject:wikidata": "Q31",
         "country": "BE"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of black, yellow, and red."
     },
     {
       "qid": "Q160260",
@@ -804,7 +836,8 @@
         "subject:wikidata": "Q664",
         "country": "NZ"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field with the Union Jack in the upper hoist quarter, and four red five-pointed stars edged in white on the fly representing the Southern Cross."
     },
     {
       "qid": "Q134885",
@@ -826,7 +859,8 @@
         "subject:wikidata": "Q869",
         "country": "TH"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Five horizontal stripes of red, white, blue, white, and red; the central blue stripe is twice the width of each of the other four."
     },
     {
       "qid": "Q81970",
@@ -849,7 +883,8 @@
         "subject:wikidata": "Q28",
         "country": "HU"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), white, and green."
     },
     {
       "qid": "Q16611",
@@ -872,7 +907,8 @@
         "subject:wikidata": "Q159",
         "country": "RU"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of white (top), blue, and red."
     },
     {
       "qid": "Q124020",
@@ -896,7 +932,8 @@
         "subject:wikidata": "Q39",
         "country": "CH"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A square red field bearing a white Greek cross (equal-armed) centered."
     },
     {
       "qid": "Q162781",
@@ -920,7 +957,8 @@
         "subject:wikidata": "Q796",
         "country": "IQ"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), white, and black, with the takbir (\"Allahu Akbar\") in green Kufic script centered on the white band."
     },
     {
       "qid": "Q5456897",
@@ -938,7 +976,8 @@
         "subject": "United States Marine Corps",
         "subject:wikidata": "Q11218"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the United States Marine Corps is the flag used to represent the U.S. Marine Corps, as well as its subsidiary units and formations."
     },
     {
       "qid": "Q130811",
@@ -959,7 +998,8 @@
         "subject:wikidata": "Q218",
         "country": "RO"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of blue (hoist), yellow, and red."
     },
     {
       "qid": "Q130807",
@@ -982,7 +1022,8 @@
         "subject:wikidata": "Q215",
         "country": "SI"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of white (top), blue, and red, with the Slovenian coat of arms in the upper hoist spanning the white and blue bands. The shield depicts Mount Triglav in white on blue, two wavy blue lines below, and three six-pointed golden stars above arranged in an inverted triangle."
     },
     {
       "qid": "Q41673",
@@ -1008,7 +1049,8 @@
         "subject:wikidata": "Q668",
         "country": "IN"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of saffron, white, and green, with a navy-blue 24-spoke wheel (Ashoka Chakra) centered on the white band."
     },
     {
       "qid": "Q163832",
@@ -1031,7 +1073,8 @@
         "subject:wikidata": "Q403",
         "country": "RS"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), blue, and white, with the lesser coat of arms placed toward the hoist of center."
     },
     {
       "qid": "Q82194",
@@ -1055,7 +1098,8 @@
         "subject:wikidata": "Q155",
         "country": "BR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A green field with a yellow rhombus in the center containing a blue disc depicting a starry sky and the Southern Cross, spanned by a curved white band inscribed \"ORDEM E PROGRESSO\" in green."
     },
     {
       "qid": "Q5456898",
@@ -1077,7 +1121,8 @@
         "subject": "United States Army",
         "subject:wikidata": "Q9212"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field bearing a blue replica of the War Office Seal in the center. Below the seal is a broad scarlet scroll with \"United States Army\" in white letters, with \"1775\" in blue Arabic numerals beneath."
     },
     {
       "qid": "Q103064",
@@ -1100,7 +1145,8 @@
         "subject:wikidata": "Q423",
         "country": "KP"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A wide red horizontal stripe in the center bordered above and below by a thin white stripe and then a broad blue stripe. A red five-pointed star inside a white disc is set on the red stripe near the hoist."
     },
     {
       "qid": "Q82205",
@@ -1123,7 +1169,8 @@
         "subject:wikidata": "Q27",
         "country": "IE"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of green (hoist), white, and orange."
     },
     {
       "qid": "Q81471",
@@ -1146,7 +1193,8 @@
         "subject:wikidata": "Q191",
         "country": "EE"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of blue (top), black, and white."
     },
     {
       "qid": "Q127155",
@@ -1169,7 +1217,8 @@
         "subject:wikidata": "Q213",
         "country": "CZ"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of white (top) and red, with a blue isoceles triangle at the hoist extending to the middle of the flag."
     },
     {
       "qid": "Q5456899",
@@ -1187,7 +1236,8 @@
         "subject": "United States Navy",
         "subject:wikidata": "Q11220"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field with the seal of the U.S. Department of the Navy in the center. A yellow scroll inscribed \"United States Navy\" in dark blue lettering appears below the seal."
     },
     {
       "qid": "Q5456895",
@@ -1205,7 +1255,8 @@
         "subject": "United States Coast Guard",
         "subject:wikidata": "Q11224"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a dark blue Great Seal of the United States in the center. \"UNITED STATES COAST GUARD\" arcs in dark blue above the eagle; the motto \"SEMPER PARATUS\" and \"1790\" appear beneath in dark blue."
     },
     {
       "qid": "Q12188",
@@ -1226,7 +1277,8 @@
         "subject": "Bretagne",
         "subject:wikidata": "Q12130"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Black and white horizontal stripes (four black, five white) in the fly, with a white canton at the hoist bearing eleven black ermine spots."
     },
     {
       "qid": "Q131204",
@@ -1248,7 +1300,8 @@
         "subject:wikidata": "Q881",
         "country": "VN"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a large yellow five-pointed star centered."
     },
     {
       "qid": "Q46585",
@@ -1271,7 +1324,8 @@
         "subject:wikidata": "Q55",
         "country": "NL"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), white, and blue."
     },
     {
       "qid": "Q5456894",
@@ -1289,7 +1343,8 @@
         "subject": "United States Air Force",
         "subject:wikidata": "Q11223"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field bearing the U.S. Air Force coat of arms in the center: a shield with 13 white stars and a crest including a North American bald eagle, a cloud formation, and a wreath of six alternating folds of silver and blue."
     },
     {
       "qid": "Q590821",
@@ -1313,7 +1368,8 @@
         "subject": "Kentucky",
         "subject:wikidata": "Q1603"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A navy blue field with the Commonwealth seal centered. Two figures embrace within the seal, encircled by the words \"COMMONWEALTH OF KENTUCKY\" above and sprigs of goldenrod below."
     },
     {
       "qid": "Q43175",
@@ -1337,7 +1393,8 @@
         "subject:wikidata": "Q17",
         "country": "JP"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red disc centered on a white field."
     },
     {
       "qid": "Q225360",
@@ -1360,7 +1417,8 @@
         "subject:wikidata": "Q219",
         "country": "BG"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of white (top), green, and red."
     },
     {
       "qid": "Q160861",
@@ -1383,7 +1441,8 @@
         "subject:wikidata": "Q214",
         "country": "SK"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of white (top), blue, and red, with the Slovak coat of arms (a double cross on three blue hills atop a red shield) placed toward the hoist of center."
     },
     {
       "qid": "Q128812",
@@ -1408,7 +1467,8 @@
         "subject:wikidata": "Q45",
         "country": "PT"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A vertical bicolor of green (hoist) and red, with the Portuguese coat of arms (an armillary sphere with a red and white shield bearing five blue escutcheons and seven gold castles) centered over the colour boundary."
     },
     {
       "qid": "Q730106",
@@ -1429,7 +1489,8 @@
         "subject": "Florida",
         "subject:wikidata": "Q812"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red saltire (diagonal cross) on a white field, with the state seal of Florida superimposed at the center."
     },
     {
       "qid": "Q46835",
@@ -1451,7 +1512,8 @@
         "subject:wikidata": "Q40",
         "country": "AT"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), white, and red."
     },
     {
       "qid": "Q131650",
@@ -1473,7 +1535,8 @@
         "subject:wikidata": "Q232",
         "country": "KZ"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The State Flag of the Republic of Kazakhstan was adopted on 4 June 1992, designed by Shaken Niyazbekov, and replacing the Soviet-era flag."
     },
     {
       "qid": "Q1740429",
@@ -1492,7 +1555,8 @@
         "subject:wikidata": "Q180573",
         "country": "VN"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A yellow field with three horizontal red stripes through the middle."
     },
     {
       "qid": "Q1285625",
@@ -1512,7 +1576,8 @@
         "subject": "Aboriginal Australians",
         "subject:wikidata": "Q12060728"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of black (top) and red, with a large yellow disc (sun) centered."
     },
     {
       "qid": "Q160877",
@@ -1534,7 +1599,8 @@
         "subject:wikidata": "Q851",
         "country": "SA"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Saudi Arabia is a green background with Arabic inscription and a sword in white. The inscription is the Islamic creed, or shahada: \"There is no deity but God; Muhammad is the Messenger of God\". The current design has been used by the government of Saudi Arabia since 15 March 1973."
     },
     {
       "qid": "Q133015",
@@ -1559,7 +1625,8 @@
         "subject:wikidata": "Q224",
         "country": "HR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), white, and blue, with the Croatian coat of arms (a red-and-white checkerboard shield topped by five smaller shields) centered."
     },
     {
       "qid": "Q1130142",
@@ -1583,7 +1650,8 @@
         "subject": "Buddhism",
         "subject:wikidata": "Q748"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Six vertical stripes in blue, yellow, red, white, orange, and a sixth band combining all five colors."
     },
     {
       "qid": "Q673117",
@@ -1603,7 +1671,8 @@
         "subject": "Indiana",
         "subject:wikidata": "Q1415"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Indiana was adopted on May 31, 1917, as the third official flag of the U.S. state of Indiana. Designed by Paul Hadley, it has remained unchanged since its adoption, with specifications standardized in 1955. Prior to 1955, it was referred to as the state's official banner."
     },
     {
       "qid": "Q132633",
@@ -1626,7 +1695,8 @@
         "subject:wikidata": "Q184",
         "country": "BY"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red horizontal band (top) over a green horizontal band, with a vertical white stripe at the hoist bearing a red traditional ornamental pattern."
     },
     {
       "qid": "Q127296",
@@ -1651,7 +1721,8 @@
         "subject:wikidata": "Q884",
         "country": "KR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a red-and-blue circular taegeuk symbol centered, and four black trigrams (sets of three short bars), one in each corner."
     },
     {
       "qid": "Q19016",
@@ -1671,7 +1742,8 @@
         "subject": "New York",
         "subject:wikidata": "Q1384"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field bearing the state coat of arms: a shield showing a masted ship and a sloop on the Hudson River with a grassy shore and mountains, sun rising behind them."
     },
     {
       "qid": "Q18993",
@@ -1689,7 +1761,8 @@
         "subject": "Virginia",
         "subject:wikidata": "Q1370"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field bearing the obverse of the Virginia state seal: a standing female figure (Virtue) holding a spear and a sheathed sword, with a defeated king lying at her feet. The motto \"SIC SEMPER TYRANNIS\" appears below."
     },
     {
       "qid": "Q81477",
@@ -1712,7 +1785,8 @@
         "subject:wikidata": "Q37",
         "country": "LT"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of yellow (top), green, and red."
     },
     {
       "qid": "Q128480",
@@ -1733,7 +1807,8 @@
         "subject:wikidata": "Q801",
         "country": "IL"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with two horizontal blue stripes (one near the top, one near the bottom) and a blue Star of David (hexagram) centered."
     },
     {
       "qid": "Q79198",
@@ -1758,7 +1833,8 @@
         "subject:wikidata": "Q237",
         "country": "VA"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A square flag with two equal vertical bands of yellow (hoist) and white, the white half charged with the emblem of the Holy See: the crossed gold and silver keys of Saint Peter beneath a papal tiara."
     },
     {
       "qid": "Q124128386",
@@ -1800,7 +1876,8 @@
         "subject": "Québec",
         "subject:wikidata": "Q176"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field divided by a white cross (extending to the edges) into four quarters, each bearing a white fleur-de-lis."
     },
     {
       "qid": "Q163008",
@@ -1823,7 +1900,8 @@
         "subject:wikidata": "Q241",
         "country": "CU"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Five equal horizontal stripes of blue and white alternating (three blue, two white), with a red equilateral triangle at the hoist bearing a white five-pointed star."
     },
     {
       "qid": "Q130449",
@@ -1844,7 +1922,8 @@
         "subject:wikidata": "Q211",
         "country": "LV"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three horizontal bands of red (top), white, and red; the white middle band is half the width of each red band (a so-called Latvian carmine triband)."
     },
     {
       "qid": "Q258262",
@@ -1865,7 +1944,8 @@
         "subject": "Oklahoma",
         "subject:wikidata": "Q1649"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A sky-blue field bearing an Osage warrior's tan buffalo-hide shield with six small white crosses, decorated with seven pendant eagle feathers. Crossed atop the shield are a calumet (peace pipe) and an olive branch. \"OKLAHOMA\" appears in white capitals below."
     },
     {
       "qid": "Q19427",
@@ -1883,7 +1963,8 @@
         "subject": "Oregon",
         "subject:wikidata": "Q824"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Oregon is a two-sided flag in navy blue and gold with an optional gold fringe. On the front is the escutcheon from the state seal, and on the reverse is a gold figure of a beaver, the state animal. Oregon is the only U.S. state to feature different designs on either side of its flag."
     },
     {
       "qid": "Q752569",
@@ -1901,7 +1982,8 @@
         "subject": "Maryland",
         "subject:wikidata": "Q1391"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A heraldic banner of arms divided into four quarters: two quarters bear the black and gold paly-bendy arms of the Calvert family; the other two bear the red and white quartered cross bottony of the Crossland family."
     },
     {
       "qid": "Q1084035",
@@ -1923,7 +2005,8 @@
         "subject": "Christianity",
         "subject:wikidata": "Q5043"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a small blue canton in the upper hoist containing a red Latin cross."
     },
     {
       "qid": "Q637134",
@@ -1946,7 +2029,8 @@
         "subject": "British Columbia",
         "subject:wikidata": "Q1973"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A horizontal flag divided into three parts: the top third is a Union Jack defaced in the center with a golden crown, while the bottom two-thirds shows a setting golden sun over wavy blue and white horizontal lines."
     },
     {
       "qid": "Q241083",
@@ -1964,7 +2048,8 @@
         "subject": "Wisconsin",
         "subject:wikidata": "Q1537"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the U.S. state of Wisconsin was first adopted in 1863, and was modified in 1979. It is a blue flag charged with the state coat of arms of Wisconsin."
     },
     {
       "qid": "Q173535",
@@ -1989,7 +2074,8 @@
         "subject:wikidata": "Q865",
         "country": "TW"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a blue canton in the upper hoist containing a white sun: a central white disc surrounded by twelve white triangular rays."
     },
     {
       "qid": "Q19374",
@@ -2007,7 +2093,8 @@
         "subject": "Louisiana",
         "subject:wikidata": "Q1588"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field with the state arms in the center: a white pelican vulning herself (piercing her breast to feed her chicks) on a nest. A white ribbon below bears the state motto \"UNION JUSTICE CONFIDENCE\" in blue."
     },
     {
       "qid": "Q63991554",
@@ -2046,7 +2133,8 @@
         "subject": "Michigan",
         "subject:wikidata": "Q1166"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field bearing the Michigan coat of arms in the center: a light blue shield with a man on a peninsula holding a long gun, supported by an elk and a moose, beneath a golden eagle."
     },
     {
       "qid": "Q160425",
@@ -2069,7 +2157,8 @@
         "subject:wikidata": "Q739",
         "country": "CO"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three horizontal bands of yellow (top, occupying the upper half), blue (lower quarter), and red (bottom quarter); proportions 2:1:1."
     },
     {
       "qid": "Q126622",
@@ -2092,7 +2181,8 @@
         "subject:wikidata": "Q794",
         "country": "IR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of green (top), white, and red, with the red Islamic Republic emblem (a stylized tulip) centered on the white band, and the Arabic takbir (\"Allahu Akbar\") repeated 11 times in white Kufic script along the bottom edge of the green band and the top edge of the red band."
     },
     {
       "qid": "Q33213",
@@ -2115,7 +2205,8 @@
         "subject:wikidata": "Q399",
         "country": "AM"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), blue, and orange."
     },
     {
       "qid": "Q19373",
@@ -2136,7 +2227,8 @@
         "subject": "South Carolina",
         "subject:wikidata": "Q1456"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field bearing a white palmetto tree in the center and a white crescent in the upper hoist corner."
     },
     {
       "qid": "Q632491",
@@ -2158,7 +2250,8 @@
         "subject": "Arizona",
         "subject:wikidata": "Q816"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Thirteen rays of red and gold alternating in the top half of the flag (six red and seven gold, or vice versa). A copper-colored five-pointed star is centered, with the bottom half of the flag in dark blue."
     },
     {
       "qid": "Q26491",
@@ -2181,7 +2274,8 @@
         "subject:wikidata": "Q230",
         "country": "GE"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a large red Saint George's cross extending to the edges, with a smaller red Bolnisi cross in each of the four white quadrants."
     },
     {
       "qid": "Q1788743",
@@ -2247,7 +2341,8 @@
         "subject": "Georgia",
         "subject:wikidata": "Q1428"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three horizontal stripes of red, white, and red, with a blue canton in the upper hoist containing a ring of 13 white five-pointed stars encircling the state coat of arms in gold. \"IN GOD WE TRUST\" appears below the coat of arms."
     },
     {
       "qid": "Q168941",
@@ -2270,7 +2365,8 @@
         "subject:wikidata": "Q804",
         "country": "PA"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A field divided into four equal quarters: white (upper hoist) bearing a blue five-pointed star, red (upper fly), blue (lower hoist), and white (lower fly) bearing a red five-pointed star."
     },
     {
       "qid": "Q134874",
@@ -2293,7 +2389,8 @@
         "subject:wikidata": "Q750",
         "country": "BO"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), yellow, and green, with the Bolivian coat of arms centered on the yellow band."
     },
     {
       "qid": "Q830262",
@@ -2308,7 +2405,8 @@
       "flagName": "Gdańsk",
       "flagTypeSample": 41,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a golden five-pointed crown above two white square crosses, the three emblems stacked vertically and offset toward the hoist."
     },
     {
       "qid": "Q83392",
@@ -2331,7 +2429,8 @@
         "subject:wikidata": "Q262",
         "country": "DZ"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal vertical bands of green (hoist) and white, charged in the center with a red crescent and a red five-pointed star."
     },
     {
       "qid": "Q19379",
@@ -2354,7 +2453,8 @@
         "subject": "North Carolina",
         "subject:wikidata": "Q1454"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the state of North Carolina, often referred to as the North Carolina flag, N.C. flag, or North Star, is the state flag of the U.S. state of North Carolina."
     },
     {
       "qid": "Q221881",
@@ -2372,7 +2472,8 @@
         "subject": "Massachusetts",
         "subject:wikidata": "Q771"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field bearing the Massachusetts coat of arms in the center: a blue shield depicting an Algonquian Native American holding a bow and arrow, with a white star in the upper hoist corner. A blue ribbon scroll wraps around the shield."
     },
     {
       "qid": "Q760401",
@@ -2393,7 +2494,8 @@
         "subject": "Andalucía",
         "subject:wikidata": "Q5783"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of green (top), white, and green, with the Andalusian coat of arms (a standing figure of Hercules between two pillars and two lions) optionally centered on the white band."
     },
     {
       "qid": "Q1418784",
@@ -2417,7 +2519,8 @@
         "subject": "New Brunswick",
         "subject:wikidata": "Q1965"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A horizontal flag divided in thirds. The top third is a red field bearing a gold lion passant; the bottom two-thirds is a gold field with a black lymphad (medieval ship) above blue and white wavy horizontal lines."
     },
     {
       "qid": "Q133022",
@@ -2440,7 +2543,8 @@
         "subject:wikidata": "Q32",
         "country": "LU"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), white, and light blue."
     },
     {
       "qid": "Q492546",
@@ -2463,7 +2567,8 @@
         "subject": "Colorado",
         "subject:wikidata": "Q1261"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of blue (top), white, and blue. Overlaid on the stripes toward the hoist is a large red letter \"C\" filled with a golden disc."
     },
     {
       "qid": "Q3039109",
@@ -2481,7 +2586,8 @@
         "subject": "Normandie",
         "subject:wikidata": "Q18677875"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag and coat of arms of Normandy are symbols of Normandy."
     },
     {
       "qid": "Q752557",
@@ -2499,7 +2605,8 @@
         "subject": "Missouri",
         "subject:wikidata": "Q1581"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), white, and blue, with the Missouri state coat of arms centered."
     },
     {
       "qid": "Q1165949",
@@ -2523,7 +2630,8 @@
         "subject": "Ontario",
         "subject:wikidata": "Q1904"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with the Union Jack in the upper hoist canton, and the Ontario shield (cross of Saint George above three gold maple leaves on green) centered on the fly."
     },
     {
       "qid": "Q783490",
@@ -2541,7 +2649,8 @@
         "subject": "ASEAN",
         "subject:wikidata": "Q7768"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The Flag of the Association of Southeast Asian Nations or the ASEAN Flag is one of the official symbols of the Association of Southeast Asian Nations (ASEAN). It consists of the official emblem of ASEAN on a blue background."
     },
     {
       "qid": "Q168935",
@@ -2568,7 +2677,8 @@
         "subject:wikidata": "Q833",
         "country": "MY"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Fourteen alternating equal horizontal red and white stripes, with a blue canton in the upper hoist bearing a yellow crescent and a yellow 14-point star."
     },
     {
       "qid": "Q1064042",
@@ -2591,7 +2701,8 @@
         "subject": "New South Wales",
         "subject:wikidata": "Q3224"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field with the Union Jack in the upper hoist canton, and a white disc on the fly bearing a red Saint George's cross with a gold lion passant guardant in the center and an eight-pointed gold star on each arm."
     },
     {
       "qid": "Q160255",
@@ -2613,7 +2724,8 @@
         "subject:wikidata": "Q419",
         "country": "PE"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of red, white, and red."
     },
     {
       "qid": "Q167119",
@@ -2635,7 +2747,8 @@
         "subject:wikidata": "Q221",
         "country": "MK"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a stylized yellow sun in the center, with eight broadening rays extending from the central disc to the edges of the flag."
     },
     {
       "qid": "Q235475",
@@ -2657,7 +2770,8 @@
         "subject": "Euskadi",
         "subject:wikidata": "Q3995"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a green diagonal saltire (Saint Andrew's cross), overlaid by a white upright cross (Saint George's cross)."
     },
     {
       "qid": "Q170289",
@@ -2680,7 +2794,8 @@
         "subject:wikidata": "Q800",
         "country": "CR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Five horizontal bands of blue, white, red, white, and blue; the central red band is twice as wide as each of the others."
     },
     {
       "qid": "Q51401",
@@ -2705,7 +2820,8 @@
         "subject": "LGBT Pride",
         "subject:wikidata": "Q51406"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Six equal horizontal stripes of red (top), orange, yellow, green, blue, and violet."
     },
     {
       "qid": "Q4633",
@@ -2730,7 +2846,8 @@
         "subject:wikidata": "Q229",
         "country": "CY"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a copper-orange map silhouette of the island of Cyprus centered, with two crossed green olive branches below."
     },
     {
       "qid": "Q731163",
@@ -2748,7 +2865,8 @@
         "subject": "Washington",
         "subject:wikidata": "Q1223"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A dark green field with the Washington state seal centered: a portrait of George Washington encircled by the words \"THE SEAL OF THE STATE OF WASHINGTON 1889\" in gold."
     },
     {
       "qid": "Q1122078",
@@ -2766,7 +2884,8 @@
         "subject": "Alberta",
         "subject:wikidata": "Q1951"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field bearing the Alberta provincial coat of arms centered: a shield with a red Saint George's cross above a white sky, blue snowy mountains, green hills, and a golden wheat field."
     },
     {
       "qid": "Q462621",
@@ -2789,7 +2908,8 @@
         "subject": "Torres Strait Islanders",
         "subject:wikidata": "Q379636"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three horizontal bands of green (top), blue, and green, separated by thin black lines; in the center is a white Dhari (traditional headdress) with a white five-pointed star beneath."
     },
     {
       "qid": "Q828147",
@@ -2807,7 +2927,8 @@
         "subject": "Minnesota",
         "subject:wikidata": "Q1527"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field at the hoist in the shape of the state of Minnesota bearing an eight-pointed white star, with the rest of the flag a light blue field."
     },
     {
       "qid": "Q18983",
@@ -2825,7 +2946,8 @@
         "subject": "Pennsylvania",
         "subject:wikidata": "Q1400"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the U.S. state of Pennsylvania consists of a blue field on which the state coat of arms is displayed."
     },
     {
       "qid": "Q172446",
@@ -2846,7 +2968,8 @@
         "subject": "United Nations",
         "subject:wikidata": "Q1065"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A light blue field with the white United Nations emblem centered: a polar azimuthal projection of the world map encircled by two olive branches."
     },
     {
       "qid": "Q29344371",
@@ -2861,7 +2984,8 @@
       "flagName": "Arnold Clark Group",
       "flagTypeSample": 29,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Arnold Clark is a car dealer based in Glasgow, Scotland. As of 2025, the company has over 200 dealerships across the United Kingdom, and is one of the largest car dealerships in Europe. Annually, Arnold Clark sells in excess of 300,000 vehicles, and sells new vehicles from over 30 international countries."
     },
     {
       "qid": "Q15994084",
@@ -2880,7 +3004,8 @@
         "subject:wikidata": "Q1183",
         "country": "PR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Five equal horizontal stripes of red and white alternating (red at the top and bottom), with a blue equilateral triangle at the hoist bearing a single white five-pointed star."
     },
     {
       "qid": "Q186226",
@@ -2903,7 +3028,8 @@
         "subject:wikidata": "Q9676",
         "country": "IM"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field bearing the triskelion: three armoured legs joined at the hip, with golden spurs, arranged radially."
     },
     {
       "qid": "Q82236",
@@ -2927,7 +3053,8 @@
         "subject:wikidata": "Q227",
         "country": "AZ"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of bright blue (top), red, and green, with a white crescent and a white eight-pointed star centered on the red band."
     },
     {
       "qid": "Q173554",
@@ -2949,7 +3076,8 @@
         "subject:wikidata": "Q792",
         "country": "SV"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of blue (top), white, and blue, with the national coat of arms centered on the white band."
     },
     {
       "qid": "Q248102",
@@ -2967,7 +3095,8 @@
         "subject": "New Hampshire",
         "subject:wikidata": "Q759"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field bearing the New Hampshire state seal centered: the frigate USS Raleigh on water, encircled by a green laurel wreath and nine golden stars."
     },
     {
       "qid": "Q178179",
@@ -2989,7 +3118,8 @@
         "subject:wikidata": "Q774",
         "country": "GT"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of sky blue (hoist), white, and sky blue, with the Guatemalan coat of arms centered on the white band (a resplendent quetzal perched on a scroll, with crossed rifles and crossed swords, framed by a laurel wreath)."
     },
     {
       "qid": "Q148807",
@@ -3010,7 +3140,8 @@
         "subject": "Catalunya",
         "subject:wikidata": "Q5705"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Nine equal horizontal stripes of red and yellow alternating (yellow at the top and bottom), giving four red stripes on a yellow field."
     },
     {
       "qid": "Q736625",
@@ -3028,7 +3159,8 @@
         "subject": "Utah",
         "subject:wikidata": "Q829"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three horizontal bands of blue (top), white, and red (the white band wider than the others). On the white band is a gold-outlined blue hexagon containing a gold beehive above a five-pointed white star."
     },
     {
       "qid": "Q119605",
@@ -3046,7 +3178,8 @@
         "subject": "New Jersey",
         "subject:wikidata": "Q1408"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A buff field with the New Jersey coat of arms centered: a shield with three plows, flanked by two female figures, surmounted by a horse's head atop a knight's helmet, with a banner below reading \"LIBERTY AND PROSPERITY 1776\"."
     },
     {
       "qid": "Q131469",
@@ -3068,7 +3201,8 @@
         "subject:wikidata": "Q233",
         "country": "MT"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A vertical bicolor of white (hoist) and red, with a representation of the George Cross (edged in red) in the upper hoist of the white half."
     },
     {
       "qid": "Q618737",
@@ -3098,7 +3232,8 @@
       "flagName": "Acadia",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of blue (hoist), white, and red, with a small yellow five-pointed star in the upper portion of the blue band."
     },
     {
       "qid": "Q752573",
@@ -3116,7 +3251,8 @@
         "subject": "Connecticut",
         "subject:wikidata": "Q779"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A royal blue field bearing a white baroque shield with three grapevines, each carrying three bunches of purple grapes, with a white banner below reading \"QUI TRANSTULIT SUSTINET\"."
     },
     {
       "qid": "Q162789",
@@ -3138,7 +3274,8 @@
         "subject:wikidata": "Q948",
         "country": "TN"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a white disc centered, bearing a red crescent partly surrounding a red five-pointed star."
     },
     {
       "qid": "Q605195",
@@ -3156,7 +3293,8 @@
         "subject": "Tennessee",
         "subject:wikidata": "Q1509"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a vertical blue stripe along the fly, bordered by a thin white stripe. In the center of the red field is a blue circle bordered in white containing three white five-pointed stars."
     },
     {
       "qid": "Q160250",
@@ -3184,7 +3322,8 @@
         "subject:wikidata": "Q258",
         "country": "ZA"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A horizontal green Y-shape fimbriated in white and gold, dividing the flag into red over blue with a black triangle at the hoist; the layout has six colors total: red, blue, green, black, white, and gold."
     },
     {
       "qid": "Q172533",
@@ -3206,7 +3345,8 @@
         "subject:wikidata": "Q811",
         "country": "NI"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of blue (top), white, and blue, with the national coat of arms (a triangle containing five volcanoes, a Phrygian cap, and a rainbow) centered on the white band."
     },
     {
       "qid": "Q165538",
@@ -3230,7 +3370,8 @@
         "subject:wikidata": "Q717",
         "country": "VE"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of yellow (top), blue, and red, with an arc of eight white five-pointed stars centered on the blue band."
     },
     {
       "qid": "Q162033",
@@ -3253,7 +3394,8 @@
         "subject:wikidata": "Q225",
         "country": "BA"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A medium blue field with a yellow right triangle separating it from the hoist. Along the hypotenuse of the triangle is a diagonal line of seven full and two half five-pointed white stars."
     },
     {
       "qid": "Q108418",
@@ -3268,7 +3410,8 @@
       "flagName": "Cook County",
       "flagTypeSample": 21,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A white field bearing the seal of Cook County in the center."
     },
     {
       "qid": "Q497997",
@@ -3289,7 +3432,8 @@
         "subject": "Alabama",
         "subject:wikidata": "Q173"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a crimson Saint Andrew's cross (diagonal saltire) extending to the corners."
     },
     {
       "qid": "Q48409",
@@ -3313,7 +3457,8 @@
         "subject:wikidata": "Q222",
         "country": "AL"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a black double-headed eagle centered."
     },
     {
       "qid": "Q642998",
@@ -3334,7 +3479,8 @@
         "subject": "New Mexico",
         "subject:wikidata": "Q1522"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A gold (yellow) field with a stylized red sun symbol (the Zia sun) centered: a central red disc with four groups of four straight rays radiating outward in the cardinal directions."
     },
     {
       "qid": "Q170064",
@@ -3358,7 +3504,8 @@
         "subject:wikidata": "Q810",
         "country": "JO"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of black (top), white, and green, with a red equilateral triangle on the hoist side bearing a small white seven-pointed star."
     },
     {
       "qid": "Q79874",
@@ -3380,7 +3527,8 @@
         "subject:wikidata": "Q889",
         "country": "AF"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with the Islamic Shahada inscribed in black Arabic calligraphy across the center."
     },
     {
       "qid": "Q130458",
@@ -3404,7 +3552,8 @@
         "subject:wikidata": "Q79",
         "country": "EG"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Egypt is a tricolour consisting of the three equal horizontal red, white, and black bands of the Arab Liberation Flag that dates back to the 1952 Egyptian Revolution. The flag bears Egypt's national emblem, the Egyptian eagle of Saladin, centred in the white band."
     },
     {
       "qid": "Q483659",
@@ -3426,7 +3575,8 @@
         "subject:wikidata": "Q334",
         "country": "SG"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A horizontal bicolor of red (top) and white, with a white crescent moon and a pentagon of five small white five-pointed stars in the upper hoist (canton)."
     },
     {
       "qid": "Q172517",
@@ -3449,7 +3599,8 @@
         "subject:wikidata": "Q766",
         "country": "JM"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A yellow saltire (diagonal cross) dividing the flag into four triangles: green at the top and bottom, black at the hoist and fly."
     },
     {
       "qid": "Q159865",
@@ -3471,7 +3622,8 @@
         "subject:wikidata": "Q1028",
         "country": "MA"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a green five-pointed star (pentagram) centered, drawn with interlaced lines."
     },
     {
       "qid": "Q165641",
@@ -3493,7 +3645,8 @@
         "subject:wikidata": "Q813",
         "country": "KG"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a yellow sun centered, with 40 rays radiating outward. In the center of the sun is a red tündük (the wooden crown of a yurt) rendered as crossed bands within a circle."
     },
     {
       "qid": "Q184265",
@@ -3516,7 +3669,8 @@
         "subject:wikidata": "Q786",
         "country": "DO"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A field divided into four equal quarters by a white cross extending to the edges: blue (upper hoist), red (upper fly), red (lower hoist), and blue (lower fly), with the Dominican coat of arms centered on the cross."
     },
     {
       "qid": "Q162999",
@@ -3560,7 +3714,8 @@
         "subject:wikidata": "Q783",
         "country": "HN"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of turquoise blue (top), white, and turquoise blue, with five blue five-pointed stars arranged in a quincunx (four corners and center) on the white band."
     },
     {
       "qid": "Q102392",
@@ -3581,7 +3736,8 @@
         "subject": "Scotland",
         "subject:wikidata": "Q22"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white saltire (diagonal cross of Saint Andrew) on a blue field."
     },
     {
       "qid": "Q165545",
@@ -3605,7 +3761,8 @@
         "subject:wikidata": "Q817",
         "country": "KW"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of green (top), white, and red, with a black trapezoid (a wedge with a notched edge) at the hoist."
     },
     {
       "qid": "Q492541",
@@ -3623,7 +3780,8 @@
         "subject": "Iowa",
         "subject:wikidata": "Q1546"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of blue (hoist), white, and red, with a bald eagle holding a blue streamer reading \"OUR LIBERTIES WE PRIZE AND OUR RIGHTS WE WILL MAINTAIN\" centered on the white stripe, with \"IOWA\" in red below."
     },
     {
       "qid": "Q170465",
@@ -3646,7 +3804,8 @@
         "subject:wikidata": "Q733",
         "country": "PY"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of red (top), white, and blue, with the national coat of arms centered on the white band."
     },
     {
       "qid": "Q483774",
@@ -3670,7 +3829,8 @@
         "subject:wikidata": "Q265",
         "country": "UZ"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of celestial blue (top), white, and green, separated by two thin red fimbriations. In the upper hoist (canton) is a white crescent moon and twelve white five-pointed stars in three rows."
     },
     {
       "qid": "Q171103",
@@ -3693,7 +3853,8 @@
         "subject:wikidata": "Q77",
         "country": "UY"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Nine equal horizontal stripes of white and blue alternating (white at top and bottom). A white canton in the upper hoist bears the Sun of May: a yellow face surrounded by 16 alternating triangular and wavy rays."
     },
     {
       "qid": "Q165542",
@@ -3719,7 +3880,8 @@
         "subject:wikidata": "Q736",
         "country": "EC"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three horizontal bands of yellow (top, occupying half the height), blue, and red, with the Ecuadorian coat of arms centered on the yellow band."
     },
     {
       "qid": "Q458651",
@@ -3760,7 +3922,8 @@
         "subject:wikidata": "Q790",
         "country": "HT"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of blue (top) and red, with a white square panel in the center bearing the Haitian coat of arms (a trophy of weapons atop a green hill with a royal palm topped by a Phrygian cap; the motto \"L'UNION FAIT LA FORCE\" below)."
     },
     {
       "qid": "Q63874022",
@@ -3818,7 +3981,8 @@
         "subject:wikidata": "Q691",
         "country": "PG"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A field divided diagonally from upper hoist to lower fly: the upper triangle is red bearing a yellow silhouette of a Raggiana bird-of-paradise; the lower triangle is black bearing five white stars representing the Southern Cross."
     },
     {
       "qid": "Q734071",
@@ -3836,7 +4000,8 @@
         "subject": "Nebraska",
         "subject:wikidata": "Q1553"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field bearing the Nebraska state seal centered, rendered in gold and silver."
     },
     {
       "qid": "Q36005",
@@ -3859,7 +4024,8 @@
         "subject:wikidata": "Q822",
         "country": "LB"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A horizontal triband of red (top), white, and red. The white middle stripe is twice the height of each red stripe and bears a green cedar of Lebanon tree centered, touching both red stripes."
     },
     {
       "qid": "Q106501478",
@@ -3899,7 +4065,8 @@
         "subject:wikidata": "Q843",
         "country": "PK"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A vertical white stripe at the hoist (about a quarter of the flag's width), with the remaining green field bearing a white crescent moon and a white five-pointed star in the center."
     },
     {
       "qid": "Q134247",
@@ -3923,7 +4090,8 @@
         "subject:wikidata": "Q878",
         "country": "AE"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of green (top), white, and black, with a vertical red bar at the hoist."
     },
     {
       "qid": "Q93335",
@@ -3946,7 +4114,8 @@
         "subject:wikidata": "Q189",
         "country": "IS"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A sky blue field with a red Nordic cross outlined in white, offset toward the hoist."
     },
     {
       "qid": "Q2508330",
@@ -3961,7 +4130,8 @@
       "flagName": "Nishan Sahib",
       "flagTypeSample": 17,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A triangular saffron (or navy blue) flag bearing a black Khanda emblem (a double-edged sword between two curved kirpans circling a chakkar) centered. A tassel hangs from the fly point."
     },
     {
       "qid": "Q707471",
@@ -3982,7 +4152,8 @@
         "subject": "Bayern",
         "subject:wikidata": "Q980"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "There are two official flags of Bavaria: the striped type and the lozenge type, both of which are white and blue. Both flags are historically associated with the royal Bavarian Wittelsbach family, which ruled Bavaria from 1180 to 1918."
     },
     {
       "qid": "Q163753",
@@ -4006,7 +4177,8 @@
         "subject:wikidata": "Q836",
         "country": "MM"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The State Flag of the Republic of the Union of Myanmar is a horizontal rectangular tricolor flag of saffron, green, and red with a large white five-pointed star in the center. The current flag was adopted on 21 October 2010."
     },
     {
       "qid": "Q1882040",
@@ -4027,7 +4199,8 @@
         "subject": "Baden",
         "subject:wikidata": "Q6877935"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Baden displayed a combination of yellow and red, the heraldic colours of the former German state of Baden."
     },
     {
       "qid": "Q369833",
@@ -4049,7 +4222,8 @@
         "subject": "Arkansas",
         "subject:wikidata": "Q1612"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a large white lozenge (diamond) bordered in blue. The blue border contains 25 small white five-pointed stars. Inside the diamond are four blue five-pointed stars: one above the word \"ARKANSAS\" (in blue capitals) and three below."
     },
     {
       "qid": "Q96633914",
@@ -4078,7 +4252,8 @@
         "subject": "LGBT+ Rights",
         "subject:wikidata": "Q17625913"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Six equal horizontal stripes of the rainbow pride flag (red, orange, yellow, green, blue, violet) with a triangular chevron at the hoist containing additional stripes: black, brown, light blue, light pink, and white."
     },
     {
       "qid": "Q98538622",
@@ -4121,7 +4296,8 @@
         "subject": "Castilla y León",
         "subject:wikidata": "Q5739"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A field divided into four quarters: a red quarter with a golden three-towered castle (upper hoist and lower fly) alternating with a white quarter bearing a purple lion rampant (upper fly and lower hoist)."
     },
     {
       "qid": "Q106498503",
@@ -4176,7 +4352,8 @@
         "subject:wikidata": "Q242",
         "country": "BZ"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field with horizontal red stripes at the top and bottom edges. Centered is a large white disc bearing the Belize coat of arms: a shield with logging tools flanked by two woodcutters (one Black, one mestizo), beneath a mahogany tree, encircled by 50 olive leaves with a banner reading \"SUB UMBRA FLOREO\" below."
     },
     {
       "qid": "Q94652289",
@@ -4197,7 +4374,8 @@
         "subject": "United States Space Force",
         "subject:wikidata": "Q55088961"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the United States Space Force is the flag used to represent the U.S. Space Force and its subsidiary units and formations. It was officially unveiled on May 15, 2020."
     },
     {
       "qid": "Q172530",
@@ -4218,7 +4396,8 @@
         "subject:wikidata": "Q846",
         "country": "QA"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A maroon field with a vertical white serrated band at the hoist forming nine triangular points."
     },
     {
       "qid": "Q165905",
@@ -4244,7 +4423,8 @@
         "subject:wikidata": "Q114",
         "country": "KE"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three horizontal bands of black, red, and green separated by thin white fimbriations, with a red, black, and white Maasai shield and two crossed spears centered."
     },
     {
       "qid": "Q459788",
@@ -4264,7 +4444,8 @@
         "subject": "North Atlantic Treaty Organization",
         "subject:wikidata": "Q7184"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field with a white compass rose (a four-pointed star) in the center, encircled by a white ring with four short white lines radiating outward in the cardinal directions."
     },
     {
       "qid": "Q104351",
@@ -4286,7 +4467,8 @@
         "subject:wikidata": "Q244",
         "country": "BB"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of ultramarine blue (hoist), gold, and ultramarine blue, with a black trident head (the head of a broken trident) centered on the gold band."
     },
     {
       "qid": "Q12989",
@@ -4308,7 +4490,8 @@
         "subject": "Flemish Region",
         "subject:wikidata": "Q9337"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A yellow field bearing a black lion rampant with red claws and tongue, centered."
     },
     {
       "qid": "Q116486314",
@@ -4345,7 +4528,8 @@
         "subject:wikidata": "Q238",
         "country": "SM"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of white (top) and light blue, with the national coat of arms centered: a shield with three silver towers on three green peaks, topped with a crown, flanked by an oak and a laurel branch, with a scroll below reading \"LIBERTAS\"."
     },
     {
       "qid": "Q62673928",
@@ -4364,7 +4548,8 @@
       "flagName": "San José",
       "flagTypeSample": 14,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "The current flag of San Jose, California, features a triband of gold on top, white in the middle, and blue on the bottom with the city's official seal in the center. It has been the official flag since 1984."
     },
     {
       "qid": "Q938601",
@@ -4386,7 +4571,8 @@
         "subject": "Galicia",
         "subject:wikidata": "Q3908"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a celestial blue diagonal band running from the upper hoist to the lower fly."
     },
     {
       "qid": "Q127179",
@@ -4408,7 +4594,8 @@
         "subject:wikidata": "Q902",
         "country": "BD"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A dark green field with a red disc centered, offset slightly toward the hoist."
     },
     {
       "qid": "Q164584",
@@ -4431,7 +4618,8 @@
         "subject:wikidata": "Q974",
         "country": "CD"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A sky blue field with a yellow five-pointed star in the upper hoist canton, and a red diagonal stripe (fimbriated in yellow) running from the lower hoist to the upper fly."
     },
     {
       "qid": "Q184283",
@@ -4453,7 +4641,8 @@
         "subject:wikidata": "Q754",
         "country": "TT"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a diagonal black stripe (bend) fimbriated in white, running from the upper hoist to the lower fly."
     },
     {
       "qid": "Q102960",
@@ -4475,7 +4664,8 @@
         "subject:wikidata": "Q1033",
         "country": "NG"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal vertical bands of green (hoist), white, and green."
     },
     {
       "qid": "Q156564",
@@ -4496,7 +4686,8 @@
         "subject": "Alaska",
         "subject:wikidata": "Q797"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field with eight gold five-pointed stars forming the Big Dipper (seven stars) and Polaris (one star) in the upper portion of the flag."
     },
     {
       "qid": "Q30909105",
@@ -4518,7 +4709,8 @@
       "extraTags": {},
       "aliases": [
         "Q106498573"
-      ]
+      ],
+      "description": "A red field with a white (silver) lion rampant facing the hoist. Across the top of the flag is a horizontal blue chief bearing three gold fleurs-de-lis."
     },
     {
       "qid": "Q2345639",
@@ -4536,7 +4728,8 @@
       "flagName": "Rot un Wiss",
       "flagTypeSample": 13,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of red (top) and white."
     },
     {
       "qid": "Q12373049",
@@ -4575,7 +4768,8 @@
         "subject:wikidata": "Q734",
         "country": "GY"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "A green field with two superimposed triangles based on the hoist: a white-edged red triangle (the \"golden arrowhead\") atop a black-edged golden triangle, both pointing toward the fly."
     },
     {
       "qid": "Q159741",
@@ -4601,7 +4795,8 @@
         "subject:wikidata": "Q837",
         "country": "NP"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Two stacked red triangular pennants joined at the hoist, each bordered in dark blue, forming a non-rectangular pentagonal flag. The upper pennant contains a white crescent moon; the lower contains a white sun with twelve rays."
     },
     {
       "qid": "Q185692",
@@ -4690,7 +4885,8 @@
         "subject:wikidata": "Q781",
         "country": "AG"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Antigua and Barbuda was adopted on 27 February 1967 to mark the achievement of self-government. A competition to design the flag was held in which more than 600 local people entered. The winning design was put forth by nationally well-known artist and sculptor Sir Reginald Samuel."
     },
     {
       "qid": "Q110638075",
@@ -5032,7 +5228,8 @@
         "subject:wikidata": "Q842",
         "country": "OM"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Oman (Arabic: علم عُمان) consists of two horizontal stripes of upper white and lower green, separated by a red horizontal \"T\" shape in the centre that contains the national emblem of Oman (crossed swords over a khanjar, a traditional curved dagger)."
     },
     {
       "qid": "Q170809",
@@ -5181,7 +5378,8 @@
       "flagName": "Pomeranian Voivodeship",
       "flagTypeSample": 11,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the Pomeranian Voivodeship is a yellow rectangle with a left-faced black griffin placed in the centre. It was designed by Wawrzyniec Samp, and adapted on 25 March 2002."
     },
     {
       "qid": "Q181120",
@@ -5221,7 +5419,8 @@
       "flagName": "Flag of the Church of Greece",
       "flagTypeSample": 11,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "The Greek Orthodox churches in the diaspora under the Ecumenical Patriarchate use a black double-headed eagle in a yellow field as their flag or emblem."
     },
     {
       "qid": "Q97503383",
@@ -5485,7 +5684,8 @@
         "subject:wikidata": "Q235",
         "country": "MC"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Monaco (French: drapeau national de Monaco) has two equal horizontal bands, of red (top) and white (bottom), both of which have been the heraldic colours of the House of Grimaldi since at least 1339. The present bicolour design was adopted on 4 April 1881, under Charles III."
     },
     {
       "qid": "Q752562",
@@ -5813,7 +6013,8 @@
         "subject": "Walloon Region",
         "subject:wikidata": "Q231"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Wallonia is used by the Walloon Region and French Community of Belgium. Designed between 1912 and 1913, it depicts a red \"bold rooster\" (coq hardi) on a yellow field. Originally associated with the Walloon Movement, the flag has subsequently become an apolitical symbol of regional identity. It has enjoyed official status since 1975."
     },
     {
       "qid": "Q82876072",
@@ -5963,7 +6164,8 @@
         "subject:wikidata": "Q921",
         "country": "BN"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Brunei was originally a solid yellow background until 1906 when it added two diagonal white and black striped lines to the flags. By then, Brunei was already a British protectorate since 1888. The modern flag (including the red emblem) was adopted in 1959 along with their new constitution."
     },
     {
       "qid": "Q159538",
@@ -6236,7 +6438,8 @@
         "subject:wikidata": "Q1020",
         "country": "MW"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Malawi (Chichewa: mbendera ya Malaŵi; Chitumbuka: mbendela ya Malaŵi) was officially adopted on 6 July 1964 when the colony of Nyasaland became independent from British rule and renamed itself Malawi."
     },
     {
       "qid": "Q103019",
@@ -6336,7 +6539,8 @@
         "subject": "Schleswig-Holstein",
         "subject:wikidata": "Q1194"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Schleswig-Holstein is a horizontal tricolour of blue, white, and red.\n\nSchleswig-Holstein is one of the 16 states of Germany, comprising most of the historical duchy of Holstein and the southern part of the former Duchy of Schleswig. The flag is often mistaken for the flag of the Netherlands being upside down."
     },
     {
       "qid": "Q102198",
@@ -6378,7 +6582,8 @@
         "subject": "Wyoming",
         "subject:wikidata": "Q1214"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the U.S. state of Wyoming was adopted on January 31, 1917. Its design consists of a blue field bordered by white and red, with a white silhouette of an American bison in the center, bearing the state seal rendered in blue on its side."
     },
     {
       "qid": "Q5456721",
@@ -6397,7 +6602,8 @@
       "flagName": "Cincinnati",
       "flagTypeSample": 5,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Cincinnati, Ohio, was selected in an 1896 contest. It was formally adopted on June 15, 1940."
     },
     {
       "qid": "Q173201",
@@ -6486,7 +6692,8 @@
         "subject:wikidata": "Q784",
         "country": "DM"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Dominica was adopted on 3 November 1978, with some small changes having been made in 1981, 1988, and 1990. The original flag was designed by playwright Alwin Bully in early 1978 as the country prepared for independence.\n\nIt is one of the few flags of sovereign states to contain purple."
     },
     {
       "qid": "Q2062018",
@@ -6557,7 +6764,8 @@
         "subject:wikidata": "Q657",
         "country": "TD"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Chad is a vertical tricolour of indigo, yellow, and red. It was adopted on 6 November 1959, almost a year after the founding of the autonomous Republic of Chad. Since the 1990s, its similarity to the flag of Romania has caused international discussion."
     },
     {
       "qid": "Q636719",
@@ -6716,7 +6924,8 @@
         "subject": "Saskatchewan",
         "subject:wikidata": "Q1989"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The provincial flag of Saskatchewan was adopted in 1969. Its upper half is green and contains the coat of arms of Saskatchewan, and its lower half is yellow. In the fly of the flag is a western red lily, the provincial flower. \n\nIn 2017, The Minister of Parks, Culture and Sports designated 22 September as Saskatchewan Flag Day."
     },
     {
       "qid": "Q484249",
@@ -6803,7 +7012,8 @@
         "subject:wikidata": "Q912",
         "country": "ML"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Mali is a vertical tricolour of green, gold, and red, the pan-African colours.  The flag of Mali is almost identical to the flag of Guinea, with the exception that the colours are in reverse order."
     },
     {
       "qid": "Q10986849",
@@ -6821,7 +7031,8 @@
       "flagName": "Kashubia",
       "flagTypeSample": 8,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "The flag that is used as the symbol of Kashubia, a region in Central Europe, and the Kashubian people, is divided horizontally into black and yellow stripes."
     },
     {
       "qid": "Q102977",
@@ -6868,7 +7079,8 @@
         "subject:wikidata": "Q1011",
         "country": "CV"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Cape Verde (bandeira nacional de Cabo Verde) was adopted on 22 September 1992, replacing the flag adopted during independence."
     },
     {
       "qid": "Q207518",
@@ -7051,7 +7263,8 @@
         "subject": "Northwest Territories",
         "subject:wikidata": "Q2007"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the Northwest Territories is the subnational flag of the Northwest Territories of Canada. It was adopted in 1969 by the Legislative Assembly of the Northwest Territories."
     },
     {
       "qid": "Q11721817",
@@ -7131,7 +7344,8 @@
         "subject:wikidata": "Q574",
         "country": "TL"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Timor-Leste (bandeira nacional de Timor-Leste; bandeira nasionál) consists of a red field with the black isosceles triangle based on the hoist-side bearing a white five-pointed star in the center superimposed on the larger yellow triangle, also based on the hoist-side, that extends to the center of the flag."
     },
     {
       "qid": "Q103070",
@@ -7203,7 +7417,8 @@
         "subject:wikidata": "Q1050",
         "country": "SZ"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Eswatini was adopted on 6 October 1968 after Eswatini (then known as Swaziland) gained its independence from the United Kingdom one month before. The design by King Sobhuza II features a black and white shield called the Nguni shield, with a staff and two spears, on a field of blue, yellow, and red horizontal bands."
     },
     {
       "qid": "Q169441",
@@ -7295,7 +7510,8 @@
         "subject:wikidata": "Q1044",
         "country": "SL"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Sierra Leone is a tricolour consisting of three horizontal green, white and blue bands. It was adopted in 1961, Sierra Leone's independence year, to replace the British Blue Ensign defaced with the arms of the Crown Colony of Sierra Leone."
     },
     {
       "qid": "Q168917",
@@ -7320,7 +7536,8 @@
         "subject:wikidata": "Q970",
         "country": "KM"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of the Union of the Comoros was designed in 2001 and officially adopted on 23 December of that year. It continues to display the crescent and four stars, which is a motif that has been in use in various forms since 1975 during the independence movement."
     },
     {
       "qid": "Q102184",
@@ -7479,7 +7696,8 @@
         "subject": "Northern Territory",
         "subject:wikidata": "Q3235"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the Northern Territory was officially adopted in 1978. The Northern Territory has existed as a territory of Australia since 1911, using the Australian National Flag (the Blue Ensign) but did not adopt its own flag until it was granted self-government in 1978."
     },
     {
       "qid": "Q34599",
@@ -7567,7 +7785,8 @@
       "flagName": "Coloplast",
       "flagTypeSample": 6,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Coloplast A/S is a Danish multinational company that develops, manufactures and markets medical devices and services related to ostomy, urology, continence, and wound care."
     },
     {
       "qid": "Q4042567",
@@ -7582,7 +7801,8 @@
       "flagName": "Lalandia",
       "flagTypeSample": 6,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Lalandia is the name of three Danish holiday resorts owned by Parken Sport & Entertainment. The original Lalandia Rødby is located in Rødbyhavn, with additional activity centres in Billund (2009) and Søndervig (2022)."
     },
     {
       "qid": "Q701755",
@@ -7662,7 +7882,8 @@
         "subject:wikidata": "Q672",
         "country": "TV"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Tuvalu was instated when the country became independent in 1978, after the separation from the Gilbert and Ellice Islands in 1976."
     },
     {
       "qid": "Q170554",
@@ -7750,7 +7971,8 @@
         "subject": "Nordrhein-Westfalen",
         "subject:wikidata": "Q1198"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the German State of North Rhine-Westphalia is a horizontal tricolor consisting of green, white and red."
     },
     {
       "qid": "Q162699",
@@ -7845,7 +8067,8 @@
       "flagName": "Laakdal",
       "flagTypeSample": 6,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Laakdal (Dutch pronunciation: [ˈlaːɡdɑl]) is a municipality located in the Belgian province of Antwerp. Laakdal was founded in 1977 out of a merger of the towns Veerle, Eindhout and Vorst. The municipality now comprises the towns of Eindhout, Veerle, Vorst, Varendonk and Vorst-Meerlaar (also known as Klein-Vorst)."
     },
     {
       "qid": "Q2917560",
@@ -7882,7 +8105,8 @@
         "subject:wikidata": "Q678",
         "country": "TO"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The national flag of Tonga consists of a red field with a white canton charged with a red couped cross.  Adopted in 1875 after being officially enshrined into the nation's constitution, it has been the flag of the Kingdom of Tonga since that year.  The constitution stipulates that the national flag can never be changed."
     },
     {
       "qid": "Q188609",
@@ -7958,7 +8182,8 @@
       "flagName": "Piedmont",
       "flagTypeSample": 5,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Piedmont is one of the official symbols of the region of Piedmont in Italy. The current flag was adopted on 24 November 1995."
     },
     {
       "qid": "Q113410900",
@@ -8029,7 +8254,8 @@
       "flagName": "Lombardy",
       "flagTypeSample": 5,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Lombardy is one of the official symbols of the region of Lombardy, Italy. The current flag was officially adopted on 4 February 2019, although it has been used de facto since 12 June 1975."
     },
     {
       "qid": "Q185277",
@@ -8052,7 +8278,8 @@
         "subject:wikidata": "Q697",
         "country": "NR"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "Following the independence of Nauru, the flag of Nauru (Nauruan: anidenin Naoero) was raised for the first time. The flag, chosen in a local design competition, was adopted on independence day, 31 January 1968. The design symbolically depicts Nauru's geographical position, with a star just south of the Equator."
     },
     {
       "qid": "Q96602193",
@@ -8147,7 +8374,8 @@
       "flagName": "Milwaukee",
       "flagTypeSample": 5,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Milwaukee was adopted by its Common Council in 1954.\n\nThe flag of Milwaukee is little-used around the city; the city only owns twenty flags which are displayed at various city-owned buildings. A 2004 survey by the North American Vexillological Association rated the Milwaukee flag 147th out of 150 flags of major American cities."
     },
     {
       "qid": "Q190648",
@@ -8260,7 +8488,8 @@
         "subject": "Saarland",
         "subject:wikidata": "Q1201"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Saarland is based on the flag of Germany and is a black, red, and gold horizontal tricolor. In the center of the flag is the coat of arms of Saarland. The flag of Saarland is both the civil flag (Landesflagge), as well as the state service flag (Landesdienstflagge)."
     },
     {
       "qid": "Q693758",
@@ -8278,7 +8507,8 @@
         "subject": "Rheinland-Pfalz",
         "subject:wikidata": "Q1200"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Rhineland-Palatinate, also known as Rhineland-Pfalz, is a tricolor of three horizontal bands of black, red and gold.  These colors are Germany's national colors and are sometimes referred to as schwarz-rot-gold.  In the canton, or the upper left corner, is the coat of arms of the state of Rhineland-Palatinate."
     },
     {
       "qid": "Q104864896",
@@ -8728,7 +8958,8 @@
         "subject:wikidata": "Q1030",
         "country": "NA"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Namibia consists of a red bend edged in two white bands with a blue upper triangle charged with a 12-rays yellow sun and green lower triangle. \n\nThe flag was adopted on 21 March 1990 upon independence from South Africa. During apartheid rule, it used the South African orange-white-blue tricolor."
     },
     {
       "qid": "Q204666",
@@ -8810,7 +9041,8 @@
         "subject": "Bangsamoro",
         "subject:wikidata": "Q806550"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of the Bangsamoro Autonomous Region in Muslim Mindanao, an autonomous region of the Philippines, is a horizontal tricolor of green, white and red with the yellow seven-pointed star surrounded by a yellow crescent both centered on the white band and a white kris centered on the red band. It was adopted in 2019."
     },
     {
       "qid": "Q601391",
@@ -8833,7 +9065,8 @@
         "subject": "Castilla-La Mancha",
         "subject:wikidata": "Q5748"
       },
-      "aliases": []
+      "aliases": [],
+      "description": "The flag of Castilla–La Mancha is one of the representative symbols of the Autonomous Community of Castilla–La Mancha, in Spain, defined by its Statute of Autonomy."
     },
     {
       "qid": "Q2584616",
