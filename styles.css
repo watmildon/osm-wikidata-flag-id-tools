@@ -442,6 +442,11 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
 .page-footer a:hover { text-decoration: underline; }
 
 /* ---- curator page ---- */
+/* Curator-only: the topbar (queue counter + needing-attention chips) is
+   queue-management UI, not classification UI. Let it scroll out of view so
+   the flag image and form take all the visible space while curating. */
+body.curate .topbar { position: relative; }
+
 .curate-main {
   padding: 12px 16px 96px;
   max-width: 720px;
@@ -453,11 +458,17 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   border-radius: 12px;
   padding: 16px;
   margin-bottom: 16px;
+  /* Pin the flag image so it stays visible while the curator scrolls through
+     the form fields below. Sticky inside .curate-main, anchored to the top of
+     the viewport once .topbar scrolls away. */
+  position: sticky;
+  top: 0;
+  z-index: 4;
 }
 .curate-flag img {
   display: block;
   width: 100%;
-  max-height: 220px;
+  max-height: 180px;
   object-fit: contain;
   background-color: var(--bg-elev);
   background-image:
