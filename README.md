@@ -120,3 +120,15 @@ Every page has a back link to the identifier. The review and
 wikidata-suggestions pages cross-link to each other so you can switch
 between OSM-side and Wikidata-side fixes without going through the home
 page.
+
+## Sharing your curated edits
+
+When you finish a curating session, the **Export overrides.json** button
+gives you a file containing your changes merged on top of the live
+`data/overrides.json`. The cleanest way to get those changes into the
+project is to open a pull request against
+[the repo](https://github.com/watmildon/osm-wikidata-flag-id-tools) —
+drop your exported file in at `data/overrides.json` and GitHub will show a
+clean per-flag diff that's easy to review.
+
+Or just send a file to me.

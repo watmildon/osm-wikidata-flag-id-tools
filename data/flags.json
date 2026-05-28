@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T20:45:39.264Z",
+  "generated": "2026-05-28T21:37:44.705Z",
   "palette": [
     "red",
     "white",
@@ -6127,7 +6127,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "star",
+        "triangle"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Estelada",
@@ -7968,12 +7972,13 @@
       "file": "Flag of Sierra Leone.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "green",
         "lightblue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Sierra Leone",
@@ -7984,7 +7989,7 @@
         "country": "SL"
       },
       "aliases": [],
-      "description": "The national flag of Sierra Leone is a tricolour consisting of three horizontal green, white and blue bands. It was adopted in 1961, Sierra Leone's independence year, to replace the British Blue Ensign defaced with the arms of the Crown Colony of Sierra Leone.",
+      "description": "The national flag of Sierra Leone is a tricolor consisting of three horizontal green, white and blue bands.",
       "wdColors": [
         "white",
         "lightblue"
@@ -8161,15 +8166,19 @@
         "black",
         "blue",
         "brown",
-        "gray",
         "green",
-        "lightblue",
-        "purple",
         "red",
         "white",
-        "yellow"
+        "yellow",
+        "lightblue"
       ],
-      "icons": [],
+      "icons": [
+        "people",
+        "coa",
+        "plant",
+        "horizontal-stripes",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Belize",
@@ -12921,7 +12930,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "star"
+      ],
       "shape": "square",
       "flagType": "regional",
       "flagName": "Rhode Island",
@@ -20036,7 +20048,6 @@
       "file": "Flag of Tver Oblast.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "brown",
         "green",
         "red",
@@ -20279,8 +20290,6 @@
       "file": "Flag of Sucre and Chuquisaca.svg",
       "isFlagEntity": true,
       "colors": [
-        "brown",
-        "gray",
         "green",
         "red",
         "white",
@@ -21582,18 +21591,24 @@
       "file": "Flag of Minneapolis.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "white",
+        "blue"
       ],
       "wdColors": [
         "white"
       ],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
+      "icons": [
+        "building",
+        "triangle",
+        "cross"
+      ],
+      "shape": "pennant",
+      "flagType": "municipal",
       "flagName": "Minneapolis",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A royal blue pennant on a white field or background with a white circle on a blue pennant divided by four parts; each of the four parts of the circle containing a blue symbol, a building; a cogged wheel and steel square; a ship's wheel; a microscope."
     },
     {
       "qid": "Q3039032",
@@ -22773,8 +22788,7 @@
       "colors": [
         "white",
         "black",
-        "brown",
-        "yellow"
+        "brown"
       ],
       "wdColors": [
         "white",
@@ -22782,13 +22796,17 @@
         "brown",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "cultural",
       "flagName": "bear flag",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "7 equal horizontal stripes with bark brown and the top, white in the middle, and black on the bottom. The other stripes have colors in between. Abear paw silhouette covers the upper left quadrant."
     },
     {
       "qid": "Q4889892",
@@ -35658,7 +35676,10 @@
         "blue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "diagonal",
+        "crescent"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Lunéville",
@@ -37047,19 +37068,22 @@
       "file": "Flag of the United States Department of Justice.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "blue",
         "brown",
         "darkblue",
-        "gray",
         "green",
         "red",
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "bird",
+        "weapon",
+        "plant"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "governmental",
       "flagName": "United States Department of Justice",
       "flagTypeSample": null,
       "extraTags": {},
@@ -37081,7 +37105,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with and eagle standing on a shield facing to the left. The bird is holding arrows and olive branches. There is text above and below. The lower text is on a waving banner. Top text reads \"DEPARTMENT OF JUSTICE\". The bottom text is latin and reads \"QUI DOMINA JUSTITIA SEQUITUR\"."
     },
     {
       "qid": "Q113544379",

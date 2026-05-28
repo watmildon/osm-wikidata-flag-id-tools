@@ -5,6 +5,7 @@ import { thumbSrc, fullSrc } from "./render.js";
 // ---- constants ----
 
 const STORAGE_KEY = "osm-flag-curate-pending";
+const RANDOMIZE_STORAGE_KEY = "osm-flag-curate-randomize";
 
 const COLOR_SWATCHES = {
   red: "#dc2626", white: "#ffffff", blue: "#1d4ed8", darkblue: "#1e2a5e",
@@ -168,12 +169,23 @@ function needsAttention(f) {
 
 function buildQueue() {
   const hideNonFlag = document.getElementById("hide-non-flag-entities").checked;
-  // flags.json is sorted by qid on disk for clean diffs; sort by count desc
-  // here so the curator works highest-impact flags first.
+  const randomize = document.getElementById("randomize-queue").checked;
+  // flags.json is sorted by qid on disk for clean diffs. We re-sort here:
+  // randomize when on (default) so concurrent curators land on different
+  // flags; otherwise count desc so a solo curator works highest-impact first.
   queue = meta.flags
     .filter((f) => (!hideNonFlag || f.isFlagEntity))
-    .filter(needsAttention)
-    .sort((a, b) => (b.count ?? 0) - (a.count ?? 0));
+    .filter(needsAttention);
+  if (randomize) {
+    // Fisher-Yates. Shuffled once per build, not per advance, so position
+    // counters mean something and skipped flags don't reappear.
+    for (let i = queue.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [queue[i], queue[j]] = [queue[j], queue[i]];
+    }
+  } else {
+    queue.sort((a, b) => (b.count ?? 0) - (a.count ?? 0));
+  }
   queueIndex = 0;
 }
 
@@ -544,6 +556,12 @@ async function main() {
 
   renderNeedsChips();
 
+  // Restore randomize preference from prior session BEFORE the first
+  // buildQueue() reads its state. Default (HTML attr) is checked=true.
+  const randomizeBox = document.getElementById("randomize-queue");
+  const storedRandomize = localStorage.getItem(RANDOMIZE_STORAGE_KEY);
+  if (storedRandomize !== null) randomizeBox.checked = storedRandomize === "1";
+
   // Direct link from the identifier: `curate.html?qid=Q42537` jumps straight
   // to one flag, bypassing the needing-attention filter (the user picked a
   // specific record to fix and shouldn't be filtered away from it). If the
@@ -570,6 +588,10 @@ async function main() {
   document.getElementById("export-btn").addEventListener("click", handleExport);
   document.getElementById("clear-pending-btn").addEventListener("click", handleClearPending);
   document.getElementById("hide-non-flag-entities").addEventListener("change", handleFilterChange);
+  randomizeBox.addEventListener("change", () => {
+    localStorage.setItem(RANDOMIZE_STORAGE_KEY, randomizeBox.checked ? "1" : "0");
+    handleFilterChange();
+  });
 
   // Keep edit state in sync with the text inputs as the curator types.
   document.getElementById("name-input").addEventListener("input", (e) => {

@@ -603,6 +603,20 @@
   "Q135034": {
     "description": "The national flag of Antigua and Barbuda was adopted on 27 February 1967 to mark the achievement of self-government. A competition to design the flag was held in which more than 600 local people entered. The winning design was put forth by nationally well-known artist and sculptor Sir Reginald Samuel."
   },
+  "Q148002": {
+    "colors": [
+      "blue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "icons": [
+      "horizontal-stripes",
+      "star",
+      "triangle"
+    ],
+    "shape": "rectangle"
+  },
   "Q148807": {
     "description": "Nine equal horizontal stripes of red and yellow alternating (yellow at the top and bottom), giving four red stripes on a yellow field."
   },
@@ -766,7 +780,16 @@
     "description": "A red field with a stylized yellow sun in the center, with eight broadening rays extending from the central disc to the edges of the flag."
   },
   "Q168912": {
-    "description": "The national flag of Sierra Leone is a tricolour consisting of three horizontal green, white and blue bands. It was adopted in 1961, Sierra Leone's independence year, to replace the British Blue Ensign defaced with the arms of the Crown Colony of Sierra Leone."
+    "description": "The national flag of Sierra Leone is a tricolor consisting of three horizontal green, white and blue bands.",
+    "colors": [
+      "green",
+      "lightblue",
+      "white"
+    ],
+    "icons": [
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle"
   },
   "Q168917": {
     "description": "The national flag of the Union of the Comoros was designed in 2001 and officially adopted on 23 December of that year. It continues to display the crescent and four stars, which is a motif that has been in use in various forms since 1975 during the independence movement."
@@ -791,7 +814,25 @@
     "description": "A field divided into four equal quarters: white (upper hoist) bearing a blue five-pointed star, red (upper fly), blue (lower hoist), and white (lower fly) bearing a red five-pointed star."
   },
   "Q169192": {
-    "description": "A blue field with horizontal red stripes at the top and bottom edges. Centered is a large white disc bearing the Belize coat of arms: a shield with logging tools flanked by two woodcutters (one Black, one mestizo), beneath a mahogany tree, encircled by 50 olive leaves with a banner reading \"SUB UMBRA FLOREO\" below."
+    "description": "A blue field with horizontal red stripes at the top and bottom edges. Centered is a large white disc bearing the Belize coat of arms: a shield with logging tools flanked by two woodcutters (one Black, one mestizo), beneath a mahogany tree, encircled by 50 olive leaves with a banner reading \"SUB UMBRA FLOREO\" below.",
+    "colors": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "red",
+      "white",
+      "yellow",
+      "lightblue"
+    ],
+    "icons": [
+      "people",
+      "coa",
+      "plant",
+      "horizontal-stripes",
+      "circle"
+    ],
+    "shape": "rectangle"
   },
   "Q169903": {
     "description": "The national flag of Mali is a vertical tricolour of green, gold, and red, the pan-African colours.  The flag of Mali is almost identical to the flag of Guinea, with the exception that the colours are in reverse order."
@@ -926,6 +967,18 @@
   },
   "Q497997": {
     "description": "A white field with a crimson Saint Andrew's cross (diagonal saltire) extending to the corners."
+  },
+  "Q520966": {
+    "colors": [
+      "darkblue",
+      "white",
+      "yellow"
+    ],
+    "icons": [
+      "text",
+      "star"
+    ],
+    "shape": "square"
   },
   "Q590821": {
     "description": "A navy blue field with the Commonwealth seal centered. Two figures embrace within the seal, encircled by the words \"COMMONWEALTH OF KENTUCKY\" above and sprigs of goldenrod below."
@@ -1146,11 +1199,43 @@
   "Q2345639": {
     "description": "Two equal horizontal bands of red (top) and white."
   },
+  "Q2424575": {
+    "colors": [
+      "brown",
+      "green",
+      "red",
+      "yellow"
+    ],
+    "shape": "rectangle"
+  },
   "Q2508330": {
     "description": "A triangular saffron (or navy blue) flag bearing a black Khanda emblem (a double-edged sword between two curved kirpans circling a chakkar) centered. A tassel hangs from the fly point."
   },
+  "Q2516219": {
+    "colors": [
+      "green",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "shape": "rectangle"
+  },
   "Q2897956": {
     "description": "Three equal vertical bands of blue (hoist), white, and red, with a small yellow five-pointed star in the upper portion of the blue band."
+  },
+  "Q3039030": {
+    "flagType": "municipal",
+    "colors": [
+      "white",
+      "blue"
+    ],
+    "icons": [
+      "building",
+      "triangle",
+      "cross"
+    ],
+    "shape": "pennant",
+    "description": "A royal blue pennant on a white field or background with a white circle on a blue pennant divided by four parts; each of the four parts of the circle containing a blue symbol, a building; a cogged wheel and steel square; a ship's wheel; a microscope."
   },
   "Q3039032": {
     "description": "The flag of Milwaukee was adopted by its Common Council in 1954.\n\nThe flag of Milwaukee is little-used around the city; the city only owns twenty flags which are displayed at various city-owned buildings. A 2004 survey by the North American Vexillological Association rated the Milwaukee flag 147th out of 150 flags of major American cities."
@@ -1160,6 +1245,20 @@
   },
   "Q4042567": {
     "description": "Lalandia is the name of three Danish holiday resorts owned by Parken Sport & Entertainment. The original Lalandia Rødby is located in Rødbyhavn, with additional activity centres in Billund (2009) and Søndervig (2022)."
+  },
+  "Q4876605": {
+    "flagType": "cultural",
+    "colors": [
+      "white",
+      "black",
+      "brown"
+    ],
+    "icons": [
+      "animal",
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle",
+    "description": "7 equal horizontal stripes with bark brown and the top, white in the middle, and black on the bottom. The other stripes have colors in between. Abear paw silhouette covers the upper left quadrant."
   },
   "Q5456721": {
     "description": "The flag of Cincinnati, Ohio, was selected in an 1896 contest. It was formally adopted on June 15, 1940."
@@ -1278,5 +1377,37 @@
     ],
     "shape": "rectangle",
     "description": "A circle of twelve five-pointed yellow stars on a blue field."
+  },
+  "Q113329508": {
+    "colors": [
+      "yellow",
+      "blue",
+      "white"
+    ],
+    "icons": [
+      "diagonal",
+      "crescent"
+    ],
+    "shape": "rectangle"
+  },
+  "Q113519122": {
+    "flagType": "governmental",
+    "colors": [
+      "blue",
+      "brown",
+      "darkblue",
+      "green",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "icons": [
+      "text",
+      "bird",
+      "weapon",
+      "plant"
+    ],
+    "shape": "rectangle",
+    "description": "A blue field with and eagle standing on a shield facing to the left. The bird is holding arrows and olive branches. There is text above and below. The lower text is on a waving banner. Top text reads \"DEPARTMENT OF JUSTICE\". The bottom text is latin and reads \"QUI DOMINA JUSTITIA SEQUITUR\"."
   }
 }

@@ -11,6 +11,7 @@
     "refresh:overpass": "node scripts/refresh-overpass.mjs",
     "refresh:wikidata": "node scripts/refresh-wikidata.mjs",
     "fetch:descriptions": "node scripts/fetch-wikipedia-descriptions.mjs",
+    "merge:overrides": "node scripts/merge-overrides.mjs",
     "serve": "python -m http.server 8000"
   }
 }
