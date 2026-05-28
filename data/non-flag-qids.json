@@ -84,16 +84,16 @@
     "file": "Flag of the Red Cross.svg"
   },
   {
+    "qid": "Q1788743",
+    "name": "Confederate Battle Flag",
+    "count": 46,
+    "file": "North Virginia Third Bunting.svg"
+  },
+  {
     "qid": "Q830262",
     "name": "flag of Gdańsk",
     "count": 41,
     "file": "POL Gdańsk flag.svg"
-  },
-  {
-    "qid": "Q55874812",
-    "name": "Q55874812",
-    "count": 41,
-    "file": null
   },
   {
     "qid": "Q783490",
@@ -190,6 +190,12 @@
     "name": "flag of San Jose",
     "count": 14,
     "file": "Flag of San José, California.svg"
+  },
+  {
+    "qid": "Q30909105",
+    "name": "Flag of Lyon",
+    "count": 14,
+    "file": "Flag of Lyon, France.svg"
   },
   {
     "qid": "Q12373049",
@@ -300,12 +306,6 @@
     "file": "Drapeau de Saint-Malo (20è siècle).svg"
   },
   {
-    "qid": "Q30909105",
-    "name": "Flag of Lyon",
-    "count": 8,
-    "file": "Flag of Lyon, France.svg"
-  },
-  {
     "qid": "Q77795712",
     "name": "Hilton flag",
     "count": 8,
@@ -384,12 +384,6 @@
     "file": "Flag of Besançon.svg"
   },
   {
-    "qid": "Q106498573",
-    "name": "Q106498573",
-    "count": 6,
-    "file": null
-  },
-  {
     "qid": "Q725122",
     "name": "Laakdal",
     "count": 6,
@@ -466,12 +460,6 @@
     "name": "flag of Le Château-d'Oléron",
     "count": 5,
     "file": "Citadelle du Château-d'Oléron 2018 Porte royale 02.jpg"
-  },
-  {
-    "qid": "Q63973147",
-    "name": "Q63973147",
-    "count": 5,
-    "file": null
   },
   {
     "qid": "Q66363800",
@@ -975,7 +963,7 @@
     "qid": "Q148002",
     "name": "Estelada",
     "count": 3,
-    "file": "Estelada blava.svg"
+    "file": "Estelada roja.svg"
   },
   {
     "qid": "Q3153200",
@@ -1023,7 +1011,7 @@
     "qid": "Q115527338",
     "name": "standard of the Salvation Army",
     "count": 3,
-    "file": "Bandera del Ejercito de Salvacion.svg"
+    "file": "Drapeau de l'Armée du salut.svg"
   },
   {
     "qid": "Q2361008",
@@ -1048,6 +1036,12 @@
     "name": "flag of Hamilton County",
     "count": 3,
     "file": "Flag of Hamilton County, Ohio.svg"
+  },
+  {
+    "qid": "Q3633963",
+    "name": "flag of Milan",
+    "count": 3,
+    "file": "Flag of Milan.svg"
   },
   {
     "qid": "Q30905330",
@@ -1323,7 +1317,7 @@
     "qid": "Q4486662",
     "name": "flag of Krasnoyarsk",
     "count": 2,
-    "file": "Flag of Krasnoyarsk (1995).png"
+    "file": "Flag of Krasnoyarsk.svg"
   },
   {
     "qid": "Q80907988",
@@ -1336,12 +1330,6 @@
     "name": "Callao",
     "count": 2,
     "file": "Vista aérea de la Iglesia Matriz del Callao.jpg"
-  },
-  {
-    "qid": "Q5456780",
-    "name": "Q5456780",
-    "count": 2,
-    "file": null
   },
   {
     "qid": "Q77780557",
@@ -2355,7 +2343,7 @@
     "qid": "Q106677314",
     "name": "flag of Cannes",
     "count": 1,
-    "file": "Flag of the Commune of Cannes (White Variant).svg"
+    "file": "Flag of the Commune of Cannes (Blue Variant).svg"
   },
   {
     "qid": "Q106677308",
@@ -2961,7 +2949,7 @@
     "qid": "Q47588",
     "name": "Basque Country",
     "count": 1,
-    "file": "Euskal Herria Europa.png"
+    "file": "Flag of the Basque Country.svg"
   },
   {
     "qid": "Q9580",
@@ -3129,7 +3117,7 @@
     "qid": "Q1426620",
     "name": "flag of Montreal",
     "count": 1,
-    "file": "Flag of Montreal (1939–2017).svg"
+    "file": "Flag of Montreal.svg"
   },
   {
     "qid": "Q2023995",
@@ -3142,12 +3130,6 @@
     "name": "Distelhäuser Brewery",
     "count": 1,
     "file": "Genießermarkt Distelhausen.JPG"
-  },
-  {
-    "qid": "Q3633963",
-    "name": "flag of Milan",
-    "count": 1,
-    "file": "Flag of Milan.svg"
   },
   {
     "qid": "Q5548050",
@@ -3327,7 +3309,7 @@
     "qid": "Q1392163",
     "name": "Flag and coat of arms of Geneva and Canton of Geneva",
     "count": 1,
-    "file": "CHE Canton de Genève Flag.svg"
+    "file": "CHE Genève COA.svg"
   },
   {
     "qid": "Q1392156",
@@ -3669,7 +3651,7 @@
     "qid": "Q5718924",
     "name": "flag of Mercosur",
     "count": 1,
-    "file": "Flag of Mercosur (Portuguese).svg"
+    "file": "Flag of Mercosur.svg"
   },
   {
     "qid": "Q3039014",
@@ -4047,7 +4029,7 @@
     "qid": "Q183032",
     "name": "Johor",
     "count": 1,
-    "file": "Crown sculpture of Johor.jpg"
+    "file": "Forest trees in Johor.jpg"
   },
   {
     "qid": "Q118756714",
@@ -4818,12 +4800,6 @@
     "file": "Promontor Udvar Shopping Centre.JPG"
   },
   {
-    "qid": "Q134691499",
-    "name": "Q134691499",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q578072",
     "name": "Berwyn",
     "count": 1,
@@ -4904,12 +4880,6 @@
   {
     "qid": "Q115052962",
     "name": "flag of Baumholder",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q115517071",
-    "name": "Q115517071",
     "count": 1,
     "file": null
   },
@@ -5181,7 +5151,7 @@
     "qid": "Q96474154",
     "name": "Flag of Chorzów",
     "count": 1,
-    "file": "Chorzow flag with COA.jpg"
+    "file": "POL Chorzów flag.svg"
   },
   {
     "qid": "Q645967",
@@ -5506,5 +5476,17 @@
     "name": "English Wikipedia",
     "count": 1,
     "file": "English Wikipedia screenshot.png"
+  },
+  {
+    "qid": "Q2797535",
+    "name": "Flag  of South Tyrol",
+    "count": 1,
+    "file": "Flag of South Tyrol.svg"
+  },
+  {
+    "qid": "Q2540917",
+    "name": "Flag of the German-speaking Community of Belgium",
+    "count": 1,
+    "file": "Flag of the German Community in Belgium.svg"
   }
 ]

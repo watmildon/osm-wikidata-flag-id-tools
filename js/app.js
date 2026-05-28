@@ -18,6 +18,9 @@ function openDetail(flag) {
   document.getElementById("detail-img").alt = `Flag of ${flag.name}`;
   document.getElementById("detail-name").textContent = flag.name;
   document.getElementById("detail-tags").textContent = tagsFor(flag);
+  const wd = document.getElementById("detail-wikidata");
+  wd.href = `https://www.wikidata.org/wiki/${flag.qid}`;
+  wd.textContent = `View ${flag.qid} on Wikidata ↗`;
   const src = document.getElementById("detail-source");
   if (flag.flagType && typeof flag.flagTypeSample === "number") {
     src.textContent = `flag:type inferred from ${flag.flagTypeSample.toLocaleString()} OSM uses`;

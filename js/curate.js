@@ -17,8 +17,7 @@ const ICON_LABELS = {
   crescent: "Crescent", coa: "Coat of arms",
 };
 const SHAPE_LABELS = {
-  "1:2": "1:2", "2:3": "2:3", "3:5": "3:5",
-  square: "Square", pennant: "Pennant", other: "Other", unknown: "Unknown",
+  rectangle: "Rectangle", square: "Square", pennant: "Pennant", other: "Other",
 };
 
 // ---- state ----
@@ -62,9 +61,7 @@ function effective(f) {
 
 function needsAttention(f) {
   const e = effective(f);
-  return (e.colors?.length ?? 0) === 0
-      || (e.icons?.length ?? 0) === 0
-      || !e.shape || e.shape === "unknown";
+  return (e.colors?.length ?? 0) === 0 || (e.icons?.length ?? 0) === 0;
 }
 
 function buildQueue() {
@@ -160,7 +157,7 @@ function renderCurrent() {
   edit = {
     colors: new Set(e.colors ?? []),
     icons: new Set(e.icons ?? []),
-    shape: e.shape && e.shape !== "unknown" ? e.shape : null,
+    shape: e.shape ?? null,
   };
   renderChips();
 }

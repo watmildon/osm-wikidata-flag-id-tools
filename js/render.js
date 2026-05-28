@@ -26,13 +26,10 @@ const ICON_LABELS = {
 };
 
 const SHAPE_LABELS = {
-  "1:2": "1:2",
-  "2:3": "2:3",
-  "3:5": "3:5",
+  rectangle: "Rectangle",
   square: "Square",
   pennant: "Pennant",
   other: "Other",
-  unknown: "Unknown",
 };
 
 function chip({ label, swatchColor, pressed, onClick }) {
@@ -129,9 +126,14 @@ export function renderGrid(flags, onTileClick) {
 
     const name = document.createElement("span");
     name.className = "tile-name";
-    name.textContent = f.name;
+    name.textContent = f.flagName ?? f.name;
 
-    btn.append(img, name);
+    const count = document.createElement("span");
+    count.className = "tile-count";
+    count.textContent = (f.count ?? 0).toLocaleString();
+    count.title = `${f.count?.toLocaleString() ?? 0} OSM uses`;
+
+    btn.append(img, name, count);
 
     if (!f.file) {
       const badge = document.createElement("span");

@@ -133,26 +133,14 @@ function deriveFlagName(label) {
   return s;
 }
 
+// Shape vocabulary kept deliberately simple: the silhouette categories that
+// matter for field identification. Aspect ratios (1:2 vs 2:3) aren't useful
+// for picking a flag out of a lineup. Default to "rectangle" since the vast
+// majority of flags are rectangular; overrides.json handles the exceptions
+// (Switzerland/Vatican = square, Nepal = pennant).
 function shapeFromDimensions(width, height) {
-  if (!width || !height) return "unknown";
-  if (width === height) return "square";
-  const r = width / height;
-  const buckets = [
-    { name: "1:2", ratio: 2.0 },
-    { name: "2:3", ratio: 1.5 },
-    { name: "3:5", ratio: 5 / 3 },
-  ];
-  let best = "other";
-  let bestDelta = Infinity;
-  for (const b of buckets) {
-    const d = Math.abs(r - b.ratio);
-    if (d < bestDelta) {
-      bestDelta = d;
-      best = b.name;
-    }
-  }
-  if (bestDelta > 0.05) return "other";
-  return best;
+  if (width && height && width === height) return "square";
+  return "rectangle";
 }
 
 // ---------------------------------------------------------------------------
@@ -214,12 +202,124 @@ function explodeAndDedupe(rawValues) {
 }
 
 // ---------------------------------------------------------------------------
+// Step 1.5: Resolve Wikidata redirects.
+//
+// Some QIDs in taginfo point to entities that have been merged/redirected.
+// SPARQL doesn't follow redirects silently — the dead QID just returns no
+// data, and we end up with an empty record. Worse, mappers are still tagging
+// the dead QID. We want to:
+//   - Enrich against the canonical entity so the main page is usable.
+//   - Roll the dead QID's taginfo count into the canonical's count.
+//   - Surface the redirect on the review page so OSM tags get fixed.
+// Wikidata exposes redirects via owl:sameAs: a redirect QID has it, a live
+// entity doesn't.
+// ---------------------------------------------------------------------------
+
+async function resolveRedirectsBatch(qids, label) {
+  const values = qids.map((q) => `wd:${q}`).join(" ");
+  const query = `
+SELECT ?item ?canonical WHERE {
+  VALUES ?item { ${values} }
+  ?item owl:sameAs ?canonical .
+}`;
+  const res = await fetchWithRetry(
+    "https://query.wikidata.org/sparql",
+    {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Accept": "application/sparql-results+json",
+        "User-Agent": USER_AGENT,
+      },
+      body: new URLSearchParams({ query }).toString(),
+    },
+    label,
+  );
+  const json = await res.json();
+  const map = new Map();
+  for (const row of json.results.bindings) {
+    const from = row.item.value.split("/").pop();
+    const to = row.canonical.value.split("/").pop();
+    map.set(from, to);
+  }
+  return map;
+}
+
+async function resolveRedirects(qids) {
+  console.log(`Checking ${qids.length} QIDs for Wikidata redirects...`);
+
+  // Cached map of "we've seen this QID, here's what we found" (canonical QID
+  // or "" for "confirmed not a redirect"). Skip QIDs we've already classified.
+  const cached = (await readCache("redirects.json")) ?? {};
+  const toQuery = qids.filter((q) => !(q in cached));
+  console.log(`  ${toQuery.length} new (${qids.length - toQuery.length} from cache).`);
+
+  const BATCH = 500;
+  let failedBatches = 0;
+  for (let i = 0; i < toQuery.length; i += BATCH) {
+    const slice = toQuery.slice(i, i + BATCH);
+    const label = `redirects ${i / BATCH + 1}/${Math.ceil(toQuery.length / BATCH)}`;
+    console.log(`  ${label} (${slice.length} QIDs)...`);
+    let map;
+    try {
+      map = await resolveRedirectsBatch(slice, label);
+    } catch (e) {
+      console.log(`    FAIL: ${e.message}`);
+      failedBatches++;
+      continue;
+    }
+    // Mark every queried QID: redirects -> canonical, others -> "".
+    for (const q of slice) {
+      cached[q] = map.get(q) ?? "";
+    }
+  }
+  await writeCache("redirects.json", cached);
+
+  // Build the active redirect map (only the QIDs we care about right now,
+  // only the ones that actually redirect).
+  const redirects = new Map();
+  for (const q of qids) {
+    const target = cached[q];
+    if (target) redirects.set(q, target);
+  }
+  console.log(`Found ${redirects.size} redirected QIDs.`);
+  return { redirects, failedBatches };
+}
+
+// Collapse redirected QIDs into their canonical targets. If the canonical is
+// already in our list, merge counts; otherwise replace the redirect entry.
+// Returns { qidCounts, aliases } where aliases is Map<canonical, [redirect, ...]>.
+function applyRedirects(qidCounts, redirects) {
+  if (redirects.size === 0) return { qidCounts, aliases: new Map() };
+  const aliases = new Map();
+  const out = new Map(qidCounts);
+
+  for (const [bad, canonical] of redirects) {
+    const badCount = out.get(bad) ?? 0;
+    out.delete(bad);
+    // Track which canonical QID swallowed which redirects.
+    if (!aliases.has(canonical)) aliases.set(canonical, []);
+    aliases.get(canonical).push(bad);
+    // Add the redirect's count to the canonical (creating the entry if
+    // necessary, since the canonical may not have been in taginfo).
+    out.set(canonical, (out.get(canonical) ?? 0) + badCount);
+  }
+  console.log(`Collapsed ${redirects.size} redirects into ${aliases.size} canonical QIDs.`);
+  return { qidCounts: out, aliases };
+}
+
+// ---------------------------------------------------------------------------
 // Step 2: enrich each QID with Wikidata data (label, image, colors, is-flag).
 // ---------------------------------------------------------------------------
 
+// Group-concat all P18 images for an item into a single -separated
+// string. Some flag entities have multiple P18 values (canonical flag, photo,
+// construction sheet, waving variant); we pick the best one in JS via
+// pickBestImage() below rather than depending on SPARQL row ordering.
 const SPARQL_QUERY = `
-SELECT ?item ?itemLabel ?image ?isFlag
-       (GROUP_CONCAT(DISTINCT ?colorQid; separator=",") AS ?colorQids)
+SELECT ?item ?itemLabel ?isFlag
+       (GROUP_CONCAT(DISTINCT ?image;   separator="\\u0001") AS ?images)
+       (GROUP_CONCAT(DISTINCT ?colorQid; separator=",")      AS ?colorQids)
        (SAMPLE(?width)  AS ?w)
        (SAMPLE(?height) AS ?h)
 WHERE {
@@ -237,7 +337,7 @@ WHERE {
   OPTIONAL { ?item wdt:P2048 ?height . }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
-GROUP BY ?item ?itemLabel ?image ?isFlag
+GROUP BY ?item ?itemLabel ?isFlag
 `;
 
 async function enrichBatch(qids, label) {
@@ -537,9 +637,40 @@ async function inferFlagTypes(flags) {
   return results;
 }
 
+// Score a candidate Commons filename for "looks like the canonical flag image"
+// so we can prefer the right P18 when an entity has several (canonical SVG,
+// photo, construction sheet, waving variant, etc.). Higher is better.
+function imageScore(filename) {
+  const name = filename.toLowerCase();
+  const isSvg = name.endsWith(".svg");
+  // Heavy penalty for known "not the canonical flag" variants.
+  const isVariant = /construction|specification|sheet|diagram|drawing|template|measurements|grid|waving|wavy|photo|photograph|hoisted|raised|ceremony|3d|render/.test(name);
+  let score = 0;
+  if (isSvg) score += 100;
+  if (!isVariant) score += 50;
+  // Shorter names tend to be more canonical ("Flag of Thailand.svg" vs
+  // "Flag of Thailand (construction sheet).svg").
+  score -= name.length / 100;
+  return score;
+}
+
+function pickBestImage(imagesStr) {
+  if (!imagesStr) return null;
+  const urls = imagesStr.split("").filter(Boolean);
+  if (urls.length === 0) return null;
+  if (urls.length === 1) return urls[0];
+  // Score by filename, not URL.
+  const scored = urls.map((u) => {
+    const file = decodeURIComponent(u.split("Special:FilePath/").pop());
+    return { url: u, file, score: imageScore(file) };
+  });
+  scored.sort((a, b) => b.score - a.score);
+  return scored[0].url;
+}
+
 function rowToFlag(qid, count, row) {
   const name = row?.itemLabel?.value ?? qid;
-  const image = row?.image?.value ?? null;
+  const image = pickBestImage(row?.images?.value);
   const file = image
     ? decodeURIComponent(image.split("Special:FilePath/").pop())
     : null;
@@ -564,10 +695,13 @@ function rowToFlag(qid, count, row) {
     // flagName falls back to a label-strip of `name` after the Overpass pass.
     // extraTags is populated from the Name Suggestion Index (iD bundle) when
     // a match exists — adds subject, subject:wikidata, country.
+    // aliases lists any redirect QIDs that were collapsed into this canonical
+    // entry; review.json uses these to surface OSM tags still on the old QID.
     flagType: null,
     flagName: null,
     flagTypeSample: null,
     extraTags: {},
+    aliases: [],
   };
 }
 
@@ -735,7 +869,15 @@ async function main() {
   let degraded = false;
 
   const rawValues = await fetchTaginfoValues();
-  const qidCounts = explodeAndDedupe(rawValues);
+  const initialCounts = explodeAndDedupe(rawValues);
+
+  // Detect and collapse Wikidata redirects before enrichment, so the dead
+  // QIDs don't waste a SPARQL slot returning empty rows. Their counts roll
+  // into the canonical entity; their identity is preserved in aliases[].
+  const { redirects, failedBatches: redirectFailedBatches } =
+    await resolveRedirects([...initialCounts.keys()]);
+  if (redirectFailedBatches > 0) degraded = true;
+  const { qidCounts, aliases } = applyRedirects(initialCounts, redirects);
 
   console.log(`Enriching ${qidCounts.size} QIDs via Wikidata...`);
   const { byQid: wdByQid, failedBatches: enrichFailedBatches } =
@@ -747,7 +889,9 @@ async function main() {
 
   let flags = [];
   for (const [qid, count] of qidCounts) {
-    flags.push(rowToFlag(qid, count, wdByQid.get(qid)));
+    const rec = rowToFlag(qid, count, wdByQid.get(qid));
+    if (aliases.has(qid)) rec.aliases = aliases.get(qid);
+    flags.push(rec);
   }
 
   // Sort by OSM usage count descending — most-mapped surface first.
@@ -820,6 +964,27 @@ async function main() {
   // real flag entity. Those are the high-confidence "you tagged the wrong
   // entity" cases mappers can fix.
   const reviewSuggestions = await buildReviewSuggestions(flags);
+
+  // Redirect suggestions: a mapper is tagging a redirected QID. The canonical
+  // QID lives in our flags list (with the redirect in aliases[]). Surface the
+  // original count attribution so the mapper sees the volume.
+  for (const f of flags) {
+    if (!f.aliases || f.aliases.length === 0) continue;
+    for (const bad of f.aliases) {
+      const badCount = initialCounts.get(bad) ?? 0;
+      if (badCount === 0) continue;
+      reviewSuggestions.push({
+        bad_qid: bad,
+        bad_name: `(Wikidata redirect)`,
+        count: badCount,
+        suggested_qid: f.qid,
+        suggested_name: f.name,
+        reason: "redirect",
+      });
+    }
+  }
+  reviewSuggestions.sort((a, b) => b.count - a.count);
+
   await writeJsonAtomic(join(DATA_DIR, "review.json"), {
     generated: new Date().toISOString(),
     suggestions: reviewSuggestions,
@@ -833,7 +998,7 @@ async function main() {
     generated: new Date().toISOString(),
     palette: PALETTE,
     icons: ["text", "animal", "people", "star", "cross", "stripes", "circle", "crescent", "coa"],
-    shapes: ["1:2", "2:3", "3:5", "square", "pennant", "other", "unknown"],
+    shapes: ["rectangle", "square", "pennant", "other"],
     flags,
   };
   await writeJsonAtomic(join(DATA_DIR, "flags.json"), out);

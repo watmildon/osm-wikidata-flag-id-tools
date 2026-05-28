@@ -20,7 +20,7 @@ function thumbUrl(qid) {
 function row(s) {
   const tr = document.createElement("tr");
 
-  // Bad QID column: QID link + entity label
+  // Bad QID column: QID link + entity label + reason tag
   const badCell = document.createElement("td");
   const badLink = document.createElement("a");
   badLink.href = wdUrl(s.bad_qid);
@@ -28,6 +28,13 @@ function row(s) {
   badLink.rel = "noopener";
   badLink.textContent = s.bad_qid;
   badCell.appendChild(badLink);
+  if (s.reason === "redirect") {
+    badCell.appendChild(document.createTextNode(" "));
+    const tag = document.createElement("span");
+    tag.className = "reason-tag";
+    tag.textContent = "redirect";
+    badCell.appendChild(tag);
+  }
   badCell.appendChild(document.createElement("br"));
   const badName = document.createElement("span");
   badName.className = "muted";

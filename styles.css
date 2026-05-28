@@ -180,6 +180,12 @@ main { padding: 12px 12px 24px; }
   line-height: 1.2;
   word-break: break-word;
 }
+.tile-count {
+  font-size: 0.6875rem;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  margin-top: -2px;
+}
 .tile-warn {
   position: relative;
   border-color: #f59e0b;
@@ -233,6 +239,15 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   font-size: 0.75rem;
   color: var(--muted);
 }
+.detail-links {
+  margin: 0 0 8px;
+  font-size: 0.8125rem;
+}
+.detail-links a {
+  color: var(--accent);
+  text-decoration: none;
+}
+.detail-links a:hover { text-decoration: underline; }
 .detail-close {
   position: absolute;
   top: 8px;
@@ -314,6 +329,17 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
 .review-table a { color: var(--accent); text-decoration: none; }
 .review-table a:hover { text-decoration: underline; }
 .review-table .muted { color: var(--muted); font-size: 0.8125rem; }
+.reason-tag {
+  display: inline-block;
+  background: #fde68a;
+  color: #78350f;
+  font-size: 0.625rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
 .suggested-cell {
   display: flex;
   align-items: center;
