@@ -1,0 +1,12 @@
+{
+  "name": "osm-flag-identifier",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-flags.mjs",
+    "build:force": "node scripts/build-flags.mjs --force",
+    "build:review": "node scripts/build-review.mjs",
+    "serve": "python -m http.server 8000"
+  }
+}

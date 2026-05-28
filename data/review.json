@@ -1,0 +1,271 @@
+{
+  "generated": "2026-05-28T02:38:12.641Z",
+  "suggestions": [
+    {
+      "bad_qid": "Q458",
+      "bad_name": "European Union",
+      "count": 6,
+      "suggested_qid": "Q122482",
+      "suggested_name": "flag of Europe"
+    },
+    {
+      "bad_qid": "Q30",
+      "bad_name": "United States",
+      "count": 5,
+      "suggested_qid": "Q42537",
+      "suggested_name": "flag of the United States of America"
+    },
+    {
+      "bad_qid": "Q1250",
+      "bad_name": "Friuli Venezia Giulia",
+      "count": 3,
+      "suggested_qid": "Q379118",
+      "suggested_name": "flag of Friuli-Venezia Giulia"
+    },
+    {
+      "bad_qid": "Q38",
+      "bad_name": "Italy",
+      "count": 2,
+      "suggested_qid": "Q42876",
+      "suggested_name": "flag of Italy"
+    },
+    {
+      "bad_qid": "Q189710",
+      "bad_name": "Selangor",
+      "count": 2,
+      "suggested_qid": "Q116211178",
+      "suggested_name": "flag of Selangor"
+    },
+    {
+      "bad_qid": "Q188096",
+      "bad_name": "Penang",
+      "count": 2,
+      "suggested_qid": "Q4487474",
+      "suggested_name": "flag of Penang"
+    },
+    {
+      "bad_qid": "Q231",
+      "bad_name": "Walloon Region",
+      "count": 2,
+      "suggested_qid": "Q617649",
+      "suggested_name": "Flag of Wallonia"
+    },
+    {
+      "bad_qid": "Q1439",
+      "bad_name": "Texas",
+      "count": 2,
+      "suggested_qid": "Q19000",
+      "suggested_name": "flag of Texas"
+    },
+    {
+      "bad_qid": "Q205047",
+      "bad_name": "Kurdistan Region of Iraq",
+      "count": 1,
+      "suggested_qid": "Q208671",
+      "suggested_name": "Flag of Kurdistan"
+    },
+    {
+      "bad_qid": "Q179029",
+      "bad_name": "Sabah",
+      "count": 1,
+      "suggested_qid": "Q11721817",
+      "suggested_name": "flag of Sabah"
+    },
+    {
+      "bad_qid": "Q185221",
+      "bad_name": "Malacca",
+      "count": 1,
+      "suggested_qid": "Q4486900",
+      "suggested_name": "flag of Melaka"
+    },
+    {
+      "bad_qid": "Q15499",
+      "bad_name": "Paraná",
+      "count": 1,
+      "suggested_qid": "Q2981712",
+      "suggested_name": "flag of Paraná"
+    },
+    {
+      "bad_qid": "Q1965",
+      "bad_name": "New Brunswick",
+      "count": 1,
+      "suggested_qid": "Q1418784",
+      "suggested_name": "flag of New Brunswick"
+    },
+    {
+      "bad_qid": "Q9337",
+      "bad_name": "Flemish Region",
+      "count": 1,
+      "suggested_qid": "Q12989",
+      "suggested_name": "flag of Flanders"
+    },
+    {
+      "bad_qid": "Q190353",
+      "bad_name": "Sovereign Military Order of Malta",
+      "count": 1,
+      "suggested_qid": "Q3633957",
+      "suggested_name": "flag of the Sovereign Military Order of Malta"
+    },
+    {
+      "bad_qid": "Q838261",
+      "bad_name": "Federal Republic of Yugoslavia",
+      "count": 1,
+      "suggested_qid": "Q719140",
+      "suggested_name": "flag of Serbia and Montenegro"
+    },
+    {
+      "bad_qid": "Q31354462",
+      "bad_name": "Republic of Abkhazia",
+      "count": 1,
+      "suggested_qid": "Q199621",
+      "suggested_name": "flag of Abkhazia"
+    },
+    {
+      "bad_qid": "Q32",
+      "bad_name": "Luxembourg",
+      "count": 1,
+      "suggested_qid": "Q133022",
+      "suggested_name": "flag of Luxembourg"
+    },
+    {
+      "bad_qid": "Q233",
+      "bad_name": "Malta",
+      "count": 1,
+      "suggested_qid": "Q131469",
+      "suggested_name": "flag of Malta"
+    },
+    {
+      "bad_qid": "Q414",
+      "bad_name": "Argentina",
+      "count": 1,
+      "suggested_qid": "Q130774",
+      "suggested_name": "flag of Argentina"
+    },
+    {
+      "bad_qid": "Q29",
+      "bad_name": "Spain",
+      "count": 1,
+      "suggested_qid": "Q121688",
+      "suggested_name": "flag of Spain"
+    },
+    {
+      "bad_qid": "Q1759664",
+      "bad_name": "Royal Standard of the United Kingdom",
+      "count": 1,
+      "suggested_qid": "Q83278",
+      "suggested_name": "flag of the United Kingdom"
+    },
+    {
+      "bad_qid": "Q16",
+      "bad_name": "Canada",
+      "count": 1,
+      "suggested_qid": "Q80110",
+      "suggested_name": "flag of Canada"
+    },
+    {
+      "bad_qid": "Q35",
+      "bad_name": "Denmark",
+      "count": 1,
+      "suggested_qid": "Q60149",
+      "suggested_name": "flag of Denmark"
+    },
+    {
+      "bad_qid": "Q142",
+      "bad_name": "France",
+      "count": 1,
+      "suggested_qid": "Q43192",
+      "suggested_name": "flag of France"
+    },
+    {
+      "bad_qid": "Q31",
+      "bad_name": "Belgium",
+      "count": 1,
+      "suggested_qid": "Q12990",
+      "suggested_name": "flag of Belgium"
+    },
+    {
+      "bad_qid": "Q188947",
+      "bad_name": "Kedah",
+      "count": 1,
+      "suggested_qid": "Q17335307",
+      "suggested_name": "flag of Kedah"
+    },
+    {
+      "bad_qid": "Q213467",
+      "bad_name": "Perlis",
+      "count": 1,
+      "suggested_qid": "Q13405065",
+      "suggested_name": "flag of Perlis"
+    },
+    {
+      "bad_qid": "Q18677875",
+      "bad_name": "Normandy",
+      "count": 1,
+      "suggested_qid": "Q3039109",
+      "suggested_name": "flag and coat of arms of Normandy"
+    },
+    {
+      "bad_qid": "Q42722",
+      "bad_name": "Piauí",
+      "count": 1,
+      "suggested_qid": "Q2976222",
+      "suggested_name": "flag of Piauí"
+    },
+    {
+      "bad_qid": "Q1199",
+      "bad_name": "Hesse",
+      "count": 1,
+      "suggested_qid": "Q2661050",
+      "suggested_name": "flag of Hesse"
+    },
+    {
+      "bad_qid": "Q188953",
+      "bad_name": "Perak",
+      "count": 1,
+      "suggested_qid": "Q2600445",
+      "suggested_name": "flag of Perak"
+    },
+    {
+      "bad_qid": "Q1129",
+      "bad_name": "Hainaut",
+      "count": 1,
+      "suggested_qid": "Q2263781",
+      "suggested_name": "flag of Hainaut"
+    },
+    {
+      "bad_qid": "Q175",
+      "bad_name": "São Paulo",
+      "count": 1,
+      "suggested_qid": "Q2134803",
+      "suggested_name": "flag of the State of São Paulo"
+    },
+    {
+      "bad_qid": "Q170462",
+      "bad_name": "Sarawak",
+      "count": 1,
+      "suggested_qid": "Q2100376",
+      "suggested_name": "flag of Sarawak"
+    },
+    {
+      "bad_qid": "Q5720",
+      "bad_name": "Valencian Community",
+      "count": 1,
+      "suggested_qid": "Q933011",
+      "suggested_name": "flag of the Land of Valencia"
+    },
+    {
+      "bad_qid": "Q8333",
+      "bad_name": "Federal Bureau of Investigation",
+      "count": 1,
+      "suggested_qid": "Q113518795",
+      "suggested_name": "flag of the Federal Bureau of Investigation"
+    },
+    {
+      "bad_qid": "Q608427",
+      "bad_name": "United States Department of the Interior",
+      "count": 1,
+      "suggested_qid": "Q96963401",
+      "suggested_name": "flag of the United States Department of the Interior"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#1f2937" />
+  <title>OSM Flag Identifier</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>OSM Flag Identifier</h1>
+    <p class="hint">Tap a flag to copy its OSM tags.</p>
+  </header>
+
+  <details class="filters" id="filters-panel" open>
+    <summary>
+      <span>Filters</span>
+      <span class="filter-summary" id="filter-summary"></span>
+    </summary>
+
+    <section class="filter-group">
+      <h2>Colors</h2>
+      <div class="chips" id="color-chips" role="group" aria-label="Filter by color"></div>
+    </section>
+
+    <section class="filter-group">
+      <h2>Iconography</h2>
+      <div class="chips" id="icon-chips" role="group" aria-label="Filter by iconography"></div>
+    </section>
+
+    <section class="filter-group">
+      <h2>Shape</h2>
+      <div class="chips" id="shape-chips" role="group" aria-label="Filter by shape"></div>
+    </section>
+
+    <button id="clear-btn" class="clear-btn" type="button">Clear all</button>
+  </details>
+
+  <main>
+    <p class="count" id="count">Loading...</p>
+    <ul class="grid" id="grid" aria-live="polite"></ul>
+  </main>
+
+  <footer class="page-footer">
+    <a href="curate.html">Curate flag attributes →</a>
+    &nbsp;·&nbsp;
+    <a href="review.html">Review suggested fixes →</a>
+  </footer>
+
+  <dialog class="detail" id="detail" aria-label="Selected flag">
+    <button class="detail-close" id="detail-close" type="button" aria-label="Close">&times;</button>
+    <img id="detail-img" alt="" />
+    <h2 id="detail-name"></h2>
+    <pre id="detail-tags" class="tags"></pre>
+    <p id="detail-source" class="detail-source"></p>
+    <button id="detail-copy" class="copy-btn" type="button">Copy tags</button>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

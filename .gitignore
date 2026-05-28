@@ -1,0 +1,17 @@
+node_modules/
+.DS_Store
+*.log
+# Build-time caches (NSI fallback, etc) — not part of the shipped site.
+data/.cache/
+
+# AI/LLM assistants
+.claude/
+.cursor/
+.aider*
+.continue/
+.codeium/
+.windsurf/
+.github/copilot-*
+CLAUDE.md
+AGENTS.md
+.specstory/

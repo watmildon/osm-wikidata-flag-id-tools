@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Curate — OSM Flag Identifier</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="curate">
+  <header class="topbar">
+    <h1>Curate flags</h1>
+    <p class="hint">
+      <span id="queue-pos">—</span>
+      &middot; <a href="index.html">back to identifier</a>
+    </p>
+  </header>
+
+  <main class="curate-main">
+    <section class="curate-flag">
+      <img id="flag-img" alt="" />
+      <div class="curate-meta">
+        <h2 id="flag-name">—</h2>
+        <p class="meta-line">
+          <a id="flag-link" href="#" target="_blank" rel="noopener"></a>
+          &middot; <span id="flag-count">—</span> OSM uses
+          &middot; <span id="flag-entity-state"></span>
+        </p>
+      </div>
+    </section>
+
+    <section class="filter-group">
+      <h2>Colors</h2>
+      <div class="chips" id="color-chips" role="group" aria-label="Set colors"></div>
+    </section>
+
+    <section class="filter-group">
+      <h2>Iconography</h2>
+      <div class="chips" id="icon-chips" role="group" aria-label="Set iconography"></div>
+    </section>
+
+    <section class="filter-group">
+      <h2>Shape</h2>
+      <div class="chips" id="shape-chips" role="group" aria-label="Set shape"></div>
+    </section>
+
+    <div class="curate-actions">
+      <button id="skip-btn" class="action-secondary" type="button">Skip</button>
+      <button id="save-btn" class="action-primary" type="button">Save &amp; next</button>
+    </div>
+
+    <section class="curate-filter-bar">
+      <label class="check"><input type="checkbox" id="only-needs-attention" checked /> Only flags missing data</label>
+      <label class="check"><input type="checkbox" id="hide-non-flag-entities" /> Hide non-flag QIDs</label>
+    </section>
+  </main>
+
+  <footer class="curate-footer">
+    <span><strong id="pending-count">0</strong> pending edits</span>
+    <button id="export-btn" class="action-primary" type="button" disabled>Export overrides.json</button>
+    <button id="clear-pending-btn" class="action-secondary" type="button" disabled>Discard</button>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module" src="js/curate.js"></script>
+</body>
+</html>

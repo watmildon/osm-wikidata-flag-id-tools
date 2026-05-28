@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Review — OSM Flag Identifier</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Review suggested fixes</h1>
+    <p class="hint">
+      QIDs tagged in OSM that aren't flag entities, but whose Wikidata item
+      has a P163 link to a real flag. Likely tagging mistakes.
+      &middot; <a href="index.html">back to identifier</a>
+    </p>
+  </header>
+
+  <main class="review-main">
+    <p class="count" id="review-count">Loading…</p>
+    <table class="review-table" id="review-table">
+      <thead>
+        <tr>
+          <th scope="col">Bad QID</th>
+          <th scope="col">Suggested</th>
+          <th scope="col" class="num">OSM uses</th>
+          <th scope="col">Find in OSM</th>
+        </tr>
+      </thead>
+      <tbody id="review-rows"></tbody>
+    </table>
+  </main>
+
+  <script type="module" src="js/review.js"></script>
+</body>
+</html>
