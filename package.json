@@ -7,6 +7,8 @@
     "build": "node scripts/build-flags.mjs",
     "build:force": "node scripts/build-flags.mjs --force",
     "build:review": "node scripts/build-review.mjs",
+    "refresh:nsi": "node scripts/refresh-nsi.mjs",
+    "refresh:overpass": "node scripts/refresh-overpass.mjs",
     "fetch:descriptions": "node scripts/fetch-wikipedia-descriptions.mjs",
     "serve": "python -m http.server 8000"
   }

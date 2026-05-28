@@ -17,7 +17,8 @@ const QUERY = `
 SELECT ?item ?itemLabel ?flag ?flagLabel WHERE {
   VALUES ?item { __VALUES__ }
   ?item wdt:P163 ?flag .
-  ?flag wdt:P31/wdt:P279* wd:Q69506823 .
+  { ?flag wdt:P31/wdt:P279* wd:Q69506823 } UNION
+  { ?flag wdt:P31/wdt:P279* wd:Q14660    }
   ?flag wdt:P18 ?image .
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }

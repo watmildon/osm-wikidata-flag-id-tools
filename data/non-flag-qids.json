@@ -1,119 +1,5 @@
 [
   {
-    "qid": "Q1463762",
-    "name": "National League of Families POW/MIA flag",
-    "count": 693,
-    "file": "United States POW-MIA flag.svg"
-  },
-  {
-    "qid": "Q1402799",
-    "name": "flag of Chicago",
-    "count": 392,
-    "file": "Flag of Chicago, Illinois.svg"
-  },
-  {
-    "qid": "Q98055852",
-    "name": "flag of the European Union",
-    "count": 293,
-    "file": "Flag of Europe.svg"
-  },
-  {
-    "qid": "Q64300176",
-    "name": "McDonald's flag",
-    "count": 193,
-    "file": "Flag of the McDonald's Corporation (pre-2006).svg"
-  },
-  {
-    "qid": "Q5456897",
-    "name": "flag of the United States Marine Corps",
-    "count": 126,
-    "file": "Flag of the United States Marine Corps.svg"
-  },
-  {
-    "qid": "Q5456898",
-    "name": "flag of the United States Army",
-    "count": 119,
-    "file": "Flag of the United States Army.svg"
-  },
-  {
-    "qid": "Q5456899",
-    "name": "flag of the United States Navy",
-    "count": 107,
-    "file": "Flag of the United States Navy.svg"
-  },
-  {
-    "qid": "Q5456895",
-    "name": "flag of the United States Coast Guard",
-    "count": 103,
-    "file": "Flag of the United States Coast Guard.svg"
-  },
-  {
-    "qid": "Q5456894",
-    "name": "flag of the United States Air Force",
-    "count": 98,
-    "file": "Flag of the United States Air Force.svg"
-  },
-  {
-    "qid": "Q1285625",
-    "name": "Australian Aboriginal flag",
-    "count": 77,
-    "file": "Australian Aboriginal Flag.svg"
-  },
-  {
-    "qid": "Q1130142",
-    "name": "Buddhist flag",
-    "count": 76,
-    "file": "Flag of Buddhism.svg"
-  },
-  {
-    "qid": "Q124128386",
-    "name": "flag for the Green Flag Award",
-    "count": 59,
-    "file": null
-  },
-  {
-    "qid": "Q1084035",
-    "name": "Christian Flag",
-    "count": 56,
-    "file": "Christian flag.svg"
-  },
-  {
-    "qid": "Q63991554",
-    "name": "flag of the Red Cross",
-    "count": 51,
-    "file": "Flag of the Red Cross.svg"
-  },
-  {
-    "qid": "Q1788743",
-    "name": "Confederate Battle Flag",
-    "count": 46,
-    "file": "North Virginia Third Bunting.svg"
-  },
-  {
-    "qid": "Q830262",
-    "name": "flag of Gdańsk",
-    "count": 41,
-    "file": "POL Gdańsk flag.svg"
-  },
-  {
-    "qid": "Q783490",
-    "name": "flag of the Association of Southeast Asian Nations",
-    "count": 37,
-    "file": null
-  },
-  {
-    "qid": "Q462621",
-    "name": "Torres Strait Islander flag",
-    "count": 30,
-    "file": "Torres Strait Flag Day 2021 - 51222675210.jpg"
-  },
-  {
-    "qid": "Q172446",
-    "name": "flag of the United Nations",
-    "count": 29,
-    "file": "Flag of the United Nations.svg"
-  },
-  {
     "qid": "Q29344371",
     "name": "Arnold Clark Group",
     "count": 29,
@@ -126,40 +12,10 @@
     "file": "Daley Plaza 060716.jpg"
   },
   {
-    "qid": "Q458651",
-    "name": "Blue Flag beach",
-    "count": 19,
-    "file": null
-  },
-  {
-    "qid": "Q106501701",
-    "name": "flag of Melun",
-    "count": 18,
-    "file": "Drapeau de Melun.jpg"
-  },
-  {
     "qid": "Q2508330",
     "name": "Nishan Sahib",
     "count": 17,
     "file": "Nishan Sahib.svg"
-  },
-  {
-    "qid": "Q1882040",
-    "name": "flag of Baden",
-    "count": 17,
-    "file": "Flagge Großherzogtum Baden (1891–1918).svg"
-  },
-  {
-    "qid": "Q98538622",
-    "name": "flag of REWE",
-    "count": 16,
-    "file": "Logo REWE.svg"
-  },
-  {
-    "qid": "Q106498503",
-    "name": "flag of Dunkirk",
-    "count": 16,
-    "file": "Flag of Dunkirk.svg"
   },
   {
     "qid": "Q966971",
@@ -168,172 +24,16 @@
     "file": "Castorama (Stettin).jpg"
   },
   {
-    "qid": "Q94652289",
-    "name": "flag of the United States Space Force",
-    "count": 16,
-    "file": "Flag of the United States Space Force.svg"
-  },
-  {
-    "qid": "Q459788",
-    "name": "flag of NATO",
-    "count": 15,
-    "file": "Flag of NATO.svg"
-  },
-  {
-    "qid": "Q116486314",
-    "name": "flag of Turku",
-    "count": 15,
-    "file": "Turku.lippu.svg"
-  },
-  {
-    "qid": "Q62673928",
-    "name": "flag of San Jose",
-    "count": 14,
-    "file": "Flag of San José, California.svg"
-  },
-  {
-    "qid": "Q30909105",
-    "name": "Flag of Lyon",
-    "count": 14,
-    "file": "Flag of Lyon, France.svg"
-  },
-  {
-    "qid": "Q12373049",
-    "name": "flag of Pärnu",
-    "count": 13,
-    "file": "Flag of et-Parnu.svg"
-  },
-  {
-    "qid": "Q79678237",
-    "name": "flag of Mainz",
-    "count": 12,
-    "file": "Mainz Flagge Hissformat.svg"
-  },
-  {
-    "qid": "Q5456787",
-    "name": "flag of New Orleans",
-    "count": 11,
-    "file": "Flag of New Orleans, Louisiana.svg"
-  },
-  {
-    "qid": "Q23925186",
-    "name": "flag of the Greek Orthodox Church",
-    "count": 11,
-    "file": "Flag of the Greek Orthodox Church.svg"
-  },
-  {
-    "qid": "Q97503383",
-    "name": "flag of the University of Minnesota",
-    "count": 11,
-    "file": null
-  },
-  {
-    "qid": "Q63874423",
-    "name": "Bourbon royal standard",
-    "count": 11,
-    "file": "Pavillon royal de France.svg"
-  },
-  {
-    "qid": "Q66371866",
-    "name": "flag of Nantes",
-    "count": 11,
-    "file": "Drapeau de Nantes.svg"
-  },
-  {
-    "qid": "Q1414813",
-    "name": "flag of New York City",
-    "count": 10,
-    "file": "Flag of New York City.svg"
-  },
-  {
-    "qid": "Q2169543",
-    "name": "flag of Veneto",
-    "count": 10,
-    "file": "Flag of Veneto.svg"
-  },
-  {
-    "qid": "Q9260246",
-    "name": "flag of Gdynia",
-    "count": 10,
-    "file": "POL Gdynia flag.svg"
-  },
-  {
-    "qid": "Q100711795",
-    "name": "Tree City USA flag",
-    "count": 10,
-    "file": "Tree City USA - DPLA - 311c0c8ed551f658c2102efe58f12c1e.jpg"
-  },
-  {
-    "qid": "Q2777623",
-    "name": "flag of Ottawa",
-    "count": 9,
-    "file": "Flag of Ottawa, Ontario.svg"
-  },
-  {
     "qid": "Q82876072",
     "name": "five-color flag",
     "count": 9,
     "file": "Vietnamese Five Colors Flag.svg"
   },
   {
-    "qid": "Q819691",
-    "name": "flag of Berlin",
-    "count": 9,
-    "file": "Flag of Berlin.svg"
-  },
-  {
-    "qid": "Q96912183",
-    "name": "flag of the United States Merchant Marine",
-    "count": 9,
-    "file": "United States Merchant Marine.jpg"
-  },
-  {
-    "qid": "Q14753997",
-    "name": "flag of Vlieland",
-    "count": 9,
-    "file": "Flag of Vlieland.svg"
-  },
-  {
-    "qid": "Q5456721",
-    "name": "flag of Cincinnati",
-    "count": 9,
-    "file": "Flag of Cincinnati, Ohio.svg"
-  },
-  {
-    "qid": "Q106501527",
-    "name": "flag of Saint-Malo",
-    "count": 8,
-    "file": "Drapeau de Saint-Malo (20è siècle).svg"
-  },
-  {
-    "qid": "Q77795712",
-    "name": "Hilton flag",
-    "count": 8,
-    "file": "HI mk logo hiltonbrandlogo.jpg"
-  },
-  {
-    "qid": "Q618036",
-    "name": "flag of Toronto",
-    "count": 7,
-    "file": "Flag of Toronto, Canada.svg"
-  },
-  {
-    "qid": "Q2875801",
-    "name": "flag of Córdoba Province, Argentina",
-    "count": 6,
-    "file": "Bandera de la Provincia de Córdoba 2014.svg"
-  },
-  {
     "qid": "Q110069565",
     "name": "Hoppenbrouwers",
     "count": 6,
     "file": null
-  },
-  {
-    "qid": "Q15978065",
-    "name": "flag of the City of Santo André (São Paulo)",
-    "count": 6,
-    "file": "BandeiraSantoAndre.svg"
   },
   {
     "qid": "Q5600639",
@@ -366,34 +66,10 @@
     "file": null
   },
   {
-    "qid": "Q111912959",
-    "name": "Flag of Orania",
-    "count": 6,
-    "file": "Orania flag.svg"
-  },
-  {
-    "qid": "Q116481827",
-    "name": "Red Ensign of New Zealand",
-    "count": 6,
-    "file": "Civil Ensign of New Zealand.svg"
-  },
-  {
-    "qid": "Q106498475",
-    "name": "flag of Besançon",
-    "count": 6,
-    "file": "Flag of Besançon.svg"
-  },
-  {
     "qid": "Q725122",
     "name": "Laakdal",
     "count": 6,
     "file": "Vorst - Sint-Niklaaskerk.jpg"
-  },
-  {
-    "qid": "Q2917560",
-    "name": "flag of San Francisco",
-    "count": 6,
-    "file": "Flag of San Francisco, California.svg"
   },
   {
     "qid": "Q458",
@@ -402,46 +78,10 @@
     "file": null
   },
   {
-    "qid": "Q113410900",
-    "name": "flag of Turenne",
-    "count": 5,
-    "file": "Flag of Turenne.gif"
-  },
-  {
-    "qid": "Q112963962",
-    "name": "flag of Vedène",
-    "count": 5,
-    "file": "Bandera de Vedene.png"
-  },
-  {
     "qid": "Q14660",
     "name": "flag",
     "count": 5,
     "file": "Palais des Nations unies, à Genève (cropped).jpg"
-  },
-  {
-    "qid": "Q96602193",
-    "name": "Capetian banner",
-    "count": 5,
-    "file": "Cultural flag of Île-de-France.svg"
-  },
-  {
-    "qid": "Q5456759",
-    "name": "flag of Jacksonville",
-    "count": 5,
-    "file": "Flag of Jacksonville, Florida.svg"
-  },
-  {
-    "qid": "Q3039032",
-    "name": "flag of Milwaukee",
-    "count": 5,
-    "file": "Flag of Milwaukee, Wisconsin.svg"
-  },
-  {
-    "qid": "Q74052383",
-    "name": "Hilton Garden Inn flag",
-    "count": 5,
-    "file": "HGI-Logo-Color HR.png"
   },
   {
     "qid": "Q955764",
@@ -456,18 +96,6 @@
     "file": null
   },
   {
-    "qid": "Q113550967",
-    "name": "flag of Le Château-d'Oléron",
-    "count": 5,
-    "file": "Citadelle du Château-d'Oléron 2018 Porte royale 02.jpg"
-  },
-  {
-    "qid": "Q66363800",
-    "name": "flag of Sharonville",
-    "count": 5,
-    "file": null
-  },
-  {
     "qid": "Q30",
     "name": "United States",
     "count": 5,
@@ -478,12 +106,6 @@
     "name": "Evanston",
     "count": 5,
     "file": "Fountain Square Evanston.jpg"
-  },
-  {
-    "qid": "Q112964480",
-    "name": "flag of Cancale",
-    "count": 4,
-    "file": "Flag of Cancale.gif"
   },
   {
     "qid": "Q599694",
@@ -504,58 +126,16 @@
     "file": "BYD Zhengzhou All-Terrain Circuit entrance.png"
   },
   {
-    "qid": "Q122965273",
-    "name": "flag of Mons",
-    "count": 4,
-    "file": "Flag of Mons.svg"
-  },
-  {
     "qid": "Q27925551",
     "name": "NeuerMarkt",
     "count": 4,
     "file": "Aussenansicht NeuerMarkt.tif"
   },
   {
-    "qid": "Q106498712",
-    "name": "flag of Toulon",
-    "count": 4,
-    "file": "Flag of Toulon.svg"
-  },
-  {
-    "qid": "Q98691769",
-    "name": "flag of Calcasieu Parish",
-    "count": 4,
-    "file": null
-  },
-  {
-    "qid": "Q106498465",
-    "name": "flag of Annecy",
-    "count": 4,
-    "file": "Flag of Annecy.svg"
-  },
-  {
     "qid": "Q614274",
     "name": "Anzegem",
     "count": 4,
     "file": "Anzegem - Hof ter Walskerke 1.jpg"
-  },
-  {
-    "qid": "Q106498510",
-    "name": "flag of Grenoble",
-    "count": 4,
-    "file": "Flag of Grenoble.svg"
-  },
-  {
-    "qid": "Q113558295",
-    "name": "flag of Sauveterre-de-Guyenne",
-    "count": 4,
-    "file": null
-  },
-  {
-    "qid": "Q113361764",
-    "name": "flag of Les Baux-de-Provence",
-    "count": 4,
-    "file": "Flag of Les Baux-de-Provence.gif"
   },
   {
     "qid": "Q129391",
@@ -570,64 +150,16 @@
     "file": "Five Mile Lake Park, Auburn, WA.jpg"
   },
   {
-    "qid": "Q113294647",
-    "name": "flag of Château-Thierry",
-    "count": 4,
-    "file": null
-  },
-  {
-    "qid": "Q96409154",
-    "name": "flag of Prairie View A&M University",
-    "count": 4,
-    "file": null
-  },
-  {
-    "qid": "Q67485913",
-    "name": "flag of The American Legion",
-    "count": 4,
-    "file": null
-  },
-  {
     "qid": "Q1191401",
     "name": "Rosemont",
     "count": 4,
     "file": "River Road, Rosemont, Illinois.JPG"
   },
   {
-    "qid": "Q70119112",
-    "name": "flag of Hampton by Hilton",
-    "count": 4,
-    "file": "Flag of Hampton Inn & Suites by Hilton.png"
-  },
-  {
     "qid": "Q601166",
     "name": "Niles",
     "count": 4,
     "file": "Leaning Tower of Niles.jpg"
-  },
-  {
-    "qid": "Q98400609",
-    "name": "flag of Dayton",
-    "count": 4,
-    "file": "Flag of Dayton, Ohio.svg"
-  },
-  {
-    "qid": "Q80606550",
-    "name": "flag of Florence",
-    "count": 4,
-    "file": null
-  },
-  {
-    "qid": "Q78517668",
-    "name": "Florida International University flag",
-    "count": 3,
-    "file": null
-  },
-  {
-    "qid": "Q126489298",
-    "name": "flag of Hochschule Furtwangen University",
-    "count": 3,
-    "file": null
   },
   {
     "qid": "Q1049334",
@@ -642,12 +174,6 @@
     "file": "Logo of Croatian Defence Council 2.svg"
   },
   {
-    "qid": "Q2156111",
-    "name": "flag of San Luis Province",
-    "count": 3,
-    "file": "Bandera de la Provincia de San Luis.svg"
-  },
-  {
     "qid": "Q130710876",
     "name": "Q130710876",
     "count": 3,
@@ -660,40 +186,10 @@
     "file": "UjpestVaroshazaFotoThalerTamas.JPG"
   },
   {
-    "qid": "Q2403145",
-    "name": "flag of Buenos Aires Province",
-    "count": 3,
-    "file": "Bandera de la Provincia de Buenos Aires.svg"
-  },
-  {
-    "qid": "Q112963947",
-    "name": "flag of Remiremont",
-    "count": 3,
-    "file": "Remiremont - place Christian-Poncelet - 2022-05-31 - 26.jpg"
-  },
-  {
-    "qid": "Q62920304",
-    "name": "flag of the Roman Catholic Archdiocese of Cincinnati",
-    "count": 3,
-    "file": "Flag of the Roman Catholic Archdiocese of Cincinnati.svg"
-  },
-  {
-    "qid": "Q106500988",
-    "name": "flag of Saint-Tropez",
-    "count": 3,
-    "file": "Flag of Saint-Tropez.svg"
-  },
-  {
     "qid": "Q98027472",
     "name": "New Zealand White Ensign",
     "count": 3,
     "file": "Naval Ensign of New Zealand.svg"
-  },
-  {
-    "qid": "Q68611377",
-    "name": "flag of Newport",
-    "count": 3,
-    "file": null
   },
   {
     "qid": "Q28459",
@@ -726,40 +222,10 @@
     "file": "Congreso del Frente Sandinista.jpg"
   },
   {
-    "qid": "Q113377752",
-    "name": "flag of Pertuis",
-    "count": 3,
-    "file": null
-  },
-  {
-    "qid": "Q14515865",
-    "name": "flag of Terschelling",
-    "count": 3,
-    "file": "Flag of Terschelling.svg"
-  },
-  {
-    "qid": "Q83302688",
-    "name": "flag of Caodaism",
-    "count": 3,
-    "file": null
-  },
-  {
-    "qid": "Q139493892",
-    "name": "flag of Oldenburg",
-    "count": 3,
-    "file": "Flagge der kreisfreien Stadt Oldenburg.svg"
-  },
-  {
     "qid": "Q53268",
     "name": "Toyota",
     "count": 3,
     "file": "Headquarter of Toyota Motor Corporation 3.JPG"
-  },
-  {
-    "qid": "Q112118624",
-    "name": "flag of the Episcopal Church",
-    "count": 3,
-    "file": "Flag of the US Episcopal Church.svg"
   },
   {
     "qid": "Q3633924",
@@ -768,28 +234,10 @@
     "file": "Ecu bandé argent gueules.svg"
   },
   {
-    "qid": "Q5718483",
-    "name": "Flag of Catamarca",
-    "count": 3,
-    "file": null
-  },
-  {
     "qid": "Q2925147",
     "name": "Bricomarché",
     "count": 3,
     "file": "Kolbuszowa (ul. Tarnobrzeska 25A) - Bricomarché.jpg"
-  },
-  {
-    "qid": "Q5456699",
-    "name": "flag of Baton Rouge",
-    "count": 3,
-    "file": "Flag of Baton Rouge, Louisiana.svg"
-  },
-  {
-    "qid": "Q5456713",
-    "name": "flag of Buffalo, New York",
-    "count": 3,
-    "file": "Flag of Buffalo, New York.svg"
   },
   {
     "qid": "Q184599",
@@ -822,24 +270,6 @@
     "file": "Postnord Solna 2013.jpg"
   },
   {
-    "qid": "Q1502989",
-    "name": "White Ensign",
-    "count": 3,
-    "file": "Naval ensign of the United Kingdom.svg"
-  },
-  {
-    "qid": "Q1856088",
-    "name": "flag of Rotterdam",
-    "count": 3,
-    "file": "Flag of Rotterdam.svg"
-  },
-  {
-    "qid": "Q113342854",
-    "name": "flag of Wasquehal",
-    "count": 3,
-    "file": null
-  },
-  {
     "qid": "Q1326645",
     "name": "Elektrizitätswerk der Stadt Zürich",
     "count": 3,
@@ -848,12 +278,6 @@
   {
     "qid": "Q2963322",
     "name": "Chicago Park District",
-    "count": 3,
-    "file": null
-  },
-  {
-    "qid": "Q113559430",
-    "name": "flag of Terrasson-Lavilledieu",
     "count": 3,
     "file": null
   },
@@ -894,12 +318,6 @@
     "file": null
   },
   {
-    "qid": "Q135472669",
-    "name": "Skull of Llanera",
-    "count": 3,
-    "file": "Philippine revolution flag llanera.png"
-  },
-  {
     "qid": "Q1273376",
     "name": "E.Leclerc",
     "count": 3,
@@ -914,30 +332,6 @@
   {
     "qid": "Q1665134",
     "name": "Research Institute for Sustainability",
-    "count": 3,
-    "file": null
-  },
-  {
-    "qid": "Q130739387",
-    "name": "PS flag",
-    "count": 3,
-    "file": null
-  },
-  {
-    "qid": "Q63063601",
-    "name": "flag of Santa Clara",
-    "count": 3,
-    "file": "Flag of Santa Clara, California.png"
-  },
-  {
-    "qid": "Q137163818",
-    "name": "Flag of Riverside",
-    "count": 3,
-    "file": "Flag of Riverside, California (2020).svg"
-  },
-  {
-    "qid": "Q77783292",
-    "name": "flag of Washington",
     "count": 3,
     "file": null
   },
@@ -960,22 +354,10 @@
     "file": "Rabotoren.jpg"
   },
   {
-    "qid": "Q148002",
-    "name": "Estelada",
-    "count": 3,
-    "file": "Estelada roja.svg"
-  },
-  {
     "qid": "Q3153200",
     "name": "Intermarché",
     "count": 3,
     "file": "Intermarché Serres-Castet.jpg"
-  },
-  {
-    "qid": "Q1193967",
-    "name": "Wiphala",
-    "count": 3,
-    "file": "Banner of the Qulla Suyu (1979).svg"
   },
   {
     "qid": "Q782773",
@@ -984,40 +366,10 @@
     "file": "Naval Ensign of Australia.svg"
   },
   {
-    "qid": "Q1073859",
-    "name": "Assyrian flag",
-    "count": 3,
-    "file": "Flag of the Assyrians (gold and blue Assur).svg"
-  },
-  {
-    "qid": "Q80739604",
-    "name": "flag of Covington",
-    "count": 3,
-    "file": null
-  },
-  {
     "qid": "Q578221",
     "name": "Cicero",
     "count": 3,
     "file": "J. Sterling Morton High School East Auditorium.jpg"
-  },
-  {
-    "qid": "Q65962766",
-    "name": "flag of St. Bernard",
-    "count": 3,
-    "file": null
-  },
-  {
-    "qid": "Q115527338",
-    "name": "standard of the Salvation Army",
-    "count": 3,
-    "file": "Drapeau de l'Armée du salut.svg"
-  },
-  {
-    "qid": "Q2361008",
-    "name": "Bonnie Blue Flag",
-    "count": 3,
-    "file": "Bonnie Blue flag.svg"
   },
   {
     "qid": "Q2668483",
@@ -1026,46 +378,10 @@
     "file": "Downtown Lansing.jpg"
   },
   {
-    "qid": "Q98400624",
-    "name": "flag of Montgomery County",
-    "count": 3,
-    "file": null
-  },
-  {
-    "qid": "Q62931620",
-    "name": "flag of Hamilton County",
-    "count": 3,
-    "file": "Flag of Hamilton County, Ohio.svg"
-  },
-  {
-    "qid": "Q3633963",
-    "name": "flag of Milan",
-    "count": 3,
-    "file": "Flag of Milan.svg"
-  },
-  {
-    "qid": "Q30905330",
-    "name": "flag of Marseille",
-    "count": 2,
-    "file": "Flag of Marseille.svg"
-  },
-  {
     "qid": "Q749243",
     "name": "Church of Sweden",
     "count": 2,
     "file": "Church of Sweden logo.svg"
-  },
-  {
-    "qid": "Q2914899",
-    "name": "Royal Air Force Ensign",
-    "count": 2,
-    "file": "Air Force Ensign of the United Kingdom.svg"
-  },
-  {
-    "qid": "Q1983397",
-    "name": "flag of Moscow",
-    "count": 2,
-    "file": "Flag of Moscow, Russia.svg"
   },
   {
     "qid": "Q8036139",
@@ -1074,34 +390,10 @@
     "file": null
   },
   {
-    "qid": "Q106501431",
-    "name": "flag of Vincennes",
-    "count": 2,
-    "file": "Drapeau de Vincennes, France.svg"
-  },
-  {
-    "qid": "Q71877987",
-    "name": "flag of Alexandria",
-    "count": 2,
-    "file": null
-  },
-  {
     "qid": "Q7373877",
     "name": "Royal Canadian Air Force Ensign",
     "count": 2,
     "file": "Air Force Ensign of Canada.svg"
-  },
-  {
-    "qid": "Q77796359",
-    "name": "flag of Milwaukee County",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q106737226",
-    "name": "flag of Three Rivers",
-    "count": 2,
-    "file": "Flag of Three Rivers, Michigan.svg"
   },
   {
     "qid": "Q2666488",
@@ -1114,12 +406,6 @@
     "name": "Lexus",
     "count": 2,
     "file": "Lexus of Sapporo.jpg"
-  },
-  {
-    "qid": "Q97515806",
-    "name": "flag of Wellington",
-    "count": 2,
-    "file": null
   },
   {
     "qid": "Q846153",
@@ -1138,12 +424,6 @@
     "name": "Calafell",
     "count": 2,
     "file": "Platja de Calafell.jpg"
-  },
-  {
-    "qid": "Q4488270",
-    "name": "Flags of Kharkiv",
-    "count": 2,
-    "file": "Kharkiv-town-flag.svg"
   },
   {
     "qid": "Q93347",
@@ -1170,28 +450,10 @@
     "file": "Tyresö slott - KMB - 16000300026959.jpg"
   },
   {
-    "qid": "Q112963130",
-    "name": "flag of Dijon",
-    "count": 2,
-    "file": "Flag of Dijon.svg"
-  },
-  {
-    "qid": "Q97500876",
-    "name": "Walt Disney World flag",
-    "count": 2,
-    "file": null
-  },
-  {
     "qid": "Q1112515",
     "name": "University of New Brunswick",
     "count": 2,
     "file": "UNB OldArtsBuilding.JPG"
-  },
-  {
-    "qid": "Q106677755",
-    "name": "flag of Saint-Claude",
-    "count": 2,
-    "file": "Flag of Annemasse.svg"
   },
   {
     "qid": "Q578150",
@@ -1206,94 +468,16 @@
     "file": "Semmelweis University, main building.jpg"
   },
   {
-    "qid": "Q104202987",
-    "name": "Carl's Jr. flag",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q97495855",
-    "name": "American Police Hall of Fame flag",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q6919069",
-    "name": "Moultrie Flag",
-    "count": 2,
-    "file": "Flag of Fort Moultrie, South Carolina.svg"
-  },
-  {
-    "qid": "Q42888728",
-    "name": "flag of Setumaa",
-    "count": 2,
-    "file": "Flag of Setomaa.svg"
-  },
-  {
-    "qid": "Q113273238",
-    "name": "flag of Colmar",
-    "count": 2,
-    "file": "Flag of Colmar.gif"
-  },
-  {
     "qid": "Q78759878",
     "name": "flag and coat of arms of New Jersey",
     "count": 2,
     "file": "Coat of Arms of New Jersey.svg"
   },
   {
-    "qid": "Q105805519",
-    "name": "Royal New Zealand Air Force Ensign",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q127117943",
-    "name": "Flag of Santiago de Compostela",
-    "count": 2,
-    "file": "Flag of Santiago de Compostela.svg"
-  },
-  {
-    "qid": "Q917652",
-    "name": "Gadsden flag",
-    "count": 2,
-    "file": "Gadsden flag.svg"
-  },
-  {
-    "qid": "Q4487879",
-    "name": "flag of Sokolsky District",
-    "count": 2,
-    "file": "Flag of Sokol (Vologda oblast).png"
-  },
-  {
     "qid": "Q368526",
     "name": "Yauco",
     "count": 2,
     "file": "2nd Plaza in Yauco.JPG"
-  },
-  {
-    "qid": "Q6950149",
-    "name": "Métis flag",
-    "count": 2,
-    "file": "Metis Red.svg"
-  },
-  {
-    "qid": "Q106676565",
-    "name": "flag of Ploërmel",
-    "count": 2,
-    "file": "Ville-ploermel.gif"
-  },
-  {
-    "qid": "Q124285078",
-    "name": "flag of Stolichna obshtina",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q12751889",
-    "name": "flag of Tallahassee",
-    "count": 2,
-    "file": "Flag of Tallahassee, Florida (2002–2020).svg"
   },
   {
     "qid": "Q16489490",
@@ -1308,52 +492,10 @@
     "file": null
   },
   {
-    "qid": "Q113299368",
-    "name": "flag of La Flèche",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q4486662",
-    "name": "flag of Krasnoyarsk",
-    "count": 2,
-    "file": "Flag of Krasnoyarsk.svg"
-  },
-  {
-    "qid": "Q80907988",
-    "name": "flag of Wilder",
-    "count": 2,
-    "file": null
-  },
-  {
     "qid": "Q105037",
     "name": "Callao",
     "count": 2,
     "file": "Vista aérea de la Iglesia Matriz del Callao.jpg"
-  },
-  {
-    "qid": "Q77780557",
-    "name": "Westin flag",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q5456771",
-    "name": "flag of Lisbon",
-    "count": 2,
-    "file": "Bandeira municipal de Lisboa.png"
-  },
-  {
-    "qid": "Q113330139",
-    "name": "flag of Ferrette",
-    "count": 2,
-    "file": "Flag of Ferrette.gif"
-  },
-  {
-    "qid": "Q106682384",
-    "name": "flag of Bray-Dunes",
-    "count": 2,
-    "file": "Flag of Bray-Dunes.svg"
   },
   {
     "qid": "Q38",
@@ -1362,34 +504,10 @@
     "file": "Colosseo 2020.jpg"
   },
   {
-    "qid": "Q5718690",
-    "name": "flag of Neuquén",
-    "count": 2,
-    "file": "Bandera de la Provincia del Neuquen.svg"
-  },
-  {
     "qid": "Q2323754",
     "name": "Cross of Burgundy",
     "count": 2,
     "file": "Cross of Burgundy (Template).svg"
-  },
-  {
-    "qid": "Q3039050",
-    "name": "flag of Vannes",
-    "count": 2,
-    "file": "Drapeau de Vannes.svg"
-  },
-  {
-    "qid": "Q62932637",
-    "name": "flag of the Society of the Cincinnati",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q3039042",
-    "name": "flag of Rio de Janeiro",
-    "count": 2,
-    "file": "Bandeira da cidade do Rio de Janeiro.svg"
   },
   {
     "qid": "Q995793",
@@ -1398,22 +516,10 @@
     "file": "Hampton Inn & Suites Chicago-Mt. Prospect (5).jpg"
   },
   {
-    "qid": "Q62460676",
-    "name": "Q62460676",
-    "count": 2,
-    "file": null
-  },
-  {
     "qid": "Q7317376",
     "name": "Returned and Services League of Australia",
     "count": 2,
     "file": null
-  },
-  {
-    "qid": "Q113270008",
-    "name": "flag of Roubaix",
-    "count": 2,
-    "file": "20190316 004 roubaix.jpg"
   },
   {
     "qid": "Q25444",
@@ -1422,32 +528,8 @@
     "file": "Vista de Funchal desde Pico dos Barcelos, Madeira, Portugal, 2019-05-29, DD 37-44 PAN.jpg"
   },
   {
-    "qid": "Q113303964",
-    "name": "flag of Redon",
-    "count": 2,
-    "file": "Flag of Redon.gif"
-  },
-  {
     "qid": "Q104319",
     "name": "Seventh-day Adventist Church",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q3038991",
-    "name": "flag of Indianapolis",
-    "count": 2,
-    "file": "Flag of Indianapolis.svg"
-  },
-  {
-    "qid": "Q113284094",
-    "name": "flag of Haguenau",
-    "count": 2,
-    "file": "Flag of Haguenau.gif"
-  },
-  {
-    "qid": "Q96993931",
-    "name": "flag of Holiday Inn",
     "count": 2,
     "file": null
   },
@@ -1456,18 +538,6 @@
     "name": "Saverdun",
     "count": 2,
     "file": "Mairie Saverdun (09).jpg"
-  },
-  {
-    "qid": "Q139033938",
-    "name": "flag of Tamboril",
-    "count": 2,
-    "file": "Bandeira de Tamboril.png"
-  },
-  {
-    "qid": "Q113460067",
-    "name": "flag of Dinslaken",
-    "count": 2,
-    "file": "Flagge Dinslaken.svg"
   },
   {
     "qid": "Q484263",
@@ -1482,40 +552,10 @@
     "file": "Ampang Jaya (2017).jpg"
   },
   {
-    "qid": "Q113407719",
-    "name": "flag of Pérols",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q137537567",
-    "name": "flag of Leme",
-    "count": 2,
-    "file": "Bandeira Leme SaoPaulo Brasil.svg"
-  },
-  {
-    "qid": "Q70143393",
-    "name": "flag of Fairfield",
-    "count": 2,
-    "file": null
-  },
-  {
     "qid": "Q1161666",
     "name": "Thales Group",
     "count": 2,
     "file": "Thales Paris-Saclay.JPG"
-  },
-  {
-    "qid": "Q113544379",
-    "name": "flag of Graveson",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q113550871",
-    "name": "flag of Le Cateau-Cambrésis",
-    "count": 2,
-    "file": null
   },
   {
     "qid": "Q2485604",
@@ -1524,70 +564,16 @@
     "file": "Jauca 2, Santa Isabel, Puerto Rico - panoramio.jpg"
   },
   {
-    "qid": "Q94600451",
-    "name": "Earth flag",
-    "count": 2,
-    "file": "EarthFlag1.svg"
-  },
-  {
-    "qid": "Q101483306",
-    "name": "Veterans of Foreign Wars flag",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q101221290",
-    "name": "Marriott flag",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q106498499",
-    "name": "flag of Boulogne-sur-Mer",
-    "count": 2,
-    "file": "Drapeau ville fr Boulogne-sur-Mer.svg"
-  },
-  {
-    "qid": "Q106498488",
-    "name": "flag of Calais",
-    "count": 2,
-    "file": "Flag of Calais.svg"
-  },
-  {
-    "qid": "Q122872146",
-    "name": "Mary flag",
-    "count": 2,
-    "file": "Maryjna flag of Poland.svg"
-  },
-  {
-    "qid": "Q326826",
-    "name": "Canadian Red Ensign",
-    "count": 2,
-    "file": null
-  },
-  {
     "qid": "Q6686",
     "name": "Renault",
     "count": 2,
     "file": "Renault Technocentre, entrée de l'Avancée.jpg"
   },
   {
-    "qid": "Q104781511",
-    "name": "Trump flag",
-    "count": 2,
-    "file": "2021 storming of the United States Capitol IMG 6223a (50813059681).jpg"
-  },
-  {
     "qid": "Q549181",
     "name": "MOL Group",
     "count": 2,
     "file": "Mol Campus.jpg"
-  },
-  {
-    "qid": "Q113329858",
-    "name": "flag of Ungersheim",
-    "count": 2,
-    "file": "Flag of Ungersheim.gif"
   },
   {
     "qid": "Q188096",
@@ -1602,18 +588,6 @@
     "file": "Zentrale OL Hauptgebäude10 ivo.JPG"
   },
   {
-    "qid": "Q96912350",
-    "name": "flag of Rosemount",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q78519496",
-    "name": "flag of Chapel Hill",
-    "count": 2,
-    "file": "Town of Chapel Hill Flag.png"
-  },
-  {
     "qid": "Q849801",
     "name": "Southern Highlands Province",
     "count": 2,
@@ -1626,28 +600,10 @@
     "file": "ISS036-E-9064 - View of Texas.jpg"
   },
   {
-    "qid": "Q113354220",
-    "name": "flag of Châtillon-sur-Chalaronne",
-    "count": 2,
-    "file": null
-  },
-  {
     "qid": "Q1010514",
     "name": "Bureau of International Expositions",
     "count": 2,
     "file": "Siège du Bureau international des Expositions Paris.jpg"
-  },
-  {
-    "qid": "Q83402699",
-    "name": "flag of the University of California",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q106881938",
-    "name": "flag of Halle",
-    "count": 2,
-    "file": "Halle Belgium.svg"
   },
   {
     "qid": "Q11895836",
@@ -1656,62 +612,8 @@
     "file": null
   },
   {
-    "qid": "Q109648662",
-    "name": "flag of Laranjal Paulista",
-    "count": 2,
-    "file": "Bandeira de Laranjal Paulista na frente do Palácio 10 de Outubro.jpg"
-  },
-  {
-    "qid": "Q2241052",
-    "name": "Flag of Mendoza Province",
-    "count": 2,
-    "file": "Bandera de la Provincia de Mendoza.svg"
-  },
-  {
     "qid": "Q14956815",
     "name": "Novant Health",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q96970816",
-    "name": "flag of the University of Texas at Dallas",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q106502013",
-    "name": "flag of Agen",
-    "count": 2,
-    "file": "Flag of Agen.svg"
-  },
-  {
-    "qid": "Q106502064",
-    "name": "flag of Malo-les-Bains",
-    "count": 2,
-    "file": "Drapeau de la commune de Malo-les-Bains (59) Nord-France.svg"
-  },
-  {
-    "qid": "Q62668720",
-    "name": "flag of the United Farm Workers",
-    "count": 2,
-    "file": "UFW Flag.svg"
-  },
-  {
-    "qid": "Q123115016",
-    "name": "Q123115016",
-    "count": 2,
-    "file": "La Frette mairie.JPG"
-  },
-  {
-    "qid": "Q619799",
-    "name": "Tallinn flag",
-    "count": 2,
-    "file": "Flag of Tallinn.svg"
-  },
-  {
-    "qid": "Q69524205",
-    "name": "flag of Mason",
     "count": 2,
     "file": null
   },
@@ -1722,28 +624,10 @@
     "file": "Namur Citadelle 07.JPG"
   },
   {
-    "qid": "Q97501750",
-    "name": "Homewood Suites flag",
-    "count": 2,
-    "file": null
-  },
-  {
     "qid": "Q1976009",
     "name": "Harwood Heights",
     "count": 2,
     "file": "The Mont Clare.JPG"
-  },
-  {
-    "qid": "Q96986169",
-    "name": "flag of Harford County",
-    "count": 2,
-    "file": "Flag of Harford County, Maryland.png"
-  },
-  {
-    "qid": "Q96098094",
-    "name": "LIUNA flag",
-    "count": 2,
-    "file": null
   },
   {
     "qid": "Q1814260",
@@ -1752,52 +636,16 @@
     "file": "Volkswagen union election.jpg"
   },
   {
-    "qid": "Q70631343",
-    "name": "flag of Cheviot",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q2706970",
-    "name": "flag of Chaco province",
-    "count": 2,
-    "file": "Bandera de la Provincia del Chaco.svg"
-  },
-  {
-    "qid": "Q80859443",
-    "name": "flag of KFC",
-    "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q71799582",
-    "name": "flag of Sycamore Township",
-    "count": 2,
-    "file": null
-  },
-  {
     "qid": "Q2398391",
     "name": "Calumet Park",
     "count": 1,
     "file": "Platform at Ashland Calumet Park, looking northeast (52951443276).jpg"
   },
   {
-    "qid": "Q112964459",
-    "name": "flag of Bricquebec-en-Cotentin",
-    "count": 1,
-    "file": "Donjon du château de Bricquebec.jpg"
-  },
-  {
     "qid": "Q2458476",
     "name": "Gmina Ulhówek",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q112964386",
-    "name": "flag of Donges",
-    "count": 1,
-    "file": "Flag of Donges.svg"
   },
   {
     "qid": "Q245023",
@@ -1812,70 +660,10 @@
     "file": null
   },
   {
-    "qid": "Q106010516",
-    "name": "Flag of the Iroquois Confederacy",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q32859372",
-    "name": "flag of Gandia",
-    "count": 1,
-    "file": "Bandera de Gandia.svg"
-  },
-  {
-    "qid": "Q112964512",
-    "name": "flag of Gimel-les-Cascades",
-    "count": 1,
-    "file": "Flag of Gimel-les-Cascades.gif"
-  },
-  {
-    "qid": "Q112964507",
-    "name": "flag of Bergues",
-    "count": 1,
-    "file": "Flag of Bergues.gif"
-  },
-  {
-    "qid": "Q56027897",
-    "name": "flag of Thessaloniki",
-    "count": 1,
-    "file": "Flag of Thessaloniki.svg"
-  },
-  {
-    "qid": "Q96957656",
-    "name": "flag of Lichtervelde",
-    "count": 1,
-    "file": "Lichtervelde vlag.svg"
-  },
-  {
     "qid": "Q317818",
     "name": "Gorzów County",
     "count": 1,
     "file": "Górki - gmina Santok 2.jpg"
-  },
-  {
-    "qid": "Q113555538",
-    "name": "flag of Nogent-le-Rotrou",
-    "count": 1,
-    "file": "Flag of Nogent-le-Rotrou.gif"
-  },
-  {
-    "qid": "Q9647178",
-    "name": "Q9647178",
-    "count": 1,
-    "file": "Flag of Ourinhos SP.png"
-  },
-  {
-    "qid": "Q113332229",
-    "name": "flag of Oberhausbergen",
-    "count": 1,
-    "file": "Flag of Oberhausbergen.gif"
-  },
-  {
-    "qid": "Q9260601",
-    "name": "Koło County flag",
-    "count": 1,
-    "file": "POL powiat kolski flag.svg"
   },
   {
     "qid": "Q6310864",
@@ -1890,34 +678,10 @@
     "file": "PicoParana2006.jpg"
   },
   {
-    "qid": "Q113293379",
-    "name": "flag of Guebwiller",
-    "count": 1,
-    "file": "Flag of Guebwiller.gif"
-  },
-  {
-    "qid": "Q80367388",
-    "name": "flag of Independence",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q30637174",
-    "name": "flag of Tulsa",
-    "count": 1,
-    "file": "Flag of Tulsa, Oklahoma (2018).svg"
-  },
-  {
     "qid": "Q123238514",
     "name": "lifeguard flag",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q113496762",
-    "name": "flag of Condé-sur-l'Escaut",
-    "count": 1,
-    "file": "Flag of Condé-sur-l'Escaut.gif"
   },
   {
     "qid": "Q80987",
@@ -1926,52 +690,16 @@
     "file": "Time do Fluminense de 1907.jpg"
   },
   {
-    "qid": "Q113332382",
-    "name": "flag of Molsheim",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q81867308",
-    "name": "flag of Symmes Township",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q487907",
     "name": "Bank of America",
     "count": 1,
     "file": "Bank of America Corporate Center Charlotte, North Carolina.jpg"
   },
   {
-    "qid": "Q113293855",
-    "name": "flag of Landivisiau",
-    "count": 1,
-    "file": "Flag of Landivisiau.svg"
-  },
-  {
     "qid": "Q15878",
     "name": "Normandy",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q97501724",
-    "name": "flag of Polk State College",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q116884097",
-    "name": "flag of Glendale",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q526662",
-    "name": "flag of Dallas",
-    "count": 1,
-    "file": "Flag of Dallas.svg"
   },
   {
     "qid": "Q19871916",
@@ -1992,24 +720,6 @@
     "file": "Kurdish-inhabited areas (orthographic projection with inset).svg"
   },
   {
-    "qid": "Q112964274",
-    "name": "flag of Cluses",
-    "count": 1,
-    "file": "Flag of Cluses.svg"
-  },
-  {
-    "qid": "Q17493086",
-    "name": "flag of The Hague",
-    "count": 1,
-    "file": "Flag of The Hague.svg"
-  },
-  {
-    "qid": "Q112964246",
-    "name": "flag of Wissous",
-    "count": 1,
-    "file": "Wissous Plage (17).jpg"
-  },
-  {
     "qid": "Q15906",
     "name": "Ptuj",
     "count": 1,
@@ -2020,18 +730,6 @@
     "name": "iCIMS",
     "count": 1,
     "file": "ICIMS offices at Bell Works in Holmdel New Jersey.jpg"
-  },
-  {
-    "qid": "Q112964146",
-    "name": "flag of Châteaugiron",
-    "count": 1,
-    "file": "Flag of Châteaugiron.svg"
-  },
-  {
-    "qid": "Q112964185",
-    "name": "flag of Foix",
-    "count": 1,
-    "file": "Flag of the County of Foix.svg"
   },
   {
     "qid": "Q4469762",
@@ -2046,40 +744,10 @@
     "file": "Joutsenmerkki-logo-ruwiki.png"
   },
   {
-    "qid": "Q97515939",
-    "name": "flag of Miami Gardens",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q97515926",
-    "name": "flag of Weston",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q64764907",
-    "name": "flag of Butler County",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q494305",
     "name": "Q494305",
     "count": 1,
     "file": "Befreiungshalle-kelheim-aussen2.jpg"
-  },
-  {
-    "qid": "Q99403315",
-    "name": "Sleep Inn flag",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q64764865",
-    "name": "flag of Hamilton",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q8042899",
@@ -2088,64 +756,16 @@
     "file": "PACE-flag.svg"
   },
   {
-    "qid": "Q97515415",
-    "name": "flag of Fort Myers",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q965192",
-    "name": "flag of the City of São Paulo",
-    "count": 1,
-    "file": "Bandeira da cidade de São Paulo.svg"
-  },
-  {
-    "qid": "Q74048091",
-    "name": "Candlewood Suites flag",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q7844318",
     "name": "Triton College",
     "count": 1,
     "file": "CircleTriton.jpg"
   },
   {
-    "qid": "Q113470396",
-    "name": "flag of Saint-Julien-les-Villas",
-    "count": 1,
-    "file": "Flag of Saint-Julien-les-Villas.gif"
-  },
-  {
-    "qid": "Q32094061",
-    "name": "flag of Úbeda",
-    "count": 1,
-    "file": "Ubeda Spain.svg"
-  },
-  {
-    "qid": "Q113274940",
-    "name": "flag of La Seyne-sur-Mer",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q160173",
     "name": "Ruse",
     "count": 1,
     "file": "Collage-ruse.png"
-  },
-  {
-    "qid": "Q113110562",
-    "name": "Flag of Zaragoza City",
-    "count": 1,
-    "file": "Flag of Zaragoza.svg"
-  },
-  {
-    "qid": "Q113352544",
-    "name": "flag of Luxeuil-les-Bains",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q108111",
@@ -2166,20 +786,8 @@
     "file": "02019 0245 (2) KatowicePride-Parade (cropped).jpg"
   },
   {
-    "qid": "Q112579066",
-    "name": "flag of Hayward",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q1205753",
     "name": "German Youth Hostel Association",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q117286279",
-    "name": "flag of Laredo",
     "count": 1,
     "file": null
   },
@@ -2208,30 +816,6 @@
     "file": null
   },
   {
-    "qid": "Q97515588",
-    "name": "flag of Cape Coral",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113549592",
-    "name": "flag of La Châtre",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113549554",
-    "name": "flag of La Brède",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q3447158",
-    "name": "flag of Cleveland",
-    "count": 1,
-    "file": "Flag of Cleveland, Ohio.svg"
-  },
-  {
     "qid": "Q1970830",
     "name": "Stone Park",
     "count": 1,
@@ -2242,24 +826,6 @@
     "name": "Port de Segur de Calafell",
     "count": 1,
     "file": "PORT SEGUR-CALAFELL.jpg"
-  },
-  {
-    "qid": "Q97515877",
-    "name": "flag of Florida Atlantic University",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q97515811",
-    "name": "flag of Palm Beach County",
-    "count": 1,
-    "file": "Flag of Palm Beach County, Florida.png"
-  },
-  {
-    "qid": "Q77894587",
-    "name": "flag of Northern Michigan University",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q61757",
@@ -2298,34 +864,10 @@
     "file": null
   },
   {
-    "qid": "Q2364473",
-    "name": "Cantabrian labarum",
-    "count": 1,
-    "file": "Cantabrian Lábaru Flag.svg"
-  },
-  {
     "qid": "Q2841",
     "name": "Bogotá",
     "count": 1,
     "file": "Centro internacional.JPG"
-  },
-  {
-    "qid": "Q66363698",
-    "name": "flag of Springfield Township",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q112963836",
-    "name": "flag of Mordelles",
-    "count": 1,
-    "file": "Flag of Mordelles.svg"
-  },
-  {
-    "qid": "Q98400631",
-    "name": "Five Rivers MetroParks flag",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q3295867",
@@ -2340,52 +882,16 @@
     "file": "Székely flag (1).JPG"
   },
   {
-    "qid": "Q106677314",
-    "name": "flag of Cannes",
-    "count": 1,
-    "file": "Flag of the Commune of Cannes (Blue Variant).svg"
-  },
-  {
-    "qid": "Q106677308",
-    "name": "flag of Antibes",
-    "count": 1,
-    "file": "Flag of the Commune of Antibes-Juan-les-Pins.svg"
-  },
-  {
     "qid": "Q277017",
     "name": "Bensenville",
     "count": 1,
     "file": "Bensenville Downtown 2017 01.jpg"
   },
   {
-    "qid": "Q113292636",
-    "name": "flag of Saint-Louis",
-    "count": 1,
-    "file": "Flag of Saint-Louis.gif"
-  },
-  {
-    "qid": "Q97502970",
-    "name": "flag of Homestead",
-    "count": 1,
-    "file": "Flag of Homestead, Florida.png"
-  },
-  {
     "qid": "Q185944",
     "name": "Kelantan",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q97500972",
-    "name": "Mickey Mouse flag",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113331714",
-    "name": "flag of Ernolsheim-Bruche",
-    "count": 1,
-    "file": "Flag of Ernolsheim-Bruche.gif"
   },
   {
     "qid": "Q2280",
@@ -2398,48 +904,6 @@
     "name": "Chicago Heights",
     "count": 1,
     "file": "Chicago Heights, Illinois.jpg"
-  },
-  {
-    "qid": "Q826820",
-    "name": "Franco-Ontarian flag",
-    "count": 1,
-    "file": "Franco-Ontarian flag.svg"
-  },
-  {
-    "qid": "Q106677799",
-    "name": "flag of Étrembières",
-    "count": 1,
-    "file": "Flag of Etrembières.svg"
-  },
-  {
-    "qid": "Q112963333",
-    "name": "flag of Nouméa",
-    "count": 1,
-    "file": "Armoiries Nouméan fr.png"
-  },
-  {
-    "qid": "Q106677791",
-    "name": "flag of Gujan-Mestras",
-    "count": 1,
-    "file": "Flag of Gujan-Mestras.svg"
-  },
-  {
-    "qid": "Q106677780",
-    "name": "Q106677780",
-    "count": 1,
-    "file": "Drapeau Arsenal Rochefort.svg"
-  },
-  {
-    "qid": "Q106677732",
-    "name": "Q106677732",
-    "count": 1,
-    "file": "Flag of Miquelon-Langlade.svg"
-  },
-  {
-    "qid": "Q106677638",
-    "name": "flag of Châtillon-sur-Seine",
-    "count": 1,
-    "file": "Chatillon-Blason.jpg"
   },
   {
     "qid": "Q682443",
@@ -2460,28 +924,10 @@
     "file": null
   },
   {
-    "qid": "Q96740421",
-    "name": "flag of the Dan Beard Council",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q106500855",
-    "name": "flag of Béziers",
-    "count": 1,
-    "file": "Drapeau de Beziers.png"
-  },
-  {
     "qid": "Q205995",
     "name": "Caribbean Community",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q460072",
-    "name": "flag of the Commonwealth of Nations",
-    "count": 1,
-    "file": "Infobox Commonwealth of Nations flag.svg"
   },
   {
     "qid": "Q48268",
@@ -2490,62 +936,8 @@
     "file": "IUCN-Headquarters.jpg"
   },
   {
-    "qid": "Q120830716",
-    "name": "flag of Jeseník",
-    "count": 1,
-    "file": "Flag of Jesenik.svg"
-  },
-  {
     "qid": "Q7209944",
     "name": "Polish Merchant Navy",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113339862",
-    "name": "flag of Lauterbourg",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q80275657",
-    "name": "flag of Edgewood",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113293013",
-    "name": "flag of Horbourg-Wihr",
-    "count": 1,
-    "file": "Flag of Horbourg-Wihr.gif"
-  },
-  {
-    "qid": "Q113293248",
-    "name": "flag of Dol-de-Bretagne",
-    "count": 1,
-    "file": "Flag of Dol-de-Bretagne.svg"
-  },
-  {
-    "qid": "Q113332085",
-    "name": "flag of Oberschaeffolsheim",
-    "count": 1,
-    "file": "Flag of Oberschaeffolsheim.gif"
-  },
-  {
-    "qid": "Q97495954",
-    "name": "1980 flag of Orlando",
-    "count": 1,
-    "file": "Flag of Orlando, Florida (1980–2017).gif"
-  },
-  {
-    "qid": "Q113496537",
-    "name": "flag of Châteaubriant",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q97495996",
-    "name": "Disney's Grand Floridian flag",
     "count": 1,
     "file": null
   },
@@ -2554,12 +946,6 @@
     "name": "McHenry County",
     "count": 1,
     "file": "WoodstockILCourtHJail.JPG"
-  },
-  {
-    "qid": "Q116995629",
-    "name": "flag of Barrie",
-    "count": 1,
-    "file": "Flag of Barrie.svg"
   },
   {
     "qid": "Q122980426",
@@ -2598,34 +984,10 @@
     "file": "The Glen Town Center (2723219030).jpg"
   },
   {
-    "qid": "Q113378741",
-    "name": "flag of Précigné",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q205047",
     "name": "Kurdistan Region of Iraq",
     "count": 1,
     "file": "Empire World Erbil.jpg"
-  },
-  {
-    "qid": "Q65733569",
-    "name": "flag of Orem",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q11698218",
-    "name": "Q11698218",
-    "count": 1,
-    "file": "POL Ruda Śląska flag.svg"
-  },
-  {
-    "qid": "Q113378676",
-    "name": "flag of Friville-Escarbotin",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q28733",
@@ -2640,34 +1002,16 @@
     "file": null
   },
   {
-    "qid": "Q97397332",
-    "name": "Ecoplayas flag",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q997132",
     "name": "Arlington Heights",
     "count": 1,
     "file": "Banta, Nathaniel Moore House (Arlington Heights, IL) 02.JPG"
   },
   {
-    "qid": "Q99402076",
-    "name": "Coastal Carolina University flag",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q192119",
     "name": "Sisak",
     "count": 1,
     "file": "Sisak Fortress.jpg"
-  },
-  {
-    "qid": "Q75802290",
-    "name": "flag of Hurst",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q598884",
@@ -2694,18 +1038,6 @@
     "file": null
   },
   {
-    "qid": "Q110728191",
-    "name": "flag of Ghent",
-    "count": 1,
-    "file": "Vlag van Gent.svg"
-  },
-  {
-    "qid": "Q4487351",
-    "name": "flag of Ostashkov",
-    "count": 1,
-    "file": "Flag of Ostashkov (Tver oblast).png"
-  },
-  {
     "qid": "Q309350",
     "name": "Northwestern University",
     "count": 1,
@@ -2718,40 +1050,10 @@
     "file": null
   },
   {
-    "qid": "Q98280532",
-    "name": "flag of the Santa Clara County Fire Department",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q117192105",
-    "name": "Q117192105",
-    "count": 1,
-    "file": "Flaga Gminy Dopiewo (Trzcielin 2023) 1.jpg"
-  },
-  {
     "qid": "Q165247",
     "name": "Maywood",
     "count": 1,
     "file": "Maywood Station IL - May 2016.jpg"
-  },
-  {
-    "qid": "Q120260301",
-    "name": "flag of Melesse",
-    "count": 1,
-    "file": "Flag of Melesse.gif"
-  },
-  {
-    "qid": "Q64840938",
-    "name": "flag of Monroe",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q97515892",
-    "name": "flag of Boca Raton",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q107142855",
@@ -2766,40 +1068,10 @@
     "file": "Frankenrechen.svg"
   },
   {
-    "qid": "Q96971050",
-    "name": "flag of the Chicago Police Memorial Foundation",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q81865401",
-    "name": "National Law Enforcement Officers Memorial flag",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q14515866",
-    "name": "Q14515866",
-    "count": 1,
-    "file": "Wappen Waadt matt.svg"
-  },
-  {
-    "qid": "Q106676586",
-    "name": "flag of Aix-en-Provence",
-    "count": 1,
-    "file": "Flag of Aix-en-Provence.svg"
-  },
-  {
     "qid": "Q13972",
     "name": "Tartu",
     "count": 1,
     "file": "Tartu asv2022-04 img31 View from Emajõe Tower.jpg"
-  },
-  {
-    "qid": "Q113500851",
-    "name": "flag of Farébersviller",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q1340186",
@@ -2814,28 +1086,10 @@
     "file": null
   },
   {
-    "qid": "Q113488799",
-    "name": "flag of Beaune-la-Rolande",
-    "count": 1,
-    "file": "Flag of Beaune-la-Rolande.gif"
-  },
-  {
     "qid": "Q243007",
     "name": "Naperville",
     "count": 1,
     "file": "City of Naperville City Hall main entrance.jpg"
-  },
-  {
-    "qid": "Q113553291",
-    "name": "flag of Mauvezin",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113324624",
-    "name": "flag of Saint-Fons",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q1770",
@@ -2850,40 +1104,10 @@
     "file": "Appleton International Airport Tower and Gulfstream Hangar.jpg"
   },
   {
-    "qid": "Q113488998",
-    "name": "flag of Bouliac",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q1781",
     "name": "Budapest",
     "count": 1,
     "file": "Budapest, Hungary (explored) (14995308504).jpg"
-  },
-  {
-    "qid": "Q2036744",
-    "name": "Flag of La Rioja Province, Argentina",
-    "count": 1,
-    "file": "Bandera de la Provincia de La Rioja.svg"
-  },
-  {
-    "qid": "Q4487278",
-    "name": "flag of Odesa",
-    "count": 1,
-    "file": "Flag of Odesa (UHT COA console).svg"
-  },
-  {
-    "qid": "Q4696942",
-    "name": "Flag of Santa Cruz Department",
-    "count": 1,
-    "file": "Organisk utvikling 2. Er den levende naturen vesensforskjellig fra den døde? (Kristine Bonnevie, 1929).pdf"
-  },
-  {
-    "qid": "Q113553388",
-    "name": "flag of Mehun-sur-Yèvre",
-    "count": 1,
-    "file": "Flag of Mehun-sur-Yèvre.gif"
   },
   {
     "qid": "Q1965",
@@ -2902,18 +1126,6 @@
     "name": "Aix-en-Provence",
     "count": 1,
     "file": "Town hall of Aix-en-Provence with the flags of the State of Israel, Ukraine and Armenia (1).jpg"
-  },
-  {
-    "qid": "Q113495105",
-    "name": "flag of Bruges",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q138307557",
-    "name": "flag of Naga",
-    "count": 1,
-    "file": "Flag of Naga, Cebu.png"
   },
   {
     "qid": "Q7455752",
@@ -2940,12 +1152,6 @@
     "file": "Downtown Bolingbrook.png"
   },
   {
-    "qid": "Q120987840",
-    "name": "flag of Ixelles - Elsene",
-    "count": 1,
-    "file": "Flag of Elsene.svg"
-  },
-  {
     "qid": "Q47588",
     "name": "Basque Country",
     "count": 1,
@@ -2956,12 +1162,6 @@
     "name": "Burgos",
     "count": 1,
     "file": "Burgos city view facing south east.jpg"
-  },
-  {
-    "qid": "Q81002110",
-    "name": "flag of Taylor Mill",
-    "count": 1,
-    "file": "City of Taylor Mill Kentucky Flag.jpg"
   },
   {
     "qid": "Q329768",
@@ -2976,34 +1176,10 @@
     "file": "Downtown Melrose Park.jpg"
   },
   {
-    "qid": "Q113305608",
-    "name": "flag of Obernkirchen",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q179029",
     "name": "Sabah",
     "count": 1,
     "file": "Kota Kinabalu City Mosque 0019.jpg"
-  },
-  {
-    "qid": "Q96601862",
-    "name": "flag of Walton County",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113292522",
-    "name": "flag of Huningue",
-    "count": 1,
-    "file": "Flag of Huningue.gif"
-  },
-  {
-    "qid": "Q106677160",
-    "name": "flag of Saint-Pol-de-Léon",
-    "count": 1,
-    "file": "Flag-Saint-Pol-de-Léon.svg"
   },
   {
     "qid": "Q486459",
@@ -3016,18 +1192,6 @@
     "name": "Verona",
     "count": 1,
     "file": "Aerial picture of Verona.jpg"
-  },
-  {
-    "qid": "Q71293967",
-    "name": "flag of Dayton",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q100711829",
-    "name": "flag of Pickerington",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q2500754",
@@ -3046,18 +1210,6 @@
     "name": "Adjuntas",
     "count": 1,
     "file": "Adjuntas003.jpg"
-  },
-  {
-    "qid": "Q113272626",
-    "name": "flag of Mamoudzou",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113573485",
-    "name": "flag of Villeneuve-Loubet",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q1053372",
@@ -3108,18 +1260,6 @@
     "file": null
   },
   {
-    "qid": "Q66382818",
-    "name": "flag of Forest Park",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q1426620",
-    "name": "flag of Montreal",
-    "count": 1,
-    "file": "Flag of Montreal.svg"
-  },
-  {
     "qid": "Q2023995",
     "name": "Sauk Village",
     "count": 1,
@@ -3138,12 +1278,6 @@
     "file": null
   },
   {
-    "qid": "Q113546282",
-    "name": "flag of Hombourg-Haut",
-    "count": 1,
-    "file": "Flag of Hombourg-Haut.gif"
-  },
-  {
     "qid": "Q84069440",
     "name": "coat of arms of New York",
     "count": 1,
@@ -3156,22 +1290,10 @@
     "file": "MapaSrbijeiCrneGore.JPG"
   },
   {
-    "qid": "Q104205521",
-    "name": "Holiday Inn Express flag",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q6917098",
     "name": "Motability",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q113546716",
-    "name": "flag of Jarnac",
-    "count": 1,
-    "file": "Flag of Jarnac.gif"
   },
   {
     "qid": "Q1229861",
@@ -3186,42 +1308,6 @@
     "file": "Flag of Canton of Sankt Gallen 2011.svg"
   },
   {
-    "qid": "Q85137744",
-    "name": "Theta Chi flag",
-    "count": 1,
-    "file": "Theta-chi-flag.png"
-  },
-  {
-    "qid": "Q113271269",
-    "name": "flag of Rueil-Malmaison",
-    "count": 1,
-    "file": "Rueil-Malmaison - War memorial.JPG"
-  },
-  {
-    "qid": "Q3352503",
-    "name": "flag of Barcelona",
-    "count": 1,
-    "file": "Flag of Barcelona.svg"
-  },
-  {
-    "qid": "Q97303170",
-    "name": "Red Ensign of Great Britain",
-    "count": 1,
-    "file": "Red ensign of Great Britain (1707–1800).svg"
-  },
-  {
-    "qid": "Q97303114",
-    "name": "Lake Lanier Islands flag",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q5718490",
-    "name": "flag of Chiriquí",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q131262",
     "name": "University of Bologna",
     "count": 1,
@@ -3232,24 +1318,6 @@
     "name": "Niles Park District",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q75774531",
-    "name": "flag of Euless",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113356972",
-    "name": "flag of La Turbie",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q2899775",
-    "name": "Australian Civil Aviation Ensign",
-    "count": 1,
-    "file": "Civil Air Ensign of Australia.svg"
   },
   {
     "qid": "Q3162795",
@@ -3276,46 +1344,10 @@
     "file": "Thames Water HQ.jpg"
   },
   {
-    "qid": "Q102413700",
-    "name": "flag of Alameda County",
-    "count": 1,
-    "file": "Flag of Alameda County, California.svg"
-  },
-  {
-    "qid": "Q97015691",
-    "name": "Battleship Memorial Park flag",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q116947349",
-    "name": "flag of Harrison Township",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q5456649",
-    "name": "flag of Île-de-France",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q97466298",
-    "name": "Centennial Bank flag",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q1392163",
     "name": "Flag and coat of arms of Geneva and Canton of Geneva",
     "count": 1,
     "file": "CHE Genève COA.svg"
-  },
-  {
-    "qid": "Q1392156",
-    "name": "flag of the canton of Thurgau",
-    "count": 1,
-    "file": "Wappen Thurgau matt.svg"
   },
   {
     "qid": "Q67",
@@ -3328,72 +1360,6 @@
     "name": "Luxembourg",
     "count": 1,
     "file": "Luxemburg.jpg"
-  },
-  {
-    "qid": "Q5456804",
-    "name": "flag of Portland",
-    "count": 1,
-    "file": "Flag of Portland, Oregon.svg"
-  },
-  {
-    "qid": "Q113376366",
-    "name": "flag of Saint-Cloud",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q5456837",
-    "name": "flag of Victoria",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q5456853",
-    "name": "flag of the Chatham Islands",
-    "count": 1,
-    "file": "Flag of Chatham Islands.svg"
-  },
-  {
-    "qid": "Q98692991",
-    "name": "flag of Lake Charles",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q5456835",
-    "name": "flag of Valdivia",
-    "count": 1,
-    "file": "Flag of Valdivia, Chile.svg"
-  },
-  {
-    "qid": "Q27500175",
-    "name": "flag of Taunton",
-    "count": 1,
-    "file": "Flag of Taunton, Massachusetts.svg"
-  },
-  {
-    "qid": "Q5456880",
-    "name": "flag of the Mapuches",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113291325",
-    "name": "flag of Chamonix-Mont-Blanc",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113330275",
-    "name": "flag of Didenheim",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q60521341",
-    "name": "flag of Orlando, Florida",
-    "count": 1,
-    "file": "Flag of Orlando, Florida.svg"
   },
   {
     "qid": "Q7796568",
@@ -3426,34 +1392,10 @@
     "file": "Flag of Kelantan.svg"
   },
   {
-    "qid": "Q5456797",
-    "name": "flag of Philadelphia",
-    "count": 1,
-    "file": "Flag of Philadelphia, Pennsylvania.svg"
-  },
-  {
-    "qid": "Q5456769",
-    "name": "flag of Las Vegas",
-    "count": 1,
-    "file": "Flag of Las Vegas, Nevada.svg"
-  },
-  {
-    "qid": "Q2919871",
-    "name": "flag of Winnipeg",
-    "count": 1,
-    "file": "Flag of Winnipeg.svg"
-  },
-  {
     "qid": "Q7835892",
     "name": "TravelCenters of America",
     "count": 1,
     "file": "TravelAmerica truck stop, Maybrook, NY.jpg"
-  },
-  {
-    "qid": "Q98280493",
-    "name": "flag of Cupertino",
-    "count": 1,
-    "file": "Flag of Cupertino, California.svg"
   },
   {
     "qid": "Q13892",
@@ -3462,28 +1404,10 @@
     "file": "FvfTarlacCapitol9285 32.JPG"
   },
   {
-    "qid": "Q10955332",
-    "name": "flag of Katowice",
-    "count": 1,
-    "file": "Katowice Flaga.svg"
-  },
-  {
     "qid": "Q1336",
     "name": "Rimouski",
     "count": 1,
     "file": "RimouskiCentreville.JPG"
-  },
-  {
-    "qid": "Q111593132",
-    "name": "flag of Fredericton",
-    "count": 1,
-    "file": "Flag-of-Fredericton.jpg"
-  },
-  {
-    "qid": "Q2069600",
-    "name": "Flag of Tucumán",
-    "count": 1,
-    "file": "Bandera de la Provincia de Tucumán.svg"
   },
   {
     "qid": "Q7645867",
@@ -3502,12 +1426,6 @@
     "name": "The Royal New Brunswick Regiment",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q5718647",
-    "name": "Q5718647",
-    "count": 1,
-    "file": "Flag of Manabí Province.svg"
   },
   {
     "qid": "Q596850",
@@ -3534,12 +1452,6 @@
     "file": "Temecula City Hall.jpg"
   },
   {
-    "qid": "Q113298430",
-    "name": "flag of Reilhanette",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q88",
     "name": "Alexandria",
     "count": 1,
@@ -3550,12 +1462,6 @@
     "name": "Belgium",
     "count": 1,
     "file": "Belgique - Bruxelles - Grand-Place - Côté nord-est.jpg"
-  },
-  {
-    "qid": "Q97486153",
-    "name": "flag of Apalachicola",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q3463974",
@@ -3582,12 +1488,6 @@
     "file": "Dannebrog.jpg"
   },
   {
-    "qid": "Q5718867",
-    "name": "Flag of Rio Negro Province",
-    "count": 1,
-    "file": "Bandera de la Provincia del Río Negro.svg"
-  },
-  {
     "qid": "Q16",
     "name": "Canada",
     "count": 1,
@@ -3610,18 +1510,6 @@
     "name": "Q5718754",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q5718795",
-    "name": "flag of Sofia",
-    "count": 1,
-    "file": "BG Sofia flag.svg"
-  },
-  {
-    "qid": "Q3039080",
-    "name": "Patriote flag",
-    "count": 1,
-    "file": "Flag of the Patriote movement (Lower Canada).svg"
   },
   {
     "qid": "Q8333",
@@ -3648,34 +1536,10 @@
     "file": null
   },
   {
-    "qid": "Q5718924",
-    "name": "flag of Mercosur",
-    "count": 1,
-    "file": "Flag of Mercosur.svg"
-  },
-  {
-    "qid": "Q3039014",
-    "name": "flag of Denver",
-    "count": 1,
-    "file": "Flag of Denver, Colorado.svg"
-  },
-  {
     "qid": "Q117427799",
     "name": "Q117427799",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q1759664",
-    "name": "Royal Standard of the United Kingdom",
-    "count": 1,
-    "file": "Royal standard of the United Kingdom.svg"
-  },
-  {
-    "qid": "Q786078",
-    "name": "flag of Friuli",
-    "count": 1,
-    "file": "Bandiere dal Friûl.svg"
   },
   {
     "qid": "Q13148",
@@ -3690,82 +1554,16 @@
     "file": "DiGangi-QueenofHeaven.jpg"
   },
   {
-    "qid": "Q2400978",
-    "name": "flag of Entre Ríos Province",
-    "count": 1,
-    "file": "Bandera de la Provincia de Entre Ríos.svg"
-  },
-  {
     "qid": "Q12063956",
     "name": "New Zealand Police",
     "count": 1,
     "file": "Toyota Camry New Zealand Police.png"
   },
   {
-    "qid": "Q113545526",
-    "name": "flag of Hœrdt",
-    "count": 1,
-    "file": "Flag of Hœrdt.gif"
-  },
-  {
     "qid": "Q29",
     "name": "Spain",
     "count": 1,
     "file": "Spain - Location Map (2013) - ESP - UNOCHA.svg"
-  },
-  {
-    "qid": "Q113342666",
-    "name": "flag of Erquy",
-    "count": 1,
-    "file": "Flag of Erquy.gif"
-  },
-  {
-    "qid": "Q2682051",
-    "name": "Flag of the Civil Freedom of Argentina",
-    "count": 1,
-    "file": "Flag of the Civil Freedom of Argentina (unofficial improved version).svg"
-  },
-  {
-    "qid": "Q77792965",
-    "name": "People's Flag of Milwaukee",
-    "count": 1,
-    "file": "People's Flag of Milwaukee.svg"
-  },
-  {
-    "qid": "Q562077",
-    "name": "flag of Bremen",
-    "count": 1,
-    "file": "Flag of Bremen.svg"
-  },
-  {
-    "qid": "Q81013608",
-    "name": "flag of Erlanger",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q77282490",
-    "name": "flag of Huntington Beach",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q693569",
-    "name": "flags of New Caledonia",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q54953696",
-    "name": "flag of UNESCO",
-    "count": 1,
-    "file": "Flag of UNESCO.svg"
-  },
-  {
-    "qid": "Q2578041",
-    "name": "flag of Bogotá",
-    "count": 1,
-    "file": "Flag of Bogotá.svg"
   },
   {
     "qid": "Q97302393",
@@ -3778,12 +1576,6 @@
     "name": "Auckland Marine Rescue Centre",
     "count": 1,
     "file": "Auckland Marine Rescue Centre.jpg"
-  },
-  {
-    "qid": "Q876607",
-    "name": "flag of Ceuta",
-    "count": 1,
-    "file": "Flag of Ceuta.svg"
   },
   {
     "qid": "Q6099858",
@@ -3816,24 +1608,6 @@
     "file": null
   },
   {
-    "qid": "Q77786070",
-    "name": "flag of Creve Coeur",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q120259831",
-    "name": "flag of Vitré",
-    "count": 1,
-    "file": "Flag of Vitré.gif"
-  },
-  {
-    "qid": "Q97466126",
-    "name": "flag of Kennesaw",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q44294",
     "name": "Ford Motor Company",
     "count": 1,
@@ -3852,12 +1626,6 @@
     "file": "Department of the Interior by Matthew Bisanz.JPG"
   },
   {
-    "qid": "Q97544819",
-    "name": "flag of Westwego",
-    "count": 1,
-    "file": "Westwego Flag.gif"
-  },
-  {
     "qid": "Q542833",
     "name": "Fajardo",
     "count": 1,
@@ -3868,12 +1636,6 @@
     "name": "Easy",
     "count": 1,
     "file": "Easy Calama.JPG"
-  },
-  {
-    "qid": "Q752195",
-    "name": "flag of Melilla",
-    "count": 1,
-    "file": "Flag of Melilla.svg"
   },
   {
     "qid": "Q536230",
@@ -3888,94 +1650,10 @@
     "file": "Des Plaines, IL.jpg"
   },
   {
-    "qid": "Q127691832",
-    "name": "Flag of Salamanca, Spain",
-    "count": 1,
-    "file": "Bandera de Salamanca1.svg"
-  },
-  {
-    "qid": "Q97531950",
-    "name": "flag of the New Orleans Police Department",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113559383",
-    "name": "flag of Talant",
-    "count": 1,
-    "file": "Flag of Talant.gif"
-  },
-  {
     "qid": "Q12745",
     "name": "Savoie",
     "count": 1,
     "file": "Préfecture de la Savoie.JPG"
-  },
-  {
-    "qid": "Q3038998",
-    "name": "flag of Baltimore",
-    "count": 1,
-    "file": "Flag of Baltimore, Maryland.svg"
-  },
-  {
-    "qid": "Q3744856",
-    "name": "Q3744856",
-    "count": 1,
-    "file": "POL Włodawa flag.svg"
-  },
-  {
-    "qid": "Q97486721",
-    "name": "flag of Leon County",
-    "count": 1,
-    "file": "Flag of Leon County, Florida.png"
-  },
-  {
-    "qid": "Q113290928",
-    "name": "flag of Versonnex",
-    "count": 1,
-    "file": "Flag of Versonnex.gif"
-  },
-  {
-    "qid": "Q76568027",
-    "name": "flag of Amelia",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q2899131",
-    "name": "Royal Australian Air Force Ensign",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q63974225",
-    "name": "flag of Blue Ash",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113284592",
-    "name": "flag of Épinal",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113559925",
-    "name": "flag of Tours",
-    "count": 1,
-    "file": "Flag of Tours.gif"
-  },
-  {
-    "qid": "Q135493209",
-    "name": "flag for the London Ambulance Service",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113454233",
-    "name": "Flag of Bjelovar",
-    "count": 1,
-    "file": "Vlag bjelovar.gif"
   },
   {
     "qid": "Q576273",
@@ -3984,34 +1662,10 @@
     "file": "ParkRidgePickwick.jpg"
   },
   {
-    "qid": "Q77282937",
-    "name": "flag of Glendale",
-    "count": 1,
-    "file": "Flag of Glendale, California.png"
-  },
-  {
     "qid": "Q7172",
     "name": "League of Arab States",
     "count": 1,
     "file": "Arab Leage HQ 977.PNG"
-  },
-  {
-    "qid": "Q97492432",
-    "name": "North Florida Regional Medical Center flag",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q78520887",
-    "name": "flag of Greenbelt",
-    "count": 1,
-    "file": "Flag of Greenbelt, Maryland.svg"
-  },
-  {
-    "qid": "Q114359007",
-    "name": "flag of the Olympic Regional Development Authority",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q6537128",
@@ -4020,34 +1674,16 @@
     "file": null
   },
   {
-    "qid": "Q106681223",
-    "name": "flag of Arbois",
-    "count": 1,
-    "file": "Flag of Arbois.svg"
-  },
-  {
     "qid": "Q183032",
     "name": "Johor",
     "count": 1,
     "file": "Forest trees in Johor.jpg"
   },
   {
-    "qid": "Q118756714",
-    "name": "flag of the New Zealand Police",
-    "count": 1,
-    "file": "Flag of New Zealand Police.svg"
-  },
-  {
     "qid": "Q353080",
     "name": "Addison",
     "count": 1,
     "file": "Addison, Illinois Water Tower.JPG"
-  },
-  {
-    "qid": "Q113362138",
-    "name": "flag of Paradou",
-    "count": 1,
-    "file": "Mairie et place Charloun Rieu Paradou.jpg"
   },
   {
     "qid": "Q10385027",
@@ -4062,28 +1698,10 @@
     "file": "İstanbul 5655.jpg"
   },
   {
-    "qid": "Q10686281",
-    "name": "Naval Ensign of Sweden",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q65718538",
     "name": "Wildbräu Grafing v. München",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q115185304",
-    "name": "flag of Levallois-Perret",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113303776",
-    "name": "flag of Port-Louis",
-    "count": 1,
-    "file": "Flag of Port-Louis.svg"
   },
   {
     "qid": "Q3973024",
@@ -4110,18 +1728,6 @@
     "file": "Arts Building, McGill University, Aug 31 2022.jpg"
   },
   {
-    "qid": "Q113341653",
-    "name": "flag of Le Conquet",
-    "count": 1,
-    "file": "Flag of Le Conquet.gif"
-  },
-  {
-    "qid": "Q96999513",
-    "name": "flag of St. Lawrence College",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q2151814",
     "name": "Bovag",
     "count": 1,
@@ -4146,12 +1752,6 @@
     "file": null
   },
   {
-    "qid": "Q83404285",
-    "name": "flag of the University of California, San Diego",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q836961",
     "name": "Drezdenko",
     "count": 1,
@@ -4162,12 +1762,6 @@
     "name": "Moncton",
     "count": 1,
     "file": "Moncton Montage b.png"
-  },
-  {
-    "qid": "Q68399641",
-    "name": "flag of Heidelberg",
-    "count": 1,
-    "file": "Flagge Heidelberg.svg"
   },
   {
     "qid": "Q123209",
@@ -4182,24 +1776,6 @@
     "file": "Robert Gibb - The Thin Red Line.jpg"
   },
   {
-    "qid": "Q113374373",
-    "name": "flag of Peyruis",
-    "count": 1,
-    "file": "Flag of Peyruis.gif"
-  },
-  {
-    "qid": "Q96912403",
-    "name": "9/11 National Remembrance Flag",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113544391",
-    "name": "flag of Thônex",
-    "count": 1,
-    "file": "CHE Thônex Flag.svg"
-  },
-  {
     "qid": "Q1861098",
     "name": "Lion of Saint Mark",
     "count": 1,
@@ -4212,34 +1788,10 @@
     "file": "Concepcion,Tarlacjf9835 15.JPG"
   },
   {
-    "qid": "Q2727336",
-    "name": "Royal Standard of Scotland",
-    "count": 1,
-    "file": "Royal Banner of Scotland.svg"
-  },
-  {
-    "qid": "Q123521229",
-    "name": "flag of Liemers",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q14624058",
-    "name": "Olympic flag",
-    "count": 1,
-    "file": "Olympic flag.svg"
-  },
-  {
     "qid": "Q83407",
     "name": "Mons",
     "count": 1,
     "file": "Mons beffroi JPG01B.jpg"
-  },
-  {
-    "qid": "Q113341364",
-    "name": "flag of Gerstheim",
-    "count": 1,
-    "file": "Flag of Gerstheim.gif"
   },
   {
     "qid": "Q594249",
@@ -4248,20 +1800,8 @@
     "file": "Wyandotte MI.jpg"
   },
   {
-    "qid": "Q96999144",
-    "name": "Leidos flag",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q908666",
     "name": "Port Authority of New York and New Jersey",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113374967",
-    "name": "flag of Valbonne",
     "count": 1,
     "file": null
   },
@@ -4272,28 +1812,10 @@
     "file": null
   },
   {
-    "qid": "Q81221277",
-    "name": "flag of Springdale",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q483942",
     "name": "Will County",
     "count": 1,
     "file": "Joliet State Prison (10045283735).jpg"
-  },
-  {
-    "qid": "Q96378013",
-    "name": "flag of Austin, Texas",
-    "count": 1,
-    "file": "Flag of Austin, Texas.svg"
-  },
-  {
-    "qid": "Q114554335",
-    "name": "flag of the Muscogee Nation",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q11112064",
@@ -4302,40 +1824,10 @@
     "file": "St. Francis Xavier High School main gate 20211120.jpg"
   },
   {
-    "qid": "Q113329986",
-    "name": "flag of Kembs",
-    "count": 1,
-    "file": "Flag of Kembs.gif"
-  },
-  {
-    "qid": "Q111591444",
-    "name": "flag of Miami Township",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q108837351",
-    "name": "flag of the Seminole Tribe of Florida",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q23979414",
     "name": "Tavernes de la Valldigna",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q106916570",
-    "name": "flag of Arcachon",
-    "count": 1,
-    "file": "Drapeau d'Arcachon.svg"
-  },
-  {
-    "qid": "Q122460297",
-    "name": "flag of Thuin",
-    "count": 1,
-    "file": "Thuin vlag.svg"
   },
   {
     "qid": "Q974038",
@@ -4350,28 +1842,10 @@
     "file": "St George's Cross.svg"
   },
   {
-    "qid": "Q106498608",
-    "name": "flag of Metz",
-    "count": 1,
-    "file": "Metz flag.svg"
-  },
-  {
     "qid": "Q843006",
     "name": "Nagykálló",
     "count": 1,
     "file": "Nagykálló, vármegyeháza 2023 02.jpg"
-  },
-  {
-    "qid": "Q113283797",
-    "name": "flag of Auxerre",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q106498596",
-    "name": "flag of Mulhouse",
-    "count": 1,
-    "file": "DrapeauMulhouse.svg"
   },
   {
     "qid": "Q6537",
@@ -4398,84 +1872,6 @@
     "file": null
   },
   {
-    "qid": "Q182773",
-    "name": "Jolly Roger",
-    "count": 1,
-    "file": "Flag of Edward England.svg"
-  },
-  {
-    "qid": "Q3442757",
-    "name": "flag of the Croatian Republic of Herzeg-Bosnia",
-    "count": 1,
-    "file": "Flag of the Croatian Republic of Herzeg-Bosnia.svg"
-  },
-  {
-    "qid": "Q113329677",
-    "name": "flag of Saint-Laurent-des-Arbres",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q106680731",
-    "name": "flag of Bordeaux",
-    "count": 1,
-    "file": "Flag of Bordeaux, France.png"
-  },
-  {
-    "qid": "Q113329508",
-    "name": "flag of Lunéville",
-    "count": 1,
-    "file": "Flag of Lunéville.gif"
-  },
-  {
-    "qid": "Q113355162",
-    "name": "flag of Semur-en-Brionnais",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113361571",
-    "name": "flag of Berre-l'Étang",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113486017",
-    "name": "flag of Altkirch",
-    "count": 1,
-    "file": "Flag of Altkirch.gif"
-  },
-  {
-    "qid": "Q113486079",
-    "name": "flag of Annœullin",
-    "count": 1,
-    "file": "Flag of Annœullin.gif"
-  },
-  {
-    "qid": "Q28103023",
-    "name": "flag of Weert",
-    "count": 1,
-    "file": "Flag of Weert.svg"
-  },
-  {
-    "qid": "Q115047327",
-    "name": "flag of Warcq",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q106007002",
-    "name": "Mission College flag",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113329734",
-    "name": "flag of Waltenheim",
-    "count": 1,
-    "file": "Flag of Waltenheim.gif"
-  },
-  {
     "qid": "Q38453",
     "name": "Columbia",
     "count": 1,
@@ -4494,18 +1890,6 @@
     "file": "Gorlizko badia kamaraz.JPG"
   },
   {
-    "qid": "Q131584400",
-    "name": "Q131584400",
-    "count": 1,
-    "file": "Bandera de Rus (Jaén).svg"
-  },
-  {
-    "qid": "Q28109172",
-    "name": "flag of Delft",
-    "count": 1,
-    "file": "Flag of Delft.svg"
-  },
-  {
     "qid": "Q3945126",
     "name": "Saint Xavier University",
     "count": 1,
@@ -4516,12 +1900,6 @@
     "name": "Tarlac City",
     "count": 1,
     "file": "Tarlac City 2.JPG"
-  },
-  {
-    "qid": "Q98153217",
-    "name": "Commodore Perry flag",
-    "count": 1,
-    "file": "DONT GIVE UP THE SHIP flag.svg"
   },
   {
     "qid": "Q188953",
@@ -4536,68 +1914,8 @@
     "file": "Padi fields kedah.jpg"
   },
   {
-    "qid": "Q113289470",
-    "name": "flag of Allinges",
-    "count": 1,
-    "file": "Allinges ChateauVieux.jpg"
-  },
-  {
-    "qid": "Q113289407",
-    "name": "flag of Vandœuvre-lès-Nancy",
-    "count": 1,
-    "file": "Flag of Vandœuvre-lès-Nancy.gif"
-  },
-  {
-    "qid": "Q113289490",
-    "name": "flag of Concarneau",
-    "count": 1,
-    "file": "Flag of Concarneau.svg"
-  },
-  {
-    "qid": "Q2314559",
-    "name": "flag of Corrientes Province",
-    "count": 1,
-    "file": "Bandera de la Provincia de Corrientes.svg"
-  },
-  {
     "qid": "Q652023",
     "name": "Chilean Air Force",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q72632859",
-    "name": "flag of Montgomery",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q97516023",
-    "name": "flag of the National Oceanic and Atmospheric Administration",
-    "count": 1,
-    "file": "NOAA Flag.svg"
-  },
-  {
-    "qid": "Q116953281",
-    "name": "Wendy's flag",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113340270",
-    "name": "flag of Holtzheim",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q96912281",
-    "name": "flag of the United States Army Training and Doctrine Command",
-    "count": 1,
-    "file": "Flag of the United States Army Training and Doctrine Command.png"
-  },
-  {
-    "qid": "Q25230725",
-    "name": "flag of the East African Community",
     "count": 1,
     "file": null
   },
@@ -4626,42 +1944,6 @@
     "file": "1 RU Wabash-Building-entrance.jpg"
   },
   {
-    "qid": "Q78551296",
-    "name": "flag of San Jose City Hall",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q96912398",
-    "name": "flag of Franklin County",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q96912362",
-    "name": "flag of Warren",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q96912370",
-    "name": "flag of Mecklenburg County",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113340601",
-    "name": "flag of Méru",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113373736",
-    "name": "flag of Meximieux",
-    "count": 1,
-    "file": "Mairie de Meximieux - 2.JPG"
-  },
-  {
     "qid": "Q17252",
     "name": "Tibet",
     "count": 1,
@@ -4672,12 +1954,6 @@
     "name": "Kingdom of Navarre",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q2478084",
-    "name": "Flag of San Juan Province, Argentina",
-    "count": 1,
-    "file": "Bandera de la Provincia de San Juan (1997-2018).svg"
   },
   {
     "qid": "Q796364",
@@ -4698,12 +1974,6 @@
     "file": "Oak park lake street.jpg"
   },
   {
-    "qid": "Q66091718",
-    "name": "flag of Warren County",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q150907",
     "name": "Franconia",
     "count": 1,
@@ -4714,36 +1984,6 @@
     "name": "Gößweinstein",
     "count": 1,
     "file": "Gößweinstein-Burg-und-Basilika-P5224761.jpg"
-  },
-  {
-    "qid": "Q113321243",
-    "name": "flag of Vittel",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q4490389",
-    "name": "flag of Chernihiv",
-    "count": 1,
-    "file": "Alex K Chernihiv prapor 1992.svg"
-  },
-  {
-    "qid": "Q113282500",
-    "name": "flag of Saint-Martin-d'Hères",
-    "count": 1,
-    "file": "Flag of Saint-Martin-d'Hères.svg"
-  },
-  {
-    "qid": "Q2668687",
-    "name": "flag of Calgary",
-    "count": 1,
-    "file": "Flag-of-Calgary.jpg"
-  },
-  {
-    "qid": "Q2086033",
-    "name": "flag of Saint Petersburg",
-    "count": 1,
-    "file": "Flag of Saint Petersburg.svg"
   },
   {
     "qid": "Q2668736",
@@ -4768,18 +2008,6 @@
     "name": "Republic of Abkhazia",
     "count": 1,
     "file": "რიწის ტბა.jpg"
-  },
-  {
-    "qid": "Q3500259",
-    "name": "flag of Cusco",
-    "count": 1,
-    "file": "Flag of Cusco (2021).svg"
-  },
-  {
-    "qid": "Q107434358",
-    "name": "flag of Corpus Christi",
-    "count": 1,
-    "file": "Corpus Christi, Texas flag.svg"
   },
   {
     "qid": "Q63874568",
@@ -4812,20 +2040,8 @@
     "file": "Cegléd - Church.jpg"
   },
   {
-    "qid": "Q12409908",
-    "name": "Australian Defence Force Ensign",
-    "count": 1,
-    "file": "Ensign of the Australian Defence Force.svg"
-  },
-  {
     "qid": "Q947913",
     "name": "BFGoodrich",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q130268700",
-    "name": "Q130268700",
     "count": 1,
     "file": null
   },
@@ -4842,46 +2058,10 @@
     "file": "Suzuki Motor.jpg"
   },
   {
-    "qid": "Q113557131",
-    "name": "flag of Salins-les-Bains",
-    "count": 1,
-    "file": "Flag of Salins-les-Bains.gif"
-  },
-  {
     "qid": "Q5720",
     "name": "Valencian Community",
     "count": 1,
     "file": "Palau generalitat9.jpg"
-  },
-  {
-    "qid": "Q96740885",
-    "name": "Cincinnati State flag",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113289970",
-    "name": "flag of Thônes",
-    "count": 1,
-    "file": "Flag of Thônes.svg"
-  },
-  {
-    "qid": "Q2340565",
-    "name": "Flag of Santiago del Estero Province",
-    "count": 1,
-    "file": "Bandera de la Provincia de Santiago del Estero.svg"
-  },
-  {
-    "qid": "Q113289935",
-    "name": "flag of Dinan",
-    "count": 1,
-    "file": "Flag of Dinan.svg"
-  },
-  {
-    "qid": "Q115052962",
-    "name": "flag of Baumholder",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q920166",
@@ -4890,38 +2070,8 @@
     "file": null
   },
   {
-    "qid": "Q117008304",
-    "name": "RE/MAX flag",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q783421",
     "name": "River Grove",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113282170",
-    "name": "flag of Rezé",
-    "count": 1,
-    "file": "Flag of Rezé.svg"
-  },
-  {
-    "qid": "Q113282362",
-    "name": "flag of Gagny",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q2772636",
-    "name": "flag of Chubut Province",
-    "count": 1,
-    "file": "Bandera de la Provincia del Chubut.svg"
-  },
-  {
-    "qid": "Q114985330",
-    "name": "flag of Fontaine",
     "count": 1,
     "file": null
   },
@@ -4944,26 +2094,8 @@
     "file": "Château de Montsoreau, depuis la rive droite de la Loire.jpg"
   },
   {
-    "qid": "Q65740307",
-    "name": "flag of Wildomar",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q3270231",
     "name": "Royal Canadian Legion",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q586585",
-    "name": "flag of Buenos Aires",
-    "count": 1,
-    "file": "Bandera de la Ciudad de Buenos Aires.svg"
-  },
-  {
-    "qid": "Q106576495",
-    "name": "flag of the Ohio River Valley Water Sanitation Commission",
     "count": 1,
     "file": null
   },
@@ -4972,12 +2104,6 @@
     "name": "Chilean Army",
     "count": 1,
     "file": "Parada Militar 2014 (15291617532).jpg"
-  },
-  {
-    "qid": "Q66568310",
-    "name": "flag of Fort Thomas",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q2843145",
@@ -4992,22 +2118,10 @@
     "file": "Koedijk - Sluismolen.jpg"
   },
   {
-    "qid": "Q113300625",
-    "name": "flag of La Chapelle-sur-Erdre",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q42722",
     "name": "Piauí",
     "count": 1,
     "file": "Parque Nacional de Sete Cidades - Piauí.jpg"
-  },
-  {
-    "qid": "Q96958387",
-    "name": "flag of Kołobrzeg",
-    "count": 1,
-    "file": "POL Kołobrzeg flag.svg"
   },
   {
     "qid": "Q985536",
@@ -5028,12 +2142,6 @@
     "file": null
   },
   {
-    "qid": "Q113556219",
-    "name": "flag of Saint-Avaugourd-des-Landes",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q95121",
     "name": "Binche",
     "count": 1,
@@ -5044,12 +2152,6 @@
     "name": "Chicago Ridge",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q122949398",
-    "name": "Q122949398",
-    "count": 1,
-    "file": "Bandera de Astillero (Cantabria).svg"
   },
   {
     "qid": "Q154053",
@@ -5070,70 +2172,16 @@
     "file": null
   },
   {
-    "qid": "Q116204926",
-    "name": "flag of Chipotle Mexican Grill",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q592576",
     "name": "United States Department of Veterans Affairs",
     "count": 1,
     "file": "Veterans Administration Building - Washington, D.C.jpg"
   },
   {
-    "qid": "Q106096702",
-    "name": "flag of Colleyville",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q111510003",
-    "name": "Aloft Hotels flag",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q16850737",
     "name": "İzmir Kâtip Çelebi University",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q2516219",
-    "name": "Flag of Chuquisaca & Sucre",
-    "count": 1,
-    "file": "Flag of Sucre and Chuquisaca.svg"
-  },
-  {
-    "qid": "Q80720944",
-    "name": "flag of Boone County",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q96970637",
-    "name": "flag of the UMass Lowell River Hawks",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q96970847",
-    "name": "flag of Cook County",
-    "count": 1,
-    "file": "Flag of Cook County, Illinois.svg"
-  },
-  {
-    "qid": "Q2157375",
-    "name": "flag of Formosa Province",
-    "count": 1,
-    "file": "Bandera de la Provincia de Formosa.svg"
-  },
-  {
-    "qid": "Q106502061",
-    "name": "flag of Toul",
-    "count": 1,
-    "file": "Toul Flag.svg"
   },
   {
     "qid": "Q7119839",
@@ -5148,18 +2196,6 @@
     "file": "Zarzal, Río Grande 00745, Puerto Rico - panoramio (1).jpg"
   },
   {
-    "qid": "Q96474154",
-    "name": "Flag of Chorzów",
-    "count": 1,
-    "file": "POL Chorzów flag.svg"
-  },
-  {
-    "qid": "Q645967",
-    "name": "flag of Hamburg",
-    "count": 1,
-    "file": "Flag of Hamburg.svg"
-  },
-  {
     "qid": "Q213893",
     "name": "Negeri Sembilan",
     "count": 1,
@@ -5170,12 +2206,6 @@
     "name": "Rochefort",
     "count": 1,
     "file": "440 - Place Colbert - Rochefort.jpg"
-  },
-  {
-    "qid": "Q113275368",
-    "name": "flag of Quimper",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q266230",
@@ -5190,34 +2220,10 @@
     "file": null
   },
   {
-    "qid": "Q113373301",
-    "name": "flag of Gaillard",
-    "count": 1,
-    "file": "Flag of Gaillard.gif"
-  },
-  {
-    "qid": "Q2902319",
-    "name": "flag of Edmonton",
-    "count": 1,
-    "file": "Flag of Edmonton (1966–1986).svg"
-  },
-  {
     "qid": "Q56414",
     "name": "Anao",
     "count": 1,
     "file": "Anao,Tarlacjf5236 01.JPG"
-  },
-  {
-    "qid": "Q72004036",
-    "name": "flag of the Disabled American Veterans",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113445621",
-    "name": "flag of Roquebrune-sur-Argens",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q913583",
@@ -5230,12 +2236,6 @@
     "name": "Gerona",
     "count": 1,
     "file": "Gerona,Tarlacjf4924 04.JPG"
-  },
-  {
-    "qid": "Q77790534",
-    "name": "Signature Flight Support flag",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q56420",
@@ -5254,12 +2254,6 @@
     "name": "Capas",
     "count": 1,
     "file": "Capas Tarlac May 2018 (42450722332).jpg"
-  },
-  {
-    "qid": "Q97405025",
-    "name": "flag of Arroyito",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q56444",
@@ -5328,12 +2322,6 @@
     "file": "SanManueljf5811 07.JPG"
   },
   {
-    "qid": "Q113249047",
-    "name": "flag of Villeurbanne",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q23317",
     "name": "Audi AG",
     "count": 1,
@@ -5346,36 +2334,6 @@
     "file": "Puglia Bisceglie1 tango7174.jpg"
   },
   {
-    "qid": "Q106398326",
-    "name": "flag of Dunbar",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113353392",
-    "name": "flag of Ax-les-Thermes",
-    "count": 1,
-    "file": "Flag of the County of Foix.svg"
-  },
-  {
-    "qid": "Q113281232",
-    "name": "flag of Salon-de-Provence",
-    "count": 1,
-    "file": "Flag of Salon-de-Provence.gif"
-  },
-  {
-    "qid": "Q113320240",
-    "name": "flag of Élancourt",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q123402610",
-    "name": "drapeau d'Homécourt",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q234",
     "name": "Flanders",
     "count": 1,
@@ -5386,18 +2344,6 @@
     "name": "Santa Ignacia",
     "count": 1,
     "file": "SantaIgnacia,Tarlacjf8168 12-c.jpg"
-  },
-  {
-    "qid": "Q117811314",
-    "name": "flag of Palo Alto",
-    "count": 1,
-    "file": "Flag of Palo Alto, California.svg"
-  },
-  {
-    "qid": "Q113320155",
-    "name": "flag of Maisons-Laffitte",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q175",
@@ -5416,18 +2362,6 @@
     "name": "France",
     "count": 1,
     "file": "Paris from the Arc de Triomphe, 17 October 2019.jpg"
-  },
-  {
-    "qid": "Q113281413",
-    "name": "flag of Compiègne",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q113353814",
-    "name": "flag of Grande-Synthe",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q414",
@@ -5460,33 +2394,9 @@
     "file": null
   },
   {
-    "qid": "Q97477618",
-    "name": "flag of the University of West Florida",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q97477616",
-    "name": "Ascension flag",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q328",
     "name": "English Wikipedia",
     "count": 1,
     "file": "English Wikipedia screenshot.png"
-  },
-  {
-    "qid": "Q2797535",
-    "name": "Flag  of South Tyrol",
-    "count": 1,
-    "file": "Flag of South Tyrol.svg"
-  },
-  {
-    "qid": "Q2540917",
-    "name": "Flag of the German-speaking Community of Belgium",
-    "count": 1,
-    "file": "Flag of the German Community in Belgium.svg"
   }
 ]

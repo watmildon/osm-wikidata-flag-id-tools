@@ -2,7 +2,10 @@ node_modules/
 .DS_Store
 *.log
 # Build-time caches (NSI fallback, etc) — not part of the shipped site.
-data/.cache/
+# Exception: redirects.json is committed so CI builds and clean clones can
+# skip re-resolving every known QID against Wikidata.
+data/.cache/*
+!data/.cache/redirects.json
 
 # AI/LLM assistants
 .claude/

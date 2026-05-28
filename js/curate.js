@@ -14,7 +14,8 @@ const COLOR_SWATCHES = {
 const ICON_LABELS = {
   text: "Text", animal: "Animal", bird: "Bird", people: "People", plant: "Plant",
   star: "Star", sun: "Sun", cross: "Cross", crescent: "Crescent", circle: "Circle",
-  stripes: "Stripes", triangle: "Triangle", diagonal: "Diagonal",
+  "horizontal-stripes": "Horizontal stripes", "vertical-stripes": "Vertical stripes",
+  triangle: "Triangle", diagonal: "Diagonal",
   weapon: "Weapon", map: "Map", coa: "Coat of arms",
 };
 const SHAPE_LABELS = {
@@ -202,6 +203,7 @@ function renderCurrent() {
     document.getElementById("flag-link").textContent = "";
     document.getElementById("flag-count").textContent = "—";
     document.getElementById("flag-entity-state").textContent = "";
+    document.getElementById("flag-description").textContent = "";
     document.getElementById("name-input").value = "";
     edit = { flagName: "", flagType: null, colors: new Set(), icons: new Set(), shape: null };
     renderChips();
@@ -221,6 +223,9 @@ function renderCurrent() {
   document.getElementById("flag-count").textContent = f.count.toLocaleString();
   document.getElementById("flag-entity-state").textContent =
     f.isFlagEntity ? "flag entity ✓" : "⚠️ not a flag entity";
+  const descEl = document.getElementById("flag-description");
+  descEl.textContent = e.description ?? "";
+  descEl.classList.toggle("is-empty", !e.description);
 
   const nameInput = document.getElementById("name-input");
   nameInput.value = e.flagName ?? "";

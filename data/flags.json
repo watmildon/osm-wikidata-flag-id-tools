@@ -23,7 +23,8 @@
     "cross",
     "crescent",
     "circle",
-    "stripes",
+    "horizontal-stripes",
+    "vertical-stripes",
     "triangle",
     "diagonal",
     "weapon",
@@ -50,7 +51,7 @@
       ],
       "icons": [
         "star",
-        "stripes"
+        "horizontal-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -214,7 +215,7 @@
       "name": "National League of Families POW/MIA flag",
       "count": 693,
       "file": "United States POW-MIA flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black"
@@ -358,7 +359,7 @@
       "name": "flag of Chicago",
       "count": 392,
       "file": "Flag of Chicago, Illinois.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -517,7 +518,7 @@
       "name": "flag of the European Union",
       "count": 293,
       "file": "Flag of Europe.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow"
       ],
@@ -775,7 +776,7 @@
       "name": "McDonald's flag",
       "count": 193,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "yellow"
@@ -965,7 +966,7 @@
       "name": "flag of the United States Marine Corps",
       "count": 126,
       "file": "Flag of the United States Marine Corps.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -1106,7 +1107,7 @@
       "name": "flag of the United States Army",
       "count": 119,
       "file": "Flag of the United States Army.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -1225,7 +1226,7 @@
       "name": "flag of the United States Navy",
       "count": 107,
       "file": "Flag of the United States Navy.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -1244,7 +1245,7 @@
       "name": "flag of the United States Coast Guard",
       "count": 103,
       "file": "Flag of the United States Coast Guard.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -1332,7 +1333,7 @@
       "name": "flag of the United States Air Force",
       "count": 98,
       "file": "Flag of the United States Air Force.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -1563,7 +1564,7 @@
       "name": "Australian Aboriginal flag",
       "count": 77,
       "file": "Australian Aboriginal Flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "black"
       ],
@@ -1633,7 +1634,7 @@
       "name": "Buddhist flag",
       "count": 76,
       "file": "Flag of Buddhism.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -1841,7 +1842,7 @@
       "name": "flag for the Green Flag Award",
       "count": 59,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white"
@@ -1990,7 +1991,7 @@
       "name": "Christian Flag",
       "count": 56,
       "file": "Christian flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -2101,7 +2102,7 @@
       "name": "flag of the Red Cross",
       "count": 51,
       "file": "Flag of the Red Cross.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -2282,7 +2283,7 @@
       "name": "Confederate Battle Flag",
       "count": 46,
       "file": "North Virginia Third Bunting.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -2397,7 +2398,7 @@
       "name": "flag of Gdańsk",
       "count": 41,
       "file": "POL Gdańsk flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -2638,7 +2639,7 @@
       "name": "flag of the Association of Southeast Asian Nations",
       "count": 37,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -2892,7 +2893,7 @@
       "name": "Torres Strait Islander flag",
       "count": 30,
       "file": "Torres Strait Flag Day 2021 - 51222675210.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -2954,7 +2955,7 @@
       "name": "flag of the United Nations",
       "count": 29,
       "file": "Flag of the United Nations.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -3888,7 +3889,7 @@
       "name": "Blue Flag beach",
       "count": 19,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -3949,7 +3950,7 @@
       "name": "flag of Melun",
       "count": 18,
       "file": "Drapeau de Melun.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -4185,7 +4186,7 @@
       "name": "flag of Baden",
       "count": 17,
       "file": "Flagge Großherzogtum Baden (1891–1918).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -4260,7 +4261,7 @@
       "name": "flag of REWE",
       "count": 16,
       "file": "Logo REWE.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -4304,7 +4305,7 @@
       "name": "flag of Dunkirk",
       "count": 16,
       "file": "Flag of Dunkirk.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -4360,7 +4361,7 @@
       "name": "flag of the United States Space Force",
       "count": 16,
       "file": "Flag of the United States Space Force.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black"
@@ -4431,7 +4432,7 @@
       "name": "flag of NATO",
       "count": 15,
       "file": "Flag of NATO.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -4498,7 +4499,7 @@
       "name": "flag of Turku",
       "count": 15,
       "file": "Turku.lippu.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -4536,7 +4537,7 @@
       "name": "flag of San Jose",
       "count": 14,
       "file": "Flag of San José, California.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -4694,7 +4695,7 @@
       "name": "Flag of Lyon",
       "count": 14,
       "file": "Flag of Lyon, France.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -4736,7 +4737,7 @@
       "name": "flag of Pärnu",
       "count": 13,
       "file": "Flag of et-Parnu.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -4908,7 +4909,7 @@
       "name": "flag of Mainz",
       "count": 12,
       "file": "Mainz Flagge Hissformat.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -5260,7 +5261,7 @@
       "name": "flag of New Orleans",
       "count": 11,
       "file": "Flag of New Orleans, Louisiana.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -5411,7 +5412,7 @@
       "name": "flag of the Greek Orthodox Church",
       "count": 11,
       "file": "Flag of the Greek Orthodox Church.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -5427,7 +5428,7 @@
       "name": "flag of the University of Minnesota",
       "count": 11,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow"
       ],
@@ -5444,7 +5445,7 @@
       "name": "Bourbon royal standard",
       "count": 11,
       "file": "Pavillon royal de France.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "yellow"
@@ -5485,7 +5486,7 @@
       "name": "flag of Nantes",
       "count": 11,
       "file": "Drapeau de Nantes.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -5551,7 +5552,7 @@
       "name": "flag of New York City",
       "count": 10,
       "file": "Flag of New York City.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -5573,7 +5574,7 @@
       "name": "flag of Veneto",
       "count": 10,
       "file": "Flag of Veneto.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -5611,7 +5612,7 @@
       "name": "flag of Gdynia",
       "count": 10,
       "file": "POL Gdynia flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -5900,7 +5901,7 @@
       "name": "Tree City USA flag",
       "count": 10,
       "file": "Tree City USA - DPLA - 311c0c8ed551f658c2102efe58f12c1e.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white",
@@ -5937,7 +5938,7 @@
       "name": "flag of Ottawa",
       "count": 9,
       "file": "Flag of Ottawa, Ontario.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -6078,7 +6079,7 @@
       "name": "flag of Berlin",
       "count": 9,
       "file": "Flag of Berlin.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -6309,7 +6310,7 @@
       "name": "flag of the United States Merchant Marine",
       "count": 9,
       "file": "United States Merchant Marine.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -6469,7 +6470,7 @@
       "name": "flag of Vlieland",
       "count": 9,
       "file": "Flag of Vlieland.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white"
@@ -6590,7 +6591,7 @@
       "name": "flag of Cincinnati",
       "count": 9,
       "file": "Flag of Cincinnati, Ohio.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -6635,7 +6636,7 @@
       "name": "flag of Saint-Malo",
       "count": 8,
       "file": "Drapeau de Saint-Malo (20è siècle).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -7108,7 +7109,7 @@
       "name": "Hilton flag",
       "count": 8,
       "file": "HI mk logo hiltonbrandlogo.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "blue"
@@ -7591,7 +7592,7 @@
       "name": "flag of Toronto",
       "count": 7,
       "file": "Flag of Toronto, Canada.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -7610,7 +7611,7 @@
       "name": "flag of Córdoba Province, Argentina",
       "count": 6,
       "file": "Bandera de la Provincia de Córdoba 2014.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -7747,7 +7748,7 @@
       "name": "flag of the City of Santo André (São Paulo)",
       "count": 6,
       "file": "BandeiraSantoAndre.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -7937,7 +7938,7 @@
       "name": "Flag of Orania",
       "count": 6,
       "file": "Orania flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -8025,7 +8026,7 @@
       "name": "Red Ensign of New Zealand",
       "count": 6,
       "file": "Civil Ensign of New Zealand.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -8040,7 +8041,7 @@
       "name": "flag of Besançon",
       "count": 6,
       "file": "Flag of Besançon.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -8075,7 +8076,7 @@
       "name": "flag of San Francisco",
       "count": 6,
       "file": "Flag of San Francisco, California.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -8190,7 +8191,7 @@
       "name": "flag of Turenne",
       "count": 5,
       "file": "Flag of Turenne.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -8208,7 +8209,7 @@
       "name": "flag of Vedène",
       "count": 5,
       "file": "Bandera de Vedene.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -8286,7 +8287,7 @@
       "name": "Capetian banner",
       "count": 5,
       "file": "Cultural flag of Île-de-France.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "yellow"
@@ -8347,7 +8348,7 @@
       "name": "flag of Jacksonville",
       "count": 5,
       "file": "Flag of Jacksonville, Florida.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "orange",
@@ -8366,7 +8367,7 @@
       "name": "flag of Milwaukee",
       "count": 5,
       "file": "Flag of Milwaukee, Wisconsin.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -8404,7 +8405,7 @@
       "name": "Hilton Garden Inn flag",
       "count": 5,
       "file": "HGI-Logo-Color HR.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -8556,7 +8557,7 @@
       "name": "flag of Le Château-d'Oléron",
       "count": 5,
       "file": "Citadelle du Château-d'Oléron 2018 Porte royale 02.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -8736,7 +8737,7 @@
       "name": "flag of Sharonville",
       "count": 5,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -8805,7 +8806,7 @@
       "name": "flag of Cancale",
       "count": 4,
       "file": "Flag of Cancale.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -8992,7 +8993,7 @@
       "name": "flag of Mons",
       "count": 4,
       "file": "Flag of Mons.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -9111,7 +9112,7 @@
       "name": "flag of Toulon",
       "count": 4,
       "file": "Flag of Toulon.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -9165,7 +9166,7 @@
       "name": "flag of Calcasieu Parish",
       "count": 4,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -9208,7 +9209,7 @@
       "name": "flag of Annecy",
       "count": 4,
       "file": "Flag of Annecy.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -9241,7 +9242,7 @@
       "name": "flag of Grenoble",
       "count": 4,
       "file": "Flag of Grenoble.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -9285,7 +9286,7 @@
       "name": "flag of Sauveterre-de-Guyenne",
       "count": 4,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -9300,7 +9301,7 @@
       "name": "flag of Les Baux-de-Provence",
       "count": 4,
       "file": "Flag of Les Baux-de-Provence.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -9420,7 +9421,7 @@
       "name": "flag of Château-Thierry",
       "count": 4,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -9455,7 +9456,7 @@
       "name": "flag of Prairie View A&M University",
       "count": 4,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "yellow",
@@ -9474,7 +9475,7 @@
       "name": "flag of The American Legion",
       "count": 4,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue"
       ],
@@ -9506,7 +9507,7 @@
       "name": "flag of Hampton by Hilton",
       "count": 4,
       "file": "Flag of Hampton Inn & Suites by Hilton.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -9543,7 +9544,7 @@
       "name": "flag of Dayton",
       "count": 4,
       "file": "Flag of Dayton, Ohio.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white",
@@ -9562,7 +9563,7 @@
       "name": "flag of Florence",
       "count": 4,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "yellow",
@@ -9644,7 +9645,7 @@
       "name": "Florida International University flag",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -9678,7 +9679,7 @@
       "name": "flag of Hochschule Furtwangen University",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white"
@@ -9744,7 +9745,7 @@
       "name": "flag of San Luis Province",
       "count": 3,
       "file": "Bandera de la Provincia de San Luis.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -9789,7 +9790,7 @@
       "name": "flag of Buenos Aires Province",
       "count": 3,
       "file": "Bandera de la Provincia de Buenos Aires.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -9804,7 +9805,7 @@
       "name": "flag of Remiremont",
       "count": 3,
       "file": "Remiremont - place Christian-Poncelet - 2022-05-31 - 26.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -9822,7 +9823,7 @@
       "name": "flag of the Roman Catholic Archdiocese of Cincinnati",
       "count": 3,
       "file": "Flag of the Roman Catholic Archdiocese of Cincinnati.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -9840,7 +9841,7 @@
       "name": "flag of Saint-Tropez",
       "count": 3,
       "file": "Flag of Saint-Tropez.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -9873,7 +9874,7 @@
       "name": "flag of Newport",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -10034,7 +10035,7 @@
       "name": "flag of Pertuis",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -10073,7 +10074,7 @@
       "name": "flag of Terschelling",
       "count": 3,
       "file": "Flag of Terschelling.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -10088,7 +10089,7 @@
       "name": "flag of Caodaism",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -10107,7 +10108,7 @@
       "name": "flag of Oldenburg",
       "count": 3,
       "file": "Flagge der kreisfreien Stadt Oldenburg.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -10140,7 +10141,7 @@
       "name": "flag of the Episcopal Church",
       "count": 3,
       "file": "Flag of the US Episcopal Church.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -10174,7 +10175,7 @@
       "name": "Flag of Catamarca",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -10204,7 +10205,7 @@
       "name": "flag of Baton Rouge",
       "count": 3,
       "file": "Flag of Baton Rouge, Louisiana.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -10245,7 +10246,7 @@
       "name": "flag of Buffalo, New York",
       "count": 3,
       "file": "Flag of Buffalo, New York.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -10338,7 +10339,7 @@
       "name": "White Ensign",
       "count": 3,
       "file": "Naval ensign of the United Kingdom.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -10353,7 +10354,7 @@
       "name": "flag of Rotterdam",
       "count": 3,
       "file": "Flag of Rotterdam.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white"
@@ -10389,7 +10390,7 @@
       "name": "flag of Wasquehal",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -10457,7 +10458,7 @@
       "name": "flag of Terrasson-Lavilledieu",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -10648,7 +10649,7 @@
       "name": "Skull of Llanera",
       "count": 3,
       "file": "Philippine revolution flag llanera.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black"
@@ -10772,7 +10773,7 @@
       "name": "PS flag",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "black"
       ],
@@ -10789,7 +10790,7 @@
       "name": "flag of Santa Clara",
       "count": 3,
       "file": "Flag of Santa Clara, California.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -10810,7 +10811,7 @@
       "name": "Flag of Riverside",
       "count": 3,
       "file": "Flag of Riverside, California (2020).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -10872,7 +10873,7 @@
       "name": "flag of Washington",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -10936,7 +10937,7 @@
       "name": "Estelada",
       "count": 3,
       "file": "Estelada roja.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -10971,7 +10972,7 @@
       "name": "Wiphala",
       "count": 3,
       "file": "Banner of the Qulla Suyu (1979).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -11039,7 +11040,7 @@
       "name": "Assyrian flag",
       "count": 3,
       "file": "Flag of the Assyrians (gold and blue Assur).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -11078,7 +11079,7 @@
       "name": "flag of Covington",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "yellow",
@@ -11112,7 +11113,7 @@
       "name": "flag of St. Bernard",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "brown"
@@ -11149,7 +11150,7 @@
       "name": "standard of the Salvation Army",
       "count": 3,
       "file": "Drapeau de l'Armée du salut.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -11168,7 +11169,7 @@
       "name": "Bonnie Blue Flag",
       "count": 3,
       "file": "Bonnie Blue flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -11217,7 +11218,7 @@
       "name": "flag of Montgomery County",
       "count": 3,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -11237,7 +11238,7 @@
       "name": "flag of Hamilton County",
       "count": 3,
       "file": "Flag of Hamilton County, Ohio.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -11252,7 +11253,7 @@
       "name": "flag of Milan",
       "count": 3,
       "file": "Flag of Milan.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -11291,7 +11292,7 @@
       "name": "flag of Marseille",
       "count": 2,
       "file": "Flag of Marseille.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -11324,7 +11325,7 @@
       "name": "Royal Air Force Ensign",
       "count": 2,
       "file": "Air Force Ensign of the United Kingdom.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -11339,7 +11340,7 @@
       "name": "flag of Moscow",
       "count": 2,
       "file": "Flag of Moscow, Russia.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red"
       ],
@@ -11371,7 +11372,7 @@
       "name": "flag of Vincennes",
       "count": 2,
       "file": "Drapeau de Vincennes, France.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -11414,7 +11415,7 @@
       "name": "flag of Alexandria",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -11463,7 +11464,7 @@
       "name": "flag of Milwaukee County",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "white",
@@ -11483,7 +11484,7 @@
       "name": "flag of Three Rivers",
       "count": 2,
       "file": "Flag of Three Rivers, Michigan.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -11583,7 +11584,7 @@
       "name": "flag of Wellington",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -11705,7 +11706,7 @@
       "name": "Flags of Kharkiv",
       "count": 2,
       "file": "Kharkiv-town-flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -11780,7 +11781,7 @@
       "name": "flag of Dijon",
       "count": 2,
       "file": "Flag of Dijon.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -11800,7 +11801,7 @@
       "name": "Walt Disney World flag",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -11851,7 +11852,7 @@
       "name": "flag of Saint-Claude",
       "count": 2,
       "file": "Flag of Annemasse.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -11899,7 +11900,7 @@
       "name": "Carl's Jr. flag",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -11918,7 +11919,7 @@
       "name": "American Police Hall of Fame flag",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -11936,7 +11937,7 @@
       "name": "Moultrie Flag",
       "count": 2,
       "file": "Flag of Fort Moultrie, South Carolina.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "blue"
@@ -11976,7 +11977,7 @@
       "name": "flag of Setumaa",
       "count": 2,
       "file": "Flag of Setomaa.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -11991,7 +11992,7 @@
       "name": "flag of Colmar",
       "count": 2,
       "file": "Flag of Colmar.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -12025,7 +12026,7 @@
       "name": "Royal New Zealand Air Force Ensign",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12040,7 +12041,7 @@
       "name": "Flag of Santiago de Compostela",
       "count": 2,
       "file": "Flag of Santiago de Compostela.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12055,7 +12056,7 @@
       "name": "Gadsden flag",
       "count": 2,
       "file": "Gadsden flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow"
       ],
@@ -12094,7 +12095,7 @@
       "name": "flag of Sokolsky District",
       "count": 2,
       "file": "Flag of Sokol (Vologda oblast).png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12124,7 +12125,7 @@
       "name": "Métis flag",
       "count": 2,
       "file": "Metis Red.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12263,7 +12264,7 @@
       "name": "flag of Ploërmel",
       "count": 2,
       "file": "Ville-ploermel.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -12282,7 +12283,7 @@
       "name": "flag of Stolichna obshtina",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12297,7 +12298,7 @@
       "name": "flag of Tallahassee",
       "count": 2,
       "file": "Flag of Tallahassee, Florida (2002–2020).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -12398,7 +12399,7 @@
       "name": "flag of La Flèche",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12431,7 +12432,7 @@
       "name": "flag of Krasnoyarsk",
       "count": 2,
       "file": "Flag of Krasnoyarsk.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12502,7 +12503,7 @@
       "name": "flag of Wilder",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -12607,7 +12608,7 @@
       "name": "Westin flag",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -12649,7 +12650,7 @@
       "name": "flag of Lisbon",
       "count": 2,
       "file": "Bandeira municipal de Lisboa.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12664,7 +12665,7 @@
       "name": "flag of Ferrette",
       "count": 2,
       "file": "Flag of Ferrette.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -12703,7 +12704,7 @@
       "name": "flag of Bray-Dunes",
       "count": 2,
       "file": "Flag of Bray-Dunes.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -12755,7 +12756,7 @@
       "name": "flag of Neuquén",
       "count": 2,
       "file": "Bandera de la Provincia del Neuquen.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12785,7 +12786,7 @@
       "name": "flag of Vannes",
       "count": 2,
       "file": "Drapeau de Vannes.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -12804,7 +12805,7 @@
       "name": "flag of the Society of the Cincinnati",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -12823,7 +12824,7 @@
       "name": "flag of Rio de Janeiro",
       "count": 2,
       "file": "Bandeira da cidade do Rio de Janeiro.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12921,7 +12922,7 @@
       "name": "Q62460676",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -12988,7 +12989,7 @@
       "name": "flag of Roubaix",
       "count": 2,
       "file": "20190316 004 roubaix.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13018,7 +13019,7 @@
       "name": "flag of Redon",
       "count": 2,
       "file": "Flag of Redon.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13048,7 +13049,7 @@
       "name": "flag of Indianapolis",
       "count": 2,
       "file": "Flag of Indianapolis.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13063,7 +13064,7 @@
       "name": "flag of Haguenau",
       "count": 2,
       "file": "Flag of Haguenau.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -13082,7 +13083,7 @@
       "name": "flag of Holiday Inn",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13112,7 +13113,7 @@
       "name": "flag of Tamboril",
       "count": 2,
       "file": "Bandeira de Tamboril.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13127,7 +13128,7 @@
       "name": "flag of Dinslaken",
       "count": 2,
       "file": "Flagge Dinslaken.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13234,7 +13235,7 @@
       "name": "flag of Pérols",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -13253,7 +13254,7 @@
       "name": "flag of Leme",
       "count": 2,
       "file": "Bandeira Leme SaoPaulo Brasil.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13268,7 +13269,7 @@
       "name": "flag of Fairfield",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white",
@@ -13320,7 +13321,7 @@
       "name": "flag of Graveson",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13355,7 +13356,7 @@
       "name": "flag of Le Cateau-Cambrésis",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13400,7 +13401,7 @@
       "name": "Earth flag",
       "count": 2,
       "file": "EarthFlag1.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13415,7 +13416,7 @@
       "name": "Veterans of Foreign Wars flag",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -13436,7 +13437,7 @@
       "name": "Marriott flag",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -13454,7 +13455,7 @@
       "name": "flag of Boulogne-sur-Mer",
       "count": 2,
       "file": "Drapeau ville fr Boulogne-sur-Mer.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -13474,7 +13475,7 @@
       "name": "flag of Calais",
       "count": 2,
       "file": "Flag of Calais.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -13531,7 +13532,7 @@
       "name": "Mary flag",
       "count": 2,
       "file": "Maryjna flag of Poland.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13564,7 +13565,7 @@
       "name": "Canadian Red Ensign",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13594,7 +13595,7 @@
       "name": "Trump flag",
       "count": 2,
       "file": "2021 storming of the United States Capitol IMG 6223a (50813059681).jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13624,7 +13625,7 @@
       "name": "flag of Ungersheim",
       "count": 2,
       "file": "Flag of Ungersheim.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -13773,7 +13774,7 @@
       "name": "flag of Rosemount",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green"
       ],
@@ -13790,7 +13791,7 @@
       "name": "flag of Chapel Hill",
       "count": 2,
       "file": "Town of Chapel Hill Flag.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white",
@@ -13876,7 +13877,7 @@
       "name": "flag of Châtillon-sur-Chalaronne",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13958,7 +13959,7 @@
       "name": "flag of the University of California",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "yellow"
@@ -13976,7 +13977,7 @@
       "name": "flag of Halle",
       "count": 2,
       "file": "Halle Belgium.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14006,7 +14007,7 @@
       "name": "flag of Laranjal Paulista",
       "count": 2,
       "file": "Bandeira de Laranjal Paulista na frente do Palácio 10 de Outubro.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14021,7 +14022,7 @@
       "name": "Flag of Mendoza Province",
       "count": 2,
       "file": "Bandera de la Provincia de Mendoza.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14051,7 +14052,7 @@
       "name": "flag of the University of Texas at Dallas",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "orange"
@@ -14069,7 +14070,7 @@
       "name": "flag of Agen",
       "count": 2,
       "file": "Flag of Agen.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -14089,7 +14090,7 @@
       "name": "flag of Malo-les-Bains",
       "count": 2,
       "file": "Drapeau de la commune de Malo-les-Bains (59) Nord-France.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -14108,7 +14109,7 @@
       "name": "flag of the United Farm Workers",
       "count": 2,
       "file": "UFW Flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -14127,7 +14128,7 @@
       "name": "Q123115016",
       "count": 2,
       "file": "La Frette mairie.JPG",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14142,7 +14143,7 @@
       "name": "Tallinn flag",
       "count": 2,
       "file": "Flag of Tallinn.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14157,7 +14158,7 @@
       "name": "flag of Mason",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -14210,7 +14211,7 @@
       "name": "Homewood Suites flag",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -14264,7 +14265,7 @@
       "name": "flag of Harford County",
       "count": 2,
       "file": "Flag of Harford County, Maryland.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "lightblue",
@@ -14283,7 +14284,7 @@
       "name": "LIUNA flag",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -14317,7 +14318,7 @@
       "name": "flag of Cheviot",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -14337,7 +14338,7 @@
       "name": "flag of Chaco province",
       "count": 2,
       "file": "Bandera de la Provincia del Chaco.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14371,7 +14372,7 @@
       "name": "flag of KFC",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -14390,7 +14391,7 @@
       "name": "flag of Sycamore Township",
       "count": 2,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -14424,7 +14425,7 @@
       "name": "flag of Bricquebec-en-Cotentin",
       "count": 1,
       "file": "Donjon du château de Bricquebec.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14454,7 +14455,7 @@
       "name": "flag of Donges",
       "count": 1,
       "file": "Flag of Donges.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -14521,7 +14522,7 @@
       "name": "Flag of the Iroquois Confederacy",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "purple"
@@ -14539,7 +14540,7 @@
       "name": "flag of Gandia",
       "count": 1,
       "file": "Bandera de Gandia.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14569,7 +14570,7 @@
       "name": "flag of Gimel-les-Cascades",
       "count": 1,
       "file": "Flag of Gimel-les-Cascades.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -14588,7 +14589,7 @@
       "name": "flag of Bergues",
       "count": 1,
       "file": "Flag of Bergues.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -14608,7 +14609,7 @@
       "name": "flag of Thessaloniki",
       "count": 1,
       "file": "Flag of Thessaloniki.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14623,7 +14624,7 @@
       "name": "flag of Lichtervelde",
       "count": 1,
       "file": "Lichtervelde vlag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue"
       ],
@@ -14655,7 +14656,7 @@
       "name": "flag of Nogent-le-Rotrou",
       "count": 1,
       "file": "Flag of Nogent-le-Rotrou.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -14674,7 +14675,7 @@
       "name": "Q9647178",
       "count": 1,
       "file": "Flag of Ourinhos SP.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14689,7 +14690,7 @@
       "name": "flag of Oberhausbergen",
       "count": 1,
       "file": "Flag of Oberhausbergen.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -14707,7 +14708,7 @@
       "name": "Koło County flag",
       "count": 1,
       "file": "POL powiat kolski flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -14752,7 +14753,7 @@
       "name": "flag of Guebwiller",
       "count": 1,
       "file": "Flag of Guebwiller.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -14771,7 +14772,7 @@
       "name": "flag of Independence",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -14790,7 +14791,7 @@
       "name": "flag of Tulsa",
       "count": 1,
       "file": "Flag of Tulsa, Oklahoma (2018).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "blue"
@@ -14823,7 +14824,7 @@
       "name": "flag of Condé-sur-l'Escaut",
       "count": 1,
       "file": "Flag of Condé-sur-l'Escaut.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -14856,7 +14857,7 @@
       "name": "flag of Molsheim",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -14875,7 +14876,7 @@
       "name": "flag of Symmes Township",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "brown"
@@ -14908,7 +14909,7 @@
       "name": "flag of Landivisiau",
       "count": 1,
       "file": "Flag of Landivisiau.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -14942,7 +14943,7 @@
       "name": "flag of Polk State College",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -14962,7 +14963,7 @@
       "name": "flag of Glendale",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -14983,7 +14984,7 @@
       "name": "flag of Dallas",
       "count": 1,
       "file": "Flag of Dallas.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15043,7 +15044,7 @@
       "name": "flag of Cluses",
       "count": 1,
       "file": "Flag of Cluses.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -15061,7 +15062,7 @@
       "name": "flag of The Hague",
       "count": 1,
       "file": "Flag of The Hague.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green"
@@ -15082,7 +15083,7 @@
       "name": "flag of Wissous",
       "count": 1,
       "file": "Wissous Plage (17).jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15127,7 +15128,7 @@
       "name": "flag of Châteaugiron",
       "count": 1,
       "file": "Flag of Châteaugiron.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -15145,7 +15146,7 @@
       "name": "flag of Foix",
       "count": 1,
       "file": "Flag of the County of Foix.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -15211,7 +15212,7 @@
       "name": "flag of Miami Gardens",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -15231,7 +15232,7 @@
       "name": "flag of Weston",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white",
@@ -15267,7 +15268,7 @@
       "name": "flag of Butler County",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -15314,7 +15315,7 @@
       "name": "Sleep Inn flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -15333,7 +15334,7 @@
       "name": "flag of Hamilton",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -15365,7 +15366,7 @@
       "name": "flag of Fort Myers",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -15386,7 +15387,7 @@
       "name": "flag of the City of São Paulo",
       "count": 1,
       "file": "Bandeira da cidade de São Paulo.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "red",
@@ -15407,7 +15408,7 @@
       "name": "Candlewood Suites flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -15441,7 +15442,7 @@
       "name": "flag of Saint-Julien-les-Villas",
       "count": 1,
       "file": "Flag of Saint-Julien-les-Villas.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -15460,7 +15461,7 @@
       "name": "flag of Úbeda",
       "count": 1,
       "file": "Ubeda Spain.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15475,7 +15476,7 @@
       "name": "flag of La Seyne-sur-Mer",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15538,7 +15539,7 @@
       "name": "Flag of Zaragoza City",
       "count": 1,
       "file": "Flag of Zaragoza.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15571,7 +15572,7 @@
       "name": "flag of Luxeuil-les-Bains",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15631,7 +15632,7 @@
       "name": "flag of Hayward",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -15665,7 +15666,7 @@
       "name": "flag of Laredo",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15759,7 +15760,7 @@
       "name": "flag of Cape Coral",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "yellow",
@@ -15779,7 +15780,7 @@
       "name": "flag of La Châtre",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "red",
@@ -15798,7 +15799,7 @@
       "name": "flag of La Brède",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15813,7 +15814,7 @@
       "name": "flag of Cleveland",
       "count": 1,
       "file": "Flag of Cleveland, Ohio.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15858,7 +15859,7 @@
       "name": "flag of Florida Atlantic University",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -15876,7 +15877,7 @@
       "name": "flag of Palm Beach County",
       "count": 1,
       "file": "Flag of Palm Beach County, Florida.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -15915,7 +15916,7 @@
       "name": "flag of Northern Michigan University",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "white"
@@ -16028,7 +16029,7 @@
       "name": "Cantabrian labarum",
       "count": 1,
       "file": "Cantabrian Lábaru Flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -16058,7 +16059,7 @@
       "name": "flag of Springfield Township",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -16076,7 +16077,7 @@
       "name": "flag of Mordelles",
       "count": 1,
       "file": "Flag of Mordelles.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -16096,7 +16097,7 @@
       "name": "Five Rivers MetroParks flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -16160,7 +16161,7 @@
       "name": "flag of Cannes",
       "count": 1,
       "file": "Flag of the Commune of Cannes (Blue Variant).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -16175,7 +16176,7 @@
       "name": "flag of Antibes",
       "count": 1,
       "file": "Flag of the Commune of Antibes-Juan-les-Pins.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -16243,7 +16244,7 @@
       "name": "flag of Saint-Louis",
       "count": 1,
       "file": "Flag of Saint-Louis.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -16261,7 +16262,7 @@
       "name": "flag of Homestead",
       "count": 1,
       "file": "Flag of Homestead, Florida.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -16296,7 +16297,7 @@
       "name": "Mickey Mouse flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -16337,7 +16338,7 @@
       "name": "flag of Ernolsheim-Bruche",
       "count": 1,
       "file": "Flag of Ernolsheim-Bruche.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -16382,7 +16383,7 @@
       "name": "Franco-Ontarian flag",
       "count": 1,
       "file": "Franco-Ontarian flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -16397,7 +16398,7 @@
       "name": "flag of Étrembières",
       "count": 1,
       "file": "Flag of Etrembières.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green"
@@ -16415,7 +16416,7 @@
       "name": "flag of Nouméa",
       "count": 1,
       "file": "Armoiries Nouméan fr.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -16430,7 +16431,7 @@
       "name": "flag of Gujan-Mestras",
       "count": 1,
       "file": "Flag of Gujan-Mestras.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green"
@@ -16448,7 +16449,7 @@
       "name": "Q106677780",
       "count": 1,
       "file": "Drapeau Arsenal Rochefort.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -16467,7 +16468,7 @@
       "name": "Q106677732",
       "count": 1,
       "file": "Flag of Miquelon-Langlade.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -16489,7 +16490,7 @@
       "name": "flag of Châtillon-sur-Seine",
       "count": 1,
       "file": "Chatillon-Blason.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -16572,7 +16573,7 @@
       "name": "flag of the Dan Beard Council",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "yellow"
@@ -16590,7 +16591,7 @@
       "name": "flag of Béziers",
       "count": 1,
       "file": "Drapeau de Beziers.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -16625,7 +16626,7 @@
       "name": "flag of the Commonwealth of Nations",
       "count": 1,
       "file": "Infobox Commonwealth of Nations flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -16655,7 +16656,7 @@
       "name": "flag of Jeseník",
       "count": 1,
       "file": "Flag of Jesenik.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -16689,7 +16690,7 @@
       "name": "flag of Lauterbourg",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -16708,7 +16709,7 @@
       "name": "flag of Edgewood",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "red",
@@ -16728,7 +16729,7 @@
       "name": "flag of Horbourg-Wihr",
       "count": 1,
       "file": "Flag of Horbourg-Wihr.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -16748,7 +16749,7 @@
       "name": "flag of Dol-de-Bretagne",
       "count": 1,
       "file": "Flag of Dol-de-Bretagne.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -16783,7 +16784,7 @@
       "name": "flag of Oberschaeffolsheim",
       "count": 1,
       "file": "Flag of Oberschaeffolsheim.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -16821,7 +16822,7 @@
       "name": "1980 flag of Orlando",
       "count": 1,
       "file": "Flag of Orlando, Florida (1980–2017).gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -16843,7 +16844,7 @@
       "name": "flag of Châteaubriant",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -16858,7 +16859,7 @@
       "name": "Disney's Grand Floridian flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black"
@@ -16891,7 +16892,7 @@
       "name": "flag of Barrie",
       "count": 1,
       "file": "Flag of Barrie.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -17016,7 +17017,7 @@
       "name": "flag of Précigné",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -17051,7 +17052,7 @@
       "name": "flag of Orem",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -17070,7 +17071,7 @@
       "name": "Q11698218",
       "count": 1,
       "file": "POL Ruda Śląska flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -17085,7 +17086,7 @@
       "name": "flag of Friville-Escarbotin",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -17151,7 +17152,7 @@
       "name": "Ecoplayas flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -17187,7 +17188,7 @@
       "name": "Coastal Carolina University flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -17219,7 +17220,7 @@
       "name": "flag of Hurst",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "blue"
@@ -17346,7 +17347,7 @@
       "name": "flag of Ghent",
       "count": 1,
       "file": "Vlag van Gent.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -17361,7 +17362,7 @@
       "name": "flag of Ostashkov",
       "count": 1,
       "file": "Flag of Ostashkov (Tver oblast).png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -17423,7 +17424,7 @@
       "name": "flag of the Santa Clara County Fire Department",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "yellow",
@@ -17442,7 +17443,7 @@
       "name": "Q117192105",
       "count": 1,
       "file": "Flaga Gminy Dopiewo (Trzcielin 2023) 1.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -17472,7 +17473,7 @@
       "name": "flag of Melesse",
       "count": 1,
       "file": "Flag of Melesse.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -17487,7 +17488,7 @@
       "name": "flag of Monroe",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "blue"
@@ -17505,7 +17506,7 @@
       "name": "flag of Boca Raton",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white",
@@ -17556,7 +17557,7 @@
       "name": "flag of the Chicago Police Memorial Foundation",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -17575,7 +17576,7 @@
       "name": "National Law Enforcement Officers Memorial flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -17595,7 +17596,7 @@
       "name": "Q14515866",
       "count": 1,
       "file": "Wappen Waadt matt.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -17610,7 +17611,7 @@
       "name": "flag of Aix-en-Provence",
       "count": 1,
       "file": "Flag of Aix-en-Provence.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -17674,7 +17675,7 @@
       "name": "flag of Farébersviller",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -17719,7 +17720,7 @@
       "name": "flag of Beaune-la-Rolande",
       "count": 1,
       "file": "Flag of Beaune-la-Rolande.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -17775,7 +17776,7 @@
       "name": "flag of Mauvezin",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -17793,7 +17794,7 @@
       "name": "flag of Saint-Fons",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -17842,7 +17843,7 @@
       "name": "flag of Bouliac",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -17892,7 +17893,7 @@
       "name": "Flag of La Rioja Province, Argentina",
       "count": 1,
       "file": "Bandera de la Provincia de La Rioja.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -17907,7 +17908,7 @@
       "name": "flag of Odesa",
       "count": 1,
       "file": "Flag of Odesa (UHT COA console).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -17922,7 +17923,7 @@
       "name": "Flag of Santa Cruz Department",
       "count": 1,
       "file": "Organisk utvikling 2. Er den levende naturen vesensforskjellig fra den døde? (Kristine Bonnevie, 1929).pdf",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -17937,7 +17938,7 @@
       "name": "flag of Mehun-sur-Yèvre",
       "count": 1,
       "file": "Flag of Mehun-sur-Yèvre.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -18036,7 +18037,7 @@
       "name": "flag of Bruges",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -18051,7 +18052,7 @@
       "name": "flag of Naga",
       "count": 1,
       "file": "Flag of Naga, Cebu.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -18133,7 +18134,7 @@
       "name": "flag of Ixelles - Elsene",
       "count": 1,
       "file": "Flag of Elsene.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -18178,7 +18179,7 @@
       "name": "flag of Taylor Mill",
       "count": 1,
       "file": "City of Taylor Mill Kentucky Flag.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -18244,7 +18245,7 @@
       "name": "flag of Obernkirchen",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -18278,7 +18279,7 @@
       "name": "flag of Walton County",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -18297,7 +18298,7 @@
       "name": "flag of Huningue",
       "count": 1,
       "file": "Flag of Huningue.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -18317,7 +18318,7 @@
       "name": "flag of Saint-Pol-de-Léon",
       "count": 1,
       "file": "Flag-Saint-Pol-de-Léon.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -18367,7 +18368,7 @@
       "name": "flag of Dayton",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "lightblue"
@@ -18385,7 +18386,7 @@
       "name": "flag of Pickerington",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -18463,7 +18464,7 @@
       "name": "flag of Mamoudzou",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -18478,7 +18479,7 @@
       "name": "flag of Villeneuve-Loubet",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "black"
@@ -18616,7 +18617,7 @@
       "name": "flag of Forest Park",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -18635,7 +18636,7 @@
       "name": "flag of Montreal",
       "count": 1,
       "file": "Flag of Montreal.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -18721,7 +18722,7 @@
       "name": "flag of Hombourg-Haut",
       "count": 1,
       "file": "Flag of Hombourg-Haut.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -18770,7 +18771,7 @@
       "name": "Holiday Inn Express flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -18821,7 +18822,7 @@
       "name": "flag of Jarnac",
       "count": 1,
       "file": "Flag of Jarnac.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -18887,7 +18888,7 @@
       "name": "Theta Chi flag",
       "count": 1,
       "file": "Theta-chi-flag.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -18905,7 +18906,7 @@
       "name": "flag of Rueil-Malmaison",
       "count": 1,
       "file": "Rueil-Malmaison - War memorial.JPG",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -18920,7 +18921,7 @@
       "name": "flag of Barcelona",
       "count": 1,
       "file": "Flag of Barcelona.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -18939,7 +18940,7 @@
       "name": "Red Ensign of Great Britain",
       "count": 1,
       "file": "Red ensign of Great Britain (1707–1800).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -18958,7 +18959,7 @@
       "name": "Lake Lanier Islands flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "blue"
@@ -18976,7 +18977,7 @@
       "name": "flag of Chiriquí",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19021,7 +19022,7 @@
       "name": "flag of Euless",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -19040,7 +19041,7 @@
       "name": "flag of La Turbie",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19055,7 +19056,7 @@
       "name": "Australian Civil Aviation Ensign",
       "count": 1,
       "file": "Civil Air Ensign of Australia.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19130,7 +19131,7 @@
       "name": "flag of Alameda County",
       "count": 1,
       "file": "Flag of Alameda County, California.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -19150,7 +19151,7 @@
       "name": "Battleship Memorial Park flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -19169,7 +19170,7 @@
       "name": "flag of Harrison Township",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -19191,7 +19192,7 @@
       "name": "flag of Île-de-France",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19224,7 +19225,7 @@
       "name": "Centennial Bank flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -19258,7 +19259,7 @@
       "name": "flag of the canton of Thurgau",
       "count": 1,
       "file": "Wappen Thurgau matt.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19303,7 +19304,7 @@
       "name": "flag of Portland",
       "count": 1,
       "file": "Flag of Portland, Oregon.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19318,7 +19319,7 @@
       "name": "flag of Saint-Cloud",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -19336,7 +19337,7 @@
       "name": "flag of Victoria",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -19356,7 +19357,7 @@
       "name": "flag of the Chatham Islands",
       "count": 1,
       "file": "Flag of Chatham Islands.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19371,7 +19372,7 @@
       "name": "flag of Lake Charles",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -19389,7 +19390,7 @@
       "name": "flag of Valdivia",
       "count": 1,
       "file": "Flag of Valdivia, Chile.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -19444,7 +19445,7 @@
       "name": "flag of Taunton",
       "count": 1,
       "file": "Flag of Taunton, Massachusetts.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -19478,7 +19479,7 @@
       "name": "flag of the Mapuches",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19493,7 +19494,7 @@
       "name": "flag of Chamonix-Mont-Blanc",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -19514,7 +19515,7 @@
       "name": "flag of Didenheim",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -19533,7 +19534,7 @@
       "name": "flag of Orlando, Florida",
       "count": 1,
       "file": "Flag of Orlando, Florida.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -19669,7 +19670,7 @@
       "name": "flag of Philadelphia",
       "count": 1,
       "file": "Flag of Philadelphia, Pennsylvania.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19684,7 +19685,7 @@
       "name": "flag of Las Vegas",
       "count": 1,
       "file": "Flag of Las Vegas, Nevada.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19718,7 +19719,7 @@
       "name": "flag of Winnipeg",
       "count": 1,
       "file": "Flag of Winnipeg.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19748,7 +19749,7 @@
       "name": "flag of Cupertino",
       "count": 1,
       "file": "Flag of Cupertino, California.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "blue"
@@ -19781,7 +19782,7 @@
       "name": "flag of Katowice",
       "count": 1,
       "file": "Katowice Flaga.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19811,7 +19812,7 @@
       "name": "flag of Fredericton",
       "count": 1,
       "file": "Flag-of-Fredericton.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19826,7 +19827,7 @@
       "name": "Flag of Tucumán",
       "count": 1,
       "file": "Bandera de la Provincia de Tucumán.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19901,7 +19902,7 @@
       "name": "Q5718647",
       "count": 1,
       "file": "Flag of Manabí Province.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19976,7 +19977,7 @@
       "name": "flag of Reilhanette",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -20026,7 +20027,7 @@
       "name": "flag of Apalachicola",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -20123,7 +20124,7 @@
       "name": "Flag of Rio Negro Province",
       "count": 1,
       "file": "Bandera de la Provincia del Río Negro.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20198,7 +20199,7 @@
       "name": "flag of Sofia",
       "count": 1,
       "file": "BG Sofia flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue"
       ],
@@ -20215,7 +20216,7 @@
       "name": "Patriote flag",
       "count": 1,
       "file": "Flag of the Patriote movement (Lower Canada).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20290,7 +20291,7 @@
       "name": "flag of Mercosur",
       "count": 1,
       "file": "Flag of Mercosur.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20305,7 +20306,7 @@
       "name": "flag of Denver",
       "count": 1,
       "file": "Flag of Denver, Colorado.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20335,7 +20336,7 @@
       "name": "Royal Standard of the United Kingdom",
       "count": 1,
       "file": "Royal standard of the United Kingdom.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20350,7 +20351,7 @@
       "name": "flag of Friuli",
       "count": 1,
       "file": "Bandiere dal Friûl.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20417,7 +20418,7 @@
       "name": "flag of Entre Ríos Province",
       "count": 1,
       "file": "Bandera de la Provincia de Entre Ríos.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20447,7 +20448,7 @@
       "name": "flag of Hœrdt",
       "count": 1,
       "file": "Flag of Hœrdt.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20477,7 +20478,7 @@
       "name": "flag of Erquy",
       "count": 1,
       "file": "Flag of Erquy.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -20497,7 +20498,7 @@
       "name": "Flag of the Civil Freedom of Argentina",
       "count": 1,
       "file": "Flag of the Civil Freedom of Argentina (unofficial improved version).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20512,7 +20513,7 @@
       "name": "People's Flag of Milwaukee",
       "count": 1,
       "file": "People's Flag of Milwaukee.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "orange",
@@ -20532,7 +20533,7 @@
       "name": "flag of Bremen",
       "count": 1,
       "file": "Flag of Bremen.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20550,7 +20551,7 @@
       "name": "flag of Erlanger",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -20568,7 +20569,7 @@
       "name": "flag of Huntington Beach",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black",
@@ -20590,7 +20591,7 @@
       "name": "flags of New Caledonia",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20620,7 +20621,7 @@
       "name": "flag of UNESCO",
       "count": 1,
       "file": "Flag of UNESCO.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20635,7 +20636,7 @@
       "name": "flag of Bogotá",
       "count": 1,
       "file": "Flag of Bogotá.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -20683,7 +20684,7 @@
       "name": "flag of Ceuta",
       "count": 1,
       "file": "Flag of Ceuta.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black"
@@ -20859,7 +20860,7 @@
       "name": "flag of Creve Coeur",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -20878,7 +20879,7 @@
       "name": "flag of Vitré",
       "count": 1,
       "file": "Flag of Vitré.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20893,7 +20894,7 @@
       "name": "flag of Kennesaw",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black"
@@ -20978,7 +20979,7 @@
       "name": "flag of Westwego",
       "count": 1,
       "file": "Westwego Flag.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -21068,7 +21069,7 @@
       "name": "flag of Melilla",
       "count": 1,
       "file": "Flag of Melilla.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue"
       ],
@@ -21118,7 +21119,7 @@
       "name": "Flag of Salamanca, Spain",
       "count": 1,
       "file": "Bandera de Salamanca1.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -21133,7 +21134,7 @@
       "name": "flag of the New Orleans Police Department",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "yellow"
@@ -21151,7 +21152,7 @@
       "name": "flag of Talant",
       "count": 1,
       "file": "Flag of Talant.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -21202,7 +21203,7 @@
       "name": "flag of Baltimore",
       "count": 1,
       "file": "Flag of Baltimore, Maryland.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -21217,7 +21218,7 @@
       "name": "Q3744856",
       "count": 1,
       "file": "POL Włodawa flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -21256,7 +21257,7 @@
       "name": "flag of Leon County",
       "count": 1,
       "file": "Flag of Leon County, Florida.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "white"
@@ -21274,7 +21275,7 @@
       "name": "flag of Versonnex",
       "count": 1,
       "file": "Flag of Versonnex.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -21292,7 +21293,7 @@
       "name": "flag of Amelia",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "white",
@@ -21311,7 +21312,7 @@
       "name": "Royal Australian Air Force Ensign",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -21326,7 +21327,7 @@
       "name": "flag of Blue Ash",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "lightblue"
@@ -21344,7 +21345,7 @@
       "name": "flag of Épinal",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -21364,7 +21365,7 @@
       "name": "flag of Tours",
       "count": 1,
       "file": "Flag of Tours.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -21385,7 +21386,7 @@
       "name": "flag for the London Ambulance Service",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -21400,7 +21401,7 @@
       "name": "Flag of Bjelovar",
       "count": 1,
       "file": "Vlag bjelovar.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -21437,7 +21438,7 @@
       "name": "flag of Glendale",
       "count": 1,
       "file": "Flag of Glendale, California.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -21492,7 +21493,7 @@
       "name": "North Florida Regional Medical Center flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -21510,7 +21511,7 @@
       "name": "flag of Greenbelt",
       "count": 1,
       "file": "Flag of Greenbelt, Maryland.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -21527,7 +21528,7 @@
       "name": "flag of the Olympic Regional Development Authority",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black"
@@ -21560,7 +21561,7 @@
       "name": "flag of Arbois",
       "count": 1,
       "file": "Flag of Arbois.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "black"
@@ -21593,7 +21594,7 @@
       "name": "flag of the New Zealand Police",
       "count": 1,
       "file": "Flag of New Zealand Police.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -21627,7 +21628,7 @@
       "name": "flag of Paradou",
       "count": 1,
       "file": "Mairie et place Charloun Rieu Paradou.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -21677,7 +21678,7 @@
       "name": "Naval Ensign of Sweden",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -21707,7 +21708,7 @@
       "name": "flag of Levallois-Perret",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -21722,7 +21723,7 @@
       "name": "flag of Port-Louis",
       "count": 1,
       "file": "Flag of Port-Louis.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -21824,7 +21825,7 @@
       "name": "flag of Le Conquet",
       "count": 1,
       "file": "Flag of Le Conquet.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -21846,7 +21847,7 @@
       "name": "flag of St. Lawrence College",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -21955,7 +21956,7 @@
       "name": "flag of the University of California, San Diego",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "yellow",
@@ -22004,7 +22005,7 @@
       "name": "flag of Heidelberg",
       "count": 1,
       "file": "Flagge Heidelberg.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "red",
@@ -22054,7 +22055,7 @@
       "name": "flag of Peyruis",
       "count": 1,
       "file": "Flag of Peyruis.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -22073,7 +22074,7 @@
       "name": "9/11 National Remembrance Flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -22093,7 +22094,7 @@
       "name": "flag of Thônex",
       "count": 1,
       "file": "CHE Thônex Flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22138,7 +22139,7 @@
       "name": "Royal Standard of Scotland",
       "count": 1,
       "file": "Royal Banner of Scotland.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22153,7 +22154,7 @@
       "name": "flag of Liemers",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22168,7 +22169,7 @@
       "name": "Olympic flag",
       "count": 1,
       "file": "Olympic flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -22205,7 +22206,7 @@
       "name": "flag of Gerstheim",
       "count": 1,
       "file": "Flag of Gerstheim.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -22238,7 +22239,7 @@
       "name": "Leidos flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -22272,7 +22273,7 @@
       "name": "flag of Valbonne",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -22338,7 +22339,7 @@
       "name": "flag of Springdale",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -22370,7 +22371,7 @@
       "name": "flag of Austin, Texas",
       "count": 1,
       "file": "Flag of Austin, Texas.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -22408,7 +22409,7 @@
       "name": "flag of the Muscogee Nation",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -22443,7 +22444,7 @@
       "name": "flag of Kembs",
       "count": 1,
       "file": "Flag of Kembs.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "black"
@@ -22461,7 +22462,7 @@
       "name": "flag of Miami Township",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -22499,7 +22500,7 @@
       "name": "flag of the Seminole Tribe of Florida",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -22537,7 +22538,7 @@
       "name": "flag of Arcachon",
       "count": 1,
       "file": "Drapeau d'Arcachon.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "white",
@@ -22556,7 +22557,7 @@
       "name": "flag of Thuin",
       "count": 1,
       "file": "Thuin vlag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22650,7 +22651,7 @@
       "name": "flag of Metz",
       "count": 1,
       "file": "Metz flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black"
@@ -22705,7 +22706,7 @@
       "name": "flag of Auxerre",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22720,7 +22721,7 @@
       "name": "flag of Mulhouse",
       "count": 1,
       "file": "DrapeauMulhouse.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -22843,7 +22844,7 @@
       "name": "Jolly Roger",
       "count": 1,
       "file": "Flag of Edward England.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22858,7 +22859,7 @@
       "name": "flag of the Croatian Republic of Herzeg-Bosnia",
       "count": 1,
       "file": "Flag of the Croatian Republic of Herzeg-Bosnia.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22873,7 +22874,7 @@
       "name": "flag of Saint-Laurent-des-Arbres",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -22891,7 +22892,7 @@
       "name": "flag of Bordeaux",
       "count": 1,
       "file": "Flag of Bordeaux, France.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22906,7 +22907,7 @@
       "name": "flag of Lunéville",
       "count": 1,
       "file": "Flag of Lunéville.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -22925,7 +22926,7 @@
       "name": "flag of Semur-en-Brionnais",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -22943,7 +22944,7 @@
       "name": "flag of Berre-l'Étang",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -22964,7 +22965,7 @@
       "name": "flag of Altkirch",
       "count": 1,
       "file": "Flag of Altkirch.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -22986,7 +22987,7 @@
       "name": "flag of Annœullin",
       "count": 1,
       "file": "Flag of Annœullin.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -23004,7 +23005,7 @@
       "name": "flag of Weert",
       "count": 1,
       "file": "Flag of Weert.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23019,7 +23020,7 @@
       "name": "flag of Warcq",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23034,7 +23035,7 @@
       "name": "Mission College flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23049,7 +23050,7 @@
       "name": "flag of Waltenheim",
       "count": 1,
       "file": "Flag of Waltenheim.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -23112,7 +23113,7 @@
       "name": "Q131584400",
       "count": 1,
       "file": "Bandera de Rus (Jaén).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "black",
         "yellow"
@@ -23130,7 +23131,7 @@
       "name": "flag of Delft",
       "count": 1,
       "file": "Flag of Delft.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23198,7 +23199,7 @@
       "name": "Commodore Perry flag",
       "count": 1,
       "file": "DONT GIVE UP THE SHIP flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "blue"
@@ -23283,7 +23284,7 @@
       "name": "flag of Allinges",
       "count": 1,
       "file": "Allinges ChateauVieux.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -23301,7 +23302,7 @@
       "name": "flag of Vandœuvre-lès-Nancy",
       "count": 1,
       "file": "Flag of Vandœuvre-lès-Nancy.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23316,7 +23317,7 @@
       "name": "flag of Concarneau",
       "count": 1,
       "file": "Flag of Concarneau.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23331,7 +23332,7 @@
       "name": "flag of Corrientes Province",
       "count": 1,
       "file": "Bandera de la Provincia de Corrientes.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23361,7 +23362,7 @@
       "name": "flag of Montgomery",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "blue"
@@ -23397,7 +23398,7 @@
       "name": "flag of the National Oceanic and Atmospheric Administration",
       "count": 1,
       "file": "NOAA Flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -23417,7 +23418,7 @@
       "name": "Wendy's flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -23436,7 +23437,7 @@
       "name": "flag of Holtzheim",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "white",
@@ -23455,7 +23456,7 @@
       "name": "flag of the United States Army Training and Doctrine Command",
       "count": 1,
       "file": "Flag of the United States Army Training and Doctrine Command.png",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -23477,7 +23478,7 @@
       "name": "flag of the East African Community",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23552,7 +23553,7 @@
       "name": "flag of San Jose City Hall",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -23574,7 +23575,7 @@
       "name": "flag of Franklin County",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "white"
@@ -23592,7 +23593,7 @@
       "name": "flag of Warren",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "yellow"
@@ -23628,7 +23629,7 @@
       "name": "flag of Mecklenburg County",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -23646,7 +23647,7 @@
       "name": "flag of Méru",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "green",
@@ -23667,7 +23668,7 @@
       "name": "flag of Meximieux",
       "count": 1,
       "file": "Mairie de Meximieux - 2.JPG",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -23715,7 +23716,7 @@
       "name": "Flag of San Juan Province, Argentina",
       "count": 1,
       "file": "Bandera de la Provincia de San Juan (1997-2018).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23813,7 +23814,7 @@
       "name": "flag of Warren County",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23858,7 +23859,7 @@
       "name": "flag of Vittel",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -23878,7 +23879,7 @@
       "name": "flag of Chernihiv",
       "count": 1,
       "file": "Alex K Chernihiv prapor 1992.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23923,7 +23924,7 @@
       "name": "flag of Saint-Martin-d'Hères",
       "count": 1,
       "file": "Flag of Saint-Martin-d'Hères.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -23942,7 +23943,7 @@
       "name": "flag of Calgary",
       "count": 1,
       "file": "Flag-of-Calgary.jpg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -23960,7 +23961,7 @@
       "name": "flag of Saint Petersburg",
       "count": 1,
       "file": "Flag of Saint Petersburg.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24050,7 +24051,7 @@
       "name": "flag of Cusco",
       "count": 1,
       "file": "Flag of Cusco (2021).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24065,7 +24066,7 @@
       "name": "flag of Corpus Christi",
       "count": 1,
       "file": "Corpus Christi, Texas flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white"
@@ -24177,7 +24178,7 @@
       "name": "Australian Defence Force Ensign",
       "count": 1,
       "file": "Ensign of the Australian Defence Force.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24207,7 +24208,7 @@
       "name": "Q130268700",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24271,7 +24272,7 @@
       "name": "flag of Salins-les-Bains",
       "count": 1,
       "file": "Flag of Salins-les-Bains.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -24304,7 +24305,7 @@
       "name": "Cincinnati State flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black"
@@ -24322,7 +24323,7 @@
       "name": "flag of Thônes",
       "count": 1,
       "file": "Flag of Thônes.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -24360,7 +24361,7 @@
       "name": "Flag of Santiago del Estero Province",
       "count": 1,
       "file": "Bandera de la Provincia de Santiago del Estero.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24375,7 +24376,7 @@
       "name": "flag of Dinan",
       "count": 1,
       "file": "Flag of Dinan.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -24395,7 +24396,7 @@
       "name": "flag of Baumholder",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24425,7 +24426,7 @@
       "name": "RE/MAX flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -24459,7 +24460,7 @@
       "name": "flag of Rezé",
       "count": 1,
       "file": "Flag of Rezé.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -24481,7 +24482,7 @@
       "name": "flag of Gagny",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24496,7 +24497,7 @@
       "name": "flag of Chubut Province",
       "count": 1,
       "file": "Bandera de la Provincia del Chubut.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24511,7 +24512,7 @@
       "name": "flag of Fontaine",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24571,7 +24572,7 @@
       "name": "flag of Wildomar",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "green",
         "red",
@@ -24607,7 +24608,7 @@
       "name": "flag of Buenos Aires",
       "count": 1,
       "file": "Bandera de la Ciudad de Buenos Aires.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24622,7 +24623,7 @@
       "name": "flag of the Ohio River Valley Water Sanitation Commission",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -24672,7 +24673,7 @@
       "name": "flag of Fort Thomas",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "black"
@@ -24743,7 +24744,7 @@
       "name": "flag of La Chapelle-sur-Erdre",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -24778,7 +24779,7 @@
       "name": "flag of Kołobrzeg",
       "count": 1,
       "file": "POL Kołobrzeg flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -24862,7 +24863,7 @@
       "name": "flag of Saint-Avaugourd-des-Landes",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -24942,7 +24943,7 @@
       "name": "Q122949398",
       "count": 1,
       "file": "Bandera de Astillero (Cantabria).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "blue"
@@ -25023,7 +25024,7 @@
       "name": "flag of Chipotle Mexican Grill",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -25073,7 +25074,7 @@
       "name": "flag of Colleyville",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "blue"
@@ -25091,7 +25092,7 @@
       "name": "Aloft Hotels flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "black",
@@ -25125,7 +25126,7 @@
       "name": "Flag of Chuquisaca & Sucre",
       "count": 1,
       "file": "Flag of Sucre and Chuquisaca.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -25159,7 +25160,7 @@
       "name": "flag of Boone County",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "white",
@@ -25178,7 +25179,7 @@
       "name": "flag of the UMass Lowell River Hawks",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "red",
@@ -25197,7 +25198,7 @@
       "name": "flag of Cook County",
       "count": 1,
       "file": "Flag of Cook County, Illinois.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -25217,7 +25218,7 @@
       "name": "flag of Formosa Province",
       "count": 1,
       "file": "Bandera de la Provincia de Formosa.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -25232,7 +25233,7 @@
       "name": "flag of Toul",
       "count": 1,
       "file": "Toul Flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red",
@@ -25281,7 +25282,7 @@
       "name": "Flag of Chorzów",
       "count": 1,
       "file": "POL Chorzów flag.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -25314,7 +25315,7 @@
       "name": "flag of Hamburg",
       "count": 1,
       "file": "Flag of Hamburg.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white"
@@ -25362,7 +25363,7 @@
       "name": "flag of Quimper",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -25412,7 +25413,7 @@
       "name": "flag of Gaillard",
       "count": 1,
       "file": "Flag of Gaillard.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -25450,7 +25451,7 @@
       "name": "flag of Edmonton",
       "count": 1,
       "file": "Flag of Edmonton (1966–1986).svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -25480,7 +25481,7 @@
       "name": "flag of the Disabled American Veterans",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "red",
         "white",
@@ -25499,7 +25500,7 @@
       "name": "flag of Roquebrune-sur-Argens",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "white",
@@ -25552,7 +25553,7 @@
       "name": "Signature Flight Support flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white"
       ],
@@ -25614,7 +25615,7 @@
       "name": "flag of Arroyito",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -25809,7 +25810,7 @@
       "name": "flag of Villeurbanne",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -25893,7 +25894,7 @@
       "name": "flag of Dunbar",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "white",
@@ -25912,7 +25913,7 @@
       "name": "flag of Ax-les-Thermes",
       "count": 1,
       "file": "Flag of the County of Foix.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "red"
@@ -25947,7 +25948,7 @@
       "name": "flag of Salon-de-Provence",
       "count": 1,
       "file": "Flag of Salon-de-Provence.gif",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue"
@@ -25984,7 +25985,7 @@
       "name": "flag of Élancourt",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -26006,7 +26007,7 @@
       "name": "drapeau d'Homécourt",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -26051,7 +26052,7 @@
       "name": "flag of Palo Alto",
       "count": 1,
       "file": "Flag of Palo Alto, California.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -26071,7 +26072,7 @@
       "name": "flag of Maisons-Laffitte",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -26155,7 +26156,7 @@
       "name": "flag of Compiègne",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -26174,7 +26175,7 @@
       "name": "flag of Grande-Synthe",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "yellow",
         "blue",
@@ -26269,7 +26270,7 @@
       "name": "flag of the University of West Florida",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "blue",
         "green",
@@ -26289,7 +26290,7 @@
       "name": "Ascension flag",
       "count": 1,
       "file": null,
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "white",
         "purple"
@@ -26322,7 +26323,7 @@
       "name": "Flag  of South Tyrol",
       "count": 1,
       "file": "Flag of South Tyrol.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",
@@ -26339,7 +26340,7 @@
       "name": "Flag of the German-speaking Community of Belgium",
       "count": 1,
       "file": "Flag of the German Community in Belgium.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [],
       "icons": [],
       "shape": "rectangle",

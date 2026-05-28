@@ -334,7 +334,13 @@ WHERE {
   VALUES ?item { __VALUES__ }
   OPTIONAL { ?item wdt:P18 ?image . }
   OPTIONAL {
-    ?item wdt:P31/wdt:P279* wd:Q69506823 .
+    # Accept either Q69506823 (flag design) or Q14660 (flag) ancestry.
+    # In Wikidata these are sibling concepts, not parent/child, so we have
+    # to test both. Specialized subtypes like municipal flag (Q21850100),
+    # commercial flag (Q74051479), and bare "flag" (Q14660) all descend
+    # from Q14660 but not Q69506823, and were previously failing the check.
+    { ?item wdt:P31/wdt:P279* wd:Q69506823 } UNION
+    { ?item wdt:P31/wdt:P279* wd:Q14660    }
     BIND(true AS ?isFlag)
   }
   OPTIONAL {
@@ -407,7 +413,8 @@ const REVIEW_SPARQL_TEMPLATE = `
 SELECT ?item ?itemLabel ?flag ?flagLabel WHERE {
   VALUES ?item { __VALUES__ }
   ?item wdt:P163 ?flag .
-  ?flag wdt:P31/wdt:P279* wd:Q69506823 .
+  { ?flag wdt:P31/wdt:P279* wd:Q69506823 } UNION
+  { ?flag wdt:P31/wdt:P279* wd:Q14660    }
   ?flag wdt:P18 ?image .
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
@@ -488,162 +495,12 @@ async function buildReviewSuggestions(flags) {
 }
 
 // ---------------------------------------------------------------------------
-// Step 2.7: Pull the Name Suggestion Index flagpole bundle. NSI is hand-
-// curated by the iD editor team; if it covers our QID we want its values
-// for flag:name, flag:type, plus the extra subject/country tags.
-// Source: https://github.com/osmlab/name-suggestion-index (BSD-3-Clause).
+// NSI (Name Suggestion Index) and Overpass flag:type/flag:name inference
+// have been moved out of the main build to honor a "we are the source of
+// truth" model:
+//   - scripts/refresh-nsi.mjs       — re-merge NSI tags into flags.json
+//   - scripts/refresh-overpass.mjs  — re-infer flag:type/flag:name from mapper consensus
 // ---------------------------------------------------------------------------
-
-const NSI_URL =
-  "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/flags/man_made/flagpole.json";
-
-async function fetchNsi() {
-  console.log("Querying Name Suggestion Index...");
-  let json;
-  let source = "fresh";
-  try {
-    const res = await fetchWithRetry(
-      NSI_URL,
-      { headers: { "User-Agent": USER_AGENT } },
-      "NSI",
-    );
-    json = await res.json();
-    await writeCache("nsi-flagpole.json", json);
-  } catch (e) {
-    console.log(`  NSI upstream failed: ${e.message}`);
-    const cached = await readCache("nsi-flagpole.json");
-    if (!cached) {
-      console.log("  no NSI cache available — extra tags will be missing this build");
-      return { byQid: new Map(), source: "missing" };
-    }
-    console.log("  falling back to cached NSI data");
-    json = cached;
-    source = "cache";
-  }
-  const byQid = new Map();
-  for (const item of json.items ?? []) {
-    const qid = item.tags?.["flag:wikidata"];
-    if (qid) byQid.set(qid, item);
-  }
-  console.log(`NSI: ${byQid.size} flag entries${source === "cache" ? " (cached)" : ""}.`);
-  return { byQid, source };
-}
-
-// ---------------------------------------------------------------------------
-// Step 2.5: Overpass pass. For each QID with enough single-value usage,
-// learn flag:type from what mappers actually tag.
-// ---------------------------------------------------------------------------
-
-// Thresholds picked deliberately (see plan):
-// - MIN_SAMPLE: ignore QIDs with too few OSM elements to draw a conclusion.
-//   The taginfo count is a useful prefilter but Overpass exact-match returns
-//   only single-value usages, which is what we want.
-// - DOMINANCE: a value has to be >=70% of single-value uses to win. Below
-//   that, mappers disagree and we leave flag:type blank.
-// - BATCH: union queries in groups so we make ~75 requests not 1,400+.
-const OVERPASS_MIN_SAMPLE = 5;
-const OVERPASS_DOMINANCE = 0.7;
-const OVERPASS_BATCH = 20;
-const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
-
-function buildOverpassQuery(qids) {
-  const lines = qids.map((q) => `  nwr["flag:wikidata"="${q}"];`).join("\n");
-  return `[out:json][timeout:120];\n(\n${lines}\n);\nout tags;`;
-}
-
-async function overpassBatch(qids, label) {
-  const query = buildOverpassQuery(qids);
-  const res = await fetchWithRetry(
-    OVERPASS_URL,
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/x-www-form-urlencoded",
-        "User-Agent": USER_AGENT,
-      },
-      body: new URLSearchParams({ data: query }).toString(),
-    },
-    label,
-  );
-  const json = await res.json();
-  // Group elements by flag:wikidata, then count flag:type AND flag:name.
-  const byQid = new Map();
-  for (const el of json.elements) {
-    const tags = el.tags ?? {};
-    const wd = tags["flag:wikidata"];
-    if (!wd || !qids.includes(wd)) continue;
-    if (!byQid.has(wd)) {
-      byQid.set(wd, { total: 0, types: new Map(), names: new Map() });
-    }
-    const bucket = byQid.get(wd);
-    bucket.total++;
-    const ft = tags["flag:type"];
-    if (ft) bucket.types.set(ft, (bucket.types.get(ft) ?? 0) + 1);
-    const fn = tags["flag:name"];
-    if (fn) bucket.names.set(fn, (bucket.names.get(fn) ?? 0) + 1);
-  }
-  return byQid;
-}
-
-function pickDominant(counts, total) {
-  if (!total || total < OVERPASS_MIN_SAMPLE) return null;
-  let top = null, topN = 0;
-  for (const [val, n] of counts) {
-    if (n > topN) { top = val; topN = n; }
-  }
-  if (!top) return null;
-  return (topN / total) >= OVERPASS_DOMINANCE ? top : null;
-}
-
-async function inferFlagTypes(flags) {
-  const eligible = flags.filter((f) => f.count >= OVERPASS_MIN_SAMPLE);
-  console.log(
-    `Overpass: ${eligible.length} QIDs eligible (count>=${OVERPASS_MIN_SAMPLE}) / ${flags.length} total.`
-  );
-
-  // Results keyed by QID: { type, source }
-  const results = new Map();
-
-  for (let i = 0; i < eligible.length; i += OVERPASS_BATCH) {
-    const slice = eligible.slice(i, i + OVERPASS_BATCH);
-    const qids = slice.map((f) => f.qid);
-    process.stdout.write(
-      `  Overpass batch ${i / OVERPASS_BATCH + 1}/${Math.ceil(eligible.length / OVERPASS_BATCH)} (${qids.length} QIDs)... `
-    );
-    const label = `Overpass ${i / OVERPASS_BATCH + 1}/${Math.ceil(eligible.length / OVERPASS_BATCH)}`;
-    let byQid;
-    try {
-      byQid = await overpassBatch(qids, label);
-    } catch (e) {
-      // One bad batch shouldn't kill the whole pipeline.
-      process.stdout.write(`FAIL: ${e.message}\n`);
-      continue;
-    }
-    let typeInferred = 0, nameInferred = 0, missing = 0;
-    for (const f of slice) {
-      const bucket = byQid.get(f.qid);
-      if (!bucket) { missing++; continue; }
-      const t = pickDominant(bucket.types, bucket.total);
-      const n = pickDominant(bucket.names, bucket.total);
-      if (t || n) {
-        results.set(f.qid, {
-          type: t,
-          name: n,
-          sample: bucket.total,
-        });
-        if (t) typeInferred++;
-        if (n) nameInferred++;
-      }
-    }
-    process.stdout.write(
-      `type=${typeInferred} name=${nameInferred} no-data=${missing}\n`
-    );
-    // Be polite — Overpass etiquette says ~few queries/min for heavy queries.
-    await new Promise((r) => setTimeout(r, 1500));
-  }
-
-  return results;
-}
 
 // Score a candidate Commons filename for "looks like the canonical flag image"
 // so we can prefer the right P18 when an entity has several (canonical SVG,
@@ -872,74 +729,84 @@ async function loadOverrides() {
 }
 
 async function main() {
-  // Read previous build first so the shrink guard has something to compare to.
+  // We are the source of truth. The build:
+  //   - refreshes taginfo counts for ALL known QIDs (cheap; counts shift constantly),
+  //   - enriches NEW QIDs only via Wikidata (label, image, colors, isFlagEntity, dimensions),
+  //   - never re-queries Wikidata for QIDs already in flags.json,
+  //   - never queries Overpass for flag:type/flag:name inference (use scripts/refresh-overpass.mjs),
+  //   - never queries NSI (use scripts/refresh-nsi.mjs).
+  // Read the previous build; it's both the shrink guard's baseline AND the
+  // "what do we already know" source.
   const previous = await readPreviousFlagsJson();
   let degraded = false;
+
+  const existingByQid = new Map();
+  if (previous?.flags) {
+    for (const f of previous.flags) existingByQid.set(f.qid, f);
+  }
 
   const rawValues = await fetchTaginfoValues();
   const initialCounts = explodeAndDedupe(rawValues);
 
-  // Detect and collapse Wikidata redirects before enrichment, so the dead
-  // QIDs don't waste a SPARQL slot returning empty rows. Their counts roll
-  // into the canonical entity; their identity is preserved in aliases[].
-  const { redirects, failedBatches: redirectFailedBatches } =
-    await resolveRedirects([...initialCounts.keys()]);
-  if (redirectFailedBatches > 0) degraded = true;
-  const { qidCounts, aliases } = applyRedirects(initialCounts, redirects);
+  // Detect Wikidata redirects only for NEW QIDs. The redirects cache makes
+  // re-checking known QIDs a no-op anyway, but we narrow the input set up
+  // front so we never even ask about QIDs we've already classified.
+  const newQids = [...initialCounts.keys()].filter((q) => !existingByQid.has(q));
+  console.log(`taginfo: ${initialCounts.size} unique QIDs (${newQids.length} new since last build).`);
 
-  console.log(`Enriching ${qidCounts.size} QIDs via Wikidata...`);
-  const { byQid: wdByQid, failedBatches: enrichFailedBatches } =
-    await enrichAll(qidCounts);
-  if (wdByQid.size === 0 && qidCounts.size > 0) {
-    throw new Error("Wikidata enrichment returned no data — refusing to continue");
+  const { redirects, failedBatches: redirectFailedBatches } =
+    await resolveRedirects(newQids);
+  if (redirectFailedBatches > 0) degraded = true;
+
+  // Combine NEW redirects with any redirects already encoded as aliases[] on
+  // the previous build's records, so taginfo counts roll into the right canonical.
+  const allRedirects = new Map(redirects);
+  for (const [canonical, prev] of existingByQid) {
+    for (const alias of prev.aliases ?? []) {
+      if (!allRedirects.has(alias)) allRedirects.set(alias, canonical);
+    }
+  }
+  const { qidCounts, aliases } = applyRedirects(initialCounts, allRedirects);
+
+  // Enrich only QIDs that are genuinely new — i.e. weren't in the previous
+  // flags.json and weren't introduced via a redirect to an existing canonical.
+  const toEnrich = [...qidCounts.keys()].filter((q) => !existingByQid.has(q));
+  console.log(`Enriching ${toEnrich.length} new QIDs via Wikidata (${qidCounts.size - toEnrich.length} reused from last build)...`);
+  let wdByQid = new Map();
+  let enrichFailedBatches = 0;
+  if (toEnrich.length > 0) {
+    const enriched = await enrichAll(new Map(toEnrich.map((q) => [q, qidCounts.get(q)])));
+    wdByQid = enriched.byQid;
+    enrichFailedBatches = enriched.failedBatches;
+    if (wdByQid.size === 0) {
+      throw new Error("Wikidata enrichment returned no data for new QIDs — refusing to continue");
+    }
   }
   if (enrichFailedBatches > 0) degraded = true;
 
+  // Build records: existing QIDs keep everything they had (with refreshed
+  // count + possibly extended aliases); new QIDs get full enrichment.
   let flags = [];
   for (const [qid, count] of qidCounts) {
-    const rec = rowToFlag(qid, count, wdByQid.get(qid));
-    if (aliases.has(qid)) rec.aliases = aliases.get(qid);
+    const prev = existingByQid.get(qid);
+    let rec;
+    if (prev) {
+      rec = { ...prev, count };
+      if (aliases.has(qid)) {
+        // Union: keep historical aliases, add any new redirect QIDs.
+        const merged = new Set([...(prev.aliases ?? []), ...aliases.get(qid)]);
+        rec.aliases = [...merged];
+      }
+    } else {
+      rec = rowToFlag(qid, count, wdByQid.get(qid));
+      if (!rec.flagName) rec.flagName = deriveFlagName(rec.name);
+      if (aliases.has(qid)) rec.aliases = aliases.get(qid);
+    }
     flags.push(rec);
   }
 
   // Sort by OSM usage count descending — most-mapped surface first.
   flags.sort((a, b) => b.count - a.count);
-
-  // Learn flag:type and flag:name from mapper consensus on OSM.
-  console.log("Inferring flag:type and flag:name from Overpass...");
-  const overpassResults = await inferFlagTypes(flags);
-  for (const f of flags) {
-    const r = overpassResults.get(f.qid);
-    if (r) {
-      f.flagType = r.type;
-      f.flagName = r.name;
-      f.flagTypeSample = r.sample;
-    }
-    if (!f.flagName) f.flagName = deriveFlagName(f.name);
-  }
-  const typed = flags.filter((f) => f.flagType).length;
-  const named = flags.filter((f) => f.flagName && f.flagName !== f.name).length;
-  console.log(`Inferred flag:type=${typed} flag:name overrides=${named} / ${flags.length} flags.`);
-
-  // Layer NSI on top. iD's hand-curated bundle wins over our Overpass-derived
-  // values for flag:name and flag:type so the tags we produce match exactly
-  // what the iD editor would suggest for the same flag.
-  const { byQid: nsi, source: nsiSource } = await fetchNsi();
-  if (nsiSource !== "fresh") degraded = true;
-  let nsiApplied = 0;
-  for (const f of flags) {
-    const item = nsi.get(f.qid);
-    if (!item) continue;
-    nsiApplied++;
-    const t = item.tags ?? {};
-    if (t["flag:name"]) f.flagName = t["flag:name"];
-    if (t["flag:type"]) f.flagType = t["flag:type"];
-    f.extraTags = {};
-    if (t["subject"])          f.extraTags["subject"] = t["subject"];
-    if (t["subject:wikidata"]) f.extraTags["subject:wikidata"] = t["subject:wikidata"];
-    if (t["country"])          f.extraTags["country"] = t["country"];
-  }
-  console.log(`NSI applied to ${nsiApplied}/${flags.length} flags.`);
 
   const overrides = await loadOverrides();
   flags = mergeOverrides(flags, overrides);
@@ -1008,7 +875,7 @@ async function main() {
     icons: [
       "text", "animal", "bird", "people", "plant",
       "star", "sun", "cross", "crescent", "circle",
-      "stripes", "triangle", "diagonal",
+      "horizontal-stripes", "vertical-stripes", "triangle", "diagonal",
       "weapon", "map", "coa",
     ],
     shapes: ["rectangle", "square", "pennant", "other"],

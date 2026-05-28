@@ -95,7 +95,14 @@
     "description": "Three equal vertical bands of green (hoist), white, and red, with the Mexican coat of arms (a golden eagle perched on a nopal cactus devouring a serpent) centered on the white band."
   },
   "Q122482": {
-    "description": "A circle of twelve five-pointed yellow stars on a dark blue field."
+    "colors": [
+      "blue",
+      "yellow"
+    ],
+    "icons": [
+      "star"
+    ],
+    "shape": "rectangle"
   },
   "Q124020": {
     "shape": "square",
@@ -601,7 +608,7 @@
     ],
     "icons": [
       "star",
-      "stripes"
+      "horizontal-stripes"
     ],
     "description": "Thirteen alternating red and white horizontal stripes, with a blue rectangle in the upper-left corner containing fifty white stars arranged in nine rows."
   },
@@ -630,8 +637,10 @@
       "white",
       "red"
     ],
-    "icons": [],
-    "description": "Three equal vertical bands of blue, white, and red."
+    "icons": [
+      "vertical-stripes"
+    ],
+    "shape": "rectangle"
   },
   "Q459788": {
     "description": "A dark blue field with a white compass rose (a four-pointed star) in the center, encircled by a white ring with four short white lines radiating outward in the cardinal directions."
@@ -855,7 +864,14 @@
     "description": "A white field with the Islamic Shahada inscribed in black Arabic calligraphy across the center."
   },
   "Q80110": {
-    "description": "A red and white vertical triband with a stylized red maple leaf centered on the white middle panel."
+    "colors": [
+      "red",
+      "white"
+    ],
+    "icons": [
+      "plant"
+    ],
+    "shape": "rectangle"
   },
   "Q81286": {
     "colors": [

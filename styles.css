@@ -467,6 +467,16 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
 .curate-meta h2 { margin: 0 0 4px; font-size: 1.125rem; }
 .meta-line { color: var(--muted); font-size: 0.875rem; margin: 0; }
 .meta-line a { color: var(--accent); }
+.curate-description {
+  margin: 8px 0 0;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+.curate-description.is-empty::before {
+  content: "no description";
+  color: var(--muted);
+  font-style: italic;
+}
 
 .curate-actions {
   display: flex;
