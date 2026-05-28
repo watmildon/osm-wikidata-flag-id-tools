@@ -13,6 +13,7 @@
       <span id="queue-pos">—</span>
       &middot; <a href="index.html">back to identifier</a>
     </p>
+    <div class="chips needs-chips" id="needs-chips" role="group" aria-label="Show flags missing"></div>
   </header>
 
   <main class="curate-main">
@@ -25,13 +26,17 @@
           &middot; <span id="flag-count">—</span> OSM uses
           &middot; <span id="flag-entity-state"></span>
         </p>
-        <p id="flag-description" class="curate-description"></p>
       </div>
     </section>
 
     <section class="filter-group">
       <h2>Display name <span class="hint-inline">(flag:name)</span></h2>
       <input id="name-input" class="text-input" type="text" autocomplete="off" spellcheck="false" />
+    </section>
+
+    <section class="filter-group">
+      <h2>Description <span class="hint-inline">(lead with the visual)</span></h2>
+      <textarea id="description-input" class="text-input description-input" rows="3" spellcheck="true" placeholder="e.g. Three equal horizontal bands of red (top), white, and blue, with a yellow star centered."></textarea>
     </section>
 
     <section class="filter-group">
@@ -60,7 +65,6 @@
     </div>
 
     <section class="curate-filter-bar">
-      <label class="check"><input type="checkbox" id="only-needs-attention" checked /> Only flags missing data</label>
       <label class="check"><input type="checkbox" id="hide-non-flag-entities" /> Hide non-flag QIDs</label>
     </section>
   </main>

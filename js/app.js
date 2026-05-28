@@ -64,7 +64,9 @@ async function main() {
     console.error(e);
     return;
   }
-  allFlags = meta.flags;
+  // flags.json is sorted by qid on disk for clean diffs; sort by count
+  // descending in memory so the most-mapped flags appear first in the grid.
+  allFlags = [...meta.flags].sort((a, b) => (b.count ?? 0) - (a.count ?? 0));
 
   renderFilters(meta);
   applyFilters();

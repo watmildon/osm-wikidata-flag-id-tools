@@ -48,6 +48,12 @@ body {
 }
 .topbar h1 { margin: 0; font-size: 1.25rem; }
 .hint { margin: 4px 0 0; color: var(--muted); font-size: 0.875rem; }
+.needs-chips { margin-top: 8px; gap: 6px; }
+.needs-chips .chip {
+  font-size: 0.8125rem;
+  min-height: 32px;
+  padding: 4px 10px;
+}
 
 .filters {
   background: var(--bg-elev);
@@ -467,15 +473,10 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
 .curate-meta h2 { margin: 0 0 4px; font-size: 1.125rem; }
 .meta-line { color: var(--muted); font-size: 0.875rem; margin: 0; }
 .meta-line a { color: var(--accent); }
-.curate-description {
-  margin: 8px 0 0;
-  font-size: 0.875rem;
+.description-input {
+  min-height: calc(var(--tap) * 2);
+  resize: vertical;
   line-height: 1.4;
-}
-.curate-description.is-empty::before {
-  content: "no description";
-  color: var(--muted);
-  font-style: italic;
 }
 
 .curate-actions {

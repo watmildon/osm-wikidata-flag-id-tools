@@ -37,6 +37,9 @@ let queue = [];           // ordered list of flag records to work through
 let queueIndex = 0;
 let edit = null;          // { colors:Set, icons:Set, shape:string|null } for current flag
 let pending = loadPending(); // { qid: {colors, icons, shape} }
+let committed = {};       // data/overrides.json as currently committed — layered
+                          // into effective() so already-committed work doesn't
+                          // reappear in the queue between builds.
 
 // ---- IndexedDB helpers (for the File System Access API handle) ----
 //
@@ -111,25 +114,65 @@ function updatePendingUI() {
 
 // ---- queue ----
 
-// Effective record = base flag merged with any pending edit; lets us know if
-// the user already curated this flag during the current session.
+// Effective record = base flag merged with committed overrides and any pending
+// in-session edit. Mirrors the precedence the build pipeline uses, so a flag
+// the curator already classified (committed or in this session) doesn't keep
+// resurfacing in the "needs attention" queue between builds.
 function effective(f) {
+  const c = committed[f.qid];
   const p = pending[f.qid];
-  return p ? { ...f, ...p } : f;
+  return c || p ? { ...f, ...(c ?? {}), ...(p ?? {}) } : f;
 }
 
+// Per-field "is missing" predicates. Each takes the effective record and
+// returns true if that field needs a curator's attention.
+const FIELD_PROBES = {
+  description: (e) => !e.description,
+  type:        (e) => !e.flagType,
+  colors:      (e) => (e.colors?.length ?? 0) === 0,
+  icons:       (e) => (e.icons?.length ?? 0) === 0,
+  shape:       (e) => !e.shape,
+};
+const NEEDS_FIELDS = Object.keys(FIELD_PROBES);
+const NEEDS_LABELS = {
+  description: "description", type: "type",
+  colors: "colors", icons: "icons", shape: "shape",
+};
+// Defaults: the two highest-leverage curator chores. Anything in the user's
+// localStorage wins; falls back to these on first load.
+const NEEDS_DEFAULT = ["description", "icons"];
+
+const NEEDS_STORAGE_KEY = "osm-flag-curate-needs";
+function loadNeeds() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(NEEDS_STORAGE_KEY) ?? "null");
+    if (Array.isArray(raw)) return new Set(raw.filter((k) => NEEDS_FIELDS.includes(k)));
+  } catch {}
+  return new Set(NEEDS_DEFAULT);
+}
+function saveNeeds() {
+  localStorage.setItem(NEEDS_STORAGE_KEY, JSON.stringify([...needs]));
+}
+let needs = loadNeeds();
+
+// OR-combine: a flag stays in the queue if AT LEAST ONE selected field is
+// missing on its effective record. If no chips are selected, no filter is
+// applied (curator sees everything).
 function needsAttention(f) {
+  if (needs.size === 0) return true;
   const e = effective(f);
-  return (e.colors?.length ?? 0) === 0 || (e.icons?.length ?? 0) === 0;
+  for (const k of needs) if (FIELD_PROBES[k](e)) return true;
+  return false;
 }
 
 function buildQueue() {
-  const needsOnly = document.getElementById("only-needs-attention").checked;
   const hideNonFlag = document.getElementById("hide-non-flag-entities").checked;
+  // flags.json is sorted by qid on disk for clean diffs; sort by count desc
+  // here so the curator works highest-impact flags first.
   queue = meta.flags
     .filter((f) => (!hideNonFlag || f.isFlagEntity))
-    .filter((f) => (!needsOnly || needsAttention(f)));
-  // Already sorted by count desc in flags.json; preserve that order.
+    .filter(needsAttention)
+    .sort((a, b) => (b.count ?? 0) - (a.count ?? 0));
   queueIndex = 0;
 }
 
@@ -192,6 +235,34 @@ function renderChips() {
   }
 }
 
+// Topbar "needing attention" chips. One per field; label includes the count
+// of flags missing that field across the dataset (computed against the
+// effective record so committed/pending work is reflected). Click toggles.
+function renderNeedsChips() {
+  const root = document.getElementById("needs-chips");
+  if (!root) return;
+  // Count once per field per render.
+  const counts = Object.fromEntries(NEEDS_FIELDS.map((k) => [k, 0]));
+  for (const f of meta.flags) {
+    const e = effective(f);
+    for (const k of NEEDS_FIELDS) if (FIELD_PROBES[k](e)) counts[k]++;
+  }
+  root.innerHTML = "";
+  for (const k of NEEDS_FIELDS) {
+    root.appendChild(chip({
+      label: `need ${NEEDS_LABELS[k]} ${counts[k].toLocaleString()}`,
+      pressed: needs.has(k),
+      onClick: () => {
+        needs.has(k) ? needs.delete(k) : needs.add(k);
+        saveNeeds();
+        buildQueue();
+        renderCurrent();
+        renderNeedsChips();
+      },
+    }));
+  }
+}
+
 // ---- flag detail ----
 
 function renderCurrent() {
@@ -203,9 +274,9 @@ function renderCurrent() {
     document.getElementById("flag-link").textContent = "";
     document.getElementById("flag-count").textContent = "—";
     document.getElementById("flag-entity-state").textContent = "";
-    document.getElementById("flag-description").textContent = "";
     document.getElementById("name-input").value = "";
-    edit = { flagName: "", flagType: null, colors: new Set(), icons: new Set(), shape: null };
+    document.getElementById("description-input").value = "";
+    edit = { flagName: "", flagType: null, colors: new Set(), icons: new Set(), shape: null, description: "" };
     renderChips();
     return;
   }
@@ -223,13 +294,13 @@ function renderCurrent() {
   document.getElementById("flag-count").textContent = f.count.toLocaleString();
   document.getElementById("flag-entity-state").textContent =
     f.isFlagEntity ? "flag entity ✓" : "⚠️ not a flag entity";
-  const descEl = document.getElementById("flag-description");
-  descEl.textContent = e.description ?? "";
-  descEl.classList.toggle("is-empty", !e.description);
 
   const nameInput = document.getElementById("name-input");
   nameInput.value = e.flagName ?? "";
   nameInput.placeholder = f.flagName ?? f.name;
+
+  const descInput = document.getElementById("description-input");
+  descInput.value = e.description ?? "";
 
   edit = {
     flagName: e.flagName ?? "",
@@ -237,6 +308,7 @@ function renderCurrent() {
     colors: new Set(e.colors ?? []),
     icons: new Set(e.icons ?? []),
     shape: e.shape ?? null,
+    description: e.description ?? "",
   };
   renderChips();
 }
@@ -246,22 +318,28 @@ function renderCurrent() {
 function commitCurrent() {
   if (queue.length === 0) return;
   const f = queue[queueIndex];
-  // Snapshot the curator's intent into a sparse override. A field is written
-  // only when it differs from the effective value already on the record —
-  // otherwise we'd freeze whatever NSI/Overpass gave us as a manual override.
-  // Read input value live (the `input` event keeps edit.flagName in sync, but
-  // be defensive in case of unfocused-input edge cases).
+  const e = effective(f);
+  // Snapshot the curator's intent into a sparse override. A scalar field is
+  // written only when it differs from the effective value (base + committed)
+  // — otherwise we'd write an in-session pending override that already matches
+  // what's committed, then immediately smart-prune it on next page load.
+  // Read input values live (the `input` events keep edit.* in sync, but be
+  // defensive in case of unfocused-input edge cases).
   edit.flagName = document.getElementById("name-input").value.trim();
+  edit.description = document.getElementById("description-input").value.trim();
   const entry = {};
-  if (edit.flagName && edit.flagName !== (f.flagName ?? "")) {
+  if (edit.flagName && edit.flagName !== (e.flagName ?? "")) {
     entry.flagName = edit.flagName;
   }
-  if (edit.flagType && edit.flagType !== (f.flagType ?? null)) {
+  if (edit.flagType && edit.flagType !== (e.flagType ?? null)) {
     entry.flagType = edit.flagType;
   }
   if (edit.colors.size) entry.colors = [...edit.colors];
   if (edit.icons.size) entry.icons = [...edit.icons];
   if (edit.shape) entry.shape = edit.shape;
+  if (edit.description && edit.description !== (e.description ?? "")) {
+    entry.description = edit.description;
+  }
   if (Object.keys(entry).length === 0) delete pending[f.qid];
   else pending[f.qid] = entry;
   savePending();
@@ -275,6 +353,8 @@ function advance() {
 
 function handleSave() {
   commitCurrent();
+  // Counts on the topbar chips drift as the curator works; refresh them.
+  renderNeedsChips();
   advance();
 }
 
@@ -316,10 +396,23 @@ function pruneAlreadyCommitted(committed) {
 async function mergedOverridesText() {
   // Recompute against the latest committed state so a save reflects whatever
   // happened between this page load and now (another curator, another tab).
+  //
+  // Per-QID DEEP merge: the pending entry only carries fields the curator
+  // touched (colors / icons / shape / flagName / flagType). Any other fields
+  // present in the committed file — most importantly `description`, which
+  // isn't editable here — must be preserved. A naive top-level spread would
+  // replace the whole record and silently drop the description.
   const base = await fetchCommittedOverrides();
-  const merged = { ...base, ...pending };
+  const merged = { ...base };
+  for (const [qid, edit] of Object.entries(pending)) {
+    merged[qid] = { ...(base[qid] ?? {}), ...edit };
+  }
+  // Numeric QID sort (Q42 < Q100, not lexicographic Q100 < Q42). Matches the
+  // canonical order convention documented in CLAUDE.md so diffs stay clean.
   const sorted = {};
-  for (const k of Object.keys(merged).sort()) sorted[k] = merged[k];
+  for (const k of Object.keys(merged).sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)))) {
+    sorted[k] = merged[k];
+  }
   return JSON.stringify(sorted, null, 2) + "\n";
 }
 
@@ -406,6 +499,9 @@ function handleClearPending() {
   if (!confirm(`Discard ${Object.keys(pending).length} unsaved edits?`)) return;
   pending = {};
   savePending();
+  // Counts may shift back up as in-session work disappears.
+  renderNeedsChips();
+  buildQueue();
   renderCurrent();
   showToast("Pending edits cleared");
 }
@@ -420,18 +516,22 @@ function handleFilterChange() {
 async function main() {
   meta = await loadFlags();
 
-  // Smart prune: if any pending edits are already byte-identical to what's
-  // committed in overrides.json (curator saved last session, replaced the
-  // file, came back), drop them. Saves the curator from re-saving and from
-  // accidentally clobbering future legitimate changes.
+  // Load committed overrides once at startup. Two uses:
+  //   1. Layered into effective() so the "needs attention" filter sees
+  //      already-classified flags as classified, even when flags.json hasn't
+  //      been rebuilt since the override was committed.
+  //   2. Smart prune: if any pending edit is byte-identical to what's
+  //      committed (curator saved last session, replaced the file, came
+  //      back), drop it. Saves re-saving and prevents accidental clobbers.
+  committed = await fetchCommittedOverrides();
   if (Object.keys(pending).length > 0) {
-    const committed = await fetchCommittedOverrides();
     const pruned = pruneAlreadyCommitted(committed);
     if (pruned > 0) {
       showToast(`Cleared ${pruned} edit${pruned === 1 ? "" : "s"} already in overrides.json`);
     }
   }
 
+  renderNeedsChips();
   buildQueue();
   renderCurrent();
   updatePendingUI();
@@ -440,23 +540,29 @@ async function main() {
   document.getElementById("skip-btn").addEventListener("click", handleSkip);
   document.getElementById("export-btn").addEventListener("click", handleExport);
   document.getElementById("clear-pending-btn").addEventListener("click", handleClearPending);
-  document.getElementById("only-needs-attention").addEventListener("change", handleFilterChange);
   document.getElementById("hide-non-flag-entities").addEventListener("change", handleFilterChange);
 
-  // Keep edit.flagName in sync with the text input as the curator types.
+  // Keep edit state in sync with the text inputs as the curator types.
   document.getElementById("name-input").addEventListener("input", (e) => {
     edit.flagName = e.target.value;
+  });
+  document.getElementById("description-input").addEventListener("input", (e) => {
+    edit.description = e.target.value;
   });
 
   // Keyboard nudges: Enter = save, S = skip. Enter works from inside the
   // name input too — finishing the name and pressing Enter is the natural
-  // "done with this flag" gesture. 's' only fires when no input is focused
-  // so typing the letter into the name field doesn't skip.
+  // "done with this flag" gesture. Inside the description textarea, Enter
+  // inserts a newline (Ctrl/Cmd+Enter still saves so the curator has a
+  // keyboard exit). 's' only fires when no text field is focused so typing
+  // the letter into a name or description doesn't skip.
   document.addEventListener("keydown", (e) => {
+    const inText = e.target.tagName === "INPUT" || e.target.tagName === "TEXTAREA";
     if (e.key === "Enter") {
+      if (e.target.tagName === "TEXTAREA" && !(e.ctrlKey || e.metaKey)) return;
       e.preventDefault();
       handleSave();
-    } else if (e.key.toLowerCase() === "s" && e.target.tagName !== "INPUT") {
+    } else if (e.key.toLowerCase() === "s" && !inText) {
       e.preventDefault();
       handleSkip();
     }

@@ -1,10 +1,361 @@
 {
-  "Q101472": {
+  "Q4633": {
+    "colors": [
+      "white",
+      "blue",
+      "red"
+    ],
+    "icons": [
+      "coa"
+    ],
+    "description": "A white field with a copper-orange map silhouette of the island of Cyprus centered, with two crossed green olive branches below."
+  },
+  "Q12188": {
+    "description": "Black and white horizontal stripes (four black, five white) in the fly, with a white canton at the hoist bearing eleven black ermine spots."
+  },
+  "Q12989": {
+    "description": "A yellow field bearing a black lion rampant with red claws and tongue, centered."
+  },
+  "Q12990": {
+    "colors": [
+      "black",
+      "yellow",
+      "red"
+    ],
+    "icons": [
+      "vertical-stripes"
+    ],
+    "shape": "rectangle",
+    "description": "Three equal vertical bands of black, yellow, and red."
+  },
+  "Q16611": {
+    "description": "Three equal horizontal bands of white (top), blue, and red.",
+    "colors": [
+      "blue",
+      "red",
+      "white"
+    ],
+    "icons": [
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle"
+  },
+  "Q18983": {
+    "description": "The flag of the U.S. state of Pennsylvania consists of a blue field on which the state coat of arms is displayed."
+  },
+  "Q18993": {
+    "description": "A blue field bearing the obverse of the Virginia state seal: a standing female figure (Virtue) holding a spear and a sheathed sword, with a defeated king lying at her feet. The motto \"SIC SEMPER TYRANNIS\" appears below."
+  },
+  "Q19000": {
+    "colors": [
+      "blue",
+      "red",
+      "white"
+    ],
+    "icons": [
+      "star",
+      "horizontal-stripes",
+      "vertical-stripes"
+    ],
+    "shape": "rectangle",
+    "description": "A vertical blue band at the hoist bearing a single large white five-pointed star, alongside two equal horizontal bands of white (top) and red on the fly."
+  },
+  "Q19016": {
+    "description": "A dark blue field bearing the state coat of arms: a shield showing a masted ship and a sloop on the Hudson River with a grassy shore and mountains, sun rising behind them."
+  },
+  "Q19373": {
+    "description": "A blue field bearing a white palmetto tree in the center and a white crescent in the upper hoist corner."
+  },
+  "Q19374": {
+    "description": "A blue field with the state arms in the center: a white pelican vulning herself (piercing her breast to feed her chicks) on a nest. A white ribbon below bears the state motto \"UNION JUSTICE CONFIDENCE\" in blue."
+  },
+  "Q19379": {
+    "description": "The flag of the state of North Carolina, often referred to as the North Carolina flag, N.C. flag, or North Star, is the state flag of the U.S. state of North Carolina."
+  },
+  "Q19427": {
+    "description": "The flag of Oregon is a two-sided flag in navy blue and gold with an optional gold fringe. On the front is the escutcheon from the state seal, and on the reverse is a gold figure of a beaver, the state animal. Oregon is the only U.S. state to feature different designs on either side of its flag."
+  },
+  "Q26491": {
+    "description": "A white field with a large red Saint George's cross extending to the edges, with a smaller red Bolnisi cross in each of the four white quadrants."
+  },
+  "Q30768": {
+    "description": "The national flag of Timor-Leste (bandeira nacional de Timor-Leste; bandeira nasionál) consists of a red field with the black isosceles triangle based on the hoist-side bearing a white five-pointed star in the center superimposed on the larger yellow triangle, also based on the hoist-side, that extends to the center of the flag."
+  },
+  "Q33213": {
+    "description": "Three equal horizontal bands of red (top), blue, and orange."
+  },
+  "Q36005": {
+    "description": "A horizontal triband of red (top), white, and red. The white middle stripe is twice the height of each red stripe and bears a green cedar of Lebanon tree centered, touching both red stripes."
+  },
+  "Q41327": {
+    "colors": [
+      "yellow",
+      "green",
+      "red",
+      "white"
+    ],
+    "icons": [
+      "star",
+      "crescent",
+      "vertical-stripes"
+    ],
+    "shape": "rectangle",
+    "description": "A green field with a vertical red stripe near the hoist containing five traditional carpet medallions (göls) and an olive branch at its base, plus a white crescent and five small white stars in the upper hoist of the green portion."
+  },
+  "Q41673": {
+    "colors": [
+      "orange",
+      "white",
+      "green",
+      "blue"
+    ],
+    "icons": [
+      "circle"
+    ],
+    "description": "Three equal horizontal bands of saffron, white, and green, with a navy-blue 24-spoke wheel (Ashoka Chakra) centered on the white band."
+  },
+  "Q42436": {
+    "colors": [
+      "red",
+      "white"
+    ],
+    "icons": [
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle",
+    "description": "Two equal horizontal bands of white above red."
+  },
+  "Q42537": {
+    "colors": [
+      "red",
+      "white",
+      "blue"
+    ],
+    "icons": [
+      "star",
+      "horizontal-stripes"
+    ],
+    "description": "Thirteen alternating red and white horizontal stripes, with a blue rectangle in the upper-left corner containing fifty white stars arranged in nine rows."
+  },
+  "Q42876": {
+    "colors": [
+      "green",
+      "white",
+      "red"
+    ],
+    "icons": [
+      "vertical-stripes"
+    ],
+    "shape": "rectangle",
+    "description": "Three equal vertical bands of green, white, and red."
+  },
+  "Q43175": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "icons": [
+      "circle"
+    ],
+    "description": "A red disc centered on a white field."
+  },
+  "Q43192": {
+    "colors": [
+      "blue",
+      "white",
+      "red"
+    ],
+    "icons": [
+      "vertical-stripes"
+    ],
+    "shape": "rectangle"
+  },
+  "Q46585": {
+    "colors": [
+      "red",
+      "white",
+      "blue"
+    ],
+    "icons": [],
+    "description": "Three equal horizontal bands of red (top), white, and blue."
+  },
+  "Q46835": {
     "colors": [
       "red",
       "white"
     ],
     "icons": [],
+    "description": "Three equal horizontal bands of red (top), white, and red."
+  },
+  "Q47891": {
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "icons": [
+      "cross"
+    ],
+    "description": "A blue Nordic cross on a white field, offset toward the hoist."
+  },
+  "Q48160": {
+    "colors": [
+      "black",
+      "red",
+      "yellow"
+    ],
+    "icons": [
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle",
+    "description": "Three equal horizontal bands of black, red, and gold."
+  },
+  "Q48409": {
+    "colors": [
+      "red",
+      "black"
+    ],
+    "icons": [
+      "animal"
+    ],
+    "description": "A red field with a black double-headed eagle centered."
+  },
+  "Q51401": {
+    "description": "Six equal horizontal stripes of red (top), orange, yellow, green, blue, and violet."
+  },
+  "Q60149": {
+    "colors": [
+      "red",
+      "white"
+    ],
+    "icons": [
+      "cross"
+    ],
+    "description": "A white Nordic cross on a red field, offset toward the hoist."
+  },
+  "Q79198": {
+    "shape": "square",
+    "colors": [
+      "yellow",
+      "white",
+      "red"
+    ],
+    "icons": [
+      "coa"
+    ],
+    "description": "A square flag with two equal vertical bands of yellow (hoist) and white, the white half charged with the emblem of the Holy See: the crossed gold and silver keys of Saint Peter beneath a papal tiara."
+  },
+  "Q79874": {
+    "description": "A white field with the Islamic Shahada inscribed in black Arabic calligraphy across the center."
+  },
+  "Q80110": {
+    "colors": [
+      "red",
+      "white"
+    ],
+    "icons": [
+      "plant"
+    ],
+    "shape": "rectangle"
+  },
+  "Q81286": {
+    "colors": [
+      "blue",
+      "yellow"
+    ],
+    "icons": [
+      "cross"
+    ],
+    "description": "A yellow Nordic cross on a light blue field, offset toward the hoist."
+  },
+  "Q81471": {
+    "description": "Three equal horizontal bands of blue (top), black, and white."
+  },
+  "Q81477": {
+    "description": "Three equal horizontal bands of yellow (top), green, and red."
+  },
+  "Q81676": {
+    "colors": [
+      "blue",
+      "red",
+      "white"
+    ],
+    "icons": [
+      "star",
+      "diagonal",
+      "cross"
+    ],
+    "shape": "rectangle",
+    "description": "A blue field with the Union Jack in the upper hoist quarter, a large white seven-pointed Commonwealth Star below the Union Jack, and five white stars on the fly representing the Southern Cross (one small five-pointed star and four larger seven-pointed stars)."
+  },
+  "Q81952": {
+    "colors": [
+      "red",
+      "white"
+    ],
+    "icons": [
+      "star",
+      "crescent"
+    ],
+    "description": "A red field with a white crescent and a white five-pointed star next to it, both in the center."
+  },
+  "Q81970": {
+    "description": "Three equal horizontal bands of red (top), white, and green.",
+    "colors": [
+      "green",
+      "red",
+      "white"
+    ],
+    "icons": [
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle"
+  },
+  "Q82194": {
+    "description": "A green field with a yellow rhombus in the center containing a blue disc depicting a starry sky and the Southern Cross, spanned by a curved white band inscribed \"ORDEM E PROGRESSO\" in green."
+  },
+  "Q82205": {
+    "description": "Three equal vertical bands of green (hoist), white, and orange."
+  },
+  "Q82236": {
+    "description": "Three equal horizontal bands of bright blue (top), red, and green, with a white crescent and a white eight-pointed star centered on the red band."
+  },
+  "Q83149": {
+    "colors": [
+      "red",
+      "white",
+      "blue"
+    ],
+    "icons": [
+      "cross"
+    ],
+    "description": "A blue Nordic cross outlined in white on a red field, offset toward the hoist."
+  },
+  "Q83278": {
+    "colors": [
+      "red",
+      "white",
+      "blue"
+    ],
+    "icons": [
+      "cross"
+    ],
+    "description": "A dark blue field overlaid by the red and white crosses of Saint George, Saint Andrew, and Saint Patrick, forming three superimposed crosses on a blue background."
+  },
+  "Q83392": {
+    "description": "Two equal vertical bands of green (hoist) and white, charged in the center with a red crescent and a red five-pointed star."
+  },
+  "Q93335": {
+    "description": "A sky blue field with a red Nordic cross outlined in white, offset toward the hoist."
+  },
+  "Q101472": {
+    "colors": [
+      "red",
+      "white"
+    ],
+    "icons": [
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle",
     "description": "Two equal horizontal bands of red (top) and white."
   },
   "Q102392": {
@@ -37,35 +388,8 @@
   "Q105643": {
     "description": "The national flag of Tuvalu was instated when the country became independent in 1978, after the separation from the Gilbert and Ellice Islands in 1976."
   },
-  "Q1064042": {
-    "description": "A blue field with the Union Jack in the upper hoist canton, and a white disc on the fly bearing a red Saint George's cross with a gold lion passant guardant in the center and an eight-pointed gold star on each arm."
-  },
-  "Q1073663": {
-    "description": "A field divided into four quarters: a red quarter with a golden three-towered castle (upper hoist and lower fly) alternating with a white quarter bearing a purple lion rampant (upper fly and lower hoist)."
-  },
-  "Q1084035": {
-    "description": "A white field with a small blue canton in the upper hoist containing a red Latin cross."
-  },
   "Q108418": {
     "description": "A white field bearing the seal of Cook County in the center."
-  },
-  "Q1094206": {
-    "description": "The flag of Piedmont is one of the official symbols of the region of Piedmont in Italy. The current flag was adopted on 24 November 1995."
-  },
-  "Q10986849": {
-    "description": "The flag that is used as the symbol of Kashubia, a region in Central Europe, and the Kashubian people, is divided horizontally into black and yellow stripes."
-  },
-  "Q1122078": {
-    "description": "A dark blue field bearing the Alberta provincial coat of arms centered: a shield with a red Saint George's cross above a white sky, blue snowy mountains, green hills, and a golden wheat field."
-  },
-  "Q1130142": {
-    "description": "Six vertical stripes in blue, yellow, red, white, orange, and a sixth band combining all five colors."
-  },
-  "Q1131266": {
-    "description": "The flag of Lombardy is one of the official symbols of the region of Lombardy, Italy. The current flag was officially adopted on 4 February 2019, although it has been used de facto since 12 June 1975."
-  },
-  "Q1165949": {
-    "description": "A red field with the Union Jack in the upper hoist canton, and the Ontario shield (cross of Saint George above three gold maple leaves on green) centered on the fly."
   },
   "Q119605": {
     "description": "A buff field with the New Jersey coat of arms centered: a shield with three plows, flanked by two female figures, surmounted by a horse's head atop a knight's helmet, with a banner below reading \"LIBERTY AND PROSPERITY 1776\"."
@@ -79,9 +403,6 @@
       "coa"
     ],
     "description": "Three horizontal bands of red, yellow, and red, with the yellow band twice as wide as the red bands, bearing the Spanish coat of arms toward the hoist."
-  },
-  "Q12188": {
-    "description": "Black and white horizontal stripes (four black, five white) in the fly, with a white canton at the hoist bearing eleven black ermine spots."
   },
   "Q122462": {
     "colors": [
@@ -136,6 +457,14 @@
     "description": "A white field with a red-and-blue circular taegeuk symbol centered, and four black trigrams (sets of three short bars), one in each corner."
   },
   "Q127974": {
+    "colors": [
+      "yellow",
+      "blue"
+    ],
+    "icons": [
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle",
     "description": "Two equal horizontal bands of blue (top) and yellow."
   },
   "Q128347": {
@@ -143,9 +472,6 @@
   },
   "Q128480": {
     "description": "A white field with two horizontal blue stripes (one near the top, one near the bottom) and a blue Star of David (hexagram) centered."
-  },
-  "Q1285625": {
-    "description": "Two equal horizontal bands of black (top) and red, with a large yellow disc (sun) centered."
   },
   "Q128812": {
     "colors": [
@@ -163,20 +489,12 @@
       "blue",
       "white"
     ],
-    "icons": [],
-    "description": "Nine equal horizontal stripes of blue and white alternating (blue at the top and bottom), with a blue canton in the upper hoist bearing a white cross."
-  },
-  "Q12989": {
-    "description": "A yellow field bearing a black lion rampant with red claws and tongue, centered."
-  },
-  "Q12990": {
-    "colors": [
-      "black",
-      "yellow",
-      "red"
+    "icons": [
+      "cross",
+      "horizontal-stripes"
     ],
-    "icons": [],
-    "description": "Three equal vertical bands of black, yellow, and red."
+    "shape": "rectangle",
+    "description": "Nine equal horizontal stripes of blue and white alternating (blue at the top and bottom), with a blue canton in the upper hoist bearing a white cross."
   },
   "Q130449": {
     "description": "Three horizontal bands of red (top), white, and red; the white middle band is half the width of each red band (a so-called Latvian carmine triband)."
@@ -185,13 +503,42 @@
     "description": "The national flag of Egypt is a tricolour consisting of the three equal horizontal red, white, and black bands of the Arab Liberation Flag that dates back to the 1952 Egyptian Revolution. The flag bears Egypt's national emblem, the Egyptian eagle of Saladin, centred in the white band."
   },
   "Q130774": {
+    "colors": [
+      "yellow",
+      "white",
+      "lightblue"
+    ],
+    "icons": [
+      "sun",
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle",
     "description": "Three equal horizontal bands of light blue, white, and light blue, with a yellow Sun of May (a sun face with rays) centered on the white band."
   },
   "Q130807": {
-    "description": "Three equal horizontal bands of white (top), blue, and red, with the Slovenian coat of arms in the upper hoist spanning the white and blue bands. The shield depicts Mount Triglav in white on blue, two wavy blue lines below, and three six-pointed golden stars above arranged in an inverted triangle."
+    "description": "Three equal horizontal bands of white (top), blue, and red, with the Slovenian coat of arms in the upper hoist spanning the white and blue bands. The shield depicts Mount Triglav in white on blue, two wavy blue lines below, and three six-pointed golden stars above arranged in an inverted triangle.",
+    "colors": [
+      "blue",
+      "red",
+      "white"
+    ],
+    "icons": [
+      "star",
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle"
   },
   "Q130811": {
-    "description": "Three equal vertical bands of blue (hoist), yellow, and red."
+    "description": "Three equal vertical bands of blue (hoist), yellow, and red.",
+    "colors": [
+      "yellow",
+      "red",
+      "blue"
+    ],
+    "icons": [
+      "vertical-stripes"
+    ],
+    "shape": "rectangle"
   },
   "Q131147": {
     "colors": [
@@ -239,22 +586,19 @@
     "description": "Three equal horizontal bands of red (top), yellow, and green, with the Bolivian coat of arms centered on the yellow band."
   },
   "Q134885": {
+    "colors": [
+      "red",
+      "white",
+      "blue"
+    ],
+    "icons": [
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle",
     "description": "Five horizontal stripes of red, white, blue, white, and red; the central blue stripe is twice the width of each of the other four."
   },
   "Q135034": {
     "description": "The national flag of Antigua and Barbuda was adopted on 27 February 1967 to mark the achievement of self-government. A competition to design the flag was held in which more than 600 local people entered. The winning design was put forth by nationally well-known artist and sculptor Sir Reginald Samuel."
-  },
-  "Q1402799": {
-    "description": "Three horizontal white bands separated by two light-blue bands, with four red six-pointed stars centered on the broad middle white band."
-  },
-  "Q1418784": {
-    "description": "A horizontal flag divided in thirds. The top third is a red field bearing a gold lion passant; the bottom two-thirds is a gold field with a black lymphad (medieval ship) above blue and white wavy horizontal lines."
-  },
-  "Q1426561": {
-    "description": "The flag of the Northwest Territories is the subnational flag of the Northwest Territories of Canada. It was adopted in 1969 by the Legislative Assembly of the Northwest Territories."
-  },
-  "Q1463762": {
-    "description": "A black field with a white silhouette of a head in profile, a guard tower, and a strand of barbed wire, with the text \"POW * MIA\" above and \"YOU ARE NOT FORGOTTEN\" below."
   },
   "Q148807": {
     "description": "Nine equal horizontal stripes of red and yellow alternating (yellow at the top and bottom), giving four red stripes on a yellow field."
@@ -281,9 +625,6 @@
   "Q159865": {
     "description": "A red field with a green five-pointed star (pentagram) centered, drawn with interlaced lines."
   },
-  "Q15994084": {
-    "description": "Five equal horizontal stripes of red and white alternating (red at the top and bottom), with a blue equilateral triangle at the hoist bearing a single white five-pointed star."
-  },
   "Q160250": {
     "colors": [
       "red",
@@ -302,6 +643,17 @@
     "description": "Three equal vertical bands of red, white, and red."
   },
   "Q160260": {
+    "colors": [
+      "blue",
+      "red",
+      "white"
+    ],
+    "icons": [
+      "cross",
+      "diagonal",
+      "star"
+    ],
+    "shape": "rectangle",
     "description": "A blue field with the Union Jack in the upper hoist quarter, and four red five-pointed stars edged in white on the fly representing the Southern Cross."
   },
   "Q160425": {
@@ -311,6 +663,16 @@
     "description": "Three equal horizontal bands of white (top), blue, and red, with the Slovak coat of arms (a double cross on three blue hills atop a red shield) placed toward the hoist of center."
   },
   "Q160872": {
+    "colors": [
+      "blue",
+      "red",
+      "white"
+    ],
+    "icons": [
+      "horizontal-stripes",
+      "star"
+    ],
+    "shape": "rectangle",
     "description": "Two equal horizontal bands of white (top) and red, with a blue square in the upper hoist (the height of the white band) bearing a single white five-pointed star."
   },
   "Q160877": {
@@ -320,7 +682,18 @@
     "description": "A medium blue field with a yellow right triangle separating it from the hoist. Along the hypotenuse of the triangle is a diagonal line of seven full and two half five-pointed white stars."
   },
   "Q162781": {
-    "description": "Three equal horizontal bands of red (top), white, and black, with the takbir (\"Allahu Akbar\") in green Kufic script centered on the white band."
+    "description": "Three equal horizontal bands of red (top), white, and black, with the takbir (\"Allahu Akbar\") in green Kufic script centered on the white band.",
+    "colors": [
+      "green",
+      "red",
+      "white",
+      "black"
+    ],
+    "icons": [
+      "horizontal-stripes",
+      "text"
+    ],
+    "shape": "rectangle"
   },
   "Q162789": {
     "description": "A red field with a white disc centered, bearing a red crescent partly surrounding a red five-pointed star."
@@ -332,7 +705,19 @@
     "description": "The State Flag of the Republic of the Union of Myanmar is a horizontal rectangular tricolor flag of saffron, green, and red with a large white five-pointed star in the center. The current flag was adopted on 21 October 2010."
   },
   "Q163832": {
-    "description": "Three equal horizontal bands of red (top), blue, and white, with the lesser coat of arms placed toward the hoist of center."
+    "description": "Three equal horizontal bands of red (top), blue, and white, with the lesser coat of arms placed toward the hoist of center.",
+    "colors": [
+      "blue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "icons": [
+      "coa",
+      "bird",
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle"
   },
   "Q164584": {
     "description": "A sky blue field with a yellow five-pointed star in the upper hoist canton, and a red diagonal stripe (fimbriated in yellow) running from the lower hoist to the upper fly."
@@ -372,9 +757,6 @@
       "animal"
     ],
     "description": "Three horizontal bands of black, red, and green separated by thin white fimbriations, with a red, black, and white Maasai shield and two crossed spears centered."
-  },
-  "Q16611": {
-    "description": "Three equal horizontal bands of white (top), blue, and red."
   },
   "Q167119": {
     "description": "A red field with a stylized yellow sun in the center, with eight broadening rays extending from the central disc to the edges of the flag."
@@ -451,9 +833,6 @@
   "Q173554": {
     "description": "Three equal horizontal bands of blue (top), white, and blue, with the national coat of arms centered on the white band."
   },
-  "Q1740429": {
-    "description": "A yellow field with three horizontal red stripes through the middle."
-  },
   "Q178179": {
     "description": "Three equal vertical bands of sky blue (hoist), white, and sky blue, with the Guatemalan coat of arms centered on the white band (a resplendent quetzal perched on a scroll, with crossed rifles and crossed swords, framed by a laurel wreath)."
   },
@@ -478,50 +857,14 @@
   "Q188072": {
     "description": "The national flag of Tonga consists of a red field with a white canton charged with a red couped cross.  Adopted in 1875 after being officially enshrined into the nation's constitution, it has been the flag of the Kingdom of Tonga since that year.  The constitution stipulates that the national flag can never be changed."
   },
-  "Q1882040": {
-    "description": "The flag of Baden displayed a combination of yellow and red, the heraldic colours of the former German state of Baden."
-  },
-  "Q18983": {
-    "description": "The flag of the U.S. state of Pennsylvania consists of a blue field on which the state coat of arms is displayed."
-  },
-  "Q18993": {
-    "description": "A blue field bearing the obverse of the Virginia state seal: a standing female figure (Virtue) holding a spear and a sheathed sword, with a defeated king lying at her feet. The motto \"SIC SEMPER TYRANNIS\" appears below."
-  },
-  "Q19000": {
-    "description": "A vertical blue band at the hoist bearing a single large white five-pointed star, alongside two equal horizontal bands of white (top) and red on the fly."
-  },
-  "Q19016": {
-    "description": "A dark blue field bearing the state coat of arms: a shield showing a masted ship and a sloop on the Hudson River with a grassy shore and mountains, sun rising behind them."
-  },
-  "Q19373": {
-    "description": "A blue field bearing a white palmetto tree in the center and a white crescent in the upper hoist corner."
-  },
-  "Q19374": {
-    "description": "A blue field with the state arms in the center: a white pelican vulning herself (piercing her breast to feed her chicks) on a nest. A white ribbon below bears the state motto \"UNION JUSTICE CONFIDENCE\" in blue."
-  },
-  "Q19379": {
-    "description": "The flag of the state of North Carolina, often referred to as the North Carolina flag, N.C. flag, or North Star, is the state flag of the U.S. state of North Carolina."
-  },
-  "Q19427": {
-    "description": "The flag of Oregon is a two-sided flag in navy blue and gold with an optional gold fringe. On the front is the escutcheon from the state seal, and on the reverse is a gold figure of a beaver, the state animal. Oregon is the only U.S. state to feature different designs on either side of its flag."
-  },
-  "Q2020381": {
-    "description": "The flag of the Pomeranian Voivodeship is a yellow rectangle with a left-faced black griffin placed in the centre. It was designed by Wawrzyniec Samp, and adapted on 25 March 2002."
-  },
   "Q221881": {
     "description": "A white field bearing the Massachusetts coat of arms in the center: a blue shield depicting an Algonquian Native American holding a bow and arrow, with a white star in the upper hoist corner. A blue ribbon scroll wraps around the shield."
   },
   "Q225360": {
     "description": "Three equal horizontal bands of white (top), green, and red."
   },
-  "Q2345639": {
-    "description": "Two equal horizontal bands of red (top) and white."
-  },
   "Q235475": {
     "description": "A red field with a green diagonal saltire (Saint Andrew's cross), overlaid by a white upright cross (Saint George's cross)."
-  },
-  "Q23925186": {
-    "description": "The Greek Orthodox churches in the diaspora under the Ecumenical Patriarchate use a black double-headed eagle in a yellow field as their flag or emblem."
   },
   "Q241083": {
     "description": "The flag of the U.S. state of Wisconsin was first adopted in 1863, and was modified in 1979. It is a blue flag charged with the state coat of arms of Wisconsin."
@@ -529,44 +872,26 @@
   "Q248102": {
     "description": "A blue field bearing the New Hampshire state seal centered: the frigate USS Raleigh on water, encircled by a green laurel wreath and nine golden stars."
   },
-  "Q2508330": {
-    "description": "A triangular saffron (or navy blue) flag bearing a black Khanda emblem (a double-edged sword between two curved kirpans circling a chakkar) centered. A tassel hangs from the fly point."
-  },
   "Q258262": {
     "description": "A sky-blue field bearing an Osage warrior's tan buffalo-hide shield with six small white crosses, decorated with seven pendant eagle feathers. Crossed atop the shield are a calumet (peace pipe) and an olive branch. \"OKLAHOMA\" appears in white capitals below."
-  },
-  "Q26491": {
-    "description": "A white field with a large red Saint George's cross extending to the edges, with a smaller red Bolnisi cross in each of the four white quadrants."
   },
   "Q285418": {
     "description": "A dark blue field bearing the Michigan coat of arms in the center: a light blue shield with a man on a peninsula holding a long gun, supported by an elk and a moose, beneath a golden eagle."
   },
-  "Q2897956": {
-    "description": "Three equal vertical bands of blue (hoist), white, and red, with a small yellow five-pointed star in the upper portion of the blue band."
-  },
-  "Q29344371": {
-    "description": "Arnold Clark is a car dealer based in Glasgow, Scotland. As of 2025, the company has over 200 dealerships across the United Kingdom, and is one of the largest car dealerships in Europe. Annually, Arnold Clark sells in excess of 300,000 vehicles, and sells new vehicles from over 30 international countries."
-  },
-  "Q3039032": {
-    "description": "The flag of Milwaukee was adopted by its Common Council in 1954.\n\nThe flag of Milwaukee is little-used around the city; the city only owns twenty flags which are displayed at various city-owned buildings. A 2004 survey by the North American Vexillological Association rated the Milwaukee flag 147th out of 150 flags of major American cities."
-  },
-  "Q3039109": {
-    "description": "The flag and coat of arms of Normandy are symbols of Normandy."
-  },
-  "Q30768": {
-    "description": "The national flag of Timor-Leste (bandeira nacional de Timor-Leste; bandeira nasionál) consists of a red field with the black isosceles triangle based on the hoist-side bearing a white five-pointed star in the center superimposed on the larger yellow triangle, also based on the hoist-side, that extends to the center of the flag."
-  },
-  "Q30909105": {
-    "description": "A red field with a white (silver) lion rampant facing the hoist. Across the top of the flag is a horizontal blue chief bearing three gold fleurs-de-lis."
-  },
   "Q330517": {
+    "colors": [
+      "red",
+      "green",
+      "brown",
+      "white"
+    ],
+    "icons": [
+      "animal",
+      "text",
+      "star"
+    ],
+    "shape": "rectangle",
     "description": "A white field with a wide red stripe along the bottom edge. Centered on the white field is a California grizzly bear walking on a patch of green grass, with a red five-pointed star in the upper-left. The words \"CALIFORNIA REPUBLIC\" appear in black below the bear."
-  },
-  "Q33213": {
-    "description": "Three equal horizontal bands of red (top), blue, and orange."
-  },
-  "Q36005": {
-    "description": "A horizontal triband of red (top), white, and red. The white middle stripe is twice the height of each red stripe and bears a green cedar of Lebanon tree centered, touching both red stripes."
   },
   "Q369833": {
     "description": "A red field with a large white lozenge (diamond) bordered in blue. The blue border contains 25 small white five-pointed stars. Inside the diamond are four blue five-pointed stars: one above the word \"ARKANSAS\" (in blue capitals) and three below."
@@ -574,142 +899,17 @@
   "Q392167": {
     "description": "A blue field divided by a white cross (extending to the edges) into four quarters, each bearing a white fleur-de-lis."
   },
-  "Q4042567": {
-    "description": "Lalandia is the name of three Danish holiday resorts owned by Parken Sport & Entertainment. The original Lalandia Rødby is located in Rødbyhavn, with additional activity centres in Billund (2009) and Søndervig (2022)."
-  },
-  "Q41327": {
-    "description": "A green field with a vertical red stripe near the hoist containing five traditional carpet medallions (göls) and an olive branch at its base, plus a white crescent and five small white stars in the upper hoist of the green portion."
-  },
-  "Q41673": {
-    "colors": [
-      "orange",
-      "white",
-      "green",
-      "blue"
-    ],
-    "icons": [
-      "circle"
-    ],
-    "description": "Three equal horizontal bands of saffron, white, and green, with a navy-blue 24-spoke wheel (Ashoka Chakra) centered on the white band."
-  },
-  "Q42436": {
-    "colors": [
-      "red",
-      "white"
-    ],
-    "icons": [],
-    "description": "Two equal horizontal bands of white above red."
-  },
-  "Q42537": {
-    "colors": [
-      "red",
-      "white",
-      "blue"
-    ],
-    "icons": [
-      "star",
-      "horizontal-stripes"
-    ],
-    "description": "Thirteen alternating red and white horizontal stripes, with a blue rectangle in the upper-left corner containing fifty white stars arranged in nine rows."
-  },
-  "Q42876": {
-    "colors": [
-      "green",
-      "white",
-      "red"
-    ],
-    "icons": [],
-    "description": "Three equal vertical bands of green, white, and red."
-  },
-  "Q43175": {
-    "colors": [
-      "white",
-      "red"
-    ],
-    "icons": [
-      "circle"
-    ],
-    "description": "A red disc centered on a white field."
-  },
-  "Q43192": {
-    "colors": [
-      "blue",
-      "white",
-      "red"
-    ],
-    "icons": [
-      "vertical-stripes"
-    ],
-    "shape": "rectangle"
-  },
   "Q459788": {
     "description": "A dark blue field with a white compass rose (a four-pointed star) in the center, encircled by a white ring with four short white lines radiating outward in the cardinal directions."
   },
   "Q462621": {
     "description": "Three horizontal bands of green (top), blue, and green, separated by thin black lines; in the center is a white Dhari (traditional headdress) with a white five-pointed star beneath."
   },
-  "Q4633": {
-    "colors": [
-      "white",
-      "blue",
-      "red"
-    ],
-    "icons": [
-      "coa"
-    ],
-    "description": "A white field with a copper-orange map silhouette of the island of Cyprus centered, with two crossed green olive branches below."
-  },
-  "Q46585": {
-    "colors": [
-      "red",
-      "white",
-      "blue"
-    ],
-    "icons": [],
-    "description": "Three equal horizontal bands of red (top), white, and blue."
-  },
-  "Q46835": {
-    "colors": [
-      "red",
-      "white"
-    ],
-    "icons": [],
-    "description": "Three equal horizontal bands of red (top), white, and red."
-  },
-  "Q47891": {
-    "colors": [
-      "blue",
-      "white"
-    ],
-    "icons": [
-      "cross"
-    ],
-    "description": "A blue Nordic cross on a white field, offset toward the hoist."
-  },
-  "Q48160": {
-    "colors": [
-      "black",
-      "red",
-      "yellow"
-    ],
-    "icons": [],
-    "description": "Three equal horizontal bands of black, red, and gold."
-  },
   "Q483659": {
     "description": "A horizontal bicolor of red (top) and white, with a white crescent moon and a pentagon of five small white five-pointed stars in the upper hoist (canton)."
   },
   "Q483774": {
     "description": "Three equal horizontal bands of celestial blue (top), white, and green, separated by two thin red fimbriations. In the upper hoist (canton) is a white crescent moon and twelve white five-pointed stars in three rows."
-  },
-  "Q48409": {
-    "colors": [
-      "red",
-      "black"
-    ],
-    "icons": [
-      "animal"
-    ],
-    "description": "A red field with a black double-headed eagle centered."
   },
   "Q492524": {
     "description": "The flag of the U.S. state of Wyoming was adopted on January 31, 1917. Its design consists of a blue field bordered by white and red, with a white silhouette of an American bison in the center, bearing the state seal rendered in blue on its side."
@@ -723,27 +923,6 @@
   "Q497997": {
     "description": "A white field with a crimson Saint Andrew's cross (diagonal saltire) extending to the corners."
   },
-  "Q51401": {
-    "description": "Six equal horizontal stripes of red (top), orange, yellow, green, blue, and violet."
-  },
-  "Q5456721": {
-    "description": "The flag of Cincinnati, Ohio, was selected in an 1896 contest. It was formally adopted on June 15, 1940."
-  },
-  "Q5456894": {
-    "description": "A blue field bearing the U.S. Air Force coat of arms in the center: a shield with 13 white stars and a crest including a North American bald eagle, a cloud formation, and a wreath of six alternating folds of silver and blue."
-  },
-  "Q5456895": {
-    "description": "A white field with a dark blue Great Seal of the United States in the center. \"UNITED STATES COAST GUARD\" arcs in dark blue above the eagle; the motto \"SEMPER PARATUS\" and \"1790\" appear beneath in dark blue."
-  },
-  "Q5456897": {
-    "description": "The flag of the United States Marine Corps is the flag used to represent the U.S. Marine Corps, as well as its subsidiary units and formations."
-  },
-  "Q5456898": {
-    "description": "A white field bearing a blue replica of the War Office Seal in the center. Below the seal is a broad scarlet scroll with \"United States Army\" in white letters, with \"1775\" in blue Arabic numerals beneath."
-  },
-  "Q5456899": {
-    "description": "A dark blue field with the seal of the U.S. Department of the Navy in the center. A yellow scroll inscribed \"United States Navy\" in dark blue lettering appears below the seal."
-  },
   "Q590821": {
     "description": "A navy blue field with the Commonwealth seal centered. Two figures embrace within the seal, encircled by the words \"COMMONWEALTH OF KENTUCKY\" above and sprigs of goldenrod below."
   },
@@ -753,24 +932,11 @@
   "Q601391": {
     "description": "The flag of Castilla–La Mancha is one of the representative symbols of the Autonomous Community of Castilla–La Mancha, in Spain, defined by its Statute of Autonomy."
   },
-  "Q60149": {
-    "colors": [
-      "red",
-      "white"
-    ],
-    "icons": [
-      "cross"
-    ],
-    "description": "A white Nordic cross on a red field, offset toward the hoist."
-  },
   "Q605195": {
     "description": "A red field with a vertical blue stripe along the fly, bordered by a thin white stripe. In the center of the red field is a blue circle bordered in white containing three white five-pointed stars."
   },
   "Q617649": {
     "description": "The flag of Wallonia is used by the Walloon Region and French Community of Belgium. Designed between 1912 and 1913, it depicts a red \"bold rooster\" (coq hardi) on a yellow field. Originally associated with the Walloon Movement, the flag has subsequently become an apolitical symbol of regional identity. It has enjoyed official status since 1975."
-  },
-  "Q62673928": {
-    "description": "The current flag of San Jose, California, features a triband of gold on top, white in the middle, and blue on the bottom with the city's official seal in the center. It has been the official flag since 1984."
   },
   "Q632491": {
     "description": "Thirteen rays of red and gold alternating in the top half of the flag (six red and seven gold, or vice versa). A copper-colored five-pointed star is centered, with the bottom half of the flag in dark blue."
@@ -823,13 +989,21 @@
   "Q736625": {
     "description": "Three horizontal bands of blue (top), white, and red (the white band wider than the others). On the white band is a gold-outlined blue hexagon containing a gold beehive above a five-pointed white star."
   },
-  "Q74484535": {
-    "description": "The flag of the Bangsamoro Autonomous Region in Muslim Mindanao, an autonomous region of the Philippines, is a horizontal tricolor of green, white and red with the yellow seven-pointed star surrounded by a yellow crescent both centered on the white band and a white kris centered on the red band. It was adopted in 2019."
-  },
   "Q752557": {
     "description": "Three equal horizontal bands of red (top), white, and blue, with the Missouri state coat of arms centered."
   },
   "Q752559": {
+    "colors": [
+      "red",
+      "white",
+      "blue"
+    ],
+    "icons": [
+      "circle",
+      "star",
+      "horizontal-stripes",
+      "triangle"
+    ],
     "shape": "other",
     "description": "A red, white, and blue swallowtail (triangular-cut) flag. Two horizontal red stripes top and bottom flank a white middle stripe, with a blue triangular peak at the hoist bearing 13 white stars around a red disc."
   },
@@ -840,6 +1014,22 @@
     "description": "A royal blue field bearing a white baroque shield with three grapevines, each carrying three bunches of purple grapes, with a white banner below reading \"QUI TRANSTULIT SUSTINET\"."
   },
   "Q752837": {
+    "colors": [
+      "white",
+      "brown",
+      "blue",
+      "yellow",
+      "green",
+      "red"
+    ],
+    "icons": [
+      "text",
+      "bird",
+      "plant",
+      "sun",
+      "weapon"
+    ],
+    "shape": "rectangle",
     "description": "A white field bearing the central elements of the state seal: a bald eagle in profile perched on a rock, wings uplifted, holding a shield and a banner in its beak, with a rising sun over water in the background. The word \"Illinois\" appears below."
   },
   "Q760401": {
@@ -848,109 +1038,207 @@
   "Q783490": {
     "description": "The Flag of the Association of Southeast Asian Nations or the ASEAN Flag is one of the official symbols of the Association of Southeast Asian Nations (ASEAN). It consists of the official emblem of ASEAN on a blue background."
   },
-  "Q79198": {
-    "shape": "square",
-    "colors": [
-      "yellow",
-      "white",
-      "red"
-    ],
-    "icons": [
-      "coa"
-    ],
-    "description": "A square flag with two equal vertical bands of yellow (hoist) and white, the white half charged with the emblem of the Holy See: the crossed gold and silver keys of Saint Peter beneath a papal tiara."
-  },
-  "Q79874": {
-    "description": "A white field with the Islamic Shahada inscribed in black Arabic calligraphy across the center."
-  },
-  "Q80110": {
-    "colors": [
-      "red",
-      "white"
-    ],
-    "icons": [
-      "plant"
-    ],
-    "shape": "rectangle"
-  },
-  "Q81286": {
-    "colors": [
-      "blue",
-      "yellow"
-    ],
-    "icons": [
-      "cross"
-    ],
-    "description": "A yellow Nordic cross on a light blue field, offset toward the hoist."
-  },
-  "Q81471": {
-    "description": "Three equal horizontal bands of blue (top), black, and white."
-  },
-  "Q81477": {
-    "description": "Three equal horizontal bands of yellow (top), green, and red."
-  },
-  "Q81676": {
-    "description": "A blue field with the Union Jack in the upper hoist quarter, a large white seven-pointed Commonwealth Star below the Union Jack, and five white stars on the fly representing the Southern Cross (one small five-pointed star and four larger seven-pointed stars)."
-  },
-  "Q81952": {
-    "colors": [
-      "red",
-      "white"
-    ],
-    "icons": [
-      "star",
-      "crescent"
-    ],
-    "description": "A red field with a white crescent and a white five-pointed star next to it, both in the center."
-  },
-  "Q81970": {
-    "description": "Three equal horizontal bands of red (top), white, and green."
-  },
-  "Q82194": {
-    "description": "A green field with a yellow rhombus in the center containing a blue disc depicting a starry sky and the Southern Cross, spanned by a curved white band inscribed \"ORDEM E PROGRESSO\" in green."
-  },
-  "Q82205": {
-    "description": "Three equal vertical bands of green (hoist), white, and orange."
-  },
-  "Q82236": {
-    "description": "Three equal horizontal bands of bright blue (top), red, and green, with a white crescent and a white eight-pointed star centered on the red band."
-  },
   "Q828147": {
     "description": "A dark blue field at the hoist in the shape of the state of Minnesota bearing an eight-pointed white star, with the rest of the flag a light blue field."
   },
   "Q830262": {
     "description": "A red field with a golden five-pointed crown above two white square crosses, the three emblems stacked vertically and offset toward the hoist."
   },
-  "Q83149": {
-    "colors": [
-      "red",
-      "white",
-      "blue"
-    ],
-    "icons": [
-      "cross"
-    ],
-    "description": "A blue Nordic cross outlined in white on a red field, offset toward the hoist."
-  },
-  "Q83278": {
-    "colors": [
-      "red",
-      "white",
-      "blue"
-    ],
-    "icons": [
-      "cross"
-    ],
-    "description": "A dark blue field overlaid by the red and white crosses of Saint George, Saint Andrew, and Saint Patrick, forming three superimposed crosses on a blue background."
-  },
-  "Q83392": {
-    "description": "Two equal vertical bands of green (hoist) and white, charged in the center with a red crescent and a red five-pointed star."
-  },
-  "Q93335": {
-    "description": "A sky blue field with a red Nordic cross outlined in white, offset toward the hoist."
-  },
   "Q938601": {
     "description": "A white field with a celestial blue diagonal band running from the upper hoist to the lower fly."
+  },
+  "Q1064042": {
+    "description": "A blue field with the Union Jack in the upper hoist canton, and a white disc on the fly bearing a red Saint George's cross with a gold lion passant guardant in the center and an eight-pointed gold star on each arm."
+  },
+  "Q1073663": {
+    "description": "A field divided into four quarters: a red quarter with a golden three-towered castle (upper hoist and lower fly) alternating with a white quarter bearing a purple lion rampant (upper fly and lower hoist)."
+  },
+  "Q1084035": {
+    "description": "A white field with a small blue canton in the upper hoist containing a red Latin cross."
+  },
+  "Q1094206": {
+    "description": "The flag of Piedmont is one of the official symbols of the region of Piedmont in Italy. The current flag was adopted on 24 November 1995."
+  },
+  "Q1122078": {
+    "description": "A dark blue field bearing the Alberta provincial coat of arms centered: a shield with a red Saint George's cross above a white sky, blue snowy mountains, green hills, and a golden wheat field."
+  },
+  "Q1130142": {
+    "description": "Six vertical stripes in blue, yellow, red, white, orange, and a sixth band combining all five colors."
+  },
+  "Q1131266": {
+    "description": "The flag of Lombardy is one of the official symbols of the region of Lombardy, Italy. The current flag was officially adopted on 4 February 2019, although it has been used de facto since 12 June 1975."
+  },
+  "Q1165949": {
+    "description": "A red field with the Union Jack in the upper hoist canton, and the Ontario shield (cross of Saint George above three gold maple leaves on green) centered on the fly."
+  },
+  "Q1285625": {
+    "description": "Two equal horizontal bands of black (top) and red, with a large yellow disc (sun) centered."
+  },
+  "Q1402799": {
+    "colors": [
+      "red",
+      "white",
+      "lightblue"
+    ],
+    "icons": [
+      "horizontal-stripes",
+      "star"
+    ],
+    "shape": "rectangle",
+    "description": "Three horizontal white bands separated by two light-blue bands, with four red six-pointed stars centered on the broad middle white band."
+  },
+  "Q1418784": {
+    "description": "A horizontal flag divided in thirds. The top third is a red field bearing a gold lion passant; the bottom two-thirds is a gold field with a black lymphad (medieval ship) above blue and white wavy horizontal lines."
+  },
+  "Q1426561": {
+    "description": "The flag of the Northwest Territories is the subnational flag of the Northwest Territories of Canada. It was adopted in 1969 by the Legislative Assembly of the Northwest Territories."
+  },
+  "Q1463762": {
+    "colors": [
+      "white",
+      "black"
+    ],
+    "icons": [
+      "people",
+      "text",
+      "circle",
+      "building"
+    ],
+    "shape": "rectangle",
+    "description": "A black field with a white silhouette of a head in profile, a guard tower, and a strand of barbed wire, with the text \"POW * MIA\" above and \"YOU ARE NOT FORGOTTEN\" below."
+  },
+  "Q1740429": {
+    "description": "A yellow field with three horizontal red stripes through the middle.",
+    "colors": [
+      "yellow",
+      "red"
+    ],
+    "icons": [
+      "horizontal-stripes"
+    ],
+    "shape": "rectangle"
+  },
+  "Q1882040": {
+    "description": "The flag of Baden displayed a combination of yellow and red, the heraldic colours of the former German state of Baden."
+  },
+  "Q2020381": {
+    "description": "The flag of the Pomeranian Voivodeship is a yellow rectangle with a left-faced black griffin placed in the centre. It was designed by Wawrzyniec Samp, and adapted on 25 March 2002."
+  },
+  "Q2345639": {
+    "description": "Two equal horizontal bands of red (top) and white."
+  },
+  "Q2508330": {
+    "description": "A triangular saffron (or navy blue) flag bearing a black Khanda emblem (a double-edged sword between two curved kirpans circling a chakkar) centered. A tassel hangs from the fly point."
+  },
+  "Q2897956": {
+    "description": "Three equal vertical bands of blue (hoist), white, and red, with a small yellow five-pointed star in the upper portion of the blue band."
+  },
+  "Q3039032": {
+    "description": "The flag of Milwaukee was adopted by its Common Council in 1954.\n\nThe flag of Milwaukee is little-used around the city; the city only owns twenty flags which are displayed at various city-owned buildings. A 2004 survey by the North American Vexillological Association rated the Milwaukee flag 147th out of 150 flags of major American cities."
+  },
+  "Q3039109": {
+    "description": "The flag and coat of arms of Normandy are symbols of Normandy."
+  },
+  "Q4042567": {
+    "description": "Lalandia is the name of three Danish holiday resorts owned by Parken Sport & Entertainment. The original Lalandia Rødby is located in Rødbyhavn, with additional activity centres in Billund (2009) and Søndervig (2022)."
+  },
+  "Q5456721": {
+    "description": "The flag of Cincinnati, Ohio, was selected in an 1896 contest. It was formally adopted on June 15, 1940."
+  },
+  "Q5456894": {
+    "description": "A blue field bearing the U.S. Air Force coat of arms in the center: a shield with 13 white stars and a crest including a North American bald eagle, a cloud formation, and a wreath of six alternating folds of silver and blue.",
+    "colors": [
+      "blue",
+      "lightblue",
+      "yellow",
+      "white",
+      "red"
+    ],
+    "icons": [
+      "coa",
+      "star",
+      "bird"
+    ],
+    "shape": "rectangle"
+  },
+  "Q5456895": {
+    "description": "A white field with a dark blue Great Seal of the United States in the center. \"UNITED STATES COAST GUARD\" arcs in dark blue above the eagle; the motto \"SEMPER PARATUS\" and \"1790\" appear beneath in dark blue.",
+    "colors": [
+      "blue",
+      "white",
+      "red"
+    ],
+    "icons": [
+      "coa",
+      "weapon",
+      "bird",
+      "text"
+    ],
+    "shape": "rectangle"
+  },
+  "Q5456897": {
+    "description": "The flag of the United States Marine Corps is the flag used to represent the U.S. Marine Corps, as well as its subsidiary units and formations.",
+    "colors": [
+      "red",
+      "white",
+      "yellow"
+    ],
+    "icons": [
+      "text",
+      "animal",
+      "map"
+    ],
+    "shape": "rectangle"
+  },
+  "Q5456898": {
+    "description": "A white field bearing a blue replica of the War Office Seal in the center. Below the seal is a broad scarlet scroll with \"United States Army\" in white letters, with \"1775\" in blue Arabic numerals beneath."
+  },
+  "Q5456899": {
+    "description": "A dark blue field with the seal of the U.S. Department of the Navy in the center. A yellow scroll inscribed \"United States Navy\" in dark blue lettering appears below the seal.",
+    "colors": [
+      "blue",
+      "white",
+      "brown",
+      "yellow"
+    ],
+    "icons": [
+      "text",
+      "bird",
+      "weapon",
+      "circle"
+    ],
+    "shape": "rectangle"
+  },
+  "Q10986849": {
+    "description": "The flag that is used as the symbol of Kashubia, a region in Central Europe, and the Kashubian people, is divided horizontally into black and yellow stripes."
+  },
+  "Q15994084": {
+    "description": "Five equal horizontal stripes of red and white alternating (red at the top and bottom), with a blue equilateral triangle at the hoist bearing a single white five-pointed star."
+  },
+  "Q23925186": {
+    "description": "The Greek Orthodox churches in the diaspora under the Ecumenical Patriarchate use a black double-headed eagle in a yellow field as their flag or emblem."
+  },
+  "Q29344371": {
+    "description": "Arnold Clark is a car dealer based in Glasgow, Scotland. As of 2025, the company has over 200 dealerships across the United Kingdom, and is one of the largest car dealerships in Europe. Annually, Arnold Clark sells in excess of 300,000 vehicles, and sells new vehicles from over 30 international countries."
+  },
+  "Q30909105": {
+    "description": "A red field with a white (silver) lion rampant facing the hoist. Across the top of the flag is a horizontal blue chief bearing three gold fleurs-de-lis."
+  },
+  "Q62673928": {
+    "description": "The current flag of San Jose, California, features a triband of gold on top, white in the middle, and blue on the bottom with the city's official seal in the center. It has been the official flag since 1984."
+  },
+  "Q64300176": {
+    "colors": [
+      "red",
+      "yellow"
+    ],
+    "icons": [
+      "text"
+    ],
+    "shape": "rectangle"
+  },
+  "Q74484535": {
+    "description": "The flag of the Bangsamoro Autonomous Region in Muslim Mindanao, an autonomous region of the Philippines, is a horizontal tricolor of green, white and red with the yellow seven-pointed star surrounded by a yellow crescent both centered on the white band and a white kris centered on the red band. It was adopted in 2019."
   },
   "Q94652289": {
     "description": "The flag of the United States Space Force is the flag used to represent the U.S. Space Force and its subsidiary units and formations. It was officially unveiled on May 15, 2020."
@@ -959,6 +1247,14 @@
     "description": "Six equal horizontal stripes of the rainbow pride flag (red, orange, yellow, green, blue, violet) with a triangular chevron at the hoist containing additional stripes: black, brown, light blue, light pink, and white."
   },
   "Q98055852": {
+    "colors": [
+      "yellow",
+      "blue"
+    ],
+    "icons": [
+      "star"
+    ],
+    "shape": "rectangle",
     "description": "A circle of twelve five-pointed yellow stars on a blue field."
   }
 }

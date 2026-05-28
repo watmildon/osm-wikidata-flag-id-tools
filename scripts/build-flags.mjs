@@ -141,6 +141,13 @@ function deriveFlagName(label) {
   return s;
 }
 
+// Numeric sort key for QIDs so canonical on-disk order is Q1 < Q2 < ... <
+// Q100 instead of Q1 < Q10 < Q100 < Q2 (lexicographic) which would also be
+// stable but harder for humans to scan.
+function qidSortKey(qid) {
+  return Number(qid.slice(1));
+}
+
 // Shape vocabulary kept deliberately simple: the silhouette categories that
 // matter for field identification. Aspect ratios (1:2 vs 2:3) aren't useful
 // for picking a flag out of a lineup. Default to "rectangle" since the vast
@@ -805,8 +812,11 @@ async function main() {
     flags.push(rec);
   }
 
-  // Sort by OSM usage count descending — most-mapped surface first.
-  flags.sort((a, b) => b.count - a.count);
+  // Sort by QID for canonical on-disk order. Consumers (index, curate, review)
+  // re-sort by count at runtime. Disk-order matters because a stable sort keeps
+  // git diffs minimal — sorting by count meant a single OSM tagging shift
+  // reordered the array and made the entire file look changed.
+  flags.sort((a, b) => qidSortKey(a.qid) - qidSortKey(b.qid));
 
   const overrides = await loadOverrides();
   flags = mergeOverrides(flags, overrides);
@@ -829,9 +839,11 @@ async function main() {
   await mkdir(DATA_DIR, { recursive: true });
 
   // Diagnostic file: QIDs that don't pass the Wikidata flag-design check.
+  // Sorted by QID for stable diffs; the review page re-sorts at runtime.
   const nonFlag = flags
     .filter((f) => !f.isFlagEntity)
-    .map((f) => ({ qid: f.qid, name: f.name, count: f.count, file: f.file }));
+    .map((f) => ({ qid: f.qid, name: f.name, count: f.count, file: f.file }))
+    .sort((a, b) => qidSortKey(a.qid) - qidSortKey(b.qid));
   await writeJsonAtomic(join(DATA_DIR, "non-flag-qids.json"), nonFlag);
   console.log(`Wrote data/non-flag-qids.json (${nonFlag.length} suspect QIDs).`);
 
@@ -858,7 +870,9 @@ async function main() {
       });
     }
   }
-  reviewSuggestions.sort((a, b) => b.count - a.count);
+  // Sort by bad_qid for canonical on-disk order. The review page re-sorts
+  // by count at runtime so the most-impactful mistakes still come first.
+  reviewSuggestions.sort((a, b) => qidSortKey(a.bad_qid) - qidSortKey(b.bad_qid));
 
   await writeJsonAtomic(join(DATA_DIR, "review.json"), {
     generated: new Date().toISOString(),

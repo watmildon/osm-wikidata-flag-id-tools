@@ -100,13 +100,16 @@ async function main() {
     return;
   }
 
+  // review.json is sorted by bad_qid on disk for clean diffs; sort by count
+  // desc here so the most-impactful mistakes show first.
+  const suggestions = [...data.suggestions].sort((a, b) => (b.count ?? 0) - (a.count ?? 0));
   const tbody = document.getElementById("review-rows");
-  for (const s of data.suggestions) {
+  for (const s of suggestions) {
     tbody.appendChild(row(s));
   }
-  const total = data.suggestions.reduce((n, s) => n + s.count, 0);
+  const total = suggestions.reduce((n, s) => n + s.count, 0);
   document.getElementById("review-count").textContent =
-    `${data.suggestions.length} suggested fixes covering ${total.toLocaleString()} OSM elements.`;
+    `${suggestions.length} suggested fixes covering ${total.toLocaleString()} OSM elements.`;
 }
 
 main();

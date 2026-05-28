@@ -71,7 +71,8 @@ async function main() {
     }
   }
 
-  // Dedupe; sort by impact.
+  // Dedupe; sort by QID for canonical on-disk order (the review page re-sorts
+  // by count at runtime).
   const seen = new Set();
   const unique = [];
   for (const s of suggestions) {
@@ -79,7 +80,7 @@ async function main() {
     seen.add(s.bad_qid);
     unique.push(s);
   }
-  unique.sort((a, b) => b.count - a.count);
+  unique.sort((a, b) => Number(a.bad_qid.slice(1)) - Number(b.bad_qid.slice(1)));
 
   await writeFile(
     join(DATA_DIR, "review.json"),
