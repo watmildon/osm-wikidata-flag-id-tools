@@ -2,8 +2,8 @@
   "Q4633": {
     "colors": [
       "white",
-      "blue",
-      "red"
+      "orange",
+      "green"
     ],
     "icons": [
       "coa"
@@ -100,7 +100,7 @@
       "vertical-stripes"
     ],
     "shape": "rectangle",
-    "description": "A green field with a vertical red stripe near the hoist containing five traditional carpet medallions (göls) and an olive branch at its base, plus a white crescent and five small white stars in the upper hoist of the green portion."
+    "description": "A green field with a vertical red stripe near the hoist containing five traditional carpet medallions (göls) woven in red, black, yellow, and white with an olive branch at its base, plus a white crescent and five small white stars in the upper hoist of the green portion."
   },
   "Q41673": {
     "colors": [
@@ -449,7 +449,8 @@
     "colors": [
       "red",
       "white",
-      "black"
+      "black",
+      "blue"
     ],
     "icons": [
       "coa"
@@ -575,10 +576,12 @@
     "colors": [
       "red",
       "white",
-      "blue"
+      "blue",
+      "yellow"
     ],
     "icons": [
-      "star"
+      "star",
+      "sun"
     ],
     "description": "A horizontal bicolor of royal blue (top) and crimson red (bottom), with a white equilateral triangle at the hoist. In the center of the triangle is a golden-yellow sun with eight primary rays. Each of the triangle's three vertices bears a small five-pointed golden-yellow star."
   },

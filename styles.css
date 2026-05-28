@@ -437,6 +437,7 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   margin: 0 6px 2px 0;
   font-size: 0.8125rem;
   white-space: nowrap;
+  vertical-align: middle;
 }
 .color-swatch-dot {
   display: inline-block;
@@ -505,16 +506,40 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   border-radius: 4px;
   flex-shrink: 0;
 }
-.ot-link {
-  display: inline-block;
-  background: var(--accent);
-  color: var(--accent-fg) !important;
-  padding: 8px 12px;
-  border-radius: 8px;
-  font-weight: 600;
+/* Compact icon-only action buttons used in the colors mismatch row where
+   two fix paths need to fit side-by-side. Tooltip via the link's title.
+   Keep the <td> as a normal table-cell (so the base rule's vertical-align:
+   middle keeps the buttons on the row's baseline) and put the flex layout
+   on an inner wrapper div. Setting display: flex on the <td> itself works
+   visually but takes the cell out of table layout and misaligns it. */
+.fix-actions {
+  width: 1%;
   white-space: nowrap;
 }
-.ot-link:hover { text-decoration: none !important; opacity: 0.9; }
+.fix-actions-inner {
+  display: inline-flex;
+  gap: 6px;
+  align-items: center;
+}
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: var(--bg);
+  color: var(--accent) !important;
+  border: 1px solid var(--border);
+  text-decoration: none !important;
+  transition: background 120ms ease, color 120ms ease, border-color 120ms ease;
+  flex-shrink: 0;
+}
+.icon-btn:hover {
+  background: var(--accent);
+  color: var(--accent-fg) !important;
+  border-color: var(--accent);
+}
 
 @media (max-width: 720px) {
   .review-table thead { display: none; }
@@ -531,6 +556,26 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   .review-table td:nth-child(3) { text-align: left; }
   .review-table td:nth-child(4) { grid-column: 1 / -1; margin-top: 8px; }
   .review-table tr { border-bottom: 1px solid var(--border); }
+
+  /* Colors-mismatch rows have 5 cells (Flag, Wikidata, Ours, OSM uses, Fix).
+     Give them a layout where the swatches and fix actions span the full row
+     instead of being squeezed into half-width cells where they tear apart. */
+  #colors-mismatch-rows tr {
+    grid-template-columns: 1fr auto;
+  }
+  #colors-mismatch-rows td:nth-child(1) { /* Flag */ }
+  #colors-mismatch-rows td:nth-child(2) { grid-column: 1 / -1; }  /* WD swatches */
+  #colors-mismatch-rows td:nth-child(3) { grid-column: 1 / -1; }  /* our swatches */
+  #colors-mismatch-rows td:nth-child(4) { /* OSM uses, sits beside Flag */
+    grid-column: 2;
+    grid-row: 1;
+    text-align: right;
+    align-self: center;
+  }
+  #colors-mismatch-rows td:nth-child(5) {
+    grid-column: 1 / -1;
+    margin-top: 4px;
+  }
 }
 
 .page-footer {

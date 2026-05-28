@@ -1,8 +1,9 @@
 // Aggregates the dataset's Wikidata-quality signals into one consolidated
 // view. Sections:
 //   1. "Not classified as a flag" — non-flag-qids.json minus the entries
-//      already covered by review.json's P163 suggestions (those live on
-//      review.html since they're an OSM-side fix). Fix: add P31 on Wikidata.
+//      already covered by review.json's P163 suggestions. Fix could be on
+//      either side: edit Wikidata to add P31, or retag the OSM elements
+//      (the wrong QID was used) — both buttons offered.
 //   2. "Missing image" — flags.json records where file===null. Fix: add P18
 //      on Wikidata.
 //   3. "Colors" — diff between flags.json `wdColors` (raw from P462) and
@@ -22,6 +23,16 @@ function wdUrl(qid) {
 
 function thumbUrl(qid) {
   return `flags/thumb/${qid}.png`;
+}
+
+// Overpass-turbo URL that finds every OSM element with flag:wikidata=qid.
+// Same query review.js uses; duplicated here to keep these two pages
+// independently loadable without a shared module.
+function overpassTurboUrl(qid) {
+  const query = `[out:json][timeout:60];
+nwr["flag:wikidata"="${qid}"];
+out center meta;`;
+  return `https://overpass-turbo.eu/?Q=${encodeURIComponent(query)}&R`;
 }
 
 // Sort by count desc — most-impactful first. Stable for ties.
@@ -81,15 +92,48 @@ function flagCell(f) {
   return td;
 }
 
-function wdEditCell(qid, label = "Edit on Wikidata ↗") {
+function wdEditCell(qid, tooltip = "Edit on Wikidata") {
+  return actionsCell([{ href: wdUrl(qid), title: tooltip, icon: ICON_WIKIDATA }]);
+}
+
+// Inline SVG icons for the compact fix-action buttons. External-arrow for
+// Wikidata (opens off-site); pencil for the local curator. Keeping them inline
+// avoids an HTTP fetch per icon and lets them inherit currentColor.
+const ICON_WIKIDATA =
+  '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+  '<path d="M6 2H3a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V10"/>' +
+  '<path d="M9 2h5v5"/><path d="M14 2 7 9"/></svg>';
+const ICON_PENCIL =
+  '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+  '<path d="m11 2 3 3-8 8H3v-3z"/></svg>';
+const ICON_MAP_PIN =
+  '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+  '<path d="M8 14s5-4.5 5-8.5a5 5 0 0 0-10 0C3 9.5 8 14 8 14z"/>' +
+  '<circle cx="8" cy="5.5" r="1.75"/></svg>';
+
+// Multi-button cell. Each action is { href, title, icon, newTab? }. Used
+// anywhere a row offers more than one fix path. Buttons live inside a
+// wrapper div so the <td> stays a real table-cell and aligns with the row
+// (display:flex on the <td> itself breaks vertical alignment).
+function actionsCell(actions) {
   const td = document.createElement("td");
-  const a = document.createElement("a");
-  a.href = wdUrl(qid);
-  a.target = "_blank";
-  a.rel = "noopener";
-  a.className = "ot-link";
-  a.textContent = label;
-  td.appendChild(a);
+  td.className = "fix-actions";
+  const inner = document.createElement("div");
+  inner.className = "fix-actions-inner";
+  for (const a of actions) {
+    const link = document.createElement("a");
+    link.href = a.href;
+    if (a.newTab !== false) {
+      link.target = "_blank";
+      link.rel = "noopener";
+    }
+    link.className = "icon-btn";
+    link.title = a.title;
+    link.setAttribute("aria-label", a.title);
+    link.innerHTML = a.icon;
+    inner.appendChild(link);
+  }
+  td.appendChild(inner);
   return td;
 }
 
@@ -120,7 +164,13 @@ function notFlagRow(rec) {
   qidCell.appendChild(name);
   tr.appendChild(qidCell);
   tr.appendChild(numCell(rec.count));
-  tr.appendChild(wdEditCell(rec.qid, "Open on Wikidata ↗"));
+  // Two fix paths: either Wikidata should classify this entity as a flag,
+  // or the OSM mappers used the wrong QID and the tags should be retagged
+  // to point at the actual flag entity. Both buttons offered.
+  tr.appendChild(actionsCell([
+    { href: wdUrl(rec.qid), title: "Open on Wikidata", icon: ICON_WIKIDATA },
+    { href: overpassTurboUrl(rec.qid), title: "Find OSM tags in overpass-turbo", icon: ICON_MAP_PIN },
+  ]));
   return tr;
 }
 
@@ -130,7 +180,7 @@ function noImageRow(f) {
   const tr = document.createElement("tr");
   tr.appendChild(flagCell(f));
   tr.appendChild(numCell(f.count));
-  tr.appendChild(wdEditCell(f.qid, "Add P18 on Wikidata ↗"));
+  tr.appendChild(wdEditCell(f.qid, "Add P18 image on Wikidata"));
   return tr;
 }
 
@@ -143,7 +193,7 @@ function colorsWdEmptyRow(f) {
   ours.appendChild(renderSwatches(f.colors));
   tr.appendChild(ours);
   tr.appendChild(numCell(f.count));
-  tr.appendChild(wdEditCell(f.qid, "Add P462 on Wikidata ↗"));
+  tr.appendChild(wdEditCell(f.qid, "Add P462 colors on Wikidata"));
   return tr;
 }
 
@@ -157,7 +207,11 @@ function colorsMismatchRow(f) {
   ours.appendChild(renderSwatches(f.colors));
   tr.appendChild(ours);
   tr.appendChild(numCell(f.count));
-  tr.appendChild(wdEditCell(f.qid));
+  // Mismatch could be either side's error — give the user both fix paths.
+  tr.appendChild(actionsCell([
+    { href: wdUrl(f.qid), title: "Edit on Wikidata", icon: ICON_WIKIDATA },
+    { href: `curate.html?qid=${f.qid}`, title: "Curate locally", icon: ICON_PENCIL, newTab: false },
+  ]));
   return tr;
 }
 
@@ -165,7 +219,7 @@ function colorsUnknownRow(f) {
   const tr = document.createElement("tr");
   tr.appendChild(flagCell(f));
   tr.appendChild(numCell(f.count));
-  tr.appendChild(wdEditCell(f.qid, "Add P462 on Wikidata ↗"));
+  tr.appendChild(wdEditCell(f.qid, "Add P462 colors on Wikidata"));
   return tr;
 }
 

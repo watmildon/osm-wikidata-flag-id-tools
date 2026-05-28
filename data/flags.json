@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T16:36:14.567Z",
+  "generated": "2026-05-28T17:18:32.182Z",
   "palette": [
     "red",
     "white",
@@ -571,8 +571,8 @@
       "isFlagEntity": true,
       "colors": [
         "white",
-        "blue",
-        "red"
+        "orange",
+        "green"
       ],
       "icons": [
         "coa"
@@ -1635,7 +1635,7 @@
         "country": "TM"
       },
       "aliases": [],
-      "description": "A green field with a vertical red stripe near the hoist containing five traditional carpet medallions (göls) and an olive branch at its base, plus a white crescent and five small white stars in the upper hoist of the green portion.",
+      "description": "A green field with a vertical red stripe near the hoist containing five traditional carpet medallions (göls) woven in red, black, yellow, and white with an olive branch at its base, plus a white crescent and five small white stars in the upper hoist of the green portion.",
       "wdColors": [
         "yellow",
         "green",
@@ -4376,7 +4376,8 @@
       "colors": [
         "red",
         "white",
-        "black"
+        "black",
+        "blue"
       ],
       "icons": [
         "coa"
@@ -5075,10 +5076,12 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "blue",
+        "yellow"
       ],
       "icons": [
-        "star"
+        "star",
+        "sun"
       ],
       "shape": "rectangle",
       "flagType": "national",

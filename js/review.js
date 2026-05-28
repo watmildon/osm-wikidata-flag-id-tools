@@ -8,6 +8,13 @@ out center meta;`;
   return `https://overpass-turbo.eu/?Q=${encodeURIComponent(query)}&R`;
 }
 
+// Same inline-SVG convention used on the wikidata-suggestions page. Map-pin
+// shape signals "find on a map", which is what overpass-turbo opens to.
+const ICON_MAP_PIN =
+  '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+  '<path d="M8 14s5-4.5 5-8.5a5 5 0 0 0-10 0C3 9.5 8 14 8 14z"/>' +
+  '<circle cx="8" cy="5.5" r="1.75"/></svg>';
+
 function wdUrl(qid) {
   return `https://www.wikidata.org/wiki/${qid}`;
 }
@@ -73,15 +80,23 @@ function row(s) {
   cntCell.textContent = s.count.toLocaleString();
   tr.appendChild(cntCell);
 
-  // Overpass-turbo link
+  // Overpass-turbo link — icon button matching the convention used on the
+  // wikidata-suggestions page (cell stays a table-cell so it aligns to the
+  // row baseline; flex layout lives on the inner wrapper).
   const otCell = document.createElement("td");
+  otCell.className = "fix-actions";
+  const otInner = document.createElement("div");
+  otInner.className = "fix-actions-inner";
   const otLink = document.createElement("a");
   otLink.href = overpassTurboUrl(s.bad_qid);
   otLink.target = "_blank";
   otLink.rel = "noopener";
-  otLink.className = "ot-link";
-  otLink.textContent = "Open in overpass-turbo ↗";
-  otCell.appendChild(otLink);
+  otLink.className = "icon-btn";
+  otLink.title = "Open in overpass-turbo";
+  otLink.setAttribute("aria-label", "Open in overpass-turbo");
+  otLink.innerHTML = ICON_MAP_PIN;
+  otInner.appendChild(otLink);
+  otCell.appendChild(otInner);
   tr.appendChild(otCell);
 
   return tr;
