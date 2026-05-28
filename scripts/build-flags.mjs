@@ -34,19 +34,27 @@ const PALETTE = [
   "black", "orange", "lightblue", "brown", "purple",
 ];
 
-// Wikidata color QIDs -> palette slug. Coverage is sparse; overrides.json
-// carries most of the real signal.
+// Wikidata color QIDs -> palette slug. Canonical color entities verified
+// against the Wikidata label service (each QID is wdt:P31/wdt:P279* Q1075,
+// "color"). Add aliases here as you discover new ones in P462 statements.
 const COLOR_QID_MAP = {
-  Q3142: "red", Q34106: "red", Q83264: "red", Q156274: "red",
-  Q23445: "white",
-  Q1088: "blue", Q1316: "blue", Q42519: "blue",
-  Q1602687: "lightblue", Q221695: "lightblue", Q319400: "lightblue",
-  Q3133: "green", Q42603: "green", Q2453337: "green",
-  Q943: "yellow", Q23010: "yellow", Q25381: "yellow",
-  Q23392: "black",
+  Q3142: "red",
+  Q303826: "red",       // crimson
+  Q23444: "white",
+  Q1088: "blue",
+  Q5975887: "blue",     // navy blue
+  Q1602687: "lightblue",
+  Q373160: "lightblue", // sky blue
+  Q373058: "lightblue", // azure
+  Q3133: "green",
+  Q864152: "green",     // olive
+  Q943: "yellow",
+  Q208045: "yellow",    // gold
+  Q23445: "black",
   Q39338: "orange",
   Q47071: "brown",
-  Q3257809: "purple", Q428124: "purple",
+  Q3257809: "purple",
+  Q428124: "purple",    // violet
 };
 
 // ---------------------------------------------------------------------------

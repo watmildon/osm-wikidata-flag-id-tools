@@ -86,7 +86,8 @@
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -131,7 +132,8 @@
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -200,7 +202,8 @@
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -266,7 +269,9 @@
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
-        "yellow"
+        "yellow",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -335,7 +340,9 @@
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -356,7 +363,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -376,7 +384,9 @@
       "count": 367,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "regional",
@@ -420,7 +430,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -480,7 +491,9 @@
       "count": 293,
       "file": "Flag of Europe.svg",
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "governmental",
@@ -549,7 +562,8 @@
       "colors": [
         "yellow",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -725,7 +739,8 @@
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -769,7 +784,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -790,7 +806,8 @@
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -812,7 +829,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -834,7 +852,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -881,7 +900,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -942,7 +962,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -990,7 +1011,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1013,7 +1035,8 @@
       "colors": [
         "yellow",
         "blue",
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1035,7 +1058,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1056,7 +1080,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1078,6 +1103,7 @@
       "isFlagEntity": true,
       "colors": [
         "green",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -1100,7 +1126,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1122,7 +1149,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1179,7 +1207,8 @@
       "file": "Flag of Brittany.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1263,8 +1292,10 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "blue",
-        "brown"
+        "white",
+        "brown",
+        "yellow",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1309,7 +1340,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1331,7 +1363,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1377,7 +1410,8 @@
       "file": "Flag of Florida.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1418,7 +1452,10 @@
       "count": 79,
       "file": "Flag of Kazakhstan.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "lightblue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "national",
@@ -1457,7 +1494,7 @@
       "file": "Australian Aboriginal Flag.svg",
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1477,7 +1514,8 @@
       "file": "Flag of Saudi Arabia.svg",
       "isFlagEntity": true,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1501,7 +1539,8 @@
         "yellow",
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1525,6 +1564,7 @@
         "yellow",
         "blue",
         "red",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -1544,7 +1584,9 @@
       "count": 76,
       "file": "Flag of Indiana.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "regional",
@@ -1564,7 +1606,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1670,7 +1713,9 @@
       "count": 60,
       "file": "Flag of Israel.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "national",
@@ -1715,7 +1760,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1735,7 +1781,8 @@
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1756,7 +1803,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1776,7 +1824,9 @@
       "count": 57,
       "file": "Flag of Latvia.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "national",
@@ -1795,7 +1845,10 @@
       "count": 57,
       "file": "Flag of Oklahoma.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "lightblue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "regional",
@@ -1851,7 +1904,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1872,7 +1926,9 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1953,7 +2009,8 @@
       "file": "Flag of the Red Cross.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2015,7 +2072,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2059,7 +2117,8 @@
       "file": "Flag of South Carolina.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2102,6 +2161,7 @@
       "isFlagEntity": true,
       "colors": [
         "white",
+        "black",
         "brown"
       ],
       "icons": [],
@@ -2124,7 +2184,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2147,7 +2208,8 @@
       "file": "Flag of Savoie.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2165,7 +2227,9 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2186,7 +2250,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2246,7 +2311,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2269,7 +2335,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2307,7 +2374,8 @@
       "file": "Flag of Andalucía.svg",
       "isFlagEntity": true,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2329,7 +2397,9 @@
       "colors": [
         "blue",
         "red",
-        "white"
+        "white",
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2350,6 +2420,7 @@
       "isFlagEntity": true,
       "colors": [
         "red",
+        "white",
         "lightblue"
       ],
       "icons": [],
@@ -2373,7 +2444,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2431,7 +2503,9 @@
       "colors": [
         "yellow",
         "green",
-        "red"
+        "red",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2498,7 +2572,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2518,7 +2593,8 @@
       "file": "Flag of Peru.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2562,7 +2638,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2583,7 +2660,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2692,7 +2770,8 @@
       "colors": [
         "blue",
         "green",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2748,7 +2827,8 @@
       "file": "Flag of the United Nations.svg",
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2802,7 +2882,9 @@
       "file": "Flag of the Isle of Man.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2825,6 +2907,7 @@
       "colors": [
         "green",
         "red",
+        "white",
         "lightblue"
       ],
       "icons": [],
@@ -2846,7 +2929,8 @@
       "file": "Flag of El Salvador.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -2884,7 +2968,10 @@
       "count": 26,
       "file": "Flag of Guatemala.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "lightblue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "national",
@@ -2961,7 +3048,8 @@
       "file": "Flag of Malta.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3030,7 +3118,8 @@
       "file": "Flag of Tunisia.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3097,7 +3186,8 @@
       "file": "Flag of Nicaragua.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3120,7 +3210,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3142,7 +3233,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3178,7 +3270,8 @@
       "file": "Flag of Alabama.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3245,7 +3338,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3266,7 +3360,8 @@
       "file": "Flag of the Taliban.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3289,7 +3384,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3310,7 +3406,8 @@
       "file": "Flag of Singapore.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3332,7 +3429,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "white"
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3398,7 +3496,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3420,7 +3519,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3440,7 +3540,9 @@
       "count": 21,
       "file": "Flag of Honduras (1949–2022, 2026–present).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "national",
@@ -3460,7 +3562,8 @@
       "file": "Flag of Scotland.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3482,7 +3585,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3522,7 +3626,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3545,7 +3650,8 @@
       "colors": [
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3566,7 +3672,9 @@
       "file": "Flag of Uruguay.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3591,6 +3699,7 @@
         "blue",
         "green",
         "red",
+        "white",
         "brown"
       ],
       "icons": [],
@@ -3612,7 +3721,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3630,7 +3740,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3652,7 +3763,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3685,7 +3797,9 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3725,7 +3839,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3764,7 +3879,8 @@
       "file": "Flag of Pakistan.svg",
       "isFlagEntity": true,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3787,7 +3903,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3809,7 +3926,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3845,6 +3963,7 @@
       "file": "Flag of Bavaria (striped).svg",
       "isFlagEntity": true,
       "colors": [
+        "white",
         "lightblue"
       ],
       "icons": [],
@@ -3867,7 +3986,8 @@
       "colors": [
         "yellow",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3910,7 +4030,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3935,6 +4056,7 @@
         "green",
         "red",
         "white",
+        "black",
         "orange",
         "brown",
         "lightblue",
@@ -3958,7 +4080,8 @@
       "file": "Logo REWE.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -3978,6 +4101,8 @@
         "blue",
         "red",
         "white",
+        "black",
+        "yellow",
         "purple"
       ],
       "icons": [],
@@ -3998,7 +4123,8 @@
       "file": "Flag of Dunkirk.svg",
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4030,7 +4156,8 @@
       "file": "Flag of Belize.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4051,7 +4178,8 @@
       "file": "Flag of the United States Space Force.svg",
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4070,7 +4198,9 @@
       "count": 15,
       "file": "Flag of Qatar.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "national",
@@ -4115,7 +4245,9 @@
       "count": 15,
       "file": "Flag of NATO.svg",
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "military",
@@ -4134,7 +4266,8 @@
       "file": "Flag of Barbados.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4157,7 +4290,7 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4192,6 +4325,7 @@
       "file": "Flag of San Marino.svg",
       "isFlagEntity": true,
       "colors": [
+        "white",
         "lightblue"
       ],
       "icons": [],
@@ -4214,6 +4348,7 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -4232,7 +4367,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4275,7 +4411,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4296,7 +4433,8 @@
       "file": "Flag of Trinidad and Tobago.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4317,7 +4455,8 @@
       "file": "Flag of Nigeria.svg",
       "isFlagEntity": true,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4338,7 +4477,8 @@
       "file": "Flag of Alaska.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4360,7 +4500,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4379,7 +4520,8 @@
       "file": "Flag of Alsace (historical).svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4413,7 +4555,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4461,7 +4604,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4501,7 +4645,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4525,7 +4670,8 @@
         "yellow",
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4599,7 +4745,8 @@
       "file": "Flag of the Community of Madrid.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4621,7 +4768,7 @@
       "colors": [
         "green",
         "red",
-        "white",
+        "black",
         "orange"
       ],
       "icons": [],
@@ -4643,7 +4790,9 @@
       "file": "Flag of Saint Lucia.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "white",
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4686,7 +4835,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4704,7 +4854,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4771,7 +4922,9 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4791,7 +4944,8 @@
       "file": "Flag of Hong Kong.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4812,7 +4966,8 @@
       "file": "Flag of England.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4835,7 +4990,7 @@
         "yellow",
         "green",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4857,7 +5012,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4881,7 +5037,7 @@
         "yellow",
         "blue",
         "green",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4903,7 +5059,9 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4944,7 +5102,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -4983,7 +5142,8 @@
       "file": "Flag of Montenegro.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5006,7 +5166,7 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5026,7 +5186,8 @@
         "yellow",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5061,7 +5222,9 @@
       "count": 11,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "athletic",
@@ -5076,7 +5239,10 @@
       "count": 11,
       "file": "Pavillon royal de France.svg",
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "national",
@@ -5118,7 +5284,8 @@
         "yellow",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5135,7 +5302,9 @@
       "file": "Flag of Kosovo.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5158,7 +5327,7 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5179,6 +5348,7 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -5215,6 +5385,7 @@
       "isFlagEntity": true,
       "colors": [
         "white",
+        "black",
         "lightblue"
       ],
       "icons": [],
@@ -5252,7 +5423,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5272,7 +5444,8 @@
       "file": "Flag of Brandenburg.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5292,7 +5465,8 @@
       "file": "Flag of Monaco.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5333,7 +5507,7 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5356,7 +5530,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5376,7 +5551,8 @@
       "file": "Flag of the Bahamas.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5398,7 +5574,9 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5421,7 +5599,8 @@
       "colors": [
         "yellow",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5443,7 +5622,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "green"
+        "green",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5515,7 +5695,9 @@
       "file": "Tree City USA - DPLA - 311c0c8ed551f658c2102efe58f12c1e.jpg",
       "isFlagEntity": false,
       "colors": [
-        "green"
+        "green",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5636,7 +5818,8 @@
         "yellow",
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5690,7 +5873,8 @@
       "isFlagEntity": false,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5712,7 +5896,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5758,7 +5943,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5779,6 +5965,7 @@
       "file": "Flag of Somalia.svg",
       "isFlagEntity": true,
       "colors": [
+        "white",
         "lightblue"
       ],
       "icons": [],
@@ -5823,7 +6010,8 @@
       "file": "Flag of Bahrain.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5846,7 +6034,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5868,7 +6057,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5890,7 +6080,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5913,7 +6104,9 @@
       "colors": [
         "blue",
         "red",
-        "brown"
+        "white",
+        "brown",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5936,7 +6129,8 @@
         "yellow",
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -5975,6 +6169,7 @@
       "isFlagEntity": true,
       "colors": [
         "green",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -5998,7 +6193,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6021,7 +6217,7 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6043,7 +6239,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6064,7 +6261,8 @@
       "file": "Flag of Vlieland.svg",
       "isFlagEntity": false,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6142,7 +6340,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6182,7 +6381,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6202,7 +6402,8 @@
         "yellow",
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6239,7 +6440,9 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6263,7 +6466,8 @@
         "yellow",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6287,7 +6491,8 @@
         "blue",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6310,7 +6515,7 @@
         "yellow",
         "green",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6355,7 +6560,9 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6378,7 +6585,8 @@
         "yellow",
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6399,7 +6607,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6464,7 +6673,8 @@
       "colors": [
         "blue",
         "green",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6487,7 +6697,8 @@
       "colors": [
         "yellow",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6510,7 +6721,8 @@
         "yellow",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6571,7 +6783,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6592,7 +6805,8 @@
       "file": "POL Kaszuby flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6610,7 +6824,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6633,7 +6848,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6654,7 +6870,8 @@
       "file": "Flag of the Turkish Republic of Northern Cyprus.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6673,7 +6890,10 @@
       "count": 8,
       "file": "HI mk logo hiltonbrandlogo.jpg",
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "advertising",
@@ -6749,7 +6969,8 @@
         "yellow",
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6810,7 +7031,9 @@
       "colors": [
         "blue",
         "green",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6846,7 +7069,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6863,7 +7087,8 @@
       "file": "Flag of Afghanistan (2013–2021).svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6886,7 +7111,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6909,7 +7135,8 @@
       "colors": [
         "yellow",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6931,7 +7158,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6955,7 +7183,8 @@
         "yellow",
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6977,7 +7206,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6999,6 +7229,7 @@
       "isFlagEntity": true,
       "colors": [
         "green",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -7022,7 +7253,8 @@
       "colors": [
         "yellow",
         "blue",
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7043,6 +7275,7 @@
       "file": "Flag of Sierra Leone.svg",
       "isFlagEntity": true,
       "colors": [
+        "white",
         "lightblue"
       ],
       "icons": [],
@@ -7067,7 +7300,8 @@
         "yellow",
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7090,6 +7324,7 @@
       "colors": [
         "green",
         "red",
+        "white",
         "lightblue"
       ],
       "icons": [],
@@ -7113,7 +7348,8 @@
       "colors": [
         "yellow",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7134,7 +7370,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7183,6 +7420,7 @@
       "colors": [
         "yellow",
         "white",
+        "black",
         "orange"
       ],
       "icons": [],
@@ -7222,7 +7460,8 @@
       "file": "Flag of the Northern Territory.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7244,7 +7483,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7266,7 +7506,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7361,7 +7602,8 @@
         "yellow",
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7399,7 +7641,9 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7422,7 +7666,8 @@
       "colors": [
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7467,6 +7712,7 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -7485,7 +7731,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7506,7 +7753,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7528,7 +7776,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7566,7 +7815,7 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7613,7 +7862,8 @@
       "file": "Flag of Tonga.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7692,7 +7942,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7729,7 +7980,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7761,7 +8013,8 @@
       "file": "Flag of Lombardy.svg",
       "isFlagEntity": true,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7779,7 +8032,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7800,7 +8054,8 @@
       "file": "Cultural flag of Île-de-France.svg",
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7818,7 +8073,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7859,7 +8115,9 @@
       "file": "Flag of Jacksonville, Florida.svg",
       "isFlagEntity": false,
       "colors": [
-        "orange"
+        "white",
+        "orange",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -7891,6 +8149,7 @@
       "file": "Flag of the Federated States of Micronesia.svg",
       "isFlagEntity": true,
       "colors": [
+        "white",
         "lightblue"
       ],
       "icons": [],
@@ -7913,7 +8172,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8094,7 +8354,8 @@
       "file": "Flag of Baden-Württemberg.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8115,6 +8376,7 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -8139,7 +8401,7 @@
         "yellow",
         "green",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8177,7 +8439,8 @@
       "colors": [
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8217,7 +8480,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8238,7 +8502,9 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8286,7 +8552,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8366,7 +8633,8 @@
       "file": "Flag of Mecklenburg-Western Pomerania.svg",
       "isFlagEntity": true,
       "colors": [
-        "yellow"
+        "yellow",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8439,7 +8707,9 @@
       "colors": [
         "blue",
         "green",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8463,7 +8733,9 @@
         "yellow",
         "blue",
         "green",
-        "red"
+        "red",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8541,7 +8813,9 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8563,7 +8837,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8632,7 +8907,7 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8655,7 +8930,10 @@
         "blue",
         "green",
         "red",
-        "brown"
+        "white",
+        "brown",
+        "yellow",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8673,7 +8951,9 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8690,7 +8970,8 @@
       "file": "Flag of Annecy.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8743,7 +9024,9 @@
         "blue",
         "green",
         "red",
-        "white"
+        "white",
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8779,7 +9062,8 @@
       "file": "Flag of Les Baux-de-Provence.gif",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8811,7 +9095,8 @@
       "file": "Flag of Hesse.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8899,7 +9184,8 @@
       "colors": [
         "yellow",
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8931,6 +9217,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
+        "white",
+        "yellow",
         "purple"
       ],
       "icons": [],
@@ -8980,7 +9268,9 @@
       "file": "Flag of Hampton Inn & Suites by Hilton.png",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9015,7 +9305,9 @@
       "file": "Flag of Dayton, Ohio.svg",
       "isFlagEntity": false,
       "colors": [
-        "green"
+        "green",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9031,7 +9323,11 @@
       "count": 4,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -9048,7 +9344,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9066,7 +9363,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9087,6 +9385,7 @@
       "file": "Transgender Pride flag.svg",
       "isFlagEntity": true,
       "colors": [
+        "white",
         "lightblue"
       ],
       "icons": [],
@@ -9107,7 +9406,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9139,7 +9440,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9264,7 +9566,8 @@
       "file": "Remiremont - place Christian-Poncelet - 2022-05-31 - 26.jpg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9299,7 +9602,8 @@
       "file": "Flag of Saint-Tropez.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9331,7 +9635,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9379,7 +9685,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9414,7 +9721,8 @@
       "file": "Flag of the Soviet Union.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9467,7 +9775,8 @@
       "colors": [
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9505,7 +9814,9 @@
       "count": 3,
       "file": "Flag of the Brussels-Capital Region.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "regional",
@@ -9592,7 +9903,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9655,7 +9967,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9672,7 +9985,8 @@
       "file": "Flag of American Samoa.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9693,7 +10007,8 @@
       "file": "Flag of Buffalo, New York.svg",
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9800,7 +10115,8 @@
       "file": "Flag of Rotterdam.svg",
       "isFlagEntity": false,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9836,7 +10152,8 @@
       "isFlagEntity": false,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9854,7 +10171,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9903,7 +10221,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9940,7 +10259,9 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10052,7 +10373,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10088,7 +10410,8 @@
       "file": "Philippine revolution flag llanera.png",
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10142,7 +10465,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10210,7 +10534,7 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10229,7 +10553,9 @@
       "colors": [
         "blue",
         "red",
-        "white"
+        "white",
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10266,6 +10592,7 @@
         "green",
         "red",
         "white",
+        "black",
         "brown"
       ],
       "icons": [],
@@ -10286,7 +10613,8 @@
       "file": "Flag of Thuringia.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10372,7 +10700,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10435,7 +10764,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10489,7 +10819,8 @@
       "file": "Flag of Cantabria.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10508,7 +10839,11 @@
       "count": 3,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow",
+        "lightblue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -10539,6 +10874,7 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
+        "white",
         "brown"
       ],
       "icons": [],
@@ -10556,7 +10892,9 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10623,7 +10961,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10642,6 +10981,7 @@
       "colors": [
         "blue",
         "white",
+        "black",
         "orange"
       ],
       "icons": [],
@@ -10674,7 +11014,8 @@
       "file": "Flag of Milan.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10694,7 +11035,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10711,7 +11053,8 @@
       "file": "Flag of Marseille.svg",
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10792,7 +11135,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10810,7 +11154,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10831,7 +11176,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10880,7 +11227,7 @@
       "colors": [
         "yellow",
         "white",
-        "blue",
+        "black",
         "brown"
       ],
       "icons": [],
@@ -10898,7 +11245,9 @@
       "file": "Flag of Three Rivers, Michigan.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -10998,7 +11347,8 @@
       "colors": [
         "yellow",
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11016,7 +11366,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11097,7 +11448,9 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11191,7 +11544,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11208,7 +11562,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11308,7 +11663,7 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11325,7 +11680,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11341,7 +11697,10 @@
       "count": 2,
       "file": "Flag of Fort Moultrie, South Carolina.svg",
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -11356,7 +11715,10 @@
       "count": 2,
       "file": "Flag of Macau.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "national",
@@ -11391,9 +11753,9 @@
       "file": "Flag of Colmar.gif",
       "isFlagEntity": false,
       "colors": [
+        "yellow",
         "green",
-        "red",
-        "yellow"
+        "red"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11539,7 +11901,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11558,7 +11921,8 @@
       "colors": [
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11581,7 +11945,7 @@
       "colors": [
         "yellow",
         "blue",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11621,7 +11985,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11639,7 +12004,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11660,7 +12026,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11692,9 +12059,10 @@
       "file": "Flag of Tallahassee, Florida (2002–2020).svg",
       "isFlagEntity": false,
       "colors": [
-        "white",
         "blue",
-        "red"
+        "red",
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11741,7 +12109,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11858,7 +12227,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11895,7 +12265,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11913,7 +12284,9 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11945,7 +12318,8 @@
       "file": "Hôtel ville Villemomble 2.jpg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11994,7 +12368,9 @@
       "count": 2,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -12012,8 +12388,9 @@
       "colors": [
         "green",
         "red",
-        "blue",
-        "brown"
+        "white",
+        "brown",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12070,7 +12447,8 @@
         "yellow",
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12106,7 +12484,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12169,7 +12548,8 @@
       "isFlagEntity": false,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12186,7 +12566,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12235,7 +12617,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12256,7 +12639,8 @@
       "file": "North Brabant-Flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12442,7 +12826,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12536,7 +12921,8 @@
       "colors": [
         "yellow",
         "blue",
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12573,6 +12959,7 @@
       "colors": [
         "blue",
         "red",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -12610,7 +12997,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12643,7 +13031,11 @@
       "isFlagEntity": false,
       "colors": [
         "green",
-        "white"
+        "white",
+        "black",
+        "yellow",
+        "lightblue",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12707,7 +13099,8 @@
       "colors": [
         "yellow",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12784,7 +13177,11 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white",
+        "yellow",
+        "lightblue",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12801,7 +13198,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12820,7 +13218,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12837,7 +13236,8 @@
       "file": "Flag of Calais.svg",
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12854,7 +13254,8 @@
       "file": "Drapeau de Reims.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12871,7 +13272,8 @@
       "file": "Utrecht (province)-Flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13056,7 +13458,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13081,6 +13484,7 @@
         "green",
         "red",
         "white",
+        "black",
         "orange",
         "brown",
         "lightblue",
@@ -13148,7 +13552,9 @@
       "file": "Town of Chapel Hill Flag.png",
       "isFlagEntity": false,
       "colors": [
-        "green"
+        "green",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13165,7 +13571,8 @@
       "file": "Flag of Portsmouth, Virginia.gif",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13213,7 +13620,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13261,7 +13669,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13311,7 +13720,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13403,6 +13813,7 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
+        "white",
         "orange"
       ],
       "icons": [],
@@ -13422,7 +13833,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13440,7 +13852,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13458,7 +13871,8 @@
       "isFlagEntity": false,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13505,7 +13919,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13538,7 +13953,9 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "brown"
+        "white",
+        "brown",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13554,7 +13971,9 @@
       "count": 2,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "advertising",
@@ -13587,7 +14006,11 @@
       "count": 2,
       "file": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "lightblue",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -13603,7 +14026,9 @@
       "file": "Flag of Harford County, Maryland.png",
       "isFlagEntity": false,
       "colors": [
-        "yellow"
+        "yellow",
+        "lightblue",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13621,6 +14046,7 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -13655,7 +14081,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13688,7 +14115,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13706,7 +14134,8 @@
       "isFlagEntity": false,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13836,7 +14265,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13853,6 +14283,7 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
+        "white",
         "purple"
       ],
       "icons": [],
@@ -13901,7 +14332,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13920,7 +14352,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13985,7 +14418,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14081,7 +14515,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14099,7 +14534,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14116,7 +14552,8 @@
       "file": "Flag of Tulsa, Oklahoma (2018).svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14182,7 +14619,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14199,6 +14637,7 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
+        "white",
         "brown"
       ],
       "icons": [],
@@ -14233,7 +14672,7 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14267,7 +14706,8 @@
       "colors": [
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14287,6 +14727,7 @@
         "yellow",
         "green",
         "white",
+        "black",
         "brown"
       ],
       "icons": [],
@@ -14533,7 +14974,9 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "green"
+        "green",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14551,8 +14994,10 @@
       "isFlagEntity": false,
       "colors": [
         "green",
+        "white",
         "orange",
-        "lightblue"
+        "lightblue",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14583,7 +15028,9 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -14630,6 +15077,7 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -14646,7 +15094,9 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -14679,7 +15129,9 @@
       "colors": [
         "blue",
         "green",
-        "orange"
+        "white",
+        "orange",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14698,7 +15150,9 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "white",
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14715,7 +15169,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14748,7 +15204,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14810,7 +15267,8 @@
       "file": "POL województwo wielkopolskie flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -14936,7 +15394,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15061,7 +15520,12 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow",
+        "lightblue",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -15078,7 +15542,8 @@
       "isFlagEntity": false,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15155,7 +15620,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15176,6 +15642,7 @@
         "blue",
         "green",
         "white",
+        "black",
         "orange",
         "lightblue",
         "purple"
@@ -15210,7 +15677,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "yellow"
+        "yellow",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15244,7 +15712,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15351,7 +15820,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15370,7 +15840,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15388,7 +15859,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15467,7 +15939,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15514,7 +15987,8 @@
       "file": "Flag of the State of Georgia (1861, red).svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15531,7 +16005,8 @@
       "file": "Flag of Saint-Louis.gif",
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15550,6 +16025,7 @@
       "colors": [
         "blue",
         "green",
+        "white",
         "orange"
       ],
       "icons": [],
@@ -15583,7 +16059,8 @@
       "isFlagEntity": false,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15601,7 +16078,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15733,7 +16211,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15754,7 +16233,8 @@
         "blue",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15773,7 +16253,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15805,7 +16286,8 @@
       "file": "Flag of Polignac.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15852,7 +16334,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15871,7 +16354,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15935,7 +16419,7 @@
       "colors": [
         "yellow",
         "green",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15968,7 +16452,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -15986,7 +16471,9 @@
       "isFlagEntity": false,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16005,7 +16492,8 @@
       "colors": [
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16024,7 +16512,8 @@
       "colors": [
         "yellow",
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16058,7 +16547,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16096,7 +16586,9 @@
         "blue",
         "green",
         "white",
-        "orange"
+        "black",
+        "orange",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16128,7 +16620,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16162,7 +16655,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16286,7 +16780,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16319,7 +16814,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16398,7 +16894,10 @@
       "count": 1,
       "file": "Flag of the United States Department of Commerce.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -16416,7 +16915,9 @@
       "colors": [
         "yellow",
         "blue",
-        "green"
+        "green",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16447,7 +16948,9 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -16477,7 +16980,10 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -16554,7 +17060,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16645,7 +17152,9 @@
       "count": 1,
       "file": "Northwestern Arch.jpg",
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -16676,7 +17185,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "yellow",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16737,7 +17248,10 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -16755,6 +17269,7 @@
       "colors": [
         "green",
         "white",
+        "black",
         "brown",
         "lightblue"
       ],
@@ -16804,7 +17319,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16823,7 +17339,8 @@
       "colors": [
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16856,7 +17373,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16963,7 +17481,8 @@
       "file": "Flag of Beaune-la-Rolande.gif",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -16997,7 +17516,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17086,7 +17606,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17211,7 +17732,7 @@
         "yellow",
         "blue",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17243,7 +17764,9 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "green"
+        "green",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17309,7 +17832,8 @@
       "file": "Blue Star Service Banner.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17419,6 +17943,7 @@
         "blue",
         "green",
         "brown",
+        "yellow",
         "lightblue"
       ],
       "icons": [],
@@ -17482,7 +18007,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17515,7 +18041,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17534,7 +18061,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17553,7 +18081,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17599,7 +18128,10 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "lightblue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -17615,7 +18147,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17708,7 +18241,7 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17846,7 +18379,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17863,7 +18397,8 @@
       "file": "Flag of Montreal.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17882,7 +18417,8 @@
       "colors": [
         "yellow",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17948,7 +18484,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -17995,7 +18532,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18045,8 +18583,8 @@
       "file": "Flag of Jarnac.gif",
       "isFlagEntity": false,
       "colors": [
-        "red",
-        "yellow"
+        "yellow",
+        "red"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18093,7 +18631,8 @@
       "file": "Flag of Antioquia Department.svg",
       "isFlagEntity": true,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18110,7 +18649,8 @@
       "file": "Theta-chi-flag.png",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18143,7 +18683,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18161,7 +18702,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18177,7 +18719,10 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -18238,7 +18783,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18346,7 +18893,9 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "white"
+        "white",
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18363,7 +18912,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18382,7 +18933,10 @@
       "colors": [
         "blue",
         "green",
-        "white"
+        "white",
+        "black",
+        "yellow",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18433,7 +18987,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18544,7 +19099,9 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18576,7 +19133,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18593,7 +19151,8 @@
       "file": "Flag of Valdivia, Chile.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18611,7 +19170,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18628,7 +19188,8 @@
       "file": "Flag of Belarus (1918, 1991–1995).svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18646,7 +19207,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18696,7 +19258,8 @@
         "yellow",
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18714,7 +19277,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18732,7 +19296,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18770,7 +19335,8 @@
       "file": "Flag of the Region of Murcia.svg",
       "isFlagEntity": true,
       "colors": [
-        "yellow"
+        "yellow",
+        "red"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18879,9 +19445,7 @@
       "count": 1,
       "file": "Flag of Las Vegas, Nevada.svg",
       "isFlagEntity": false,
-      "colors": [
-        "blue"
-      ],
+      "colors": [],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -18898,7 +19462,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18944,7 +19509,10 @@
       "count": 1,
       "file": "Flag of Cupertino, California.svg",
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -19172,7 +19740,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19219,7 +19788,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19571,7 +20142,8 @@
       "file": "Flag of Greenland.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19669,7 +20241,8 @@
       "colors": [
         "yellow",
         "green",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19701,7 +20274,10 @@
       "file": "People's Flag of Milwaukee.svg",
       "isFlagEntity": false,
       "colors": [
-        "orange"
+        "white",
+        "orange",
+        "lightblue",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19736,7 +20312,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19754,7 +20331,11 @@
       "isFlagEntity": false,
       "colors": [
         "white",
-        "brown"
+        "black",
+        "brown",
+        "yellow",
+        "lightblue",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19864,7 +20445,8 @@
       "file": "Flag of Ceuta.svg",
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19976,7 +20558,9 @@
       "count": 1,
       "file": "Flag of the Province of Trento.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -20038,7 +20622,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20070,7 +20655,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20132,7 +20718,8 @@
       "file": "Flag of Norfolk Island.svg",
       "isFlagEntity": true,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20154,7 +20741,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20187,7 +20775,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20208,7 +20797,8 @@
       "file": "Sinyal d'Aragón.svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20305,7 +20895,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20340,7 +20931,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20389,7 +20981,8 @@
       "colors": [
         "yellow",
         "green",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20407,7 +21000,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20424,7 +21018,8 @@
       "file": "Flag of Leon County, Florida.png",
       "isFlagEntity": false,
       "colors": [
-        "green"
+        "green",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20459,7 +21054,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "yellow"
+        "yellow",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20491,6 +21088,7 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
+        "white",
         "lightblue"
       ],
       "icons": [],
@@ -20510,7 +21108,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20530,7 +21129,8 @@
         "yellow",
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20566,7 +21166,8 @@
         "blue",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20599,7 +21200,9 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "green"
+        "green",
+        "lightblue",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20618,7 +21221,8 @@
       "colors": [
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20650,7 +21254,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20666,7 +21271,9 @@
       "count": 1,
       "file": "Flag of Greenbelt, Maryland.svg",
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -20682,7 +21289,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20715,7 +21323,7 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20748,7 +21356,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20782,7 +21391,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20875,7 +21485,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20938,7 +21549,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20978,7 +21590,8 @@
         "blue",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20996,7 +21609,8 @@
       "isFlagEntity": false,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21102,7 +21716,11 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -21150,7 +21768,8 @@
       "colors": [
         "green",
         "red",
-        "white"
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21198,7 +21817,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21215,9 +21835,10 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
+        "blue",
         "red",
         "white",
-        "blue"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21313,7 +21934,8 @@
         "blue",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21345,7 +21967,8 @@
       "file": "Flag of Gerstheim.gif",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21378,6 +22001,7 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
+        "white",
         "purple"
       ],
       "icons": [],
@@ -21475,7 +22099,9 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -21508,7 +22134,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21542,7 +22169,9 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "indigenous",
@@ -21577,7 +22206,7 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21596,7 +22225,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21614,7 +22243,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21633,7 +22263,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21669,7 +22300,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21702,7 +22334,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21779,7 +22412,8 @@
       "file": "Metz flag.svg",
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21813,7 +22447,10 @@
       "colors": [
         "green",
         "red",
-        "brown"
+        "white",
+        "brown",
+        "yellow",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21845,7 +22482,8 @@
       "file": "DrapeauMulhouse.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22031,7 +22669,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22048,7 +22687,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22065,10 +22705,11 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
+        "yellow",
+        "blue",
         "red",
         "white",
-        "yellow",
-        "blue"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22089,7 +22730,8 @@
         "blue",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22232,7 +22874,8 @@
       "file": "Bandera de Rus (Jaén).svg",
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "black",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22265,7 +22908,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22315,7 +22959,10 @@
       "count": 1,
       "file": "DONT GIVE UP THE SHIP flag.svg",
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -22346,7 +22993,9 @@
       "file": "Flag of Key West, Florida.svg",
       "isFlagEntity": true,
       "colors": [
-        "yellow"
+        "yellow",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22378,7 +23027,8 @@
       "file": "First Bear Flag of California (1846).svg",
       "isFlagEntity": true,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22472,7 +23122,10 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -22489,7 +23142,7 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22507,7 +23160,9 @@
       "isFlagEntity": false,
       "colors": [
         "red",
-        "lightblue"
+        "white",
+        "lightblue",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22525,7 +23180,8 @@
       "isFlagEntity": false,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22543,7 +23199,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22564,6 +23221,7 @@
         "blue",
         "green",
         "red",
+        "white",
         "brown"
       ],
       "icons": [],
@@ -22660,7 +23318,8 @@
         "blue",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22677,7 +23336,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "yellow"
+        "yellow",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22694,7 +23354,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22729,7 +23390,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22749,7 +23411,8 @@
         "yellow",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22860,7 +23523,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22878,7 +23542,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22957,7 +23622,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23038,7 +23704,8 @@
       "file": "Flag-of-Calgary.jpg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23160,7 +23827,8 @@
       "file": "Corpus Christi, Texas flag.svg",
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23347,7 +24015,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "green"
+        "green",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23397,7 +24066,8 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23432,7 +24102,10 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "white",
+        "black",
+        "yellow",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23466,7 +24139,8 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23514,7 +24188,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23550,7 +24225,8 @@
         "blue",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23659,6 +24335,8 @@
       "colors": [
         "green",
         "red",
+        "white",
+        "yellow",
         "blue"
       ],
       "icons": [],
@@ -23706,8 +24384,10 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
+        "blue",
         "green",
-        "blue"
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23755,7 +24435,7 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23773,7 +24453,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23826,7 +24507,8 @@
       "colors": [
         "blue",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23859,7 +24541,9 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23922,7 +24606,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23941,7 +24626,8 @@
       "colors": [
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24017,7 +24703,10 @@
       "count": 1,
       "file": "Bandera de Astillero (Cantabria).svg",
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -24095,7 +24784,9 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -24143,7 +24834,10 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -24160,6 +24854,7 @@
       "isFlagEntity": false,
       "colors": [
         "white",
+        "black",
         "purple"
       ],
       "icons": [],
@@ -24208,7 +24903,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24225,7 +24921,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "blue"
+        "blue",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24243,7 +24941,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24262,7 +24961,8 @@
       "colors": [
         "blue",
         "green",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24296,7 +24996,7 @@
       "colors": [
         "yellow",
         "red",
-        "white"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24357,7 +25057,10 @@
       "count": 1,
       "file": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -24373,7 +25076,8 @@
       "file": "Flag of Hamburg.svg",
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24422,7 +25126,8 @@
       "colors": [
         "yellow",
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24471,7 +25176,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24536,7 +25242,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "red"
+        "red",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24554,7 +25262,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24572,7 +25281,8 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24603,7 +25313,9 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -24892,7 +25604,8 @@
       "file": "Flag of Greek Macedonia.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24942,7 +25655,9 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
-        "yellow"
+        "yellow",
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -24976,7 +25691,9 @@
       "count": 1,
       "file": "West Florida Flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -25011,7 +25728,8 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "brown"
+        "brown",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -25032,7 +25750,8 @@
         "blue",
         "green",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -25095,7 +25814,9 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "green"
+        "green",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -25114,7 +25835,8 @@
       "colors": [
         "yellow",
         "blue",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -25162,7 +25884,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "red"
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -25195,7 +25918,8 @@
       "isFlagEntity": false,
       "colors": [
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -25214,7 +25938,8 @@
       "colors": [
         "yellow",
         "blue",
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -25307,7 +26032,9 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "green"
+        "green",
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -25324,6 +26051,7 @@
       "file": null,
       "isFlagEntity": false,
       "colors": [
+        "white",
         "purple"
       ],
       "icons": [],
