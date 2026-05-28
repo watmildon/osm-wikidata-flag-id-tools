@@ -623,7 +623,8 @@
     "description": "Two stacked red triangular pennants joined at the hoist, each bordered in dark blue, forming a non-rectangular pentagonal flag. The upper pennant contains a white crescent moon; the lower contains a white sun with twelve rays."
   },
   "Q159746": {
-    "description": "The national flag of Monaco (French: drapeau national de Monaco) has two equal horizontal bands, of red (top) and white (bottom), both of which have been the heraldic colours of the House of Grimaldi since at least 1339. The present bicolour design was adopted on 4 April 1881, under Charles III."
+    "shape": "square",
+    "description": "The national flag of Monaco (French: drapeau national de Monaco) has two equal horizontal bands, of red (top) and white (bottom), both of which have been the heraldic colours of the House of Grimaldi since at least 1339. The present bicolour design was adopted on 4 April 1881, under Charles III. The official proportion is 4:5, near-square."
   },
   "Q159865": {
     "description": "A red field with a green five-pointed star (pentagram) centered, drawn with interlaced lines."
@@ -959,6 +960,9 @@
   "Q676623": {
     "description": "Three horizontal stripes of red, white, and red, with a blue canton in the upper hoist containing a ring of 13 white five-pointed stars encircling the state coat of arms in gold. \"IN GOD WE TRUST\" appears below the coat of arms."
   },
+  "Q679119": {
+    "file": "Flag of Canton of Zürich.svg"
+  },
   "Q687222": {
     "description": "The flag of the German State of North Rhine-Westphalia is a horizontal tricolor consisting of green, white and red."
   },
@@ -1076,6 +1080,18 @@
   },
   "Q1285625": {
     "description": "Two equal horizontal bands of black (top) and red, with a large yellow disc (sun) centered."
+  },
+  "Q1392132": {
+    "file": "Flag of Canton of Aargau.svg"
+  },
+  "Q1392156": {
+    "file": "Flag of Canton of Thurgau.svg"
+  },
+  "Q1392158": {
+    "file": "Flag of Canton of Schwyz.svg"
+  },
+  "Q1392163": {
+    "file": "CHE Canton de Genève Flag.svg"
   },
   "Q1402799": {
     "colors": [
@@ -1214,6 +1230,9 @@
   },
   "Q10986849": {
     "description": "The flag that is used as the symbol of Kashubia, a region in Central Europe, and the Kashubian people, is divided horizontally into black and yellow stripes."
+  },
+  "Q14515866": {
+    "file": "Flag of Canton of Vaud.svg"
   },
   "Q15994084": {
     "description": "Five equal horizontal stripes of red and white alternating (red at the top and bottom), with a blue equilateral triangle at the hoist bearing a single white five-pointed star."

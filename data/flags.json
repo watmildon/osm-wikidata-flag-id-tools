@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T17:18:32.182Z",
+  "generated": "2026-05-28T19:52:37.272Z",
   "palette": [
     "red",
     "white",
@@ -4246,7 +4246,7 @@
         "white"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": "national",
       "flagName": "Niger",
       "flagTypeSample": 7,
@@ -6414,7 +6414,7 @@
         "white"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": "national",
       "flagName": "Monaco",
       "flagTypeSample": 10,
@@ -6424,7 +6424,7 @@
         "country": "MC"
       },
       "aliases": [],
-      "description": "The national flag of Monaco (French: drapeau national de Monaco) has two equal horizontal bands, of red (top) and white (bottom), both of which have been the heraldic colours of the House of Grimaldi since at least 1339. The present bicolour design was adopted on 4 April 1881, under Charles III.",
+      "description": "The national flag of Monaco (French: drapeau national de Monaco) has two equal horizontal bands, of red (top) and white (bottom), both of which have been the heraldic colours of the House of Grimaldi since at least 1339. The present bicolour design was adopted on 4 April 1881, under Charles III. The official proportion is 4:5, near-square.",
       "wdColors": [
         "red",
         "white"
@@ -12884,7 +12884,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": "regional",
       "flagName": "Rhode Island",
       "flagTypeSample": 10,
@@ -14310,7 +14310,7 @@
       "qid": "Q679119",
       "name": "flag of canton of Zürich",
       "count": 5,
-      "file": "Wappen Zürich matt.svg",
+      "file": "Flag of Canton of Zürich.svg",
       "isFlagEntity": true,
       "colors": [
         "black",
@@ -14318,7 +14318,7 @@
         "white"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": "regional",
       "flagName": "Zürich",
       "flagTypeSample": 5,
@@ -17059,7 +17059,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": "indigenous",
       "flagName": "Wiphala",
       "flagTypeSample": null,
@@ -17298,7 +17298,7 @@
       "qid": "Q1392132",
       "name": "flag of Aargau",
       "count": 2,
-      "file": "Wappen Aargau matt.svg",
+      "file": "Flag of Canton of Aargau.svg",
       "isFlagEntity": true,
       "colors": [
         "black",
@@ -17306,7 +17306,7 @@
         "white"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": null,
       "flagName": "Aargau",
       "flagTypeSample": null,
@@ -17323,7 +17323,7 @@
       "qid": "Q1392156",
       "name": "flag of the canton of Thurgau",
       "count": 1,
-      "file": "Wappen Thurgau matt.svg",
+      "file": "Flag of Canton of Thurgau.svg",
       "isFlagEntity": true,
       "colors": [
         "black",
@@ -17333,7 +17333,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": null,
       "flagName": "canton of Thurgau",
       "flagTypeSample": null,
@@ -17352,7 +17352,7 @@
       "qid": "Q1392158",
       "name": "Q1392158",
       "count": 1,
-      "file": "Wappen Schwyz matt.svg",
+      "file": "Flag of Canton of Schwyz.svg",
       "isFlagEntity": true,
       "colors": [
         "black",
@@ -17360,7 +17360,7 @@
         "white"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": null,
       "flagName": "Q1392158",
       "flagTypeSample": null,
@@ -17377,7 +17377,7 @@
       "qid": "Q1392163",
       "name": "Flag and coat of arms of Geneva and Canton of Geneva",
       "count": 1,
-      "file": "CHE Genève COA.svg",
+      "file": "CHE Canton de Genève Flag.svg",
       "isFlagEntity": false,
       "colors": [
         "black",
@@ -18067,7 +18067,7 @@
         "white"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": "military",
       "flagName": "Confederate States of America",
       "flagTypeSample": null,
@@ -19076,7 +19076,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": null,
       "flagName": "Mendoza Province",
       "flagTypeSample": null,
@@ -19170,7 +19170,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": "regional",
       "flagName": "Hainaut",
       "flagTypeSample": null,
@@ -19999,7 +19999,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "pennant",
       "flagType": "religious",
       "flagName": "Nishan Sahib",
       "flagTypeSample": 17,
@@ -20666,7 +20666,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": null,
       "flagName": "Civil Freedom of Argentina",
       "flagTypeSample": null,
@@ -24575,7 +24575,7 @@
       "qid": "Q14515866",
       "name": "Q14515866",
       "count": 1,
-      "file": "Wappen Waadt matt.svg",
+      "file": "Flag of Canton of Vaud.svg",
       "isFlagEntity": true,
       "colors": [
         "black",
@@ -24584,7 +24584,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": null,
       "flagName": "Q14515866",
       "flagTypeSample": null,
@@ -33025,7 +33025,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": null,
       "flagName": "Chablais",
       "flagTypeSample": null,
@@ -35250,7 +35250,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": null,
       "flagName": "Thônex",
       "flagTypeSample": null,
@@ -36076,7 +36076,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": "governmental",
       "flagName": "Turku",
       "flagTypeSample": 15,

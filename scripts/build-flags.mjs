@@ -517,9 +517,16 @@ function imageScore(filename) {
   const isSvg = name.endsWith(".svg");
   // Heavy penalty for known "not the canonical flag" variants.
   const isVariant = /construction|specification|sheet|diagram|drawing|template|measurements|grid|waving|wavy|photo|photograph|hoisted|raised|ceremony|3d|render/.test(name);
+  // Coat-of-arms / shield images: many Wikidata entities (Swiss cantons,
+  // some municipalities) have P18 pointing at the shield rather than the
+  // actual flag. When the entity has BOTH images on Commons, the flag is
+  // what we want. Penalize but don't disqualify — for entities whose only
+  // P18 is the shield, we still want to show something.
+  const isShield = /\bwappen\b|\bcoat[\s_-]*of[\s_-]*arms\b|\bcoa\b|\bescudo\b|\bblas[oó]n\b|\bstemma\b/.test(name);
   let score = 0;
   if (isSvg) score += 100;
   if (!isVariant) score += 50;
+  if (!isShield) score += 30;
   // Shorter names tend to be more canonical ("Flag of Thailand.svg" vs
   // "Flag of Thailand (construction sheet).svg").
   score -= name.length / 100;
