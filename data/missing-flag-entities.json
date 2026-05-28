@@ -1,0 +1,33 @@
+{
+  "_comment": "Subjects (cities, organisations, etc.) that have a flag image on Wikidata via P41 but no dedicated 'flag of X' entity for the flag itself. We can't seed them in flags.json without breaking the project's invariant that QIDs refer to flag entities — so they live here as work items: someone should create the proper flag entity on Wikidata. Sorted by QID numerically.",
+  "entries": [
+    { "subject_qid": "Q85",        "subject_name": "Cairo",        "kind": "city" },
+    { "subject_qid": "Q437",       "subject_name": "Ljubljana",    "kind": "city" },
+    { "subject_qid": "Q1461",      "subject_name": "Manila",       "kind": "city" },
+    { "subject_qid": "Q1530",      "subject_name": "Baghdad",      "kind": "city" },
+    { "subject_qid": "Q1533",      "subject_name": "Caracas",      "kind": "city" },
+    { "subject_qid": "Q1563",      "subject_name": "Havana",       "kind": "city" },
+    { "subject_qid": "Q1735",      "subject_name": "Tegucigalpa",  "kind": "city" },
+    { "subject_qid": "Q1741",      "subject_name": "Vienna",       "kind": "city" },
+    { "subject_qid": "Q1748",      "subject_name": "Copenhagen",   "kind": "city" },
+    { "subject_qid": "Q1764",      "subject_name": "Reykjavík",    "kind": "city" },
+    { "subject_qid": "Q1780",      "subject_name": "Bratislava",   "kind": "city" },
+    { "subject_qid": "Q1861",      "subject_name": "Bangkok",      "kind": "city" },
+    { "subject_qid": "Q1867",      "subject_name": "Taipei",       "kind": "city" },
+    { "subject_qid": "Q2844",      "subject_name": "Brasília",     "kind": "city" },
+    { "subject_qid": "Q3561",      "subject_name": "Algiers",      "kind": "city" },
+    { "subject_qid": "Q3616",      "subject_name": "Tehran",       "kind": "city" },
+    { "subject_qid": "Q3624",      "subject_name": "Addis Ababa",  "kind": "city" },
+    { "subject_qid": "Q3718",      "subject_name": "Dakar",        "kind": "city" },
+    { "subject_qid": "Q3761",      "subject_name": "Accra",        "kind": "city" },
+    { "subject_qid": "Q3838",      "subject_name": "Kinshasa",     "kind": "city" },
+    { "subject_qid": "Q5757",      "subject_name": "Ashgabat",     "kind": "city" },
+    { "subject_qid": "Q8660",      "subject_name": "Karachi",      "kind": "city" },
+    { "subject_qid": "Q9248",      "subject_name": "Baku",         "kind": "city" },
+    { "subject_qid": "Q11739",     "subject_name": "Lahore",       "kind": "city" },
+    { "subject_qid": "Q23548",     "subject_name": "NASA",         "kind": "organisation" },
+    { "subject_qid": "Q35381",     "subject_name": "Kuwait City",  "kind": "city" },
+    { "subject_qid": "Q81299",     "subject_name": "OSCE",         "kind": "organisation" },
+    { "subject_qid": "Q5987345",   "subject_name": "ICRC",         "kind": "organisation" }
+  ]
+}

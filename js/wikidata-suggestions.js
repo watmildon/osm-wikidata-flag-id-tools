@@ -1,12 +1,15 @@
 // Aggregates the dataset's Wikidata-quality signals into one consolidated
 // view. Sections:
-//   1. "Not classified as a flag" — non-flag-qids.json minus the entries
+//   1. "Missing flag entity" — subjects (cities, organisations) that have
+//      a P41 flag image on the subject's own entity but no dedicated
+//      "flag of X" entity exists. Fix: create the flag entity on Wikidata.
+//   2. "Not classified as a flag" — non-flag-qids.json minus the entries
 //      already covered by review.json's P163 suggestions. Fix could be on
 //      either side: edit Wikidata to add P31, or retag the OSM elements
 //      (the wrong QID was used) — both buttons offered.
-//   2. "Missing image" — flags.json records where file===null. Fix: add P18
+//   3. "Missing image" — flags.json records where file===null. Fix: add P18
 //      on Wikidata.
-//   3. "Colors" — diff between flags.json `wdColors` (raw from P462) and
+//   4. "Colors" — diff between flags.json `wdColors` (raw from P462) and
 //      `colors` (curated, post-override). Three sub-buckets.
 
 // Mirror render.js's swatch palette. Kept in sync by hand because a shared
@@ -111,6 +114,9 @@ const ICON_MAP_PIN =
   '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
   '<path d="M8 14s5-4.5 5-8.5a5 5 0 0 0-10 0C3 9.5 8 14 8 14z"/>' +
   '<circle cx="8" cy="5.5" r="1.75"/></svg>';
+const ICON_PLUS =
+  '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+  '<path d="M8 3v10M3 8h10"/></svg>';
 
 // Multi-button cell. Each action is { href, title, icon, newTab? }. Used
 // anywhere a row offers more than one fix path. Buttons live inside a
@@ -143,6 +149,40 @@ function numCell(n) {
   td.className = "num";
   td.textContent = (n ?? 0).toLocaleString();
   return td;
+}
+
+// ---- Section: missing flag entity ----
+
+// Wikidata "create a new item" URL. We can't deep-link statements via
+// query params (Special:NewItem only takes label/description), so the
+// editor will set instance-of + flag-of by hand after landing.
+const WIKIDATA_NEW_ITEM_URL = "https://www.wikidata.org/wiki/Special:NewItem";
+
+function missingEntityRow(rec) {
+  const tr = document.createElement("tr");
+  const subjCell = document.createElement("td");
+  const a = document.createElement("a");
+  a.href = wdUrl(rec.subject_qid);
+  a.target = "_blank";
+  a.rel = "noopener";
+  a.textContent = rec.subject_qid;
+  subjCell.appendChild(a);
+  subjCell.appendChild(document.createElement("br"));
+  const name = document.createElement("span");
+  name.className = "muted";
+  name.textContent = rec.subject_name;
+  subjCell.appendChild(name);
+  tr.appendChild(subjCell);
+
+  const kindCell = document.createElement("td");
+  kindCell.textContent = rec.kind;
+  tr.appendChild(kindCell);
+
+  tr.appendChild(actionsCell([
+    { href: wdUrl(rec.subject_qid), title: "Open subject on Wikidata", icon: ICON_WIKIDATA },
+    { href: WIKIDATA_NEW_ITEM_URL, title: "Create new flag entity on Wikidata", icon: ICON_PLUS },
+  ]));
+  return tr;
 }
 
 // ---- Section 1: not classified as a flag ----
@@ -233,21 +273,23 @@ function fmtTotal(label, items) {
 }
 
 async function main() {
-  let review, nonFlag, flagsData;
+  let review, nonFlag, flagsData, missingEntities;
   try {
     // review.json gives us the set of QIDs already actionable as an OSM-side
     // retag — those live on review.html, not here. We subtract them from the
     // "not classified as a flag" section so this page only shows records
     // where the *Wikidata* entity needs the fix.
-    const [r1, r2, r3] = await Promise.all([
+    const [r1, r2, r3, r4] = await Promise.all([
       fetch("data/review.json"),
       fetch("data/non-flag-qids.json"),
       fetch("data/flags.json"),
+      fetch("data/missing-flag-entities.json"),
     ]);
-    if (!r1.ok || !r2.ok || !r3.ok) throw new Error("data fetch failed");
+    if (!r1.ok || !r2.ok || !r3.ok || !r4.ok) throw new Error("data fetch failed");
     review   = await r1.json();
     nonFlag  = await r2.json();
     flagsData = await r3.json();
+    missingEntities = await r4.json();
   } catch (e) {
     console.error(e);
     document.querySelectorAll(".suggestions-blurb").forEach((p) => {
@@ -287,6 +329,12 @@ async function main() {
   wdEmpty.sort(byCountDesc);
   mismatch.sort(byCountDesc);
   unknown.sort(byCountDesc);
+
+  const missing = missingEntities.entries ?? [];
+  document.getElementById("missing-entity-count").textContent =
+    `— ${missing.length.toLocaleString()} subject${missing.length === 1 ? "" : "s"}`;
+  const missingBody = document.getElementById("missing-entity-rows");
+  for (const rec of missing) missingBody.appendChild(missingEntityRow(rec));
 
   document.getElementById("not-flag-count").textContent =
     `— ${fmtTotal("records", notFlagOnly)}`;

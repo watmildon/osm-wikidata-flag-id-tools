@@ -19,6 +19,32 @@
   </header>
 
   <main class="review-main">
+    <details class="suggestions-section" id="section-missing-entity">
+      <summary class="suggestions-h2">
+        Missing flag entity <span class="muted" id="missing-entity-count"></span>
+      </summary>
+      <p class="suggestions-blurb">
+        Subjects (cities, organisations) that have a flag image attached via
+        <code>P41</code> on their main Wikidata entity, but no dedicated
+        "flag of X" entity exists for the flag itself. Until someone creates
+        one, OSM mappers have nowhere correct to point
+        <code>flag:wikidata=</code> at, and this site can't include the flag.
+        Open the subject to see what's already there, then create a new
+        Wikidata item with <code>instance of: flag (Q14660)</code> and
+        <code>flag of: &lt;subject&gt;</code>.
+      </p>
+      <table class="review-table">
+        <thead>
+          <tr>
+            <th scope="col">Subject</th>
+            <th scope="col">Kind</th>
+            <th scope="col">Fix</th>
+          </tr>
+        </thead>
+        <tbody id="missing-entity-rows"></tbody>
+      </table>
+    </details>
+
     <details class="suggestions-section" id="section-not-flag">
       <summary class="suggestions-h2">
         Not classified as a flag <span class="muted" id="not-flag-count"></span>
