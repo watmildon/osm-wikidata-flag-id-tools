@@ -1,11 +1,18 @@
 {
   "_comment": "Hand-curated QIDs included in the build even when taginfo doesn't list them yet. Sorted by QID numerically. If a seed later shows up in taginfo, the real count takes over.",
   "qids": [
+    "Q630077",
+    "Q783961",
+    "Q784526",
     "Q1426529",
     "Q1455578",
     "Q4876605",
+    "Q9646110",
+    "Q9647733",
     "Q17053858",
     "Q17094384",
+    "Q18499770",
+    "Q48990056",
     "Q61641270",
     "Q61641559",
     "Q61642103",
@@ -21,10 +28,12 @@
     "Q63968132",
     "Q93879664",
     "Q96742561",
+    "Q105339315",
     "Q105593273",
     "Q107452170",
     "Q107689743",
     "Q110873677",
+    "Q119631640",
     "Q135479239"
   ]
 }

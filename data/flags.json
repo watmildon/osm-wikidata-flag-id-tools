@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T20:15:37.534Z",
+  "generated": "2026-05-28T20:29:18.675Z",
   "palette": [
     "red",
     "white",
@@ -13955,6 +13955,30 @@
       ]
     },
     {
+      "qid": "Q630077",
+      "name": "flag of the African Union",
+      "count": 0,
+      "file": "Flag of the African Union.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "green",
+        "red",
+        "white"
+      ],
+      "wdColors": [
+        "green",
+        "red",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "African Union",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q632491",
       "name": "flag of Arizona",
       "count": 48,
@@ -15441,6 +15465,38 @@
       "aliases": [],
       "description": "The Flag of the Association of Southeast Asian Nations or the ASEAN Flag is one of the official symbols of the Association of Southeast Asian Nations (ASEAN). It consists of the official emblem of ASEAN on a blue background.",
       "wdColors": []
+    },
+    {
+      "qid": "Q783961",
+      "name": "flag of the League of Arab States",
+      "count": 0,
+      "file": "Flag of the Arab League.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "League of Arab States",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q784526",
+      "name": "flag of OPEC",
+      "count": 0,
+      "file": "Flag of OPEC.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "OPEC",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q786078",
@@ -24086,6 +24142,22 @@
       ]
     },
     {
+      "qid": "Q9646110",
+      "name": "flag of International Atomic Energy Agency",
+      "count": 0,
+      "file": "Flag of IAEA.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "International Atomic Energy Agency",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q9647178",
       "name": "Q9647178",
       "count": 1,
@@ -24100,6 +24172,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q9647733",
+      "name": "flag of UNICEF",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "UNICEF",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q10385027",
@@ -25007,6 +25095,22 @@
       "wdColors": []
     },
     {
+      "qid": "Q18499770",
+      "name": "flag of the World Health Organization",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "World Health Organization",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q18677875",
       "name": "Normandy",
       "count": 1,
@@ -25577,6 +25681,22 @@
         "pink",
         "white"
       ]
+    },
+    {
+      "qid": "Q48990056",
+      "name": "flag of the Organization of American States",
+      "count": 0,
+      "file": "Flag of the Organization of American States.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Organization of American States",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q54953696",
@@ -31016,6 +31136,30 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q105339315",
+      "name": "flag of the Council of Europe",
+      "count": 0,
+      "file": "Logo of the Council of Europe (no lettering).svg",
+      "isFlagEntity": true,
+      "colors": [
+        "blue",
+        "white",
+        "yellow"
+      ],
+      "wdColors": [
+        "blue",
+        "white",
+        "yellow"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Council of Europe",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q105593273",
@@ -36969,6 +37113,22 @@
         "red",
         "white"
       ]
+    },
+    {
+      "qid": "Q119631640",
+      "name": "Paralympic flag",
+      "count": 0,
+      "file": "Paralympic flag (2019).svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Paralympic flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q120259831",
