@@ -29,9 +29,11 @@
         <a href="https://www.wikidata.org/wiki/Q14660" target="_blank" rel="noopener">flag (Q14660)</a>
         or
         <a href="https://www.wikidata.org/wiki/Q69506823" target="_blank" rel="noopener">flag design (Q69506823)</a>.
-        Adding the right
-        <code>P31</code> statement on Wikidata makes the entity recognizable
-        across the OSM ecosystem.
+        The fix could go either way: if the QID really does describe a flag,
+        add the right <code>P31</code> statement on Wikidata. If the QID
+        describes something else (a country, an organisation, a building)
+        and was tagged in error, open the OSM elements in overpass-turbo and
+        retag them to point at the correct flag entity.
       </p>
       <table class="review-table">
         <thead>
