@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T19:52:37.272Z",
+  "generated": "2026-05-28T20:15:37.534Z",
   "palette": [
     "red",
     "white",
@@ -17628,6 +17628,22 @@
       ]
     },
     {
+      "qid": "Q1426529",
+      "name": "bisexual pride flag",
+      "count": 0,
+      "file": "Bisexual Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "bisexual pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q1426561",
       "name": "flag of the Northwest Territories",
       "count": 7,
@@ -22391,6 +22407,32 @@
       "wdColors": []
     },
     {
+      "qid": "Q4876605",
+      "name": "bear flag",
+      "count": 0,
+      "file": "Bear Brotherhood flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white",
+        "black",
+        "brown",
+        "yellow"
+      ],
+      "wdColors": [
+        "white",
+        "black",
+        "brown",
+        "yellow"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "bear flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q4889892",
       "name": "Bennington flag",
       "count": 3,
@@ -24852,6 +24894,28 @@
       "wdColors": []
     },
     {
+      "qid": "Q17053858",
+      "name": "intersex flag",
+      "count": 0,
+      "file": "Intersex Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "purple"
+      ],
+      "wdColors": [
+        "yellow",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "intersex flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q17067282",
       "name": "flag of Southern Leyte",
       "count": 1,
@@ -24874,6 +24938,28 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q17094384",
+      "name": "pansexual pride flag",
+      "count": 0,
+      "file": "Pansexuality Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "blue"
+      ],
+      "wdColors": [
+        "yellow",
+        "blue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "pansexual pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q17493086",
@@ -25604,6 +25690,132 @@
       "wdColors": []
     },
     {
+      "qid": "Q61641270",
+      "name": "genderqueer pride flag",
+      "count": 0,
+      "file": "Genderqueer Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "green",
+        "white"
+      ],
+      "wdColors": [
+        "green",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "genderqueer pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q61641559",
+      "name": "polysexual pride flag",
+      "count": 0,
+      "file": "Polysexuality Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "blue",
+        "green"
+      ],
+      "wdColors": [
+        "blue",
+        "green"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "polysexual pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q61642103",
+      "name": "Philadelphia pride flag",
+      "count": 0,
+      "file": "Philadelphia Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "blue",
+        "green",
+        "red",
+        "black",
+        "orange",
+        "brown",
+        "purple"
+      ],
+      "wdColors": [
+        "yellow",
+        "blue",
+        "green",
+        "red",
+        "black",
+        "orange",
+        "brown",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Philadelphia pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q61642208",
+      "name": "asexual pride flag",
+      "count": 0,
+      "file": "Asexual Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white",
+        "black",
+        "purple"
+      ],
+      "wdColors": [
+        "white",
+        "black",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "asexual pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q61650188",
+      "name": "polyamory flag",
+      "count": 0,
+      "file": "Polyamory Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "red",
+        "black"
+      ],
+      "wdColors": [
+        "yellow",
+        "red",
+        "black"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "polyamory flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q61731637",
       "name": "Herzeg-Bosnia",
       "count": 3,
@@ -25657,6 +25869,136 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q62566806",
+      "name": "demisexual pride flag",
+      "count": 0,
+      "file": "Demisexual Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white",
+        "black",
+        "purple"
+      ],
+      "wdColors": [
+        "white",
+        "black",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "demisexual pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q62566815",
+      "name": "lesbian pride flag",
+      "count": 0,
+      "file": "Lesbian pride rainbow flag with black double-Venus symbol.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "blue",
+        "green",
+        "red",
+        "black",
+        "orange",
+        "purple"
+      ],
+      "wdColors": [
+        "yellow",
+        "blue",
+        "green",
+        "red",
+        "black",
+        "orange",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "lesbian pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q62566819",
+      "name": "labrys lesbian pride flag",
+      "count": 0,
+      "file": "Labrys Lesbian Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white",
+        "black",
+        "purple"
+      ],
+      "wdColors": [
+        "white",
+        "black",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "labrys lesbian pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q62604586",
+      "name": "non-binary pride flag",
+      "count": 0,
+      "file": "Nonbinary flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "white",
+        "black",
+        "purple"
+      ],
+      "wdColors": [
+        "yellow",
+        "white",
+        "black",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "non-binary pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q62604938",
+      "name": "agender pride flag",
+      "count": 0,
+      "file": "Agender pride flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "green",
+        "white",
+        "black"
+      ],
+      "wdColors": [
+        "green",
+        "white",
+        "black"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "agender pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q62668720",
@@ -25986,6 +26328,70 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q63889113",
+      "name": "aromantic pride flag",
+      "count": 0,
+      "file": "CGI Aromantic Flag.png",
+      "isFlagEntity": true,
+      "colors": [
+        "green",
+        "white",
+        "black"
+      ],
+      "wdColors": [
+        "green",
+        "white",
+        "black"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "aromantic pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q63967901",
+      "name": "demiboy pride flag",
+      "count": 0,
+      "file": "Demiboy Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white"
+      ],
+      "wdColors": [
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "demiboy pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q63968132",
+      "name": "demigirl pride flag",
+      "count": 0,
+      "file": "Demigirl Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white"
+      ],
+      "wdColors": [
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "demigirl pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q63974225",
@@ -28004,6 +28410,30 @@
       ]
     },
     {
+      "qid": "Q93879664",
+      "name": "genderfluid pride flag",
+      "count": 0,
+      "file": "Genderfluidity Pride-Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white",
+        "black",
+        "purple"
+      ],
+      "wdColors": [
+        "white",
+        "black",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "genderfluid pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q94600451",
       "name": "Earth flag",
       "count": 2,
@@ -28410,6 +28840,30 @@
         "white",
         "black"
       ]
+    },
+    {
+      "qid": "Q96742561",
+      "name": "demiromantic pride flag",
+      "count": 0,
+      "file": "Demiromantic Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "green",
+        "white",
+        "black"
+      ],
+      "wdColors": [
+        "green",
+        "white",
+        "black"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "demiromantic pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q96761402",
@@ -30564,6 +31018,22 @@
       ]
     },
     {
+      "qid": "Q105593273",
+      "name": "disability flag",
+      "count": 0,
+      "file": "Disability flag.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "disability flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q105798861",
       "name": "1824 flag",
       "count": 1,
@@ -31922,6 +32392,58 @@
       ]
     },
     {
+      "qid": "Q107452170",
+      "name": "disability pride flag",
+      "count": 0,
+      "file": "Visually Safe Disability Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "blue",
+        "green",
+        "red",
+        "white",
+        "black"
+      ],
+      "wdColors": [
+        "yellow",
+        "blue",
+        "green",
+        "red",
+        "white",
+        "black"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "disability pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q107689743",
+      "name": "bigender pride flag",
+      "count": 0,
+      "file": "Bigender Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "blue",
+        "white"
+      ],
+      "wdColors": [
+        "blue",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "bigender pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q107787322",
       "name": "intersex-inclusive pride flag",
       "count": 2,
@@ -32132,6 +32654,28 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q110873677",
+      "name": "omnisexual pride flag",
+      "count": 0,
+      "file": "Omnisexuality flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "blue",
+        "purple"
+      ],
+      "wdColors": [
+        "blue",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "omnisexual pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q111510003",
@@ -37234,6 +37778,22 @@
         "white",
         "black"
       ]
+    },
+    {
+      "qid": "Q135479239",
+      "name": "aroace pride flag",
+      "count": 0,
+      "file": "Aroace flag.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "aroace pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q135493209",

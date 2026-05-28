@@ -748,6 +748,22 @@ async function loadOverrides() {
   }
 }
 
+// Hand-curated QIDs to include even when taginfo doesn't list them yet — lets
+// the site act as a reference for flags that *should* be tagged on OSM, not
+// just ones that already are. Seeds get count=0; if a seed later appears in
+// taginfo, the real count takes over.
+async function loadSeeds() {
+  const path = join(DATA_DIR, "seeds.json");
+  try {
+    const raw = JSON.parse(await readFile(path, "utf8"));
+    const qids = Array.isArray(raw?.qids) ? raw.qids : [];
+    return qids.filter((q) => /^Q\d+$/.test(q));
+  } catch (e) {
+    if (e.code === "ENOENT") return [];
+    throw e;
+  }
+}
+
 async function main() {
   // We are the source of truth. The build:
   //   - refreshes taginfo counts for ALL known QIDs (cheap; counts shift constantly),
@@ -767,6 +783,19 @@ async function main() {
 
   const rawValues = await fetchTaginfoValues();
   const initialCounts = explodeAndDedupe(rawValues);
+
+  // Union in hand-curated seed QIDs (count=0 unless taginfo already has them).
+  const seeds = await loadSeeds();
+  let seededAdded = 0;
+  for (const qid of seeds) {
+    if (!initialCounts.has(qid)) {
+      initialCounts.set(qid, 0);
+      seededAdded++;
+    }
+  }
+  if (seeds.length) {
+    console.log(`seeds: ${seeds.length} curated QIDs (${seededAdded} not in taginfo).`);
+  }
 
   // Detect Wikidata redirects only for NEW QIDs. The redirects cache makes
   // re-checking known QIDs a no-op anyway, but we narrow the input set up

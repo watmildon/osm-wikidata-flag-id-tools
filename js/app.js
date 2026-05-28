@@ -59,7 +59,7 @@ function openDetail(flag) {
   } else if (flag.count) {
     src.textContent = `flag:type not inferred — set it yourself based on context`;
   } else {
-    src.textContent = "";
+    src.textContent = `not yet tagged on OSM — be the first to add it`;
   }
   const dlg = document.getElementById("detail");
   if (typeof dlg.showModal === "function") dlg.showModal();
