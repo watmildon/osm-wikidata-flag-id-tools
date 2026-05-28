@@ -2,6 +2,7 @@ const state = {
   colors: new Set(),
   icons: new Set(),
   shape: null,
+  query: "",
 };
 
 const listeners = new Set();
@@ -33,15 +34,23 @@ export function setShape(s) {
   notify();
 }
 
+export function setQuery(q) {
+  const next = (q ?? "").trim().toLowerCase();
+  if (state.query === next) return;
+  state.query = next;
+  notify();
+}
+
 export function clear() {
   state.colors.clear();
   state.icons.clear();
   state.shape = null;
+  state.query = "";
   notify();
 }
 
 export function activeCount() {
-  return state.colors.size + state.icons.size + (state.shape ? 1 : 0);
+  return state.colors.size + state.icons.size + (state.shape ? 1 : 0) + (state.query ? 1 : 0);
 }
 
 export function matches(flag) {
@@ -52,5 +61,9 @@ export function matches(flag) {
     if (!flag.icons?.includes(i)) return false;
   }
   if (state.shape && flag.shape !== state.shape) return false;
+  if (state.query) {
+    const haystack = [flag.name, flag.flagName, flag.description].filter(Boolean).join(" ").toLowerCase();
+    if (!haystack.includes(state.query)) return false;
+  }
   return true;
 }

@@ -16,7 +16,7 @@ const ICON_LABELS = {
   star: "Star", sun: "Sun", cross: "Cross", crescent: "Crescent", circle: "Circle",
   "horizontal-stripes": "Horizontal stripes", "vertical-stripes": "Vertical stripes",
   triangle: "Triangle", diagonal: "Diagonal",
-  weapon: "Weapon", map: "Map", coa: "Coat of arms",
+  weapon: "Weapon", map: "Map", building: "Building", coa: "Coat of arms",
 };
 const SHAPE_LABELS = {
   rectangle: "Rectangle", square: "Square", pennant: "Pennant", other: "Other",

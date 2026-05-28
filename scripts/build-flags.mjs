@@ -876,7 +876,7 @@ async function main() {
       "text", "animal", "bird", "people", "plant",
       "star", "sun", "cross", "crescent", "circle",
       "horizontal-stripes", "vertical-stripes", "triangle", "diagonal",
-      "weapon", "map", "coa",
+      "weapon", "map", "building", "coa",
     ],
     shapes: ["rectangle", "square", "pennant", "other"],
     flags,

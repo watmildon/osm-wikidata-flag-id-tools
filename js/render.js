@@ -30,6 +30,7 @@ const ICON_LABELS = {
   diagonal: "Diagonal",
   weapon: "Weapon",
   map: "Map",
+  building: "Building",
   coa: "Coat of arms",
 };
 

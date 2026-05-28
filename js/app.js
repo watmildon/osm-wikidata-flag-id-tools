@@ -1,5 +1,5 @@
 import { loadFlags } from "./data.js";
-import { subscribe, matches, activeCount, clear } from "./filters.js";
+import { subscribe, matches, activeCount, clear, setQuery } from "./filters.js";
 import { renderFilters, renderGrid, updateFilterSummary, fullSrc } from "./render.js";
 import { copyTags, tagsFor, showToast } from "./clipboard.js";
 
@@ -74,7 +74,18 @@ async function main() {
     applyFilters();
   });
 
-  document.getElementById("clear-btn").addEventListener("click", clear);
+  const searchInput = document.getElementById("search-input");
+  let searchTimer = null;
+  searchInput.addEventListener("input", (e) => {
+    clearTimeout(searchTimer);
+    const v = e.target.value;
+    searchTimer = setTimeout(() => setQuery(v), 120);
+  });
+
+  document.getElementById("clear-btn").addEventListener("click", () => {
+    searchInput.value = "";
+    clear();
+  });
   document.getElementById("detail-close").addEventListener("click", closeDetail);
   document.getElementById("detail-copy").addEventListener("click", handleCopy);
   document.getElementById("detail").addEventListener("click", (e) => {

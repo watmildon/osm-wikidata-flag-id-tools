@@ -43,6 +43,16 @@ jobs:
             *) echo "::error::Build failed (exit $code)."; exit "$code" ;;
           esac
 
+      - name: Re-check Wikidata for new images and reclassified entities
+        # Catch Wikidata edits to records we already have. Without this, a flag
+        # that gains a P18 image (or gets its isFlagEntity P31/P279* fixed)
+        # would stay imageless / misclassified forever, because the main build's
+        # source-of-truth model skips known QIDs.
+        # Soft-fails: a SPARQL outage here shouldn't block the count refresh.
+        continue-on-error: true
+        run: |
+          node scripts/refresh-wikidata.mjs --missing-images --not-flag-entity
+
       - name: Stage changes
         id: stage
         run: |
