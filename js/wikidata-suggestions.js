@@ -12,9 +12,10 @@
 // Mirror render.js's swatch palette. Kept in sync by hand because a shared
 // module would couple two otherwise-independent entry points.
 const COLOR_SWATCHES = {
-  red: "#dc2626", white: "#ffffff", blue: "#1d4ed8", green: "#16a34a",
-  yellow: "#facc15", black: "#111827", orange: "#ea580c",
-  lightblue: "#7dd3fc", brown: "#92400e", purple: "#7e22ce",
+  red: "#dc2626", white: "#ffffff", blue: "#1d4ed8", darkblue: "#1e2a5e",
+  lightblue: "#7dd3fc", green: "#16a34a", yellow: "#facc15",
+  black: "#111827", orange: "#ea580c", brown: "#92400e", purple: "#7e22ce",
+  pink: "#ec4899", gray: "#9ca3af",
 };
 
 function wdUrl(qid) {

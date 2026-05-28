@@ -4,13 +4,16 @@ const COLOR_SWATCHES = {
   red: "#dc2626",
   white: "#ffffff",
   blue: "#1d4ed8",
+  darkblue: "#1e2a5e",
+  lightblue: "#7dd3fc",
   green: "#16a34a",
   yellow: "#facc15",
   black: "#111827",
   orange: "#ea580c",
-  lightblue: "#7dd3fc",
   brown: "#92400e",
   purple: "#7e22ce",
+  pink: "#ec4899",
+  gray: "#9ca3af",
 };
 
 const ICON_LABELS = {

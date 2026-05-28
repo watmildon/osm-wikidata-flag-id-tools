@@ -30,8 +30,8 @@ const EXIT_GUARDED = 2;   // shrink/prune guard tripped: prior data preserved
 const EXIT_PARTIAL = 3;   // build completed but with degraded data quality
 
 const PALETTE = [
-  "red", "white", "blue", "green", "yellow",
-  "black", "orange", "lightblue", "brown", "purple",
+  "red", "white", "blue", "darkblue", "lightblue", "green", "yellow",
+  "black", "orange", "brown", "purple", "pink", "gray",
 ];
 
 // Wikidata color QIDs -> palette slug. Canonical color entities verified
