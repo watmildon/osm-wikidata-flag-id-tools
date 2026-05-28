@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Wikidata suggestions — OSM Flag Identifier</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Suggested Wikidata edits</h1>
+    <p class="hint">
+      Records this site touches whose Wikidata entity could use a small fix.
+      Open the QID, edit on Wikidata, and the change flows in on the next
+      nightly build.
+      &middot; <a href="index.html">back to identifier</a>
+      &middot; <a href="review.html">OSM-side fixes →</a>
+    </p>
+  </header>
+
+  <main class="review-main">
+    <details class="suggestions-section" id="section-not-flag">
+      <summary class="suggestions-h2">
+        Not classified as a flag <span class="muted" id="not-flag-count"></span>
+      </summary>
+      <p class="suggestions-blurb">
+        OSM mappers tag <code>flag:wikidata=Qxxx</code>, but Wikidata's
+        entity has no <code>P31/P279*</code> link to
+        <a href="https://www.wikidata.org/wiki/Q14660" target="_blank" rel="noopener">flag (Q14660)</a>
+        or
+        <a href="https://www.wikidata.org/wiki/Q69506823" target="_blank" rel="noopener">flag design (Q69506823)</a>.
+        Adding the right
+        <code>P31</code> statement on Wikidata makes the entity recognizable
+        across the OSM ecosystem.
+      </p>
+      <table class="review-table">
+        <thead>
+          <tr>
+            <th scope="col">QID</th>
+            <th scope="col" class="num">OSM uses</th>
+            <th scope="col">Edit on Wikidata</th>
+          </tr>
+        </thead>
+        <tbody id="not-flag-rows"></tbody>
+      </table>
+    </details>
+
+    <details class="suggestions-section" id="section-no-image">
+      <summary class="suggestions-h2">
+        Missing image <span class="muted" id="no-image-count"></span>
+      </summary>
+      <p class="suggestions-blurb">
+        Wikidata's flag entity has no <code>P18</code> image, so this site
+        shows a placeholder. If a flag image exists on Wikimedia Commons,
+        add it on Wikidata to populate the grid here and on every other site
+        that reads from Wikidata.
+      </p>
+      <table class="review-table">
+        <thead>
+          <tr>
+            <th scope="col">Flag</th>
+            <th scope="col" class="num">OSM uses</th>
+            <th scope="col">Edit on Wikidata</th>
+          </tr>
+        </thead>
+        <tbody id="no-image-rows"></tbody>
+      </table>
+    </details>
+
+    <details class="suggestions-section" id="section-colors">
+      <summary class="suggestions-h2">
+        Colors <span class="muted" id="colors-count"></span>
+      </summary>
+      <p class="suggestions-blurb">
+        Wikidata stores a flag's colors as <code>P462</code> statements.
+        We compare what Wikidata has against the curated palette this site
+        uses (Wikidata + manual overrides). Adding missing
+        <code>P462</code> on Wikidata makes flags more searchable across
+        every tool that reads from Wikidata.
+      </p>
+
+      <h3 class="colors-subhead" id="colors-wd-empty-head"></h3>
+      <table class="review-table">
+        <thead>
+          <tr>
+            <th scope="col">Flag</th>
+            <th scope="col">Our colors</th>
+            <th scope="col" class="num">OSM uses</th>
+            <th scope="col">Edit on Wikidata</th>
+          </tr>
+        </thead>
+        <tbody id="colors-wd-empty-rows"></tbody>
+      </table>
+
+      <h3 class="colors-subhead" id="colors-mismatch-head"></h3>
+      <table class="review-table">
+        <thead>
+          <tr>
+            <th scope="col">Flag</th>
+            <th scope="col">Wikidata</th>
+            <th scope="col">Ours</th>
+            <th scope="col" class="num">OSM uses</th>
+            <th scope="col">Edit on Wikidata</th>
+          </tr>
+        </thead>
+        <tbody id="colors-mismatch-rows"></tbody>
+      </table>
+
+      <details class="colors-subgroup" id="colors-unknown-group">
+        <summary class="colors-subhead" id="colors-unknown-head"></summary>
+        <p class="colors-subblurb">
+          Neither Wikidata nor this site's overrides have colors recorded.
+          The long tail. Easy curator wins by classifying locally first
+          (in the curate tool) then pushing the data to Wikidata.
+        </p>
+        <table class="review-table">
+          <thead>
+            <tr>
+              <th scope="col">Flag</th>
+              <th scope="col" class="num">OSM uses</th>
+              <th scope="col">Edit on Wikidata</th>
+            </tr>
+          </thead>
+          <tbody id="colors-unknown-rows"></tbody>
+        </table>
+      </details>
+    </details>
+
+  </main>
+
+  <script type="module" src="js/wikidata-suggestions.js"></script>
+</body>
+</html>

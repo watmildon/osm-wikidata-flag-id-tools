@@ -344,6 +344,107 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   max-width: 960px;
   margin: 0 auto;
 }
+.suggestions-section {
+  margin-bottom: 16px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 12px 16px;
+}
+.suggestions-section:last-child { margin-bottom: 0; }
+.suggestions-section[open] { padding-bottom: 16px; }
+.suggestions-h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  padding: 4px 0;
+  margin: 0;
+  /* Hint the disclosure with a chevron that rotates on open. The default
+     triangle marker varies by browser and doesn't theme well. */
+}
+.suggestions-h2::-webkit-details-marker { display: none; }
+.suggestions-h2::before {
+  content: "›";
+  display: inline-block;
+  width: 1em;
+  margin-right: 4px;
+  color: var(--muted);
+  font-weight: 400;
+  transition: transform 120ms ease;
+}
+.suggestions-section[open] > .suggestions-h2::before {
+  transform: rotate(90deg);
+}
+.suggestions-h2 .muted {
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+.suggestions-blurb {
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.45;
+  margin: 12px 0;
+}
+.suggestions-blurb code {
+  background: var(--bg);
+  padding: 1px 5px;
+  border-radius: 4px;
+  font-size: 0.8125rem;
+}
+/* The table inside a details is the only place .review-table appears in
+   isolation; the section's existing border handles the frame now, so drop
+   the duplicate from the table itself when nested here. */
+.suggestions-section .review-table {
+  border: none;
+  background: transparent;
+  border-radius: 0;
+}
+/* Sub-bucket headings inside the colors section. */
+.colors-subhead {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--fg);
+  margin: 20px 0 8px;
+  text-transform: none;
+  letter-spacing: 0;
+}
+.colors-subblurb {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  margin: 4px 0 8px;
+}
+.colors-subgroup { margin-top: 8px; }
+.colors-subgroup > summary { cursor: pointer; list-style: none; }
+.colors-subgroup > summary::-webkit-details-marker { display: none; }
+.colors-subgroup > summary::before {
+  content: "›";
+  display: inline-block;
+  width: 1em;
+  margin-right: 4px;
+  color: var(--muted);
+  font-weight: 400;
+  transition: transform 120ms ease;
+}
+.colors-subgroup[open] > summary::before { transform: rotate(90deg); }
+/* Color swatch chips inside table cells. */
+.color-swatch-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0 6px 2px 0;
+  font-size: 0.8125rem;
+  white-space: nowrap;
+}
+.color-swatch-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+}
 .review-table {
   width: 100%;
   border-collapse: collapse;

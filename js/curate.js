@@ -346,8 +346,18 @@ function commitCurrent() {
 }
 
 function advance() {
-  if (queueIndex + 1 < queue.length) queueIndex++;
-  else queueIndex = queue.length; // signal "past the end"
+  if (queueIndex + 1 < queue.length) {
+    queueIndex++;
+  } else if (queue.length === 1 && location.search) {
+    // Direct-linked single-flag queue: after the user finishes their one
+    // target, flow into the normal needing-attention queue rather than
+    // showing "queue empty". Clear the ?qid= from the URL so a refresh
+    // doesn't bounce them back here.
+    history.replaceState(null, "", location.pathname);
+    buildQueue();
+  } else {
+    queueIndex = queue.length; // signal "past the end"
+  }
   renderCurrent();
 }
 
@@ -532,7 +542,25 @@ async function main() {
   }
 
   renderNeedsChips();
-  buildQueue();
+
+  // Direct link from the identifier: `curate.html?qid=Q42537` jumps straight
+  // to one flag, bypassing the needing-attention filter (the user picked a
+  // specific record to fix and shouldn't be filtered away from it). If the
+  // QID isn't in the dataset we fall back to the normal queue with a toast.
+  const params = new URLSearchParams(location.search);
+  const directQid = params.get("qid");
+  if (directQid) {
+    const target = meta.flags.find((f) => f.qid === directQid);
+    if (target) {
+      queue = [target];
+      queueIndex = 0;
+    } else {
+      showToast(`${directQid} not in flags.json — falling back to queue`);
+      buildQueue();
+    }
+  } else {
+    buildQueue();
+  }
   renderCurrent();
   updatePendingUI();
 

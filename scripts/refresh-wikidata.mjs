@@ -142,11 +142,11 @@ function rowToEnrichment(row) {
   const isFlagEntity = row?.isFlag?.value === "true";
   const colorQids = (row?.colorQids?.value ?? "")
     .split(",").map((s) => s.trim()).filter(Boolean);
-  const colors = [...new Set(colorQids.map((q) => COLOR_QID_MAP[q]).filter(Boolean))];
+  const wdColors = [...new Set(colorQids.map((q) => COLOR_QID_MAP[q]).filter(Boolean))];
   const width = row?.w ? Number(row.w.value) : null;
   const height = row?.h ? Number(row.h.value) : null;
   const shape = width && height && width === height ? "square" : "rectangle";
-  return { name, file, isFlagEntity, colors, shape };
+  return { name, file, isFlagEntity, wdColors, colors: wdColors, shape };
 }
 
 async function fileExists(path) {
@@ -240,6 +240,13 @@ async function main() {
       else if (f.file && e.file) imageChangedQids.push(f.qid); // file swap
     }
 
+    // wdColors mirrors Wikidata's current P462-derived palette and is NOT
+    // gated by overrides — its job is to surface Wikidata's truth so the
+    // suggestions page can diff against ours. `colors` is the user-facing
+    // palette and continues to respect overrides.
+    if (JSON.stringify(f.wdColors ?? []) !== JSON.stringify(e.wdColors)) {
+      next.wdColors = e.wdColors;
+    }
     if (!("colors" in ov)) {
       const prev = JSON.stringify(f.colors ?? []);
       const cur = JSON.stringify(e.colors);

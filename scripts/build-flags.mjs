@@ -552,16 +552,22 @@ function rowToFlag(qid, count, row) {
     .split(",")
     .map((s) => s.trim())
     .filter(Boolean);
-  const colors = [
+  // wdColors: raw Wikidata-derived palette. Persisted separately from `colors`
+  // so the suggestions page can diff the two (Wikidata may lack P462 while
+  // our overrides/curation has supplied colors, or the counts may disagree).
+  // `colors` is the canonical site-facing list — starts equal to wdColors,
+  // gets clobbered by overrides.json downstream.
+  const wdColors = [
     ...new Set(colorQids.map((q) => COLOR_QID_MAP[q]).filter(Boolean)),
   ];
+  const colors = [...wdColors];
 
   const width = row?.w ? Number(row.w.value) : null;
   const height = row?.h ? Number(row.h.value) : null;
   const shape = shapeFromDimensions(width, height);
 
   return {
-    qid, name, count, file, isFlagEntity, colors, icons: [], shape,
+    qid, name, count, file, isFlagEntity, colors, wdColors, icons: [], shape,
     // flagType / flagName are populated later by the Overpass pass when there
     // is enough single-value OSM usage to draw a high-confidence conclusion.
     // flagName falls back to a label-strip of `name` after the Overpass pass.

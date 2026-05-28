@@ -21,6 +21,7 @@ function openDetail(flag) {
   const wd = document.getElementById("detail-wikidata");
   wd.href = `https://www.wikidata.org/wiki/${flag.qid}`;
   wd.textContent = `View ${flag.qid} on Wikidata ↗`;
+  document.getElementById("detail-curate").href = `curate.html?qid=${flag.qid}`;
   const src = document.getElementById("detail-source");
   if (flag.flagType && typeof flag.flagTypeSample === "number") {
     src.textContent = `flag:type inferred from ${flag.flagTypeSample.toLocaleString()} OSM uses`;
