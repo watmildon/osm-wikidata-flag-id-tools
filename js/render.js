@@ -16,12 +16,19 @@ const COLOR_SWATCHES = {
 const ICON_LABELS = {
   text: "Text",
   animal: "Animal",
+  bird: "Bird",
   people: "People",
+  plant: "Plant",
   star: "Star",
+  sun: "Sun",
   cross: "Cross",
-  stripes: "Stripes",
-  circle: "Circle",
   crescent: "Crescent",
+  circle: "Circle",
+  stripes: "Stripes",
+  triangle: "Triangle",
+  diagonal: "Diagonal",
+  weapon: "Weapon",
+  map: "Map",
   coa: "Coat of arms",
 };
 

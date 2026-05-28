@@ -1005,7 +1005,12 @@ async function main() {
   const out = {
     generated: new Date().toISOString(),
     palette: PALETTE,
-    icons: ["text", "animal", "people", "star", "cross", "stripes", "circle", "crescent", "coa"],
+    icons: [
+      "text", "animal", "bird", "people", "plant",
+      "star", "sun", "cross", "crescent", "circle",
+      "stripes", "triangle", "diagonal",
+      "weapon", "map", "coa",
+    ],
     shapes: ["rectangle", "square", "pennant", "other"],
     flags,
   };
