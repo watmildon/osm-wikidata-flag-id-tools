@@ -11,7 +11,7 @@ const THUMB_DIR = join(ROOT, "flags", "thumb");
 const FULL_DIR = join(ROOT, "flags", "full");
 
 const USER_AGENT =
-  "OSM-Flag-Identifier/0.1 (https://github.com/; build-flags.mjs)";
+  "OSM-Flag-Identifier/0.1 (https://github.com/watmildon/osm-wikidata-flag-id-tools; build-flags.mjs)";
 
 const FORCE = process.argv.includes("--force");
 const ALLOW_SHRINK = process.argv.includes("--allow-shrink");

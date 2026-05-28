@@ -17,7 +17,7 @@ const ROOT = resolve(__dirname, "..");
 const DATA_DIR = join(ROOT, "data");
 
 const USER_AGENT =
-  "OSM-Flag-Identifier/0.1 (https://github.com/; fetch-wikipedia-descriptions.mjs)";
+  "OSM-Flag-Identifier/0.1 (https://github.com/watmildon/osm-wikidata-flag-id-tools; fetch-wikipedia-descriptions.mjs)";
 
 const argv = process.argv.slice(2);
 const N = (() => {

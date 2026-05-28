@@ -21,7 +21,7 @@ const ROOT = resolve(__dirname, "..");
 const DATA_DIR = join(ROOT, "data");
 
 const USER_AGENT =
-  "OSM-Flag-Identifier/0.1 (https://github.com/; refresh-overpass.mjs)";
+  "OSM-Flag-Identifier/0.1 (https://github.com/watmildon/osm-wikidata-flag-id-tools; refresh-overpass.mjs)";
 const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
 
 const MIN_SAMPLE = 5;

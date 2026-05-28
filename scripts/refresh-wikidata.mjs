@@ -40,7 +40,7 @@ const THUMB_DIR = join(ROOT, "flags", "thumb");
 const FULL_DIR = join(ROOT, "flags", "full");
 
 const USER_AGENT =
-  "OSM-Flag-Identifier/0.1 (https://github.com/; refresh-wikidata.mjs)";
+  "OSM-Flag-Identifier/0.1 (https://github.com/watmildon/osm-wikidata-flag-id-tools; refresh-wikidata.mjs)";
 
 const DRY = process.argv.includes("--dry");
 const MISSING_IMAGES = process.argv.includes("--missing-images");

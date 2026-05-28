@@ -21,7 +21,7 @@ const DATA_DIR = join(ROOT, "data");
 const CACHE_DIR = join(ROOT, "data", ".cache");
 
 const USER_AGENT =
-  "OSM-Flag-Identifier/0.1 (https://github.com/; refresh-nsi.mjs)";
+  "OSM-Flag-Identifier/0.1 (https://github.com/watmildon/osm-wikidata-flag-id-tools; refresh-nsi.mjs)";
 const NSI_URL =
   "https://raw.githubusercontent.com/osmlab/name-suggestion-index/main/data/flags/man_made/flagpole.json";
 
