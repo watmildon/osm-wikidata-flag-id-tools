@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T20:29:18.675Z",
+  "generated": "2026-05-28T20:45:39.264Z",
   "palette": [
     "red",
     "white",
@@ -2165,6 +2165,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q44936",
+      "name": "flag of Jerusalem",
+      "count": 0,
+      "file": "Flag of Jerusalem.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Jerusalem",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q45136",
@@ -10312,6 +10328,28 @@
       "wdColors": []
     },
     {
+      "qid": "Q192479",
+      "name": "flag of Vaduz",
+      "count": 0,
+      "file": "Flag of Vaduz Liechtenstein-1.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "wdColors": [
+        "red",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Vaduz",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q193693",
       "name": "flag of the Cook Islands",
       "count": 2,
@@ -12996,6 +13034,22 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q530807",
+      "name": "flag of Quebec City",
+      "count": 0,
+      "file": "Flag of Quebec City.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Quebec City",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q536230",
@@ -16264,6 +16318,22 @@
       ]
     },
     {
+      "qid": "Q939115",
+      "name": "flag of Yerevan",
+      "count": 0,
+      "file": "Flag of Yerevan.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Yerevan",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q947913",
       "name": "BFGoodrich",
       "count": 1,
@@ -17632,6 +17702,46 @@
       ]
     },
     {
+      "qid": "Q1426379",
+      "name": "flag of Amsterdam",
+      "count": 0,
+      "file": "Flag of Amsterdam.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white",
+        "black"
+      ],
+      "wdColors": [
+        "red",
+        "white",
+        "black"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Amsterdam",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q1426496",
+      "name": "flag of Vancouver",
+      "count": 0,
+      "file": "Flag of Vancouver.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Vancouver",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q1426512",
       "name": "Kroaz Du",
       "count": 1,
@@ -18759,6 +18869,22 @@
       "wdColors": []
     },
     {
+      "qid": "Q2073258",
+      "name": "flag of Warsaw",
+      "count": 0,
+      "file": "Flag of Warsaw.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Warsaw",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q2084156",
       "name": "flag of Salta",
       "count": 1,
@@ -18930,6 +19056,22 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q2137315",
+      "name": "flag of Prague",
+      "count": 0,
+      "file": "Flag of Prague.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Prague",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q2151681",
@@ -19130,6 +19272,22 @@
       },
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q2225406",
+      "name": "flag of Kyiv",
+      "count": 0,
+      "file": "Flag of Kyiv Kurovskyi.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Kyiv",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q2241052",
@@ -20833,6 +20991,22 @@
       "wdColors": []
     },
     {
+      "qid": "Q2750384",
+      "name": "flag of Houston",
+      "count": 0,
+      "file": "Flag of Houston, Texas.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Houston",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q2772636",
       "name": "flag of Chubut Province",
       "count": 1,
@@ -21120,6 +21294,22 @@
       ]
     },
     {
+      "qid": "Q2915836",
+      "name": "flag of Tbilisi",
+      "count": 0,
+      "file": "Flag of Tbilisi.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Tbilisi",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q2917560",
       "name": "flag of San Francisco",
       "count": 6,
@@ -21368,6 +21558,42 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q3039025",
+      "name": "flag of Louisville, Kentucky",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Louisville, Kentucky",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q3039030",
+      "name": "flag of Minneapolis",
+      "count": 0,
+      "file": "Flag of Minneapolis.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white"
+      ],
+      "wdColors": [
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Minneapolis",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q3039032",
@@ -21744,6 +21970,22 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q3434487",
+      "name": "flag of Belgrade",
+      "count": 0,
+      "file": "Flag of Belgrade, Serbia.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Belgrade",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q3442757",
@@ -22297,6 +22539,50 @@
       ]
     },
     {
+      "qid": "Q4487638",
+      "name": "flag of Riga",
+      "count": 0,
+      "file": "Flag of Riga.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white",
+        "black",
+        "yellow",
+        "lightblue"
+      ],
+      "wdColors": [
+        "red",
+        "white",
+        "black",
+        "yellow",
+        "lightblue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Riga",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q4487718",
+      "name": "flag of Sarajevo",
+      "count": 0,
+      "file": "Flag of Sarajevo.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Sarajevo",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q4487879",
       "name": "flag of Sokolsky District",
       "count": 2,
@@ -22445,6 +22731,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q4784194",
+      "name": "flag of Tampa",
+      "count": 0,
+      "file": "Flag of Tampa, Florida.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Tampa",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q4819532",
@@ -22664,6 +22966,22 @@
       ]
     },
     {
+      "qid": "Q5456702",
+      "name": "flag of Birmingham",
+      "count": 0,
+      "file": "Flag of Birmingham, United Kingdom.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Birmingham",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q5456706",
       "name": "flag of Bohol",
       "count": 1,
@@ -22701,6 +23019,54 @@
       ]
     },
     {
+      "qid": "Q5456707",
+      "name": "flag of Boston",
+      "count": 0,
+      "file": "Flag of Boston.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "white",
+        "lightblue"
+      ],
+      "wdColors": [
+        "yellow",
+        "white",
+        "lightblue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Boston",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q5456709",
+      "name": "flag of Brisbane",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "white",
+        "blue"
+      ],
+      "wdColors": [
+        "yellow",
+        "white",
+        "blue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Brisbane",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q5456713",
       "name": "flag of Buffalo, New York",
       "count": 3,
@@ -22726,6 +23092,22 @@
         "darkblue",
         "white"
       ]
+    },
+    {
+      "qid": "Q5456717",
+      "name": "flag of Cape Town",
+      "count": 0,
+      "file": "Flag of Cape Town, South Africa.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Cape Town",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q5456721",
@@ -22759,6 +23141,48 @@
       ]
     },
     {
+      "qid": "Q5456733",
+      "name": "flag of Detroit",
+      "count": 0,
+      "file": "Flag of Detroit.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "red",
+        "white",
+        "blue"
+      ],
+      "wdColors": [
+        "yellow",
+        "red",
+        "white",
+        "blue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Detroit",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q5456734",
+      "name": "flag of Des Moines, Iowa",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Des Moines, Iowa",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q5456735",
       "name": "flag of Dorset",
       "count": 1,
@@ -22786,6 +23210,22 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q5456750",
+      "name": "flag of Harare",
+      "count": 0,
+      "file": "Flag of Harare.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Harare",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q5456759",
@@ -22817,6 +23257,38 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q5456761",
+      "name": "flag of Johannesburg",
+      "count": 0,
+      "file": "Flag of Johannesburg, South Africa.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Johannesburg",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q5456768",
+      "name": "flag of Lima",
+      "count": 0,
+      "file": "Flag of Lima.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Lima",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q5456769",
@@ -22868,6 +23340,38 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q5456775",
+      "name": "flag of Madison, Wisconsin",
+      "count": 0,
+      "file": "Flag of Madison, Wisconsin (2018–present).svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Madison, Wisconsin",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q5456784",
+      "name": "flag of Nashville, Tennessee",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Nashville, Tennessee",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q5456786",
@@ -22975,6 +23479,28 @@
       ]
     },
     {
+      "qid": "Q5456801",
+      "name": "flag of Pittsburgh",
+      "count": 0,
+      "file": "Flag of Pittsburgh, Pennsylvania.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "black",
+        "yellow"
+      ],
+      "wdColors": [
+        "black",
+        "yellow"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Pittsburgh",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q5456804",
       "name": "flag of Portland",
       "count": 1,
@@ -23000,6 +23526,38 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q5456811",
+      "name": "flag of Richmond",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Richmond",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q5456822",
+      "name": "flag of Seattle",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Seattle",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q5456835",
@@ -23113,6 +23671,28 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q5456860",
+      "name": "Flag of Melbourne",
+      "count": 0,
+      "file": "Flag of Melbourne.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "wdColors": [
+        "red",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Melbourne",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q5456880",
@@ -23379,6 +23959,38 @@
       "wdColors": []
     },
     {
+      "qid": "Q5718507",
+      "name": "flag of Cuenca",
+      "count": 0,
+      "file": "Flag of Cuenca, Ecuador.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Cuenca",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q5718574",
+      "name": "Flag of Guayaquil",
+      "count": 0,
+      "file": "Bandera de Guayaquil.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Guayaquil",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q5718647",
       "name": "Q5718647",
       "count": 1,
@@ -23618,6 +24230,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q6393175",
+      "name": "flag of Quito",
+      "count": 0,
+      "file": "Flag of Quito.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Quito",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q6537128",
@@ -24057,6 +24685,38 @@
       ]
     },
     {
+      "qid": "Q8134193",
+      "name": "flag of Dublin",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Dublin",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q8242038",
+      "name": "Flag of Mexico City",
+      "count": 0,
+      "file": "Mexico stateflags Mexico City.png",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Mexico City",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q9260246",
       "name": "flag of Gdynia",
       "count": 10,
@@ -24082,6 +24742,28 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q9260409",
+      "name": "flag of Rome",
+      "count": 0,
+      "file": "Flag of Rome.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "yellow"
+      ],
+      "wdColors": [
+        "red",
+        "yellow"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Rome",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q9260434",
@@ -24204,6 +24886,28 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q10477339",
+      "name": "flag of Dubai",
+      "count": 0,
+      "file": "Flag of Ajman.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "wdColors": [
+        "red",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Dubai",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q10686281",
@@ -24430,6 +25134,22 @@
       ]
     },
     {
+      "qid": "Q12143496",
+      "name": "flag of Chișinău",
+      "count": 0,
+      "file": "Flag of Chișinău.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Chișinău",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q12143610",
       "name": "Flag of Auvergne",
       "count": 1,
@@ -24571,6 +25291,22 @@
         "red",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q12601313",
+      "name": "flag of Seoul",
+      "count": 0,
+      "file": "Flag of Seoul.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Seoul",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q12751889",
@@ -24808,6 +25544,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q15961947",
+      "name": "flag of Phoenix, Arizona",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Phoenix, Arizona",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q15978065",
@@ -25127,6 +25879,22 @@
       "wdColors": []
     },
     {
+      "qid": "Q19570909",
+      "name": "flag of Astana",
+      "count": 0,
+      "file": "Flag of Astana, Kazakhstan (latin).svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Astana",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q19871916",
       "name": "Alexandria Fire Department",
       "count": 1,
@@ -25194,6 +25962,82 @@
       "wdColors": []
     },
     {
+      "qid": "Q20900820",
+      "name": "flag of Tokyo",
+      "count": 0,
+      "file": "Flag of Tokyo Metropolis.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white"
+      ],
+      "wdColors": [
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Tokyo",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q21752527",
+      "name": "flag of Vilnius",
+      "count": 0,
+      "file": "Flag of Vilnius.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Vilnius",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q22271870",
+      "name": "flag of Sydney",
+      "count": 0,
+      "file": "City of Sydney Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "white",
+        "blue"
+      ],
+      "wdColors": [
+        "yellow",
+        "white",
+        "blue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Sydney",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q23198404",
+      "name": "Flag of Perth",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Perth",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q23925186",
       "name": "flag of the Greek Orthodox Church",
       "count": 11,
@@ -25232,6 +26076,34 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q24189944",
+      "name": "flag of Adelaide",
+      "count": 0,
+      "file": "Flag of Adelaide.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "red",
+        "white",
+        "brown",
+        "blue"
+      ],
+      "wdColors": [
+        "yellow",
+        "red",
+        "white",
+        "brown",
+        "blue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Adelaide",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q25230725",
@@ -25376,6 +26248,26 @@
       ]
     },
     {
+      "qid": "Q28828087",
+      "name": "flag of Cochabamba",
+      "count": 0,
+      "file": "Flag of Cochabamba.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "lightblue"
+      ],
+      "wdColors": [
+        "lightblue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Cochabamba",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q29344371",
       "name": "Arnold Clark Group",
       "count": 29,
@@ -25391,6 +26283,30 @@
       "aliases": [],
       "description": "Arnold Clark is a car dealer based in Glasgow, Scotland. As of 2025, the company has over 200 dealerships across the United Kingdom, and is one of the largest car dealerships in Europe. Annually, Arnold Clark sells in excess of 300,000 vehicles, and sells new vehicles from over 30 international countries.",
       "wdColors": []
+    },
+    {
+      "qid": "Q30591141",
+      "name": "flag of Wichita, Kansas",
+      "count": 0,
+      "file": "Flag of Wichita, Kansas.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "blue",
+        "red",
+        "white"
+      ],
+      "wdColors": [
+        "blue",
+        "red",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Wichita, Kansas",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q30637174",
@@ -25681,6 +26597,32 @@
         "pink",
         "white"
       ]
+    },
+    {
+      "qid": "Q48790336",
+      "name": "flag of Cali",
+      "count": 0,
+      "file": "Flag of Santiago de Cali.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "blue",
+        "green",
+        "red",
+        "white"
+      ],
+      "wdColors": [
+        "blue",
+        "green",
+        "red",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Cali",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q48990056",
@@ -27634,6 +28576,30 @@
       ]
     },
     {
+      "qid": "Q75992178",
+      "name": "flag of Brussels",
+      "count": 0,
+      "file": "Brussel vlag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "green",
+        "red"
+      ],
+      "wdColors": [
+        "yellow",
+        "green",
+        "red"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Brussels",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q76568027",
       "name": "flag of Amelia",
       "count": 1,
@@ -28530,6 +29496,32 @@
       ]
     },
     {
+      "qid": "Q85761218",
+      "name": "flag of Spokane, Washington",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "green",
+        "white",
+        "lightblue"
+      ],
+      "wdColors": [
+        "yellow",
+        "green",
+        "white",
+        "lightblue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Spokane, Washington",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q93879664",
       "name": "genderfluid pride flag",
       "count": 0,
@@ -28667,6 +29659,22 @@
       ]
     },
     {
+      "qid": "Q96378012",
+      "name": "flag of Albuquerque, New Mexico",
+      "count": 0,
+      "file": "Flag of Albuquerque, New Mexico.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Albuquerque, New Mexico",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q96378013",
       "name": "flag of Austin, Texas",
       "count": 1,
@@ -28708,6 +29716,62 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q96378015",
+      "name": "flag of Charlotte",
+      "count": 0,
+      "file": "Two official flags of Charlotte, North Carolina.png",
+      "isFlagEntity": true,
+      "colors": [
+        "blue",
+        "green",
+        "white"
+      ],
+      "wdColors": [
+        "blue",
+        "green",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Charlotte",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q96378017",
+      "name": "flag of El Paso",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "El Paso",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q96378019",
+      "name": "flag of Memphis",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Memphis",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q96409154",
@@ -29624,6 +30688,22 @@
       "wdColors": []
     },
     {
+      "qid": "Q97164441",
+      "name": "flag of La Paz",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "La Paz",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q97302393",
       "name": "Q97302393",
       "count": 1,
@@ -30496,6 +31576,22 @@
       ]
     },
     {
+      "qid": "Q97609960",
+      "name": "flag of Raleigh, North Carolina",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Raleigh, North Carolina",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q98027472",
       "name": "New Zealand White Ensign",
       "count": 3,
@@ -31104,6 +32200,30 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q104860148",
+      "name": "flag of Anchorage",
+      "count": 0,
+      "file": "Flag of Anchorage, Alaska.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "blue",
+        "white"
+      ],
+      "wdColors": [
+        "yellow",
+        "blue",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Anchorage",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q104864896",
@@ -32700,6 +33820,22 @@
       ]
     },
     {
+      "qid": "Q109513124",
+      "name": "flag of Tel Aviv",
+      "count": 0,
+      "file": "Flag of Tel Aviv.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Tel Aviv",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q109648662",
       "name": "flag of Laranjal Paulista",
       "count": 2,
@@ -32884,6 +34020,44 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q111594634",
+      "name": "flag of Regina",
+      "count": 0,
+      "file": "Flag of Regina.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Regina",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q111595928",
+      "name": "flag of Medellín",
+      "count": 0,
+      "file": "Flag of Medellín.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "green",
+        "white"
+      ],
+      "wdColors": [
+        "green",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Medellín",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q111873590",
@@ -36541,6 +37715,22 @@
       ]
     },
     {
+      "qid": "Q114714073",
+      "name": "flag of Honolulu",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Honolulu",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q114916903",
       "name": "flag of Roussillon",
       "count": 2,
@@ -36726,6 +37916,28 @@
         "white",
         "yellow"
       ]
+    },
+    {
+      "qid": "Q116211841",
+      "name": "flag of Oakland",
+      "count": 0,
+      "file": "Flag of Oakland, California.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "green"
+      ],
+      "wdColors": [
+        "yellow",
+        "green"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Oakland",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q116481827",
@@ -37085,6 +38297,44 @@
       "wdColors": []
     },
     {
+      "qid": "Q117924542",
+      "name": "flag of Little Rock",
+      "count": 0,
+      "file": "Flag of Little Rock, Arkansas.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white",
+        "yellow"
+      ],
+      "wdColors": [
+        "white",
+        "yellow"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Little Rock",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q118121879",
+      "name": "Flag of Bishkek",
+      "count": 0,
+      "file": "Flag of Bishkek.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Bishkek",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q118756714",
       "name": "flag of the New Zealand Police",
       "count": 1,
@@ -37293,6 +38543,22 @@
         "gray",
         "white"
       ]
+    },
+    {
+      "qid": "Q122495174",
+      "name": "Flag of Auckland City",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Auckland City",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q122872146",
@@ -37610,6 +38876,22 @@
       ]
     },
     {
+      "qid": "Q124477964",
+      "name": "flag of Jakarta",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Jakarta",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q124527551",
       "name": "Q124527551",
       "count": 1,
@@ -37730,6 +39012,22 @@
       ]
     },
     {
+      "qid": "Q126622169",
+      "name": "flag of Stockholm",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Stockholm",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q127045106",
       "name": "MYANMAR",
       "count": 1,
@@ -37816,6 +39114,38 @@
       ]
     },
     {
+      "qid": "Q128107601",
+      "name": "flag of Atlanta",
+      "count": 0,
+      "file": "Flag of Atlanta.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Atlanta",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q129906101",
+      "name": "Flag of Tucson",
+      "count": 0,
+      "file": "Flag of Tucson, Arizona.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Tucson",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q130268700",
       "name": "Q130268700",
       "count": 1,
@@ -37830,6 +39160,54 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q130530719",
+      "name": "Flag of Panama City",
+      "count": 0,
+      "file": "Bandera de Ciudad de Panamá.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Panama City",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q130601806",
+      "name": "Flag of Saskatoon",
+      "count": 0,
+      "file": "Saskatoon-flag.png",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Saskatoon",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q130603060",
+      "name": "Flag of Guatemala City",
+      "count": 0,
+      "file": "Bandera de la Ciudad de Guatemala.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Guatemala City",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q130710876",
@@ -37902,6 +39280,22 @@
       ]
     },
     {
+      "qid": "Q132181782",
+      "name": "Flag of San Salvador",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "San Salvador",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q132861085",
       "name": "Q132861085",
       "count": 1,
@@ -37916,6 +39310,70 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q133050415",
+      "name": "flag of Sacramento",
+      "count": 0,
+      "file": "Flag of Sacramento, California.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Sacramento",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q133163324",
+      "name": "Flag of Omaha, Nebraska",
+      "count": 0,
+      "file": "Flag of Omaha, Nebraska.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Omaha, Nebraska",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q134438567",
+      "name": "Flag of Asunción",
+      "count": 0,
+      "file": "Flag of Asunción.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Asunción",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q134809165",
+      "name": "flag of Managua",
+      "count": 0,
+      "file": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Managua",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q135472669",
@@ -37970,6 +39428,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q136436975",
+      "name": "flag of Helsinki",
+      "count": 0,
+      "file": "Flag of Helsinki (long).svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Helsinki",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q137163818",
@@ -38129,6 +39603,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q138776329",
+      "name": "Flag of Christchurch",
+      "count": 0,
+      "file": "Flag of Christchurch.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Christchurch",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q139033938",
