@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-28T23:39:50.592Z",
+  "generated": "2026-05-29T00:05:55.957Z",
   "palette": [
     "red",
     "white",
@@ -30490,6 +30490,28 @@
       ]
     },
     {
+      "qid": "Q96695294",
+      "name": "lesbian pride flag",
+      "count": 0,
+      "file": "Lesbian pride flag 2018.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "white",
+        "orange"
+      ],
+      "wdColors": [
+        "white",
+        "orange"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "lesbian pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q96740421",
       "name": "flag of the Dan Beard Council",
       "count": 1,
@@ -32817,6 +32839,32 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "disability flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q105652911",
+      "name": "gay men's pride flag",
+      "count": 0,
+      "file": "New Gay Pride Flag.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "blue",
+        "green",
+        "white",
+        "purple"
+      ],
+      "wdColors": [
+        "blue",
+        "green",
+        "white",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "gay men's pride flag",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": []
