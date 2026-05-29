@@ -39,6 +39,13 @@ function openDetail(flag) {
   document.getElementById("detail-img").src = fullSrc(flag);
   document.getElementById("detail-img").alt = `Flag of ${flag.name}`;
   document.getElementById("detail-name").textContent = flag.name;
+  const desc = document.getElementById("detail-description");
+  if (flag.description) {
+    desc.textContent = flag.description;
+    desc.hidden = false;
+  } else {
+    desc.hidden = true;
+  }
   document.getElementById("detail-tags").textContent = tagsFor(flag);
   const wd = document.getElementById("detail-wikidata");
   wd.href = `https://www.wikidata.org/wiki/${flag.qid}`;

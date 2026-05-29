@@ -227,12 +227,29 @@ main { padding: 12px 12px 24px; }
   position: relative;
   border-color: #f59e0b;
 }
+.tile-withheld {
+  position: relative;
+  border-color: #64748b;
+}
 .badge-warn {
   position: absolute;
   top: 4px;
   right: 4px;
   background: #f59e0b;
   color: #1f2937;
+  font-size: 0.625rem;
+  font-weight: 600;
+  padding: 2px 6px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+  pointer-events: none;
+}
+.badge-withheld {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  background: #64748b;
+  color: #f8fafc;
   font-size: 0.625rem;
   font-weight: 600;
   padding: 2px 6px;
@@ -277,6 +294,12 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   margin: 0 0 6px;
   white-space: pre;
   overflow-x: auto;
+}
+.detail-description {
+  margin: 0 0 12px;
+  font-size: 0.875rem;
+  color: var(--fg);
+  line-height: 1.45;
 }
 .detail-source {
   margin: 0 0 12px;

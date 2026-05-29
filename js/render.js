@@ -109,11 +109,13 @@ export function updateFilterSummary(active) {
 }
 
 export function thumbSrc(flag) {
-  return flag.file ? `flags/thumb/${flag.qid}.png` : "flags/placeholder.svg";
+  if (flag.imageWithheld || !flag.file) return "flags/placeholder.svg";
+  return `flags/thumb/${flag.qid}.png`;
 }
 
 export function fullSrc(flag) {
-  return flag.file ? `flags/full/${flag.qid}.png` : "flags/placeholder.svg";
+  if (flag.imageWithheld || !flag.file) return "flags/placeholder.svg";
+  return `flags/full/${flag.qid}.png`;
 }
 
 export function renderGrid(flags, onTileClick) {
@@ -128,7 +130,8 @@ export function renderGrid(flags, onTileClick) {
     btn.className = "tile";
     btn.dataset.qid = f.qid;
     btn.setAttribute("aria-label", `${f.name} — copy OSM tags`);
-    if (!f.file) btn.classList.add("tile-warn");
+    if (f.imageWithheld) btn.classList.add("tile-withheld");
+    else if (!f.file) btn.classList.add("tile-warn");
 
     const img = document.createElement("img");
     img.loading = "lazy";
@@ -147,7 +150,13 @@ export function renderGrid(flags, onTileClick) {
 
     btn.append(img, name, count);
 
-    if (!f.file) {
+    if (f.imageWithheld) {
+      const badge = document.createElement("span");
+      badge.className = "badge-withheld";
+      badge.textContent = "image withheld";
+      badge.title = "The flag design is copyrighted or otherwise can't be redistributed. Use the description and tags below.";
+      btn.appendChild(badge);
+    } else if (!f.file) {
       const badge = document.createElement("span");
       badge.className = "badge-warn";
       badge.textContent = "no image";

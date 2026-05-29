@@ -662,7 +662,9 @@ function shrinkGuard(prev, newCount) {
 // the --allow-mass-prune flag — catches a corrupted flags.json from emptying
 // the entire thumbnail cache.
 async function pruneOrphanThumbs(flags) {
-  const live = new Set(flags.map((f) => f.qid));
+  // Withheld images shouldn't keep cached thumbnails — treat them as not-live
+  // so any prior-cached PNG gets cleaned up.
+  const live = new Set(flags.filter((f) => !f.imageWithheld).map((f) => f.qid));
   const orphans = [];
   let cached = 0;
   for (const dir of [THUMB_DIR, FULL_DIR]) {
@@ -702,7 +704,7 @@ async function downloadAllThumbs(flags) {
   await mkdir(THUMB_DIR, { recursive: true });
   await mkdir(FULL_DIR, { recursive: true });
 
-  const withImage = flags.filter((f) => f.file);
+  const withImage = flags.filter((f) => f.file && !f.imageWithheld);
   const failures = [];
   let done = 0;
   const total = withImage.length * 2;
