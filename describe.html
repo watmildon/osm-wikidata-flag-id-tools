@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Describe — OSM Flag Identifier</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .describe-main { padding: 16px; max-width: 1100px; margin: 0 auto; }
+    .describe-row {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 16px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .describe-row:first-child { padding-top: 0; }
+    .describe-row .img-cell { display: flex; align-items: flex-start; justify-content: center; }
+    .describe-row img {
+      max-width: 240px;
+      max-height: 160px;
+      width: auto;
+      height: auto;
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+    }
+    .describe-row .meta {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      min-width: 0;
+    }
+    .describe-row .meta h3 {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+    .describe-row .meta .line {
+      color: var(--muted);
+      font-size: 0.875rem;
+    }
+    .describe-row .meta .line a { color: var(--accent); }
+    .describe-row textarea {
+      width: 100%;
+      min-height: 70px;
+      font-family: inherit;
+      font-size: 0.9375rem;
+      line-height: 1.4;
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg-elev);
+      color: var(--fg);
+      resize: vertical;
+    }
+    .describe-row textarea:focus {
+      outline: 2px solid var(--accent);
+      outline-offset: -1px;
+    }
+    .describe-row.edited textarea {
+      border-color: var(--accent);
+      background: color-mix(in srgb, var(--accent) 6%, var(--bg-elev));
+    }
+    .describe-row .edited-tag {
+      display: none;
+      font-size: 0.75rem;
+      color: var(--accent);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .describe-row.edited .edited-tag { display: inline; }
+    .describe-toolbar {
+      position: sticky;
+      bottom: 0;
+      background: var(--bg-elev);
+      border-top: 1px solid var(--border);
+      padding: 12px 16px;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      z-index: 5;
+      flex-wrap: wrap;
+    }
+    .describe-toolbar .spacer { flex: 1; }
+    .describe-toolbar button {
+      min-height: 36px;
+      padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg-elev);
+      color: var(--fg);
+      cursor: pointer;
+      font-size: 0.9375rem;
+    }
+    .describe-toolbar button.primary {
+      background: var(--accent);
+      color: var(--accent-fg);
+      border-color: var(--accent);
+    }
+    .describe-toolbar button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    #status { font-size: 0.875rem; color: var(--muted); }
+    .placeholder-cell {
+      color: var(--muted);
+      font-size: 0.8125rem;
+      font-style: italic;
+    }
+    @media (max-width: 640px) {
+      .describe-row {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1>Describe flags</h1>
+    <p class="hint">
+      Top 100 flags needing visual descriptions.
+      Lead with the visual (colors, layout, charges) &mdash; no history or adoption dates.
+      &middot; <a href="index.html">back to identifier</a>
+      &middot; <a href="curate.html">curate</a>
+    </p>
+  </header>
+
+  <main class="describe-main" id="rows"></main>
+
+  <div class="describe-toolbar">
+    <span id="status">Loading…</span>
+    <span class="spacer"></span>
+    <button id="reset-btn" type="button">Discard edits</button>
+    <button id="export-btn" type="button" class="primary" disabled>Export edits</button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module">
+    const STORAGE_KEY = "osm-flag-describe-pending";
+
+    function loadPending() {
+      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "{}"); }
+      catch { return {}; }
+    }
+    function savePending(p) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
+    }
+
+    function showToast(msg, ms = 1800) {
+      const t = document.getElementById("toast");
+      t.textContent = msg;
+      t.classList.add("show");
+      setTimeout(() => t.classList.remove("show"), ms);
+    }
+
+    async function fetchJson(url) {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
+      return res.json();
+    }
+
+    function thumbSrc(qid, file) {
+      return file ? `flags/full/${qid}.png` : "flags/placeholder.svg";
+    }
+
+    function effectiveDescription(flag, overrides) {
+      const ov = overrides[flag.qid];
+      if (ov && typeof ov.description === "string") return ov.description;
+      return flag.description ?? "";
+    }
+
+    function render(queue, byQid, overrides, pending) {
+      const root = document.getElementById("rows");
+      root.innerHTML = "";
+      const frag = document.createDocumentFragment();
+
+      for (const item of queue) {
+        const flag = byQid.get(item.qid);
+        if (!flag) continue; // queue item not in flags.json — skip silently
+
+        const row = document.createElement("section");
+        row.className = "describe-row";
+        row.dataset.qid = flag.qid;
+
+        const imgCell = document.createElement("div");
+        imgCell.className = "img-cell";
+        const img = document.createElement("img");
+        img.loading = "lazy";
+        img.decoding = "async";
+        img.alt = `Flag of ${flag.name}`;
+        img.src = thumbSrc(flag.qid, flag.file);
+        imgCell.appendChild(img);
+
+        const meta = document.createElement("div");
+        meta.className = "meta";
+
+        const h = document.createElement("h3");
+        const editedTag = document.createElement("span");
+        editedTag.className = "edited-tag";
+        editedTag.textContent = "Edited ";
+        h.appendChild(editedTag);
+        h.appendChild(document.createTextNode(flag.flagName ?? flag.name));
+        meta.appendChild(h);
+
+        const line = document.createElement("p");
+        line.className = "line";
+        const a = document.createElement("a");
+        a.href = `https://www.wikidata.org/wiki/${flag.qid}`;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = flag.qid;
+        line.appendChild(a);
+        line.append(` · ${(flag.count ?? 0).toLocaleString()} OSM uses`);
+        if (flag.flagType) line.append(` · ${flag.flagType}`);
+        meta.appendChild(line);
+
+        const ta = document.createElement("textarea");
+        ta.spellcheck = true;
+        ta.placeholder = "Lead with the visual: colors, layout, charges. E.g. \"A red field with a centered white star.\"";
+        const baseline = effectiveDescription(flag, overrides);
+        const pendingVal = pending[flag.qid];
+        ta.value = pendingVal != null ? pendingVal : baseline;
+        ta.dataset.baseline = baseline;
+        if (pendingVal != null && pendingVal !== baseline) row.classList.add("edited");
+
+        ta.addEventListener("input", () => {
+          const val = ta.value;
+          const base = ta.dataset.baseline ?? "";
+          if (val === base) {
+            delete pending[flag.qid];
+            row.classList.remove("edited");
+          } else {
+            pending[flag.qid] = val;
+            row.classList.add("edited");
+          }
+          savePending(pending);
+          updateToolbar(pending);
+        });
+
+        meta.appendChild(ta);
+        row.appendChild(imgCell);
+        row.appendChild(meta);
+        frag.appendChild(row);
+      }
+
+      root.appendChild(frag);
+      updateToolbar(pending);
+    }
+
+    function updateToolbar(pending) {
+      const n = Object.keys(pending).length;
+      const status = document.getElementById("status");
+      const exportBtn = document.getElementById("export-btn");
+      const resetBtn = document.getElementById("reset-btn");
+      status.textContent = n === 0 ? "No edits" : `${n} edit${n === 1 ? "" : "s"} pending`;
+      exportBtn.disabled = n === 0;
+      resetBtn.disabled = n === 0;
+    }
+
+    function downloadJson(filename, obj) {
+      const blob = new Blob([JSON.stringify(obj, null, 2) + "\n"], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
+    function qidNum(qid) {
+      return parseInt(qid.slice(1), 10);
+    }
+
+    async function main() {
+      let queue, flagsData, overrides;
+      try {
+        [queue, flagsData, overrides] = await Promise.all([
+          fetchJson("data/describe-queue.json"),
+          fetchJson("data/flags.json"),
+          fetchJson("data/overrides.json"),
+        ]);
+      } catch (err) {
+        document.getElementById("status").textContent = `Failed to load: ${err.message}`;
+        return;
+      }
+
+      const byQid = new Map(flagsData.flags.map(f => [f.qid, f]));
+      const pending = loadPending();
+
+      render(queue, byQid, overrides, pending);
+
+      document.getElementById("export-btn").addEventListener("click", () => {
+        // Build an overrides.json-shaped snippet, sorted by QID numerically.
+        const out = {};
+        const sortedQids = Object.keys(pending).sort((a, b) => qidNum(a) - qidNum(b));
+        for (const qid of sortedQids) {
+          out[qid] = { description: pending[qid] };
+        }
+        downloadJson("describe-edits.json", out);
+        showToast(`Exported ${sortedQids.length} edit${sortedQids.length === 1 ? "" : "s"}`);
+      });
+
+      document.getElementById("reset-btn").addEventListener("click", () => {
+        if (!confirm("Discard all pending edits?")) return;
+        localStorage.removeItem(STORAGE_KEY);
+        location.reload();
+      });
+    }
+
+    main();
+  </script>
+</body>
+</html>
