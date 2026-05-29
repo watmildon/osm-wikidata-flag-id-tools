@@ -1,15 +1,15 @@
-name: Nightly build
+name: Scheduled build
 
 on:
   schedule:
-    - cron: "0 7 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
 concurrency:
-  group: nightly-build
+  group: scheduled-build
   cancel-in-progress: false
 
 jobs:
@@ -79,7 +79,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           flags_count=$(node -e "console.log(JSON.parse(require('fs').readFileSync('data/flags.json','utf8')).flags.length)")
-          subject="nightly build: ${flags_count} flags"
+          subject="scheduled build: ${flags_count} flags"
           if [ "$BUILD_EXIT" = "3" ]; then
             subject="$subject (partial)"
           fi
