@@ -1,13 +1,6 @@
 {
-  "generated": "2026-05-29T00:05:52.996Z",
+  "generated": "2026-05-29T09:50:11.191Z",
   "suggestions": [
-    {
-      "bad_qid": "Q16",
-      "bad_name": "Canada",
-      "count": 1,
-      "suggested_qid": "Q80110",
-      "suggested_name": "flag of Canada"
-    },
     {
       "bad_qid": "Q29",
       "bad_name": "Spain",
@@ -18,16 +11,9 @@
     {
       "bad_qid": "Q30",
       "bad_name": "United States",
-      "count": 5,
+      "count": 2,
       "suggested_qid": "Q42537",
       "suggested_name": "flag of the United States of America"
-    },
-    {
-      "bad_qid": "Q31",
-      "bad_name": "Belgium",
-      "count": 1,
-      "suggested_qid": "Q12990",
-      "suggested_name": "flag of Belgium"
     },
     {
       "bad_qid": "Q32",
@@ -37,25 +23,11 @@
       "suggested_name": "flag of Luxembourg"
     },
     {
-      "bad_qid": "Q35",
-      "bad_name": "Denmark",
-      "count": 1,
-      "suggested_qid": "Q60149",
-      "suggested_name": "flag of Denmark"
-    },
-    {
       "bad_qid": "Q38",
       "bad_name": "Italy",
       "count": 2,
       "suggested_qid": "Q42876",
       "suggested_name": "flag of Italy"
-    },
-    {
-      "bad_qid": "Q142",
-      "bad_name": "France",
-      "count": 1,
-      "suggested_qid": "Q43192",
-      "suggested_name": "flag of France"
     },
     {
       "bad_qid": "Q175",
@@ -72,13 +44,6 @@
       "suggested_name": "Flag of Wallonia"
     },
     {
-      "bad_qid": "Q233",
-      "bad_name": "Malta",
-      "count": 1,
-      "suggested_qid": "Q131469",
-      "suggested_name": "flag of Malta"
-    },
-    {
       "bad_qid": "Q414",
       "bad_name": "Argentina",
       "count": 1,
@@ -88,7 +53,7 @@
     {
       "bad_qid": "Q458",
       "bad_name": "European Union",
-      "count": 6,
+      "count": 5,
       "suggested_qid": "Q122482",
       "suggested_name": "flag of Europe"
     },
@@ -98,20 +63,6 @@
       "count": 3,
       "suggested_qid": "Q645967",
       "suggested_name": "flag of Hamburg"
-    },
-    {
-      "bad_qid": "Q1129",
-      "bad_name": "Hainaut",
-      "count": 1,
-      "suggested_qid": "Q2263781",
-      "suggested_name": "flag of Hainaut"
-    },
-    {
-      "bad_qid": "Q1199",
-      "bad_name": "Hesse",
-      "count": 1,
-      "suggested_qid": "Q2661050",
-      "suggested_name": "flag of Hesse"
     },
     {
       "bad_qid": "Q1250",
@@ -177,11 +128,11 @@
       "suggested_name": "flag of the League of Arab States"
     },
     {
-      "bad_qid": "Q8333",
-      "bad_name": "Federal Bureau of Investigation",
+      "bad_qid": "Q7768",
+      "bad_name": "Association of Southeast Asian Nations",
       "count": 1,
-      "suggested_qid": "Q113518795",
-      "suggested_name": "flag of the Federal Bureau of Investigation"
+      "suggested_qid": "Q783490",
+      "suggested_name": "flag of the Association of Southeast Asian Nations"
     },
     {
       "bad_qid": "Q9337",
@@ -254,13 +205,6 @@
       "suggested_name": "flag of Sarawak"
     },
     {
-      "bad_qid": "Q179029",
-      "bad_name": "Sabah",
-      "count": 1,
-      "suggested_qid": "Q11721817",
-      "suggested_name": "flag of Sabah"
-    },
-    {
       "bad_qid": "Q185221",
       "bad_name": "Malacca",
       "count": 1,
@@ -287,13 +231,6 @@
       "count": 1,
       "suggested_qid": "Q2600445",
       "suggested_name": "flag of Perak"
-    },
-    {
-      "bad_qid": "Q189710",
-      "bad_name": "Selangor",
-      "count": 2,
-      "suggested_qid": "Q116211178",
-      "suggested_name": "flag of Selangor"
     },
     {
       "bad_qid": "Q190353",
@@ -343,13 +280,6 @@
       "count": 1,
       "suggested_qid": "Q77795712",
       "suggested_name": "Hilton flag"
-    },
-    {
-      "bad_qid": "Q608427",
-      "bad_name": "United States Department of the Interior",
-      "count": 1,
-      "suggested_qid": "Q96963401",
-      "suggested_name": "flag of the United States Department of the Interior"
     },
     {
       "bad_qid": "Q614274",
@@ -432,7 +362,7 @@
     {
       "bad_qid": "Q55874812",
       "bad_name": "(Wikidata redirect)",
-      "count": 41,
+      "count": 9,
       "suggested_qid": "Q1788743",
       "suggested_name": "Confederate Battle Flag",
       "reason": "redirect"
@@ -451,22 +381,6 @@
       "count": 6,
       "suggested_qid": "Q30909105",
       "suggested_name": "Flag of Lyon",
-      "reason": "redirect"
-    },
-    {
-      "bad_qid": "Q115517071",
-      "bad_name": "(Wikidata redirect)",
-      "count": 1,
-      "suggested_qid": "Q2540917",
-      "suggested_name": "Flag of the German-speaking Community of Belgium",
-      "reason": "redirect"
-    },
-    {
-      "bad_qid": "Q134691499",
-      "bad_name": "(Wikidata redirect)",
-      "count": 1,
-      "suggested_qid": "Q2797535",
-      "suggested_name": "Flag  of South Tyrol",
       "reason": "redirect"
     }
   ]

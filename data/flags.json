@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T00:05:55.957Z",
+  "generated": "2026-05-29T09:50:13.570Z",
   "palette": [
     "red",
     "white",
@@ -43,37 +43,6 @@
   ],
   "flags": [
     {
-      "qid": "Q16",
-      "name": "Canada",
-      "count": 1,
-      "file": "Canada - Location Map (2013) - CAN - UNOCHA.svg",
-      "isFlagEntity": false,
-      "colors": [
-        "black",
-        "blue",
-        "gray",
-        "lightblue",
-        "red",
-        "white"
-      ],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Canada",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": [],
-      "svgColors": [
-        "black",
-        "blue",
-        "gray",
-        "lightblue",
-        "red",
-        "white"
-      ]
-    },
-    {
       "qid": "Q29",
       "name": "Spain",
       "count": 1,
@@ -105,7 +74,7 @@
     {
       "qid": "Q30",
       "name": "United States",
-      "count": 5,
+      "count": 2,
       "file": "United States - Location Map (2013) - USA - UNOCHA.svg",
       "isFlagEntity": false,
       "colors": [
@@ -132,22 +101,6 @@
       ]
     },
     {
-      "qid": "Q31",
-      "name": "Belgium",
-      "count": 1,
-      "file": "Belgique - Bruxelles - Grand-Place - Côté nord-est.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Belgium",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q32",
       "name": "Luxembourg",
       "count": 1,
@@ -158,22 +111,6 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Luxembourg",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q35",
-      "name": "Denmark",
-      "count": 1,
-      "file": "Dannebrog.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Denmark",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
@@ -244,22 +181,6 @@
       "wdColors": []
     },
     {
-      "qid": "Q142",
-      "name": "France",
-      "count": 1,
-      "file": "Paris from the Arc de Triomphe, 17 October 2019.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "France",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q175",
       "name": "São Paulo",
       "count": 1,
@@ -286,22 +207,6 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Walloon Region",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q233",
-      "name": "Malta",
-      "count": 1,
-      "file": "Malta, 2010 - panoramio - Bengt Nyman (23).jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Malta",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
@@ -374,7 +279,7 @@
     {
       "qid": "Q458",
       "name": "European Union",
-      "count": 6,
+      "count": 5,
       "file": null,
       "isFlagEntity": false,
       "colors": [],
@@ -398,38 +303,6 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Hamburg",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q1129",
-      "name": "Hainaut",
-      "count": 1,
-      "file": "0 Mons - Panorama vu du Mont Héribus (1).JPG",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Hainaut",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q1199",
-      "name": "Hesse",
-      "count": 1,
-      "file": "Stadtschloss der Herzöge von Nassau, Wiesbaden.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Hesse",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
@@ -760,22 +633,6 @@
       "wdColors": []
     },
     {
-      "qid": "Q8333",
-      "name": "Federal Bureau of Investigation",
-      "count": 1,
-      "file": null,
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Federal Bureau of Investigation",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q9337",
       "name": "Flemish Region",
       "count": 1,
@@ -890,7 +747,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 172,
+      "count": 173,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1158,7 +1015,7 @@
     {
       "qid": "Q18993",
       "name": "flag of Virginia",
-      "count": 63,
+      "count": 72,
       "file": "Flag of Virginia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1203,7 +1060,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 274,
+      "count": 275,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1375,7 +1232,7 @@
         "subject:wikidata": "Q1454"
       },
       "aliases": [],
-      "description": "The flag of the state of North Carolina, often referred to as the North Carolina flag, N.C. flag, or North Star, is the state flag of the U.S. state of North Carolina.",
+      "description": "A vertical blue band at the hoist bearing a white five-pointed star between the gold letters \"N\" and \"C\", with two gold scrolls reading \"MAY 20th 1775\" above and \"APRIL 12th 1776\" below. The fly is divided into a red horizontal band (top) and a white horizontal band (bottom).",
       "wdColors": [
         "yellow",
         "blue",
@@ -1410,7 +1267,7 @@
         "subject:wikidata": "Q824"
       },
       "aliases": [],
-      "description": "The flag of Oregon is a two-sided flag in navy blue and gold with an optional gold fringe. On the front is the escutcheon from the state seal, and on the reverse is a gold figure of a beaver, the state animal. Oregon is the only U.S. state to feature different designs on either side of its flag.",
+      "description": "A navy blue field with gold lettering \"STATE OF OREGON\" arched above the state escutcheon (showing a covered wagon, mountains, an ocean sunset, ships, and a banner reading \"THE UNION\") encircled by 33 gold stars. The date \"1859\" appears in gold below.",
       "wdColors": [],
       "svgColors": [
         "purple",
@@ -1688,7 +1545,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with the Union Jack in the upper hoist canton, and in the fly the Southern Cross (five white stars: four seven-pointed and one smaller five-pointed) below a white crown of Saint Edward."
     },
     {
       "qid": "Q34599",
@@ -1923,7 +1781,7 @@
     {
       "qid": "Q41673",
       "name": "flag of India",
-      "count": 119,
+      "count": 121,
       "file": "Flag of India.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1995,7 +1853,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 15634,
+      "count": 15663,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2117,7 +1975,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2340,
+      "count": 2342,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2215,7 +2073,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "Three equal horizontal bands of green (top), white, and black, with three red five-pointed stars in a row centered on the white band."
     },
     {
       "qid": "Q46008",
@@ -2249,7 +2108,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "Three horizontal bands of red (top), blue (double width), and red, with a large white disc centered on the blue band."
     },
     {
       "qid": "Q46585",
@@ -2888,7 +2748,7 @@
     {
       "qid": "Q60149",
       "name": "flag of Denmark",
-      "count": 814,
+      "count": 815,
       "file": "Flag of Denmark.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3073,7 +2933,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 966,
+      "count": 969,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3256,12 +3116,13 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical bands of blue (hoist), yellow, and red, with the national coat of arms centered on the yellow band."
     },
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 330,
+      "count": 331,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3760,7 +3621,8 @@
         "blue",
         "green",
         "yellow"
-      ]
+      ],
+      "description": "Three equal horizontal bands of green (top), yellow, and blue."
     },
     {
       "qid": "Q102184",
@@ -3831,7 +3693,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "Three equal horizontal bands of red (top), white, and black, with a green isosceles triangle on the hoist side."
     },
     {
       "qid": "Q102392",
@@ -4029,7 +3892,8 @@
         "green",
         "orange",
         "white"
-      ]
+      ],
+      "description": "Three equal vertical bands of orange (hoist), white, and green."
     },
     {
       "qid": "Q102977",
@@ -4168,7 +4032,7 @@
         "country": "MW"
       },
       "aliases": [],
-      "description": "The national flag of Malawi (Chichewa: mbendera ya Malaŵi; Chitumbuka: mbendela ya Malaŵi) was officially adopted on 6 July 1964 when the colony of Nyasaland became independent from British rule and renamed itself Malawi.",
+      "description": "Three equal horizontal bands of black (top), red, and green, with a red rising sun (semicircle with rays) centered on the black band.",
       "wdColors": [
         "green",
         "red",
@@ -4210,7 +4074,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "Two equal horizontal bands of red (top) and green in the fly, with a vertical white band along the hoist."
     },
     {
       "qid": "Q103037",
@@ -4248,7 +4113,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Six equal horizontal bands of black, yellow, red, black, yellow, and red (repeating), with a white disc centered bearing a grey crowned crane facing the hoist."
     },
     {
       "qid": "Q103046",
@@ -4317,7 +4183,8 @@
         "darkblue",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of blue (top) and red, with a gold crown in the upper hoist on the blue band."
     },
     {
       "qid": "Q103064",
@@ -4454,7 +4321,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A red field bordered with six yellow five-pointed stars (three top, three bottom). Inside the border, two yellow triangles meet at the center (one from the top, one from the bottom) and two green triangles meet at the center (one from each side), forming an X pattern. A red disc with a yellow five-pointed star sits at the center. A yellow nutmeg (Grenada's national symbol) is in the hoist-side green triangle."
     },
     {
       "qid": "Q103447",
@@ -4485,7 +4353,8 @@
       "svgColors": [
         "gray",
         "yellow"
-      ]
+      ],
+      "description": "Three equal horizontal bands of aquamarine (top), yellow, and aquamarine, with a black equilateral triangle pointing toward the fly from the hoist."
     },
     {
       "qid": "Q104319",
@@ -4731,7 +4600,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A red field in the upper half bearing a yellow rising sun above a yellow frigatebird in flight. The lower half has six wavy horizontal stripes alternating white and blue (three white, three blue)."
     },
     {
       "qid": "Q119605",
@@ -4866,7 +4736,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1605,
+      "count": 1607,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4974,7 +4844,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of red (top) and black, with a centered yellow emblem of a half cog wheel, machete, and five-pointed star."
     },
     {
       "qid": "Q126622",
@@ -5329,7 +5200,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A vertical green band at the hoist, with two horizontal bands in the fly: yellow (top) and red."
     },
     {
       "qid": "Q130449",
@@ -5384,7 +5256,7 @@
         "country": "EG"
       },
       "aliases": [],
-      "description": "The national flag of Egypt is a tricolour consisting of the three equal horizontal red, white, and black bands of the Arab Liberation Flag that dates back to the 1952 Egyptian Revolution. The flag bears Egypt's national emblem, the Egyptian eagle of Saladin, centred in the white band.",
+      "description": "Three equal horizontal bands of red (top), white, and black, with the gold Eagle of Saladin centered on the white band.",
       "wdColors": [
         "yellow",
         "red",
@@ -5425,7 +5297,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A vertical white band at the hoist with five triangular serrations separating it from the red field that covers the rest of the flag."
     },
     {
       "qid": "Q130774",
@@ -5620,7 +5493,7 @@
     {
       "qid": "Q131469",
       "name": "flag of Malta",
-      "count": 26,
+      "count": 27,
       "file": "Flag of Malta.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5671,7 +5544,7 @@
         "country": "KZ"
       },
       "aliases": [],
-      "description": "The State Flag of the Republic of Kazakhstan was adopted on 4 June 1992, designed by Shaken Niyazbekov, and replacing the Soviet-era flag.",
+      "description": "A sky blue field with a centered yellow sun of 32 rays above a yellow soaring steppe eagle. A vertical yellow band of traditional Kazakh ornamental pattern runs along the hoist.",
       "wdColors": [
         "yellow",
         "lightblue"
@@ -5859,7 +5732,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of red (top) and green, with a yellow five-pointed star centered."
     },
     {
       "qid": "Q134521",
@@ -6037,7 +5911,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical bands of green (hoist), yellow, and red, with a green five-pointed star centered on the yellow band."
     },
     {
       "qid": "Q135014",
@@ -6100,7 +5975,7 @@
         "country": "AG"
       },
       "aliases": [],
-      "description": "The national flag of Antigua and Barbuda was adopted on 27 February 1967 to mark the achievement of self-government. A competition to design the flag was held in which more than 600 local people entered. The winning design was put forth by nationally well-known artist and sculptor Sir Reginald Samuel.",
+      "description": "A red field with an inverted isosceles triangle in the center, divided horizontally into three bands of black (top), blue, and white. A yellow rising sun with rays sits centered on the black band.",
       "wdColors": [
         "yellow",
         "blue",
@@ -6147,7 +6022,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Four red horizontal stripes on a yellow field (alternating yellow and red), with a blue equilateral triangle at the hoist bearing a white five-pointed star (the independentist Estelada variant)."
     },
     {
       "qid": "Q148199",
@@ -6176,7 +6052,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "Two equal horizontal bands of white (top) and green."
     },
     {
       "qid": "Q148807",
@@ -6275,7 +6152,8 @@
         "orange",
         "pink",
         "yellow"
-      ]
+      ],
+      "description": "At the hoist, two equal vertical bands of green and orange on a yellow border. The fly bears a maroon (dark red) rectangle on a yellow border containing a gold passant lion holding a sword, with a gold bo leaf in each corner of the maroon field."
     },
     {
       "qid": "Q156564",
@@ -6368,7 +6246,8 @@
       "svgColors": [
         "blue",
         "white"
-      ]
+      ],
+      "description": "A light blue field with a single large white five-pointed star centered."
     },
     {
       "qid": "Q159736",
@@ -6444,7 +6323,7 @@
         "country": "MC"
       },
       "aliases": [],
-      "description": "The national flag of Monaco (French: drapeau national de Monaco) has two equal horizontal bands, of red (top) and white (bottom), both of which have been the heraldic colours of the House of Grimaldi since at least 1339. The present bicolour design was adopted on 4 April 1881, under Charles III. The official proportion is 4:5, near-square.",
+      "description": "Two equal horizontal bands of red (top) and white.",
       "wdColors": [
         "red",
         "white"
@@ -6516,7 +6395,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical bands of green (hoist), red, and yellow, with a yellow five-pointed star centered on the red band."
     },
     {
       "qid": "Q159986",
@@ -6554,7 +6434,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Seven equal horizontal stripes of green, yellow, red, black, red, yellow, and green, with a white triangle at the hoist bearing a red five-pointed star and a yellow Zimbabwe Bird (soapstone bird sculpture) over the star."
     },
     {
       "qid": "Q160124",
@@ -6640,7 +6521,8 @@
       "svgColors": [
         "lightblue",
         "white"
-      ]
+      ],
+      "description": "A light blue field with a horizontal black band edged in white, centered."
     },
     {
       "qid": "Q160250",
@@ -6690,7 +6572,7 @@
     {
       "qid": "Q160255",
       "name": "flag of Peru",
-      "count": 36,
+      "count": 35,
       "file": "Flag of Peru.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6721,7 +6603,7 @@
     {
       "qid": "Q160260",
       "name": "Flag of New Zealand",
-      "count": 154,
+      "count": 155,
       "file": "Flag of New Zealand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6840,7 +6722,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Three equal horizontal bands of red (top), yellow, and green, with a black five-pointed star centered on the yellow band."
     },
     {
       "qid": "Q160861",
@@ -6935,7 +6818,7 @@
         "country": "SA"
       },
       "aliases": [],
-      "description": "The national flag of Saudi Arabia is a green background with Arabic inscription and a sword in white. The inscription is the Islamic creed, or shahada: \"There is no deity but God; Muhammad is the Messenger of God\". The current design has been used by the government of Saudi Arabia since 15 March 1973.",
+      "description": "A solid green field bearing a white Arabic inscription (the Islamic shahada) above a white horizontal sword pointing toward the hoist.",
       "wdColors": [
         "green",
         "white"
@@ -7151,7 +7034,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A red field with a wide yellow border, bearing the country's coat of arms centered: a gold double-headed eagle holding a scepter and orb, with a blue shield on its chest showing a gold lion passant on a green field."
     },
     {
       "qid": "Q162999",
@@ -7186,7 +7070,8 @@
         "blue",
         "red",
         "white"
-      ]
+      ],
+      "description": "Three horizontal bands of blue (top), red (middle, double width), and blue, with a white silhouette of the three-towered Angkor Wat temple centered on the red band."
     },
     {
       "qid": "Q163008",
@@ -7278,7 +7163,7 @@
         "country": "MM"
       },
       "aliases": [],
-      "description": "The State Flag of the Republic of the Union of Myanmar is a horizontal rectangular tricolor flag of saffron, green, and red with a large white five-pointed star in the center. The current flag was adopted on 21 October 2010.",
+      "description": "Three equal horizontal bands of yellow (top), green, and red, with a large white five-pointed star centered.",
       "wdColors": [
         "yellow",
         "green",
@@ -7396,7 +7281,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A red field bearing a yellow hammer crossed with a yellow sickle in the upper hoist, surmounted by a small yellow five-pointed star outlined in yellow."
     },
     {
       "qid": "Q165247",
@@ -7638,7 +7524,8 @@
         "blue",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical bands of red (hoist), blue, and red, with a yellow Soyombo emblem (a stylized column of symbols including flame, sun, moon, yin-yang and geometric shapes) centered on the hoist red band."
     },
     {
       "qid": "Q165641",
@@ -7771,7 +7658,7 @@
         "country": "NA"
       },
       "aliases": [],
-      "description": "The flag of Namibia consists of a red bend edged in two white bands with a blue upper triangle charged with a 12-rays yellow sun and green lower triangle. \n\nThe flag was adopted on 21 March 1990 upon independence from South Africa. During apartheid rule, it used the South African orange-white-blue tricolor.",
+      "description": "A red diagonal band edged in two white stripes runs from the lower hoist to the upper fly, dividing the flag into a blue upper triangle bearing a yellow sun with 12 rays and a green lower triangle.",
       "wdColors": [
         "blue",
         "green",
@@ -7810,7 +7697,7 @@
         "country": "BN"
       },
       "aliases": [],
-      "description": "The flag of Brunei was originally a solid yellow background until 1906 when it added two diagonal white and black striped lines to the flags. By then, Brunei was already a British protectorate since 1888. The modern flag (including the red emblem) was adopted in 1959 along with their new constitution.",
+      "description": "A yellow field with two diagonal stripes of white (above) and black running from the upper hoist to the lower fly, with the red Bruneian coat of arms (a winged emblem with hands, a crescent, and a banner of Arabic script) centered.",
       "wdColors": [
         "yellow",
         "red",
@@ -7928,7 +7815,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical bands of blue (hoist), yellow, and red, with the Moldovan coat of arms centered on the yellow band: a stylized aurochs head with a star between its horns, flanked by a rose and crescent, on a yellow and blue shield held by an eagle."
     },
     {
       "qid": "Q168711",
@@ -7963,7 +7851,8 @@
         "brown",
         "darkblue",
         "white"
-      ]
+      ],
+      "description": "A blue field bearing a gold silhouette of the territory of Kosovo centered, with a row of six white five-pointed stars arching above."
     },
     {
       "qid": "Q168912",
@@ -8477,7 +8366,8 @@
         "green",
         "lightblue",
         "yellow"
-      ]
+      ],
+      "description": "Three horizontal bands of light blue (top, double width), yellow, and green, with a yellow sun with 24 rays in the upper fly of the blue band."
     },
     {
       "qid": "Q170554",
@@ -8628,7 +8518,8 @@
         "green",
         "lightblue",
         "yellow"
-      ]
+      ],
+      "description": "Divided by a yellow-edged black diagonal band running from the lower hoist to the upper fly. The upper triangle is green; the lower triangle is light blue."
     },
     {
       "qid": "Q170814",
@@ -8664,7 +8555,8 @@
         "green",
         "orange",
         "red"
-      ]
+      ],
+      "description": "A green field with three vertical stripes of red, black, and orange in the lower fly, and an orange African fish eagle in flight above the stripes."
     },
     {
       "qid": "Q171103",
@@ -8729,7 +8621,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field bearing a red Saint George's cross (vertical and horizontal red bands) extending to the edges."
     },
     {
       "qid": "Q171124",
@@ -9019,12 +8912,13 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Four equal horizontal bands of red (top), dark blue, yellow, and green."
     },
     {
       "qid": "Q173554",
       "name": "flag of El Salvador",
-      "count": 27,
+      "count": 28,
       "file": "Flag of El Salvador.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9106,7 +9000,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with the Union Jack in the upper hoist canton, and in the fly the Cayman Islands coat of arms: a shield with three green stars on blue and white wavy bars below a red chief bearing an English lion, surmounted by a green sea turtle on a knight's helm, with a yellow pineapple, and a white banner reading \"HE HATH FOUNDED IT UPON THE SEAS\"."
     },
     {
       "qid": "Q178179",
@@ -9152,22 +9047,6 @@
         "white",
         "yellow"
       ]
-    },
-    {
-      "qid": "Q179029",
-      "name": "Sabah",
-      "count": 1,
-      "file": "Kota Kinabalu City Mosque 0019.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Sabah",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
     },
     {
       "qid": "Q179383",
@@ -9247,7 +9126,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Five horizontal bands of green, white, red (double width), white, and green, with a large yellow five-pointed star centered on the red band."
     },
     {
       "qid": "Q181120",
@@ -9286,7 +9166,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Divided diagonally from the lower hoist to the upper fly by a black band edged in yellow. The upper triangle is green; the lower triangle is red. Two white five-pointed stars are placed on the black band."
     },
     {
       "qid": "Q181642",
@@ -9363,7 +9244,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A light blue field with the Union Jack in the upper hoist canton and the Fijian shield centered in the fly: a white shield with a red Saint George's cross above and quartered scenes (lion, palm tree, dove, sugar cane, coconut) below."
     },
     {
       "qid": "Q182773",
@@ -9426,7 +9308,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three horizontal bands of black (top), red, and green, separated by thin white stripes, with a blue equilateral triangle at the hoist bearing a yellow five-pointed star."
     },
     {
       "qid": "Q183032",
@@ -9579,7 +9462,8 @@
         "darkblue",
         "green",
         "yellow"
-      ]
+      ],
+      "description": "Three vertical bands of blue (hoist), yellow (double width), and green, with three green diamond shapes arranged as a V-pattern centered on the yellow band."
     },
     {
       "qid": "Q184596",
@@ -9613,7 +9497,8 @@
         "lightblue",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A light blue field with a centered isosceles triangle made of three overlapping triangles: a white outer triangle, a black middle triangle, and a yellow inner triangle at the base."
     },
     {
       "qid": "Q184599",
@@ -9786,7 +9671,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "A horizontal bicolor of white (top) and green, with a large red passant dragon centered."
     },
     {
       "qid": "Q185944",
@@ -9868,7 +9754,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field with a centered stylized white five-petaled bauhinia (orchid tree) flower, each petal bearing a small red five-pointed star."
     },
     {
       "qid": "Q188072",
@@ -10148,22 +10035,6 @@
       "wdColors": []
     },
     {
-      "qid": "Q189710",
-      "name": "Selangor",
-      "count": 2,
-      "file": "Ampang Jaya (2017).jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Selangor",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q189946",
       "name": "Western European Union",
       "count": 1,
@@ -10318,7 +10189,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "Three equal horizontal bands of black (top), white, and green, with a red equilateral triangle at the hoist."
     },
     {
       "qid": "Q192119",
@@ -10645,7 +10517,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field bearing a yellow American eagle holding a green olive branch and three blue arrows, with a shield of red and white stripes and a blue chief on its chest. The blue letters \"V\" and \"I\" flank the eagle."
     },
     {
       "qid": "Q205047",
@@ -10869,7 +10742,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "Eight horizontal stripes alternating white, red, and blue (from top), with the Union Jack in the upper hoist canton."
     },
     {
       "qid": "Q221881",
@@ -11166,7 +11040,7 @@
         "subject:wikidata": "Q1537"
       },
       "aliases": [],
-      "description": "The flag of the U.S. state of Wisconsin was first adopted in 1863, and was modified in 1979. It is a blue flag charged with the state coat of arms of Wisconsin.",
+      "description": "A blue field with the state coat of arms centered (a shield supported by a sailor and a miner, with a small \"FORWARD\" banner above), the word \"WISCONSIN\" arched above in white, and the date \"1848\" in white below.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -11211,7 +11085,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical bands of blue (hoist), yellow (double width), and blue, with a red and white Cross of Christ (Order of Christ cross) centered on the yellow band."
     },
     {
       "qid": "Q242502",
@@ -11249,7 +11124,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A dark blue field with a white isosceles triangle pointing toward the hoist, edged in red. In the fly half of the triangle's base sits an American bald eagle clutching a war club and a fly-whisk."
     },
     {
       "qid": "Q243007",
@@ -11327,7 +11203,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with the Union Jack in the upper hoist canton, and in the fly the Montserrat coat of arms: a shield bearing a green-robed woman (Erin) embracing a Christian cross and holding a golden harp on a black ground."
     },
     {
       "qid": "Q248102",
@@ -12064,7 +11941,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with the Union Jack in the upper hoist canton, and in the fly a white disc bearing a light blue Maltese cross surmounted by a red royal crown."
     },
     {
       "qid": "Q386961",
@@ -12108,12 +11986,13 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field with the Guadeloupe regional logo centered: a stylized green-and-blue square with a yellow sun and a dark blue arc above, with black text \"REGION GUADELOUPE\" below the logo, and a small yellow rectangle at the bottom."
     },
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 58,
+      "count": 59,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12625,7 +12504,7 @@
         "subject:wikidata": "Q1214"
       },
       "aliases": [],
-      "description": "The flag of the U.S. state of Wyoming was adopted on January 31, 1917. Its design consists of a blue field bordered by white and red, with a white silhouette of an American bison in the center, bearing the state seal rendered in blue on its side.",
+      "description": "A blue field with a wide white border framed by an outer red border, bearing a white silhouette of an American bison facing the hoist with the state seal rendered in blue centered on its flank.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -12917,7 +12796,24 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A red field with the Union Jack in the upper hoist canton and the Manitoba provincial shield in the fly: a white shield with a red Saint George's cross above and a brown bison standing on a rock below."
+    },
+    {
+      "qid": "Q512951",
+      "name": "Lake County",
+      "count": 1,
+      "file": "Lake County Courthouse ( Crown Point ).jpg",
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Lake County",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q520966",
@@ -12948,7 +12844,8 @@
         "darkblue",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field bearing a gold anchor centered, with a blue ribbon below reading \"HOPE\" in gold letters. Thirteen gold five-pointed stars are arranged in a circle around the anchor."
     },
     {
       "qid": "Q524824",
@@ -12988,7 +12885,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field bearing the Vermont coat of arms centered: a pine tree with mountains in the background, flanked by a cow and sheaves of wheat, framed by green pine boughs, with a red deer head crest above and a red banner reading \"FREEDOM AND UNITY VERMONT\" below."
     },
     {
       "qid": "Q525410",
@@ -13127,6 +13025,22 @@
       ]
     },
     {
+      "qid": "Q549140",
+      "name": "Merrillville",
+      "count": 1,
+      "file": "Merrillville Skyline with US 30.jpg",
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Merrillville",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q549181",
       "name": "MOL Group",
       "count": 2,
@@ -13173,7 +13087,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of red (top) and white, with the Brandenburg coat of arms centered: a white shield bearing a red eagle with yellow beak, talons, and clover-stem decorations on its wings."
     },
     {
       "qid": "Q562077",
@@ -13229,7 +13144,8 @@
         "lightblue",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A medium blue field with a large gold sun centered, containing the state seal in blue and white. \"SOUTH DAKOTA\" arches above and \"THE MOUNT RUSHMORE STATE\" arches below in gold."
     },
     {
       "qid": "Q569763",
@@ -13697,7 +13613,7 @@
         "subject:wikidata": "Q5748"
       },
       "aliases": [],
-      "description": "The flag of Castilla–La Mancha is one of the representative symbols of the Autonomous Community of Castilla–La Mancha, in Spain, defined by its Statute of Autonomy.",
+      "description": "Divided vertically into two equal halves: a red field at the hoist bearing a yellow three-towered castle, and a plain white field in the fly.",
       "wdColors": [
         "blue",
         "red",
@@ -13749,7 +13665,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field bearing a blue saltire extending to the edges, with the royal arms of Scotland (a gold shield with a red lion rampant) centered."
     },
     {
       "qid": "Q605195",
@@ -13804,22 +13721,6 @@
         "green",
         "white"
       ]
-    },
-    {
-      "qid": "Q608427",
-      "name": "United States Department of the Interior",
-      "count": 1,
-      "file": "Department of the Interior by Matthew Bisanz.JPG",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "United States Department of the Interior",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
     },
     {
       "qid": "Q613220",
@@ -13896,7 +13797,7 @@
         "subject:wikidata": "Q231"
       },
       "aliases": [],
-      "description": "The flag of Wallonia is used by the Walloon Region and French Community of Belgium. Designed between 1912 and 1913, it depicts a red \"bold rooster\" (coq hardi) on a yellow field. Originally associated with the Walloon Movement, the flag has subsequently become an apolitical symbol of regional identity. It has enjoyed official status since 1975.",
+      "description": "A yellow field bearing a stylized red rooster (the \"coq hardi\") facing the hoist with one leg raised.",
       "wdColors": [
         "yellow",
         "red"
@@ -13957,7 +13858,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Alternating vertical stripes of yellow and red."
     },
     {
       "qid": "Q619799",
@@ -14047,7 +13949,7 @@
     {
       "qid": "Q632491",
       "name": "flag of Arizona",
-      "count": 48,
+      "count": 49,
       "file": "Flag of Arizona.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14116,7 +14018,8 @@
         "orange",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with the state seal centered (a circular scene of mountains, the Great Falls of the Missouri River, plow, miner's tools, and the motto \"ORO Y PLATA\" on a banner). The word \"MONTANA\" is in yellow above the seal."
     },
     {
       "qid": "Q636719",
@@ -14295,7 +14198,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Five horizontal bands of blue (top), white, yellow (narrow), white, and red."
     },
     {
       "qid": "Q669141",
@@ -14317,7 +14221,7 @@
     {
       "qid": "Q673117",
       "name": "flag of Indiana",
-      "count": 76,
+      "count": 81,
       "file": "Flag of Indiana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14334,7 +14238,7 @@
         "subject:wikidata": "Q1415"
       },
       "aliases": [],
-      "description": "The flag of Indiana was adopted on May 31, 1917, as the third official flag of the U.S. state of Indiana. Designed by Paul Hadley, it has remained unchanged since its adoption, with specifications standardized in 1955. Prior to 1955, it was referred to as the state's official banner.",
+      "description": "A blue field with a gold flaming torch centered, surrounded by a ring of thirteen gold five-pointed stars with five additional stars in an inner arc. A nineteenth larger star sits above the torch flame, with the word \"INDIANA\" arched above it in gold.",
       "wdColors": [
         "yellow"
       ],
@@ -14496,7 +14400,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of yellow (top) and black, with the Saxony-Anhalt coat of arms centered: a shield divided into a black and gold bendy field with a green crancelin (curved wreath) above and a red battlement with a black bear below."
     },
     {
       "qid": "Q687222",
@@ -14611,7 +14516,8 @@
       "svgColors": [
         "green",
         "white"
-      ]
+      ],
+      "description": "Two equal horizontal bands of white (top) and green."
     },
     {
       "qid": "Q693717",
@@ -14714,7 +14620,7 @@
         "subject:wikidata": "Q1194"
       },
       "aliases": [],
-      "description": "The flag of Schleswig-Holstein is a horizontal tricolour of blue, white, and red.\n\nSchleswig-Holstein is one of the 16 states of Germany, comprising most of the historical duchy of Holstein and the southern part of the former Duchy of Schleswig. The flag is often mistaken for the flag of the Netherlands being upside down.",
+      "description": "Three equal horizontal bands of blue (top), white, and red, with the Schleswig-Holstein coat of arms centered: a shield divided vertically, the hoist half yellow bearing two blue lions, the fly half red bearing a white nettle leaf.",
       "wdColors": [],
       "svgColors": [
         "blue",
@@ -14786,7 +14692,7 @@
         "subject:wikidata": "Q980"
       },
       "aliases": [],
-      "description": "There are two official flags of Bavaria: the striped type and the lozenge type, both of which are white and blue. Both flags are historically associated with the royal Bavarian Wittelsbach family, which ruled Bavaria from 1180 to 1918.",
+      "description": "A field of white and blue lozenges (diamond shapes) in an angled diagonal pattern.",
       "wdColors": [
         "white",
         "lightblue"
@@ -14953,7 +14859,7 @@
     {
       "qid": "Q736760",
       "name": "flag of Idaho",
-      "count": 6,
+      "count": 7,
       "file": "Flag of Idaho.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15165,7 +15071,8 @@
         "green",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A cobalt blue field with the state seal in the upper hoist quarter: a silver wreath of sagebrush with two yellow scrolls reading \"BATTLE BORN\" above and \"NEVADA\" below, around a white five-pointed star."
     },
     {
       "qid": "Q752566",
@@ -15203,7 +15110,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A colonial blue field with a buff-colored diamond centered bearing the Delaware coat of arms (a farmer and a militiaman flanking a shield with cattle, wheat, and a ship, with a banner reading \"LIBERTY AND INDEPENDENCE\"). Below the diamond the date \"DECEMBER 7, 1787\" appears in white."
     },
     {
       "qid": "Q752569",
@@ -15398,7 +15306,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three equal horizontal bands of green (top), white, and black, with the Extremadura coat of arms centered on the white band: a quartered shield with a yellow lion, a castle, a holm oak, and blue waves, surmounted by a gold royal crown."
     },
     {
       "qid": "Q763669",
@@ -15453,7 +15362,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Four equal horizontal red bands on a yellow field (alternating yellow and red stripes), with the Aragonese coat of arms centered: a quartered shield bearing the cross of Sobrarbe, the cross of Iñigo Arista, two Moors' heads, and the Aragon pales, surmounted by a gold crown."
     },
     {
       "qid": "Q775652",
@@ -15494,7 +15404,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field with the Union Jack in the upper hoist canton, and in the fly the Southern Cross constellation (five seven-pointed blue stars) plus a larger Commonwealth Star (a seven-pointed blue star) in the lower hoist."
     },
     {
       "qid": "Q783421",
@@ -15516,7 +15427,7 @@
       "qid": "Q783490",
       "name": "flag of the Association of Southeast Asian Nations",
       "count": 37,
-      "file": null,
+      "file": "Infobox ASEAN flag.svg",
       "isFlagEntity": true,
       "colors": [],
       "icons": [],
@@ -15685,7 +15596,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "Three horizontal bands of red (top, narrow), white (wide), and red (bottom, narrow), with a black bear rampant facing the hoist slightly left of center on the white band."
     },
     {
       "qid": "Q821112",
@@ -15921,7 +15833,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field with a navy blue border, bearing the state coat of arms centered: two men flanking a rock inscribed \"June 20, 1863\" with mining and farming tools, surrounded by a wreath of green rhododendron with red flowers, beneath a red banner reading \"STATE OF WEST VIRGINIA\" and above a red ribbon reading \"MONTANI SEMPER LIBERI\"."
     },
     {
       "qid": "Q846153",
@@ -16149,7 +16062,6 @@
       "isFlagEntity": false,
       "colors": [
         "blue",
-        "darkblue",
         "red",
         "white"
       ],
@@ -16284,7 +16196,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Four red horizontal stripes on a yellow field in the fly, with a vertical blue band at the hoist decorated with yellow acanthus-leaf ornament. A vertical column of red, white, and green roundels and small enameled charges runs between the blue band and the striped field."
     },
     {
       "qid": "Q938601",
@@ -16651,7 +16564,8 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "description": "A white field bearing the USACE castle emblem centered: a red diamond outlined in grey containing a stylized red castle (three towers and a connecting wall) over a small white globe."
     },
     {
       "qid": "Q1053372",
@@ -16780,7 +16694,8 @@
         "lightblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field with four wavy ribbons (two red, two blue) radiating from a central blue and white four-pointed star with an orange disc, toward the four corners. Above the star sits the symbol of Ashur (a winged sun disc above a male figure)."
     },
     {
       "qid": "Q1084035",
@@ -16855,7 +16770,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of white (top) and red, with the Cantabria coat of arms centered: a red shield bearing the white Torre de Hércules tower beside a blue sailing ship on blue waves, surmounted by a gold royal crown, with a grey medallion below."
     },
     {
       "qid": "Q1091279",
@@ -17212,7 +17128,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A square field made of a 7x7 grid of colored squares, with the rainbow colors (white, yellow, orange, red, purple, blue, green) arranged diagonally to form stripes running from the upper hoist to the lower fly."
     },
     {
       "qid": "Q1205753",
@@ -17672,7 +17589,8 @@
         "darkblue",
         "orange",
         "white"
-      ]
+      ],
+      "description": "Three equal vertical bands of blue (hoist), white, and orange, with the New York City seal in blue centered on the white band."
     },
     {
       "qid": "Q1418784",
@@ -17803,7 +17721,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A crimson red field with seven white five-pointed stars arranged in two rows (four above, three below) representing the seven historical districts of Madrid."
     },
     {
       "qid": "Q1426529",
@@ -18008,7 +17927,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 693,
+      "count": 698,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -18088,7 +18007,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field bearing a red Saint George's cross (vertical and horizontal red bands), with the Union Jack in the upper hoist canton."
     },
     {
       "qid": "Q1530761",
@@ -18283,7 +18203,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A square red field bearing a blue saltire (diagonal cross) edged in white, with thirteen white five-pointed stars arranged along the saltire's arms."
     },
     {
       "qid": "Q1814260",
@@ -18383,7 +18304,8 @@
       "svgColors": [
         "green",
         "white"
-      ]
+      ],
+      "description": "Three equal horizontal bands of green (top), white, and green."
     },
     {
       "qid": "Q1861098",
@@ -18437,7 +18359,7 @@
         "subject:wikidata": "Q6877935"
       },
       "aliases": [],
-      "description": "The flag of Baden displayed a combination of yellow and red, the heraldic colours of the former German state of Baden.",
+      "description": "Three horizontal bands of yellow (top), red (middle, narrower), and yellow.",
       "wdColors": [
         "yellow",
         "red"
@@ -18501,7 +18423,8 @@
       "wdColors": [],
       "svgColors": [
         "white"
-      ]
+      ],
+      "description": "A black field bearing a white cross extending to the edges."
     },
     {
       "qid": "Q1922718",
@@ -18657,7 +18580,7 @@
       "flagTypeSample": 11,
       "extraTags": {},
       "aliases": [],
-      "description": "The flag of the Pomeranian Voivodeship is a yellow rectangle with a left-faced black griffin placed in the centre. It was designed by Wawrzyniec Samp, and adapted on 25 March 2002.",
+      "description": "A yellow field bearing a black griffin rampant facing the hoist, with a red tongue.",
       "wdColors": [
         "yellow",
         "red",
@@ -18714,7 +18637,8 @@
       "svgColors": [
         "green",
         "red"
-      ]
+      ],
+      "description": "Three equal horizontal bands of red (top), black, and green."
     },
     {
       "qid": "Q2036744",
@@ -18768,7 +18692,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A yellow field bearing a red diagonal band (bend) running from the upper hoist to the lower fly, charged with three white alerions (heraldic eagles without beaks or feet)."
     },
     {
       "qid": "Q2062018",
@@ -19165,7 +19090,8 @@
         "orange",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field bearing the San Luis coat of arms centered: a green laurel wreath surrounding an oval scene of red mountains under a yellow sun with a blue sky, with two deer on a green plain below."
     },
     {
       "qid": "Q2157375",
@@ -19231,7 +19157,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A field bordered with a decorative copper and gold pattern, bearing a central panel with a winged golden lion of Saint Mark (gold body, white wings, halo) on a dark blue ground holding an open book. A vertical column of seven small coats of arms (one for each Venetian province) runs along the fly."
     },
     {
       "qid": "Q2191442",
@@ -19401,7 +19328,7 @@
     {
       "qid": "Q2263781",
       "name": "flag of Hainaut",
-      "count": 1,
+      "count": 2,
       "file": "Flag of Hainaut.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19557,7 +19484,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "Four equal horizontal bands of white (top), red, white, and red, with a blue square in the upper hoist (the height of two stripes) bearing a white isosceles triangle pointing upward."
     },
     {
       "qid": "Q2284326",
@@ -19774,7 +19702,8 @@
       "svgColors": [
         "purple",
         "white"
-      ]
+      ],
+      "description": "A solid dark blue field with a single large white five-pointed star centered."
     },
     {
       "qid": "Q2361840",
@@ -20023,7 +19952,8 @@
         "lightblue",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of light blue (top) and green, separated by a thin red line, with a centered emblem of a yellow sun (with a red bottom half) inside a blue gear, surrounded by a green laurel wreath."
     },
     {
       "qid": "Q2408951",
@@ -20160,7 +20090,8 @@
         "purple",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field bearing a stylized white-edged grey iris flower centered, with two yellow petals at the base."
     },
     {
       "qid": "Q2478084",
@@ -20240,7 +20171,7 @@
         "yellow"
       ],
       "icons": [],
-      "shape": "pennant",
+      "shape": "rectangle",
       "flagType": "religious",
       "flagName": "Nishan Sahib",
       "flagTypeSample": 17,
@@ -20419,7 +20350,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A field of alternating white and blue wavy horizontal bands, with the Zeeland coat of arms centered: a yellow shield bearing a red lion rising from blue and white waves, surmounted by a crowned crest."
     },
     {
       "qid": "Q2586101",
@@ -20454,7 +20386,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field divided by a green Nordic-style cross (shifted toward the hoist), with the upper hoist quarter red, upper fly blue, lower hoist blue, and lower fly red."
     },
     {
       "qid": "Q2586114",
@@ -20548,7 +20481,8 @@
         "black",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A yellow field bearing a red lion rampant outlined in black, facing the hoist."
     },
     {
       "qid": "Q2620742",
@@ -20747,7 +20681,7 @@
     {
       "qid": "Q2661050",
       "name": "flag of Hesse",
-      "count": 4,
+      "count": 5,
       "file": "Flag of Hesse.svg",
       "isFlagEntity": true,
       "colors": [
@@ -20768,7 +20702,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "Two equal horizontal bands of red (top) and white."
     },
     {
       "qid": "Q2666488",
@@ -21065,7 +21000,8 @@
         "darkblue",
         "green",
         "white"
-      ]
+      ],
+      "description": "A blue field at the hoist and a green field in the fly, with a stylized white \"O\" (Ottawa monogram) overlapping the boundary between the two colors."
     },
     {
       "qid": "Q2790848",
@@ -21747,7 +21683,7 @@
         "subject:wikidata": "Q18677875"
       },
       "aliases": [],
-      "description": "The flag and coat of arms of Normandy are symbols of Normandy.",
+      "description": "A red field bearing two gold lions stacked one above the other, both facing the hoist, with blue claws and tongues.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -22210,7 +22146,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field bearing a red Saint George's cross (vertical and horizontal red bands) extending to the edges."
     },
     {
       "qid": "Q3744856",
@@ -22856,7 +22793,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Thirteen alternating horizontal stripes of red and white (seven red, six white), with a blue canton in the upper hoist bearing thirteen white seven-pointed stars arranged in an arc around the large white numerals \"76\"."
     },
     {
       "qid": "Q4898324",
@@ -22881,7 +22819,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "Thirteen alternating horizontal stripes of red and white (seven red, six white), with a blue canton in the upper hoist bearing thirteen white five-pointed stars arranged in a circle."
     },
     {
       "qid": "Q4957300",
@@ -23045,7 +22984,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field with the city coat of arms in the hoist (a shield divided into a blue field with a white fleur-de-lis and a white field with a castle, beneath a Union Jack chief), and \"Baton Rouge\" in large flowing white script across the fly."
     },
     {
       "qid": "Q5456702",
@@ -23173,7 +23113,8 @@
       "svgColors": [
         "darkblue",
         "white"
-      ]
+      ],
+      "description": "A dark blue field with a large white sunburst (white lightning-bolt rays and stars radiating outward) centered, surrounding a small circular blue-and-white scene of a ship and waterfront."
     },
     {
       "qid": "Q5456717",
@@ -23210,7 +23151,7 @@
       "flagTypeSample": 5,
       "extraTags": {},
       "aliases": [],
-      "description": "The flag of Cincinnati, Ohio, was selected in an 1896 contest. It was formally adopted on June 15, 1940.",
+      "description": "A white field crossed by four wavy blue horizontal stripes representing the Ohio River. Centered is a large red letter \"C\" enclosing a white disc bearing the Latin motto \"JUNCTA JUVANT\" above a balance scale, a sword, and a caduceus. A small red mural crown sits above the C.",
       "wdColors": [
         "blue",
         "red",
@@ -23515,7 +23456,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three horizontal bands of red (narrow, top), white (wide, middle), and dark blue (narrow, bottom), with three gold fleurs-de-lis arranged in a triangle (two above, one below) centered on the white band."
     },
     {
       "qid": "Q5456797",
@@ -23612,7 +23554,7 @@
     {
       "qid": "Q5456811",
       "name": "flag of Richmond",
-      "count": 0,
+      "count": 1,
       "file": null,
       "isFlagEntity": true,
       "colors": [],
@@ -23890,7 +23832,7 @@
         "subject:wikidata": "Q11218"
       },
       "aliases": [],
-      "description": "The flag of the United States Marine Corps is the flag used to represent the U.S. Marine Corps, as well as its subsidiary units and formations.",
+      "description": "A scarlet red field bearing the Marine Corps emblem centered: a gold eagle perched on a globe (showing the Western Hemisphere with black-and-white horizontal stripes across the Americas), with a gold fouled anchor crossed behind. A white scroll in the eagle's beak reads \"SEMPER FIDELIS\". Below the emblem, a white ribbon banner reads \"UNITED STATES MARINE CORPS\" in red letters.",
       "wdColors": [],
       "svgColors": [
         "gray",
@@ -24333,7 +24275,7 @@
       "qid": "Q6363891",
       "name": "Kannada flag",
       "count": 9,
-      "file": null,
+      "file": "Flag of the Kannada people.svg",
       "isFlagEntity": true,
       "colors": [],
       "icons": [],
@@ -24615,7 +24557,6 @@
       "file": "Blue Star Service Banner.svg",
       "isFlagEntity": false,
       "colors": [
-        "darkblue",
         "red",
         "white"
       ],
@@ -24881,7 +24822,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field with two horizontal blue stripes (one wide, one narrow) in the lower half, and the city coat of arms in the upper hoist (a red shield bearing a white sword crossed with two yellow fish)."
     },
     {
       "qid": "Q9260409",
@@ -25161,7 +25103,7 @@
     {
       "qid": "Q11721817",
       "name": "flag of Sabah",
-      "count": 7,
+      "count": 8,
       "file": "Flag of Sabah.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25271,7 +25213,8 @@
         "darkblue",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A red field bearing a single gold lion facing the hoist, with blue claws and tongue."
     },
     {
       "qid": "Q12143496",
@@ -25346,7 +25289,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A flag divided into three sections: the larger left section bears alternating vertical yellow and red stripes (the Provençal pattern); the upper right is a yellow field with a blue dolphin (the Dauphiné dolphin); the lower right is a white field with a red eagle on three blue waves (the arms of Nice)."
     },
     {
       "qid": "Q12329785",
@@ -25401,7 +25345,8 @@
       "svgColors": [
         "blue",
         "white"
-      ]
+      ],
+      "description": "A blue field bearing a white cross extending to the edges (the horizontal arm slightly above center)."
     },
     {
       "qid": "Q12409908",
@@ -25575,7 +25520,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Five horizontal bands of red, blue, yellow, green, and white (top to bottom)."
     },
     {
       "qid": "Q14515866",
@@ -25667,7 +25613,8 @@
       "svgColors": [
         "green",
         "white"
-      ]
+      ],
+      "description": "Two equal horizontal bands of green (top) and white."
     },
     {
       "qid": "Q14956815",
@@ -25829,7 +25776,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field bearing a white Greek cross extending to the edges of the flag."
     },
     {
       "qid": "Q16630951",
@@ -26210,7 +26158,7 @@
       "flagTypeSample": 11,
       "extraTags": {},
       "aliases": [],
-      "description": "The Greek Orthodox churches in the diaspora under the Ecumenical Patriarchate use a black double-headed eagle in a yellow field as their flag or emblem.",
+      "description": "A yellow field bearing a black double-headed eagle holding a sword and a globus cruciger, surmounted by a crown.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -26516,7 +26464,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A vertical bicolor of red (hoist) and white, with the Vendée heraldic emblem (a stylized red and white double Sacred Heart topped by a small crown and cross) centered across the boundary."
     },
     {
       "qid": "Q30905330",
@@ -26678,7 +26627,7 @@
       "qid": "Q39075174",
       "name": "flag of Occitania",
       "count": 9,
-      "file": null,
+      "file": "Flag of Occitania.svg",
       "isFlagEntity": true,
       "colors": [
         "yellow",
@@ -26752,7 +26701,8 @@
         "lightblue",
         "pink",
         "white"
-      ]
+      ],
+      "description": "Five equal horizontal bands of light blue, pink, white, pink, and light blue."
     },
     {
       "qid": "Q48790336",
@@ -27306,7 +27256,8 @@
         "black",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A yellow field bearing three red Latin (cross-bottony style) crosses arranged in a triangle (two above, one below), with a stylized red Christogram or chair-like emblem centered."
     },
     {
       "qid": "Q62931620",
@@ -27333,7 +27284,8 @@
         "blue",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A blue field bearing a centered scalloped yellow circular border around a black ring of small yellow stars, enclosing a large red letter \"H\" with a small crown above it."
     },
     {
       "qid": "Q62932637",
@@ -27385,7 +27337,8 @@
         "white",
         "black",
         "yellow"
-      ]
+      ],
+      "description": "Two horizontal bands of white (top) and red, with \"SANTA CLARA\" in red letters arched above a centered round seal of the City of Santa Clara, California showing the Mission and \"The Mission City\" inscription."
     },
     {
       "qid": "Q63199275",
@@ -27439,7 +27392,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "Three horizontal bands of red (top), white, and red, with a blue canton in the upper hoist bearing a circle of white five-pointed stars."
     },
     {
       "qid": "Q63874150",
@@ -27529,7 +27483,8 @@
       "svgColors": [
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field with small gold fleurs-de-lis in regular rows."
     },
     {
       "qid": "Q63874568",
@@ -27660,7 +27615,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field with a large red Greek cross centered."
     },
     {
       "qid": "Q64300176",
@@ -27691,7 +27647,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A solid red field with the McDonald's golden \"M\" arches logo centered."
     },
     {
       "qid": "Q64764865",
@@ -28472,7 +28429,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field divided by a black cross, with the city arms in the upper hoist quarter (red field with a yellow caravel on green waves) and four ermine spots arranged in each of the other three quarters."
     },
     {
       "qid": "Q66382818",
@@ -28704,7 +28662,8 @@
         "red",
         "white",
         "blue"
-      ]
+      ],
+      "description": "A white field with the Hampton Inn & Suites logo centered: an elongated blue hexagonal badge edged in red, with the words \"Hampton Inn & Suites\" in white script and \"by HILTON\" in white below."
     },
     {
       "qid": "Q70143393",
@@ -28743,9 +28702,9 @@
       "file": "Flag of Ethiopia (1975–1987).svg",
       "isFlagEntity": false,
       "colors": [
+        "yellow",
         "green",
-        "red",
-        "yellow"
+        "red"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -28772,10 +28731,10 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "yellow",
-        "blue",
         "red",
-        "white"
+        "white",
+        "yellow",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -28785,10 +28744,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "yellow",
-        "blue",
         "red",
-        "white"
+        "white",
+        "yellow",
+        "blue"
       ]
     },
     {
@@ -29012,7 +28971,7 @@
         "subject:wikidata": "Q806550"
       },
       "aliases": [],
-      "description": "The flag of the Bangsamoro Autonomous Region in Muslim Mindanao, an autonomous region of the Philippines, is a horizontal tricolor of green, white and red with the yellow seven-pointed star surrounded by a yellow crescent both centered on the white band and a white kris centered on the red band. It was adopted in 2019.",
+      "description": "Three equal horizontal bands of green (top), white, and red, with a yellow crescent and seven-pointed star centered on the white band and a white kris (wavy-bladed sword) centered on the red band.",
       "wdColors": [],
       "svgColors": [
         "green",
@@ -29868,11 +29827,11 @@
       "file": "Vietnamese Five Colors Flag.svg",
       "isFlagEntity": false,
       "colors": [
+        "yellow",
         "blue",
         "green",
         "red",
-        "white",
-        "yellow"
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -30100,7 +30059,7 @@
         "subject:wikidata": "Q55088961"
       },
       "aliases": [],
-      "description": "The flag of the United States Space Force is the flag used to represent the U.S. Space Force and its subsidiary units and formations. It was officially unveiled on May 15, 2020.",
+      "description": "A black field with the Space Force delta emblem centered (a silver upward-pointing arrowhead in front of a blue globe with white grid lines, an orbit ring, and a white polestar above), surrounded by small white stars. Below, in white, \"UNITED STATES SPACE FORCE\" with \"MMXIX\" beneath.",
       "wdColors": [
         "white",
         "black"
@@ -30487,7 +30446,8 @@
         "black",
         "blue",
         "white"
-      ]
+      ],
+      "description": "A black and white US flag (stars on black field at the hoist, alternating black and white horizontal stripes) with one stripe replaced by a horizontal blue line."
     },
     {
       "qid": "Q96695294",
@@ -30851,7 +30811,7 @@
     {
       "qid": "Q96963401",
       "name": "flag of the United States Department of the Interior",
-      "count": 2,
+      "count": 3,
       "file": "Flag of the United States Department of the Interior.svg",
       "isFlagEntity": true,
       "colors": [
@@ -32160,7 +32120,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field with the Union Jack in the upper hoist canton, and in the fly the Southern Cross constellation (four red five-pointed stars in a cross pattern plus a smaller fifth)."
     },
     {
       "qid": "Q98055852",
@@ -32329,7 +32290,8 @@
         "green",
         "lightblue",
         "white"
-      ]
+      ],
+      "description": "A light blue field bearing two diagonal stripes (one blue, one white, edged in white) running from the upper fly to the lower hoist, with a green triangular wedge in the lower hoist corner."
     },
     {
       "qid": "Q98400624",
@@ -32405,7 +32367,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A solid red field with the white wordmark \"REWE\" centered in large bold letters."
     },
     {
       "qid": "Q98609686",
@@ -32437,7 +32400,8 @@
         "black",
         "red",
         "white"
-      ]
+      ],
+      "description": "Divided into three horizontal sections (black top, white middle, red bottom) by a stylized white koru (spiral fern frond) that curls from the hoist into the fly."
     },
     {
       "qid": "Q98691769",
@@ -32562,7 +32526,8 @@
         "green",
         "white",
         "lightblue"
-      ]
+      ],
+      "description": "A white field bearing a green circle (with a light blue inner area) containing a green tree silhouette, and the words \"TREE CITY USA\" in green below."
     },
     {
       "qid": "Q100711829",
@@ -32801,7 +32766,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A flag quartered into four equal sections: the upper hoist is white with red crenellations and gold fleurs-de-lis on white; the upper fly is blue with a gold lion rampant on a field of gold billets; the lower hoist is blue with a gold lion rampant on a field of gold billets; the lower fly bears the diagonal blue and yellow bands of Burgundy edged in red."
     },
     {
       "qid": "Q105339315",
@@ -33020,7 +32986,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field divided by a white Scandinavian-style cross (shifted toward the hoist), with a white fish (rouget) charge in the upper hoist quarter."
     },
     {
       "qid": "Q106498475",
@@ -33139,7 +33106,8 @@
       "svgColors": [
         "blue",
         "white"
-      ]
+      ],
+      "description": "A white field with 6 alternating white (top) and blue horizontal blue stripes of equal width."
     },
     {
       "qid": "Q106498510",
@@ -33165,7 +33133,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A vertical bicolor of red (hoist) and yellow."
     },
     {
       "qid": "Q106498596",
@@ -33244,7 +33213,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A vertical bicolor of yellow (hoist) and red."
     },
     {
       "qid": "Q106498696",
@@ -33296,7 +33266,8 @@
       "svgColors": [
         "blue",
         "yellow"
-      ]
+      ],
+      "description": "A blue field bearing a yellow Nordic-style cross (with the vertical arm shifted toward the hoist)."
     },
     {
       "qid": "Q106500855",
@@ -33348,7 +33319,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "Three equal vertical bands of red (hoist), white, and red."
     },
     {
       "qid": "Q106501377",
@@ -33438,7 +33410,8 @@
       "svgColors": [
         "green",
         "red"
-      ]
+      ],
+      "description": "A horizontal bicolor of red (top) and green."
     },
     {
       "qid": "Q106501527",
@@ -33483,7 +33456,8 @@
       "flagTypeSample": 18,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "description": "A red field bearing the city's coat of arms centered: a blue shield with gold fleurs-de-lis surmounted by a crowned crest. Text on a banner below."
     },
     {
       "qid": "Q106501843",
@@ -34536,9 +34510,9 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "white",
         "black",
-        "purple"
+        "purple",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -34548,9 +34522,9 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "white",
         "black",
-        "purple"
+        "purple",
+        "white"
       ]
     },
     {
@@ -34908,7 +34882,8 @@
         "blue",
         "red",
         "white"
-      ]
+      ],
+      "description": "Alternating vertical stripes of red and yellow, with a centered blue shield bearing a smaller white shield with red roundels. There is a yellow key and a yellow cross above and below the inner shield respectively."
     },
     {
       "qid": "Q112964146",
@@ -35063,7 +35038,8 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "description": "A green field with \"CANCALE\" arched in white letters at the top, and the city coat of arms centered: a light blue shield bearing a white sailing boat between yellow shellfish (oysters), with a black eagle in the upper hoist and surmounted by a gold crown."
     },
     {
       "qid": "Q112964507",
@@ -36363,9 +36339,9 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
+        "white",
         "yellow",
-        "blue",
-        "white"
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -36375,9 +36351,9 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
+        "white",
         "yellow",
-        "blue",
-        "white"
+        "blue"
       ]
     },
     {
@@ -36884,7 +36860,8 @@
       "wdColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field with a large white sixteen-pointed star (the Star of the Magi) centered."
     },
     {
       "qid": "Q113362138",
@@ -37188,7 +37165,8 @@
       "wdColors": [
         "yellow",
         "red"
-      ]
+      ],
+      "description": "Diagonal stripes of yellow and red running from upper hoist to lower fly."
     },
     {
       "qid": "Q113445621",
@@ -37578,7 +37556,7 @@
     {
       "qid": "Q113518795",
       "name": "flag of the Federal Bureau of Investigation",
-      "count": 4,
+      "count": 5,
       "file": "Flag of the Federal Bureau of Investigation.svg",
       "isFlagEntity": true,
       "colors": [
@@ -37613,7 +37591,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field bearing the FBI seal centered: a circular gold rope border around a blue disc inscribed \"DEPARTMENT OF JUSTICE / FEDERAL BUREAU OF INVESTIGATION\" with thirteen gold stars and the FBI shield (red, white, and blue stripes with laurel branches) in the center."
     },
     {
       "qid": "Q113519122",
@@ -38246,7 +38225,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field bearing a red Saint George's cross. The upper hoist quarter is blue and divided by a smaller red cross into four sub-quarters, each bearing a white eight-pointed star."
     },
     {
       "qid": "Q114359007",
@@ -38470,7 +38450,7 @@
     {
       "qid": "Q116211178",
       "name": "flag of Selangor",
-      "count": 1,
+      "count": 3,
       "file": "Flag of Selangor.svg",
       "isFlagEntity": true,
       "colors": [
@@ -38566,7 +38546,8 @@
         "blue",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field bearing a large yellow letter \"M\" centered, with four white fleurs-de-lis arranged around it (one above, one below, one to each side)."
     },
     {
       "qid": "Q116820815",
@@ -38701,9 +38682,9 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
+        "yellow",
         "blue",
-        "red",
-        "yellow"
+        "red"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -38716,9 +38697,9 @@
       },
       "aliases": [],
       "wdColors": [
+        "yellow",
         "blue",
-        "red",
-        "yellow"
+        "red"
       ]
     },
     {
@@ -39050,8 +39031,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "white",
-        "yellow"
+        "yellow",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -39061,8 +39042,8 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "white",
-        "yellow"
+        "yellow",
+        "white"
       ]
     },
     {
@@ -39224,7 +39205,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "Three equal vertical bands of red (hoist), white, and red."
     },
     {
       "qid": "Q122980426",
@@ -39252,7 +39234,7 @@
     {
       "qid": "Q123102467",
       "name": "flag of the Region Occitanie",
-      "count": 4,
+      "count": 5,
       "file": "Flag of Région Occitanie Perpinyà variation.svg",
       "isFlagEntity": true,
       "colors": [
@@ -39275,7 +39257,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A red field bearing the Occitanie regional logo in yellow at the hoist (a stylized Occitan cross with a column of pellets) and white text reading \"La Région / Occitanie / Pyrénées - Méditerranée\" in the fly."
     },
     {
       "qid": "Q123115016",
@@ -39390,7 +39373,7 @@
       "qid": "Q124128386",
       "name": "flag for the Green Flag Award",
       "count": 59,
-      "file": null,
+      "file": "Green Flag Award.jpg",
       "isFlagEntity": true,
       "colors": [
         "green",
