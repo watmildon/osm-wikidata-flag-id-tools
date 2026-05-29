@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T09:50:13.570Z",
+  "generated": "2026-05-29T14:59:31.420Z",
   "palette": [
     "red",
     "white",
@@ -28439,9 +28439,9 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
+        "white",
         "blue",
-        "green",
-        "white"
+        "green"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -28451,9 +28451,9 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
+        "white",
         "blue",
-        "green",
-        "white"
+        "green"
       ]
     },
     {
@@ -28731,10 +28731,10 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "red",
-        "white",
         "yellow",
-        "blue"
+        "blue",
+        "red",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -28744,10 +28744,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "red",
-        "white",
         "yellow",
-        "blue"
+        "blue",
+        "red",
+        "white"
       ]
     },
     {
@@ -29421,8 +29421,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "green",
-        "white"
+        "white",
+        "green"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -29432,8 +29432,8 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "green",
-        "white"
+        "white",
+        "green"
       ]
     },
     {
@@ -31401,8 +31401,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "white",
-        "purple"
+        "purple",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -31412,8 +31412,8 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "white",
-        "purple"
+        "purple",
+        "white"
       ]
     },
     {
@@ -31551,8 +31551,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "blue",
-        "white"
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -31562,8 +31562,8 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "blue",
-        "white"
+        "white",
+        "blue"
       ]
     },
     {
@@ -32300,10 +32300,10 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
+        "orange",
         "blue",
         "white",
-        "black",
-        "orange"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -32313,10 +32313,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
+        "orange",
         "blue",
         "white",
-        "black",
-        "orange"
+        "black"
       ]
     },
     {
@@ -32442,8 +32442,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "blue",
-        "white"
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -32453,8 +32453,8 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "blue",
-        "white"
+        "white",
+        "blue"
       ]
     },
     {
@@ -34510,9 +34510,9 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
+        "white",
         "black",
-        "purple",
-        "white"
+        "purple"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -34522,9 +34522,9 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
+        "white",
         "black",
-        "purple",
-        "white"
+        "purple"
       ]
     },
     {
@@ -36339,9 +36339,9 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "white",
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -36351,9 +36351,9 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "white",
         "yellow",
-        "blue"
+        "blue",
+        "white"
       ]
     },
     {
@@ -37468,8 +37468,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "blue",
-        "white"
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -37479,8 +37479,8 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "blue",
-        "white"
+        "white",
+        "blue"
       ]
     },
     {
@@ -38682,9 +38682,9 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "yellow",
         "blue",
-        "red"
+        "red",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -38697,9 +38697,9 @@
       },
       "aliases": [],
       "wdColors": [
-        "yellow",
         "blue",
-        "red"
+        "red",
+        "yellow"
       ]
     },
     {
@@ -38742,9 +38742,9 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
+        "white",
         "blue",
-        "red",
-        "white"
+        "red"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -38754,9 +38754,9 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
+        "white",
         "blue",
-        "red",
-        "white"
+        "red"
       ]
     },
     {
@@ -39031,8 +39031,8 @@
       "file": null,
       "isFlagEntity": true,
       "colors": [
-        "yellow",
-        "white"
+        "white",
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -39042,8 +39042,8 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [
-        "yellow",
-        "white"
+        "white",
+        "yellow"
       ]
     },
     {
