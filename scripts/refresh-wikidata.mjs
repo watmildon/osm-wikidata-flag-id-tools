@@ -68,6 +68,25 @@ const COLOR_QID_MAP = {
   Q3257809: "purple", Q428124: "purple",
 };
 
+// Canonical color order. SPARQL GROUP_CONCAT returns colors in arbitrary order,
+// so sorting against this stable index keeps on-disk arrays stable and prevents
+// no-op nightly diffs that just shuffle identical colors.
+const PALETTE_ORDER = [
+  "red", "white", "blue", "darkblue", "lightblue", "green", "yellow",
+  "black", "orange", "brown", "purple", "pink", "gray",
+];
+const PALETTE_INDEX = new Map(PALETTE_ORDER.map((c, i) => [c, i]));
+function sortColors(colors) {
+  return [...colors].sort((a, b) =>
+    (PALETTE_INDEX.get(a) ?? 999) - (PALETTE_INDEX.get(b) ?? 999));
+}
+function sameColorSet(a, b) {
+  if (a.length !== b.length) return false;
+  const sa = new Set(a);
+  for (const x of b) if (!sa.has(x)) return false;
+  return true;
+}
+
 function imageScore(filename) {
   const name = filename.toLowerCase();
   const isSvg = name.endsWith(".svg");
@@ -142,7 +161,7 @@ function rowToEnrichment(row) {
   const isFlagEntity = row?.isFlag?.value === "true";
   const colorQids = (row?.colorQids?.value ?? "")
     .split(",").map((s) => s.trim()).filter(Boolean);
-  const wdColors = [...new Set(colorQids.map((q) => COLOR_QID_MAP[q]).filter(Boolean))];
+  const wdColors = sortColors(new Set(colorQids.map((q) => COLOR_QID_MAP[q]).filter(Boolean)));
   const width = row?.w ? Number(row.w.value) : null;
   const height = row?.h ? Number(row.h.value) : null;
   const shape = width && height && width === height ? "square" : "rectangle";
@@ -244,13 +263,13 @@ async function main() {
     // gated by overrides — its job is to surface Wikidata's truth so the
     // suggestions page can diff against ours. `colors` is the user-facing
     // palette and continues to respect overrides.
-    if (JSON.stringify(f.wdColors ?? []) !== JSON.stringify(e.wdColors)) {
+    // Compare set-equality (not array-equality) so SPARQL's nondeterministic
+    // GROUP_CONCAT order doesn't fire a phantom "change" each run.
+    if (!sameColorSet(f.wdColors ?? [], e.wdColors)) {
       next.wdColors = e.wdColors;
     }
     if (!("colors" in ov)) {
-      const prev = JSON.stringify(f.colors ?? []);
-      const cur = JSON.stringify(e.colors);
-      if (prev !== cur && e.colors.length > 0) {
+      if (!sameColorSet(f.colors ?? [], e.colors) && e.colors.length > 0) {
         next.colors = e.colors; newColors++;
       }
     }

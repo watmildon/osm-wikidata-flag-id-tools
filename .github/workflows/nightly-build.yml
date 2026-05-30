@@ -63,9 +63,14 @@ jobs:
             data/.cache/redirects.json \
             flags/thumb \
             flags/full
-          if git diff --cached --quiet; then
+          # Treat a diff whose only change is the "generated" timestamp as
+          # no-op churn. Strip those lines before judging the diff so the
+          # nightly doesn't commit purely-cosmetic timestamp bumps every 6h.
+          substantive=$(git diff --cached -U0 | grep -E '^[+-]' | grep -vE '^[+-]{3}' | grep -vE '^[+-]\s*"generated":' || true)
+          if [ -z "$substantive" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes to commit."
+            echo "No substantive changes to commit (timestamp-only diff ignored)."
+            git diff --cached --stat || true
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
             git diff --cached --stat
