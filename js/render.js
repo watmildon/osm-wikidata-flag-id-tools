@@ -35,6 +35,10 @@ const ICON_LABELS = {
   map: "Map",
   building: "Building",
   coa: "Coat of arms",
+  crown: "Crown",
+  tools: "Tools",
+  water: "Water",
+  ship: "Ship",
 };
 
 const SHAPE_LABELS = {

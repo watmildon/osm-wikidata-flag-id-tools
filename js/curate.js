@@ -19,6 +19,7 @@ const ICON_LABELS = {
   "horizontal-stripes": "Horizontal stripes", "vertical-stripes": "Vertical stripes",
   triangle: "Triangle", diagonal: "Diagonal",
   weapon: "Weapon", map: "Map", building: "Building", coa: "Coat of arms",
+  crown: "Crown", tools: "Tools", water: "Water", ship: "Ship",
 };
 const SHAPE_LABELS = {
   rectangle: "Rectangle", square: "Square", pennant: "Pennant", other: "Other",

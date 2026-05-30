@@ -33,7 +33,11 @@
     "weapon",
     "map",
     "building",
-    "coa"
+    "coa",
+    "crown",
+    "tools",
+    "water",
+    "ship"
   ],
   "shapes": [
     "rectangle",
