@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-29T20:22:03.425Z",
+  "generated": "2026-05-30T02:50:01.422Z",
   "suggestions": [
     {
       "bad_qid": "Q29",
@@ -259,13 +259,6 @@
       "count": 1,
       "suggested_qid": "Q106677780",
       "suggested_name": "Q106677780"
-    },
-    {
-      "bad_qid": "Q213467",
-      "bad_name": "Perlis",
-      "count": 1,
-      "suggested_qid": "Q13405065",
-      "suggested_name": "flag of Perlis"
     },
     {
       "bad_qid": "Q245023",
