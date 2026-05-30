@@ -1,11 +1,5 @@
 [
   {
-    "qid": "Q16",
-    "name": "Canada",
-    "count": 1,
-    "file": "Canada - Location Map (2013) - CAN - UNOCHA.svg"
-  },
-  {
     "qid": "Q29",
     "name": "Spain",
     "count": 1,
@@ -14,26 +8,14 @@
   {
     "qid": "Q30",
     "name": "United States",
-    "count": 5,
+    "count": 2,
     "file": "United States - Location Map (2013) - USA - UNOCHA.svg"
-  },
-  {
-    "qid": "Q31",
-    "name": "Belgium",
-    "count": 1,
-    "file": "Belgique - Bruxelles - Grand-Place - Côté nord-est.jpg"
   },
   {
     "qid": "Q32",
     "name": "Luxembourg",
     "count": 1,
     "file": "Luxemburg.jpg"
-  },
-  {
-    "qid": "Q35",
-    "name": "Denmark",
-    "count": 1,
-    "file": "Dannebrog.jpg"
   },
   {
     "qid": "Q38",
@@ -60,12 +42,6 @@
     "file": "AlexandriaOleTowne.jpg"
   },
   {
-    "qid": "Q142",
-    "name": "France",
-    "count": 1,
-    "file": "Paris from the Arc de Triomphe, 17 October 2019.jpg"
-  },
-  {
     "qid": "Q175",
     "name": "São Paulo",
     "count": 1,
@@ -76,12 +52,6 @@
     "name": "Walloon Region",
     "count": 2,
     "file": "Namur Citadelle 07.JPG"
-  },
-  {
-    "qid": "Q233",
-    "name": "Malta",
-    "count": 1,
-    "file": "Malta, 2010 - panoramio - Bengt Nyman (23).jpg"
   },
   {
     "qid": "Q234",
@@ -110,7 +80,7 @@
   {
     "qid": "Q458",
     "name": "European Union",
-    "count": 6,
+    "count": 5,
     "file": null
   },
   {
@@ -118,18 +88,6 @@
     "name": "Hamburg",
     "count": 3,
     "file": "Hamburg view St. Nikolai.jpg"
-  },
-  {
-    "qid": "Q1129",
-    "name": "Hainaut",
-    "count": 1,
-    "file": "0 Mons - Panorama vu du Mont Héribus (1).JPG"
-  },
-  {
-    "qid": "Q1199",
-    "name": "Hesse",
-    "count": 1,
-    "file": "Stadtschloss der Herzöge von Nassau, Wiesbaden.jpg"
   },
   {
     "qid": "Q1250",
@@ -225,12 +183,6 @@
     "qid": "Q7809",
     "name": "UNESCO",
     "count": 3,
-    "file": null
-  },
-  {
-    "qid": "Q8333",
-    "name": "Federal Bureau of Investigation",
-    "count": 1,
     "file": null
   },
   {
@@ -708,12 +660,6 @@
     "file": "Longhouse, Sarawak (7246599192).jpg"
   },
   {
-    "qid": "Q179029",
-    "name": "Sabah",
-    "count": 1,
-    "file": "Kota Kinabalu City Mosque 0019.jpg"
-  },
-  {
     "qid": "Q181642",
     "name": "Suzuki Motor Corporation",
     "count": 1,
@@ -772,12 +718,6 @@
     "name": "Terengganu",
     "count": 1,
     "file": "DistrictTerengganu.jpg"
-  },
-  {
-    "qid": "Q189710",
-    "name": "Selangor",
-    "count": 2,
-    "file": "Ampang Jaya (2017).jpg"
   },
   {
     "qid": "Q189946",
@@ -1050,6 +990,12 @@
     "file": "Gößweinstein-Burg-und-Basilika-P5224761.jpg"
   },
   {
+    "qid": "Q512951",
+    "name": "Lake County",
+    "count": 1,
+    "file": "Lake County Courthouse ( Crown Point ).jpg"
+  },
+  {
     "qid": "Q536230",
     "name": "Fartura",
     "count": 1,
@@ -1060,6 +1006,12 @@
     "name": "Fajardo",
     "count": 1,
     "file": "Fajardo basin.jpg"
+  },
+  {
+    "qid": "Q549140",
+    "name": "Merrillville",
+    "count": 1,
+    "file": "Merrillville Skyline with US 30.jpg"
   },
   {
     "qid": "Q549181",
@@ -1162,12 +1114,6 @@
     "name": "Niles",
     "count": 4,
     "file": "Leaning Tower of Niles.jpg"
-  },
-  {
-    "qid": "Q608427",
-    "name": "United States Department of the Interior",
-    "count": 1,
-    "file": "Department of the Interior by Matthew Bisanz.JPG"
   },
   {
     "qid": "Q613220",
