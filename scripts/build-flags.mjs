@@ -416,13 +416,22 @@ async function enrichAll(qidCounts) {
 // Produces data/review.json with suggested fixes.
 // ---------------------------------------------------------------------------
 
+// Find every P163 flag entity the candidate subjects point at, regardless of
+// whether the target entity itself is a properly-classified flag with an image.
+// We include the stubs intentionally: shifting OSM tags off the subject QID
+// onto the dedicated flag entity is still a net improvement even when the
+// flag entity itself needs Wikidata cleanup afterwards. `target_is_stub` on
+// each suggestion lets the UI warn the mapper when that's the case.
 const REVIEW_SPARQL_TEMPLATE = `
-SELECT ?item ?itemLabel ?flag ?flagLabel WHERE {
+SELECT ?item ?itemLabel ?flag ?flagLabel ?isFlagEntity ?image WHERE {
   VALUES ?item { __VALUES__ }
   ?item wdt:P163 ?flag .
-  { ?flag wdt:P31/wdt:P279* wd:Q69506823 } UNION
-  { ?flag wdt:P31/wdt:P279* wd:Q14660    }
-  ?flag wdt:P18 ?image .
+  OPTIONAL {
+    { ?flag wdt:P31/wdt:P279* wd:Q69506823 } UNION
+    { ?flag wdt:P31/wdt:P279* wd:Q14660    }
+    BIND(true AS ?isFlagEntity)
+  }
+  OPTIONAL { ?flag wdt:P18 ?image . }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 `;
@@ -478,13 +487,22 @@ async function buildReviewSuggestions(flags) {
       const flagQid = row.flag.value.split("/").pop();
       // Skip self-references that shouldn't happen but might.
       if (flagQid === itemQid) continue;
-      suggestions.push({
+      const isFlagEntity = row.isFlagEntity?.value === "true";
+      const hasImage = Boolean(row.image?.value);
+      const suggestion = {
         bad_qid: itemQid,
         bad_name: cand.name,
         count: cand.count,
         suggested_qid: flagQid,
         suggested_name: row.flagLabel?.value ?? flagQid,
-      });
+      };
+      // Flag stub targets — the suggested flag entity isn't itself a properly
+      // classified flag, or has no image. Still a worthwhile OSM-side swap, but
+      // the UI should warn that the target needs Wikidata cleanup.
+      if (!isFlagEntity || !hasImage) {
+        suggestion.target_is_stub = true;
+      }
+      suggestions.push(suggestion);
     }
   }
   // Dedupe — a QID might match more than one P163 (e.g. country with multiple

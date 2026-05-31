@@ -13,13 +13,18 @@ const DATA_DIR = join(ROOT, "data");
 const USER_AGENT =
   "OSM-Flag-Identifier/0.1 (https://github.com/watmildon/osm-wikidata-flag-id-tools; build-review.mjs)";
 
+// See build-flags.mjs for the reasoning: P31/P279* and P18 are intentionally
+// OPTIONAL so we surface stub P163 targets too. target_is_stub marks them.
 const QUERY = `
-SELECT ?item ?itemLabel ?flag ?flagLabel WHERE {
+SELECT ?item ?itemLabel ?flag ?flagLabel ?isFlagEntity ?image WHERE {
   VALUES ?item { __VALUES__ }
   ?item wdt:P163 ?flag .
-  { ?flag wdt:P31/wdt:P279* wd:Q69506823 } UNION
-  { ?flag wdt:P31/wdt:P279* wd:Q14660    }
-  ?flag wdt:P18 ?image .
+  OPTIONAL {
+    { ?flag wdt:P31/wdt:P279* wd:Q69506823 } UNION
+    { ?flag wdt:P31/wdt:P279* wd:Q14660    }
+    BIND(true AS ?isFlagEntity)
+  }
+  OPTIONAL { ?flag wdt:P18 ?image . }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
 }
 `;
@@ -61,13 +66,19 @@ async function main() {
       if (!cand) continue;
       const flagQid = row.flag.value.split("/").pop();
       if (flagQid === itemQid) continue;
-      suggestions.push({
+      const isFlagEntity = row.isFlagEntity?.value === "true";
+      const hasImage = Boolean(row.image?.value);
+      const suggestion = {
         bad_qid: itemQid,
         bad_name: cand.name,
         count: cand.count,
         suggested_qid: flagQid,
         suggested_name: row.flagLabel?.value ?? flagQid,
-      });
+      };
+      if (!isFlagEntity || !hasImage) {
+        suggestion.target_is_stub = true;
+      }
+      suggestions.push(suggestion);
     }
   }
 

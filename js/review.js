@@ -66,6 +66,16 @@ function row(s) {
   sugLink.rel = "noopener";
   sugLink.textContent = s.suggested_qid;
   sugText.appendChild(sugLink);
+  if (s.target_is_stub) {
+    sugText.appendChild(document.createTextNode(" "));
+    const stub = document.createElement("span");
+    stub.className = "reason-tag";
+    stub.textContent = "stub";
+    stub.title = "The suggested flag entity itself needs Wikidata cleanup " +
+      "(missing P31/P279* flag classification or P18 image). Switching the " +
+      "OSM tag is still an improvement; the Wikidata cleanup is a separate task.";
+    sugText.appendChild(stub);
+  }
   sugText.appendChild(document.createElement("br"));
   const sugName = document.createElement("span");
   sugName.className = "muted";
