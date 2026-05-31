@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Back office — OSM Flag Identifier</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .bo-main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 16px;
+    }
+    .bo-intro {
+      color: var(--muted);
+      font-size: 0.9375rem;
+      line-height: 1.5;
+      margin: 0 0 24px;
+    }
+    .bo-list { list-style: none; padding: 0; margin: 0; }
+    .bo-item {
+      display: block;
+      padding: 14px 16px;
+      margin-bottom: 8px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-elev);
+      text-decoration: none;
+      color: var(--fg);
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .bo-item:hover {
+      border-color: var(--accent);
+      background: color-mix(in srgb, var(--accent) 6%, var(--bg-elev));
+    }
+    .bo-item h2 {
+      margin: 0 0 4px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    .bo-item p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.875rem;
+      line-height: 1.4;
+    }
+    .bo-section-title {
+      margin: 28px 0 10px;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+    }
+    .bo-section-title:first-child { margin-top: 0; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1>Back office</h1>
+    <p class="hint">
+      Tools for curating the dataset and cleaning up tagging mistakes.
+      &middot; <a href="index.html">back to identifier</a>
+    </p>
+  </header>
+
+  <main class="bo-main">
+    <p class="bo-intro">
+      The flag identifier is the mapper-facing site. Everything below is
+      maintenance work — curating attributes, fixing OSM tags that point at
+      the wrong Wikidata entity, and filling Wikidata gaps so the dataset
+      improves over time.
+    </p>
+
+    <h2 class="bo-section-title">Curate this site's data</h2>
+    <ul class="bo-list">
+      <li><a class="bo-item" href="curate.html">
+        <h2>Curate flag attributes →</h2>
+        <p>Per-flag chip editor for display name, flag:type, colors,
+          iconography, and shape. Saves edits to <code>data/overrides.json</code>.</p>
+      </a></li>
+      <li><a class="bo-item" href="describe.html">
+        <h2>Describe flags →</h2>
+        <p>Bulk review and edit of AI-written visual descriptions.
+          Reads the current describe queue, exports diffs as
+          <code>describe-edits.json</code>.</p>
+      </a></li>
+    </ul>
+
+    <h2 class="bo-section-title">Fix OSM tagging</h2>
+    <ul class="bo-list">
+      <li><a class="bo-item" href="review.html">
+        <h2>Review OSM-side fixes →</h2>
+        <p>QIDs tagged in OSM that point at the wrong Wikidata entity
+          (subject instead of flag, redirected QIDs). Each row links to
+          overpass-turbo for in-place retagging.</p>
+      </a></li>
+    </ul>
+
+    <h2 class="bo-section-title">Fix Wikidata</h2>
+    <ul class="bo-list">
+      <li><a class="bo-item" href="wikidata-suggestions.html">
+        <h2>Suggested Wikidata edits →</h2>
+        <p>Aggregated cleanup work: missing flag entities, missing
+          <code>P31</code> classification, missing <code>P18</code> images,
+          color mismatches between Wikidata and our curated palette.</p>
+      </a></li>
+      <li><a class="bo-item" href="create-flag-entities.html">
+        <h2>Create flag entities →</h2>
+        <p>Multi-select review for subjects with a <code>P41</code> flag
+          image but no dedicated "flag of X" entity. Generates a
+          QuickStatements batch to create them.</p>
+      </a></li>
+    </ul>
+  </main>
+</body>
+</html>
