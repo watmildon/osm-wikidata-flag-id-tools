@@ -113,12 +113,18 @@ export function updateFilterSummary(active) {
 }
 
 export function thumbSrc(flag) {
-  if (flag.imageWithheld || !flag.file) return "flags/placeholder.svg";
+  if (flag.imageWithheld) return "flags/placeholder.svg";
+  // Side-channel override (e.g. fair-use images we can't host on Commons).
+  // Served direct from flags/local/; SVG/PNG/JPG all work, browser scales.
+  if (flag.localFile) return `flags/local/${flag.localFile}`;
+  if (!flag.file) return "flags/placeholder.svg";
   return `flags/thumb/${flag.qid}.png`;
 }
 
 export function fullSrc(flag) {
-  if (flag.imageWithheld || !flag.file) return "flags/placeholder.svg";
+  if (flag.imageWithheld) return "flags/placeholder.svg";
+  if (flag.localFile) return `flags/local/${flag.localFile}`;
+  if (!flag.file) return "flags/placeholder.svg";
   return `flags/full/${flag.qid}.png`;
 }
 

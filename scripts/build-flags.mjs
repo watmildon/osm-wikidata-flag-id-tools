@@ -680,9 +680,14 @@ function shrinkGuard(prev, newCount) {
 // the --allow-mass-prune flag — catches a corrupted flags.json from emptying
 // the entire thumbnail cache.
 async function pruneOrphanThumbs(flags) {
-  // Withheld images shouldn't keep cached thumbnails — treat them as not-live
-  // so any prior-cached PNG gets cleaned up.
-  const live = new Set(flags.filter((f) => !f.imageWithheld).map((f) => f.qid));
+  // Withheld images and localFile overrides shouldn't keep cached thumbnails
+  // — treat them as not-live so any prior-cached PNG gets cleaned up. The
+  // localFile case matters when a record previously used Wikidata's image
+  // and now uses a side-channel one; the stale Wikidata PNG would otherwise
+  // linger in flags/thumb forever.
+  const live = new Set(
+    flags.filter((f) => !f.imageWithheld && !f.localFile).map((f) => f.qid)
+  );
   const orphans = [];
   let cached = 0;
   for (const dir of [THUMB_DIR, FULL_DIR]) {
@@ -722,7 +727,10 @@ async function downloadAllThumbs(flags) {
   await mkdir(THUMB_DIR, { recursive: true });
   await mkdir(FULL_DIR, { recursive: true });
 
-  const withImage = flags.filter((f) => f.file && !f.imageWithheld);
+  // localFile overrides skip the Commons download entirely — render.js serves
+  // those direct from flags/local/<localFile>. Skip them here so we don't
+  // re-fetch the now-irrelevant Wikidata image.
+  const withImage = flags.filter((f) => f.file && !f.imageWithheld && !f.localFile);
   const failures = [];
   let done = 0;
   const total = withImage.length * 2;
@@ -883,10 +891,23 @@ async function main() {
   const overrides = await loadOverrides();
   flags = mergeOverrides(flags, overrides);
 
+  // Validate localFile overrides — warn if the referenced file isn't actually
+  // present in flags/local/. Doesn't fail the build (the override might be in
+  // progress, or someone else's machine has it); just surfaces the mismatch.
+  const localFileFlags = flags.filter((f) => f.localFile);
+  for (const f of localFileFlags) {
+    const path = join(ROOT, "flags", "local", f.localFile);
+    if (!(await fileExists(path))) {
+      console.log(`  ::warning:: ${f.qid} has localFile="${f.localFile}" but flags/local/${f.localFile} is missing`);
+      degraded = true;
+    }
+  }
+
   const withImage = flags.filter((f) => f.file).length;
   const flagEntities = flags.filter((f) => f.isFlagEntity).length;
   console.log(
-    `flags: ${flags.length} total | ${withImage} with image | ${flagEntities} pass flag-entity check.`
+    `flags: ${flags.length} total | ${withImage} with image | ${flagEntities} pass flag-entity check` +
+    (localFileFlags.length ? ` | ${localFileFlags.length} side-channel image${localFileFlags.length === 1 ? "" : "s"}.` : ".")
   );
 
   // Shrink guard — run BEFORE any writes so a degraded build doesn't trash
