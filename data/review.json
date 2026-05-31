@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T13:40:19.522Z",
+  "generated": "2026-05-31T21:20:44.472Z",
   "suggestions": [
     {
       "bad_qid": "Q29",
@@ -21,6 +21,20 @@
       "count": 2,
       "suggested_qid": "Q42876",
       "suggested_name": "flag of Italy"
+    },
+    {
+      "bad_qid": "Q71",
+      "bad_name": "Geneva",
+      "count": 1,
+      "suggested_qid": "Q140002986",
+      "suggested_name": "flag of Geneva"
+    },
+    {
+      "bad_qid": "Q88",
+      "bad_name": "Alexandria",
+      "count": 1,
+      "suggested_qid": "Q140002987",
+      "suggested_name": "flag of Alexandria"
     },
     {
       "bad_qid": "Q175",
@@ -86,11 +100,25 @@
       "suggested_name": "flag of New Brunswick"
     },
     {
+      "bad_qid": "Q2028",
+      "bad_name": "Verona",
+      "count": 1,
+      "suggested_qid": "Q140002988",
+      "suggested_name": "flag of Verona"
+    },
+    {
       "bad_qid": "Q5720",
       "bad_name": "Valencian Community",
       "count": 1,
       "suggested_qid": "Q933011",
       "suggested_name": "flag of the Land of Valencia"
+    },
+    {
+      "bad_qid": "Q6537",
+      "bad_name": "Vicenza",
+      "count": 1,
+      "suggested_qid": "Q140002989",
+      "suggested_name": "flag of Vicenza"
     },
     {
       "bad_qid": "Q7172",
@@ -107,6 +135,13 @@
       "suggested_name": "flag of the Association of Southeast Asian Nations"
     },
     {
+      "bad_qid": "Q7809",
+      "bad_name": "UNESCO",
+      "count": 3,
+      "suggested_qid": "Q54953696",
+      "suggested_name": "flag of UNESCO"
+    },
+    {
       "bad_qid": "Q9337",
       "bad_name": "Flemish Region",
       "count": 1,
@@ -114,11 +149,62 @@
       "suggested_name": "flag of Flanders"
     },
     {
+      "bad_qid": "Q9580",
+      "bad_name": "Burgos",
+      "count": 1,
+      "suggested_qid": "Q140002990",
+      "suggested_name": "Q140002990",
+      "target_is_stub": true
+    },
+    {
+      "bad_qid": "Q12745",
+      "bad_name": "Savoie",
+      "count": 1,
+      "suggested_qid": "Q140002991",
+      "suggested_name": "flag of Savoie"
+    },
+    {
+      "bad_qid": "Q13148",
+      "bad_name": "La Línea de la Concepción",
+      "count": 1,
+      "suggested_qid": "Q140002992",
+      "suggested_name": "flag of La Línea de la Concepción"
+    },
+    {
       "bad_qid": "Q15499",
       "bad_name": "Paraná",
       "count": 1,
       "suggested_qid": "Q2981712",
       "suggested_name": "flag of Paraná"
+    },
+    {
+      "bad_qid": "Q25444",
+      "bad_name": "Funchal",
+      "count": 2,
+      "suggested_qid": "Q140002978",
+      "suggested_name": "flag of Funchal"
+    },
+    {
+      "bad_qid": "Q27389",
+      "bad_name": "Sandinista National Liberation Front",
+      "count": 3,
+      "suggested_qid": "Q140002972",
+      "suggested_name": "flag of Sandinista National Liberation Front"
+    },
+    {
+      "bad_qid": "Q38453",
+      "bad_name": "Columbia",
+      "count": 1,
+      "suggested_qid": "Q140002993",
+      "suggested_name": "flag of Columbia"
+    },
+    {
+      "bad_qid": "Q41470",
+      "bad_name": "Kurdistan",
+      "count": 1,
+      "suggested_qid": "Q140002994",
+      "suggested_name": "Q140002994",
+      "target_is_stub": true
     },
     {
       "bad_qid": "Q42722",
@@ -135,11 +221,32 @@
       "suggested_name": "Q124419622"
     },
     {
+      "bad_qid": "Q93347",
+      "bad_name": "Mostar",
+      "count": 2,
+      "suggested_qid": "Q140002979",
+      "suggested_name": "flag of Mostar"
+    },
+    {
       "bad_qid": "Q95121",
       "bad_name": "Binche",
       "count": 1,
       "suggested_qid": "Q122460040",
       "suggested_name": "flag of Binche"
+    },
+    {
+      "bad_qid": "Q105037",
+      "bad_name": "Callao",
+      "count": 2,
+      "suggested_qid": "Q140002980",
+      "suggested_name": "flag of Callao"
+    },
+    {
+      "bad_qid": "Q108111",
+      "bad_name": "Riverside County",
+      "count": 1,
+      "suggested_qid": "Q140002995",
+      "suggested_name": "flag of Riverside County"
     },
     {
       "bad_qid": "Q108418",
@@ -170,6 +277,13 @@
       "suggested_name": "flag of Friuli"
     },
     {
+      "bad_qid": "Q184599",
+      "bad_name": "County Wexford",
+      "count": 3,
+      "suggested_qid": "Q140002973",
+      "suggested_name": "flag of County Wexford"
+    },
+    {
       "bad_qid": "Q188096",
       "bad_name": "Penang",
       "count": 1,
@@ -188,7 +302,7 @@
       "bad_name": "Kurdistan Region of Iraq",
       "count": 1,
       "suggested_qid": "Q208671",
-      "suggested_name": "Flag of Kurdistan"
+      "suggested_name": "flag of Kurdistan"
     },
     {
       "bad_qid": "Q205995",
@@ -203,6 +317,62 @@
       "count": 1,
       "suggested_qid": "Q106677780",
       "suggested_name": "Q106677780"
+    },
+    {
+      "bad_qid": "Q330195",
+      "bad_name": "Budapest District IV",
+      "count": 3,
+      "suggested_qid": "Q140002974",
+      "suggested_name": "flag of Budapest District IV"
+    },
+    {
+      "bad_qid": "Q368526",
+      "bad_name": "Yauco",
+      "count": 2,
+      "suggested_qid": "Q140002981",
+      "suggested_name": "flag of Yauco"
+    },
+    {
+      "bad_qid": "Q386961",
+      "bad_name": "Des Plaines",
+      "count": 1,
+      "suggested_qid": "Q140002996",
+      "suggested_name": "flag of Des Plaines"
+    },
+    {
+      "bad_qid": "Q462799",
+      "bad_name": "Evanston",
+      "count": 5,
+      "suggested_qid": "Q140002968",
+      "suggested_name": "flag of Evanston"
+    },
+    {
+      "bad_qid": "Q486459",
+      "bad_name": "Evansville",
+      "count": 1,
+      "suggested_qid": "Q140002997",
+      "suggested_name": "flag of Evansville"
+    },
+    {
+      "bad_qid": "Q487315",
+      "bad_name": "Monterey",
+      "count": 1,
+      "suggested_qid": "Q140002998",
+      "suggested_name": "flag of Monterey"
+    },
+    {
+      "bad_qid": "Q597182",
+      "bad_name": "Budapest District VIII",
+      "count": 3,
+      "suggested_qid": "Q140002975",
+      "suggested_name": "flag of Budapest District VIII"
+    },
+    {
+      "bad_qid": "Q599694",
+      "bad_name": "East Chicago",
+      "count": 4,
+      "suggested_qid": "Q140002969",
+      "suggested_name": "flag of East Chicago"
     },
     {
       "bad_qid": "Q614274",
@@ -233,11 +403,82 @@
       "suggested_name": "flag of Serbia and Montenegro"
     },
     {
+      "bad_qid": "Q838785",
+      "bad_name": "Temecula",
+      "count": 1,
+      "suggested_qid": "Q140002999",
+      "suggested_name": "flag of Temecula"
+    },
+    {
+      "bad_qid": "Q846153",
+      "bad_name": "San Roque",
+      "count": 2,
+      "suggested_qid": "Q140002982",
+      "suggested_name": "flag of San Roque"
+    },
+    {
+      "bad_qid": "Q849801",
+      "bad_name": "Southern Highlands Province",
+      "count": 2,
+      "suggested_qid": "Q140002983",
+      "suggested_name": "flag of Southern Highlands Province"
+    },
+    {
       "bad_qid": "Q912099",
       "bad_name": "Maarkedal",
       "count": 1,
       "suggested_qid": "Q120987675",
       "suggested_name": "flag of Maarkedal"
+    },
+    {
+      "bad_qid": "Q979996",
+      "bad_name": "Río Grande",
+      "count": 1,
+      "suggested_qid": "Q140003000",
+      "suggested_name": "flag of Río Grande"
+    },
+    {
+      "bad_qid": "Q995793",
+      "bad_name": "Mount Prospect",
+      "count": 2,
+      "suggested_qid": "Q140002984",
+      "suggested_name": "flag of Mount Prospect"
+    },
+    {
+      "bad_qid": "Q1049334",
+      "bad_name": "United States Army Corps of Engineers",
+      "count": 3,
+      "suggested_qid": "Q140002976",
+      "suggested_name": "flag of United States Army Corps of Engineers"
+    },
+    {
+      "bad_qid": "Q1191401",
+      "bad_name": "Rosemont",
+      "count": 4,
+      "suggested_qid": "Q140002970",
+      "suggested_name": "flag of Rosemont"
+    },
+    {
+      "bad_qid": "Q2485604",
+      "bad_name": "Santa Isabel",
+      "count": 2,
+      "suggested_qid": "Q140002985",
+      "suggested_name": "flag of Santa Isabel"
+    },
+    {
+      "bad_qid": "Q2668483",
+      "bad_name": "Lansing",
+      "count": 3,
+      "suggested_qid": "Q140002977",
+      "suggested_name": "flag of Lansing"
+    },
+    {
+      "bad_qid": "Q3462972",
+      "bad_name": "Saint-Maxime-du-Mont-Louis",
+      "count": 1,
+      "suggested_qid": "Q96991815",
+      "suggested_name": "flag of Saint-Maxime-du-Mont-Louis",
+      "target_is_stub": true
     },
     {
       "bad_qid": "Q7970362",
@@ -260,6 +501,14 @@
       "count": 1,
       "suggested_qid": "Q3039109",
       "suggested_name": "flag and coat of arms of Normandy"
+    },
+    {
+      "bad_qid": "Q20050604",
+      "bad_name": "Santa Clara County Fire Department",
+      "count": 1,
+      "suggested_qid": "Q98280532",
+      "suggested_name": "flag of the Santa Clara County Fire Department",
+      "target_is_stub": true
     },
     {
       "bad_qid": "Q31354462",
