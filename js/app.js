@@ -17,6 +17,12 @@ const ICON_MAP_PIN =
 const ICON_PENCIL =
   '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
   '<path d="m11 2 3 3-8 8H3v-3z"/></svg>';
+// Price-tag silhouette: pointed end on the lower-left with the eyelet hole,
+// rectangular body extending up to the right. Matches the taginfo brand.
+const ICON_TAG =
+  '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+  '<path d="M2 9 9 2h5v5l-7 7z"/>' +
+  '<circle cx="11" cy="5" r="1"/></svg>';
 
 function overpassTurboUrl(qid) {
   // Matches both the sole value and semicolon-joined values like "Q30;Q1439".
@@ -25,6 +31,12 @@ function overpassTurboUrl(qid) {
 nwr["flag:wikidata"~"(^|;)${qid}(;|$)"];
 out center meta;`;
   return `https://overpass-turbo.eu/?Q=${encodeURIComponent(query)}&R`;
+}
+
+function taginfoUrl(qid) {
+  // taginfo encodes the key=value as a single URL-encoded path segment;
+  // colon in "flag:wikidata" must be %3A.
+  return `https://taginfo.openstreetmap.org/tags/${encodeURIComponent("flag:wikidata")}=${qid}`;
 }
 
 let allFlags = [];
@@ -57,6 +69,9 @@ function openDetail(flag) {
   const overpass = document.getElementById("detail-overpass");
   overpass.href = overpassTurboUrl(flag.qid);
   overpass.innerHTML = ICON_MAP_PIN;
+  const taginfo = document.getElementById("detail-taginfo");
+  taginfo.href = taginfoUrl(flag.qid);
+  taginfo.innerHTML = ICON_TAG;
   const curate = document.getElementById("detail-curate");
   curate.href = `curate.html?qid=${flag.qid}`;
   curate.innerHTML = ICON_PENCIL;
