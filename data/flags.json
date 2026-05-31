@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T08:42:37.717Z",
+  "generated": "2026-05-31T13:40:19.699Z",
   "palette": [
     "red",
     "white",
@@ -27530,7 +27530,10 @@
       "count": 1,
       "file": null,
       "isFlagEntity": false,
-      "colors": [],
+      "colors": [
+        "white",
+        "green"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -27538,7 +27541,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [
+        "white",
+        "green"
+      ]
     },
     {
       "qid": "Q63889113",
