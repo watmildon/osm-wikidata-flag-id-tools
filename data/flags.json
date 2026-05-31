@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T19:09:22.276Z",
+  "generated": "2026-05-31T08:42:37.717Z",
   "palette": [
     "red",
     "white",
@@ -103,22 +103,6 @@
         "red",
         "white"
       ]
-    },
-    {
-      "qid": "Q32",
-      "name": "Luxembourg",
-      "count": 1,
-      "file": "Luxemburg.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Luxembourg",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
     },
     {
       "qid": "Q38",
@@ -377,22 +361,6 @@
       "wdColors": []
     },
     {
-      "qid": "Q1781",
-      "name": "Budapest",
-      "count": 1,
-      "file": "Budapest, Hungary (explored) (14995308504).jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Budapest",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q1965",
       "name": "New Brunswick",
       "count": 1,
@@ -419,38 +387,6 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Verona",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q2280",
-      "name": "Minsk",
-      "count": 1,
-      "file": "Мінск. Сквер па плошчы Незалежнасці.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Minsk",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q2841",
-      "name": "Bogotá",
-      "count": 1,
-      "file": "Centro internacional.JPG",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Bogotá",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
@@ -833,22 +769,6 @@
       "wdColors": []
     },
     {
-      "qid": "Q14660",
-      "name": "flag",
-      "count": 5,
-      "file": "Palais des Nations unies, à Genève (cropped).jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "flag",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q15499",
       "name": "Paraná",
       "count": 1,
@@ -983,7 +903,7 @@
     {
       "qid": "Q18983",
       "name": "flag of Pennsylvania",
-      "count": 30,
+      "count": 31,
       "file": "Flag of Pennsylvania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1859,7 +1779,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 15663,
+      "count": 16394,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1981,7 +1901,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2342,
+      "count": 2343,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2941,7 +2861,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 969,
+      "count": 971,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2990,7 +2910,7 @@
     {
       "qid": "Q81286",
       "name": "flag of Sweden",
-      "count": 647,
+      "count": 648,
       "file": "Flag of Sweden.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3056,7 +2976,7 @@
     {
       "qid": "Q81477",
       "name": "flag of Lithuania",
-      "count": 61,
+      "count": 62,
       "file": "Flag of Lithuania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3347,7 +3267,7 @@
     {
       "qid": "Q83149",
       "name": "flag of Norway",
-      "count": 403,
+      "count": 402,
       "file": "Flag of Norway.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3449,22 +3369,6 @@
         "red",
         "white"
       ]
-    },
-    {
-      "qid": "Q83407",
-      "name": "Mons",
-      "count": 1,
-      "file": "Mons beffroi JPG01B.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Mons",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
     },
     {
       "qid": "Q83618",
@@ -4532,7 +4436,7 @@
     {
       "qid": "Q108418",
       "name": "Cook County",
-      "count": 23,
+      "count": 2,
       "file": "Daley Plaza 060716.jpg",
       "isFlagEntity": false,
       "colors": [],
@@ -4751,7 +4655,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1607,
+      "count": 1608,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4799,7 +4703,7 @@
     {
       "qid": "Q124020",
       "name": "flag of Switzerland",
-      "count": 136,
+      "count": 137,
       "file": "Flag of Switzerland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5004,7 +4908,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 301,
+      "count": 300,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5356,7 +5260,7 @@
     {
       "qid": "Q130807",
       "name": "flag of Slovenia",
-      "count": 120,
+      "count": 121,
       "file": "Flag of Slovenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5394,7 +5298,7 @@
     {
       "qid": "Q130811",
       "name": "flag of Romania",
-      "count": 123,
+      "count": 124,
       "file": "Flag of Romania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5428,7 +5332,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 916,
+      "count": 920,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5649,7 +5553,7 @@
     {
       "qid": "Q133022",
       "name": "flag of Luxembourg",
-      "count": 40,
+      "count": 41,
       "file": "Flag of Luxembourg.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5790,7 +5694,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1206,
+      "count": 1207,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5864,7 +5768,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 150,
+      "count": 152,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -8304,22 +8208,6 @@
       ]
     },
     {
-      "qid": "Q170462",
-      "name": "Sarawak",
-      "count": 1,
-      "file": "Longhouse, Sarawak (7246599192).jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Sarawak",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q170465",
       "name": "flag of Paraguay",
       "count": 20,
@@ -9342,22 +9230,6 @@
       "description": "Three horizontal bands of black (top), red, and green, separated by thin white stripes, with a blue equilateral triangle at the hoist bearing a yellow five-pointed star."
     },
     {
-      "qid": "Q183032",
-      "name": "Johor",
-      "count": 1,
-      "file": "Forest trees in Johor.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Johor",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q184265",
       "name": "flag of Dominican Republic",
       "count": 21,
@@ -9548,22 +9420,6 @@
       "wdColors": []
     },
     {
-      "qid": "Q185221",
-      "name": "Malacca",
-      "count": 1,
-      "file": "Malacca River Walk 2012.JPG",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Malacca",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q185271",
       "name": "flag of Papua New Guinea",
       "count": 18,
@@ -9707,22 +9563,6 @@
       "description": "A horizontal bicolor of white (top) and green, with a large red passant dragon centered."
     },
     {
-      "qid": "Q185944",
-      "name": "Kelantan",
-      "count": 1,
-      "file": null,
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Kelantan",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q186226",
       "name": "flag of the Isle of Man",
       "count": 28,
@@ -9823,7 +9663,7 @@
     {
       "qid": "Q188096",
       "name": "Penang",
-      "count": 2,
+      "count": 1,
       "file": "Skyline of George Town, Penang at night November 2024 23-9.jpg",
       "isFlagEntity": false,
       "colors": [],
@@ -9940,38 +9780,6 @@
       "description": "A light blue field with two horizontal yellow stripes near the bottom (separated by a thin blue line) and a white four-pointed star edged in red in the upper hoist."
     },
     {
-      "qid": "Q188947",
-      "name": "Kedah",
-      "count": 1,
-      "file": "Padi fields kedah.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Kedah",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q188953",
-      "name": "Perak",
-      "count": 1,
-      "file": "Golden Glow over Mount Bujang Melaka, Perak, Malaysia.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Perak",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q189604",
       "name": "flag of Anguilla",
       "count": 2,
@@ -10054,22 +9862,6 @@
         "yellow"
       ],
       "description": "A white field bearing a red saltire (X-shape) extending to the corners, with the Jersey coat of arms (a red shield bearing three gold lions passant, surmounted by a gold Plantagenet crown) centered on the upper part of the cross."
-    },
-    {
-      "qid": "Q189701",
-      "name": "Terengganu",
-      "count": 1,
-      "file": "DistrictTerengganu.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Terengganu",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
     },
     {
       "qid": "Q189946",
@@ -10178,22 +9970,6 @@
         "white"
       ],
       "description": "A light blue field bearing four white five-pointed stars arranged in a cross pattern (one top, one bottom, one each side) centered."
-    },
-    {
-      "qid": "Q191346",
-      "name": "Pahang",
-      "count": 1,
-      "file": "Tea plantations 2, Malaysia.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Pahang",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
     },
     {
       "qid": "Q191731",
@@ -10712,38 +10488,6 @@
       "description": "A white field divided by a vertical red band and a horizontal blue band (forming a cross with the blue band wider). Five white five-pointed stars are arranged in an oval on the blue band."
     },
     {
-      "qid": "Q213467",
-      "name": "Perlis",
-      "count": 1,
-      "file": "Limestone formations in Perlis.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Perlis",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q213893",
-      "name": "Negeri Sembilan",
-      "count": 1,
-      "file": "Seri Menanti palace.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Negeri Sembilan",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q214948",
       "name": "Cegléd",
       "count": 1,
@@ -10762,7 +10506,7 @@
     {
       "qid": "Q219726",
       "name": "flag of Hawaiʻi",
-      "count": 11,
+      "count": 12,
       "file": "Flag of Hawaii.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11197,22 +10941,6 @@
       "wdColors": []
     },
     {
-      "qid": "Q245023",
-      "name": "Taichung",
-      "count": 1,
-      "file": "Taichung montage.PNG",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Taichung",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q245269",
       "name": "flag of Montserrat",
       "count": 3,
@@ -11470,7 +11198,7 @@
     {
       "qid": "Q284396",
       "name": "flag of Kansas",
-      "count": 7,
+      "count": 8,
       "file": "Flag of Kansas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11556,7 +11284,7 @@
     {
       "qid": "Q301628",
       "name": "flag of Mississippi",
-      "count": 8,
+      "count": 9,
       "file": "Flag of Mississippi.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11780,7 +11508,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 269,
+      "count": 270,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13580,22 +13308,6 @@
       "description": "Three equal horizontal bands of light blue (top), yellow, and red, with the Cundinamarca coat of arms centered: a white circular emblem framed in black with \"GOB.O LIBRE E INDEP.TE DE CUNDIN.A\" arched around an eagle holding the local arms."
     },
     {
-      "qid": "Q598884",
-      "name": "Hilton Hotels & Resorts",
-      "count": 1,
-      "file": null,
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Hilton Hotels & Resorts",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q599323",
       "name": "flag of the Northern Territory",
       "count": 6,
@@ -14280,23 +13992,6 @@
       "description": "Five horizontal bands of blue (top), white, yellow (narrow), white, and red."
     },
     {
-      "qid": "Q669141",
-      "name": "Coloplast",
-      "count": 6,
-      "file": "2-coloplast-genesis 120.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": "company",
-      "flagName": "Coloplast",
-      "flagTypeSample": 6,
-      "extraTags": {},
-      "aliases": [],
-      "description": "Coloplast A/S is a Danish multinational company that develops, manufactures and markets medical devices and services related to ostomy, urology, continence, and wound care.",
-      "wdColors": []
-    },
-    {
       "qid": "Q673117",
       "name": "flag of Indiana",
       "count": 81,
@@ -14781,23 +14476,6 @@
         "lightblue",
         "white"
       ]
-    },
-    {
-      "qid": "Q725122",
-      "name": "Laakdal",
-      "count": 6,
-      "file": "Vorst - Sint-Niklaaskerk.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": "municipal",
-      "flagName": "Laakdal",
-      "flagTypeSample": 6,
-      "extraTags": {},
-      "aliases": [],
-      "description": "Laakdal (Dutch pronunciation: [ˈlaːɡdɑl]) is a municipality located in the Belgian province of Antwerp. Laakdal was founded in 1977 out of a merger of the towns Veerle, Eindhout and Vorst. The municipality now comprises the towns of Eindhout, Veerle, Vorst, Varendonk and Vorst-Meerlaar (also known as Klein-Vorst).",
-      "wdColors": []
     },
     {
       "qid": "Q730106",
@@ -15755,7 +15433,7 @@
     {
       "qid": "Q830262",
       "name": "flag of Gdańsk",
-      "count": 41,
+      "count": 42,
       "file": "POL Gdańsk flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15953,6 +15631,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q851131",
+      "name": "flag of Budapest",
+      "count": 1,
+      "file": "Flag of Budapest (2011-).svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Budapest",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q857107",
@@ -16578,22 +16272,6 @@
         "white"
       ],
       "description": "A field of diagonal stripes (white and blue, alternating, running from upper hoist to lower fly), with seven red pompeblêden (water-lily leaf shapes) scattered across the white stripes."
-    },
-    {
-      "qid": "Q1008803",
-      "name": "federal territory of Malaysia",
-      "count": 1,
-      "file": null,
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "federal territory of Malaysia",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
     },
     {
       "qid": "Q1010514",
@@ -18432,22 +18110,6 @@
       "wdColors": []
     },
     {
-      "qid": "Q1864884",
-      "name": "Adjuntas",
-      "count": 1,
-      "file": "Adjuntas003.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Adjuntas",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q1882040",
       "name": "flag of Baden",
       "count": 17,
@@ -18676,7 +18338,7 @@
     {
       "qid": "Q2020381",
       "name": "flag of Pomeranian Voivodeship",
-      "count": 11,
+      "count": 12,
       "file": "POL województwo pomorskie flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19000,6 +18662,30 @@
       "description": "A red field bearing two crossed white anchors (a sea anchor and a river anchor) centered, with a yellow scepter topped by the imperial double-headed eagle of Russia rising vertically through the cross of the anchors."
     },
     {
+      "qid": "Q2100376",
+      "name": "flag of Sarawak",
+      "count": 1,
+      "file": "Flag of Sarawak.svg",
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "red",
+        "black"
+      ],
+      "wdColors": [
+        "yellow",
+        "red",
+        "black"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Sarawak",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q2124886",
       "name": "Roosevelt University",
       "count": 1,
@@ -19282,6 +18968,24 @@
         "yellow"
       ],
       "description": "A field bordered with a decorative copper and gold pattern, bearing a central panel with a winged golden lion of Saint Mark (gold body, white wings, halo) on a dark blue ground holding an open book. A vertical column of seven small coats of arms (one for each Venetian province) runs along the fly."
+    },
+    {
+      "qid": "Q2171778",
+      "name": "flag of Perlis",
+      "count": 1,
+      "file": "Flag of Perlis.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Perlis",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": [
+        "Q13405065"
+      ]
     },
     {
       "qid": "Q2191442",
@@ -20292,6 +19996,22 @@
       "wdColors": []
     },
     {
+      "qid": "Q2499570",
+      "name": "flag of Minsk",
+      "count": 1,
+      "file": "Flag of Minsk, Belarus.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Minsk",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q2500754",
       "name": "Midlothian",
       "count": 1,
@@ -20438,7 +20158,7 @@
     {
       "qid": "Q2578041",
       "name": "flag of Bogotá",
-      "count": 1,
+      "count": 2,
       "file": "Flag of Bogotá.svg",
       "isFlagEntity": true,
       "colors": [
@@ -20570,6 +20290,22 @@
         "yellow"
       ],
       "description": "Three equal horizontal bands of blue (top), yellow, and black."
+    },
+    {
+      "qid": "Q2600445",
+      "name": "flag of Perak",
+      "count": 1,
+      "file": "Flag of Perak.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Perak",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q2616924",
@@ -22529,7 +22265,7 @@
     {
       "qid": "Q4486440",
       "name": "flag and coat of arms of Kelantan",
-      "count": 1,
+      "count": 2,
       "file": "Flag of Kelantan.svg",
       "isFlagEntity": false,
       "colors": [
@@ -22580,6 +22316,38 @@
       "description": "Divided by a centered yellow cross extending to the edges, with the upper hoist quarter red, upper fly blue, lower hoist blue, lower fly red. A red Krasnoyarsk shield with a yellow rampant lion holding tools is centered on the cross, topped by a yellow mural crown."
     },
     {
+      "qid": "Q4486771",
+      "name": "flag of the Federal Territory",
+      "count": 1,
+      "file": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Federal Territory",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q4486900",
+      "name": "flag of Melaka",
+      "count": 1,
+      "file": "Flag of Malacca.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Melaka",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q4487042",
       "name": "flag of Naberezhnye Chelny",
       "count": 1,
@@ -22594,6 +22362,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q4487085",
+      "name": "flag and coat of arms of Negeri Sembilan",
+      "count": 1,
+      "file": "Flag of Negeri Sembilan.svg",
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "flag and coat of arms of Negeri Sembilan",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q4487278",
@@ -22641,9 +22425,25 @@
       "wdColors": []
     },
     {
+      "qid": "Q4487410",
+      "name": "flag and coat of arms of Pahang",
+      "count": 1,
+      "file": "Flag of Pahang.svg",
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "flag and coat of arms of Pahang",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q4487474",
       "name": "flag of Penang",
-      "count": 1,
+      "count": 2,
       "file": "Flag of Penang (Malaysia).svg",
       "isFlagEntity": true,
       "colors": [
@@ -22730,6 +22530,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q4488105",
+      "name": "flag and coat of arms of Terengganu",
+      "count": 1,
+      "file": "Flag of Terengganu.svg",
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "flag and coat of arms of Terengganu",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q4488234",
@@ -23066,6 +22882,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q5456645",
+      "name": "flag and coat of arms of Johor",
+      "count": 1,
+      "file": "Flag of Johor.svg",
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "flag and coat of arms of Johor",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q5456649",
@@ -25218,7 +25050,7 @@
     {
       "qid": "Q10986849",
       "name": "flag of Kashubia",
-      "count": 8,
+      "count": 9,
       "file": "POL Kaszuby flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26085,6 +25917,22 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "pansexual pride flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q17335307",
+      "name": "flag of Kedah",
+      "count": 1,
+      "file": "Flag of Kedah.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Kedah",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": []
@@ -27502,7 +27350,7 @@
     {
       "qid": "Q63063601",
       "name": "flag of Santa Clara",
-      "count": 3,
+      "count": 4,
       "file": "Flag of Santa Clara, California.png",
       "isFlagEntity": true,
       "colors": [
@@ -27883,7 +27731,7 @@
     {
       "qid": "Q64840938",
       "name": "flag of Monroe",
-      "count": 1,
+      "count": 2,
       "file": null,
       "isFlagEntity": true,
       "colors": [
@@ -29464,7 +29312,7 @@
     {
       "qid": "Q77795712",
       "name": "Hilton flag",
-      "count": 8,
+      "count": 9,
       "file": "HI mk logo hiltonbrandlogo.jpg",
       "isFlagEntity": true,
       "colors": [
@@ -31151,7 +30999,7 @@
     {
       "qid": "Q96970847",
       "name": "flag of Cook County",
-      "count": 1,
+      "count": 22,
       "file": "Flag of Cook County, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -38598,6 +38446,22 @@
       "wdColors": []
     },
     {
+      "qid": "Q115152080",
+      "name": "flag of Adjuntas",
+      "count": 1,
+      "file": "Flag of Adjuntas, Puerto Rico.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Adjuntas",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q115185304",
       "name": "flag of Levallois-Perret",
       "count": 1,
@@ -39239,6 +39103,22 @@
       ]
     },
     {
+      "qid": "Q120987559",
+      "name": "flag of Laakdal",
+      "count": 6,
+      "file": "Flag of Laakdal.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Laakdal",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q120987840",
       "name": "flag of Ixelles - Elsene",
       "count": 1,
@@ -39426,7 +39306,7 @@
     {
       "qid": "Q122965273",
       "name": "flag of Mons",
-      "count": 4,
+      "count": 5,
       "file": "Flag of Mons.svg",
       "isFlagEntity": true,
       "colors": [
@@ -40232,6 +40112,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q135992817",
+      "name": "Flag of Taichung City",
+      "count": 1,
+      "file": "Flag of Taichung City old.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Taichung City",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q136436975",

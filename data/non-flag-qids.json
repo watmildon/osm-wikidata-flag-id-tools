@@ -12,12 +12,6 @@
     "file": "United States - Location Map (2013) - USA - UNOCHA.svg"
   },
   {
-    "qid": "Q32",
-    "name": "Luxembourg",
-    "count": 1,
-    "file": "Luxemburg.jpg"
-  },
-  {
     "qid": "Q38",
     "name": "Italy",
     "count": 2,
@@ -114,12 +108,6 @@
     "file": "Tallinna vanalinn 2015.jpg"
   },
   {
-    "qid": "Q1781",
-    "name": "Budapest",
-    "count": 1,
-    "file": "Budapest, Hungary (explored) (14995308504).jpg"
-  },
-  {
     "qid": "Q1965",
     "name": "New Brunswick",
     "count": 1,
@@ -130,18 +118,6 @@
     "name": "Verona",
     "count": 1,
     "file": "Aerial picture of Verona.jpg"
-  },
-  {
-    "qid": "Q2280",
-    "name": "Minsk",
-    "count": 1,
-    "file": "Мінск. Сквер па плошчы Незалежнасці.jpg"
-  },
-  {
-    "qid": "Q2841",
-    "name": "Bogotá",
-    "count": 1,
-    "file": "Centro internacional.JPG"
   },
   {
     "qid": "Q5285",
@@ -220,12 +196,6 @@
     "name": "Tartu",
     "count": 1,
     "file": "Tartu asv2022-04 img31 View from Emajõe Tower.jpg"
-  },
-  {
-    "qid": "Q14660",
-    "name": "flag",
-    "count": 5,
-    "file": "Palais des Nations unies, à Genève (cropped).jpg"
   },
   {
     "qid": "Q15499",
@@ -528,12 +498,6 @@
     "file": "Time do Fluminense de 1907.jpg"
   },
   {
-    "qid": "Q83407",
-    "name": "Mons",
-    "count": 1,
-    "file": "Mons beffroi JPG01B.jpg"
-  },
-  {
     "qid": "Q83618",
     "name": "Maratha Empire",
     "count": 1,
@@ -578,7 +542,7 @@
   {
     "qid": "Q108418",
     "name": "Cook County",
-    "count": 23,
+    "count": 2,
     "file": "Daley Plaza 060716.jpg"
   },
   {
@@ -654,12 +618,6 @@
     "file": "Maywood Station IL - May 2016.jpg"
   },
   {
-    "qid": "Q170462",
-    "name": "Sarawak",
-    "count": 1,
-    "file": "Longhouse, Sarawak (7246599192).jpg"
-  },
-  {
     "qid": "Q181642",
     "name": "Suzuki Motor Corporation",
     "count": 1,
@@ -672,52 +630,16 @@
     "file": null
   },
   {
-    "qid": "Q183032",
-    "name": "Johor",
-    "count": 1,
-    "file": "Forest trees in Johor.jpg"
-  },
-  {
     "qid": "Q184599",
     "name": "County Wexford",
     "count": 3,
     "file": null
   },
   {
-    "qid": "Q185221",
-    "name": "Malacca",
-    "count": 1,
-    "file": "Malacca River Walk 2012.JPG"
-  },
-  {
-    "qid": "Q185944",
-    "name": "Kelantan",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q188096",
     "name": "Penang",
-    "count": 2,
+    "count": 1,
     "file": "Skyline of George Town, Penang at night November 2024 23-9.jpg"
-  },
-  {
-    "qid": "Q188947",
-    "name": "Kedah",
-    "count": 1,
-    "file": "Padi fields kedah.jpg"
-  },
-  {
-    "qid": "Q188953",
-    "name": "Perak",
-    "count": 1,
-    "file": "Golden Glow over Mount Bujang Melaka, Perak, Malaysia.jpg"
-  },
-  {
-    "qid": "Q189701",
-    "name": "Terengganu",
-    "count": 1,
-    "file": "DistrictTerengganu.jpg"
   },
   {
     "qid": "Q189946",
@@ -730,12 +652,6 @@
     "name": "Sovereign Military Order of Malta",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q191346",
-    "name": "Pahang",
-    "count": 1,
-    "file": "Tea plantations 2, Malaysia.jpg"
   },
   {
     "qid": "Q192119",
@@ -774,18 +690,6 @@
     "file": "440 - Place Colbert - Rochefort.jpg"
   },
   {
-    "qid": "Q213467",
-    "name": "Perlis",
-    "count": 1,
-    "file": "Limestone formations in Perlis.jpg"
-  },
-  {
-    "qid": "Q213893",
-    "name": "Negeri Sembilan",
-    "count": 1,
-    "file": "Seri Menanti palace.jpg"
-  },
-  {
     "qid": "Q214948",
     "name": "Cegléd",
     "count": 1,
@@ -796,12 +700,6 @@
     "name": "Naperville",
     "count": 1,
     "file": "City of Naperville City Hall main entrance.jpg"
-  },
-  {
-    "qid": "Q245023",
-    "name": "Taichung",
-    "count": 1,
-    "file": "Taichung montage.PNG"
   },
   {
     "qid": "Q252004",
@@ -1098,12 +996,6 @@
     "file": "Wenckheim Palace, IMG 0168 - Hungary, Pest.jpg"
   },
   {
-    "qid": "Q598884",
-    "name": "Hilton Hotels & Resorts",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q599694",
     "name": "East Chicago",
     "count": 4,
@@ -1140,12 +1032,6 @@
     "file": null
   },
   {
-    "qid": "Q669141",
-    "name": "Coloplast",
-    "count": 6,
-    "file": "2-coloplast-genesis 120.jpg"
-  },
-  {
     "qid": "Q674311",
     "name": "Kisvárda",
     "count": 1,
@@ -1174,12 +1060,6 @@
     "name": "Edeka",
     "count": 6,
     "file": "Hamburg CityNord Edeka.jpg"
-  },
-  {
-    "qid": "Q725122",
-    "name": "Laakdal",
-    "count": 6,
-    "file": "Vorst - Sint-Niklaaskerk.jpg"
   },
   {
     "qid": "Q749243",
@@ -1366,12 +1246,6 @@
     "name": "Arlington Heights",
     "count": 1,
     "file": "Banta, Nathaniel Moore House (Arlington Heights, IL) 02.JPG"
-  },
-  {
-    "qid": "Q1008803",
-    "name": "federal territory of Malaysia",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q1010514",
@@ -1570,12 +1444,6 @@
     "name": "Lion of Saint Mark",
     "count": 1,
     "file": "Facade of Scuola Grande di San Marco (Venice) - Lion of San Marco.jpg"
-  },
-  {
-    "qid": "Q1864884",
-    "name": "Adjuntas",
-    "count": 1,
-    "file": "Adjuntas003.jpg"
   },
   {
     "qid": "Q1958759",
@@ -1856,8 +1724,32 @@
   {
     "qid": "Q4486440",
     "name": "flag and coat of arms of Kelantan",
-    "count": 1,
+    "count": 2,
     "file": "Flag of Kelantan.svg"
+  },
+  {
+    "qid": "Q4486771",
+    "name": "flag of the Federal Territory",
+    "count": 1,
+    "file": null
+  },
+  {
+    "qid": "Q4487085",
+    "name": "flag and coat of arms of Negeri Sembilan",
+    "count": 1,
+    "file": "Flag of Negeri Sembilan.svg"
+  },
+  {
+    "qid": "Q4487410",
+    "name": "flag and coat of arms of Pahang",
+    "count": 1,
+    "file": "Flag of Pahang.svg"
+  },
+  {
+    "qid": "Q4488105",
+    "name": "flag and coat of arms of Terengganu",
+    "count": 1,
+    "file": "Flag of Terengganu.svg"
   },
   {
     "qid": "Q4819532",
@@ -1888,6 +1780,12 @@
     "name": "Easy",
     "count": 1,
     "file": "Easy Calama.JPG"
+  },
+  {
+    "qid": "Q5456645",
+    "name": "flag and coat of arms of Johor",
+    "count": 1,
+    "file": "Flag of Johor.svg"
   },
   {
     "qid": "Q5548050",

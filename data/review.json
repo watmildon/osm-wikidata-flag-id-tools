@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-30T19:09:22.149Z",
+  "generated": "2026-05-31T08:42:18.634Z",
   "suggestions": [
     {
       "bad_qid": "Q29",
@@ -14,13 +14,6 @@
       "count": 2,
       "suggested_qid": "Q42537",
       "suggested_name": "flag of the United States of America"
-    },
-    {
-      "bad_qid": "Q32",
-      "bad_name": "Luxembourg",
-      "count": 1,
-      "suggested_qid": "Q133022",
-      "suggested_name": "flag of Luxembourg"
     },
     {
       "bad_qid": "Q38",
@@ -86,32 +79,11 @@
       "suggested_name": "Tallinn flag"
     },
     {
-      "bad_qid": "Q1781",
-      "bad_name": "Budapest",
-      "count": 1,
-      "suggested_qid": "Q851131",
-      "suggested_name": "flag of Budapest"
-    },
-    {
       "bad_qid": "Q1965",
       "bad_name": "New Brunswick",
       "count": 1,
       "suggested_qid": "Q1418784",
       "suggested_name": "flag of New Brunswick"
-    },
-    {
-      "bad_qid": "Q2280",
-      "bad_name": "Minsk",
-      "count": 1,
-      "suggested_qid": "Q2499570",
-      "suggested_name": "flag of Minsk"
-    },
-    {
-      "bad_qid": "Q2841",
-      "bad_name": "Bogotá",
-      "count": 1,
-      "suggested_qid": "Q2578041",
-      "suggested_name": "flag of Bogotá"
     },
     {
       "bad_qid": "Q5720",
@@ -156,11 +128,11 @@
       "suggested_name": "flag of Piauí"
     },
     {
-      "bad_qid": "Q83407",
-      "bad_name": "Mons",
+      "bad_qid": "Q57060",
+      "bad_name": "Sisak-Moslavina County",
       "count": 1,
-      "suggested_qid": "Q122965273",
-      "suggested_name": "flag of Mons"
+      "suggested_qid": "Q124419622",
+      "suggested_name": "Q124419622"
     },
     {
       "bad_qid": "Q95121",
@@ -172,7 +144,7 @@
     {
       "bad_qid": "Q108418",
       "bad_name": "Cook County",
-      "count": 23,
+      "count": 2,
       "suggested_qid": "Q96970847",
       "suggested_name": "flag of Cook County"
     },
@@ -198,39 +170,11 @@
       "suggested_name": "flag of Friuli"
     },
     {
-      "bad_qid": "Q170462",
-      "bad_name": "Sarawak",
-      "count": 1,
-      "suggested_qid": "Q2100376",
-      "suggested_name": "flag of Sarawak"
-    },
-    {
-      "bad_qid": "Q185221",
-      "bad_name": "Malacca",
-      "count": 1,
-      "suggested_qid": "Q4486900",
-      "suggested_name": "flag of Melaka"
-    },
-    {
       "bad_qid": "Q188096",
       "bad_name": "Penang",
-      "count": 2,
+      "count": 1,
       "suggested_qid": "Q4487474",
       "suggested_name": "flag of Penang"
-    },
-    {
-      "bad_qid": "Q188947",
-      "bad_name": "Kedah",
-      "count": 1,
-      "suggested_qid": "Q17335307",
-      "suggested_name": "flag of Kedah"
-    },
-    {
-      "bad_qid": "Q188953",
-      "bad_name": "Perak",
-      "count": 1,
-      "suggested_qid": "Q2600445",
-      "suggested_name": "flag of Perak"
     },
     {
       "bad_qid": "Q190353",
@@ -261,20 +205,6 @@
       "suggested_name": "Q106677780"
     },
     {
-      "bad_qid": "Q245023",
-      "bad_name": "Taichung",
-      "count": 1,
-      "suggested_qid": "Q135992817",
-      "suggested_name": "Flag of Taichung City"
-    },
-    {
-      "bad_qid": "Q598884",
-      "bad_name": "Hilton Hotels & Resorts",
-      "count": 1,
-      "suggested_qid": "Q77795712",
-      "suggested_name": "Hilton flag"
-    },
-    {
       "bad_qid": "Q614274",
       "bad_name": "Anzegem",
       "count": 4,
@@ -287,13 +217,6 @@
       "count": 1,
       "suggested_qid": "Q112118624",
       "suggested_name": "flag of the Episcopal Church"
-    },
-    {
-      "bad_qid": "Q725122",
-      "bad_name": "Laakdal",
-      "count": 6,
-      "suggested_qid": "Q120987559",
-      "suggested_name": "flag of Laakdal"
     },
     {
       "bad_qid": "Q749243",
@@ -317,26 +240,19 @@
       "suggested_name": "flag of Maarkedal"
     },
     {
-      "bad_qid": "Q1864884",
-      "bad_name": "Adjuntas",
-      "count": 1,
-      "suggested_qid": "Q115152080",
-      "suggested_name": "flag of Adjuntas"
-    },
-    {
-      "bad_qid": "Q5456780",
-      "bad_name": "(Wikidata redirect)",
-      "count": 2,
-      "suggested_qid": "Q3633963",
-      "suggested_name": "flag of Milan",
-      "reason": "redirect"
-    },
-    {
       "bad_qid": "Q7970362",
       "bad_name": "Greek Orthodoxy",
       "count": 1,
       "suggested_qid": "Q23925186",
       "suggested_name": "flag of the Greek Orthodox Church"
+    },
+    {
+      "bad_qid": "Q13405065",
+      "bad_name": "(Wikidata redirect)",
+      "count": 1,
+      "suggested_qid": "Q2171778",
+      "suggested_name": "flag of Perlis",
+      "reason": "redirect"
     },
     {
       "bad_qid": "Q18677875",
@@ -366,14 +282,6 @@
       "count": 5,
       "suggested_qid": "Q1788743",
       "suggested_name": "Confederate Battle Flag",
-      "reason": "redirect"
-    },
-    {
-      "bad_qid": "Q106498573",
-      "bad_name": "(Wikidata redirect)",
-      "count": 6,
-      "suggested_qid": "Q30909105",
-      "suggested_name": "Flag of Lyon",
       "reason": "redirect"
     }
   ]
