@@ -10,6 +10,7 @@
     "refresh:nsi": "node scripts/refresh-nsi.mjs",
     "refresh:overpass": "node scripts/refresh-overpass.mjs",
     "refresh:wikidata": "node scripts/refresh-wikidata.mjs",
+    "refresh:p41-p163": "node scripts/refresh-p41-p163.mjs",
     "fetch:descriptions": "node scripts/fetch-wikipedia-descriptions.mjs",
     "merge:overrides": "node scripts/merge-overrides.mjs",
     "serve": "python -m http.server 8000"
