@@ -29,12 +29,12 @@ function thumbUrl(qid) {
   return `flags/thumb/${qid}.png`;
 }
 
-// Overpass-turbo URL that finds every OSM element with flag:wikidata=qid.
-// Same query review.js uses; duplicated here to keep these two pages
-// independently loadable without a shared module.
+// Overpass-turbo URL that finds every OSM element with flag:wikidata=qid,
+// including semicolon-joined values like "Q30;Q1439". Same query review.js
+// and app.js use; duplicated here to keep these pages independently loadable.
 function overpassTurboUrl(qid) {
   const query = `[out:json][timeout:60];
-nwr["flag:wikidata"="${qid}"];
+nwr["flag:wikidata"~"(^|;)${qid}(;|$)"];
 out center meta;`;
   return `https://overpass-turbo.eu/?Q=${encodeURIComponent(query)}&R`;
 }
@@ -339,8 +339,15 @@ async function main() {
     .filter((r) => !coveredByReview.has(r.qid))
     .sort(byCountDesc);
 
+  // Records covered by review.json shouldn't appear in any "fix this entity
+  // on Wikidata" section — the right fix is an OSM retag to the dedicated
+  // flag entity, not editing the (misused) subject entity. E.g. asking
+  // someone to add P18/P462 to Q7809 UNESCO is wrong; the flag image and
+  // colors belong on Q140002971 (flag of UNESCO).
+  const flagsForWdFix = flagsData.flags.filter((f) => !coveredByReview.has(f.qid));
+
   // Section 2: flag records without a P18 image.
-  const noImage = flagsData.flags
+  const noImage = flagsForWdFix
     .filter((f) => !f.file)
     .sort(byCountDesc);
 
@@ -352,7 +359,7 @@ async function main() {
   const wdEmpty = [];
   const mismatch = [];
   const unknown = [];
-  for (const f of flagsData.flags) {
+  for (const f of flagsForWdFix) {
     const w = f.wdColors?.length ?? 0;
     const c = f.colors?.length ?? 0;
     if (w === 0 && c > 0) wdEmpty.push(f);
@@ -363,9 +370,16 @@ async function main() {
   mismatch.sort(byCountDesc);
   unknown.sort(byCountDesc);
 
+  // Hide subjects that already have a P163 → flag entity link. Those don't
+  // need a *new* flag entity created (the flag entity exists); they need OSM
+  // mappers to retag flag:wikidata to point at it, which is what review.html
+  // already surfaces.
+  const missingFiltered = (missingEntities.entries ?? []).filter(
+    (e) => !coveredByReview.has(e.subject_qid)
+  );
   // Sort: highest OSM count first (auto entries carry count; curated entries
   // don't, so they fall to the bottom). Within each group, sort by QID asc.
-  const missing = [...(missingEntities.entries ?? [])].sort((a, b) => {
+  const missing = missingFiltered.sort((a, b) => {
     const diff = (b.count ?? -1) - (a.count ?? -1);
     if (diff !== 0) return diff;
     return (a.subject_qid > b.subject_qid ? 1 : -1);

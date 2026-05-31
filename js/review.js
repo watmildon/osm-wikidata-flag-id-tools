@@ -1,9 +1,10 @@
 function overpassTurboUrl(badQid) {
-  // Query that finds every OSM element where flag:wikidata exactly equals the
-  // bad QID. Mappers can open this in overpass-turbo, see the elements on a
-  // map, edit them, and save.
+  // Query that finds every OSM element where flag:wikidata contains the bad
+  // QID — either as the sole value or as one of several semicolon-joined
+  // values (e.g. "Q30;Q1439"). Anchored with (^|;) and (;|$) so Q1439
+  // doesn't match Q14390 as a prefix.
   const query = `[out:json][timeout:60];
-nwr["flag:wikidata"="${badQid}"];
+nwr["flag:wikidata"~"(^|;)${badQid}(;|$)"];
 out center meta;`;
   return `https://overpass-turbo.eu/?Q=${encodeURIComponent(query)}&R`;
 }

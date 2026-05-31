@@ -19,8 +19,10 @@ const ICON_PENCIL =
   '<path d="m11 2 3 3-8 8H3v-3z"/></svg>';
 
 function overpassTurboUrl(qid) {
+  // Matches both the sole value and semicolon-joined values like "Q30;Q1439".
+  // Anchored with (^|;) / (;|$) so Q1439 doesn't match Q14390 as a prefix.
   const query = `[out:json][timeout:60];
-nwr["flag:wikidata"="${qid}"];
+nwr["flag:wikidata"~"(^|;)${qid}(;|$)"];
 out center meta;`;
   return `https://overpass-turbo.eu/?Q=${encodeURIComponent(query)}&R`;
 }
