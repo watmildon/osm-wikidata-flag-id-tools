@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T21:20:44.548Z",
+  "generated": "2026-06-01T02:38:31.197Z",
   "palette": [
     "red",
     "white",
@@ -459,7 +459,10 @@
         "green",
         "orange",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q5285",
@@ -632,7 +635,10 @@
       ],
       "svgColors": [
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q12745",
@@ -683,7 +689,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q12990",
@@ -718,7 +727,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q13148",
@@ -866,7 +878,10 @@
         "blue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q16994",
@@ -915,7 +930,13 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal",
+        "bird",
+        "coa",
+        "plant",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Pennsylvania",
@@ -925,7 +946,7 @@
         "subject:wikidata": "Q1400"
       },
       "aliases": [],
-      "description": "The flag of the U.S. state of Pennsylvania consists of a blue field on which the state coat of arms is displayed.",
+      "description": "The flag of the U.S. state of Pennsylvania consists of a dark blue field on which the state coat of arms is displayed. Horses flanking the coat of arms and a bald eagle above. \"VIRTUE LIBERTY AND INDEPENDENCE\" on a banner below.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -935,7 +956,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q18993",
@@ -944,17 +968,15 @@
       "file": "Flag of Virginia.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "brown",
         "darkblue",
-        "gray",
         "green",
         "lightblue",
-        "orange",
-        "purple",
         "red",
         "white",
-        "yellow"
+        "yellow",
+        "purple",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -980,7 +1002,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q19000",
@@ -989,9 +1014,9 @@
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "red",
-        "white"
+        "white",
+        "darkblue"
       ],
       "icons": [
         "star",
@@ -1013,7 +1038,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q19016",
@@ -1023,14 +1051,11 @@
       "isFlagEntity": true,
       "colors": [
         "black",
-        "blue",
         "brown",
         "darkblue",
         "gray",
         "green",
         "lightblue",
-        "orange",
-        "pink",
         "red",
         "white",
         "yellow"
@@ -1061,7 +1086,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q19373",
@@ -1070,7 +1098,6 @@
       "file": "Flag of South Carolina.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "white"
       ],
@@ -1092,7 +1119,10 @@
       "svgColors": [
         "darkblue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q19374",
@@ -1101,11 +1131,7 @@
       "file": "Flag of Louisiana.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "brown",
         "darkblue",
-        "gray",
-        "orange",
         "red",
         "white",
         "yellow"
@@ -1131,7 +1157,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q19379",
@@ -1140,12 +1169,11 @@
       "file": "Flag of North Carolina.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "blue",
         "darkblue",
         "red",
         "white",
-        "yellow"
+        "yellow",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -1170,7 +1198,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q19427",
@@ -1179,10 +1210,15 @@
       "file": "Flag of Oregon.svg",
       "isFlagEntity": true,
       "colors": [
-        "purple",
-        "yellow"
+        "yellow",
+        "darkblue"
       ],
-      "icons": [],
+      "icons": [
+        "animal",
+        "bird",
+        "plant",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Oregon",
@@ -1197,7 +1233,10 @@
       "svgColors": [
         "purple",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q23178",
@@ -1254,8 +1293,6 @@
       "file": "Flag of Georgia.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "brown",
         "red",
         "white"
       ],
@@ -1279,7 +1316,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q27389",
@@ -1405,7 +1445,6 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "orange",
         "red",
         "yellow"
       ],
@@ -1430,7 +1469,10 @@
         "blue",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q34494",
@@ -1585,7 +1627,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q36008",
@@ -1675,7 +1720,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q41470",
@@ -1714,7 +1762,7 @@
         "orange",
         "white",
         "green",
-        "blue"
+        "darkblue"
       ],
       "icons": [
         "circle"
@@ -1741,7 +1789,10 @@
         "orange",
         "purple",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q42436",
@@ -1774,7 +1825,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q42537",
@@ -1785,7 +1839,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "icons": [
         "star",
@@ -1811,7 +1865,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q42722",
@@ -1863,7 +1920,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q43175",
@@ -1896,7 +1956,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q43192",
@@ -1905,9 +1968,9 @@
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "white",
-        "red"
+        "red",
+        "darkblue"
       ],
       "icons": [
         "vertical-stripes"
@@ -1932,7 +1995,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q44294",
@@ -2067,7 +2133,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q46835",
@@ -2098,7 +2167,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q47465",
@@ -2172,7 +2244,10 @@
       "svgColors": [
         "darkblue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q48160",
@@ -2208,7 +2283,10 @@
         "black",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q48268",
@@ -2257,7 +2335,10 @@
       "svgColors": [
         "black",
         "red"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q49768",
@@ -2315,7 +2396,10 @@
         "purple",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q51403",
@@ -2703,7 +2787,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q61757",
@@ -2810,7 +2897,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q79709",
@@ -2856,7 +2946,10 @@
       ],
       "svgColors": [
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q80110",
@@ -2889,7 +2982,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q80987",
@@ -2938,7 +3034,10 @@
       "svgColors": [
         "darkblue",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q81471",
@@ -2971,7 +3070,10 @@
       "svgColors": [
         "blue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q81477",
@@ -2984,7 +3086,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Lithuania",
@@ -3005,7 +3109,10 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q81526",
@@ -3054,9 +3161,9 @@
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "red",
-        "white"
+        "white",
+        "darkblue"
       ],
       "icons": [
         "star",
@@ -3083,7 +3190,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q81952",
@@ -3117,7 +3227,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q81970",
@@ -3153,7 +3266,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q82194",
@@ -3162,7 +3278,6 @@
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "green",
         "white",
@@ -3191,7 +3306,10 @@
         "green",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q82205",
@@ -3225,7 +3343,10 @@
         "green",
         "orange",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q82236",
@@ -3262,7 +3383,10 @@
         "lightblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q83149",
@@ -3273,7 +3397,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "icons": [
         "cross"
@@ -3298,7 +3422,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q83278",
@@ -3309,7 +3436,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "icons": [
         "cross"
@@ -3334,7 +3461,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q83392",
@@ -3368,7 +3498,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q83618",
@@ -3394,7 +3527,6 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "darkblue",
         "red",
         "white"
       ],
@@ -3419,7 +3551,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q93347",
@@ -3500,7 +3635,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q101769",
@@ -3637,7 +3775,10 @@
       "svgColors": [
         "blue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q102939",
@@ -3667,7 +3808,10 @@
       "svgColors": [
         "darkblue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q102944",
@@ -3773,7 +3917,10 @@
       "svgColors": [
         "green",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q102967",
@@ -4110,7 +4257,6 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "darkblue",
         "red",
         "white"
       ],
@@ -4135,7 +4281,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q103070",
@@ -4321,7 +4470,10 @@
         "black",
         "darkblue",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q104969",
@@ -4577,7 +4729,11 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "yellow"
+        "yellow",
+        "pink",
+        "gray",
+        "blue",
+        "green"
       ],
       "icons": [
         "coa"
@@ -4608,7 +4764,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q122462",
@@ -4619,7 +4778,9 @@
       "colors": [
         "green",
         "white",
-        "red"
+        "red",
+        "brown",
+        "yellow"
       ],
       "icons": [
         "coa"
@@ -4650,7 +4811,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q122482",
@@ -4682,7 +4846,10 @@
       "svgColors": [
         "blue",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q123209",
@@ -4731,7 +4898,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q124329",
@@ -4798,7 +4968,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q127155",
@@ -4807,7 +4980,6 @@
       "file": "Flag of the Czech Republic.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white"
@@ -4833,7 +5005,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q127179",
@@ -4864,7 +5039,10 @@
       "svgColors": [
         "green",
         "red"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q127296",
@@ -4903,7 +5081,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q127974",
@@ -4936,7 +5117,10 @@
       "svgColors": [
         "blue",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q128347",
@@ -4967,7 +5151,10 @@
       "svgColors": [
         "green",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q128480",
@@ -4997,7 +5184,10 @@
       "svgColors": [
         "blue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q128812",
@@ -5008,7 +5198,9 @@
       "colors": [
         "green",
         "white",
-        "red"
+        "red",
+        "yellow",
+        "black"
       ],
       "icons": [
         "coa"
@@ -5036,7 +5228,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q129132",
@@ -5070,7 +5265,10 @@
       "svgColors": [
         "blue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q129391",
@@ -5150,7 +5348,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q130458",
@@ -5186,7 +5387,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q130481",
@@ -5255,7 +5459,10 @@
         "lightblue",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q130807",
@@ -5293,7 +5500,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q130811",
@@ -5327,7 +5537,10 @@
         "darkblue",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q131147",
@@ -5360,7 +5573,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q131204",
@@ -5391,7 +5607,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q131262",
@@ -5440,7 +5659,10 @@
         "black",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q131650",
@@ -5471,7 +5693,10 @@
       "svgColors": [
         "lightblue",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q132633",
@@ -5505,7 +5730,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q133015",
@@ -5514,10 +5742,8 @@
       "file": "Flag of Croatia.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "blue",
         "lightblue",
-        "purple",
         "red",
         "white",
         "yellow"
@@ -5548,7 +5774,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q133022",
@@ -5582,7 +5811,10 @@
         "lightblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q134247",
@@ -5618,7 +5850,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q134252",
@@ -5729,7 +5964,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q134874",
@@ -5763,7 +6001,10 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q134885",
@@ -5774,7 +6015,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "icons": [
         "horizontal-stripes"
@@ -5798,7 +6039,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q134933",
@@ -5909,7 +6153,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q148002",
@@ -6004,7 +6251,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q150907",
@@ -6083,7 +6333,6 @@
       "file": "Flag of Alaska.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "yellow"
       ],
@@ -6105,7 +6354,10 @@
       "svgColors": [
         "darkblue",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q159380",
@@ -6233,7 +6485,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "square",
       "flagType": "national",
       "flagName": "Monaco",
@@ -6283,7 +6537,10 @@
       "svgColors": [
         "green",
         "red"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q159872",
@@ -6489,7 +6746,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q160255",
@@ -6499,7 +6759,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "white"
+        "white",
+        "green"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6520,7 +6781,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q160260",
@@ -6529,9 +6793,9 @@
       "file": "Flag of New Zealand.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "red",
-        "white"
+        "white",
+        "darkblue"
       ],
       "icons": [
         "cross",
@@ -6558,7 +6822,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q160425",
@@ -6567,7 +6834,6 @@
       "file": "Flag of Colombia.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "yellow"
@@ -6593,7 +6859,10 @@
         "darkblue",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q160570",
@@ -6655,7 +6924,6 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "darkblue",
         "red",
         "white"
       ],
@@ -6680,7 +6948,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q160872",
@@ -6717,7 +6988,10 @@
         "blue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q160877",
@@ -6748,7 +7022,10 @@
       "svgColors": [
         "green",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q162033",
@@ -6782,7 +7059,10 @@
         "blue",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q162068",
@@ -6796,7 +7076,11 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "circle",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Ethiopia",
@@ -6891,7 +7175,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q162789",
@@ -6922,7 +7209,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q162980",
@@ -6995,7 +7285,10 @@
         "red",
         "white"
       ],
-      "description": "Three horizontal bands of blue (top), red (middle, double width), and blue, with a white silhouette of the three-towered Angkor Wat temple centered on the red band."
+      "description": "Three horizontal bands of blue (top), red (middle, double width), and blue, with a white silhouette of the three-towered Angkor Wat temple centered on the red band.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q163008",
@@ -7029,7 +7322,10 @@
         "blue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q163333",
@@ -7100,7 +7396,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q163832",
@@ -7109,10 +7408,10 @@
       "file": "Flag of Serbia.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "red",
         "white",
-        "yellow"
+        "yellow",
+        "darkblue"
       ],
       "icons": [
         "coa",
@@ -7141,7 +7440,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q164584",
@@ -7151,7 +7453,6 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "lightblue",
         "red",
         "yellow"
       ],
@@ -7176,7 +7477,10 @@
         "blue",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q165230",
@@ -7266,7 +7570,6 @@
       "file": "Flag of Venezuela.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white",
@@ -7295,7 +7598,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q165542",
@@ -7383,7 +7689,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q165550",
@@ -7482,7 +7791,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q165775",
@@ -7674,7 +7986,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q167119",
@@ -7705,7 +8020,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q167584",
@@ -7864,7 +8182,6 @@
       "isFlagEntity": true,
       "colors": [
         "black",
-        "brown",
         "gray",
         "green",
         "lightblue",
@@ -7906,8 +8223,8 @@
       "colors": [
         "red",
         "white",
-        "blue",
-        "yellow"
+        "yellow",
+        "darkblue"
       ],
       "icons": [
         "star",
@@ -7935,7 +8252,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q168941",
@@ -7944,7 +8264,6 @@
       "file": "Flag of Panama.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white"
@@ -7970,7 +8289,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q169192",
@@ -8159,7 +8481,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q170289",
@@ -8168,12 +8493,9 @@
       "file": "Flag of Costa Rica (state).svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "blue",
-        "brown",
         "green",
         "lightblue",
-        "purple",
         "red",
         "white",
         "yellow"
@@ -8205,7 +8527,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q170465",
@@ -8339,7 +8664,10 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "plant",
+        "triangle"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Eritrea",
@@ -8508,7 +8836,10 @@
         "brown",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q171117",
@@ -8608,7 +8939,10 @@
       "svgColors": [
         "lightblue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q172517",
@@ -8642,7 +8976,10 @@
         "black",
         "green",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q172530",
@@ -8651,7 +8988,8 @@
       "file": "Flag of Qatar.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "white",
+        "red"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8670,7 +9008,10 @@
       ],
       "svgColors": [
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q172533",
@@ -8792,7 +9133,10 @@
         "purple",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q173548",
@@ -8839,14 +9183,8 @@
       "file": "Flag of El Salvador.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "blue",
-        "darkblue",
         "green",
-        "lightblue",
-        "orange",
-        "purple",
-        "red",
         "white",
         "yellow"
       ],
@@ -8877,7 +9215,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q174487",
@@ -8927,13 +9268,9 @@
       "file": "Flag of Guatemala.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "brown",
-        "gray",
         "green",
         "lightblue",
-        "purple",
-        "red",
         "white",
         "yellow"
       ],
@@ -8963,7 +9300,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q179383",
@@ -9236,13 +9576,10 @@
       "file": "Flag of the Dominican Republic.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "blue",
         "darkblue",
         "green",
         "red",
-        "white",
-        "yellow"
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -9268,7 +9605,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q184268",
@@ -9331,7 +9671,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q184584",
@@ -9453,7 +9796,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q185277",
@@ -9569,7 +9915,6 @@
       "file": "Flag of the Isle of Man.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "red",
         "white",
         "yellow"
@@ -9596,7 +9941,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q186456",
@@ -9950,7 +10298,9 @@
         "lightblue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Federated States of Micronesia",
@@ -10544,8 +10894,6 @@
       "file": "Flag of Massachusetts.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "blue",
         "darkblue",
         "white",
         "yellow"
@@ -10568,7 +10916,10 @@
         "darkblue",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q224972",
@@ -10636,7 +10987,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q232591",
@@ -10730,7 +11084,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q235829",
@@ -10819,10 +11176,8 @@
       "isFlagEntity": true,
       "colors": [
         "black",
-        "brown",
         "darkblue",
         "gray",
-        "green",
         "red",
         "white",
         "yellow"
@@ -10848,7 +11203,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q241781",
@@ -10994,15 +11352,12 @@
       "file": "Flag of New Hampshire.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "blue",
         "brown",
         "darkblue",
-        "gray",
         "green",
-        "red",
         "white",
-        "yellow"
+        "yellow",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11070,14 +11425,10 @@
       "file": "Flag of Oklahoma.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "blue",
         "brown",
         "green",
         "lightblue",
-        "purple",
-        "white",
-        "yellow"
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -11102,7 +11453,10 @@
         "purple",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q266230",
@@ -11538,7 +11892,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q331397",
@@ -11595,7 +11952,6 @@
       "file": "Flag of Arkansas.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white"
@@ -11620,7 +11976,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q379118",
@@ -11629,14 +11988,14 @@
       "file": "Flag of Friuli-Venezia Giulia.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "blue",
         "gray",
-        "green",
-        "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "building",
+        "bird"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Friuli-Venezia Giulia",
@@ -11652,7 +12011,7 @@
         "white",
         "yellow"
       ],
-      "description": "A blue field bearing a centered yellow eagle with wings spread, standing on a grey stone wall (representation of the historical castle of Udine)."
+      "description": "A blue field bearing a centered yellow bird with wings spread, standing on a grey stone wall (representation of the historical castle of Udine)."
     },
     {
       "qid": "Q381988",
@@ -11661,13 +12020,15 @@
       "file": "Flag of Yugoslavia (1946-1992).svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
-        "darkblue",
         "red",
         "white",
-        "yellow"
+        "yellow",
+        "blue"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Yugoslavia (socialist and democracy eras)",
@@ -11696,17 +12057,17 @@
       "isFlagEntity": true,
       "colors": [
         "black",
-        "blue",
-        "brown",
         "darkblue",
-        "gray",
         "green",
         "lightblue",
         "red",
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "cross",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Queensland",
@@ -11804,7 +12165,10 @@
       "svgColors": [
         "blue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q397826",
@@ -11954,7 +12318,10 @@
       "svgColors": [
         "darkblue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q460072",
@@ -11963,7 +12330,6 @@
       "file": "Infobox Commonwealth of Nations flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "darkblue",
         "yellow"
       ],
@@ -12014,10 +12380,10 @@
       "file": "Torres Strait Flag Day 2021 - 51222675210.jpg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "green",
         "white",
-        "black"
+        "black",
+        "darkblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12036,7 +12402,10 @@
         "white",
         "black"
       ],
-      "localFile": "Q462621.svg"
+      "localFile": "Q462621.svg",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q462799",
@@ -12099,7 +12468,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q483774",
@@ -12136,7 +12508,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q483942",
@@ -12312,7 +12687,6 @@
       "file": "Flag of Iowa.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "brown",
         "darkblue",
         "red",
@@ -12336,7 +12710,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q492546",
@@ -12345,7 +12722,6 @@
       "file": "Flag of Colorado.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white",
@@ -12373,7 +12749,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q494305",
@@ -12471,7 +12850,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q499127",
@@ -13169,16 +13551,10 @@
       "file": "Flag of Kentucky.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "blue",
-        "brown",
-        "gray",
         "green",
-        "lightblue",
-        "orange",
-        "purple",
         "white",
-        "yellow"
+        "yellow",
+        "darkblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13208,7 +13584,10 @@
         "purple",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q592576",
@@ -13479,7 +13858,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q608137",
@@ -13646,7 +14028,10 @@
         "red",
         "yellow"
       ],
-      "description": "Alternating vertical stripes of yellow and red."
+      "description": "Alternating vertical stripes of yellow and red.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q619799",
@@ -13742,11 +14127,10 @@
       "file": "Flag of Arizona.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
-        "brown",
         "darkblue",
         "red",
-        "yellow"
+        "yellow",
+        "orange"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -13769,7 +14153,10 @@
         "darkblue",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q633087",
@@ -13881,7 +14268,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q642998",
@@ -13911,7 +14301,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q645967",
@@ -14019,7 +14412,10 @@
       "svgColors": [
         "darkblue",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q674311",
@@ -14044,7 +14440,6 @@
       "file": "Flag of the State of Georgia.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white",
@@ -14072,7 +14467,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q679119",
@@ -14277,7 +14675,9 @@
         "green",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Sachsen",
@@ -14476,7 +14876,10 @@
       "svgColors": [
         "lightblue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q730106",
@@ -14488,7 +14891,6 @@
         "brown",
         "green",
         "lightblue",
-        "orange",
         "red",
         "white",
         "yellow"
@@ -14516,7 +14918,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q731163",
@@ -14549,7 +14954,10 @@
         "lightblue",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q734071",
@@ -14558,13 +14966,17 @@
       "file": "Flag of Nebraska.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "darkblue",
         "gray",
-        "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "people",
+        "plant",
+        "circle",
+        "building"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Nebraska",
@@ -14582,7 +14994,10 @@
         "gray",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q736625",
@@ -14613,7 +15028,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q736760",
@@ -14736,8 +15154,6 @@
       "file": "Flag of Missouri.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "blue",
         "brown",
         "darkblue",
         "green",
@@ -14766,7 +15182,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q752559",
@@ -14777,7 +15196,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "icons": [
         "circle",
@@ -14800,7 +15219,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q752562",
@@ -14901,7 +15323,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q752573",
@@ -14958,7 +15383,8 @@
         "blue",
         "yellow",
         "green",
-        "red"
+        "red",
+        "gray"
       ],
       "icons": [
         "text",
@@ -14989,7 +15415,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q760401",
@@ -14998,10 +15427,7 @@
       "file": "Flag of Andalucía.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "gray",
         "green",
-        "orange",
         "white",
         "yellow"
       ],
@@ -15027,7 +15453,10 @@
         "orange",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q763140",
@@ -15190,7 +15619,12 @@
       "count": 37,
       "file": "Infobox ASEAN flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "blue",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "governmental",
@@ -15202,7 +15636,10 @@
       },
       "aliases": [],
       "description": "The Flag of the Association of Southeast Asian Nations or the ASEAN Flag is one of the official symbols of the Association of Southeast Asian Nations (ASEAN). It consists of the official emblem of ASEAN on a blue background.",
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q783961",
@@ -15429,7 +15866,10 @@
         "darkblue",
         "lightblue",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q830262",
@@ -15438,8 +15878,6 @@
       "file": "POL Gdańsk flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "gray",
         "red",
         "white",
         "yellow"
@@ -15459,7 +15897,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q836961",
@@ -15647,7 +16088,8 @@
       "flagName": "Budapest",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A white field bearing the Budapest coat of arms centered — a quartered red shield ensigned with the Hungarian Holy Crown, supported by two golden lions. The top and bottom edges of the flag are bordered by a row of alternating red and green triangles (a stylized Hungarian Árpád motif)."
     },
     {
       "qid": "Q857107",
@@ -15866,7 +16308,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A first-pattern Confederate States flag: three equal horizontal bands of red, white, and red, with a blue canton at the upper hoist bearing a ring of white five-pointed stars."
     },
     {
       "qid": "Q913903",
@@ -15992,10 +16435,8 @@
       "file": "Flag of Galicia.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "blue",
         "gray",
-        "green",
         "lightblue",
         "red",
         "white",
@@ -16026,7 +16467,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q939115",
@@ -16362,8 +16806,6 @@
       "file": "Flag of New South Wales.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "blue",
         "darkblue",
         "red",
         "white",
@@ -16392,7 +16834,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1073663",
@@ -16476,7 +16921,6 @@
       "file": "Christian flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white"
@@ -16501,7 +16945,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1087030",
@@ -16693,7 +17140,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1130142",
@@ -16704,7 +17154,6 @@
       "colors": [
         "blue",
         "orange",
-        "purple",
         "red",
         "white",
         "yellow"
@@ -16733,7 +17182,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1131266",
@@ -16821,8 +17273,6 @@
       "file": "Flag of Ontario.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "blue",
         "darkblue",
         "green",
         "red",
@@ -16854,7 +17304,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1191401",
@@ -17024,7 +17477,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1302227",
@@ -17285,7 +17741,10 @@
         "lightblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1402967",
@@ -17409,7 +17868,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1426379",
@@ -17742,7 +18204,10 @@
       "svgColors": [
         "black",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1471238",
@@ -17767,7 +18232,8 @@
         "black",
         "red",
         "white"
-      ]
+      ],
+      "description": "A shield (Frankenrechen / Franconian Rake) divided horizontally: the upper half red, the lower half white, separated by a jagged line of three sharp white peaks rising into the red."
     },
     {
       "qid": "Q1502989",
@@ -17919,7 +18385,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1759664",
@@ -17960,8 +18429,6 @@
       "file": "North Virginia Third Bunting.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
-        "blue",
         "darkblue",
         "red",
         "white"
@@ -17990,7 +18457,10 @@
         "red",
         "white"
       ],
-      "description": "A square red field bearing a blue saltire (diagonal cross) edged in white, with thirteen white five-pointed stars arranged along the saltire's arms."
+      "description": "A square red field bearing a blue saltire (diagonal cross) edged in white, with thirteen white five-pointed stars arranged along the saltire's arms.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1814260",
@@ -18138,7 +18608,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1882506",
@@ -18684,7 +19157,8 @@
       "flagName": "Sarawak",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A yellow field crossed diagonally from upper hoist to lower fly by two parallel bands — a red band over a black band. Centered on the bands is a nine-pointed yellow star."
     },
     {
       "qid": "Q2124886",
@@ -18986,7 +19460,8 @@
       "extraTags": {},
       "aliases": [
         "Q13405065"
-      ]
+      ],
+      "description": "Two equal horizontal bands of yellow (top) and blue."
     },
     {
       "qid": "Q2191442",
@@ -19716,7 +20191,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Quartered: upper hoist and lower fly are blue with three yellow fleurs-de-lis (two over one); upper fly and lower hoist are bendy blue and yellow (alternating diagonal stripes). The entire flag is bordered by a checked pattern of red and white."
     },
     {
       "qid": "Q2390910",
@@ -19955,12 +20431,17 @@
         "brown",
         "green",
         "lightblue",
-        "pink",
         "red",
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "people",
+        "sun",
+        "plant",
+        "text",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "San Juan Province, Argentina",
@@ -20010,7 +20491,8 @@
       "flagName": "Minsk",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field bearing a central figure of the Virgin Mary in red and dark blue robes, standing on a white cloud, flanked by four kneeling angels in white robes with halos and outstretched wings."
     },
     {
       "qid": "Q2500754",
@@ -20110,7 +20592,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A yellow field bearing a red Burgundy saltire centered — a diagonal X-shape with jagged, ragged edges resembling pruned tree branches. Centered over the saltire, a gold ducal crown set with green and red gemstones."
     },
     {
       "qid": "Q2533519",
@@ -20306,7 +20789,8 @@
       "flagName": "Perak",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Three equal horizontal bands of white, yellow, and black."
     },
     {
       "qid": "Q2616924",
@@ -20451,7 +20935,8 @@
         "lightblue",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Two horizontal bands: light blue above, dark blue and white wavy stripes below representing the sea. Centered over the horizon is a stylized scene of a snow-capped brown mountain backed by a yellow rising sun with rays; four small white five-pointed stars sit in the upper sky beside the mountain."
     },
     {
       "qid": "Q2635320",
@@ -20482,7 +20967,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three horizontal bands: red (top), yellow (narrow center stripe), red below. A white camel with a yellow saddle stands centered on the flag, straddling all three bands."
     },
     {
       "qid": "Q2635524",
@@ -20505,7 +20991,8 @@
       "svgColors": [
         "lightblue",
         "white"
-      ]
+      ],
+      "description": "A solid teal-blue field bearing a stylized white outline map of Sakhalin Island (vertical, at the hoist) and the Kuril Islands (chain extending to the fly)."
     },
     {
       "qid": "Q2635764",
@@ -20540,7 +21027,8 @@
         "orange",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field bearing a light blue saltire (diagonal cross from corner to corner); centered over the saltire, the Arkhangelsk coat of arms — a small shield ensigned by an imperial crown and wreathed by golden oak leaves, the shield itself depicting the Archangel Michael."
     },
     {
       "qid": "Q2660409",
@@ -20567,7 +21055,8 @@
       "svgColors": [
         "darkblue",
         "yellow"
-      ]
+      ],
+      "description": "A blue field bearing a centered yellow sun in the Vergina Star style — sixteen sharp triangular rays radiating from a central disc."
     },
     {
       "qid": "Q2661050",
@@ -20654,7 +21143,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Calgary",
@@ -20808,7 +21300,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A yellow field bearing a red rampant lion centered within a red double-line rectangular border (tressure) decorated with red fleurs-de-lis at the corners and along the sides."
     },
     {
       "qid": "Q2745472",
@@ -20867,7 +21360,8 @@
         "lightblue",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A light blue field with white zigzag lines along the top edge (mountains) and white wavy lines along the bottom edge (waves). Centered, a dark blue cogwheel containing a stylized white sluice gate and a vertical yellow wheat sheaf, with a yellow sun rising behind."
     },
     {
       "qid": "Q2777623",
@@ -20923,7 +21417,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A swallow-tail flag, hoist half a red rectangle bearing a white eagle with crown and wings spread; fly half white with a swallow-tail cut."
     },
     {
       "qid": "Q2797535",
@@ -20954,7 +21449,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of white (top) and red, with the Tyrolean coat of arms centered over both bands — a white shield bearing a red eagle with golden talons and a stylized crown-like crest on its head."
     },
     {
       "qid": "Q2843145",
@@ -21007,10 +21503,10 @@
       "file": "Flag of Acadia.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
         "red",
         "white",
-        "yellow"
+        "yellow",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21069,7 +21565,8 @@
         "gray",
         "red",
         "white"
-      ]
+      ],
+      "description": "A light blue field with the British Union Jack in the canton at the upper hoist. A dark blue Scandinavian-style cross divides the field. In the fly quarter, the five white stars of the Southern Cross constellation; in the lower hoist quarter, a single seven-pointed white Commonwealth star."
     },
     {
       "qid": "Q2902319",
@@ -21102,7 +21599,8 @@
         "purple",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with a central white rectangle (panel) bearing the City of Edmonton coat of arms — a shield with a sunburst, river bend, and crown — above the text \"THE CITY OF EDMONTON\". A purple banner across the shield reads \"INDUSTRY · INTEGRITY · PROGRESS\"."
     },
     {
       "qid": "Q2914899",
@@ -21211,7 +21709,8 @@
         "green",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Divided diagonally by a curved white band sweeping from upper hoist to lower fly: upper-hoist triangle blue, lower-fly triangle yellow. Centered on the white band, a circular medallion containing the Winnipeg coat of arms (white flower, brown castle gate, blue scroll reading \"UNUM CUM VIRTUTE MULTORUM\") within a blue ring labeled \"CITY OF WINNIPEG\"."
     },
     {
       "qid": "Q2925147",
@@ -21321,7 +21820,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A solid red field bearing the Krasnoyarsk Krai coat of arms centered — a small shield with a rampant golden lion holding a shovel and sickle, surmounted by a golden crown and wreathed in golden oak and cedar branches with a blue ribbon."
     },
     {
       "qid": "Q3038991",
@@ -21372,7 +21872,8 @@
         "black",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A field divided into vertical stripes of yellow and black in alternating jagged shapes (Maryland-style Calvert quartering), with a black-bordered yellow shield centered containing the gray Battle Monument of Baltimore."
     },
     {
       "qid": "Q3039014",
@@ -21399,7 +21900,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with two large red triangles (mountains) rising from the lower edge, edged in white. Above the mountains, a yellow disc (sun) on the blue sky."
     },
     {
       "qid": "Q3039025",
@@ -21558,7 +22060,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "Three equal horizontal bands of green (top), white, and red."
     },
     {
       "qid": "Q3039109",
@@ -21567,7 +22070,6 @@
       "file": "Flag of Normandie.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "darkblue",
         "red",
         "yellow"
@@ -21589,7 +22091,10 @@
         "darkblue",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q3054668",
@@ -21791,7 +22296,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three equal horizontal bands of red, yellow, and purple, with the coat of arms of the Spanish Republic centered on the yellow band (a quartered shield supported by two columns with crown above)."
     },
     {
       "qid": "Q3352503",
@@ -21820,7 +22326,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Quartered: upper hoist and lower fly are white with a red cross of Saint George; upper fly and lower hoist are paly of yellow and red (alternating vertical yellow and red stripes — the Senyera)."
     },
     {
       "qid": "Q3434487",
@@ -21865,7 +22372,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three equal horizontal bands of red, white, and blue, with the coat of arms of Herzeg-Bosnia centered on the white band — a small red-and-white checked shield bordered in gold, ensigned by a gold crown."
     },
     {
       "qid": "Q3447158",
@@ -21894,7 +22402,8 @@
         "purple",
         "red",
         "white"
-      ]
+      ],
+      "description": "Three equal vertical stripes of red, white, and blue. Centered on the white stripe, a red-bordered white shield reading \"CLEVELAND\" above the year \"1796\" in a wreath, with the motto \"PROGRESS & PROSPERITY\" on a banner below."
     },
     {
       "qid": "Q3462972",
@@ -21961,7 +22470,8 @@
         "purple",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Seven equal horizontal bands of the rainbow — red, orange, yellow, green, light blue, blue, and purple — bearing a centered gold Inca sun disc with an anthropomorphic face."
     },
     {
       "qid": "Q3516951",
@@ -22018,7 +22528,8 @@
         "black",
         "red",
         "white"
-      ]
+      ],
+      "description": "A heraldic shield bendy of red and white — four diagonal stripes running from upper-left to lower-right, alternating red and white."
     },
     {
       "qid": "Q3633963",
@@ -22079,7 +22590,8 @@
         "green",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A green field with a green vertical stripe at the hoist bearing a yellow upright spear flanked by two yellow swords; the fly extends as two white triangular tongues (pennant tips) edged in green."
     },
     {
       "qid": "Q3873184",
@@ -22231,7 +22743,8 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "description": "Two horizontal bands, red (top, larger) and green (bottom). Centered straddling the divide, a yellow naval cannon on a wheeled wooden carriage facing the hoist, flanked by two stacked pyramids of black cannonballs."
     },
     {
       "qid": "Q4486181",
@@ -22284,7 +22797,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field bearing a white emblem centered: a horizontal crescent supporting a five-pointed star flanked by two crossed kris (wavy daggers) and two upright spears."
     },
     {
       "qid": "Q4486662",
@@ -22346,7 +22860,8 @@
       "flagName": "Melaka",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a gold heraldic emblem at the upper hoist: a wreath of grain encircling a small shield (yellow with red horizontal stripes); above the shield, a green crescent."
     },
     {
       "qid": "Q4487042",
@@ -22362,7 +22877,8 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "description": "A light blue field with a stylized yellow ancient sailing ship (with red and green sails) centered above a white wavy band along the lower edge representing water."
     },
     {
       "qid": "Q4487085",
@@ -22378,7 +22894,8 @@
       "flagName": "flag and coat of arms of Negeri Sembilan",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of red over white, with a blue canton at the upper hoist bearing a yellow crescent and a yellow five-pointed star."
     },
     {
       "qid": "Q4487278",
@@ -22407,7 +22924,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical stripes of red, white, and yellow, with the Odesa coat of arms centered on the white stripe — a red shield bearing a white anchor, ensigned with a silver mural crown and bordered by an orange decorative frame."
     },
     {
       "qid": "Q4487351",
@@ -22423,7 +22941,8 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "description": "A green field with a white saltire (X-shaped cross) extending corner to corner, dividing the field into four green triangles."
     },
     {
       "qid": "Q4487410",
@@ -22439,7 +22958,8 @@
       "flagName": "flag and coat of arms of Pahang",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A yellow field with a black right triangle in the upper hoist quarter, edged along its hypotenuse by a red triangle."
     },
     {
       "qid": "Q4487474",
@@ -22470,7 +22990,8 @@
         "green",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical stripes of blue, white, and yellow; centered on the white stripe is a green coconut palm tree growing from a small green hillock."
     },
     {
       "qid": "Q4487638",
@@ -22530,7 +23051,8 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "description": "A green field with a vertical blue stripe down the center. Over the stripe, a yellow falcon stands with wings spread atop a horizontal scroll of white paper or fabric."
     },
     {
       "qid": "Q4488105",
@@ -22546,7 +23068,8 @@
       "flagName": "flag and coat of arms of Terengganu",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Two equal horizontal bands of white (top) and black."
     },
     {
       "qid": "Q4488234",
@@ -22569,7 +23092,8 @@
       "svgColors": [
         "green",
         "white"
-      ]
+      ],
+      "description": "A yellow field with a horizontal white wall of crenellated bricks across the upper portion (with rounded battlements). A yellow Bactrian camel with a yellow saddle stands centered on the wall; the field below the wall is green."
     },
     {
       "qid": "Q4488270",
@@ -22602,7 +23126,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A solid green field with the city coat of arms centered: a green shield bordered yellow containing a yellow cornucopia spilling fruit and flowers, with a caduceus (winged staff with two serpents) crossed behind it."
     },
     {
       "qid": "Q4490372",
@@ -22633,7 +23158,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A red field with a wide yellow horizontal stripe across the center. A white camel with a yellow saddle stands centered on the flag, straddling all three areas."
     },
     {
       "qid": "Q4490389",
@@ -22664,7 +23190,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field bordered top and bottom by horizontal yellow stripes. Centered, a black double-headed eagle with a small red shield on its chest, a yellow scepter, and a yellow crown above."
     },
     {
       "qid": "Q4696942",
@@ -22898,7 +23425,8 @@
       "flagName": "flag and coat of arms of Johor",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A black field with a white crescent enclosing a white five-pointed star, centered."
     },
     {
       "qid": "Q5456649",
@@ -23037,7 +23565,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical stripes of blue, white, and red. Centered on the white stripe, a shield containing three green hills with a yellow star above, crossed by gold swords."
     },
     {
       "qid": "Q5456707",
@@ -23094,13 +23623,16 @@
       "file": "Flag of Buffalo, New York.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "sun",
+        "star",
+        "circle"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Buffalo, New York",
       "flagTypeSample": null,
       "extraTags": {},
@@ -23231,7 +23763,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A yellow field bearing a white Scandinavian-style cross fimbriated in red — the cross offset toward the hoist."
     },
     {
       "qid": "Q5456750",
@@ -23346,7 +23879,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with a grey diagonal band running from lower hoist to upper fly. At the upper hoist over the diagonal, a circular seal: \"CITY OF LAS VEGAS / NEVADA\" around a stylized desert-city emblem."
     },
     {
       "qid": "Q5456771",
@@ -23433,7 +23967,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field with a white canton at the upper hoist containing a green pine tree."
     },
     {
       "qid": "Q5456787",
@@ -23510,7 +24045,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical stripes of blue, yellow, and blue, with the Philadelphia coat of arms centered on the yellow stripe — a shield with a ship and plough supported by two female figures, above a banner reading \"PHILADELPHIA MANETO\"."
     },
     {
       "qid": "Q5456801",
@@ -23559,7 +24095,8 @@
         "green",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A green field with a stylized white-on-yellow-on-blue Scandinavian-style cross (concentric layered cross: green-yellow-blue-white) extending to the edges."
     },
     {
       "qid": "Q5456811",
@@ -23591,7 +24128,9 @@
       "flagName": "Seattle",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "localFile": "Q5456822.svg",
+      "description": "A teal field bearing a centered white silhouette portrait of Chief Seattle in profile, facing the hoist."
     },
     {
       "qid": "Q5456835",
@@ -23617,7 +24156,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field bearing a red Scandinavian-style saltire (red X-shaped cross extending corner to corner)."
     },
     {
       "qid": "Q5456837",
@@ -23670,7 +24210,8 @@
         "green",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with a yellow rising sun (half-disc) centered on the lower edge; in front of and over the sun, a stylized white-and-green silhouette of a Chatham Island shape."
     },
     {
       "qid": "Q5456858",
@@ -23704,7 +24245,8 @@
         "orange",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "An orange field bordered top and bottom by a green-and-yellow striped band. Centered, a yellow circular seal reading \"SEAL OF THE CHEROKEE NATION\" enclosing a green wreath and a seven-pointed yellow star. Surrounding the seal, seven yellow seven-pointed stars; a single black seven-pointed star sits in the upper fly corner."
     },
     {
       "qid": "Q5456860",
@@ -23781,7 +24323,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q5456895",
@@ -23790,9 +24335,9 @@
       "file": "Flag of the United States Coast Guard.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "white",
-        "red"
+        "red",
+        "darkblue"
       ],
       "icons": [
         "coa",
@@ -23849,7 +24394,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q5456898",
@@ -23859,10 +24407,8 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "purple",
         "red",
-        "white",
-        "yellow"
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23885,7 +24431,10 @@
         "purple",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q5456899",
@@ -23894,10 +24443,11 @@
       "file": "Flag of the United States Navy.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "white",
         "brown",
-        "yellow"
+        "yellow",
+        "darkblue",
+        "red"
       ],
       "icons": [
         "text",
@@ -23926,7 +24476,10 @@
         "pink",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q5472158",
@@ -24046,11 +24599,17 @@
       "count": 0,
       "file": "Bandera de Guayaquil.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "white"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "star"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Guayaquil",
       "flagTypeSample": null,
       "extraTags": {},
@@ -24164,7 +24723,8 @@
         "pink",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A light blue field bearing the Sofia coat of arms centered — a quartered shield with a castle crown above and a banner below reading \"РАСТЕ НО НЕ СТАРѢЕ\", flanked by oak branches."
     },
     {
       "qid": "Q5718867",
@@ -24191,7 +24751,8 @@
         "blue",
         "green",
         "white"
-      ]
+      ],
+      "description": "Three horizontal bands: blue (top), white (center), green (bottom). A black canton at the upper hoist contains a ring of small white five-pointed stars."
     },
     {
       "qid": "Q5718924",
@@ -24296,7 +24857,8 @@
       "flagTypeSample": 9,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "description": "Two equal horizontal bands of yellow (top) and red."
     },
     {
       "qid": "Q6393175",
@@ -24589,7 +25151,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A vertical banner: red field with a tall white rectangular panel centered, bearing a single dark blue five-pointed star centered within the panel."
     },
     {
       "qid": "Q7624391",
@@ -24614,7 +25177,8 @@
         "black",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Three equal horizontal bands of black, red, and yellow (gold), with the East German emblem centered — a wreath of grain encircling a black hammer and compass with a black-red-gold sash at the base."
     },
     {
       "qid": "Q7645867",
@@ -24777,7 +25341,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Seven equal horizontal bands — purple, blue, light blue, green, yellow, orange, red — with the white word \"PACE\" centered across them."
     },
     {
       "qid": "Q8134193",
@@ -24917,7 +25482,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical stripes of red, white, and red. Centered on the white stripe, a red shield bearing a white eagle with a yellow wheel below and small white roses flanking."
     },
     {
       "qid": "Q9646110",
@@ -25033,9 +25599,11 @@
         "brown",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "coa"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Katowice",
       "flagTypeSample": null,
       "extraTags": {},
@@ -25046,7 +25614,8 @@
         "blue",
         "brown",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of yellow (top) and blue, with a black shield centered over the divide bearing a black hammer, retort, and cogwheel (Katowice industrial emblem) on yellow."
     },
     {
       "qid": "Q10986849",
@@ -25112,7 +25681,8 @@
       "svgColors": [
         "blue",
         "yellow"
-      ]
+      ],
+      "description": "A flag divided diagonally from upper hoist to lower fly: upper-fly triangle yellow, lower-hoist triangle blue."
     },
     {
       "qid": "Q11721817",
@@ -25271,7 +25841,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A yellow field bearing a centered red gonfanon — a stylized red banner shape with three rounded pendant tongues, outlined in green."
     },
     {
       "qid": "Q12143656",
@@ -25391,7 +25962,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Three equal vertical stripes of dark blue, red, and light blue. Centered over the red stripe, a golden Australian Defence Force emblem — a winged crowned eagle perched on an anchor with crossed swords behind, above a scroll."
     },
     {
       "qid": "Q12601313",
@@ -25507,7 +26079,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "A green field bearing a centered black rampant lion with red claws and tongue. Across the middle, two narrow horizontal white stripes (a fess of two thin white lines) separated by a thin green stripe pass behind the lion."
     },
     {
       "qid": "Q14515865",
@@ -25564,7 +26137,8 @@
         "green",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A square flag divided horizontally: upper half white bearing the bold yellow motto \"LIBERTÉ ET PATRIE\" (Liberty and Country), each letter outlined in black; lower half solid green."
     },
     {
       "qid": "Q14624058",
@@ -25603,7 +26177,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field bearing the centered five Olympic rings — interlocked rings of blue, yellow, black, green, and red."
     },
     {
       "qid": "Q14753997",
@@ -25701,9 +26276,9 @@
       "file": "Flag of Puerto Rico.svg",
       "isFlagEntity": true,
       "colors": [
-        "purple",
         "red",
-        "white"
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -25722,7 +26297,10 @@
         "purple",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q16324560",
@@ -25767,7 +26345,8 @@
         "green",
         "lightblue",
         "white"
-      ]
+      ],
+      "description": "A blue field bearing a white Greek cross extending to the edges; centered on the cross, a white shield outlined in blue contains a single blue five-pointed star."
     },
     {
       "qid": "Q16630001",
@@ -25794,7 +26373,10 @@
         "red",
         "white"
       ],
-      "description": "A red field bearing a white Greek cross extending to the edges of the flag."
+      "description": "A red field bearing a white Greek cross extending to the edges of the flag.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q16630951",
@@ -25820,7 +26402,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Nine equal horizontal bands alternating yellow and red, starting and ending with yellow (the Senyera / Aragonese pattern)."
     },
     {
       "qid": "Q16850737",
@@ -25936,7 +26519,8 @@
       "flagName": "Kedah",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A red field with a gold heraldic emblem at the upper hoist: a wreath of grain encircling a small shield (yellow with red horizontal stripes); above the shield, a green crescent."
     },
     {
       "qid": "Q17493086",
@@ -25965,7 +26549,8 @@
       "svgColors": [
         "green",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of yellow (top) and green."
     },
     {
       "qid": "Q18378396",
@@ -26184,7 +26769,10 @@
         "black",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "bird",
+        "weapon"
+      ],
       "shape": "rectangle",
       "flagType": "religious",
       "flagName": "Flag of the Church of Greece",
@@ -26286,7 +26874,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field with the British Union Jack in the canton at the upper hoist. Across the bottom of the field in white, the words \"LIBERTY AND UNION\"."
     },
     {
       "qid": "Q27925551",
@@ -26332,7 +26921,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field over a red field (two equal horizontal bands), with a blue triangle at the hoist whose point reaches the center of the flag."
     },
     {
       "qid": "Q28103023",
@@ -26359,7 +26949,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field with a vertical yellow stripe at the hoist bearing three red horn shapes (hunting horns) stacked vertically; a horizontal blue stripe extends from the yellow band into the field."
     },
     {
       "qid": "Q28109172",
@@ -26382,7 +26973,8 @@
       "svgColors": [
         "black",
         "white"
-      ]
+      ],
+      "description": "A solid black horizontal band centered on a white field (top white, black middle band, bottom white)."
     },
     {
       "qid": "Q28828087",
@@ -26474,7 +27066,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of dark blue (top) and cream (bottom). Centered over the divide, a yellow ring with a red disc inside, the disc bearing a white six-pointed star and crowned with three small yellow trapezoidal shapes hanging below the ring."
     },
     {
       "qid": "Q30715977",
@@ -26563,7 +27156,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q31354462",
@@ -26608,7 +27204,8 @@
         "gray",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A solid dark red field bearing a white shield outlined in red containing eight red rampant lions arranged around a centered gold crown."
     },
     {
       "qid": "Q32859372",
@@ -26639,7 +27236,8 @@
         "purple",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A solid magenta-purple field bearing a centered white shield outlined in grey, depicting a white-and-grey castle with two towers, a single yellow five-pointed star above, all over blue wavy water along the shield's base."
     },
     {
       "qid": "Q37186922",
@@ -26677,7 +27275,8 @@
       "wdColors": [
         "yellow",
         "red"
-      ]
+      ],
+      "description": "A red field bearing a yellow Cross of Toulouse centered: a Greek-style cross with each arm ending in three pommels (small discs), all voided so the red field shows through."
     },
     {
       "qid": "Q42888728",
@@ -26802,7 +27401,8 @@
       "svgColors": [
         "blue",
         "white"
-      ]
+      ],
+      "description": "A blue field bearing a centered white stylized Greek temple façade with columns, pediment, and steps, with the white word \"UNESCO\" between the columns."
     },
     {
       "qid": "Q56027897",
@@ -26829,7 +27429,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A flag divided vertically: white at the hoist with a row of small blue rectangular crenellations across the top; blue at the fly. Centered, a large yellow-and-red coin depicting the head of Alexander the Great in profile."
     },
     {
       "qid": "Q56404324",
@@ -26874,7 +27475,8 @@
         "blue",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A horizontal band of dark blue across the upper half and cream across the lower half. Centered, a stylized fountain emblem — a blue fountain spraying from a basin within a yellow ring with three yellow rectangular drops below."
     },
     {
       "qid": "Q61360433",
@@ -27241,9 +27843,7 @@
       "isFlagEntity": true,
       "colors": [
         "black",
-        "blue",
         "darkblue",
-        "orange",
         "white",
         "yellow"
       ],
@@ -27265,7 +27865,10 @@
         "darkblue",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q62920304",
@@ -27408,7 +28011,6 @@
       "file": "Flag of the Confederate States (1861–1863).svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white"
@@ -27430,7 +28032,10 @@
         "red",
         "white"
       ],
-      "description": "Three horizontal bands of red (top), white, and red, with a blue canton in the upper hoist bearing a circle of white five-pointed stars."
+      "description": "Three horizontal bands of red (top), white, and red, with a blue canton in the upper hoist bearing a circle of white five-pointed stars.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q63874150",
@@ -27661,7 +28266,10 @@
         "red",
         "white"
       ],
-      "description": "A white field with a large red Greek cross centered."
+      "description": "A white field with a large red Greek cross centered.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q64300176",
@@ -27693,7 +28301,10 @@
         "red",
         "yellow"
       ],
-      "description": "A solid red field with the McDonald's golden \"M\" arches logo centered."
+      "description": "A solid red field with the McDonald's golden \"M\" arches logo centered.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q64764865",
@@ -28024,7 +28635,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A 34-star United States flag (1861–1863): thirteen alternating red and white horizontal stripes with a blue canton at the upper hoist bearing 34 small white five-pointed stars in a circular arrangement with one large star in the center."
     },
     {
       "qid": "Q65037040",
@@ -28177,7 +28789,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A 48-star United States flag (1912–1959): thirteen alternating red and white horizontal stripes with a blue canton at the upper hoist bearing 48 small white five-pointed stars in six rows of eight."
     },
     {
       "qid": "Q65037067",
@@ -28534,7 +29147,8 @@
         "lightblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field with three vertical wavy light-blue stripes at the hoist (representing rivers), and a red rampant lion centered toward the fly."
     },
     {
       "qid": "Q66568310",
@@ -28637,7 +29251,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of black (top) and yellow, with the Heidelberg coat of arms centered over the divide — a black shield bordered yellow containing a yellow rampant lion with red crown and tongue, standing on a green mound."
     },
     {
       "qid": "Q68611377",
@@ -28770,7 +29385,8 @@
         "green",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Three equal horizontal bands of green (top), yellow, and red."
     },
     {
       "qid": "Q70631343",
@@ -29314,7 +29930,8 @@
         "lightblue",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Two horizontal bands — orange (top) and dark blue. Centered straddling the divide, a stylized white half-sun rising over three light blue wavy water stripes (the People's Flag of Milwaukee)."
     },
     {
       "qid": "Q77795712",
@@ -29461,7 +30078,8 @@
       "svgColors": [
         "green",
         "white"
-      ]
+      ],
+      "description": "Three equal horizontal bands of dark green, white, and dark green. Centered on the white band, a dark green stylized arrow pointing upward (a triangle with a small rectangular tail)."
     },
     {
       "qid": "Q78549965",
@@ -29655,7 +30273,9 @@
         "white",
         "yellow",
         "blue"
-      ]
+      ],
+      "localFile": "Q80606550.gif",
+      "description": "A white field bordered by horizontal stripes of dark blue along the top and yellow along the bottom. Centered, a stylized dark blue and yellow waving flag emblem above the wordmark \"CITY OF FLORENCE KENTUCKY\" in dark blue serif lettering."
     },
     {
       "qid": "Q80720944",
@@ -29885,7 +30505,7 @@
         "white"
       ],
       "icons": [],
-      "shape": "rectangle",
+      "shape": "square",
       "flagType": "cultural",
       "flagName": "ngũ sắc",
       "flagTypeSample": 9,
@@ -30122,7 +30742,10 @@
         "darkblue",
         "gray",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q96098094",
@@ -30236,7 +30859,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field bearing a centered red, white, and blue shield containing a yellow lamp of knowledge, with a winged crown emblem above the shield and the text \"CITY OF AUSTIN\" curved below it in dark blue."
     },
     {
       "qid": "Q96378015",
@@ -30339,7 +30963,8 @@
       "svgColors": [
         "blue",
         "red"
-      ]
+      ],
+      "description": "Two equal horizontal bands of blue (top) and red, with the Chorzów coat of arms centered over the divide — a yellow-bordered shield divided vertically with a yellow rising eagle on blue at the hoist and a vertical letter F (or hammer) on black at the fly."
     },
     {
       "qid": "Q96601862",
@@ -30437,7 +31062,8 @@
         "purple",
         "red",
         "white",
-        "yellow"
+        "yellow",
+        "pink"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -30472,7 +31098,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q96676582",
@@ -30654,7 +31283,8 @@
         "white",
         "brown",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with the seal of the United States Merchant Marine centered — an eagle perched atop a roundel containing an anchor and shield, ringed by the text \"UNITED STATES MERCHANT MARINE\". The yellow inscription \"IN PEACE AND WAR\" curves above the seal; \"1775\" appears below in yellow."
     },
     {
       "qid": "Q96912281",
@@ -30823,7 +31453,8 @@
         "black",
         "blue",
         "white"
-      ]
+      ],
+      "description": "A field divided vertically into a blue hoist half and a white fly half. In the fly half, a small white shield bordered black with an ermine chief and a solid blue lower section, with a single rounded tongue at its base."
     },
     {
       "qid": "Q96958387",
@@ -30862,7 +31493,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Three horizontal bands: white (top), light blue (center, thin), red (bottom). Centered over the bands, the Kołobrzeg coat of arms — a shield with two red towers above and a fish-and-bishop's-staff motif on blue below."
     },
     {
       "qid": "Q96963401",
@@ -31010,7 +31642,6 @@
       "file": "Flag of Cook County, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "green",
         "lightblue",
         "red",
@@ -31034,7 +31665,11 @@
         "lightblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field bearing a light blue Y-shape edged in green, with the points of the Y at the upper hoist, lower hoist, and fly. In the white triangle at the hoist, six red six-pointed stars arranged in a ring.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q96971050",
@@ -31979,7 +32614,9 @@
         "lightblue",
         "green",
         "white"
-      ]
+      ],
+      "localFile": "Q97515892.gif",
+      "description": "Three equal horizontal bands of light blue, white, and green. The city seal sits at the hoist, centered vertically over the white band — a circular blue-bordered seal reading \"BOCA RATON · FLORIDA\" around a green landscape with a fishing scene."
     },
     {
       "qid": "Q97515926",
@@ -32211,7 +32848,10 @@
       "svgColors": [
         "blue",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q98153217",
@@ -32426,7 +33066,10 @@
         "red",
         "white"
       ],
-      "description": "A solid red field with the white wordmark \"REWE\" centered in large bold letters."
+      "description": "A solid red field with the white wordmark \"REWE\" centered in large bold letters.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q98609686",
@@ -32843,7 +33486,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Council of Europe",
@@ -33168,7 +33814,10 @@
         "blue",
         "white"
       ],
-      "description": "A white field with 6 alternating white (top) and blue horizontal blue stripes of equal width."
+      "description": "A white field with 6 alternating white (top) and blue horizontal blue stripes of equal width.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q106498510",
@@ -33474,7 +34123,10 @@
         "green",
         "red"
       ],
-      "description": "A horizontal bicolor of red (top) and green."
+      "description": "A horizontal bicolor of red (top) and green.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q106501527",
@@ -33718,7 +34370,8 @@
         "blue",
         "white",
         "black"
-      ]
+      ],
+      "description": "An ermine field — small black ermine tails arranged in rows across white — with a rampant black lion centered, holding a small blue Brittany ermine flag on a staff."
     },
     {
       "qid": "Q106676586",
@@ -33760,9 +34413,12 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal",
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Saint-Pol-de-Léon",
       "flagTypeSample": null,
       "extraTags": {},
@@ -34102,9 +34758,11 @@
         "green",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Bray-Dunes",
       "flagTypeSample": null,
       "extraTags": {},
@@ -34836,15 +35494,15 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "brown",
-        "green",
         "red",
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "diagonal"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Dijon",
       "flagTypeSample": null,
       "extraTags": {},
@@ -35479,9 +36137,11 @@
         "green",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Saint-Martin-d'Hères",
       "flagTypeSample": null,
       "extraTags": {},
@@ -37486,7 +38146,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "plant",
+        "animal"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "armored flag of Gascony",
@@ -37498,7 +38161,8 @@
         "blue",
         "red",
         "white"
-      ]
+      ],
+      "description": "Quartered: blue at upper hoist and lower fly, red at upper fly and lower hoist. The blue quarters bear a white rampant lion; the red quarters bear an upright golden wheat sheaf bound with a blue band."
     },
     {
       "qid": "Q113488799",
@@ -38580,7 +39244,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "Quartered red and yellow: red at the upper hoist and lower fly, yellow at the upper fly and lower hoist. The upper-hoist quarter bears a white crescent enclosing a white five-pointed star."
     },
     {
       "qid": "Q116211841",
@@ -38654,7 +39319,10 @@
         "white",
         "yellow"
       ],
-      "description": "A blue field bearing a large yellow letter \"M\" centered, with four white fleurs-de-lis arranged around it (one above, one below, one to each side)."
+      "description": "A blue field bearing a large yellow letter \"M\" centered, with four white fleurs-de-lis arranged around it (one above, one below, one to each side).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q116820815",
@@ -39123,7 +39791,8 @@
       "flagName": "Laakdal",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A yellow field divided by a red vertical pale and a black horizontal fess, forming a thick cross of red and black on yellow."
     },
     {
       "qid": "Q120987840",
@@ -39563,7 +40232,8 @@
         "green",
         "lightblue",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal bands of light blue (top) and green, overlaid in the center by a yellow shield bordered blue. The shield contains two cyan wavy fesses (horizontal bars representing water) extending across its full width."
     },
     {
       "qid": "Q124477964",
@@ -40086,7 +40756,8 @@
       "wdColors": [
         "white",
         "black"
-      ]
+      ],
+      "description": "A black field with a large white letter K at the hoist and a white skull above crossed bones (Jolly Roger) at the fly."
     },
     {
       "qid": "Q135479239",
@@ -40134,7 +40805,8 @@
       "flagName": "Taichung City",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A yellow field bearing three large red Chinese characters centered: 臺中市 (Taichung City)."
     },
     {
       "qid": "Q136436975",
@@ -40335,10 +41007,24 @@
       "count": 2,
       "file": "Bandeira de Tamboril.png",
       "isFlagEntity": true,
-      "colors": [],
-      "icons": [],
+      "colors": [
+        "blue",
+        "white",
+        "green",
+        "yellow",
+        "lightblue",
+        "brown"
+      ],
+      "icons": [
+        "vertical-stripes",
+        "coa",
+        "plant",
+        "star",
+        "cross",
+        "animal"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Tamboril",
       "flagTypeSample": null,
       "extraTags": {},
