@@ -47,6 +47,8 @@ body {
   z-index: 5;
 }
 .topbar h1 { margin: 0; font-size: 1.25rem; }
+.topbar-title { display: flex; align-items: center; gap: 10px; }
+.topbar-logo { width: 32px; height: 32px; flex-shrink: 0; }
 .hint { margin: 4px 0 0; color: var(--muted); font-size: 0.875rem; }
 .needs-chips { margin-top: 8px; gap: 6px; }
 .needs-chips .chip {

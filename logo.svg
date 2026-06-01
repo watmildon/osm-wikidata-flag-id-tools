@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 20 260 260" width="300" height="300" role="img" aria-label="OSM Flag Identifier logo">
+  <!-- Flag-on-pole filling the same area the green map quadrants occupied,
+       beneath the magnifying glass. Drawn directly in the outer viewBox. -->
+  <!-- Pole, finial, and base in the same dark grey as the magnifier. -->
+  <g fill="#2f2f2f">
+    <circle cx="78" cy="40" r="7"/>
+    <rect x="75" y="46" width="6" height="220" rx="2"/>
+    <rect x="58" y="263" width="40" height="7" rx="2"/>
+  </g>
+  <!-- Flag fabric in purple, shaped as an Ohio burgee (swallowtail). 13:8
+       proportions: hoist 81-230 (149 wide), top 50, bottom 138 (88 tall),
+       swallowtail notch cut 5/13 of the way in from the fly to apex at
+       vertical center. -->
+  <path fill="#7c3aed" d="M 81,50
+                          L 230,50
+                          L 173,94
+                          L 230,138
+                          L 81,138
+                          Z"/>
+
+  <g transform="translate(0,3)">
+    <g transform="translate(322.142,-53.972906)">
+      <!-- Magnifying glass (lens ring + handle), unchanged from OSM-US logo -->
+      <path d="m -73.395575,102.22726 c -28.338185,-28.338264 -74.283665,-28.338264 -102.621895,0 -17.93779,17.93776 -24.48523,42.91327 -19.71413,66.02883 l -11.27485,8.16937 c 5.13477,13.61756 12.1317,21.8574 16.91241,26.2963 l -10.22839,10.22834 -10.80252,0 -81.01705,81.01654 27.00583,27.00561 81.01701,-81.01683 0,-10.80225 10.19464,-10.19425 c 4.56162,4.75244 12.69997,11.38138 25.75686,16.30469 l 7.86543,-10.90386 c 23.35858,5.12197 48.742245,-1.34701 66.906498,-19.5115 28.338386,-28.33732 28.33819,-74.28276 1.57e-4,-102.62099 z m -12.962835,12.96296 c 21.179095,21.17921 21.179095,55.51685 0,76.69579 -21.17902,21.17897 -55.51721,21.17897 -76.6963,0 -21.17898,-21.17894 -21.17898,-55.51658 0,-76.69579 21.17929,-21.179216 55.51728,-21.179216 76.6963,0 z" fill="#2f2f2f"/>
+    </g>
+  </g>
+</svg>
