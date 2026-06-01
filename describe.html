@@ -287,14 +287,29 @@
     let visibleFlags = [];
     let rowHeight = 0;
 
-    const filters = {
-      search: "",
+    // Filter defaults. Search is intentionally NOT persisted (transient
+    // lookup state); checkboxes and sort are remembered across reloads.
+    const FILTER_STORAGE_KEY = "osm-flag-filters-describe";
+    const FILTER_DEFAULTS = {
       noDescOnly: false,
       hasImageOnly: true,
       flagEntityOnly: true,
       hideWonky: true,
       sort: "count-desc",
     };
+    function loadFilterPrefs() {
+      try {
+        const raw = JSON.parse(localStorage.getItem(FILTER_STORAGE_KEY) ?? "null");
+        if (raw && typeof raw === "object") return { ...FILTER_DEFAULTS, ...raw };
+      } catch {}
+      return { ...FILTER_DEFAULTS };
+    }
+    function saveFilterPrefs() {
+      const { search: _omit, ...persisted } = filters;
+      try { localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(persisted)); }
+      catch {}
+    }
+    const filters = { search: "", ...loadFilterPrefs() };
 
     // See review pages for the rationale on these heuristics. Kept inline
     // here because the page can be loaded standalone via Pages.
@@ -545,28 +560,30 @@
           applyFilters();
         }, 120);
       });
-      document.getElementById("filter-no-desc").addEventListener("change", (e) => {
-        filters.noDescOnly = e.target.checked;
-        window.scrollTo({ top: 0 });
-        applyFilters();
-      });
-      document.getElementById("filter-has-image").addEventListener("change", (e) => {
-        filters.hasImageOnly = e.target.checked;
-        window.scrollTo({ top: 0 });
-        applyFilters();
-      });
-      document.getElementById("filter-is-flag-entity").addEventListener("change", (e) => {
-        filters.flagEntityOnly = e.target.checked;
-        window.scrollTo({ top: 0 });
-        applyFilters();
-      });
-      document.getElementById("filter-hide-wonky").addEventListener("change", (e) => {
-        filters.hideWonky = e.target.checked;
-        window.scrollTo({ top: 0 });
-        applyFilters();
-      });
-      document.getElementById("sort-select").addEventListener("change", (e) => {
+      // Sync DOM controls to persisted state BEFORE attaching change
+      // handlers — otherwise the checkboxes show HTML defaults while the
+      // filter logic uses the loaded preferences.
+      const checkboxFilters = [
+        ["filter-no-desc",         "noDescOnly"],
+        ["filter-has-image",       "hasImageOnly"],
+        ["filter-is-flag-entity",  "flagEntityOnly"],
+        ["filter-hide-wonky",      "hideWonky"],
+      ];
+      for (const [id, key] of checkboxFilters) {
+        const el = document.getElementById(id);
+        el.checked = Boolean(filters[key]);
+        el.addEventListener("change", (e) => {
+          filters[key] = e.target.checked;
+          saveFilterPrefs();
+          window.scrollTo({ top: 0 });
+          applyFilters();
+        });
+      }
+      const sortEl = document.getElementById("sort-select");
+      sortEl.value = filters.sort;
+      sortEl.addEventListener("change", (e) => {
         filters.sort = e.target.value;
+        saveFilterPrefs();
         window.scrollTo({ top: 0 });
         applyFilters();
       });

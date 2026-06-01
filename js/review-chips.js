@@ -76,8 +76,12 @@ export async function mountReviewChips(config) {
   let visibleFlags = [];
   let rowHeight = 0;
 
-  const filters = {
-    search: "",
+  // Filter defaults. The search box is intentionally NOT persisted — it
+  // feels like transient lookup state, not an ongoing preference.
+  // Everything else is persisted in localStorage keyed by config.field so
+  // review-colors and review-icons remember their settings independently.
+  const FILTER_STORAGE_KEY = `osm-flag-filters-review-${config.field}`;
+  const FILTER_DEFAULTS = {
     emptyOnly: false,
     unreviewedOnly: false,
     hasImageOnly: true,
@@ -85,6 +89,23 @@ export async function mountReviewChips(config) {
     hideWonky: true,
     sort: "count-desc",
   };
+  function loadFilterPrefs() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(FILTER_STORAGE_KEY) ?? "null");
+      if (raw && typeof raw === "object") {
+        // Spread defaults first so any new filter added since the user last
+        // saved gets its default value rather than being undefined.
+        return { ...FILTER_DEFAULTS, ...raw };
+      }
+    } catch {}
+    return { ...FILTER_DEFAULTS };
+  }
+  function saveFilterPrefs() {
+    const { search: _omit, ...persisted } = filters;
+    try { localStorage.setItem(FILTER_STORAGE_KEY, JSON.stringify(persisted)); }
+    catch {}
+  }
+  const filters = { search: "", ...loadFilterPrefs() };
 
   function effective(flag) {
     const v = effectiveField(flag.qid, config.field);
@@ -347,8 +368,8 @@ export async function mountReviewChips(config) {
     renderWindow(true);
   });
 
-  // Filter wiring. Each filter checkbox reloads the list and scrolls to top
-  // so the user always sees the first results after toggling.
+  // Filter wiring. Each control writes back to `filters`, persists the
+  // (non-search) state, and triggers a refresh from the top.
   const searchInput = document.getElementById("search-input");
   let searchTimer = null;
   searchInput.addEventListener("input", (e) => {
@@ -360,33 +381,31 @@ export async function mountReviewChips(config) {
       applyFilters();
     }, 120);
   });
-  document.getElementById("filter-empty").addEventListener("change", (e) => {
-    filters.emptyOnly = e.target.checked;
-    window.scrollTo({ top: 0 });
-    applyFilters();
-  });
-  document.getElementById("filter-unreviewed").addEventListener("change", (e) => {
-    filters.unreviewedOnly = e.target.checked;
-    window.scrollTo({ top: 0 });
-    applyFilters();
-  });
-  document.getElementById("filter-has-image").addEventListener("change", (e) => {
-    filters.hasImageOnly = e.target.checked;
-    window.scrollTo({ top: 0 });
-    applyFilters();
-  });
-  document.getElementById("filter-is-flag-entity").addEventListener("change", (e) => {
-    filters.flagEntityOnly = e.target.checked;
-    window.scrollTo({ top: 0 });
-    applyFilters();
-  });
-  document.getElementById("filter-hide-wonky").addEventListener("change", (e) => {
-    filters.hideWonky = e.target.checked;
-    window.scrollTo({ top: 0 });
-    applyFilters();
-  });
-  document.getElementById("sort-select").addEventListener("change", (e) => {
+  // Sync the DOM controls to the (possibly persisted) filter state, THEN
+  // wire change handlers. Without the sync the checkboxes would show
+  // their HTML-default state while the filter logic uses the loaded one.
+  const checkboxFilters = [
+    ["filter-empty",           "emptyOnly"],
+    ["filter-unreviewed",      "unreviewedOnly"],
+    ["filter-has-image",       "hasImageOnly"],
+    ["filter-is-flag-entity",  "flagEntityOnly"],
+    ["filter-hide-wonky",      "hideWonky"],
+  ];
+  for (const [id, key] of checkboxFilters) {
+    const el = document.getElementById(id);
+    el.checked = Boolean(filters[key]);
+    el.addEventListener("change", (e) => {
+      filters[key] = e.target.checked;
+      saveFilterPrefs();
+      window.scrollTo({ top: 0 });
+      applyFilters();
+    });
+  }
+  const sortEl = document.getElementById("sort-select");
+  sortEl.value = filters.sort;
+  sortEl.addEventListener("change", (e) => {
     filters.sort = e.target.value;
+    saveFilterPrefs();
     window.scrollTo({ top: 0 });
     applyFilters();
   });
