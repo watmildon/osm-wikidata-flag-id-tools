@@ -112,6 +112,35 @@ async function writeJsonAtomic(path, value) {
   await rename(tmp, path);
 }
 
+// Like writeJsonAtomic, but skips the write entirely when the payload is
+// identical to what's already on disk. Two reasons we want this: (1) for
+// files with a `generated` timestamp at the top level we don't want a
+// "every build touched it" diff when nothing else moved; (2) even for
+// timestamp-free files, rewriting identical content still bumps the mtime
+// and trips git's stat cache into reporting phantom changes on Windows.
+// Returns true if a write happened.
+async function writeJsonAtomicIfChanged(path, value) {
+  try {
+    const existing = JSON.parse(await readFile(path, "utf8"));
+    if (jsonEqualIgnoringGenerated(existing, value)) return false;
+  } catch (e) {
+    if (e.code !== "ENOENT") throw e;
+  }
+  await writeJsonAtomic(path, value);
+  return true;
+}
+
+function jsonEqualIgnoringGenerated(a, b) {
+  const strip = (v) => {
+    if (v && typeof v === "object" && !Array.isArray(v) && "generated" in v) {
+      const { generated: _, ...rest } = v;
+      return rest;
+    }
+    return v;
+  };
+  return JSON.stringify(strip(a)) === JSON.stringify(strip(b));
+}
+
 // Cache an arbitrary fetched payload so we can fall back to it if the upstream
 // is down on a future run. Used for NSI (rare changes, GitHub raw outage is
 // possible). Cache lives outside data/ so it doesn't ship to the static site.
@@ -127,7 +156,7 @@ async function readCache(name) {
 
 async function writeCache(name, value) {
   await mkdir(CACHE_DIR, { recursive: true });
-  await writeJsonAtomic(join(CACHE_DIR, name), value);
+  await writeJsonAtomicIfChanged(join(CACHE_DIR, name), value);
 }
 
 // Strip "flag of " / "flag of the " from a Wikidata label so it matches the
@@ -927,8 +956,12 @@ async function main() {
     .filter((f) => !f.isFlagEntity)
     .map((f) => ({ qid: f.qid, name: f.name, count: f.count, file: f.file }))
     .sort((a, b) => qidSortKey(a.qid) - qidSortKey(b.qid));
-  await writeJsonAtomic(join(DATA_DIR, "non-flag-qids.json"), nonFlag);
-  console.log(`Wrote data/non-flag-qids.json (${nonFlag.length} suspect QIDs).`);
+  const nonFlagChanged = await writeJsonAtomicIfChanged(join(DATA_DIR, "non-flag-qids.json"), nonFlag);
+  console.log(
+    nonFlagChanged
+      ? `Wrote data/non-flag-qids.json (${nonFlag.length} suspect QIDs).`
+      : `data/non-flag-qids.json unchanged (${nonFlag.length} suspect QIDs).`,
+  );
 
   // For the non-flag QIDs, ask Wikidata whether each has a P163 pointing to a
   // real flag entity. Those are the high-confidence "you tagged the wrong
@@ -957,11 +990,15 @@ async function main() {
   // by count at runtime so the most-impactful mistakes still come first.
   reviewSuggestions.sort((a, b) => qidSortKey(a.bad_qid) - qidSortKey(b.bad_qid));
 
-  await writeJsonAtomic(join(DATA_DIR, "review.json"), {
+  const reviewChanged = await writeJsonAtomicIfChanged(join(DATA_DIR, "review.json"), {
     generated: new Date().toISOString(),
     suggestions: reviewSuggestions,
   });
-  console.log(`Wrote data/review.json (${reviewSuggestions.length} suggested fixes).`);
+  console.log(
+    reviewChanged
+      ? `Wrote data/review.json (${reviewSuggestions.length} suggested fixes).`
+      : `data/review.json unchanged (${reviewSuggestions.length} suggested fixes).`,
+  );
 
   console.log("Downloading thumbnails...");
   const failures = await downloadAllThumbs(flags);
@@ -979,8 +1016,12 @@ async function main() {
     shapes: ["rectangle", "square", "pennant", "other"],
     flags,
   };
-  await writeJsonAtomic(join(DATA_DIR, "flags.json"), out);
-  console.log(`Wrote data/flags.json (${flags.length} flags).`);
+  const flagsChanged = await writeJsonAtomicIfChanged(join(DATA_DIR, "flags.json"), out);
+  console.log(
+    flagsChanged
+      ? `Wrote data/flags.json (${flags.length} flags).`
+      : `data/flags.json unchanged (${flags.length} flags).`,
+  );
 
   // Remove cached thumbnails for QIDs no longer present in the live set.
   const pruneResult = await pruneOrphanThumbs(flags);

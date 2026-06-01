@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T17:33:44.922Z",
+  "generated": "2026-06-01T20:13:45.578Z",
   "palette": [
     "red",
     "white",
@@ -464,7 +464,9 @@
         "black",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Bretagne",
@@ -483,7 +485,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -575,7 +578,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -726,7 +730,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -824,7 +829,12 @@
         "purple",
         "black"
       ],
-      "icons": [],
+      "icons": [
+        "people",
+        "weapon",
+        "crown",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Virginia",
@@ -850,7 +860,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -1611,7 +1622,8 @@
         "darkblue"
       ],
       "icons": [
-        "circle"
+        "circle",
+        "horizontal-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -1637,7 +1649,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -1673,7 +1686,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -1713,7 +1727,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -1768,7 +1783,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -1804,7 +1820,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -1843,7 +1860,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -1960,7 +1978,9 @@
         "white",
         "blue"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Netherlands",
@@ -1981,7 +2001,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -1994,7 +2015,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Austria",
@@ -2015,7 +2038,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -2635,7 +2659,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -2830,7 +2855,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -2882,7 +2908,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -2896,7 +2923,9 @@
         "blue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Estonia",
@@ -2918,7 +2947,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -3075,7 +3105,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -3114,7 +3145,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -3129,7 +3161,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Brazil",
@@ -3154,7 +3189,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -3168,7 +3204,9 @@
         "orange",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Ireland",
@@ -3191,7 +3229,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -3270,7 +3309,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -3285,7 +3325,8 @@
         "darkblue"
       ],
       "icons": [
-        "cross"
+        "cross",
+        "diagonal"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -3309,7 +3350,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -3483,7 +3525,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -4106,7 +4149,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "circle",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "North Korea",
@@ -4129,7 +4176,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -4582,7 +4630,8 @@
         "green"
       ],
       "icons": [
-        "coa"
+        "coa",
+        "horizontal-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -4612,7 +4661,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -4629,7 +4679,11 @@
         "yellow"
       ],
       "icons": [
-        "coa"
+        "coa",
+        "vertical-stripes",
+        "bird",
+        "animal",
+        "plant"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -4659,7 +4713,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -4694,7 +4749,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -4746,7 +4802,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -4830,7 +4887,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "triangle"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Czech Republic",
@@ -4853,7 +4912,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -4903,7 +4963,8 @@
         "blue"
       ],
       "icons": [
-        "coa"
+        "coa",
+        "circle"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -4929,7 +4990,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -4965,7 +5027,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5076,7 +5139,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5113,7 +5177,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5307,7 +5372,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5323,7 +5389,8 @@
       ],
       "icons": [
         "star",
-        "horizontal-stripes"
+        "horizontal-stripes",
+        "coa"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -5348,7 +5415,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5385,7 +5453,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5421,7 +5490,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5434,7 +5504,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Vietnam",
@@ -5455,7 +5527,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5520,7 +5593,10 @@
         "lightblue",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "bird",
+        "sun"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Kazakhstan",
@@ -5541,7 +5617,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5555,7 +5632,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Belarus",
@@ -5578,7 +5657,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5594,7 +5674,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "coa",
+        "animal"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Croatia",
@@ -5622,7 +5706,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5812,7 +5897,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -5887,7 +5973,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -6654,7 +6741,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -6757,7 +6845,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "coa"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Slovakia",
@@ -6780,7 +6871,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -6820,7 +6912,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -6833,7 +6926,10 @@
         "green",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "weapon"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Saudi Arabia",
@@ -6854,7 +6950,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -7007,7 +7104,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -7246,7 +7344,8 @@
       "icons": [
         "coa",
         "bird",
-        "horizontal-stripes"
+        "horizontal-stripes",
+        "crown"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -7272,7 +7371,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -10780,7 +10880,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Bulgaria",
@@ -10803,7 +10905,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -11688,7 +11791,8 @@
       "icons": [
         "animal",
         "text",
-        "star"
+        "star",
+        "horizontal-stripes"
       ],
       "shape": "rectangle",
       "flagType": "regional",
@@ -11708,7 +11812,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -13354,7 +13459,12 @@
         "yellow",
         "darkblue"
       ],
-      "icons": [],
+      "icons": [
+        "people",
+        "plant",
+        "text",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Kentucky",
@@ -13384,7 +13494,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -14193,7 +14304,10 @@
         "darkblue",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Indiana",
@@ -14212,7 +14326,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -14693,7 +14808,14 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "diagonal",
+        "coa",
+        "text",
+        "people",
+        "ship",
+        "plant"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Florida",
@@ -14718,7 +14840,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -15019,7 +15142,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -15189,7 +15313,8 @@
         "bird",
         "plant",
         "sun",
-        "weapon"
+        "coa",
+        "water"
       ],
       "shape": "rectangle",
       "flagType": "regional",
@@ -15215,7 +15340,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -16956,7 +17082,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "vertical-stripes",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "religious",
       "flagName": "Buddhist",
@@ -16982,7 +17111,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -17258,7 +17388,10 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "circle",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "indigenous",
       "flagName": "Australian Aboriginal",
@@ -17277,7 +17410,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -17541,7 +17675,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -17983,7 +18118,8 @@
         "people",
         "text",
         "circle",
-        "building"
+        "building",
+        "star"
       ],
       "shape": "rectangle",
       "flagType": "organisation",
@@ -18004,7 +18140,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -18185,7 +18322,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -23918,11 +24056,19 @@
       "count": 1,
       "file": "Flag of Richmond, Virginia.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "blue"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "star",
+        "people",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Richmond",
       "flagTypeSample": null,
       "extraTags": {},
@@ -24139,7 +24285,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -24174,7 +24321,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "icons": 1
+      }
     },
     {
       "qid": "Q5456897",
@@ -24210,7 +24360,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -24224,7 +24375,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "weapon",
+        "text",
+        "animal"
+      ],
       "shape": "rectangle",
       "flagType": "military",
       "flagName": "United States Army",
@@ -24247,7 +24402,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -24266,8 +24422,8 @@
       "icons": [
         "text",
         "bird",
-        "weapon",
-        "circle"
+        "circle",
+        "ship"
       ],
       "shape": "rectangle",
       "flagType": "military",
@@ -24292,7 +24448,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
