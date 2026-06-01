@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T02:38:31.197Z",
+  "generated": "2026-06-01T03:27:40.987Z",
   "palette": [
     "red",
     "white",
@@ -24638,7 +24638,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "Three equal horizontal stripes of green, white, and green, with a red triangle at the hoist pointing toward the fly. An arc of small red five-pointed stars curves across the white and green stripes in the center."
     },
     {
       "qid": "Q5718690",
@@ -26013,7 +26014,8 @@
         "gray",
         "pink",
         "white"
-      ]
+      ],
+      "description": "A white field bearing a stylized swooping star in black and dark blue with a small red comma-shape above, with \"CITY OF TALLAHASSEE\" in black serif text beneath."
     },
     {
       "qid": "Q13019706",
@@ -28909,7 +28911,8 @@
         "orange",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field with the dark blue circular seal of the U.S. Department of Commerce centered, depicting a sailing ship and lighthouse below the words \"DEPARTMENT OF COMMERCE\" and \"UNITED STATES OF AMERICA\"."
     },
     {
       "qid": "Q65740307",
@@ -28967,7 +28970,8 @@
         "black",
         "green",
         "yellow"
-      ]
+      ],
+      "description": "A dark green field over a black field, separated by a yellow wavy band. In the upper hoist is a yellow six-pointed sheriff's star containing a walking bear in silhouette."
     },
     {
       "qid": "Q65962766",
@@ -29199,7 +29203,8 @@
         "blue",
         "green",
         "white"
-      ]
+      ],
+      "description": "A white field with the circular blue logo of the U.S. Environmental Protection Agency centered, showing a stylized flower with green leaves and a blue circle above containing a wave and white sun, encircled by the agency name."
     },
     {
       "qid": "Q67485913",
@@ -29808,7 +29813,8 @@
         "green",
         "lightblue",
         "blue"
-      ]
+      ],
+      "description": "A yellow field with the City of Glendale seal centered: a dark blue ring containing a small landscape collage of buildings, a bear, and the California outline. \"CITY OF GLENDALE\" in blue block letters runs across the lower portion."
     },
     {
       "qid": "Q77780557",
@@ -30632,7 +30638,8 @@
       "wdColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field with a large white rectangle in the center bearing the red Greek letters Theta-Chi (ΘΧ), the year \"1856\" in red in the upper hoist, and a small red coiled serpent in the lower fly."
     },
     {
       "qid": "Q85761218",
@@ -31044,7 +31051,8 @@
         "black",
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field with a white classical building motif centered, depicting three white columns labeled \"JUSTICE\", \"WISDOM\", and \"MODERATION\" beneath an arch reading \"CONSTITUTION\", with a small figure of a soldier between the right columns."
     },
     {
       "qid": "Q96633914",
@@ -31314,7 +31322,8 @@
         "red",
         "white",
         "brown"
-      ]
+      ],
+      "description": "A dark blue field with a small disc near the top of the hoist bearing horizontal stripes of blue, yellow, and red. Below it is a gold eagle clutching a banner reading \"US ARMY TRAINING AND DOCTRINE COMMAND\"."
     },
     {
       "qid": "Q96912350",
@@ -31563,7 +31572,8 @@
         "orange",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A dark green field with a large yellow shield-shaped badge centered. The badge contains a yellow pine tree, the letters \"US\" flanking it, and the text \"FOREST SERVICE\" and \"DEPARTMENT OF AGRICULTURE\" around the border."
     },
     {
       "qid": "Q96970624",
@@ -31836,7 +31846,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "Three horizontal stripes of red, white, and red, with a tall dark blue canton along the entire hoist bearing the white circular seal of Georgia."
     },
     {
       "qid": "Q97019624",
@@ -31927,7 +31938,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A dark blue field with the large gold Seal of Georgia centered (showing the Constitution arch with three columns and a soldier). Below the seal is a gold banner reading \"GEORGIA'S HISTORY\" displaying five small historical U.S. and Georgia flags, with \"IN GOD WE TRUST\" beneath."
     },
     {
       "qid": "Q97303114",
@@ -31979,7 +31991,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A red field with a small Union Flag of Great Britain (pre-1801, without the cross of St. Patrick) in the canton at the hoist."
     },
     {
       "qid": "Q97355592",
@@ -32179,7 +32192,8 @@
       "wdColors": [
         "green",
         "white"
-      ]
+      ],
+      "description": "A white field with a green circular emblem centered showing the outline of Florida with a small capitol building above the word \"LEON\", encircled by the text \"FLORIDA'S CAPITAL COUNTY\"."
     },
     {
       "qid": "Q97490422",
@@ -32213,7 +32227,8 @@
         "gray",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A dark blue field with a large yellow sun in the center surrounding a golden disk containing a conch shell. White text \"CONCH REPUBLIC\" arches above and \"KEY WEST\" appears in the lower hoist, with \"1828\" beside the sun and scattered small white stars around it."
     },
     {
       "qid": "Q97492432",
@@ -32287,7 +32302,8 @@
         "black",
         "orange",
         "lightblue"
-      ]
+      ],
+      "description": "A field divided horizontally with white above and dark blue below, bearing a centered emblem depicting the Orlando skyline with skyscrapers, a fountain, and palm trees, captioned \"CITY of ORLANDO\" on a blue ribbon."
     },
     {
       "qid": "Q97495996",
@@ -32430,7 +32446,8 @@
         "green",
         "white",
         "orange"
-      ]
+      ],
+      "description": "A white field with a centered arch-shaped emblem: green palm trees frame an orange sunset over green fields with a small plane and tractor, with \"FLORIDA\" arching at the top and \"CITY OF HOMESTEAD 1913\" on a yellow banner below."
     },
     {
       "qid": "Q97503383",
@@ -32564,7 +32581,8 @@
         "orange",
         "lightblue",
         "purple"
-      ]
+      ],
+      "description": "A pale blue field with the circular Palm Beach County seal centered, showing a green palm tree against a sunset of red, purple, and orange over a blue ocean, encircled by the text \"PALM BEACH COUNTY FLORIDA\"."
     },
     {
       "qid": "Q97515877",
@@ -32703,7 +32721,8 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A dark blue field with a large white disc centered, containing a red triangle that encloses a blue circle with a stylized white seagull. The NOAA logo design."
     },
     {
       "qid": "Q97522679",
@@ -32728,7 +32747,8 @@
       "svgColors": [
         "gray",
         "white"
-      ]
+      ],
+      "description": "A medium blue field with a single large white five-pointed star centered."
     },
     {
       "qid": "Q97531950",
@@ -32774,7 +32794,8 @@
         "blue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A vertical tricolor of blue, white, and red with \"CITY OF\" in white running vertically on the blue stripe and \"WESTWEGO\" running vertically on the red stripe. A circular city seal showing a sailboat on water sits centered on the white stripe."
     },
     {
       "qid": "Q97609960",
@@ -32878,7 +32899,8 @@
       "svgColors": [
         "darkblue",
         "white"
-      ]
+      ],
+      "description": "A dark blue field with \"DONT GIVE UP THE SHIP\" in large white hand-lettered capitals across two lines."
     },
     {
       "qid": "Q98153596",
@@ -32906,7 +32928,8 @@
         "brown",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field with a black five-pointed star in the upper hoist and a black walking bear silhouette to its right. \"CALIFORNIA REPUBLIC.\" appears in black serif text below them, and a thick black horizontal stripe runs along the bottom edge."
     },
     {
       "qid": "Q98280493",
@@ -32933,7 +32956,8 @@
       "svgColors": [
         "darkblue",
         "white"
-      ]
+      ],
+      "description": "A dark blue field with a centered white rectangle depicting an astronaut helmet with a rising sun behind it, the text \"EST. 1955\" curving below, and \"CUPERTINO\" in white block letters across the lower portion of the field."
     },
     {
       "qid": "Q98280532",
@@ -33333,7 +33357,8 @@
         "darkblue",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field with a yellow vertical stripe and a dark blue vertical stripe at the fly bearing five white five-pointed stars arranged vertically. The oval Alameda County seal sits at the hoist, depicting white mountains, water with birds, and a yellow sunburst, encircled by \"COUNTY OF ALAMEDA CALIFORNIA\"."
     },
     {
       "qid": "Q104202987",
@@ -33564,7 +33589,8 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "description": "A vertical tricolor of green, white, and red with the year \"1824\" in black serif numerals on the central white stripe."
     },
     {
       "qid": "Q105805519",
@@ -33872,7 +33898,8 @@
         "black",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field overlaid with a red sunburst of curving wavy rays radiating from the center, with a small white square in the upper hoist bearing a red mill wheel."
     },
     {
       "qid": "Q106498608",
@@ -33897,7 +33924,8 @@
       ],
       "svgColors": [
         "white"
-      ]
+      ],
+      "description": "A vertical bicolor divided down the middle, white at the hoist and black at the fly."
     },
     {
       "qid": "Q106498686",
@@ -34058,7 +34086,8 @@
       "svgColors": [
         "purple",
         "yellow"
-      ]
+      ],
+      "description": "A vertical bicolor, dark blue at the hoist and yellow at the fly."
     },
     {
       "qid": "Q106501431",
@@ -34226,7 +34255,8 @@
       "svgColors": [
         "blue",
         "yellow"
-      ]
+      ],
+      "description": "A vertical bicolor, yellow at the hoist and blue at the fly."
     },
     {
       "qid": "Q106502013",
@@ -34290,7 +34320,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A yellow field bearing a black double-headed eagle with red beak and claws, with a red shield on its breast charged with a white Tau cross."
     },
     {
       "qid": "Q106502064",
@@ -34399,7 +34430,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A vertical bicolor, red at the hoist and yellow at the fly."
     },
     {
       "qid": "Q106677160",
@@ -34434,7 +34466,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A flag divided vertically: a yellow hoist with a black lion rampant holding a red bishop's crozier, and a white fly strewn with black ermine spots and bearing a black boar holding a red brick tower with golden crown."
     },
     {
       "qid": "Q106677308",
@@ -34471,7 +34504,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A flag divided vertically, white at the hoist and dark blue at the fly, with a blue shield in the center. The shield's upper portion is strewn with golden fleurs-de-lis and topped with three small red triangles; the lower portion is white with a blue cross and two additional fleurs-de-lis."
     },
     {
       "qid": "Q106677314",
@@ -34552,7 +34586,8 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "description": "Six horizontal stripes alternating white and red, beginning with white at the top."
     },
     {
       "qid": "Q106677732",
@@ -34591,7 +34626,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A field with a blue-white-red French tricolor background and a gold star in the upper hoist. Scalloped green and dark blue bands evoke land and sea. Centered, a black-and-white puffin holds a heraldic sail showing the cross of St. Andrew, ermine spots, and a golden lion. Three white fish swim along the bottom edge."
     },
     {
       "qid": "Q106677755",
@@ -34651,7 +34687,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A flag divided into quarters by a white cross. Each green quarter bears a single yellow anchor; the white cross is charged with multiple yellow fleurs-de-lis."
     },
     {
       "qid": "Q106677791",
@@ -34677,7 +34714,8 @@
       "svgColors": [
         "blue",
         "green"
-      ]
+      ],
+      "description": "A vertical tricolor of blue, green, and blue."
     },
     {
       "qid": "Q106677799",
@@ -34703,7 +34741,8 @@
       "svgColors": [
         "green",
         "yellow"
-      ]
+      ],
+      "description": "A vertical bicolor, green at the hoist and yellow at the fly."
     },
     {
       "qid": "Q106680731",
@@ -34745,7 +34784,8 @@
       "svgColors": [
         "black",
         "yellow"
-      ]
+      ],
+      "description": "A vertical bicolor, black at the hoist and yellow at the fly."
     },
     {
       "qid": "Q106682384",
@@ -34861,7 +34901,8 @@
         "black",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A vertical tricolor of black, white, and yellow."
     },
     {
       "qid": "Q106991354",
@@ -34928,7 +34969,8 @@
       "svgColors": [
         "lightblue",
         "white"
-      ]
+      ],
+      "description": "A medium blue field with a large white pelican in flight at the center, surrounded by seven white five-pointed stars arranged around it."
     },
     {
       "qid": "Q107452170",
@@ -35211,7 +35253,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A black field with a rampant white lion crowned in gold, with a red tongue and yellow claws, wearing a gold collar with a small cross."
     },
     {
       "qid": "Q110873677",
@@ -35460,7 +35503,8 @@
         "blue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A version of the U.S. flag in black and white instead of red, white, and blue, with one of the central horizontal stripes split into a red half at the hoist and a blue half at the fly."
     },
     {
       "qid": "Q112579066",
@@ -35569,7 +35613,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A flag divided vertically: a white hoist strewn with black ermine spots and a red fly bearing a large yellow crescent moon outlined in black with horns pointing upward."
     },
     {
       "qid": "Q112963947",
@@ -35644,7 +35689,8 @@
       "svgColors": [
         "blue",
         "yellow"
-      ]
+      ],
+      "description": "Two equal horizontal stripes, blue above and yellow below."
     },
     {
       "qid": "Q112964185",
@@ -35672,7 +35718,8 @@
         "orange",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Four vertical red stripes (pales) on a yellow field — the arms of the Counts of Foix."
     },
     {
       "qid": "Q112964246",
@@ -35714,7 +35761,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "Three red vertical stripes on a yellow field."
     },
     {
       "qid": "Q112964386",
@@ -35741,7 +35789,8 @@
       "svgColors": [
         "lightblue",
         "yellow"
-      ]
+      ],
+      "description": "A checkerboard of yellow and blue squares (six rows of nine, beginning with blue at the upper hoist)."
     },
     {
       "qid": "Q112964459",
@@ -35824,7 +35873,8 @@
         "blue",
         "red",
         "white"
-      ]
+      ],
+      "description": "A field of horizontal blue and white stripes overlaid with a broad red diagonal band running from the upper hoist to the lower fly."
     },
     {
       "qid": "Q113110562",
@@ -35849,7 +35899,8 @@
         "black",
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A red field with a yellow lion rampant crowned in gold centered."
     },
     {
       "qid": "Q113137678",
@@ -36024,7 +36075,8 @@
       "wdColors": [
         "yellow",
         "blue"
-      ]
+      ],
+      "description": "A yellow field with a black lion rampant at the fly facing a blue shield bearing a yellow fleur-de-lis at the hoist."
     },
     {
       "qid": "Q113281327",
@@ -36046,7 +36098,8 @@
       "wdColors": [
         "yellow",
         "blue"
-      ]
+      ],
+      "description": "A vertical bicolor, blue at the hoist and yellow at the fly."
     },
     {
       "qid": "Q113281413",
@@ -36108,7 +36161,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A blue field with a yellow heraldic ship under a white ermine-spotted sail floating on a green wavy base. Along the top runs a band of red and white triangles (vairy) bordered with red."
     },
     {
       "qid": "Q113282362",
@@ -36155,7 +36209,8 @@
         "blue",
         "green",
         "yellow"
-      ]
+      ],
+      "description": "A vertical tricolor of blue, yellow, and green."
     },
     {
       "qid": "Q113283481",
@@ -36192,7 +36247,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A white field semé with vertical black billets, charged with a large black lion rampant in the center."
     },
     {
       "qid": "Q113283797",
@@ -36275,7 +36331,8 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "description": "A flag divided vertically green at the hoist and red at the fly, with a central green shield bearing a white eagle in the chief and three white bishop's croziers around a yellow pillar."
     },
     {
       "qid": "Q113289470",
@@ -36322,7 +36379,8 @@
         "black",
         "red",
         "white"
-      ]
+      ],
+      "description": "A white field strewn with black ermine spots and charged with three large red axe-headed staves arranged in a row."
     },
     {
       "qid": "Q113289935",
@@ -36354,7 +36412,8 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "description": "A horizontally divided flag: upper half white strewn with black ermine spots, lower half red bearing a yellow castle with three crenellated towers."
     },
     {
       "qid": "Q113289970",
@@ -36380,7 +36439,8 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "description": "A red field with a yellow latticework fence-like grille (or three crenellated castle walls joined as a portcullis) in the center."
     },
     {
       "qid": "Q113290928",
@@ -36402,7 +36462,8 @@
       "wdColors": [
         "yellow",
         "blue"
-      ]
+      ],
+      "description": "A blue field with a broad yellow saltire (diagonal cross), with a yellow scallop shell in each of the four quarters."
     },
     {
       "qid": "Q113291325",
