@@ -11,13 +11,22 @@
     "icons": [
       "coa"
     ],
-    "description": "A white field with a copper-orange map silhouette of the island of Cyprus centered, with two crossed green olive branches below."
+    "description": "A white field with a copper-orange map silhouette of the island of Cyprus centered, with two crossed green olive branches below.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q12188": {
-    "description": "Black and white horizontal stripes (four black, five white) in the fly, with a white canton at the hoist bearing eleven black ermine spots."
+    "description": "Black and white horizontal stripes (four black, five white) in the fly, with a white canton at the hoist bearing eleven black ermine spots.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q12989": {
-    "description": "A yellow field bearing a black lion rampant with red claws and tongue, centered."
+    "description": "A yellow field bearing a black lion rampant with red claws and tongue, centered.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q12990": {
     "colors": [
@@ -29,7 +38,10 @@
       "vertical-stripes"
     ],
     "shape": "rectangle",
-    "description": "Three equal vertical bands of black, yellow, and red."
+    "description": "Three equal vertical bands of black, yellow, and red.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q16611": {
     "description": "Three equal horizontal bands of white (top), blue, and red.",
@@ -41,7 +53,10 @@
     "icons": [
       "horizontal-stripes"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q18983": {
     "description": "The flag of the U.S. state of Pennsylvania consists of a dark blue field on which the state coat of arms is displayed. Horses flanking the coat of arms and a bald eagle above. \"VIRTUE LIBERTY AND INDEPENDENCE\" on a banner below.",
@@ -61,16 +76,33 @@
       "plant",
       "text"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q18993": {
-    "description": "A blue field bearing the obverse of the Virginia state seal: a standing female figure (Virtue) holding a spear and a sheathed sword, with a defeated king lying at her feet. The motto \"SIC SEMPER TYRANNIS\" appears below."
+    "description": "A blue field bearing the obverse of the Virginia state seal: a standing female figure (Virtue) holding a spear and a sheathed sword, with a defeated king lying at her feet. The motto \"SIC SEMPER TYRANNIS\" appears below.",
+    "colors": [
+      "brown",
+      "darkblue",
+      "green",
+      "lightblue",
+      "red",
+      "white",
+      "yellow",
+      "purple",
+      "black"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q19000": {
     "colors": [
-      "blue",
       "red",
-      "white"
+      "white",
+      "darkblue"
     ],
     "icons": [
       "star",
@@ -78,19 +110,62 @@
       "vertical-stripes"
     ],
     "shape": "rectangle",
-    "description": "A vertical blue band at the hoist bearing a single large white five-pointed star, alongside two equal horizontal bands of white (top) and red on the fly."
+    "description": "A vertical blue band at the hoist bearing a single large white five-pointed star, alongside two equal horizontal bands of white (top) and red on the fly.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q19016": {
-    "description": "A dark blue field bearing the state coat of arms: a shield showing a masted ship and a sloop on the Hudson River with a grassy shore and mountains, sun rising behind them."
+    "description": "A dark blue field bearing the state coat of arms: a shield showing a masted ship and a sloop on the Hudson River with a grassy shore and mountains, sun rising behind them.",
+    "colors": [
+      "black",
+      "brown",
+      "darkblue",
+      "gray",
+      "green",
+      "lightblue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q19373": {
-    "description": "A blue field bearing a white palmetto tree in the center and a white crescent in the upper hoist corner."
+    "description": "A blue field bearing a white palmetto tree in the center and a white crescent in the upper hoist corner.",
+    "colors": [
+      "darkblue",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q19374": {
-    "description": "A blue field with the state arms in the center: a white pelican vulning herself (piercing her breast to feed her chicks) on a nest. A white ribbon below bears the state motto \"UNION JUSTICE CONFIDENCE\" in blue."
+    "description": "A blue field with the state arms in the center: a white pelican vulning herself (piercing her breast to feed her chicks) on a nest. A white ribbon below bears the state motto \"UNION JUSTICE CONFIDENCE\" in blue.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q19379": {
-    "description": "A vertical blue band at the hoist bearing a white five-pointed star between the gold letters \"N\" and \"C\", with two gold scrolls reading \"MAY 20th 1775\" above and \"APRIL 12th 1776\" below. The fly is divided into a red horizontal band (top) and a white horizontal band (bottom)."
+    "description": "A vertical blue band at the hoist bearing a white five-pointed star between the gold letters \"N\" and \"C\", with two gold scrolls reading \"MAY 20th 1775\" above and \"APRIL 12th 1776\" below. The fly is divided into a red horizontal band (top) and a white horizontal band (bottom).",
+    "colors": [
+      "darkblue",
+      "red",
+      "white",
+      "yellow",
+      "black"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q19427": {
     "description": "A navy blue field with gold lettering \"STATE OF OREGON\" arched above the state escutcheon (showing a covered wagon, mountains, an ocean sunset, ships, and a banner reading \"THE UNION\") encircled by 33 gold stars. The date \"1859\" appears in gold below.",
@@ -104,16 +179,34 @@
       "plant",
       "text"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q26491": {
-    "description": "A white field with a large red Saint George's cross extending to the edges, with a smaller red Bolnisi cross in each of the four white quadrants."
+    "description": "A white field with a large red Saint George's cross extending to the edges, with a smaller red Bolnisi cross in each of the four white quadrants.",
+    "colors": [
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q30768": {
     "description": "The national flag of Timor-Leste (bandeira nacional de Timor-Leste; bandeira nasionál) consists of a red field with the black isosceles triangle based on the hoist-side bearing a white five-pointed star in the center superimposed on the larger yellow triangle, also based on the hoist-side, that extends to the center of the flag."
   },
   "Q33213": {
-    "description": "Three equal horizontal bands of red (top), blue, and orange."
+    "description": "Three equal horizontal bands of red (top), blue, and orange.",
+    "colors": [
+      "blue",
+      "red",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q34494": {
     "description": "A blue field with the Union Jack in the upper hoist canton, and in the fly the Southern Cross (five white stars: four seven-pointed and one smaller five-pointed) below a white crown of Saint Edward."
@@ -122,7 +215,10 @@
     "description": "Three horizontal bands of red (top), black (double width), and green, with a white crescent and five-pointed star centered on the black band."
   },
   "Q36005": {
-    "description": "A horizontal triband of red (top), white, and red. The white middle stripe is twice the height of each red stripe and bears a green cedar of Lebanon tree centered, touching both red stripes."
+    "description": "A horizontal triband of red (top), white, and red. The white middle stripe is twice the height of each red stripe and bears a green cedar of Lebanon tree centered, touching both red stripes.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q41327": {
     "colors": [
@@ -137,19 +233,25 @@
       "vertical-stripes"
     ],
     "shape": "rectangle",
-    "description": "A green field with a vertical red stripe near the hoist containing five traditional carpet medallions (göls) woven in red, black, yellow, and white with an olive branch at its base, plus a white crescent and five small white stars in the upper hoist of the green portion."
+    "description": "A green field with a vertical red stripe near the hoist containing five traditional carpet medallions (göls) woven in red, black, yellow, and white with an olive branch at its base, plus a white crescent and five small white stars in the upper hoist of the green portion.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q41673": {
     "colors": [
       "orange",
       "white",
       "green",
-      "blue"
+      "darkblue"
     ],
     "icons": [
       "circle"
     ],
-    "description": "Three equal horizontal bands of saffron, white, and green, with a navy-blue 24-spoke wheel (Ashoka Chakra) centered on the white band."
+    "description": "Three equal horizontal bands of saffron, white, and green, with a navy-blue 24-spoke wheel (Ashoka Chakra) centered on the white band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q42436": {
     "colors": [
@@ -160,19 +262,25 @@
       "horizontal-stripes"
     ],
     "shape": "rectangle",
-    "description": "Two equal horizontal bands of white above red."
+    "description": "Two equal horizontal bands of white above red.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q42537": {
     "colors": [
       "red",
       "white",
-      "blue"
+      "darkblue"
     ],
     "icons": [
       "star",
       "horizontal-stripes"
     ],
-    "description": "Thirteen alternating red and white horizontal stripes, with a blue rectangle in the upper-left corner containing fifty white stars arranged in nine rows."
+    "description": "Thirteen alternating red and white horizontal stripes, with a blue rectangle in the upper-left corner containing fifty white stars arranged in nine rows.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q42876": {
     "colors": [
@@ -184,7 +292,10 @@
       "vertical-stripes"
     ],
     "shape": "rectangle",
-    "description": "Three equal vertical bands of green, white, and red."
+    "description": "Three equal vertical bands of green, white, and red.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q43175": {
     "colors": [
@@ -194,18 +305,24 @@
     "icons": [
       "circle"
     ],
-    "description": "A red disc centered on a white field."
+    "description": "A red disc centered on a white field.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q43192": {
     "colors": [
-      "blue",
       "white",
-      "red"
+      "red",
+      "darkblue"
     ],
     "icons": [
       "vertical-stripes"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q45136": {
     "description": "Three equal horizontal bands of green (top), white, and black, with three red five-pointed stars in a row centered on the white band."
@@ -220,7 +337,10 @@
       "blue"
     ],
     "icons": [],
-    "description": "Three equal horizontal bands of red (top), white, and blue."
+    "description": "Three equal horizontal bands of red (top), white, and blue.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q46835": {
     "colors": [
@@ -228,7 +348,10 @@
       "white"
     ],
     "icons": [],
-    "description": "Three equal horizontal bands of red (top), white, and red."
+    "description": "Three equal horizontal bands of red (top), white, and red.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q47891": {
     "colors": [
@@ -238,7 +361,10 @@
     "icons": [
       "cross"
     ],
-    "description": "A blue Nordic cross on a white field, offset toward the hoist."
+    "description": "A blue Nordic cross on a white field, offset toward the hoist.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q48160": {
     "colors": [
@@ -250,7 +376,10 @@
       "horizontal-stripes"
     ],
     "shape": "rectangle",
-    "description": "Three equal horizontal bands of black, red, and gold."
+    "description": "Three equal horizontal bands of black, red, and gold.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q48409": {
     "colors": [
@@ -260,10 +389,16 @@
     "icons": [
       "animal"
     ],
-    "description": "A red field with a black double-headed eagle centered."
+    "description": "A red field with a black double-headed eagle centered.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q51401": {
-    "description": "Six equal horizontal stripes of red (top), orange, yellow, green, blue, and violet."
+    "description": "Six equal horizontal stripes of red (top), orange, yellow, green, blue, and violet.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q59921": {
     "description": "Divided diagonally from upper hoist to lower fly: the upper fly triangle is red, the lower hoist triangle is yellow. Centered across the boundary is the Trinacria emblem (a female head with three running legs joined at the hip and wheat ears in the hair)."
@@ -276,7 +411,10 @@
     "icons": [
       "cross"
     ],
-    "description": "A white Nordic cross on a red field, offset toward the hoist."
+    "description": "A white Nordic cross on a red field, offset toward the hoist.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q75374": {
     "description": "A blue upper triangle and green lower triangle separated by a yellow diagonal stripe running from the lower hoist to the upper fly. The blue triangle bears five white five-pointed stars arranged in a quincunx pattern."
@@ -291,10 +429,16 @@
     "icons": [
       "coa"
     ],
-    "description": "A square flag with two equal vertical bands of yellow (hoist) and white, the white half charged with the emblem of the Holy See: the crossed gold and silver keys of Saint Peter beneath a papal tiara."
+    "description": "A square flag with two equal vertical bands of yellow (hoist) and white, the white half charged with the emblem of the Holy See: the crossed gold and silver keys of Saint Peter beneath a papal tiara.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q79874": {
-    "description": "A white field with the Islamic Shahada inscribed in black Arabic calligraphy across the center."
+    "description": "A white field with the Islamic Shahada inscribed in black Arabic calligraphy across the center.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q80110": {
     "colors": [
@@ -304,7 +448,10 @@
     "icons": [
       "plant"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q81286": {
     "colors": [
@@ -314,10 +461,16 @@
     "icons": [
       "cross"
     ],
-    "description": "A yellow Nordic cross on a light blue field, offset toward the hoist."
+    "description": "A yellow Nordic cross on a light blue field, offset toward the hoist.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q81471": {
-    "description": "Three equal horizontal bands of blue (top), black, and white."
+    "description": "Three equal horizontal bands of blue (top), black, and white.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q81477": {
     "description": "Three equal horizontal bands of yellow (top), green, and red.",
@@ -329,16 +482,19 @@
     "icons": [
       "horizontal-stripes"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q81526": {
     "description": "Three equal vertical bands of blue (hoist), yellow, and red, with the national coat of arms centered on the yellow band."
   },
   "Q81676": {
     "colors": [
-      "blue",
       "red",
-      "white"
+      "white",
+      "darkblue"
     ],
     "icons": [
       "star",
@@ -346,7 +502,10 @@
       "cross"
     ],
     "shape": "rectangle",
-    "description": "A blue field with the Union Jack in the upper hoist quarter, a large white seven-pointed Commonwealth Star below the Union Jack, and five white stars on the fly representing the Southern Cross (one small five-pointed star and four larger seven-pointed stars)."
+    "description": "A blue field with the Union Jack in the upper hoist quarter, a large white seven-pointed Commonwealth Star below the Union Jack, and five white stars on the fly representing the Southern Cross (one small five-pointed star and four larger seven-pointed stars).",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q81952": {
     "colors": [
@@ -357,7 +516,10 @@
       "star",
       "crescent"
     ],
-    "description": "A red field with a white crescent and a white five-pointed star next to it, both in the center."
+    "description": "A red field with a white crescent and a white five-pointed star next to it, both in the center.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q81970": {
     "description": "Three equal horizontal bands of red (top), white, and green.",
@@ -369,44 +531,79 @@
     "icons": [
       "horizontal-stripes"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q82194": {
-    "description": "A green field with a yellow rhombus in the center containing a blue disc depicting a starry sky and the Southern Cross, spanned by a curved white band inscribed \"ORDEM E PROGRESSO\" in green."
+    "description": "A green field with a yellow rhombus in the center containing a blue disc depicting a starry sky and the Southern Cross, spanned by a curved white band inscribed \"ORDEM E PROGRESSO\" in green.",
+    "colors": [
+      "darkblue",
+      "green",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q82205": {
-    "description": "Three equal vertical bands of green (hoist), white, and orange."
+    "description": "Three equal vertical bands of green (hoist), white, and orange.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q82236": {
-    "description": "Three equal horizontal bands of bright blue (top), red, and green, with a white crescent and a white eight-pointed star centered on the red band."
+    "description": "Three equal horizontal bands of bright blue (top), red, and green, with a white crescent and a white eight-pointed star centered on the red band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q83149": {
     "colors": [
       "red",
       "white",
-      "blue"
+      "darkblue"
     ],
     "icons": [
       "cross"
     ],
-    "description": "A blue Nordic cross outlined in white on a red field, offset toward the hoist."
+    "description": "A blue Nordic cross outlined in white on a red field, offset toward the hoist.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q83278": {
     "colors": [
       "red",
       "white",
-      "blue"
+      "darkblue"
     ],
     "icons": [
       "cross"
     ],
-    "description": "A dark blue field overlaid by the red and white crosses of Saint George, Saint Andrew, and Saint Patrick, forming three superimposed crosses on a blue background."
+    "description": "A dark blue field overlaid by the red and white crosses of Saint George, Saint Andrew, and Saint Patrick, forming three superimposed crosses on a blue background.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q83392": {
-    "description": "Two equal vertical bands of green (hoist) and white, charged in the center with a red crescent and a red five-pointed star."
+    "description": "Two equal vertical bands of green (hoist) and white, charged in the center with a red crescent and a red five-pointed star.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q93335": {
-    "description": "A sky blue field with a red Nordic cross outlined in white, offset toward the hoist."
+    "description": "A sky blue field with a red Nordic cross outlined in white, offset toward the hoist.",
+    "colors": [
+      "blue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q101472": {
     "colors": [
@@ -417,7 +614,10 @@
       "horizontal-stripes"
     ],
     "shape": "rectangle",
-    "description": "Two equal horizontal bands of red (top) and white."
+    "description": "Two equal horizontal bands of red (top) and white.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q101769": {
     "description": "Three equal horizontal bands of green (top), yellow, and blue."
@@ -429,10 +629,16 @@
     "description": "Three equal horizontal bands of red (top), white, and black, with a green isosceles triangle on the hoist side."
   },
   "Q102392": {
-    "description": "A white saltire (diagonal cross of Saint Andrew) on a blue field."
+    "description": "A white saltire (diagonal cross of Saint Andrew) on a blue field.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q102939": {
-    "description": "Three equal horizontal bands of turquoise blue (top), white, and turquoise blue, with five blue five-pointed stars arranged in a quincunx (four corners and center) on the white band."
+    "description": "Three equal horizontal bands of turquoise blue (top), white, and turquoise blue, with five blue five-pointed stars arranged in a quincunx (four corners and center) on the white band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q102944": {
     "description": "A blue field with two horizontal stripes (white and red) in the lower half, and a ring of ten yellow five-pointed stars centered horizontally across the stripes."
@@ -441,7 +647,10 @@
     "description": "Divided vertically into a red band at the hoist (one-third) and a two-band fly (yellow on top, green on the bottom). A black five-pointed star sits centered on the red hoist band."
   },
   "Q102960": {
-    "description": "Three equal vertical bands of green (hoist), white, and green."
+    "description": "Three equal vertical bands of green (hoist), white, and green.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q102967": {
     "description": "Three equal vertical bands of orange (hoist), white, and green."
@@ -471,7 +680,15 @@
     "description": "Two equal horizontal bands of blue (top) and red, with a gold crown in the upper hoist on the blue band."
   },
   "Q103064": {
-    "description": "A wide red horizontal stripe in the center bordered above and below by a thin white stripe and then a broad blue stripe. A red five-pointed star inside a white disc is set on the red stripe near the hoist."
+    "description": "A wide red horizontal stripe in the center bordered above and below by a thin white stripe and then a broad blue stripe. A red five-pointed star inside a white disc is set on the red stripe near the hoist.",
+    "colors": [
+      "blue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q103070": {
     "description": "Five horizontal stripes alternating green and yellow (three green, two yellow), with a red square canton in the upper hoist bearing a white five-pointed star."
@@ -486,7 +703,10 @@
     "description": "Three equal horizontal bands of aquamarine (top), yellow, and aquamarine, with a black equilateral triangle pointing toward the fly from the hoist."
   },
   "Q104351": {
-    "description": "Three equal vertical bands of ultramarine blue (hoist), gold, and ultramarine blue, with a black trident head (the head of a broken trident) centered on the gold band."
+    "description": "Three equal vertical bands of ultramarine blue (hoist), gold, and ultramarine blue, with a black trident head (the head of a broken trident) centered on the gold band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q104969": {
     "description": "Three equal horizontal bands of blue (top), white, and green, with a black Basotho hat (mokorotlo) centered on the white band."
@@ -506,23 +726,35 @@
   "Q121688": {
     "colors": [
       "red",
-      "yellow"
+      "yellow",
+      "pink",
+      "gray",
+      "blue",
+      "green"
     ],
     "icons": [
       "coa"
     ],
-    "description": "Three horizontal bands of red, yellow, and red, with the yellow band twice as wide as the red bands, bearing the Spanish coat of arms toward the hoist."
+    "description": "Three horizontal bands of red, yellow, and red, with the yellow band twice as wide as the red bands, bearing the Spanish coat of arms toward the hoist.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q122462": {
     "colors": [
       "green",
       "white",
-      "red"
+      "red",
+      "brown",
+      "yellow"
     ],
     "icons": [
       "coa"
     ],
-    "description": "Three equal vertical bands of green (hoist), white, and red, with the Mexican coat of arms (a golden eagle perched on a nopal cactus devouring a serpent) centered on the white band."
+    "description": "Three equal vertical bands of green (hoist), white, and red, with the Mexican coat of arms (a golden eagle perched on a nopal cactus devouring a serpent) centered on the white band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q122482": {
     "colors": [
@@ -532,7 +764,10 @@
     "icons": [
       "star"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q124020": {
     "shape": "square",
@@ -543,19 +778,36 @@
     "icons": [
       "cross"
     ],
-    "description": "A square red field bearing a white Greek cross (equal-armed) centered."
+    "description": "A square red field bearing a white Greek cross (equal-armed) centered.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q124329": {
     "description": "Two equal horizontal bands of red (top) and black, with a centered yellow emblem of a half cog wheel, machete, and five-pointed star."
   },
   "Q126622": {
-    "description": "Three equal horizontal bands of green (top), white, and red, with the red Islamic Republic emblem (a stylized tulip) centered on the white band, and the Arabic takbir (\"Allahu Akbar\") repeated 11 times in white Kufic script along the bottom edge of the green band and the top edge of the red band."
+    "description": "Three equal horizontal bands of green (top), white, and red, with the red Islamic Republic emblem (a stylized tulip) centered on the white band, and the Arabic takbir (\"Allahu Akbar\") repeated 11 times in white Kufic script along the bottom edge of the green band and the top edge of the red band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q127155": {
-    "description": "Two equal horizontal bands of white (top) and red, with a blue isoceles triangle at the hoist extending to the middle of the flag."
+    "description": "Two equal horizontal bands of white (top) and red, with a blue isoceles triangle at the hoist extending to the middle of the flag.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q127179": {
-    "description": "A dark green field with a red disc centered, offset slightly toward the hoist."
+    "description": "A dark green field with a red disc centered, offset slightly toward the hoist.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q127296": {
     "colors": [
@@ -567,7 +819,10 @@
     "icons": [
       "coa"
     ],
-    "description": "A white field with a red-and-blue circular taegeuk symbol centered, and four black trigrams (sets of three short bars), one in each corner."
+    "description": "A white field with a red-and-blue circular taegeuk symbol centered, and four black trigrams (sets of three short bars), one in each corner.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q127974": {
     "colors": [
@@ -578,24 +833,38 @@
       "horizontal-stripes"
     ],
     "shape": "rectangle",
-    "description": "Two equal horizontal bands of blue (top) and yellow."
+    "description": "Two equal horizontal bands of blue (top) and yellow.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q128347": {
-    "description": "A vertical white stripe at the hoist (about a quarter of the flag's width), with the remaining green field bearing a white crescent moon and a white five-pointed star in the center."
+    "description": "A vertical white stripe at the hoist (about a quarter of the flag's width), with the remaining green field bearing a white crescent moon and a white five-pointed star in the center.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q128480": {
-    "description": "A white field with two horizontal blue stripes (one near the top, one near the bottom) and a blue Star of David (hexagram) centered."
+    "description": "A white field with two horizontal blue stripes (one near the top, one near the bottom) and a blue Star of David (hexagram) centered.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q128812": {
     "colors": [
       "green",
       "white",
-      "red"
+      "red",
+      "yellow",
+      "black"
     ],
     "icons": [
       "coa"
     ],
-    "description": "A vertical bicolor of green (hoist) and red, with the Portuguese coat of arms (an armillary sphere with a red and white shield bearing five blue escutcheons and seven gold castles) centered over the colour boundary."
+    "description": "A vertical bicolor of green (hoist) and red, with the Portuguese coat of arms (an armillary sphere with a red and white shield bearing five blue escutcheons and seven gold castles) centered over the colour boundary.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q129132": {
     "colors": [
@@ -607,16 +876,25 @@
       "horizontal-stripes"
     ],
     "shape": "rectangle",
-    "description": "Nine equal horizontal stripes of blue and white alternating (blue at the top and bottom), with a blue canton in the upper hoist bearing a white cross."
+    "description": "Nine equal horizontal stripes of blue and white alternating (blue at the top and bottom), with a blue canton in the upper hoist bearing a white cross.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q130442": {
     "description": "A vertical green band at the hoist, with two horizontal bands in the fly: yellow (top) and red."
   },
   "Q130449": {
-    "description": "Three horizontal bands of red (top), white, and red; the white middle band is half the width of each red band (a so-called Latvian carmine triband)."
+    "description": "Three horizontal bands of red (top), white, and red; the white middle band is half the width of each red band (a so-called Latvian carmine triband).",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q130458": {
-    "description": "Three equal horizontal bands of red (top), white, and black, with the gold Eagle of Saladin centered on the white band."
+    "description": "Three equal horizontal bands of red (top), white, and black, with the gold Eagle of Saladin centered on the white band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q130481": {
     "description": "A vertical white band at the hoist with five triangular serrations separating it from the red field that covers the rest of the flag."
@@ -632,7 +910,10 @@
       "horizontal-stripes"
     ],
     "shape": "rectangle",
-    "description": "Three equal horizontal bands of light blue, white, and light blue, with a yellow Sun of May (a sun face with rays) centered on the white band."
+    "description": "Three equal horizontal bands of light blue, white, and light blue, with a yellow Sun of May (a sun face with rays) centered on the white band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q130807": {
     "description": "Three equal horizontal bands of white (top), blue, and red, with the Slovenian coat of arms in the upper hoist spanning the white and blue bands. The shield depicts Mount Triglav in white on blue, two wavy blue lines below, and three six-pointed golden stars above arranged in an inverted triangle.",
@@ -645,7 +926,10 @@
       "star",
       "horizontal-stripes"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q130811": {
     "description": "Three equal vertical bands of blue (hoist), yellow, and red.",
@@ -657,7 +941,10 @@
     "icons": [
       "vertical-stripes"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q131147": {
     "colors": [
@@ -667,28 +954,59 @@
     "icons": [
       "star"
     ],
-    "description": "A red field with one large yellow five-pointed star in the upper-left, accompanied by four smaller yellow stars arcing around it."
+    "description": "A red field with one large yellow five-pointed star in the upper-left, accompanied by four smaller yellow stars arcing around it.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q131204": {
-    "description": "A red field with a large yellow five-pointed star centered."
+    "description": "A red field with a large yellow five-pointed star centered.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q131469": {
-    "description": "A vertical bicolor of white (hoist) and red, with a representation of the George Cross (edged in red) in the upper hoist of the white half."
+    "description": "A vertical bicolor of white (hoist) and red, with a representation of the George Cross (edged in red) in the upper hoist of the white half.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q131650": {
-    "description": "A sky blue field with a centered yellow sun of 32 rays above a yellow soaring steppe eagle. A vertical yellow band of traditional Kazakh ornamental pattern runs along the hoist."
+    "description": "A sky blue field with a centered yellow sun of 32 rays above a yellow soaring steppe eagle. A vertical yellow band of traditional Kazakh ornamental pattern runs along the hoist.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q132633": {
-    "description": "A red horizontal band (top) over a green horizontal band, with a vertical white stripe at the hoist bearing a red traditional ornamental pattern."
+    "description": "A red horizontal band (top) over a green horizontal band, with a vertical white stripe at the hoist bearing a red traditional ornamental pattern.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q133015": {
-    "description": "Three equal horizontal bands of red (top), white, and blue, with the Croatian coat of arms (a red-and-white checkerboard shield topped by five smaller shields) centered."
+    "description": "Three equal horizontal bands of red (top), white, and blue, with the Croatian coat of arms (a red-and-white checkerboard shield topped by five smaller shields) centered.",
+    "colors": [
+      "blue",
+      "lightblue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q133022": {
-    "description": "Three equal horizontal bands of red (top), white, and light blue."
+    "description": "Three equal horizontal bands of red (top), white, and light blue.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q134247": {
-    "description": "Three equal horizontal bands of green (top), white, and black, with a vertical red bar at the hoist."
+    "description": "Three equal horizontal bands of green (top), white, and black, with a vertical red bar at the hoist.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q134252": {
     "description": "Two equal horizontal bands of red (top) and green, with a yellow five-pointed star centered."
@@ -707,22 +1025,31 @@
       "star",
       "sun"
     ],
-    "description": "A horizontal bicolor of royal blue (top) and crimson red (bottom), with a white equilateral triangle at the hoist. In the center of the triangle is a golden-yellow sun with eight primary rays. Each of the triangle's three vertices bears a small five-pointed golden-yellow star."
+    "description": "A horizontal bicolor of royal blue (top) and crimson red (bottom), with a white equilateral triangle at the hoist. In the center of the triangle is a golden-yellow sun with eight primary rays. Each of the triangle's three vertices bears a small five-pointed golden-yellow star.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q134874": {
-    "description": "Three equal horizontal bands of red (top), yellow, and green, with the Bolivian coat of arms centered on the yellow band."
+    "description": "Three equal horizontal bands of red (top), yellow, and green, with the Bolivian coat of arms centered on the yellow band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q134885": {
     "colors": [
       "red",
       "white",
-      "blue"
+      "darkblue"
     ],
     "icons": [
       "horizontal-stripes"
     ],
     "shape": "rectangle",
-    "description": "Five horizontal stripes of red, white, blue, white, and red; the central blue stripe is twice the width of each of the other four."
+    "description": "Five horizontal stripes of red, white, blue, white, and red; the central blue stripe is twice the width of each of the other four.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q134933": {
     "description": "Three equal vertical bands of green (hoist), yellow, and red, with a green five-pointed star centered on the yellow band."
@@ -731,7 +1058,10 @@
     "description": "Five horizontal bands: red (top), white (narrow), blue, white (narrow), and green."
   },
   "Q135034": {
-    "description": "A red field with an inverted isosceles triangle in the center, divided horizontally into three bands of black (top), blue, and white. A yellow rising sun with rays sits centered on the black band."
+    "description": "A red field with an inverted isosceles triangle in the center, divided horizontally into three bands of black (top), blue, and white. A yellow rising sun with rays sits centered on the black band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q148002": {
     "description": "Four red horizontal stripes on a yellow field (alternating yellow and red), with a blue equilateral triangle at the hoist bearing a white five-pointed star (the independentist Estelada variant).",
@@ -752,13 +1082,23 @@
     "description": "Two equal horizontal bands of white (top) and green."
   },
   "Q148807": {
-    "description": "Nine equal horizontal stripes of red and yellow alternating (yellow at the top and bottom), giving four red stripes on a yellow field."
+    "description": "Nine equal horizontal stripes of red and yellow alternating (yellow at the top and bottom), giving four red stripes on a yellow field.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q154823": {
     "description": "At the hoist, two equal vertical bands of green and orange on a yellow border. The fly bears a maroon (dark red) rectangle on a yellow border containing a gold passant lion holding a sword, with a gold bo leaf in each corner of the maroon field."
   },
   "Q156564": {
-    "description": "A dark blue field with eight gold five-pointed stars forming the Big Dipper (seven stars) and Polaris (one star) in the upper portion of the flag."
+    "description": "A dark blue field with eight gold five-pointed stars forming the Big Dipper (seven stars) and Polaris (one star) in the upper portion of the flag.",
+    "colors": [
+      "darkblue",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q159538": {
     "description": "A light blue field with a single large white five-pointed star centered."
@@ -788,7 +1128,10 @@
     ]
   },
   "Q159865": {
-    "description": "A red field with a green five-pointed star (pentagram) centered, drawn with interlaced lines."
+    "description": "A red field with a green five-pointed star (pentagram) centered, drawn with interlaced lines.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q159872": {
     "description": "Three equal vertical bands of green (hoist), red, and yellow, with a yellow five-pointed star centered on the red band."
@@ -814,16 +1157,27 @@
     "icons": [
       "star"
     ],
-    "description": "A horizontal green Y-shape fimbriated in white and gold, dividing the flag into red over blue with a black triangle at the hoist; the layout has six colors total: red, blue, green, black, white, and gold."
+    "description": "A horizontal green Y-shape fimbriated in white and gold, dividing the flag into red over blue with a black triangle at the hoist; the layout has six colors total: red, blue, green, black, white, and gold.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q160255": {
-    "description": "Three equal vertical bands of red, white, and red."
+    "description": "Three equal vertical bands of red, white, and red.",
+    "colors": [
+      "red",
+      "white",
+      "green"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q160260": {
     "colors": [
-      "blue",
       "red",
-      "white"
+      "white",
+      "darkblue"
     ],
     "icons": [
       "cross",
@@ -831,16 +1185,35 @@
       "star"
     ],
     "shape": "rectangle",
-    "description": "A blue field with the Union Jack in the upper hoist quarter, and four red five-pointed stars edged in white on the fly representing the Southern Cross."
+    "description": "A blue field with the Union Jack in the upper hoist quarter, and four red five-pointed stars edged in white on the fly representing the Southern Cross.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q160425": {
-    "description": "Three horizontal bands of yellow (top, occupying the upper half), blue (lower quarter), and red (bottom quarter); proportions 2:1:1."
+    "description": "Three horizontal bands of yellow (top, occupying the upper half), blue (lower quarter), and red (bottom quarter); proportions 2:1:1.",
+    "colors": [
+      "darkblue",
+      "red",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q160676": {
     "description": "Three equal horizontal bands of red (top), yellow, and green, with a black five-pointed star centered on the yellow band."
   },
   "Q160861": {
-    "description": "Three equal horizontal bands of white (top), blue, and red, with the Slovak coat of arms (a double cross on three blue hills atop a red shield) placed toward the hoist of center."
+    "description": "Three equal horizontal bands of white (top), blue, and red, with the Slovak coat of arms (a double cross on three blue hills atop a red shield) placed toward the hoist of center.",
+    "colors": [
+      "blue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q160872": {
     "colors": [
@@ -853,13 +1226,22 @@
       "star"
     ],
     "shape": "rectangle",
-    "description": "Two equal horizontal bands of white (top) and red, with a blue square in the upper hoist (the height of the white band) bearing a single white five-pointed star."
+    "description": "Two equal horizontal bands of white (top) and red, with a blue square in the upper hoist (the height of the white band) bearing a single white five-pointed star.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q160877": {
-    "description": "A solid green field bearing a white Arabic inscription (the Islamic shahada) above a white horizontal sword pointing toward the hoist."
+    "description": "A solid green field bearing a white Arabic inscription (the Islamic shahada) above a white horizontal sword pointing toward the hoist.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q162033": {
-    "description": "A medium blue field with a yellow right triangle separating it from the hoist. Along the hypotenuse of the triangle is a diagonal line of seven full and two half five-pointed white stars."
+    "description": "A medium blue field with a yellow right triangle separating it from the hoist. Along the hypotenuse of the triangle is a diagonal line of seven full and two half five-pointed white stars.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q162068": {
     "description": "Three equal horizontal bands of green (top), yellow, and red, with a blue disc centered bearing a yellow five-pointed star surrounded by rays.",
@@ -891,43 +1273,69 @@
       "horizontal-stripes",
       "text"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q162789": {
-    "description": "A red field with a white disc centered, bearing a red crescent partly surrounding a red five-pointed star."
+    "description": "A red field with a white disc centered, bearing a red crescent partly surrounding a red five-pointed star.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q162980": {
     "description": "A red field with a wide yellow border, bearing the country's coat of arms centered: a gold double-headed eagle holding a scepter and orb, with a blue shield on its chest showing a gold lion passant on a green field."
   },
   "Q162999": {
-    "description": "Three horizontal bands of blue (top), red (middle, double width), and blue, with a white silhouette of the three-towered Angkor Wat temple centered on the red band."
+    "description": "Three horizontal bands of blue (top), red (middle, double width), and blue, with a white silhouette of the three-towered Angkor Wat temple centered on the red band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q163008": {
-    "description": "Five equal horizontal stripes of blue and white alternating (three blue, two white), with a red equilateral triangle at the hoist bearing a white five-pointed star."
+    "description": "Five equal horizontal stripes of blue and white alternating (three blue, two white), with a red equilateral triangle at the hoist bearing a white five-pointed star.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q163333": {
     "description": "A yellow diagonal band runs from the lower hoist to the upper fly, dividing the field into a green upper triangle and a red lower triangle."
   },
   "Q163753": {
-    "description": "Three equal horizontal bands of yellow (top), green, and red, with a large white five-pointed star centered."
+    "description": "Three equal horizontal bands of yellow (top), green, and red, with a large white five-pointed star centered.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q163832": {
     "description": "Three equal horizontal bands of red (top), blue, and white, with the lesser coat of arms placed toward the hoist of center.",
     "colors": [
-      "blue",
       "red",
       "white",
-      "yellow"
+      "yellow",
+      "darkblue"
     ],
     "icons": [
       "coa",
       "bird",
       "horizontal-stripes"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q164584": {
-    "description": "A sky blue field with a yellow five-pointed star in the upper hoist canton, and a red diagonal stripe (fimbriated in yellow) running from the lower hoist to the upper fly."
+    "description": "A sky blue field with a yellow five-pointed star in the upper hoist canton, and a red diagonal stripe (fimbriated in yellow) running from the lower hoist to the upper fly.",
+    "colors": [
+      "blue",
+      "red",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q165230": {
     "description": "A red field bearing a yellow hammer crossed with a yellow sickle in the upper hoist, surmounted by a small yellow five-pointed star outlined in yellow."
@@ -936,13 +1344,25 @@
     "description": "Three equal vertical bands of red (hoist), yellow, and green."
   },
   "Q165538": {
-    "description": "Three equal horizontal bands of yellow (top), blue, and red, with an arc of eight white five-pointed stars centered on the blue band."
+    "description": "Three equal horizontal bands of yellow (top), blue, and red, with an arc of eight white five-pointed stars centered on the blue band.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q165542": {
     "description": "Three horizontal bands of yellow (top, occupying half the height), blue, and red, with the Ecuadorian coat of arms centered on the yellow band."
   },
   "Q165545": {
-    "description": "Three equal horizontal bands of green (top), white, and red, with a black trapezoid (a wedge with a notched edge) at the hoist."
+    "description": "Three equal horizontal bands of green (top), white, and red, with a black trapezoid (a wedge with a notched edge) at the hoist.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q165550": {
     "description": "The national flag of Oman (Arabic: علم عُمان) consists of two horizontal stripes of upper white and lower green, separated by a red horizontal \"T\" shape in the centre that contains the national emblem of Oman (crossed swords over a khanjar, a traditional curved dagger)."
@@ -951,7 +1371,10 @@
     "description": "Three equal vertical bands of red (hoist), blue, and red, with a yellow Soyombo emblem (a stylized column of symbols including flame, sun, moon, yin-yang and geometric shapes) centered on the hoist red band."
   },
   "Q165641": {
-    "description": "A red field with a yellow sun centered, with 40 rays radiating outward. In the center of the sun is a red tündük (the wooden crown of a yurt) rendered as crossed bands within a circle."
+    "description": "A red field with a yellow sun centered, with 40 rays radiating outward. In the center of the sun is a red tündük (the wooden crown of a yurt) rendered as crossed bands within a circle.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q165775": {
     "description": "Four equal horizontal bands of blue (top), white, green, and yellow, with a vertical red stripe running down the center. A yellow five-pointed star sits in the upper hoist on the blue band."
@@ -975,10 +1398,16 @@
     "icons": [
       "animal"
     ],
-    "description": "Three horizontal bands of black, red, and green separated by thin white fimbriations, with a red, black, and white Maasai shield and two crossed spears centered."
+    "description": "Three horizontal bands of black, red, and green separated by thin white fimbriations, with a red, black, and white Maasai shield and two crossed spears centered.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q167119": {
-    "description": "A red field with a stylized yellow sun in the center, with eight broadening rays extending from the central disc to the edges of the flag."
+    "description": "A red field with a stylized yellow sun in the center, with eight broadening rays extending from the central disc to the edges of the flag.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q167584": {
     "description": "Three equal vertical bands of blue (hoist), yellow, and red, with the Moldovan coat of arms centered on the yellow band: a stylized aurochs head with a star between its horns, flanked by a rose and crescent, on a yellow and blue shield held by an eagle."
@@ -1002,23 +1431,42 @@
     "description": "Four horizontal bands of yellow (top), white, red, and blue, with a green isosceles triangle at the hoist bearing a white crescent and four white five-pointed stars arranged vertically."
   },
   "Q168925": {
-    "description": "Two equal horizontal bands of white (top) and light blue, with the national coat of arms centered: a shield with three silver towers on three green peaks, topped with a crown, flanked by an oak and a laurel branch, with a scroll below reading \"LIBERTAS\"."
+    "description": "Two equal horizontal bands of white (top) and light blue, with the national coat of arms centered: a shield with three silver towers on three green peaks, topped with a crown, flanked by an oak and a laurel branch, with a scroll below reading \"LIBERTAS\".",
+    "colors": [
+      "black",
+      "gray",
+      "green",
+      "lightblue",
+      "white",
+      "yellow"
+    ]
   },
   "Q168935": {
     "colors": [
       "red",
       "white",
-      "blue",
-      "yellow"
+      "yellow",
+      "darkblue"
     ],
     "icons": [
       "star",
       "crescent"
     ],
-    "description": "Fourteen alternating equal horizontal red and white stripes, with a blue canton in the upper hoist bearing a yellow crescent and a yellow 14-point star."
+    "description": "Fourteen alternating equal horizontal red and white stripes, with a blue canton in the upper hoist bearing a yellow crescent and a yellow 14-point star.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q168941": {
-    "description": "A field divided into four equal quarters: white (upper hoist) bearing a blue five-pointed star, red (upper fly), blue (lower hoist), and white (lower fly) bearing a red five-pointed star."
+    "description": "A field divided into four equal quarters: white (upper hoist) bearing a blue five-pointed star, red (upper fly), blue (lower hoist), and white (lower fly) bearing a red five-pointed star.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q169192": {
     "description": "A blue field with horizontal red stripes at the top and bottom edges. Centered is a large white disc bearing the Belize coat of arms: a shield with logging tools flanked by two woodcutters (one Black, one mestizo), beneath a mahogany tree, encircled by 50 olive leaves with a banner reading \"SUB UMBRA FLOREO\" below.",
@@ -1051,10 +1499,24 @@
     "description": "Three horizontal bands of green (top), yellow (double width), and green, with a red isosceles triangle at the hoist and two black five-pointed stars centered on the yellow band."
   },
   "Q170064": {
-    "description": "Three equal horizontal bands of black (top), white, and green, with a red equilateral triangle on the hoist side bearing a small white seven-pointed star."
+    "description": "Three equal horizontal bands of black (top), white, and green, with a red equilateral triangle on the hoist side bearing a small white seven-pointed star.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q170289": {
-    "description": "Five horizontal bands of blue, white, red, white, and blue; the central red band is twice as wide as each of the others."
+    "description": "Five horizontal bands of blue, white, red, white, and blue; the central red band is twice as wide as each of the others.",
+    "colors": [
+      "blue",
+      "green",
+      "lightblue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q170465": {
     "description": "Three equal horizontal bands of red (top), white, and blue, with the national coat of arms centered on the white band."
@@ -1089,7 +1551,10 @@
     "description": "A green field with three vertical stripes of red, black, and orange in the lower fly, and an orange African fish eagle in flight above the stripes."
   },
   "Q171103": {
-    "description": "Nine equal horizontal stripes of white and blue alternating (white at top and bottom). A white canton in the upper hoist bears the Sun of May: a yellow face surrounded by 16 alternating triangular and wavy rays."
+    "description": "Nine equal horizontal stripes of white and blue alternating (white at top and bottom). A white canton in the upper hoist bears the Sun of May: a yellow face surrounded by 16 alternating triangular and wavy rays.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q171117": {
     "description": "A white field bearing a red Saint George's cross (vertical and horizontal red bands) extending to the edges."
@@ -1098,13 +1563,26 @@
     "description": "A green field with two superimposed triangles based on the hoist: a white-edged red triangle (the \"golden arrowhead\") atop a black-edged golden triangle, both pointing toward the fly."
   },
   "Q172446": {
-    "description": "A light blue field with the white United Nations emblem centered: a polar azimuthal projection of the world map encircled by two olive branches."
+    "description": "A light blue field with the white United Nations emblem centered: a polar azimuthal projection of the world map encircled by two olive branches.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q172517": {
-    "description": "A yellow saltire (diagonal cross) dividing the flag into four triangles: green at the top and bottom, black at the hoist and fly."
+    "description": "A yellow saltire (diagonal cross) dividing the flag into four triangles: green at the top and bottom, black at the hoist and fly.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q172530": {
-    "description": "A maroon field with a vertical white serrated band at the hoist forming nine triangular points."
+    "description": "A maroon field with a vertical white serrated band at the hoist forming nine triangular points.",
+    "colors": [
+      "white",
+      "red"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q172533": {
     "description": "Three equal horizontal bands of blue (top), white, and blue, with the national coat of arms (a triangle containing five volcanoes, a Phrygian cap, and a rainbow) centered on the white band."
@@ -1121,19 +1599,41 @@
     "icons": [
       "star"
     ],
-    "description": "A red field with a blue canton in the upper hoist containing a white sun: a central white disc surrounded by twelve white triangular rays."
+    "description": "A red field with a blue canton in the upper hoist containing a white sun: a central white disc surrounded by twelve white triangular rays.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q173548": {
     "description": "Four equal horizontal bands of red (top), dark blue, yellow, and green."
   },
   "Q173554": {
-    "description": "Three equal horizontal bands of blue (top), white, and blue, with the national coat of arms centered on the white band."
+    "description": "Three equal horizontal bands of blue (top), white, and blue, with the national coat of arms centered on the white band.",
+    "colors": [
+      "blue",
+      "green",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q174487": {
     "description": "A blue field with the Union Jack in the upper hoist canton, and in the fly the Cayman Islands coat of arms: a shield with three green stars on blue and white wavy bars below a red chief bearing an English lion, surmounted by a green sea turtle on a knight's helm, with a yellow pineapple, and a white banner reading \"HE HATH FOUNDED IT UPON THE SEAS\"."
   },
   "Q178179": {
-    "description": "Three equal vertical bands of sky blue (hoist), white, and sky blue, with the Guatemalan coat of arms centered on the white band (a resplendent quetzal perched on a scroll, with crossed rifles and crossed swords, framed by a laurel wreath)."
+    "description": "Three equal vertical bands of sky blue (hoist), white, and sky blue, with the Guatemalan coat of arms centered on the white band (a resplendent quetzal perched on a scroll, with crossed rifles and crossed swords, framed by a laurel wreath).",
+    "colors": [
+      "brown",
+      "green",
+      "lightblue",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q179383": {
     "description": "A green field divided by a triple cross of yellow, black, and white bands (vertical and horizontal). A red disc centered at the intersection bears a purple sisserou parrot perched on a branch, surrounded by ten green five-pointed stars edged in yellow."
@@ -1154,13 +1654,25 @@
     "description": "Three horizontal bands of black (top), red, and green, separated by thin white stripes, with a blue equilateral triangle at the hoist bearing a yellow five-pointed star."
   },
   "Q184265": {
-    "description": "A field divided into four equal quarters by a white cross extending to the edges: blue (upper hoist), red (upper fly), red (lower hoist), and blue (lower fly), with the Dominican coat of arms centered on the cross."
+    "description": "A field divided into four equal quarters by a white cross extending to the edges: blue (upper hoist), red (upper fly), red (lower hoist), and blue (lower fly), with the Dominican coat of arms centered on the cross.",
+    "colors": [
+      "darkblue",
+      "green",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q184268": {
     "description": "Two equal horizontal bands of white (top) and red, with a centered disc of opposite colors (red upper half on the white band, white lower half on the red band), positioned toward the hoist."
   },
   "Q184283": {
-    "description": "A red field with a diagonal black stripe (bend) fimbriated in white, running from the upper hoist to the lower fly."
+    "description": "A red field with a diagonal black stripe (bend) fimbriated in white, running from the upper hoist to the lower fly.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q184584": {
     "description": "Three vertical bands of blue (hoist), yellow (double width), and green, with three green diamond shapes arranged as a V-pattern centered on the yellow band."
@@ -1169,7 +1681,10 @@
     "description": "A light blue field with a centered isosceles triangle made of three overlapping triangles: a white outer triangle, a black middle triangle, and a yellow inner triangle at the base."
   },
   "Q185271": {
-    "description": "A field divided diagonally from upper hoist to lower fly: the upper triangle is red bearing a yellow silhouette of a Raggiana bird-of-paradise; the lower triangle is black bearing five white stars representing the Southern Cross."
+    "description": "A field divided diagonally from upper hoist to lower fly: the upper triangle is red bearing a yellow silhouette of a Raggiana bird-of-paradise; the lower triangle is black bearing five white stars representing the Southern Cross.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q185277": {
     "description": "A dark blue field divided horizontally by a thin yellow stripe slightly below center. In the lower hoist sits a white twelve-pointed star."
@@ -1181,7 +1696,15 @@
     "description": "A horizontal bicolor of white (top) and green, with a large red passant dragon centered."
   },
   "Q186226": {
-    "description": "A red field bearing the triskelion: three armoured legs joined at the hip, with golden spurs, arranged radially."
+    "description": "A red field bearing the triskelion: three armoured legs joined at the hip, with golden spurs, arranged radially.",
+    "colors": [
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q186456": {
     "description": "A red field with a centered stylized white five-petaled bauhinia (orchid tree) flower, each petal bearing a small red five-pointed star."
@@ -1255,13 +1778,24 @@
     "description": "Eight horizontal stripes alternating white, red, and blue (from top), with the Union Jack in the upper hoist canton."
   },
   "Q221881": {
-    "description": "A white field bearing the Massachusetts coat of arms in the center: a blue shield depicting an Algonquian Native American holding a bow and arrow, with a white star in the upper hoist corner. A blue ribbon scroll wraps around the shield."
+    "description": "A white field bearing the Massachusetts coat of arms in the center: a blue shield depicting an Algonquian Native American holding a bow and arrow, with a white star in the upper hoist corner. A blue ribbon scroll wraps around the shield.",
+    "colors": [
+      "darkblue",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q224972": {
     "description": "Three equal vertical bands of white (hoist), blue, and yellow."
   },
   "Q225360": {
-    "description": "Three equal horizontal bands of white (top), green, and red."
+    "description": "Three equal horizontal bands of white (top), green, and red.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q232591": {
     "description": "Three horizontal bands of red (top), white (double width), and red, with the French Polynesian emblem centered on the white band: a Polynesian outrigger canoe carrying five small figures, with a yellow sunburst behind and blue waves below."
@@ -1270,7 +1804,10 @@
     "description": "Three equal vertical bands of green (hoist), white, and green, with a green Norfolk Island pine tree centered on the white band."
   },
   "Q235475": {
-    "description": "A red field with a green diagonal saltire (Saint Andrew's cross), overlaid by a white upright cross (Saint George's cross)."
+    "description": "A red field with a green diagonal saltire (Saint Andrew's cross), overlaid by a white upright cross (Saint George's cross).",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q235829": {
     "description": "A dark blue field with a thick red border on all sides, bearing the Guam territorial seal centered: an almond-shaped emblem with a coconut palm, a flying proa boat on the bay, and a beach scene, with \"GUAM\" in red letters across the middle."
@@ -1279,7 +1816,18 @@
     "description": "A green field bearing a centered white lotus flower of three petals above white horizontal lines (water), with five small yellow five-pointed stars arched above (one large in the center, two on each side)."
   },
   "Q241083": {
-    "description": "A blue field with the state coat of arms centered (a shield supported by a sailor and a miner, with a small \"FORWARD\" banner above), the word \"WISCONSIN\" arched above in white, and the date \"1848\" in white below."
+    "description": "A blue field with the state coat of arms centered (a shield supported by a sailor and a miner, with a small \"FORWARD\" banner above), the word \"WISCONSIN\" arched above in white, and the date \"1848\" in white below.",
+    "colors": [
+      "black",
+      "darkblue",
+      "gray",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q241781": {
     "description": "Three equal vertical bands of blue (hoist), yellow (double width), and blue, with a red and white Cross of Christ (Order of Christ cross) centered on the yellow band."
@@ -1291,10 +1839,27 @@
     "description": "A blue field with the Union Jack in the upper hoist canton, and in the fly the Montserrat coat of arms: a shield bearing a green-robed woman (Erin) embracing a Christian cross and holding a golden harp on a black ground."
   },
   "Q248102": {
-    "description": "A blue field bearing the New Hampshire state seal centered: the frigate USS Raleigh on water, encircled by a green laurel wreath and nine golden stars."
+    "description": "A blue field bearing the New Hampshire state seal centered: the frigate USS Raleigh on water, encircled by a green laurel wreath and nine golden stars.",
+    "colors": [
+      "brown",
+      "darkblue",
+      "green",
+      "white",
+      "yellow",
+      "lightblue"
+    ]
   },
   "Q258262": {
-    "description": "A sky-blue field bearing an Osage warrior's tan buffalo-hide shield with six small white crosses, decorated with seven pendant eagle feathers. Crossed atop the shield are a calumet (peace pipe) and an olive branch. \"OKLAHOMA\" appears in white capitals below."
+    "description": "A sky-blue field bearing an Osage warrior's tan buffalo-hide shield with six small white crosses, decorated with seven pendant eagle feathers. Crossed atop the shield are a calumet (peace pipe) and an olive branch. \"OKLAHOMA\" appears in white capitals below.",
+    "colors": [
+      "brown",
+      "green",
+      "lightblue",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q266618": {
     "description": "A white field with a red border around the top, bottom, and fly edges decorated with white rectangles and small green oak-leaf clusters. Across the top runs a band bearing a gold passant lion. Centered below is a scene of an oak tree and three smaller saplings growing on a green island."
@@ -1324,10 +1889,21 @@
       "star"
     ],
     "shape": "rectangle",
-    "description": "A white field with a wide red stripe along the bottom edge. Centered on the white field is a California grizzly bear walking on a patch of green grass, with a red five-pointed star in the upper-left. The words \"CALIFORNIA REPUBLIC\" appear in black below the bear."
+    "description": "A white field with a wide red stripe along the bottom edge. Centered on the white field is a California grizzly bear walking on a patch of green grass, with a red five-pointed star in the upper-left. The words \"CALIFORNIA REPUBLIC\" appear in black below the bear.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q369833": {
-    "description": "A red field with a large white lozenge (diamond) bordered in blue. The blue border contains 25 small white five-pointed stars. Inside the diamond are four blue five-pointed stars: one above the word \"ARKANSAS\" (in blue capitals) and three below."
+    "description": "A red field with a large white lozenge (diamond) bordered in blue. The blue border contains 25 small white five-pointed stars. Inside the diamond are four blue five-pointed stars: one above the word \"ARKANSAS\" (in blue capitals) and three below.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q379118": {
     "description": "A blue field bearing a centered yellow bird with wings spread, standing on a grey stone wall (representation of the historical castle of Udine).",
@@ -1377,13 +1953,19 @@
     "description": "A white field with the Guadeloupe regional logo centered: a stylized green-and-blue square with a yellow sun and a dark blue arc above, with black text \"REGION GUADELOUPE\" below the logo, and a small yellow rectangle at the bottom."
   },
   "Q392167": {
-    "description": "A blue field divided by a white cross (extending to the edges) into four quarters, each bearing a white fleur-de-lis."
+    "description": "A blue field divided by a white cross (extending to the edges) into four quarters, each bearing a white fleur-de-lis.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q435103": {
     "description": "Four red horizontal stripes on a yellow field (alternating yellow and red, nine stripes total), with a purple square canton in the upper hoist bearing a white five-towered castle."
   },
   "Q459788": {
-    "description": "A dark blue field with a white compass rose (a four-pointed star) in the center, encircled by a white ring with four short white lines radiating outward in the cardinal directions."
+    "description": "A dark blue field with a white compass rose (a four-pointed star) in the center, encircled by a white ring with four short white lines radiating outward in the cardinal directions.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q460072": {
     "description": "A blue field bearing a centered yellow globe (with grid lines) inside a curving fan of 61 yellow sun rays radiating outward (forming a stylized \"C\" shape).",
@@ -1398,13 +1980,28 @@
   },
   "Q462621": {
     "localFile": "Q462621.svg",
-    "description": "Three horizontal bands of green (top), blue, and green, separated by thin black lines; in the center is a white Dhari (traditional headdress) with a white five-pointed star beneath."
+    "description": "Three horizontal bands of green (top), blue, and green, separated by thin black lines; in the center is a white Dhari (traditional headdress) with a white five-pointed star beneath.",
+    "colors": [
+      "green",
+      "white",
+      "black",
+      "darkblue"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q483659": {
-    "description": "A horizontal bicolor of red (top) and white, with a white crescent moon and a pentagon of five small white five-pointed stars in the upper hoist (canton)."
+    "description": "A horizontal bicolor of red (top) and white, with a white crescent moon and a pentagon of five small white five-pointed stars in the upper hoist (canton).",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q483774": {
-    "description": "Three equal horizontal bands of celestial blue (top), white, and green, separated by two thin red fimbriations. In the upper hoist (canton) is a white crescent moon and twelve white five-pointed stars in three rows."
+    "description": "Three equal horizontal bands of celestial blue (top), white, and green, separated by two thin red fimbriations. In the upper hoist (canton) is a white crescent moon and twelve white five-pointed stars in three rows.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q484249": {
     "description": "Three equal horizontal bands of green (top), black (edged in white), and yellow, with a red isosceles triangle at the hoist bearing a yellow five-pointed star charged with an open white book, a crossed AK-47 rifle, and a hoe."
@@ -1413,16 +2010,37 @@
     "description": "A blue field with a wide white border framed by an outer red border, bearing a white silhouette of an American bison facing the hoist with the state seal rendered in blue centered on its flank."
   },
   "Q492541": {
-    "description": "Three equal vertical bands of blue (hoist), white, and red, with a bald eagle holding a blue streamer reading \"OUR LIBERTIES WE PRIZE AND OUR RIGHTS WE WILL MAINTAIN\" centered on the white stripe, with \"IOWA\" in red below."
+    "description": "Three equal vertical bands of blue (hoist), white, and red, with a bald eagle holding a blue streamer reading \"OUR LIBERTIES WE PRIZE AND OUR RIGHTS WE WILL MAINTAIN\" centered on the white stripe, with \"IOWA\" in red below.",
+    "colors": [
+      "brown",
+      "darkblue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q492546": {
-    "description": "Three equal horizontal bands of blue (top), white, and blue. Overlaid on the stripes toward the hoist is a large red letter \"C\" filled with a golden disc."
+    "description": "Three equal horizontal bands of blue (top), white, and blue. Overlaid on the stripes toward the hoist is a large red letter \"C\" filled with a golden disc.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q495469": {
     "description": "Three equal horizontal bands of black (top), red, and yellow, with the Lower Saxony coat of arms centered: a red shield bearing a white horse rampant."
   },
   "Q497997": {
-    "description": "A white field with a crimson Saint Andrew's cross (diagonal saltire) extending to the corners."
+    "description": "A white field with a crimson Saint Andrew's cross (diagonal saltire) extending to the corners.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q499127": {
     "description": "A blue field bearing the Maine coat of arms centered: a shield with a pine tree and moose flanked by a farmer and a sailor, surmounted by a blue ribbon reading \"DIRIGO\" beneath the North Star. A banner reading \"MAINE\" appears below."
@@ -1468,7 +2086,16 @@
     "description": "A blue field bearing a yellow Cross of the Victory centered, with a yellow Alpha hanging from the left arm and a yellow Omega from the right arm."
   },
   "Q590821": {
-    "description": "A navy blue field with the Commonwealth seal centered. Two figures embrace within the seal, encircled by the words \"COMMONWEALTH OF KENTUCKY\" above and sprigs of goldenrod below."
+    "description": "A navy blue field with the Commonwealth seal centered. Two figures embrace within the seal, encircled by the words \"COMMONWEALTH OF KENTUCKY\" above and sprigs of goldenrod below.",
+    "colors": [
+      "green",
+      "white",
+      "yellow",
+      "darkblue"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q598224": {
     "description": "Three equal horizontal bands of light blue (top), yellow, and red, with the Cundinamarca coat of arms centered: a white circular emblem framed in black with \"GOB.O LIBRE E INDEP.TE DE CUNDIN.A\" arched around an eagle holding the local arms."
@@ -1483,7 +2110,10 @@
     "description": "A white field bearing a blue saltire extending to the edges, with the royal arms of Scotland (a gold shield with a red lion rampant) centered."
   },
   "Q605195": {
-    "description": "A red field with a vertical blue stripe along the fly, bordered by a thin white stripe. In the center of the red field is a blue circle bordered in white containing three white five-pointed stars."
+    "description": "A red field with a vertical blue stripe along the fly, bordered by a thin white stripe. In the center of the red field is a blue circle bordered in white containing three white five-pointed stars.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q608137": {
     "description": "A white field bearing a centered green and black shield-shaped emblem: a green outline of a shield enclosing a black stylized woodpecker holding a pen."
@@ -1498,7 +2128,10 @@
     "description": "A blue field with two white vertical bars connected by a white horizontal bar at the top forming a stylized double-T shape (representing Toronto City Hall towers). A red maple leaf sits centered between the lower legs of the T."
   },
   "Q618737": {
-    "description": "Alternating vertical stripes of yellow and red."
+    "description": "Alternating vertical stripes of yellow and red.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q619799": {
     "description": "Five equal horizontal bands of blue and white alternating (three blue, two white)."
@@ -1507,7 +2140,16 @@
     "description": "A vertical bicolor of dark blue (hoist) and white, with a yellow goshawk in flight centered across the boundary, surmounted by an arc of nine small yellow five-pointed stars. A red and white Portuguese shield sits in the upper hoist canton."
   },
   "Q632491": {
-    "description": "Thirteen rays of red and gold alternating in the top half of the flag (six red and seven gold, or vice versa). A copper-colored five-pointed star is centered, with the bottom half of the flag in dark blue."
+    "description": "Thirteen rays of red and gold alternating in the top half of the flag (six red and seven gold, or vice versa). A copper-colored five-pointed star is centered, with the bottom half of the flag in dark blue.",
+    "colors": [
+      "darkblue",
+      "red",
+      "yellow",
+      "orange"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q633087": {
     "description": "A blue field with the state seal centered (a circular scene of mountains, the Great Falls of the Missouri River, plow, miner's tools, and the motto \"ORO Y PLATA\" on a banner). The word \"MONTANA\" is in yellow above the seal."
@@ -1516,10 +2158,16 @@
     "description": "A white field bearing a stylized design: at the hoist two blue triangles meeting at center; in the fly two red triangles forming an open arrow shape, with a yellow arrow extending toward the fly between them."
   },
   "Q637134": {
-    "description": "A horizontal flag divided into three parts: the top third is a Union Jack defaced in the center with a golden crown, while the bottom two-thirds shows a setting golden sun over wavy blue and white horizontal lines."
+    "description": "A horizontal flag divided into three parts: the top third is a Union Jack defaced in the center with a golden crown, while the bottom two-thirds shows a setting golden sun over wavy blue and white horizontal lines.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q642998": {
-    "description": "A gold (yellow) field with a stylized red sun symbol (the Zia sun) centered: a central red disc with four groups of four straight rays radiating outward in the cardinal directions."
+    "description": "A gold (yellow) field with a stylized red sun symbol (the Zia sun) centered: a central red disc with four groups of four straight rays radiating outward in the cardinal directions.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q645967": {
     "description": "A red field bearing a white three-towered castle (the central tower with a cross, flanked by two with six-pointed stars above) outlined in black, centered."
@@ -1531,10 +2179,22 @@
     "description": "Coloplast A/S is a Danish multinational company that develops, manufactures and markets medical devices and services related to ostomy, urology, continence, and wound care."
   },
   "Q673117": {
-    "description": "A blue field with a gold flaming torch centered, surrounded by a ring of thirteen gold five-pointed stars with five additional stars in an inner arc. A nineteenth larger star sits above the torch flame, with the word \"INDIANA\" arched above it in gold."
+    "description": "A blue field with a gold flaming torch centered, surrounded by a ring of thirteen gold five-pointed stars with five additional stars in an inner arc. A nineteenth larger star sits above the torch flame, with the word \"INDIANA\" arched above it in gold.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q676623": {
-    "description": "Three horizontal stripes of red, white, and red, with a blue canton in the upper hoist containing a ring of 13 white five-pointed stars encircling the state coat of arms in gold. \"IN GOD WE TRUST\" appears below the coat of arms."
+    "description": "Three horizontal stripes of red, white, and red, with a blue canton in the upper hoist containing a ring of 13 white five-pointed stars encircling the state coat of arms in gold. \"IN GOD WE TRUST\" appears below the coat of arms.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q679119": {
     "file": "Flag of Canton of Zürich.svg",
@@ -1573,16 +2233,33 @@
     "description": "Two equal horizontal bands of black (top) and yellow."
   },
   "Q707471": {
-    "description": "A field of white and blue lozenges (diamond shapes) in an angled diagonal pattern."
+    "description": "A field of white and blue lozenges (diamond shapes) in an angled diagonal pattern.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q725122": {
     "description": "Laakdal (Dutch pronunciation: [ˈlaːɡdɑl]) is a municipality located in the Belgian province of Antwerp. Laakdal was founded in 1977 out of a merger of the towns Veerle, Eindhout and Vorst. The municipality now comprises the towns of Eindhout, Veerle, Vorst, Varendonk and Vorst-Meerlaar (also known as Klein-Vorst)."
   },
   "Q730106": {
-    "description": "A red saltire (diagonal cross) on a white field, with the state seal of Florida superimposed at the center."
+    "description": "A red saltire (diagonal cross) on a white field, with the state seal of Florida superimposed at the center.",
+    "colors": [
+      "brown",
+      "green",
+      "lightblue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q731163": {
-    "description": "A dark green field with the Washington state seal centered: a portrait of George Washington encircled by the words \"THE SEAL OF THE STATE OF WASHINGTON 1889\" in gold."
+    "description": "A dark green field with the Washington state seal centered: a portrait of George Washington encircled by the words \"THE SEAL OF THE STATE OF WASHINGTON 1889\" in gold.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q734071": {
     "description": "A blue field bearing the Nebraska state seal centered, rendered in gold and silver.",
@@ -1598,10 +2275,16 @@
       "circle",
       "building"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q736625": {
-    "description": "Three horizontal bands of blue (top), white, and red (the white band wider than the others). On the white band is a gold-outlined blue hexagon containing a gold beehive above a five-pointed white star."
+    "description": "Three horizontal bands of blue (top), white, and red (the white band wider than the others). On the white band is a gold-outlined blue hexagon containing a gold beehive above a five-pointed white star.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q736760": {
     "description": "A blue field bearing the Idaho state seal centered (a circular emblem showing a woman with liberty cap and a miner flanking a shield with mountains, river, and farm scene, with the motto \"ESTO PERPETUA\"). Below the seal a red banner edged in gold reads \"STATE OF IDAHO\"."
@@ -1610,13 +2293,24 @@
     "description": "A blue field bearing a centered Spanish coat of arms: a quartered shield with castles and lions framed by columns of Hercules with red ribbons reading \"NON PLVS VLTRA\", surmounted by a gold royal crown."
   },
   "Q752557": {
-    "description": "Three equal horizontal bands of red (top), white, and blue, with the Missouri state coat of arms centered."
+    "description": "Three equal horizontal bands of red (top), white, and blue, with the Missouri state coat of arms centered.",
+    "colors": [
+      "brown",
+      "darkblue",
+      "green",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q752559": {
     "colors": [
       "red",
       "white",
-      "blue"
+      "darkblue"
     ],
     "icons": [
       "circle",
@@ -1625,7 +2319,10 @@
       "triangle"
     ],
     "shape": "other",
-    "description": "A red, white, and blue swallowtail (triangular-cut) flag. Two horizontal red stripes top and bottom flank a white middle stripe, with a blue triangular peak at the hoist bearing 13 white stars around a red disc."
+    "description": "A red, white, and blue swallowtail (triangular-cut) flag. Two horizontal red stripes top and bottom flank a white middle stripe, with a blue triangular peak at the hoist bearing 13 white stars around a red disc.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q752562": {
     "description": "A cobalt blue field with the state seal in the upper hoist quarter: a silver wreath of sagebrush with two yellow scrolls reading \"BATTLE BORN\" above and \"NEVADA\" below, around a white five-pointed star."
@@ -1634,7 +2331,10 @@
     "description": "A colonial blue field with a buff-colored diamond centered bearing the Delaware coat of arms (a farmer and a militiaman flanking a shield with cattle, wheat, and a ship, with a banner reading \"LIBERTY AND INDEPENDENCE\"). Below the diamond the date \"DECEMBER 7, 1787\" appears in white."
   },
   "Q752569": {
-    "description": "A heraldic banner of arms divided into four quarters: two quarters bear the black and gold paly-bendy arms of the Calvert family; the other two bear the red and white quartered cross bottony of the Crossland family."
+    "description": "A heraldic banner of arms divided into four quarters: two quarters bear the black and gold paly-bendy arms of the Calvert family; the other two bear the red and white quartered cross bottony of the Crossland family.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q752573": {
     "description": "A royal blue field bearing a white baroque shield with three grapevines, each carrying three bunches of purple grapes, with a white banner below reading \"QUI TRANSTULIT SUSTINET\"."
@@ -1646,7 +2346,8 @@
       "blue",
       "yellow",
       "green",
-      "red"
+      "red",
+      "gray"
     ],
     "icons": [
       "text",
@@ -1656,10 +2357,21 @@
       "weapon"
     ],
     "shape": "rectangle",
-    "description": "A white field bearing the central elements of the state seal: a bald eagle in profile perched on a rock, wings uplifted, holding a shield and a banner in its beak, with a rising sun over water in the background. The word \"Illinois\" appears below."
+    "description": "A white field bearing the central elements of the state seal: a bald eagle in profile perched on a rock, wings uplifted, holding a shield and a banner in its beak, with a rising sun over water in the background. The word \"Illinois\" appears below.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q760401": {
-    "description": "Three equal horizontal bands of green (top), white, and green, with the Andalusian coat of arms (a standing figure of Hercules between two pillars and two lions) optionally centered on the white band."
+    "description": "Three equal horizontal bands of green (top), white, and green, with the Andalusian coat of arms (a standing figure of Hercules between two pillars and two lions) optionally centered on the white band.",
+    "colors": [
+      "green",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q763140": {
     "description": "Three equal horizontal bands of green (top), white, and black, with the Extremadura coat of arms centered on the white band: a quartered shield with a yellow lion, a castle, a holm oak, and blue waves, surmounted by a gold royal crown."
@@ -1671,7 +2383,16 @@
     "description": "A white field with the Union Jack in the upper hoist canton, and in the fly the Southern Cross constellation (five seven-pointed blue stars) plus a larger Commonwealth Star (a seven-pointed blue star) in the lower hoist."
   },
   "Q783490": {
-    "description": "The Flag of the Association of Southeast Asian Nations or the ASEAN Flag is one of the official symbols of the Association of Southeast Asian Nations (ASEAN). It consists of the official emblem of ASEAN on a blue background."
+    "description": "The Flag of the Association of Southeast Asian Nations or the ASEAN Flag is one of the official symbols of the Association of Southeast Asian Nations (ASEAN). It consists of the official emblem of ASEAN on a blue background.",
+    "colors": [
+      "red",
+      "white",
+      "blue",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q786078": {
     "description": "A blue field bearing a centered yellow eagle with wings spread and red claws."
@@ -1686,10 +2407,21 @@
     "description": "Divided vertically: the hoist half is green bearing a white fleur-de-lis; the fly half is white bearing a green trillium flower outline."
   },
   "Q828147": {
-    "description": "A dark blue field at the hoist in the shape of the state of Minnesota bearing an eight-pointed white star, with the rest of the flag a light blue field."
+    "description": "A dark blue field at the hoist in the shape of the state of Minnesota bearing an eight-pointed white star, with the rest of the flag a light blue field.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q830262": {
-    "description": "A red field with a golden five-pointed crown above two white square crosses, the three emblems stacked vertically and offset toward the hoist."
+    "description": "A red field with a golden five-pointed crown above two white square crosses, the three emblems stacked vertically and offset toward the hoist.",
+    "colors": [
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q837312": {
     "description": "A blue field bearing a bald eagle with wings spread, holding an olive branch and arrows, with a red, white, and blue shield on its chest. A red banner reading \"E PLURIBUS UNUM\" is in its beak; a fan of golden rays and thirteen white five-pointed stars arches above. A red and gold banner reading \"NORTH DAKOTA\" appears below."
@@ -1722,7 +2454,18 @@
     "description": "Four red horizontal stripes on a yellow field in the fly, with a vertical blue band at the hoist decorated with yellow acanthus-leaf ornament. A vertical column of red, white, and green roundels and small enameled charges runs between the blue band and the striped field."
   },
   "Q938601": {
-    "description": "A white field with a celestial blue diagonal band running from the upper hoist to the lower fly."
+    "description": "A white field with a celestial blue diagonal band running from the upper hoist to the lower fly.",
+    "colors": [
+      "blue",
+      "gray",
+      "lightblue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q965192": {
     "description": "A white field bearing a centered red Cross of the Order of Christ (broad red cross with arms widening at the ends) and a smaller white circular medallion at the center bearing the São Paulo coat of arms (a yellow shield with branches surmounted by a gold mural crown, with a red banner reading \"NON DVCOR DVCO\")."
@@ -1734,7 +2477,16 @@
     "description": "A white field bearing the USACE castle emblem centered: a red diamond outlined in grey containing a stylized red castle (three towers and a connecting wall) over a small white globe."
   },
   "Q1064042": {
-    "description": "A blue field with the Union Jack in the upper hoist canton, and a white disc on the fly bearing a red Saint George's cross with a gold lion passant guardant in the center and an eight-pointed gold star on each arm."
+    "description": "A blue field with the Union Jack in the upper hoist canton, and a white disc on the fly bearing a red Saint George's cross with a gold lion passant guardant in the center and an eight-pointed gold star on each arm.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1073663": {
     "description": "A field divided into four quarters: a red quarter with a golden three-towered castle (upper hoist and lower fly) alternating with a white quarter bearing a purple lion rampant (upper fly and lower hoist)."
@@ -1743,7 +2495,15 @@
     "description": "A white field with four wavy ribbons (two red, two blue) radiating from a central blue and white four-pointed star with an orange disc, toward the four corners. Above the star sits the symbol of Ashur (a winged sun disc above a male figure)."
   },
   "Q1084035": {
-    "description": "A white field with a small blue canton in the upper hoist containing a red Latin cross."
+    "description": "A white field with a small blue canton in the upper hoist containing a red Latin cross.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1087030": {
     "description": "Two equal horizontal bands of white (top) and red, with the Cantabria coat of arms centered: a red shield bearing the white Torre de Hércules tower beside a blue sailing ship on blue waves, surmounted by a gold royal crown, with a grey medallion below."
@@ -1758,10 +2518,23 @@
     "description": "A red field bordered in blue, bearing a centered white cross extending toward the edges. A blue band with white inner ribbon (a label) crosses the upper part of the cross horizontally."
   },
   "Q1122078": {
-    "description": "A dark blue field bearing the Alberta provincial coat of arms centered: a shield with a red Saint George's cross above a white sky, blue snowy mountains, green hills, and a golden wheat field."
+    "description": "A dark blue field bearing the Alberta provincial coat of arms centered: a shield with a red Saint George's cross above a white sky, blue snowy mountains, green hills, and a golden wheat field.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1130142": {
-    "description": "Six vertical stripes in blue, yellow, red, white, orange, and a sixth band combining all five colors."
+    "description": "Six vertical stripes in blue, yellow, red, white, orange, and a sixth band combining all five colors.",
+    "colors": [
+      "blue",
+      "orange",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1131266": {
     "description": "A green field bearing a stylized white five-petal Lombard rose (Camunian rose / rosa camuna) centered."
@@ -1770,7 +2543,17 @@
     "description": "Divided by a diagonal blue band (a bend) from upper hoist to lower fly, with the upper triangle white and lower triangle light blue (and additional quarters mirrored). Centered is the Rio de Janeiro state coat of arms: an oval shield with mountain silhouette and ribbon, surrounded by a green wreath, with \"ESTADO DO RIO DE JANEIRO\" on a white ribbon below."
   },
   "Q1165949": {
-    "description": "A red field with the Union Jack in the upper hoist canton, and the Ontario shield (cross of Saint George above three gold maple leaves on green) centered on the fly."
+    "description": "A red field with the Union Jack in the upper hoist canton, and the Ontario shield (cross of Saint George above three gold maple leaves on green) centered on the fly.",
+    "colors": [
+      "darkblue",
+      "green",
+      "red",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1193967": {
     "description": "A square field made of a 7x7 grid of colored squares, with the rainbow colors (white, yellow, orange, red, purple, blue, green) arranged diagonally to form stripes running from the upper hoist to the lower fly."
@@ -1779,7 +2562,10 @@
     "description": "A green field bearing a centered white fasces (a bundle of white rods bound by a green ribbon in an X pattern, with a white axe head emerging from the top)."
   },
   "Q1285625": {
-    "description": "Two equal horizontal bands of black (top) and red, with a large yellow disc (sun) centered."
+    "description": "Two equal horizontal bands of black (top) and red, with a large yellow disc (sun) centered.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1392132": {
     "file": "Flag of Canton of Aargau.svg",
@@ -1808,13 +2594,19 @@
       "star"
     ],
     "shape": "rectangle",
-    "description": "Three horizontal white bands separated by two light-blue bands, with four red six-pointed stars centered on the broad middle white band."
+    "description": "Three horizontal white bands separated by two light-blue bands, with four red six-pointed stars centered on the broad middle white band.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1414813": {
     "description": "Three equal vertical bands of blue (hoist), white, and orange, with the New York City seal in blue centered on the white band."
   },
   "Q1418784": {
-    "description": "A horizontal flag divided in thirds. The top third is a red field bearing a gold lion passant; the bottom two-thirds is a gold field with a black lymphad (medieval ship) above blue and white wavy horizontal lines."
+    "description": "A horizontal flag divided in thirds. The top third is a red field bearing a gold lion passant; the bottom two-thirds is a gold field with a black lymphad (medieval ship) above blue and white wavy horizontal lines.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1426512": {
     "description": "A white field bearing a black cross (vertical and horizontal black bands) extending to the edges."
@@ -1849,7 +2641,10 @@
       "building"
     ],
     "shape": "rectangle",
-    "description": "A black field with a white silhouette of a head in profile, a guard tower, and a strand of barbed wire, with the text \"POW * MIA\" above and \"YOU ARE NOT FORGOTTEN\" below."
+    "description": "A black field with a white silhouette of a head in profile, a guard tower, and a strand of barbed wire, with the text \"POW * MIA\" above and \"YOU ARE NOT FORGOTTEN\" below.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1471238": {
     "description": "A shield (Frankenrechen / Franconian Rake) divided horizontally: the upper half red, the lower half white, separated by a jagged line of three sharp white peaks rising into the red."
@@ -1866,13 +2661,24 @@
     "icons": [
       "horizontal-stripes"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1759664": {
     "description": "Quartered: upper hoist and lower fly red bearing three gold lions passant (England); upper fly yellow bearing a red lion rampant within a red double tressure (Scotland); lower hoist blue bearing a gold harp with a white winged maiden (Ireland)."
   },
   "Q1788743": {
-    "description": "A square red field bearing a blue saltire (diagonal cross) edged in white, with thirteen white five-pointed stars arranged along the saltire's arms."
+    "description": "A square red field bearing a blue saltire (diagonal cross) edged in white, with thirteen white five-pointed stars arranged along the saltire's arms.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1829577": {
     "description": "Three equal horizontal bands of light blue (top), white, and light blue, with the La Pampa coat of arms centered on the white band (an oval emblem with a green tree, mountains, a gaucho on horseback, and crossed lances behind, with a sunburst above)."
@@ -1881,7 +2687,10 @@
     "description": "Three equal horizontal bands of green (top), white, and green."
   },
   "Q1882040": {
-    "description": "Three horizontal bands of yellow (top), red (middle, narrower), and yellow."
+    "description": "Three horizontal bands of yellow (top), red (middle, narrower), and yellow.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q1882506": {
     "description": "Three horizontal bands of blue (top), yellow (with wavy boundaries), and green. A stylized white fleur-de-lis sits in the upper hoist on the blue band."
@@ -2166,7 +2975,13 @@
     "description": "Three equal vertical bands of dark red (hoist), white, and light blue, with a brown sun centered on the white band (a face surrounded by wavy and straight rays)."
   },
   "Q2897956": {
-    "description": "Three equal vertical bands of blue (hoist), white, and red, with a small yellow five-pointed star in the upper portion of the blue band."
+    "description": "Three equal vertical bands of blue (hoist), white, and red, with a small yellow five-pointed star in the upper portion of the blue band.",
+    "colors": [
+      "red",
+      "white",
+      "yellow",
+      "blue"
+    ]
   },
   "Q2899775": {
     "description": "A light blue field with the British Union Jack in the canton at the upper hoist. A dark blue Scandinavian-style cross divides the field. In the fly quarter, the five white stars of the Southern Cross constellation; in the lower hoist quarter, a single seven-pointed white Commonwealth star."
@@ -2225,7 +3040,15 @@
     "description": "Three equal horizontal bands of green (top), white, and red."
   },
   "Q3039109": {
-    "description": "A red field bearing two gold lions stacked one above the other, both facing the hoist, with blue claws and tongues."
+    "description": "A red field bearing two gold lions stacked one above the other, both facing the hoist, with blue claws and tongues.",
+    "colors": [
+      "darkblue",
+      "red",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q3173323": {
     "description": "A blue field bearing a red Saint George's cross (vertical and horizontal red bands) fimbriated in white, overlaid on a white saltire (combined with a red saltire of Saint Patrick, both fimbriated)."
@@ -2423,14 +3246,17 @@
       "star",
       "bird"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q5456895": {
     "description": "A white field with a dark blue Great Seal of the United States in the center. \"UNITED STATES COAST GUARD\" arcs in dark blue above the eagle; the motto \"SEMPER PARATUS\" and \"1790\" appear beneath in dark blue.",
     "colors": [
-      "blue",
       "white",
-      "red"
+      "red",
+      "darkblue"
     ],
     "icons": [
       "coa",
@@ -2452,18 +3278,30 @@
       "animal",
       "map"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q5456898": {
-    "description": "A white field bearing a blue replica of the War Office Seal in the center. Below the seal is a broad scarlet scroll with \"United States Army\" in white letters, with \"1775\" in blue Arabic numerals beneath."
+    "description": "A white field bearing a blue replica of the War Office Seal in the center. Below the seal is a broad scarlet scroll with \"United States Army\" in white letters, with \"1775\" in blue Arabic numerals beneath.",
+    "colors": [
+      "blue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q5456899": {
     "description": "A dark blue field with the seal of the U.S. Department of the Navy in the center. A yellow scroll inscribed \"United States Navy\" in dark blue lettering appears below the seal.",
     "colors": [
-      "blue",
       "white",
       "brown",
-      "yellow"
+      "yellow",
+      "darkblue",
+      "red"
     ],
     "icons": [
       "text",
@@ -2471,7 +3309,10 @@
       "weapon",
       "circle"
     ],
-    "shape": "rectangle"
+    "shape": "rectangle",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q5718574": {
     "flagType": "municipal",
@@ -2582,13 +3423,24 @@
     "description": "Two equal horizontal bands of blue (top) and white, with the Santo André coat of arms centered on the boundary: a yellow shield bearing a green saltire, topped by a silver mural crown, with a green banner reading \"PAVLISTARVM TERRA MATER\" below."
   },
   "Q15994084": {
-    "description": "Five equal horizontal stripes of red and white alternating (red at the top and bottom), with a blue equilateral triangle at the hoist bearing a single white five-pointed star."
+    "description": "Five equal horizontal stripes of red and white alternating (red at the top and bottom), with a blue equilateral triangle at the hoist bearing a single white five-pointed star.",
+    "colors": [
+      "red",
+      "white",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q16489490": {
     "description": "A blue field bearing a white Greek cross extending to the edges; centered on the cross, a white shield outlined in blue contains a single blue five-pointed star."
   },
   "Q16630001": {
-    "description": "A red field bearing a white Greek cross extending to the edges of the flag."
+    "description": "A red field bearing a white Greek cross extending to the edges of the flag.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q16630951": {
     "description": "Nine equal horizontal bands alternating yellow and red, starting and ending with yellow (the Senyera / Aragonese pattern)."
@@ -2636,7 +3488,10 @@
     "description": "A white field bearing a light blue Nordic-style cross (vertical and horizontal blue bands, with the vertical arm shifted toward the hoist)."
   },
   "Q30909105": {
-    "description": "A red field with a white (silver) lion rampant facing the hoist. Across the top of the flag is a horizontal blue chief bearing three gold fleurs-de-lis."
+    "description": "A red field with a white (silver) lion rampant facing the hoist. Across the top of the flag is a horizontal blue chief bearing three gold fleurs-de-lis.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q32094061": {
     "description": "A solid dark red field bearing a white shield outlined in red containing eight red rampant lions arranged around a centered gold crown."
@@ -2669,7 +3524,16 @@
     "description": "A red field bearing a white disc centered with a stylized black thunderbird (Aztec-style eagle) inside."
   },
   "Q62673928": {
-    "description": "The current flag of San Jose, California, features a triband of gold on top, white in the middle, and blue on the bottom with the city's official seal in the center. It has been the official flag since 1984."
+    "description": "The current flag of San Jose, California, features a triband of gold on top, white in the middle, and blue on the bottom with the city's official seal in the center. It has been the official flag since 1984.",
+    "colors": [
+      "black",
+      "darkblue",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q62920304": {
     "description": "A yellow field bearing three red Latin (cross-bottony style) crosses arranged in a triangle (two above, one below), with a stylized red Christogram or chair-like emblem centered."
@@ -2681,7 +3545,15 @@
     "description": "Two horizontal bands of white (top) and red, with \"SANTA CLARA\" in red letters arched above a centered round seal of the City of Santa Clara, California showing the Mission and \"The Mission City\" inscription."
   },
   "Q63874022": {
-    "description": "Three horizontal bands of red (top), white, and red, with a blue canton in the upper hoist bearing a circle of white five-pointed stars."
+    "description": "Three horizontal bands of red (top), white, and red, with a blue canton in the upper hoist bearing a circle of white five-pointed stars.",
+    "colors": [
+      "darkblue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q63874150": {
     "description": "A square red field with a blue saltire edged in white bearing thirteen white five-pointed stars (the Confederate Battle Flag) occupying the upper hoist quarter (canton), on a larger white field."
@@ -2693,7 +3565,10 @@
     "description": "A white field with small gold fleurs-de-lis in regular rows."
   },
   "Q63991554": {
-    "description": "A white field with a large red Greek cross centered."
+    "description": "A white field with a large red Greek cross centered.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q64300176": {
     "colors": [
@@ -2704,7 +3579,10 @@
       "text"
     ],
     "shape": "rectangle",
-    "description": "A solid red field with the McDonald's golden \"M\" arches logo centered."
+    "description": "A solid red field with the McDonald's golden \"M\" arches logo centered.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q65036972": {
     "description": "Thirteen alternating horizontal stripes of red and white (seven red, six white), with a blue canton in the upper hoist bearing fifteen white five-pointed stars arranged in five rows."
@@ -2773,7 +3651,10 @@
     "description": "A dark blue field bearing a centered photographic-style image of planet Earth (white and blue)."
   },
   "Q94652289": {
-    "description": "A black field with the Space Force delta emblem centered (a silver upward-pointing arrowhead in front of a blue globe with white grid lines, an orbit ring, and a white polestar above), surrounded by small white stars. Below, in white, \"UNITED STATES SPACE FORCE\" with \"MMXIX\" beneath."
+    "description": "A black field with the Space Force delta emblem centered (a silver upward-pointing arrowhead in front of a blue globe with white grid lines, an orbit ring, and a white polestar above), surrounded by small white stars. Below, in white, \"UNITED STATES SPACE FORCE\" with \"MMXIX\" beneath.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q96246037": {
     "description": "Three equal vertical bands of red (hoist), white, and red, with a large blue five-pointed star centered on the white band surrounded by a ring of nineteen smaller blue five-pointed stars."
@@ -2788,7 +3669,23 @@
     "description": "A blue field bearing three gold fleurs-de-lis arranged in a triangle (two above, one below)."
   },
   "Q96633914": {
-    "description": "Six equal horizontal stripes of the rainbow pride flag (red, orange, yellow, green, blue, violet) with a triangular chevron at the hoist containing additional stripes: black, brown, light blue, light pink, and white."
+    "description": "Six equal horizontal stripes of the rainbow pride flag (red, orange, yellow, green, blue, violet) with a triangular chevron at the hoist containing additional stripes: black, brown, light blue, light pink, and white.",
+    "colors": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "lightblue",
+      "orange",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "pink"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q96676582": {
     "description": "A black and white US flag (stars on black field at the hoist, alternating black and white horizontal stripes) with one stripe replaced by a horizontal blue line."
@@ -2809,7 +3706,16 @@
     "description": "A white field bearing a light blue saltire (X-shape) extending to the corners. Centered is the U.S. Department of the Interior seal: a circular yellow-bordered emblem showing an American bison standing before mountains and a rising sun, with \"U.S. DEPARTMENT OF THE INTERIOR\" arched above and \"MARCH 3, 1849\" below."
   },
   "Q96970847": {
-    "description": "A white field bearing a light blue Y-shape edged in green, with the points of the Y at the upper hoist, lower hoist, and fly. In the white triangle at the hoist, six red six-pointed stars arranged in a ring."
+    "description": "A white field bearing a light blue Y-shape edged in green, with the points of the Y at the upper hoist, lower hoist, and fly. In the white triangle at the hoist, six red six-pointed stars arranged in a ring.",
+    "colors": [
+      "green",
+      "lightblue",
+      "red",
+      "white"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q96986169": {
     "description": "A light blue field bearing the Harford County coat of arms centered: a yellow shield bearing a black ship's anchor with wavy bands, surmounted by a white sailboat and flanked by yellow ribbons. \"HARFORD COUNTY\" arches above in blue and \"1773\" appears below."
@@ -2830,13 +3736,19 @@
       "star"
     ],
     "shape": "rectangle",
-    "description": "A circle of twelve five-pointed yellow stars on a blue field."
+    "description": "A circle of twelve five-pointed yellow stars on a blue field.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q98400609": {
     "description": "A light blue field bearing two diagonal stripes (one blue, one white, edged in white) running from the upper fly to the lower hoist, with a green triangular wedge in the lower hoist corner."
   },
   "Q98538622": {
-    "description": "A solid red field with the white wordmark \"REWE\" centered in large bold letters."
+    "description": "A solid red field with the white wordmark \"REWE\" centered in large bold letters.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q98609686": {
     "description": "Divided into three horizontal sections (black top, white middle, red bottom) by a stylized white koru (spiral fern frond) that curls from the hoist into the fly."
@@ -2872,7 +3784,10 @@
     "description": "Quartered: upper hoist and lower fly yellow, upper fly and lower hoist blue, separated by a white cross. Centered on the cross is a yellow shield with three red roundels and a small white animal figure, surmounted by a small crown."
   },
   "Q106498503": {
-    "description": "A white field with 6 alternating white (top) and blue horizontal blue stripes of equal width."
+    "description": "A white field with 6 alternating white (top) and blue horizontal blue stripes of equal width.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q106498510": {
     "description": "A vertical bicolor of red (hoist) and yellow."
@@ -2893,7 +3808,10 @@
     "description": "Divided vertically: the hoist half is blue semé (strewn) with gold fleurs-de-lis; the fly half is red bearing a centered white three-towered castle with three small white roundels below."
   },
   "Q106501478": {
-    "description": "A horizontal bicolor of red (top) and green."
+    "description": "A horizontal bicolor of red (top) and green.",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q106501527": {
     "description": "A field divided into four quarters by a white cross. The upper hoist quarter is red bearing a white ermine (small mammal) standing on a row of gold and white fleur-de-lis crests, with an ermine-spotted scarf above. The other three quarters are dark blue."
@@ -3100,7 +4018,10 @@
     "description": "A red field with the Union Jack in the upper hoist canton, and four white five-pointed stars in the fly arranged as the Southern Cross constellation."
   },
   "Q116486314": {
-    "description": "A blue field bearing a large yellow letter \"M\" centered, with four white fleurs-de-lis arranged around it (one above, one below, one to each side)."
+    "description": "A blue field bearing a large yellow letter \"M\" centered, with four white fleurs-de-lis arranged around it (one above, one below, one to each side).",
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q116820815": {
     "description": "A dark purple field with \"PORTSMOUTH\" in large white letters arched above a small \"VIRGINIA\" centered. A white wavy band runs across below, and a light blue lower section bears \"TOWN 1752 · CITY 1858\" in dark blue letters."

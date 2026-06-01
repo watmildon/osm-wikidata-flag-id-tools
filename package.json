@@ -13,6 +13,7 @@
     "refresh:p41-p163": "node scripts/refresh-p41-p163.mjs",
     "fetch:descriptions": "node scripts/fetch-wikipedia-descriptions.mjs",
     "merge:overrides": "node scripts/merge-overrides.mjs",
+    "apply:overrides": "node scripts/apply-overrides.mjs",
     "serve": "python -m http.server 8000"
   }
 }
