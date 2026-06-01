@@ -1,47 +1,12 @@
 {
-  "generated": "2026-06-01T03:46:42.823Z",
+  "generated": "2026-06-01T11:28:26.984Z",
   "suggestions": [
-    {
-      "bad_qid": "Q29",
-      "bad_name": "Spain",
-      "count": 1,
-      "suggested_qid": "Q121688",
-      "suggested_name": "flag of Spain"
-    },
-    {
-      "bad_qid": "Q30",
-      "bad_name": "United States",
-      "count": 2,
-      "suggested_qid": "Q42537",
-      "suggested_name": "flag of the United States of America"
-    },
-    {
-      "bad_qid": "Q38",
-      "bad_name": "Italy",
-      "count": 2,
-      "suggested_qid": "Q42876",
-      "suggested_name": "flag of Italy"
-    },
-    {
-      "bad_qid": "Q71",
-      "bad_name": "Geneva",
-      "count": 1,
-      "suggested_qid": "Q140002986",
-      "suggested_name": "flag of Geneva"
-    },
     {
       "bad_qid": "Q88",
       "bad_name": "Alexandria",
       "count": 1,
       "suggested_qid": "Q140002987",
       "suggested_name": "flag of Alexandria"
-    },
-    {
-      "bad_qid": "Q175",
-      "bad_name": "São Paulo",
-      "count": 1,
-      "suggested_qid": "Q2134803",
-      "suggested_name": "flag of the State of São Paulo"
     },
     {
       "bad_qid": "Q231",
@@ -70,20 +35,6 @@
       "count": 3,
       "suggested_qid": "Q645967",
       "suggested_name": "flag of Hamburg"
-    },
-    {
-      "bad_qid": "Q1250",
-      "bad_name": "Friuli Venezia Giulia",
-      "count": 3,
-      "suggested_qid": "Q379118",
-      "suggested_name": "flag of Friuli-Venezia Giulia"
-    },
-    {
-      "bad_qid": "Q1439",
-      "bad_name": "Texas",
-      "count": 2,
-      "suggested_qid": "Q19000",
-      "suggested_name": "flag of Texas"
     },
     {
       "bad_qid": "Q1770",
@@ -133,13 +84,6 @@
       "count": 1,
       "suggested_qid": "Q783490",
       "suggested_name": "flag of the Association of Southeast Asian Nations"
-    },
-    {
-      "bad_qid": "Q7809",
-      "bad_name": "UNESCO",
-      "count": 3,
-      "suggested_qid": "Q54953696",
-      "suggested_name": "flag of UNESCO"
     },
     {
       "bad_qid": "Q9337",
@@ -263,13 +207,6 @@
       "suggested_name": "flag of Franconia"
     },
     {
-      "bad_qid": "Q159736",
-      "bad_name": "Leinster",
-      "count": 2,
-      "suggested_qid": "Q2709096",
-      "suggested_name": "flag of Leinster"
-    },
-    {
       "bad_qid": "Q160570",
       "bad_name": "Friuli",
       "count": 1,
@@ -282,13 +219,6 @@
       "count": 3,
       "suggested_qid": "Q140002973",
       "suggested_name": "flag of County Wexford"
-    },
-    {
-      "bad_qid": "Q188096",
-      "bad_name": "Penang",
-      "count": 1,
-      "suggested_qid": "Q4487474",
-      "suggested_name": "flag of Penang"
     },
     {
       "bad_qid": "Q190353",
@@ -338,13 +268,6 @@
       "count": 1,
       "suggested_qid": "Q140002996",
       "suggested_name": "flag of Des Plaines"
-    },
-    {
-      "bad_qid": "Q462799",
-      "bad_name": "Evanston",
-      "count": 5,
-      "suggested_qid": "Q140002968",
-      "suggested_name": "flag of Evanston"
     },
     {
       "bad_qid": "Q486459",
@@ -521,14 +444,6 @@
       "bad_qid": "Q55874812",
       "bad_name": "(Wikidata redirect)",
       "count": 9,
-      "suggested_qid": "Q1788743",
-      "suggested_name": "Confederate Battle Flag",
-      "reason": "redirect"
-    },
-    {
-      "bad_qid": "Q63973147",
-      "bad_name": "(Wikidata redirect)",
-      "count": 5,
       "suggested_qid": "Q1788743",
       "suggested_name": "Confederate Battle Flag",
       "reason": "redirect"

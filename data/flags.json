@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T03:46:42.958Z",
+  "generated": "2026-06-01T11:28:31.287Z",
   "palette": [
     "red",
     "white",
@@ -47,80 +47,6 @@
   ],
   "flags": [
     {
-      "qid": "Q29",
-      "name": "Spain",
-      "count": 1,
-      "file": "Spain - Location Map (2013) - ESP - UNOCHA.svg",
-      "isFlagEntity": false,
-      "colors": [
-        "black",
-        "blue",
-        "gray",
-        "red",
-        "white"
-      ],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Spain",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": [],
-      "svgColors": [
-        "black",
-        "blue",
-        "gray",
-        "red",
-        "white"
-      ]
-    },
-    {
-      "qid": "Q30",
-      "name": "United States",
-      "count": 2,
-      "file": "United States - Location Map (2013) - USA - UNOCHA.svg",
-      "isFlagEntity": false,
-      "colors": [
-        "black",
-        "blue",
-        "gray",
-        "red",
-        "white"
-      ],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "United States",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": [],
-      "svgColors": [
-        "black",
-        "blue",
-        "gray",
-        "red",
-        "white"
-      ]
-    },
-    {
-      "qid": "Q38",
-      "name": "Italy",
-      "count": 2,
-      "file": "Colosseo 2020.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Italy",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q67",
       "name": "Airbus SAS",
       "count": 1,
@@ -137,22 +63,6 @@
       "wdColors": []
     },
     {
-      "qid": "Q71",
-      "name": "Geneva",
-      "count": 1,
-      "file": "Geneva from Mount Salève.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Geneva",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q88",
       "name": "Alexandria",
       "count": 1,
@@ -163,22 +73,6 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Alexandria",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q175",
-      "name": "São Paulo",
-      "count": 1,
-      "file": "Sao.Paulo.coast.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "São Paulo",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
@@ -297,22 +191,6 @@
       "wdColors": []
     },
     {
-      "qid": "Q1250",
-      "name": "Friuli Venezia Giulia",
-      "count": 3,
-      "file": "Friuli-Venezia Giulia sat.png",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Friuli Venezia Giulia",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q1336",
       "name": "Rimouski",
       "count": 1,
@@ -323,22 +201,6 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Rimouski",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q1439",
-      "name": "Texas",
-      "count": 2,
-      "file": "ISS036-E-9064 - View of Texas.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Texas",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
@@ -555,22 +417,6 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Association of Southeast Asian Nations",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q7809",
-      "name": "UNESCO",
-      "count": 3,
-      "file": null,
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "UNESCO",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
@@ -1010,7 +856,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 275,
+      "count": 277,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1833,7 +1679,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16394,
+      "count": 16411,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1889,7 +1735,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 546,
+      "count": 549,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2954,7 +2800,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 971,
+      "count": 972,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3198,7 +3044,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 267,
+      "count": 268,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4724,7 +4570,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 361,
+      "count": 363,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4819,7 +4665,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1608,
+      "count": 1609,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5467,7 +5313,7 @@
     {
       "qid": "Q130807",
       "name": "flag of Slovenia",
-      "count": 121,
+      "count": 122,
       "file": "Flag of Slovenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6423,22 +6269,6 @@
       "description": "A light blue field with a single large white five-pointed star centered."
     },
     {
-      "qid": "Q159736",
-      "name": "Leinster",
-      "count": 2,
-      "file": null,
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Leinster",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q159741",
       "name": "flag of Nepal",
       "count": 13,
@@ -7364,7 +7194,7 @@
     {
       "qid": "Q163753",
       "name": "flag of Myanmar",
-      "count": 17,
+      "count": 18,
       "file": "Flag of Myanmar.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10009,22 +9839,6 @@
       ]
     },
     {
-      "qid": "Q188096",
-      "name": "Penang",
-      "count": 1,
-      "file": "Skyline of George Town, Penang at night November 2024 23-9.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Penang",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q188477",
       "name": "flag of Samoa",
       "count": 7,
@@ -11984,7 +11798,7 @@
     {
       "qid": "Q379118",
       "name": "flag of Friuli-Venezia Giulia",
-      "count": 1,
+      "count": 4,
       "file": "Flag of Friuli-Venezia Giulia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12406,22 +12220,6 @@
       "reviews": {
         "colors": 1
       }
-    },
-    {
-      "qid": "Q462799",
-      "name": "Evanston",
-      "count": 5,
-      "file": "Fountain Square Evanston.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Evanston",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
     },
     {
       "qid": "Q476322",
@@ -15374,7 +15172,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 367,
+      "count": 368,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -18174,7 +17972,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 698,
+      "count": 699,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -18859,7 +18657,7 @@
     {
       "qid": "Q2029729",
       "name": "Pan-African flag",
-      "count": 11,
+      "count": 14,
       "file": "Flag of the UNIA.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19242,7 +19040,7 @@
     {
       "qid": "Q2134803",
       "name": "flag of the State of São Paulo",
-      "count": 7,
+      "count": 8,
       "file": "Bandeira do estado de São Paulo.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21274,6 +21072,22 @@
       "description": "Three equal vertical bands of green (hoist), white, and light blue. On the white band a brown plow is centered within a ring of yellow five-pointed stars, with a small yellow sunburst above."
     },
     {
+      "qid": "Q2709096",
+      "name": "flag of Leinster",
+      "count": 2,
+      "file": "Flag of Leinster.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Leinster",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q2727336",
       "name": "Royal Standard of Scotland",
       "count": 1,
@@ -22348,7 +22162,7 @@
     {
       "qid": "Q3442757",
       "name": "flag of the Croatian Republic of Herzeg-Bosnia",
-      "count": 1,
+      "count": 3,
       "file": "Flag of the Croatian Republic of Herzeg-Bosnia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -22964,7 +22778,7 @@
     {
       "qid": "Q4487474",
       "name": "flag of Penang",
-      "count": 2,
+      "count": 3,
       "file": "Flag of Penang (Malaysia).svg",
       "isFlagEntity": true,
       "colors": [
@@ -27385,7 +27199,7 @@
     {
       "qid": "Q54953696",
       "name": "flag of UNESCO",
-      "count": 1,
+      "count": 4,
       "file": "Flag of UNESCO.svg",
       "isFlagEntity": true,
       "colors": [
@@ -27625,7 +27439,7 @@
     {
       "qid": "Q61731637",
       "name": "Herzeg-Bosnia",
-      "count": 3,
+      "count": 1,
       "file": null,
       "isFlagEntity": false,
       "colors": [],
@@ -33387,7 +33201,7 @@
     {
       "qid": "Q104205521",
       "name": "Holiday Inn Express flag",
-      "count": 1,
+      "count": 2,
       "file": null,
       "isFlagEntity": true,
       "colors": [
@@ -40449,22 +40263,6 @@
       "aliases": []
     },
     {
-      "qid": "Q127045106",
-      "name": "MYANMAR",
-      "count": 1,
-      "file": null,
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "MYANMAR",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q127117943",
       "name": "Flag of Santiago de Compostela",
       "count": 2,
@@ -41119,6 +40917,38 @@
         "yellow"
       ],
       "description": "Five equal horizontal bands of yellow, red, yellow, red, yellow (top to bottom)."
+    },
+    {
+      "qid": "Q140002968",
+      "name": "flag of Evanston",
+      "count": 5,
+      "file": "Flag of Evanston, Illinois (2024–present).svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Evanston",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q140002986",
+      "name": "flag of Geneva",
+      "count": 1,
+      "file": "CHE Genève Flag.svg",
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Geneva",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     }
   ]
 }

@@ -1,45 +1,15 @@
 [
   {
-    "qid": "Q29",
-    "name": "Spain",
-    "count": 1,
-    "file": "Spain - Location Map (2013) - ESP - UNOCHA.svg"
-  },
-  {
-    "qid": "Q30",
-    "name": "United States",
-    "count": 2,
-    "file": "United States - Location Map (2013) - USA - UNOCHA.svg"
-  },
-  {
-    "qid": "Q38",
-    "name": "Italy",
-    "count": 2,
-    "file": "Colosseo 2020.jpg"
-  },
-  {
     "qid": "Q67",
     "name": "Airbus SAS",
     "count": 1,
     "file": "Airbus Lagardère - Aéroconstellation.jpg"
   },
   {
-    "qid": "Q71",
-    "name": "Geneva",
-    "count": 1,
-    "file": "Geneva from Mount Salève.jpg"
-  },
-  {
     "qid": "Q88",
     "name": "Alexandria",
     "count": 1,
     "file": "AlexandriaOleTowne.jpg"
-  },
-  {
-    "qid": "Q175",
-    "name": "São Paulo",
-    "count": 1,
-    "file": "Sao.Paulo.coast.jpg"
   },
   {
     "qid": "Q231",
@@ -84,22 +54,10 @@
     "file": "Hamburg view St. Nikolai.jpg"
   },
   {
-    "qid": "Q1250",
-    "name": "Friuli Venezia Giulia",
-    "count": 3,
-    "file": "Friuli-Venezia Giulia sat.png"
-  },
-  {
     "qid": "Q1336",
     "name": "Rimouski",
     "count": 1,
     "file": "RimouskiCentreville.JPG"
-  },
-  {
-    "qid": "Q1439",
-    "name": "Texas",
-    "count": 2,
-    "file": "ISS036-E-9064 - View of Texas.jpg"
   },
   {
     "qid": "Q1770",
@@ -154,12 +112,6 @@
     "name": "Association of Southeast Asian Nations",
     "count": 1,
     "file": "ASEAN HQ 1.jpg"
-  },
-  {
-    "qid": "Q7809",
-    "name": "UNESCO",
-    "count": 3,
-    "file": null
   },
   {
     "qid": "Q9337",
@@ -594,12 +546,6 @@
     "file": "Map of Bitola Municipality.svg"
   },
   {
-    "qid": "Q159736",
-    "name": "Leinster",
-    "count": 2,
-    "file": null
-  },
-  {
     "qid": "Q160173",
     "name": "Ruse",
     "count": 1,
@@ -634,12 +580,6 @@
     "name": "County Wexford",
     "count": 3,
     "file": null
-  },
-  {
-    "qid": "Q188096",
-    "name": "Penang",
-    "count": 1,
-    "file": "Skyline of George Town, Penang at night November 2024 23-9.jpg"
   },
   {
     "qid": "Q189946",
@@ -814,12 +754,6 @@
     "name": "Moncton",
     "count": 1,
     "file": "Moncton Montage b.png"
-  },
-  {
-    "qid": "Q462799",
-    "name": "Evanston",
-    "count": 5,
-    "file": "Fountain Square Evanston.jpg"
   },
   {
     "qid": "Q476322",
@@ -2108,7 +2042,7 @@
   {
     "qid": "Q61731637",
     "name": "Herzeg-Bosnia",
-    "count": 3,
+    "count": 1,
     "file": null
   },
   {
@@ -2272,12 +2206,6 @@
     "name": "Port de Segur de Calafell",
     "count": 1,
     "file": "PORT SEGUR-CALAFELL.jpg"
-  },
-  {
-    "qid": "Q127045106",
-    "name": "MYANMAR",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q130710876",
