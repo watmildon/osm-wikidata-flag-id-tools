@@ -2070,6 +2070,17 @@
   "Q526662": {
     "description": "Three horizontal bands of red (top), white (narrow), and blue. A large white five-pointed star is centered, bearing a gold disc with the city seal (a small five-pointed star, \"CITY OF DALLAS\" and \"TEXAS\" around the rim)."
   },
+  "Q530807": {
+    "flagType": "municipal",
+    "colors": [
+      "darkblue",
+      "white",
+      "yellow"
+    ],
+    "icons": [
+      "ship"
+    ]
+  },
   "Q543471": {
     "description": "A dark red field with four yellow castle towers arranged in a 2x2 pattern in the upper hoist corner, and seven yellow crowns arranged in a 3+2+2 pattern in the lower fly corner."
   },
@@ -2393,6 +2404,20 @@
     "reviews": {
       "colors": 1
     }
+  },
+  "Q783961": {
+    "colors": [
+      "green",
+      "yellow",
+      "white",
+      "black"
+    ],
+    "icons": [
+      "plant",
+      "text",
+      "crescent",
+      "circle"
+    ]
   },
   "Q786078": {
     "description": "A blue field bearing a centered yellow eagle with wings spread and red claws."
@@ -2919,7 +2944,17 @@
     "description": "A yellow field bearing a red lion rampant outlined in black, facing the hoist."
   },
   "Q2620742": {
-    "description": "A dark red field bearing the Bryansk Oblast coat of arms centered: a blue shield bearing a yellow fir tree above a yellow plow and red bar, surmounted by a gold crown and framed by red-yellow-green ribbon bows."
+    "description": "A dark red field bearing the Bryansk Oblast coat of arms centered: a blue shield bearing a yellow fir tree above a yellow plow and red bar, surmounted by a gold crown and framed by red-yellow-green ribbon bows.",
+    "colors": [
+      "red",
+      "yellow",
+      "green",
+      "brown"
+    ],
+    "icons": [
+      "plant",
+      "crown"
+    ]
   },
   "Q2621952": {
     "description": "Two equal vertical bands of white (hoist, wide) and red (narrow), with the Vologda coat of arms in the upper hoist (a red shield bearing a hand holding a sword and orb, surmounted by a crown)."
@@ -3151,6 +3186,19 @@
   "Q4898324": {
     "description": "Thirteen alternating horizontal stripes of red and white (seven red, six white), with a blue canton in the upper hoist bearing thirteen white five-pointed stars arranged in a circle."
   },
+  "Q5179800": {
+    "flagType": "historical",
+    "colors": [
+      "darkblue",
+      "white",
+      "red"
+    ],
+    "icons": [
+      "horizontal-stripes",
+      "circle",
+      "star"
+    ]
+  },
   "Q5456645": {
     "description": "A black field with a white crescent enclosing a white five-pointed star, centered."
   },
@@ -3182,6 +3230,22 @@
   },
   "Q5456735": {
     "description": "A yellow field bearing a white Scandinavian-style cross fimbriated in red — the cross offset toward the hoist."
+  },
+  "Q5456750": {
+    "description": "Three horizontal stripes, grey (top) with yellow rays shining from the center of the flag, red in the middle with two yellow leaves, and grey on the bottom with a small yellow bird in the middle. The stripes are separated by thin lines of yellow.",
+    "flagType": "municipal",
+    "colors": [
+      "gray",
+      "red",
+      "yellow"
+    ],
+    "icons": [
+      "animal",
+      "bird",
+      "plant",
+      "sun",
+      "horizontal-stripes"
+    ]
   },
   "Q5456759": {
     "description": "A horizontal bicolor of yellow (top) with white sunburst rays and orange (bottom). A brown equestrian statue (Andrew Jackson on horseback) is centered across the boundary, with \"CITY OF JACKSONVILLE, FLORIDA\" arched in white text below and a yellow silhouette of the county shape in the lower fly."
@@ -3221,7 +3285,18 @@
   },
   "Q5456822": {
     "localFile": "Q5456822.svg",
-    "description": "A teal field bearing a centered white silhouette portrait of Chief Seattle in profile, facing the hoist."
+    "description": "A teal field bearing a centered white silhouette portrait of Chief Seattle in profile, facing the hoist. Text around the portrait reads \"City of Goodwill\" and \"Seattle\".",
+    "flagType": "municipal",
+    "colors": [
+      "lightblue",
+      "white"
+    ],
+    "icons": [
+      "people",
+      "text",
+      "water",
+      "circle"
+    ]
   },
   "Q5456835": {
     "description": "A white field bearing a red Scandinavian-style saltire (red X-shaped cross extending corner to corner)."
@@ -3340,6 +3415,20 @@
   },
   "Q6363891": {
     "description": "Two equal horizontal bands of yellow (top) and red."
+  },
+  "Q6393175": {
+    "colors": [
+      "darkblue",
+      "red",
+      "yellow",
+      "green",
+      "white",
+      "lightblue"
+    ],
+    "icons": [
+      "vertical-stripes",
+      "coa"
+    ]
   },
   "Q6919069": {
     "description": "A dark blue field with a white crescent moon in the upper hoist, the word \"LIBERTY\" in dark blue arched within the crescent's curve."
@@ -3595,6 +3684,19 @@
   },
   "Q65036980": {
     "description": "Thirteen alternating horizontal stripes of red and white (seven red, six white), with a blue canton in the upper hoist bearing twenty white five-pointed stars arranged in a star-shaped pattern."
+  },
+  "Q65037000": {
+    "description": "Thirteen alternating red and white horizontal stripes, with a blue rectangle in the upper-left corner containing twenty-four white stars arranged in four rows.",
+    "flagType": "historical",
+    "colors": [
+      "darkblue",
+      "white",
+      "red"
+    ],
+    "icons": [
+      "horizontal-stripes",
+      "star"
+    ]
   },
   "Q65037039": {
     "description": "A 34-star United States flag (1861–1863): thirteen alternating red and white horizontal stripes with a blue canton at the upper hoist bearing 34 small white five-pointed stars in a circular arrangement with one large star in the center."
@@ -4186,6 +4288,18 @@
   },
   "Q114916903": {
     "description": "Nine alternating horizontal stripes of yellow and red (five yellow, four red)."
+  },
+  "Q115152080": {
+    "flagType": "municipal",
+    "colors": [
+      "green",
+      "purple",
+      "white"
+    ],
+    "icons": [
+      "cross",
+      "diagonal"
+    ]
   },
   "Q115527338": {
     "description": "A blue field bearing a centered dark red rectangle with white arched text \"EXERCITVS SALVATIONIS\" across the top and a gold and red eight-pointed star centered, the star inscribed \"SANGVIS ET IGNIS\"."
