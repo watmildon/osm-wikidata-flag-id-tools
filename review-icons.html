@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Review iconography — OSM Flag Identifier</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Icons need a taller row than colors (22 chips vs 13 → ~2 chip rows). */
+    :root { --row-h: 290px; }
+    @media (max-width: 640px) { :root { --row-h: 470px; } }
+
+    .review-main { padding: 0 16px; max-width: 1100px; margin: 0 auto; }
+    .review-filterbar {
+      display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+      padding: 12px 0;
+      position: sticky; top: 0;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      z-index: 4;
+    }
+    .review-filterbar input[type="search"] {
+      flex: 1; min-width: 180px;
+      font-family: inherit; font-size: 0.9375rem;
+      padding: 6px 10px;
+      border: 1px solid var(--border); border-radius: 6px;
+      background: var(--bg-elev); color: var(--fg);
+    }
+    .review-filterbar .check {
+      display: inline-flex; gap: 6px; align-items: center;
+      font-size: 0.875rem; color: var(--fg); cursor: pointer;
+    }
+    .review-filterbar select {
+      font-family: inherit; font-size: 0.875rem;
+      padding: 5px 8px;
+      border: 1px solid var(--border); border-radius: 6px;
+      background: var(--bg-elev); color: var(--fg);
+    }
+    #visible-count { font-size: 0.8125rem; color: var(--muted); }
+
+    .vlist-outer { position: relative; width: 100%; }
+    .vlist-inner {
+      position: absolute; top: 0; left: 0; right: 0;
+      will-change: transform;
+    }
+    .review-row {
+      box-sizing: border-box;
+      height: var(--row-h);
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 16px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .review-row .img-cell { display: flex; align-items: flex-start; justify-content: center; }
+    .review-row img {
+      max-width: 200px; max-height: 160px;
+      background: #fff;
+      border: 1px solid var(--border); border-radius: 4px;
+    }
+    .review-row .meta {
+      display: flex; flex-direction: column; gap: 8px; min-width: 0;
+    }
+    .review-row .meta h3 {
+      margin: 0; font-size: 1rem; font-weight: 600;
+      display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+    }
+    .review-row .meta .line {
+      color: var(--muted); font-size: 0.875rem; margin: 0;
+    }
+    .review-row .meta .line a { color: var(--accent); }
+    .review-row.edited { background: color-mix(in srgb, var(--accent) 4%, transparent); }
+    .review-row .edited-tag, .review-row .empty-tag {
+      display: none;
+      font-size: 0.6875rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+    .review-row .edited-tag { color: var(--accent); border: 1px solid var(--accent); }
+    .review-row .empty-tag { color: var(--muted); border: 1px solid var(--border); }
+    .review-row.edited .edited-tag { display: inline-block; }
+    .review-row.empty .empty-tag { display: inline-block; }
+
+    .row-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+    .row-chip {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: var(--chip-bg);
+      color: var(--fg);
+      padding: 4px 10px;
+      height: 32px;
+      border-radius: 16px;
+      font: inherit; font-size: 0.8125rem;
+      cursor: pointer;
+      display: inline-flex; align-items: center; gap: 6px;
+    }
+    .row-chip[aria-pressed="true"] {
+      background: var(--chip-on-bg);
+      color: var(--chip-on-fg);
+      border-color: var(--chip-on-bg);
+    }
+
+    .review-toolbar {
+      position: sticky; bottom: 0;
+      background: var(--bg-elev);
+      border-top: 1px solid var(--border);
+      padding: 12px 16px;
+      display: flex; gap: 12px; align-items: center; flex-wrap: wrap;
+      z-index: 5;
+    }
+    .review-toolbar .spacer { flex: 1; }
+    .review-toolbar button {
+      min-height: 36px; padding: 6px 14px;
+      border-radius: 6px;
+      border: 1px solid var(--border);
+      background: var(--bg-elev); color: var(--fg);
+      cursor: pointer; font-size: 0.9375rem;
+    }
+    .review-toolbar button.primary {
+      background: var(--accent); color: var(--accent-fg);
+      border-color: var(--accent);
+    }
+    .review-toolbar button:disabled { opacity: 0.5; cursor: not-allowed; }
+    #status { font-size: 0.875rem; color: var(--muted); }
+    .empty { padding: 80px 0; text-align: center; color: var(--muted); }
+    @media (max-width: 640px) {
+      .review-row { grid-template-columns: 1fr; }
+      .review-row img { max-height: 120px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <h1>Review iconography</h1>
+    <p class="hint">
+      Set the iconography tags for each flag — what's drawn on it.
+      Edits share storage with the curate and describe pages.
+      &middot; <a href="index.html">back to identifier</a>
+      &middot; <a href="backoffice.html">back office</a>
+    </p>
+  </header>
+
+  <main class="review-main">
+    <div class="review-filterbar">
+      <input type="search" id="search-input" placeholder="Search name or description…" autocomplete="off" spellcheck="false" />
+      <label class="check"><input type="checkbox" id="filter-empty" /> Missing iconography only</label>
+      <label class="check"><input type="checkbox" id="filter-unreviewed" /> Unreviewed only</label>
+      <label class="check"><input type="checkbox" id="filter-has-image" checked /> Has image only</label>
+      <label class="check"><input type="checkbox" id="filter-is-flag-entity" checked /> Flag entities only</label>
+      <label class="check"><input type="checkbox" id="filter-hide-wonky" checked /> Hide likely non-flag images</label>
+      <select id="sort-select" aria-label="Sort order">
+        <option value="count-desc">OSM count (high → low)</option>
+        <option value="count-asc">OSM count (low → high)</option>
+        <option value="reviews-asc">Reviews (low → high)</option>
+        <option value="name-asc">Name (A → Z)</option>
+        <option value="qid-asc">QID (numeric)</option>
+      </select>
+      <span id="visible-count"></span>
+    </div>
+
+    <div class="vlist-outer" id="vlist-outer">
+      <div class="vlist-inner" id="vlist-inner"></div>
+    </div>
+    <div class="empty" id="empty" hidden>No flags match the current filters.</div>
+  </main>
+
+  <div class="review-toolbar">
+    <span id="status">Loading…</span>
+    <span class="spacer"></span>
+    <button id="reset-btn" type="button" disabled>Discard edits</button>
+    <button id="export-btn" type="button" class="primary" disabled>Export overrides.json</button>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script type="module">
+    import { mountReviewChips } from "./js/review-chips.js";
+
+    // Labels for the icon vocabulary. Kept in sync by hand with the same
+    // map in js/curate.js and js/render.js — duplication is the project
+    // pattern so each page loads standalone.
+    const ICON_LABELS = {
+      text: "Text", animal: "Animal", bird: "Bird", people: "People", plant: "Plant",
+      star: "Star", sun: "Sun", cross: "Cross", crescent: "Crescent", circle: "Circle",
+      "horizontal-stripes": "Horizontal stripes", "vertical-stripes": "Vertical stripes",
+      triangle: "Triangle", diagonal: "Diagonal",
+      weapon: "Weapon", map: "Map", building: "Building", coa: "Coat of arms",
+      crown: "Crown", tools: "Tools", water: "Water", ship: "Ship",
+    };
+    // Same vocabulary + canonical order as flags.json's `icons` array.
+    const ICONS = [
+      "text", "animal", "bird", "people", "plant",
+      "star", "sun", "cross", "crescent", "circle",
+      "horizontal-stripes", "vertical-stripes", "triangle", "diagonal",
+      "weapon", "map", "building", "coa",
+      "crown", "tools", "water", "ship",
+    ];
+
+    mountReviewChips({
+      field: "icons",
+      values: ICONS,
+      chipLabel: (v) => ICON_LABELS[v] ?? v,
+      emptyLabel: "Missing iconography",
+    });
+  </script>
+</body>
+</html>

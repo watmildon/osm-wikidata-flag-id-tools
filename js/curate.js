@@ -1,10 +1,19 @@
 import { loadFlags } from "./data.js";
 import { showToast } from "./clipboard.js";
 import { thumbSrc, fullSrc } from "./render.js";
+import {
+  initEditing,
+  pendingCount,
+  effectiveField,
+  setField,
+  clearPending,
+  onPendingChange,
+  onReviewReset,
+  exportOverrides,
+} from "./editing.js";
 
 // ---- constants ----
 
-const STORAGE_KEY = "osm-flag-curate-pending";
 const RANDOMIZE_STORAGE_KEY = "osm-flag-curate-randomize";
 
 const COLOR_SWATCHES = {
@@ -38,94 +47,32 @@ const FLAG_TYPES = [
 let meta = null;          // full flags.json
 let queue = [];           // ordered list of flag records to work through
 let queueIndex = 0;
-let edit = null;          // { colors:Set, icons:Set, shape:string|null } for current flag
-let pending = loadPending(); // { qid: {colors, icons, shape} }
-let committed = {};       // data/overrides.json as currently committed — layered
-                          // into effective() so already-committed work doesn't
-                          // reappear in the queue between builds.
+let edit = null;          // { colors:Set, icons:Set, shape:string|null, ... } for current flag
 
-// ---- IndexedDB helpers (for the File System Access API handle) ----
-//
-// localStorage can't store FileSystemFileHandle objects (they're not
-// structured-clonable through JSON). IndexedDB can. One key, one value,
-// no schema needed.
+// ---- effective record (uses the shared editing layer) ----
 
-const IDB_NAME = "osm-flag-curate";
-const IDB_STORE = "handles";
-const IDB_KEY = "overrides";
-
-function idb() {
-  return new Promise((resolve, reject) => {
-    const req = indexedDB.open(IDB_NAME, 1);
-    req.onupgradeneeded = () => req.result.createObjectStore(IDB_STORE);
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
-  });
-}
-
-async function idbGet(key) {
-  const db = await idb();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(IDB_STORE, "readonly");
-    const req = tx.objectStore(IDB_STORE).get(key);
-    req.onsuccess = () => resolve(req.result);
-    req.onerror = () => reject(req.error);
-  });
-}
-
-async function idbSet(key, value) {
-  const db = await idb();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(IDB_STORE, "readwrite");
-    tx.objectStore(IDB_STORE).put(value, key);
-    tx.oncomplete = () => resolve();
-    tx.onerror = () => reject(tx.error);
-  });
-}
-
-async function idbDel(key) {
-  const db = await idb();
-  return new Promise((resolve, reject) => {
-    const tx = db.transaction(IDB_STORE, "readwrite");
-    tx.objectStore(IDB_STORE).delete(key);
-    tx.oncomplete = () => resolve();
-    tx.onerror = () => reject(tx.error);
-  });
-}
-
-// ---- localStorage ----
-
-function loadPending() {
-  try {
-    return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "{}");
-  } catch {
-    return {};
+// Read every editable field through the shared editing module so pending,
+// committed, and base flag values all layer in the right order.
+const EDITABLE_FIELDS = ["flagName", "flagType", "colors", "icons", "shape", "description"];
+function effective(f) {
+  const e = { ...f };
+  for (const field of EDITABLE_FIELDS) {
+    const v = effectiveField(f.qid, field);
+    if (v !== undefined) e[field] = v;
   }
+  return e;
 }
 
-function savePending() {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(pending));
-  updatePendingUI();
-}
+// ---- pending UI ----
 
 function updatePendingUI() {
-  const n = Object.keys(pending).length;
+  const n = pendingCount();
   document.getElementById("pending-count").textContent = n;
   document.getElementById("export-btn").disabled = n === 0;
   document.getElementById("clear-pending-btn").disabled = n === 0;
 }
 
-// ---- queue ----
-
-// Effective record = base flag merged with committed overrides and any pending
-// in-session edit. Mirrors the precedence the build pipeline uses, so a flag
-// the curator already classified (committed or in this session) doesn't keep
-// resurfacing in the "needs attention" queue between builds.
-function effective(f) {
-  const c = committed[f.qid];
-  const p = pending[f.qid];
-  return c || p ? { ...f, ...(c ?? {}), ...(p ?? {}) } : f;
-}
+// ---- needs-attention chip set ----
 
 // Per-field "is missing" predicates. Each takes the effective record and
 // returns true if that field needs a curator's attention.
@@ -329,34 +276,24 @@ function renderCurrent() {
 
 // ---- actions ----
 
+// Commit the current in-progress edit into the shared editing layer. Per
+// field: trim/normalize the value, then call setField — which itself
+// performs the no-op check against the baseline and either records or
+// discards the change.
 function commitCurrent() {
   if (queue.length === 0) return;
   const f = queue[queueIndex];
-  const e = effective(f);
-  // Snapshot the curator's intent into a sparse override. A scalar field is
-  // written only when it differs from the effective value (base + committed)
-  // — otherwise we'd write an in-session pending override that already matches
-  // what's committed, then immediately smart-prune it on next page load.
   // Read input values live (the `input` events keep edit.* in sync, but be
   // defensive in case of unfocused-input edge cases).
   edit.flagName = document.getElementById("name-input").value.trim();
   edit.description = document.getElementById("description-input").value.trim();
-  const entry = {};
-  if (edit.flagName && edit.flagName !== (e.flagName ?? "")) {
-    entry.flagName = edit.flagName;
-  }
-  if (edit.flagType && edit.flagType !== (e.flagType ?? null)) {
-    entry.flagType = edit.flagType;
-  }
-  if (edit.colors.size) entry.colors = [...edit.colors];
-  if (edit.icons.size) entry.icons = [...edit.icons];
-  if (edit.shape) entry.shape = edit.shape;
-  if (edit.description && edit.description !== (e.description ?? "")) {
-    entry.description = edit.description;
-  }
-  if (Object.keys(entry).length === 0) delete pending[f.qid];
-  else pending[f.qid] = entry;
-  savePending();
+  // flagName / description: empty string means "no override" → omit.
+  setField(f.qid, "flagName", edit.flagName || undefined);
+  setField(f.qid, "description", edit.description || undefined);
+  setField(f.qid, "flagType", edit.flagType || undefined);
+  setField(f.qid, "shape", edit.shape || undefined);
+  setField(f.qid, "colors", edit.colors.size ? [...edit.colors] : undefined);
+  setField(f.qid, "icons", edit.icons.size ? [...edit.icons] : undefined);
 }
 
 function advance() {
@@ -388,146 +325,24 @@ function handleSkip() {
 
 // ---- export ----
 
-// Fetch the currently-committed overrides.json from the served site. If
-// cache:no-store is honored, this returns whatever the user (or a previous
-// direct-save) most recently wrote. Returns {} on any error so callers don't
-// have to branch.
-async function fetchCommittedOverrides() {
-  try {
-    const res = await fetch("data/overrides.json", { cache: "no-store" });
-    if (res.ok) return await res.json();
-  } catch {}
-  return {};
-}
-
-// Walk pending edits; drop any whose JSON-stringified body is byte-identical
-// to what's already in overrides.json. Returns the number pruned so the
-// caller can toast it.
-function pruneAlreadyCommitted(committed) {
-  let pruned = 0;
-  for (const [qid, entry] of Object.entries(pending)) {
-    if (qid in committed) {
-      if (JSON.stringify(entry) === JSON.stringify(committed[qid])) {
-        delete pending[qid];
-        pruned++;
-      }
-    }
-  }
-  if (pruned > 0) savePending();
-  return pruned;
-}
-
-async function mergedOverridesText() {
-  // Recompute against the latest committed state so a save reflects whatever
-  // happened between this page load and now (another curator, another tab).
-  //
-  // Per-QID DEEP merge: the pending entry only carries fields the curator
-  // touched (colors / icons / shape / flagName / flagType). Any other fields
-  // present in the committed file — most importantly `description`, which
-  // isn't editable here — must be preserved. A naive top-level spread would
-  // replace the whole record and silently drop the description.
-  const base = await fetchCommittedOverrides();
-  const merged = { ...base };
-  for (const [qid, edit] of Object.entries(pending)) {
-    merged[qid] = { ...(base[qid] ?? {}), ...edit };
-  }
-  // Numeric QID sort (Q42 < Q100, not lexicographic Q100 < Q42). Matches the
-  // canonical order convention documented in CLAUDE.md so diffs stay clean.
-  const sorted = {};
-  for (const k of Object.keys(merged).sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)))) {
-    sorted[k] = merged[k];
-  }
-  return JSON.stringify(sorted, null, 2) + "\n";
-}
-
-async function tryDirectSave(text) {
-  // Returns true if we successfully wrote via the File System Access API.
-  // Returns false if the API isn't supported or the user cancelled the picker.
-  if (typeof window.showSaveFilePicker !== "function") return false;
-
-  let handle = await idbGet(IDB_KEY);
-  if (handle) {
-    // Verify we still have write permission. requestPermission may prompt
-    // (typically once per session) but most browsers grant immediately for
-    // a handle the user already approved.
-    let perm = await handle.queryPermission({ mode: "readwrite" });
-    if (perm !== "granted") {
-      perm = await handle.requestPermission({ mode: "readwrite" });
-    }
-    if (perm !== "granted") handle = null;
-  }
-
-  if (!handle) {
-    try {
-      handle = await window.showSaveFilePicker({
-        suggestedName: "overrides.json",
-        types: [{
-          description: "OSM Flag Identifier overrides",
-          accept: { "application/json": [".json"] },
-        }],
-      });
-      await idbSet(IDB_KEY, handle);
-    } catch (e) {
-      // AbortError = user cancelled; fall back to download.
-      return false;
-    }
-  }
-
-  const writable = await handle.createWritable();
-  await writable.write(text);
-  await writable.close();
-  return true;
-}
-
-function downloadFallback(text) {
-  const blob = new Blob([text], { type: "application/json" });
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = "overrides.json";
-  document.body.appendChild(a);
-  a.click();
-  document.body.removeChild(a);
-  URL.revokeObjectURL(url);
-}
-
 async function handleExport() {
-  const editCount = Object.keys(pending).length;
-  const text = await mergedOverridesText();
-
-  const direct = await tryDirectSave(text);
-  if (direct) {
-    // After a successful direct-save the committed file IS the file we just
-    // wrote, so every pending edit is now redundant. Clear them.
-    pending = {};
-    savePending();
-    showToast(`Saved ${editCount} edits to overrides.json`);
-    return;
+  const beforeCount = pendingCount();
+  const { method } = await exportOverrides();
+  if (method === "direct") {
+    showToast(`Saved ${beforeCount} edits to overrides.json`);
+  } else {
+    showToast(`Downloaded ${beforeCount} edits — save into data/overrides.json`);
   }
-
-  // Fallback: download. The user has to manually drop the file into place;
-  // localStorage stays populated and will get smart-pruned next time we load
-  // and detect the committed file matches.
-  downloadFallback(text);
-  showToast(`Downloaded ${editCount} edits — save into data/overrides.json`);
-}
-
-async function handleForgetSaveTarget() {
-  // Exposed if the user wants to pick a different target file (e.g. moved
-  // the repo). Not surfaced in UI yet; here so it's easy to add a button.
-  await idbDel(IDB_KEY);
-  showToast("Forgot saved file target");
 }
 
 function handleClearPending() {
-  if (!confirm(`Discard ${Object.keys(pending).length} unsaved edits?`)) return;
-  pending = {};
-  savePending();
+  if (!confirm(`Discard ${pendingCount()} unsaved edits?`)) return;
+  clearPending();
+  showToast("Pending edits cleared");
   // Counts may shift back up as in-session work disappears.
   renderNeedsChips();
   buildQueue();
   renderCurrent();
-  showToast("Pending edits cleared");
 }
 
 function handleFilterChange() {
@@ -540,20 +355,33 @@ function handleFilterChange() {
 async function main() {
   meta = await loadFlags();
 
-  // Load committed overrides once at startup. Two uses:
-  //   1. Layered into effective() so the "needs attention" filter sees
-  //      already-classified flags as classified, even when flags.json hasn't
-  //      been rebuilt since the override was committed.
-  //   2. Smart prune: if any pending edit is byte-identical to what's
-  //      committed (curator saved last session, replaced the file, came
-  //      back), drop it. Saves re-saving and prevents accidental clobbers.
-  committed = await fetchCommittedOverrides();
-  if (Object.keys(pending).length > 0) {
-    const pruned = pruneAlreadyCommitted(committed);
-    if (pruned > 0) {
-      showToast(`Cleared ${pruned} edit${pruned === 1 ? "" : "s"} already in overrides.json`);
-    }
+  // Initialize the shared editing layer. This loads the committed
+  // overrides.json, migrates any per-page legacy pending bags into the new
+  // shared key, and smart-prunes pending fields that already match the
+  // committed (or original) baseline.
+  const { prunedCount } = await initEditing(meta.flags);
+  if (prunedCount > 0) {
+    showToast(`Cleared ${prunedCount} edit${prunedCount === 1 ? "" : "s"} already in overrides.json`);
   }
+
+  // Re-render counts and the queue whenever the pending bag changes — that
+  // includes chip clicks here AND saves from any other tab/page that
+  // touches the same localStorage key.
+  onPendingChange(() => {
+    updatePendingUI();
+  });
+
+  // Surface "your edit cleared prior reviewers' approval of this field".
+  // Curate commits all fields at Save, so multiple resets can fire in a
+  // single click; show them as separate toasts but coalesced by field name
+  // (Save All would otherwise dispatch e.g. "cleared 3 colors reviews"
+  // and "cleared 2 icons reviews" back-to-back, which is informative).
+  onReviewReset(({ field, prevCount }) => {
+    showToast(
+      `Cleared ${prevCount} prior ${field} review${prevCount === 1 ? "" : "s"} — value changed`,
+      2500,
+    );
+  });
 
   renderNeedsChips();
 

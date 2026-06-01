@@ -74,17 +74,37 @@
     </p>
 
     <h2 class="bo-section-title">Curate this site's data</h2>
+    <p class="bo-intro" style="margin: -4px 0 12px;">
+      Edits made on any of these pages share one in-progress bag —
+      classify colors on one page, fill in a description on another,
+      and they export together as a single <code>overrides.json</code>.
+    </p>
     <ul class="bo-list">
       <li><a class="bo-item" href="curate.html">
         <h2>Curate flag attributes →</h2>
-        <p>Per-flag chip editor for display name, flag:type, colors,
-          iconography, and shape. Saves edits to <code>data/overrides.json</code>.</p>
+        <p>One-flag-at-a-time queue editor for display name, flag:type,
+          colors, iconography, shape, and description. Best for the
+          "needs attention" workflow where you grind through whatever
+          is missing.</p>
       </a></li>
       <li><a class="bo-item" href="describe.html">
         <h2>Describe flags →</h2>
-        <p>Bulk review and edit of AI-written visual descriptions.
-          Reads the current describe queue, exports diffs as
-          <code>describe-edits.json</code>.</p>
+        <p>Browse every flag with its current description; type to edit
+          or fill in. Filter by missing description, image presence,
+          flag-entity classification, or filename heuristic; sort by OSM
+          count or name.</p>
+      </a></li>
+      <li><a class="bo-item" href="review-colors.html">
+        <h2>Review colors →</h2>
+        <p>Browse every flag with its current palette as chip toggles.
+          Click chips to add or remove colors. Same filters and sort
+          options as the describe page.</p>
+      </a></li>
+      <li><a class="bo-item" href="review-icons.html">
+        <h2>Review iconography →</h2>
+        <p>Browse every flag with its current iconography tags as chip
+          toggles (text, animal, cross, stars, stripes, etc.). Same
+          filters and sort options as the describe page.</p>
       </a></li>
     </ul>
 

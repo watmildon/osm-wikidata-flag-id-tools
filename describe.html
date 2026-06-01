@@ -6,18 +6,90 @@
   <title>Describe — OSM Flag Identifier</title>
   <link rel="stylesheet" href="styles.css" />
   <style>
-    .describe-main { padding: 16px; max-width: 1100px; margin: 0 auto; }
-    .describe-row {
-      display: grid;
-      grid-template-columns: 260px 1fr;
-      gap: 16px;
-      padding: 14px 0;
-      border-bottom: 1px solid var(--border);
+    :root { --row-h: 200px; }
+    @media (max-width: 640px) { :root { --row-h: 340px; } }
+
+    .describe-main {
+      padding: 0 16px;
+      max-width: 1100px;
+      margin: 0 auto;
     }
-    .describe-row:first-child { padding-top: 0; }
-    .describe-row .img-cell { display: flex; align-items: flex-start; justify-content: center; }
+    .describe-filterbar {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 12px 0;
+      position: sticky;
+      top: 0;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      z-index: 4;
+    }
+    .describe-filterbar input[type="search"] {
+      flex: 1;
+      min-width: 180px;
+      font-family: inherit;
+      font-size: 0.9375rem;
+      padding: 6px 10px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg-elev);
+      color: var(--fg);
+    }
+    .describe-filterbar .check {
+      display: inline-flex;
+      gap: 6px;
+      align-items: center;
+      font-size: 0.875rem;
+      color: var(--fg);
+      cursor: pointer;
+    }
+    .describe-filterbar select {
+      font-family: inherit;
+      font-size: 0.875rem;
+      padding: 5px 8px;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      background: var(--bg-elev);
+      color: var(--fg);
+    }
+    #visible-count {
+      font-size: 0.8125rem;
+      color: var(--muted);
+    }
+
+    /* Virtualization: outer pads to total height; inner is absolutely
+       positioned and translated to the windowed slice. Each row is fixed
+       to --row-h so we can compute scroll positions arithmetically. */
+    .vlist-outer {
+      position: relative;
+      width: 100%;
+    }
+    .vlist-inner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      will-change: transform;
+    }
+    .describe-row {
+      box-sizing: border-box;
+      height: var(--row-h);
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 16px;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--border);
+      overflow: hidden;
+    }
+    .describe-row .img-cell {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
     .describe-row img {
-      max-width: 240px;
+      max-width: 200px;
       max-height: 160px;
       width: auto;
       height: auto;
@@ -35,14 +107,19 @@
       margin: 0;
       font-size: 1rem;
       font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 8px;
     }
     .describe-row .meta .line {
       color: var(--muted);
       font-size: 0.875rem;
+      margin: 0;
     }
     .describe-row .meta .line a { color: var(--accent); }
     .describe-row textarea {
       width: 100%;
+      flex: 1;
       min-height: 70px;
       font-family: inherit;
       font-size: 0.9375rem;
@@ -52,7 +129,7 @@
       border-radius: 6px;
       background: var(--bg-elev);
       color: var(--fg);
-      resize: vertical;
+      resize: none;
     }
     .describe-row textarea:focus {
       outline: 2px solid var(--accent);
@@ -64,13 +141,29 @@
     }
     .describe-row .edited-tag {
       display: none;
-      font-size: 0.75rem;
+      font-size: 0.6875rem;
       color: var(--accent);
       font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.05em;
+      padding: 2px 6px;
+      border: 1px solid var(--accent);
+      border-radius: 4px;
     }
-    .describe-row.edited .edited-tag { display: inline; }
+    .describe-row.edited .edited-tag { display: inline-block; }
+    .describe-row .missing-tag {
+      display: none;
+      font-size: 0.6875rem;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      padding: 2px 6px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+    }
+    .describe-row.no-desc .missing-tag { display: inline-block; }
+
     .describe-toolbar {
       position: sticky;
       bottom: 0;
@@ -104,15 +197,15 @@
       cursor: not-allowed;
     }
     #status { font-size: 0.875rem; color: var(--muted); }
-    .placeholder-cell {
+    .empty {
+      padding: 80px 0;
+      text-align: center;
       color: var(--muted);
-      font-size: 0.8125rem;
-      font-style: italic;
+      font-size: 0.9375rem;
     }
     @media (max-width: 640px) {
-      .describe-row {
-        grid-template-columns: 1fr;
-      }
+      .describe-row { grid-template-columns: 1fr; }
+      .describe-row img { max-height: 120px; }
     }
   </style>
 </head>
@@ -120,34 +213,58 @@
   <header class="topbar">
     <h1>Describe flags</h1>
     <p class="hint">
-      Top 100 flags needing visual descriptions.
+      Review and edit visual descriptions for every flag in the dataset.
       Lead with the visual (colors, layout, charges) &mdash; no history or adoption dates.
       &middot; <a href="index.html">back to identifier</a>
-      &middot; <a href="curate.html">curate</a>
+      &middot; <a href="backoffice.html">back office</a>
     </p>
   </header>
 
-  <main class="describe-main" id="rows"></main>
+  <main class="describe-main">
+    <div class="describe-filterbar">
+      <input type="search" id="search-input" placeholder="Search name or description…" autocomplete="off" spellcheck="false" />
+      <label class="check"><input type="checkbox" id="filter-no-desc" /> Missing description only</label>
+      <label class="check"><input type="checkbox" id="filter-has-image" checked /> Has image only</label>
+      <label class="check" title="Hide records whose Wikidata entity isn't classified as a flag (P31/P279* → Q14660 / Q69506823). These typically have a photo of the subject as P18 rather than an actual flag image."><input type="checkbox" id="filter-is-flag-entity" checked /> Flag entities only</label>
+      <label class="check" title="Hide images whose filename suggests a building, photo, map, or other non-flag content (e.g. JPGs with 'view', 'headquarters', 'street' in the name)."><input type="checkbox" id="filter-hide-wonky" checked /> Hide likely non-flag images</label>
+      <select id="sort-select" aria-label="Sort order">
+        <option value="count-desc">OSM count (high → low)</option>
+        <option value="count-asc">OSM count (low → high)</option>
+        <option value="name-asc">Name (A → Z)</option>
+        <option value="qid-asc">QID (numeric)</option>
+      </select>
+      <span id="visible-count"></span>
+    </div>
+
+    <div class="vlist-outer" id="vlist-outer">
+      <div class="vlist-inner" id="vlist-inner"></div>
+    </div>
+    <div class="empty" id="empty" hidden>No flags match the current filters.</div>
+  </main>
 
   <div class="describe-toolbar">
     <span id="status">Loading…</span>
     <span class="spacer"></span>
-    <button id="reset-btn" type="button">Discard edits</button>
-    <button id="export-btn" type="button" class="primary" disabled>Export edits</button>
+    <button id="reset-btn" type="button" disabled>Discard edits</button>
+    <button id="export-btn" type="button" class="primary" disabled>Export overrides.json</button>
   </div>
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
   <script type="module">
-    const STORAGE_KEY = "osm-flag-describe-pending";
+    import {
+      initEditing,
+      pendingCount,
+      effectiveField,
+      isEdited,
+      setField,
+      clearPending,
+      onPendingChange,
+      onReviewReset,
+      exportOverrides,
+    } from "./js/editing.js";
 
-    function loadPending() {
-      try { return JSON.parse(localStorage.getItem(STORAGE_KEY) ?? "{}"); }
-      catch { return {}; }
-    }
-    function savePending(p) {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
-    }
+    const BUFFER_ROWS = 4; // render this many extra rows above/below the viewport
 
     function showToast(msg, ms = 1800) {
       const t = document.getElementById("toast");
@@ -156,102 +273,208 @@
       setTimeout(() => t.classList.remove("show"), ms);
     }
 
-    async function fetchJson(url) {
-      const res = await fetch(url, { cache: "no-store" });
-      if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
-      return res.json();
+    function thumbSrc(flag) {
+      if (flag.imageWithheld) return "flags/placeholder.svg";
+      if (flag.localFile) return `flags/local/${flag.localFile}`;
+      if (!flag.file) return "flags/placeholder.svg";
+      return `flags/full/${flag.qid}.png`;
     }
 
-    function thumbSrc(qid, file) {
-      return file ? `flags/full/${qid}.png` : "flags/placeholder.svg";
+    function qidNum(qid) { return parseInt(qid.slice(1), 10); }
+
+    // ----- module state -----
+    let allFlags = [];
+    let visibleFlags = [];
+    let rowHeight = 0;
+
+    const filters = {
+      search: "",
+      noDescOnly: false,
+      hasImageOnly: true,
+      flagEntityOnly: true,
+      hideWonky: true,
+      sort: "count-desc",
+    };
+
+    // See review pages for the rationale on these heuristics. Kept inline
+    // here because the page can be loaded standalone via Pages.
+    const FLAG_FILENAME_RE = /^(flag|bandera|bandiera|drapeau|vlag|bandeira|flagga|flagge|flaga|fahne|byrak|zastava|prapor|drapelul)/i;
+    const WONKY_FILENAME_RE = /headquarter|\bview\b|entrance|stadium|\bpark\b|street|\bcenter\b|building|\bhotel\b|\bstore\b|\bstation\b|\bhall\b|library|fountain|harbor|\btower\b|hospital|circuit|college|university|plaza|airport|riverside|montage|skyline|panorama|aerial|location[ -]?map|orthographic|locator|collage|cathedral|church|castle|courthouse|capitol/i;
+
+    function imageFilename(flag) {
+      if (flag.imageWithheld) return null;
+      return flag.localFile || flag.file || null;
+    }
+    function looksLikeFlagFilename(filename) {
+      if (!filename) return false;
+      if (filename.toLowerCase().endsWith(".svg")) return true;
+      return FLAG_FILENAME_RE.test(filename);
+    }
+    function looksWonkyFilename(filename) {
+      if (!filename) return false;
+      if (looksLikeFlagFilename(filename)) return false;
+      if (WONKY_FILENAME_RE.test(filename.toLowerCase())) return true;
+      if (/\.(jpe?g|tiff?)$/i.test(filename)) return true;
+      return false;
     }
 
-    function effectiveDescription(flag, overrides) {
-      const ov = overrides[flag.qid];
-      if (ov && typeof ov.description === "string") return ov.description;
-      return flag.description ?? "";
+    function effectiveDescription(flag) {
+      // Goes through the shared editing layer so the most recent pending
+      // edit wins, then committed overrides, then the flag's own value.
+      return effectiveField(flag.qid, "description") ?? "";
     }
 
-    function render(queue, byQid, overrides, pending) {
-      const root = document.getElementById("rows");
-      root.innerHTML = "";
-      const frag = document.createDocumentFragment();
-
-      for (const item of queue) {
-        const flag = byQid.get(item.qid);
-        if (!flag) continue; // queue item not in flags.json — skip silently
-
-        const row = document.createElement("section");
-        row.className = "describe-row";
-        row.dataset.qid = flag.qid;
-
-        const imgCell = document.createElement("div");
-        imgCell.className = "img-cell";
-        const img = document.createElement("img");
-        img.loading = "lazy";
-        img.decoding = "async";
-        img.alt = `Flag of ${flag.name}`;
-        img.src = thumbSrc(flag.qid, flag.file);
-        imgCell.appendChild(img);
-
-        const meta = document.createElement("div");
-        meta.className = "meta";
-
-        const h = document.createElement("h3");
-        const editedTag = document.createElement("span");
-        editedTag.className = "edited-tag";
-        editedTag.textContent = "Edited ";
-        h.appendChild(editedTag);
-        h.appendChild(document.createTextNode(flag.flagName ?? flag.name));
-        meta.appendChild(h);
-
-        const line = document.createElement("p");
-        line.className = "line";
-        const a = document.createElement("a");
-        a.href = `https://www.wikidata.org/wiki/${flag.qid}`;
-        a.target = "_blank";
-        a.rel = "noopener";
-        a.textContent = flag.qid;
-        line.appendChild(a);
-        line.append(` · ${(flag.count ?? 0).toLocaleString()} OSM uses`);
-        if (flag.flagType) line.append(` · ${flag.flagType}`);
-        meta.appendChild(line);
-
-        const ta = document.createElement("textarea");
-        ta.spellcheck = true;
-        ta.placeholder = "Lead with the visual: colors, layout, charges. E.g. \"A red field with a centered white star.\"";
-        const baseline = effectiveDescription(flag, overrides);
-        const pendingVal = pending[flag.qid];
-        ta.value = pendingVal != null ? pendingVal : baseline;
-        ta.dataset.baseline = baseline;
-        if (pendingVal != null && pendingVal !== baseline) row.classList.add("edited");
-
-        ta.addEventListener("input", () => {
-          const val = ta.value;
-          const base = ta.dataset.baseline ?? "";
-          if (val === base) {
-            delete pending[flag.qid];
-            row.classList.remove("edited");
-          } else {
-            pending[flag.qid] = val;
-            row.classList.add("edited");
-          }
-          savePending(pending);
-          updateToolbar(pending);
-        });
-
-        meta.appendChild(ta);
-        row.appendChild(imgCell);
-        row.appendChild(meta);
-        frag.appendChild(row);
+    function applyFilters() {
+      const q = filters.search.trim().toLowerCase();
+      let list = allFlags.filter((f) => {
+        if (filters.hasImageOnly && !f.file && !f.localFile) return false;
+        if (filters.noDescOnly && effectiveDescription(f)) return false;
+        if (filters.flagEntityOnly && !f.isFlagEntity) return false;
+        if (filters.hideWonky && looksWonkyFilename(imageFilename(f))) return false;
+        if (q) {
+          const hay = (f.name + " " + (f.flagName ?? "") + " " + effectiveDescription(f)).toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+      switch (filters.sort) {
+        case "count-desc": list.sort((a, b) => (b.count ?? 0) - (a.count ?? 0)); break;
+        case "count-asc":  list.sort((a, b) => (a.count ?? 0) - (b.count ?? 0)); break;
+        case "name-asc":   list.sort((a, b) => (a.flagName ?? a.name).localeCompare(b.flagName ?? b.name)); break;
+        case "qid-asc":    list.sort((a, b) => qidNum(a.qid) - qidNum(b.qid)); break;
       }
-
-      root.appendChild(frag);
-      updateToolbar(pending);
+      visibleFlags = list;
+      document.getElementById("visible-count").textContent =
+        `${visibleFlags.length.toLocaleString()} of ${allFlags.length.toLocaleString()} shown`;
+      const emptyEl = document.getElementById("empty");
+      const outerEl = document.getElementById("vlist-outer");
+      if (visibleFlags.length === 0) {
+        emptyEl.hidden = false;
+        outerEl.style.height = "0px";
+      } else {
+        emptyEl.hidden = true;
+        outerEl.style.height = (visibleFlags.length * rowHeight) + "px";
+      }
+      renderWindow(true);
     }
 
-    function updateToolbar(pending) {
-      const n = Object.keys(pending).length;
+    function buildRow(flag) {
+      const row = document.createElement("section");
+      row.className = "describe-row";
+      row.dataset.qid = flag.qid;
+      const current = effectiveDescription(flag);
+      if (isEdited(flag.qid, "description")) row.classList.add("edited");
+      if (!current) row.classList.add("no-desc");
+
+      const imgCell = document.createElement("div");
+      imgCell.className = "img-cell";
+      const img = document.createElement("img");
+      img.loading = "lazy";
+      img.decoding = "async";
+      img.alt = `Flag of ${flag.name}`;
+      img.src = thumbSrc(flag);
+      img.onerror = () => { img.src = "flags/placeholder.svg"; };
+      imgCell.appendChild(img);
+
+      const meta = document.createElement("div");
+      meta.className = "meta";
+
+      const h = document.createElement("h3");
+      h.appendChild(document.createTextNode(flag.flagName ?? flag.name));
+      const editedTag = document.createElement("span");
+      editedTag.className = "edited-tag";
+      editedTag.textContent = "Edited";
+      h.appendChild(editedTag);
+      const missingTag = document.createElement("span");
+      missingTag.className = "missing-tag";
+      missingTag.textContent = "No description";
+      h.appendChild(missingTag);
+      meta.appendChild(h);
+
+      const line = document.createElement("p");
+      line.className = "line";
+      const a = document.createElement("a");
+      a.href = `https://www.wikidata.org/wiki/${flag.qid}`;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = flag.qid;
+      line.appendChild(a);
+      line.append(` · ${(flag.count ?? 0).toLocaleString()} OSM uses`);
+      if (flag.flagType) line.append(` · ${flag.flagType}`);
+      meta.appendChild(line);
+
+      const ta = document.createElement("textarea");
+      ta.spellcheck = true;
+      ta.placeholder = "Lead with the visual: colors, layout, charges. E.g. \"A red field with a centered white star.\"";
+      ta.value = current;
+      ta.addEventListener("input", () => {
+        // Empty string → drop the override entirely so the user can clear a
+        // description by emptying the textarea. setField handles the
+        // baseline equality check (typing back to the original value is a
+        // no-op edit and gets dropped automatically).
+        const v = ta.value;
+        setField(flag.qid, "description", v === "" ? undefined : v);
+        // Update the row's "Edited" styling immediately rather than waiting
+        // for the next render window pass.
+        if (isEdited(flag.qid, "description")) row.classList.add("edited");
+        else row.classList.remove("edited");
+      });
+      meta.appendChild(ta);
+
+      row.appendChild(imgCell);
+      row.appendChild(meta);
+      return row;
+    }
+
+    // ----- virtualization -----
+    // Strategy: never recycle DOM nodes — just re-render the visible window
+    // on scroll. Cheap because each window is ~10–20 rows. Skips re-rendering
+    // any row that's currently focused (to preserve caret/selection).
+    let lastStart = -1, lastEnd = -1;
+    function renderWindow(force) {
+      if (visibleFlags.length === 0) {
+        document.getElementById("vlist-inner").innerHTML = "";
+        return;
+      }
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const viewportH = window.innerHeight;
+      const outerTop = document.getElementById("vlist-outer").offsetTop;
+      const relTop = Math.max(0, scrollTop - outerTop);
+      const startIdx = Math.max(0, Math.floor(relTop / rowHeight) - BUFFER_ROWS);
+      const endIdx = Math.min(
+        visibleFlags.length,
+        Math.ceil((relTop + viewportH) / rowHeight) + BUFFER_ROWS,
+      );
+      if (!force && startIdx === lastStart && endIdx === lastEnd) return;
+      lastStart = startIdx;
+      lastEnd = endIdx;
+
+      const inner = document.getElementById("vlist-inner");
+      const activeQid = (document.activeElement?.closest?.(".describe-row")?.dataset.qid) ?? null;
+      let activeSelStart = 0, activeSelEnd = 0;
+      if (activeQid && document.activeElement.tagName === "TEXTAREA") {
+        activeSelStart = document.activeElement.selectionStart;
+        activeSelEnd = document.activeElement.selectionEnd;
+      }
+      inner.style.transform = `translateY(${startIdx * rowHeight}px)`;
+      inner.innerHTML = "";
+      const frag = document.createDocumentFragment();
+      for (let i = startIdx; i < endIdx; i++) {
+        frag.appendChild(buildRow(visibleFlags[i]));
+      }
+      inner.appendChild(frag);
+
+      if (activeQid) {
+        const restored = inner.querySelector(`.describe-row[data-qid="${activeQid}"] textarea`);
+        if (restored) {
+          restored.focus();
+          try { restored.setSelectionRange(activeSelStart, activeSelEnd); } catch {}
+        }
+      }
+    }
+
+    function updateToolbar() {
+      const n = pendingCount();
       const status = document.getElementById("status");
       const exportBtn = document.getElementById("export-btn");
       const resetBtn = document.getElementById("reset-btn");
@@ -260,54 +483,127 @@
       resetBtn.disabled = n === 0;
     }
 
-    function downloadJson(filename, obj) {
-      const blob = new Blob([JSON.stringify(obj, null, 2) + "\n"], { type: "application/json" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = filename;
-      a.click();
-      URL.revokeObjectURL(url);
-    }
-
-    function qidNum(qid) {
-      return parseInt(qid.slice(1), 10);
+    function measureRowHeight() {
+      const probe = document.createElement("div");
+      probe.style.position = "absolute";
+      probe.style.visibility = "hidden";
+      probe.style.height = "var(--row-h)";
+      probe.style.width = "1px";
+      document.body.appendChild(probe);
+      const h = probe.getBoundingClientRect().height;
+      document.body.removeChild(probe);
+      return h || 200;
     }
 
     async function main() {
-      let queue, flagsData, overrides;
+      let flagsData;
       try {
-        [queue, flagsData, overrides] = await Promise.all([
-          fetchJson("data/describe-queue.json"),
-          fetchJson("data/flags.json"),
-          fetchJson("data/overrides.json"),
-        ]);
+        const res = await fetch("data/flags.json", { cache: "no-store" });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        flagsData = await res.json();
       } catch (err) {
-        document.getElementById("status").textContent = `Failed to load: ${err.message}`;
+        document.getElementById("status").textContent = `Failed to load flags.json: ${err.message}`;
         return;
       }
+      allFlags = flagsData.flags ?? [];
+      rowHeight = measureRowHeight();
 
-      const byQid = new Map(flagsData.flags.map(f => [f.qid, f]));
-      const pending = loadPending();
+      // Initialize the shared editing layer. This loads committed overrides,
+      // migrates any legacy per-page localStorage bag (old key:
+      // osm-flag-describe-pending) into the new shared one, and smart-prunes
+      // pending fields that already match the baseline.
+      const { prunedCount } = await initEditing(allFlags);
+      if (prunedCount > 0) {
+        setTimeout(() => showToast(
+          `Cleared ${prunedCount} edit${prunedCount === 1 ? "" : "s"} already in overrides.json`,
+          3000,
+        ), 100);
+      }
 
-      render(queue, byQid, overrides, pending);
+      onPendingChange(updateToolbar);
 
-      document.getElementById("export-btn").addEventListener("click", () => {
-        // Build an overrides.json-shaped snippet, sorted by QID numerically.
-        const out = {};
-        const sortedQids = Object.keys(pending).sort((a, b) => qidNum(a) - qidNum(b));
-        for (const qid of sortedQids) {
-          out[qid] = { description: pending[qid] };
-        }
-        downloadJson("describe-edits.json", out);
-        showToast(`Exported ${sortedQids.length} edit${sortedQids.length === 1 ? "" : "s"}`);
+      // Surface "your edit cleared prior reviewers' approval of this
+      // description". The user gets a toast so they know the trust got
+      // invalidated. No DOM re-render needed here — describe.html's
+      // textarea doesn't display the review count.
+      onReviewReset(({ prevCount }) => {
+        showToast(
+          `Cleared ${prevCount} prior review${prevCount === 1 ? "" : "s"} — description changed`,
+          2500,
+        );
       });
 
+      // Wire up filter controls.
+      const searchInput = document.getElementById("search-input");
+      let searchTimer = null;
+      searchInput.addEventListener("input", (e) => {
+        clearTimeout(searchTimer);
+        const v = e.target.value;
+        searchTimer = setTimeout(() => {
+          filters.search = v;
+          window.scrollTo({ top: 0 });
+          applyFilters();
+        }, 120);
+      });
+      document.getElementById("filter-no-desc").addEventListener("change", (e) => {
+        filters.noDescOnly = e.target.checked;
+        window.scrollTo({ top: 0 });
+        applyFilters();
+      });
+      document.getElementById("filter-has-image").addEventListener("change", (e) => {
+        filters.hasImageOnly = e.target.checked;
+        window.scrollTo({ top: 0 });
+        applyFilters();
+      });
+      document.getElementById("filter-is-flag-entity").addEventListener("change", (e) => {
+        filters.flagEntityOnly = e.target.checked;
+        window.scrollTo({ top: 0 });
+        applyFilters();
+      });
+      document.getElementById("filter-hide-wonky").addEventListener("change", (e) => {
+        filters.hideWonky = e.target.checked;
+        window.scrollTo({ top: 0 });
+        applyFilters();
+      });
+      document.getElementById("sort-select").addEventListener("change", (e) => {
+        filters.sort = e.target.value;
+        window.scrollTo({ top: 0 });
+        applyFilters();
+      });
+
+      let rafPending = false;
+      function onScroll() {
+        if (rafPending) return;
+        rafPending = true;
+        requestAnimationFrame(() => {
+          rafPending = false;
+          renderWindow(false);
+        });
+      }
+      window.addEventListener("scroll", onScroll, { passive: true });
+      window.addEventListener("resize", () => {
+        rowHeight = measureRowHeight();
+        applyFilters();
+      });
+
+      document.getElementById("export-btn").addEventListener("click", async () => {
+        const n = pendingCount();
+        const { method } = await exportOverrides();
+        if (method === "direct") {
+          showToast(`Saved ${n} edits to overrides.json`);
+        } else {
+          showToast(`Downloaded ${n} edits — save into data/overrides.json`);
+        }
+      });
       document.getElementById("reset-btn").addEventListener("click", () => {
         if (!confirm("Discard all pending edits?")) return;
-        localStorage.removeItem(STORAGE_KEY);
+        clearPending();
+        // Easiest way to re-render every row's textarea baseline: reload.
         location.reload();
       });
+
+      applyFilters();
+      updateToolbar();
     }
 
     main();
