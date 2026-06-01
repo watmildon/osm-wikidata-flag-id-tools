@@ -198,6 +198,22 @@ main { padding: 12px 12px 24px; }
   color: inherit;
 }
 .tile:active { transform: scale(0.98); }
+/* Shared checkerboard for any element that contains a flag image. Solid
+   white flags (Nepal, Japan, Vatican, etc.) would otherwise blend into a
+   white page background and look like they have no border or extent. The
+   main grid's .tile img and the detail dialog's .detail img also pick
+   this up via their own selectors below — kept duplicated there to avoid
+   needing JS changes for the legacy tile rendering paths. */
+.flag-bg {
+  background-color: var(--bg-elev);
+  background-image:
+    linear-gradient(45deg, var(--border) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--border) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--border) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--border) 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+}
 .tile img {
   width: 100%;
   height: 90px;
