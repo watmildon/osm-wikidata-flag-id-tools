@@ -4,9 +4,6 @@ A set of mobile-friendly web pages for OpenStreetMap mappers working with
 flags. Identify a flag you see in the field, copy the right OSM tags for
 it, and help tidy up flag tagging on both OSM and Wikidata.
 
-All flag imagery and metadata is powered by Wikidata — every image, label,
-color, and dimension on this site comes from a Wikidata entity.
-
 Flag data in OSM and on Wikidata is ripe for improvement! OSM
 elements need QIDs, Wikidata flag entities are missing
 images or colors, and entire categories of common flags don't have proper
@@ -14,7 +11,8 @@ Wikidata entries at all. It will be easy to spot lots of available work using th
 downstream — this site, every other Wikidata consumer, and the next
 mapper to walk past that flagpole.
 
-The site is built around four pages, each with a specific job.
+The site has one mapper-facing page and a back office
+hub linking to a handful of curation and cleanup tools.
 
 ## [Identify a flag](https://watmildon.github.io/osm-wikidata-flag-id-tools/)
 
@@ -46,36 +44,39 @@ Flags shown with a `?` placeholder and "no image" badge are real flags
 whose Wikidata entity is missing a P18 image. You can still copy the tags,
 and if you have a moment, follow through to fix Wikidata.
 
-## [Curate a flag](https://watmildon.github.io/osm-wikidata-flag-id-tools/curate.html)
+## [Back office](https://watmildon.github.io/osm-wikidata-flag-id-tools/backoffice.html)
 
-Reach this from the pencil icon on any flag's detail dialog, or visit
-directly to walk through every flag missing iconography, colors, or shape.
+Everything below is maintenance work: curating attributes for this site,
+fixing OSM tags that point at the wrong Wikidata entity, and filling
+Wikidata gaps. The back office page is the hub that links to all of it.
 
-The page presents one flag at a time with editable fields:
+Edits made on any of the backoffice pages is shared across them. Classify colors on one page, fill in a description on another, and they all export together as a single
+`overrides.json`.
 
-- **Display name** — what mappers should put in `flag:name`.
-- **flag:type** — one of *national*, *regional*, *municipal*,
-  *governmental*, *military*, *religious*, etc.
-- **Colors** — multi-select swatch chips.
-- **Iconography** — multi-select chips.
-- **Shape** — single-select.
+### **Look's Good Button**
 
-Press **Save & next** (or Enter) to commit and advance. Press **Skip** (or
-`s`) to advance without saving. Edits collect in your browser's
-localStorage as a sparse override set.
+Right now there's lots of metadata about flags from a mishmosh of sources and tools. It would be good to make sure we have eyeballs on each piece. Even scrolling through and sending a "these look good" file is very helpful!
 
-When you're done, click **Export overrides.json**. In Chrome/Edge the
-file writes back directly to the repository's `data/overrides.json` (you
-authorize the location once and the page remembers it). In Firefox/Safari
-a file downloads instead — drop it into the repository manually.
+### Curate this site's data
 
-Cleared edits and previously-committed values are pruned automatically
-when the page loads, so your queue stays focused on real work.
+- **[Curate flag attributes](https://watmildon.github.io/osm-wikidata-flag-id-tools/curate.html)** —
+  One-flag-at-a-time queue editor for display name, flag:type, colors,
+  iconography, shape, and description.
+- **[Describe flags](https://watmildon.github.io/osm-wikidata-flag-id-tools/describe.html)** —
+  Browse every flag with its current description in a list
+- **[Review colors](https://watmildon.github.io/osm-wikidata-flag-id-tools/review-colors.html)** —
+  Browse every flag with its current palette as chip toggles.
+- **[Review iconography](https://watmildon.github.io/osm-wikidata-flag-id-tools/review-icons.html)** —
+  Browse every flag and review the 22-icon iconography
+  vocabulary (text, animal, cross, stars, stripes, etc.).
 
-## [Fix OSM tagging mistakes](https://watmildon.github.io/osm-wikidata-flag-id-tools/review.html)
+When you're done, click **Export overrides.json**. Submit a Pull Request or send me the file for merging.
 
-A table of OSM elements that are using the wrong Wikidata QID for their
-flag. Two sources of suggestions:
+### Fix OSM tagging mistakes
+
+The **[Review OSM-side fixes](https://watmildon.github.io/osm-wikidata-flag-id-tools/review.html)**
+page is a table of OSM elements that are using the wrong Wikidata QID
+for their flag. Two sources of suggestions:
 
 - **P163 mismatches** — a mapper tagged the country/organization QID
   instead of the dedicated "flag of X" QID. Wikidata's `P163 (flag)`
@@ -88,38 +89,36 @@ label), how many OSM elements are affected, and a map-pin button that
 opens the affected elements in [overpass-turbo](https://overpass-turbo.eu/)
 so you can fix them in place. Sorted by impact (OSM use count) descending.
 
-## [Suggest Wikidata edits](https://watmildon.github.io/osm-wikidata-flag-id-tools/wikidata-suggestions.html)
+### Fix Wikidata
 
-Records this site has touched whose Wikidata entity could use a small
-fix. Each section is collapsible.
+- **[Suggested Wikidata edits](https://watmildon.github.io/osm-wikidata-flag-id-tools/wikidata-suggestions.html)** —
+  Aggregated Wikidata-side cleanup work, in collapsible sections:
+  - *Missing flag entity* — subjects (cities, organisations) that have
+    a flag image attached via `P41` on their main Wikidata entity, but
+    no dedicated "flag of X" entity exists yet. Until someone creates
+    one, OSM mappers have nowhere correct to point `flag:wikidata=` at.
+  - *Not classified as a flag* — a QID is in OSM as `flag:wikidata=`
+    but Wikidata doesn't have `P31/P279*` reaching either *flag
+    (Q14660)* or *flag design (Q69506823)*. Could be either side's
+    bug: add a `P31` statement on Wikidata, or retag the OSM
+    elements. 
+  - *Missing image* — flag entities with no `P18` image set on
+    Wikidata. Add the image on Wikidata and it flows back into this
+    site after the next redeploy.
+  - *Colors* — flags where the curated color list and Wikidata's
+    `P462` statements disagree. Three sub-buckets: *we have colors,
+    Wikidata doesn't* (just add `P462`), *count mismatch* (review
+    which side is right), and *neither side has colors*. 
+    
+    **WARNING**: our color model and the one expected on Wikidata will inherently have conflicts
+- **[Create flag entities](https://watmildon.github.io/osm-wikidata-flag-id-tools/create-flag-entities.html)** —
+  Multi-select review for the auto-detected subjects with a `P41` flag
+  image but no dedicated "flag of X" entity (`P163`). Pick the ones
+  you've verified and the page generates a QuickStatements batch you can
+  paste in to create them.
 
-- **Missing flag entity** — subjects (cities, organisations) that have a
-  flag image attached via `P41` on their main Wikidata entity, but no
-  dedicated "flag of X" entity exists for the flag itself. Until someone
-  creates one, OSM mappers have nowhere correct to point
-  `flag:wikidata=` at. Each row has buttons to open the subject on
-  Wikidata and to create a new flag item.
-- **Not classified as a flag** — a QID is in OSM as `flag:wikidata=` but
-  Wikidata doesn't have `P31/P279*` reaching either *flag (Q14660)* or
-  *flag design (Q69506823)*. Could be either side's bug: add a `P31`
-  statement on Wikidata, or retag the OSM elements. Both paths offered.
-- **Missing image** — flag entities with no `P18` image set on Wikidata.
-  Add the image on Wikidata and it flows back into this site (and every
-  other downstream consumer of Wikidata) on the next build.
-- **Colors** — flags where the curated color list and Wikidata's `P462`
-  statements disagree. Three sub-buckets: *we have colors, Wikidata
-  doesn't* (just add `P462`), *count mismatch* (review which side is
-  right), and *neither side has colors* (long-tail unclassified — best
-  curated locally first, then pushed upstream).
-
-Sorted by OSM usage count so the highest-impact fixes show first.
-
-## Getting around
-
-Every page has a back link to the identifier. The review and
-wikidata-suggestions pages cross-link to each other so you can switch
-between OSM-side and Wikidata-side fixes without going through the home
-page.
+All Wikidata suggestion lists are sorted by OSM usage count so the
+highest-impact fixes show first.
 
 ## Sharing your curated edits
 
