@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T20:13:45.578Z",
+  "generated": "2026-06-02T10:19:23.627Z",
   "palette": [
     "red",
     "white",
@@ -769,7 +769,7 @@
     {
       "qid": "Q18983",
       "name": "flag of Pennsylvania",
-      "count": 31,
+      "count": 32,
       "file": "Flag of Pennsylvania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16411,
+      "count": 16431,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2825,7 +2825,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 972,
+      "count": 973,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4482,7 +4482,7 @@
     {
       "qid": "Q108418",
       "name": "Cook County",
-      "count": 2,
+      "count": 3,
       "file": "Daley Plaza 060716.jpg",
       "isFlagEntity": false,
       "colors": [],
@@ -4879,7 +4879,7 @@
     {
       "qid": "Q127155",
       "name": "flag of the Czech Republic",
-      "count": 109,
+      "count": 110,
       "file": "Flag of the Czech Republic.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6837,7 +6837,7 @@
     {
       "qid": "Q160861",
       "name": "flag of Slovakia",
-      "count": 92,
+      "count": 93,
       "file": "Flag of Slovakia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12621,7 +12621,7 @@
     {
       "qid": "Q492546",
       "name": "flag of Colorado",
-      "count": 40,
+      "count": 41,
       "file": "Flag of Colorado.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15296,7 +15296,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 368,
+      "count": 370,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16693,7 +16693,7 @@
     {
       "qid": "Q1049334",
       "name": "United States Army Corps of Engineers",
-      "count": 3,
+      "count": 6,
       "file": "USACE.gif",
       "isFlagEntity": false,
       "colors": [],
@@ -17197,7 +17197,7 @@
     {
       "qid": "Q1165949",
       "name": "flag of Ontario",
-      "count": 38,
+      "count": 39,
       "file": "Flag of Ontario.svg",
       "isFlagEntity": true,
       "colors": [
@@ -17642,7 +17642,7 @@
     {
       "qid": "Q1402799",
       "name": "flag of Chicago",
-      "count": 392,
+      "count": 393,
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -24863,6 +24863,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q6825322",
+      "name": "Metropolitan Water Reclamation District of Greater Chicago",
+      "count": 1,
+      "file": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Metropolitan Water Reclamation District of Greater Chicago",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q6917098",
@@ -41103,6 +41119,28 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Geneva",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q140005435",
+      "name": "flag of Henrico County",
+      "count": 1,
+      "file": "Flag of Henrico County, Virginia.png",
+      "isFlagEntity": true,
+      "colors": [
+        "green",
+        "white"
+      ],
+      "wdColors": [
+        "green",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Henrico County",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": []
