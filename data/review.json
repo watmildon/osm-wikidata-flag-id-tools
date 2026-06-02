@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-01T17:33:44.799Z",
+  "generated": "2026-06-02T03:41:28.255Z",
   "suggestions": [
     {
       "bad_qid": "Q88",
@@ -115,11 +115,25 @@
       "suggested_name": "flag of La Línea de la Concepción"
     },
     {
+      "bad_qid": "Q13972",
+      "bad_name": "Tartu",
+      "count": 1,
+      "suggested_qid": "Q614534",
+      "suggested_name": "flag of Tartu"
+    },
+    {
       "bad_qid": "Q15499",
       "bad_name": "Paraná",
       "count": 1,
       "suggested_qid": "Q2981712",
       "suggested_name": "flag of Paraná"
+    },
+    {
+      "bad_qid": "Q15878",
+      "bad_name": "Normandy",
+      "count": 1,
+      "suggested_qid": "Q3039109",
+      "suggested_name": "flag and coat of arms of Normandy"
     },
     {
       "bad_qid": "Q25444",
