@@ -1,0 +1,5 @@
+# Data files are written with LF by scripts/build-flags.mjs (and the other
+# build/refresh scripts) on whatever OS they happen to run on. Pin them to
+# LF in the working tree so Windows checkouts with core.autocrlf=true don't
+# produce phantom whitespace-only diffs every time the build runs locally.
+*.json text eol=lf
