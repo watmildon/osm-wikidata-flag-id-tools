@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-02T20:45:25.172Z",
+  "generated": "2026-06-03T10:54:11.217Z",
   "palette": [
     "red",
     "white",
@@ -867,7 +867,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 277,
+      "count": 279,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16431,
+      "count": 16473,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2122,7 +2122,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 293,
+      "count": 294,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2735,7 +2735,7 @@
     {
       "qid": "Q79198",
       "name": "flag of Vatican City",
-      "count": 59,
+      "count": 63,
       "file": "Flag of Vatican City (2023–present).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2825,7 +2825,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 973,
+      "count": 974,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4482,7 +4482,7 @@
     {
       "qid": "Q108418",
       "name": "Cook County",
-      "count": 3,
+      "count": 2,
       "file": "Daley Plaza 060716.jpg",
       "isFlagEntity": false,
       "colors": [],
@@ -4720,7 +4720,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1609,
+      "count": 1610,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5379,7 +5379,7 @@
     {
       "qid": "Q130807",
       "name": "flag of Slovenia",
-      "count": 122,
+      "count": 123,
       "file": "Flag of Slovenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10804,7 +10804,7 @@
     {
       "qid": "Q221881",
       "name": "flag of Massachusetts",
-      "count": 41,
+      "count": 42,
       "file": "Flag of Massachusetts.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11586,7 +11586,7 @@
     {
       "qid": "Q309350",
       "name": "Northwestern University",
-      "count": 1,
+      "count": 3,
       "file": "Northwestern Arch.jpg",
       "isFlagEntity": false,
       "colors": [
@@ -11867,7 +11867,7 @@
     {
       "qid": "Q369833",
       "name": "flag of Arkansas",
-      "count": 17,
+      "count": 18,
       "file": "Flag of Arkansas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12345,7 +12345,7 @@
     {
       "qid": "Q483659",
       "name": "flag of Singapore",
-      "count": 22,
+      "count": 23,
       "file": "Flag of Singapore.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15296,7 +15296,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 370,
+      "count": 376,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15494,6 +15494,22 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q782200",
+      "name": "Ritz-Carlton",
+      "count": 1,
+      "file": "HK The Ritz-Carlton hotel b.JPG",
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Ritz-Carlton",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q782773",
@@ -17479,6 +17495,22 @@
       "wdColors": []
     },
     {
+      "qid": "Q1364344",
+      "name": "Roman Catholic Archdiocese of Chicago",
+      "count": 5,
+      "file": "Gerald Farinas Holy Name Cathedral from Street.jpg",
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Roman Catholic Archdiocese of Chicago",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q1383244",
       "name": "coat of arms of Sofia",
       "count": 1,
@@ -17642,7 +17674,7 @@
     {
       "qid": "Q1402799",
       "name": "flag of Chicago",
-      "count": 393,
+      "count": 401,
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26820,6 +26852,22 @@
       "aliases": []
     },
     {
+      "qid": "Q24900742",
+      "name": "Warwick Hotels and Resorts",
+      "count": 1,
+      "file": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Warwick Hotels and Resorts",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q25230725",
       "name": "flag of the East African Community",
       "count": 1,
@@ -30395,6 +30443,22 @@
       ]
     },
     {
+      "qid": "Q81003878",
+      "name": "Sonesta Hotels",
+      "count": 1,
+      "file": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Sonesta Hotels",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q81013608",
       "name": "flag of Erlanger",
       "count": 1,
@@ -31635,7 +31699,7 @@
     {
       "qid": "Q96970847",
       "name": "flag of Cook County",
-      "count": 22,
+      "count": 27,
       "file": "Flag of Cook County, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -32829,7 +32893,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 296,
+      "count": 297,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [

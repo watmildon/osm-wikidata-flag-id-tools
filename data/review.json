@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-02T10:19:22.148Z",
+  "generated": "2026-06-03T10:54:08.830Z",
   "suggestions": [
     {
       "bad_qid": "Q88",
@@ -209,7 +209,7 @@
     {
       "bad_qid": "Q108418",
       "bad_name": "Cook County",
-      "count": 3,
+      "count": 2,
       "suggested_qid": "Q96970847",
       "suggested_name": "flag of Cook County"
     },

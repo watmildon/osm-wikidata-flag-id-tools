@@ -494,7 +494,7 @@
   {
     "qid": "Q108418",
     "name": "Cook County",
-    "count": 3,
+    "count": 2,
     "file": "Daley Plaza 060716.jpg"
   },
   {
@@ -668,7 +668,7 @@
   {
     "qid": "Q309350",
     "name": "Northwestern University",
-    "count": 1,
+    "count": 3,
     "file": "Northwestern Arch.jpg"
   },
   {
@@ -1014,6 +1014,12 @@
     "file": null
   },
   {
+    "qid": "Q782200",
+    "name": "Ritz-Carlton",
+    "count": 1,
+    "file": "HK The Ritz-Carlton hotel b.JPG"
+  },
+  {
     "qid": "Q782773",
     "name": "Australian White Ensign",
     "count": 3,
@@ -1282,6 +1288,12 @@
     "name": "Chicago Police Department",
     "count": 1,
     "file": null
+  },
+  {
+    "qid": "Q1364344",
+    "name": "Roman Catholic Archdiocese of Chicago",
+    "count": 5,
+    "file": "Gerald Farinas Holy Name Cathedral from Street.jpg"
   },
   {
     "qid": "Q1383244",
@@ -2010,6 +2022,12 @@
     "file": null
   },
   {
+    "qid": "Q24900742",
+    "name": "Warwick Hotels and Resorts",
+    "count": 1,
+    "file": null
+  },
+  {
     "qid": "Q27925551",
     "name": "NeuerMarkt",
     "count": 4,
@@ -2086,6 +2104,12 @@
     "name": "flag and coat of arms of New Jersey",
     "count": 2,
     "file": "Coat of Arms of New Jersey.svg"
+  },
+  {
+    "qid": "Q81003878",
+    "name": "Sonesta Hotels",
+    "count": 1,
+    "file": null
   },
   {
     "qid": "Q82876072",
