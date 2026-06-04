@@ -99,6 +99,49 @@
       </table>
     </details>
 
+    <details class="suggestions-section" id="section-missing-reverse">
+      <summary class="suggestions-h2">
+        Missing reverse image <span class="muted" id="missing-reverse-count"></span>
+      </summary>
+      <p class="suggestions-blurb">
+        Flags this site believes have distinct front/back sides but whose
+        Wikidata entity has no <code>P7417</code> (image of back side)
+        statement. Source list seeded from
+        <a href="https://en.wikipedia.org/wiki/List_of_flags_with_reverses_that_differ_from_the_obverse"
+           target="_blank" rel="noopener">the English Wikipedia article</a>;
+        add to <code>data/known-reverses.json</code> by PR when you find
+        another.
+      </p>
+      <p class="suggestions-blurb">
+        <strong>Modern rows:</strong> the listed QID is the current flag and
+        it really does have a distinct reverse. Pick a Commons candidate and
+        paste the filename into <code>P7417</code> on Wikidata. Once the
+        statement lands, the reverse image flows in on the next
+        <code>npm run refresh:wikidata</code> and the site's flip-to-reverse
+        button lights up.
+        <br/>
+        <strong>Historical rows (amber badge):</strong> the Wikipedia list
+        flagged a historical variant, but our QID is the modern flag entity
+        — whose obverse hasn't changed and whose reverse hasn't either. The
+        right fix is a brand-new Wikidata item for the historical flag, with
+        its own P18 (obverse) and P7417 (reverse) statements, then link it
+        to the modern entity via P155 (follows) / P156 (followed by). The
+        candidate column lists both sides so you have everything ready when
+        creating the new item.
+      </p>
+      <table class="review-table">
+        <thead>
+          <tr>
+            <th scope="col">Flag</th>
+            <th scope="col">Commons candidates</th>
+            <th scope="col" class="num">OSM uses</th>
+            <th scope="col">Fix</th>
+          </tr>
+        </thead>
+        <tbody id="missing-reverse-rows"></tbody>
+      </table>
+    </details>
+
     <details class="suggestions-section" id="section-colors">
       <summary class="suggestions-h2">
         Colors <span class="muted" id="colors-count"></span>

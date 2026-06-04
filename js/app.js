@@ -1,6 +1,6 @@
 import { loadFlags } from "./data.js";
 import { subscribe, matches, activeCount, clear, setQuery } from "./filters.js";
-import { renderFilters, renderGrid, updateFilterSummary, fullSrc } from "./render.js";
+import { renderFilters, renderGrid, updateFilterSummary, fullSrc, reverseSrc } from "./render.js";
 import { copyTags, tagsFor, showToast } from "./clipboard.js";
 
 // Inline SVG icons for the detail dialog's action buttons. Matches the
@@ -23,6 +23,11 @@ const ICON_TAG =
   '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
   '<path d="M2 9 9 2h5v5l-7 7z"/>' +
   '<circle cx="11" cy="5" r="1"/></svg>';
+// Two horizontal arrows pointing opposite directions: the universal "flip
+// / swap sides" affordance. Shown only when a flag has a reverseFile set.
+const ICON_FLIP =
+  '<svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">' +
+  '<path d="M2 6h10l-2.5-2.5M14 10H4l2.5 2.5"/></svg>';
 
 function overpassTurboUrl(qid) {
   // Matches both the sole value and semicolon-joined values like "Q30;Q1439".
@@ -41,6 +46,9 @@ function taginfoUrl(qid) {
 
 let allFlags = [];
 let currentFlag = null;
+// Tracks which side of the current flag the dialog is showing. Reset to
+// false (obverse) every time a new flag opens.
+let showingReverse = false;
 
 function applyFilters() {
   const filtered = allFlags.filter(matches);
@@ -50,6 +58,7 @@ function applyFilters() {
 
 function openDetail(flag) {
   currentFlag = flag;
+  showingReverse = false;
   document.getElementById("detail-img").src = fullSrc(flag);
   document.getElementById("detail-img").alt = `Flag of ${flag.name}`;
   document.getElementById("detail-name").textContent = flag.name;
@@ -75,6 +84,14 @@ function openDetail(flag) {
   const curate = document.getElementById("detail-curate");
   curate.href = `curate.html?qid=${flag.qid}`;
   curate.innerHTML = ICON_PENCIL;
+  const flip = document.getElementById("detail-flip");
+  const reverse = reverseSrc(flag);
+  if (reverse) {
+    flip.hidden = false;
+    flip.innerHTML = ICON_FLIP;
+  } else {
+    flip.hidden = true;
+  }
   const src = document.getElementById("detail-source");
   if (flag.flagType && typeof flag.flagTypeSample === "number") {
     src.textContent = `flag:type inferred from ${flag.flagTypeSample.toLocaleString()} OSM uses`;
@@ -95,6 +112,22 @@ function closeDetail() {
   if (typeof dlg.close === "function") dlg.close();
   else dlg.removeAttribute("open");
   currentFlag = null;
+  showingReverse = false;
+}
+
+function flipSide() {
+  if (!currentFlag) return;
+  const reverse = reverseSrc(currentFlag);
+  if (!reverse) return;
+  showingReverse = !showingReverse;
+  const img = document.getElementById("detail-img");
+  img.src = showingReverse ? reverse : fullSrc(currentFlag);
+  img.alt = showingReverse
+    ? `Reverse of ${currentFlag.name}`
+    : `Flag of ${currentFlag.name}`;
+  const flip = document.getElementById("detail-flip");
+  flip.title = showingReverse ? "Flip back to front" : "Flip to reverse side";
+  flip.setAttribute("aria-label", flip.title);
 }
 
 async function handleCopy() {
@@ -144,6 +177,7 @@ async function main() {
   });
   document.getElementById("detail-close").addEventListener("click", closeDetail);
   document.getElementById("detail-copy").addEventListener("click", handleCopy);
+  document.getElementById("detail-flip").addEventListener("click", flipSide);
   document.getElementById("detail").addEventListener("click", (e) => {
     if (e.target.id === "detail") closeDetail();
   });

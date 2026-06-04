@@ -1,0 +1,225 @@
+{
+  "generated": "2026-06-03T15:54:07.527Z",
+  "note": "Flags this site believes have distinct reverse sides but whose Wikidata entity has no P7417 statement. Source list: data/known-reverses.json (bootstrapped from the English Wikipedia 'List of flags with reverses that differ from the obverse'). Add P7417 on Wikidata to populate.",
+  "candidates": [
+    {
+      "qid": "Q134627",
+      "name": "flag of the Philippines",
+      "count": 1207,
+      "period": "1898–1901",
+      "historical": "Listed entity is the modern flag; only the historical Aguinaldo flag (1898–1901) had a distinct reverse.",
+      "reverseCandidates": [
+        "Flag of South Korea (reverse).svg",
+        "Philippines Aguinaldo flag (reverse).svg",
+        "P1 Pilipino series (Reverse).jpg"
+      ],
+      "obverseCandidates": [
+        "Flag of the Philippines (1898–1901).svg",
+        "Mark Twain's proposed flag for the American-controlled Philippines (1901).svg",
+        "Mark Twain's proposed flag for the American-controlled Philippines (1901, 3-2 aspect ratio).svg"
+      ]
+    },
+    {
+      "qid": "Q221881",
+      "name": "flag of Massachusetts",
+      "count": 41,
+      "period": "1908–1971",
+      "historical": "Listed entity is the modern flag; only the historical 1908–1971 version had a distinct reverse.",
+      "reverseCandidates": [
+        "George Rex flag reverse.svg",
+        "New York Union Flag (1775) reverse.svg",
+        "Massachusetts state flag (reverse) (1908-1971).jpg"
+      ],
+      "obverseCandidates": [
+        "Flag of Massachusetts (1908–1971).svg",
+        "Heights (Assumption College) 1971.pdf",
+        "Massachusetts state flag (1908-1971).jpg"
+      ]
+    },
+    {
+      "qid": "Q828147",
+      "name": "flag of Minnesota",
+      "count": 30,
+      "period": "1893–1957",
+      "historical": "Listed entity is the modern flag; only the historical 1893–1957 version had a distinct reverse.",
+      "reverseCandidates": [],
+      "obverseCandidates": [
+        "Flag of Minnesota (1893).svg",
+        "Flag of Minnesota (1893–1957).svg",
+        "Flag of Minnesota (1957–1983).svg"
+      ]
+    },
+    {
+      "qid": "Q173554",
+      "name": "flag of El Salvador",
+      "count": 28,
+      "period": "1877–1912",
+      "historical": "Listed entity is the modern flag; only the historical 1877–1912 version had a distinct reverse.",
+      "reverseCandidates": [
+        "Flag of El Salvador (1877-1912) reverse.svg",
+        "Flag of El Salvador (1875-1912) (Reverse).jpg"
+      ],
+      "obverseCandidates": [
+        "Flag of El Salvador (1877-1912).svg",
+        "Flag of El Salvador (1875–1912).svg",
+        "Flag of El Salvador (1912–1916).svg"
+      ]
+    },
+    {
+      "qid": "Q497997",
+      "name": "flag of Alabama",
+      "count": 23,
+      "period": "1861–1865",
+      "historical": "Listed entity is the modern flag; only the Confederate-era 1861–1865 version had a distinct reverse.",
+      "reverseCandidates": [
+        "Flag of the Alabama Secession Convention (reproduction, reverse).svg"
+      ],
+      "obverseCandidates": [
+        "Alabama Statehood or Exclusionary Flag (ca 1830 or 1861–1863).svg",
+        "CSA Patriotic1 1861.jpg",
+        "Flag of the Confederate States (1861), DPLA.jpg"
+      ]
+    },
+    {
+      "qid": "Q170465",
+      "name": "flag of Paraguay",
+      "count": 20,
+      "period": "2013–present",
+      "historical": null,
+      "reverseCandidates": [
+        "Flag of Paraguay (reverse).svg",
+        "Paraguay reverse flag heart.svg",
+        "Flag-map of Paraguay (reverse).svg"
+      ],
+      "obverseCandidates": []
+    },
+    {
+      "qid": "Q127179",
+      "name": "flag of Bangladesh",
+      "count": 14,
+      "period": "1971–1972",
+      "historical": "Listed entity is the modern flag; only the historical 1971–1972 version had a distinct reverse.",
+      "reverseCandidates": [
+        "Flag of Bangladesh (1971 reverse).svg",
+        "Flag of Bangladesh (1971 reverse, 3-2).svg"
+      ],
+      "obverseCandidates": [
+        "Flag of Bangladesh (1971).svg",
+        "Flag of Bangladesh (1971, 3-2).svg",
+        "High Court of Bangladesh seal (1972).svg"
+      ]
+    },
+    {
+      "qid": "Q167584",
+      "name": "flag of Moldova",
+      "count": 11,
+      "period": "1990–2010",
+      "historical": "Listed entity is the modern flag; only the 1990–2010 version had a distinct reverse.",
+      "reverseCandidates": [
+        "Flag of Moldova (reverse).svg",
+        "Flag of Belarus (reverse).svg",
+        "Flag of Sfatul Tarii reverse.svg"
+      ],
+      "obverseCandidates": [
+        "Flag of Moldova (1990–2010).svg",
+        "Proposed flag of Moldova (2010).svg",
+        "Flag of the Moldavian Soviet Socialist Republic (1990).svg"
+      ]
+    },
+    {
+      "qid": "Q843879",
+      "name": "flag of West Virginia",
+      "count": 11,
+      "period": "1905–1929",
+      "historical": "Listed entity is the modern flag; only the historical 1905–1929 versions had a distinct reverse.",
+      "reverseCandidates": [
+        "Flag of West Virginia, Reverse, 1913.png",
+        "Flag of West Virginia (1905–1907) reverse.png"
+      ],
+      "obverseCandidates": [
+        "Flag of West Virginia (1905–1907).svg",
+        "Flag of West Virginia (1907-1929).svg",
+        "Photoplay (1929-09).pdf"
+      ]
+    },
+    {
+      "qid": "Q2134803",
+      "name": "flag of the State of São Paulo",
+      "count": 8,
+      "period": "1922–present",
+      "historical": null,
+      "reverseCandidates": [
+        "Bandeira do estado de São Paulo (verso).svg"
+      ],
+      "obverseCandidates": []
+    },
+    {
+      "qid": "Q168917",
+      "name": "flag of the Comoros",
+      "count": 7,
+      "period": "1996–2001",
+      "historical": "Listed entity is the modern flag; only the 1996–2001 version had a distinct reverse.",
+      "reverseCandidates": [
+        "Flag of the Comoros (1996–2001, reverse).svg",
+        "Flag of the Comoros (1996–2001, reverse, 3-2).svg"
+      ],
+      "obverseCandidates": [
+        "Flag of the Comoros 2001.svg",
+        "Flag of Comoros 1996-2001.svg",
+        "Flag of the Comoros (1996–2001).svg"
+      ]
+    },
+    {
+      "qid": "Q165230",
+      "name": "flag of the Soviet Union",
+      "count": 3,
+      "period": "1923–1991",
+      "historical": null,
+      "reverseCandidates": [
+        "Red Army flag (reverse).svg",
+        "Flag of the Soviet Union (reverse).svg",
+        "Soviet banner with Stalin quote (reverse).svg"
+      ],
+      "obverseCandidates": []
+    },
+    {
+      "qid": "Q2478084",
+      "name": "Flag of San Juan Province, Argentina",
+      "count": 1,
+      "period": "2018–present",
+      "historical": null,
+      "reverseCandidates": [
+        "Flag of the San Juan Province (reverse).svg",
+        "Bandera de la Provincia de San Juan (reverso, 1997-2018).svg",
+        "Flag of San Juan province in Argentina (reverse).gif"
+      ],
+      "obverseCandidates": []
+    },
+    {
+      "qid": "Q5456811",
+      "name": "flag of Richmond",
+      "count": 1,
+      "period": "1914–1933",
+      "historical": "Listed entity is the modern flag; only the historical 1914–1933 version had a distinct reverse.",
+      "reverseCandidates": [
+        "Flag of Richmond, Virginia (1914–1933, reverse).gif"
+      ],
+      "obverseCandidates": [
+        "Irwin B. Arnold Flag, 1914.svg",
+        "Flag of Richmond, Virginia (1914–1933).svg",
+        "Greek Fleet 1914.png"
+      ]
+    },
+    {
+      "qid": "Q97609960",
+      "name": "flag of Raleigh, North Carolina",
+      "count": 0,
+      "period": "1960–present",
+      "historical": null,
+      "reverseCandidates": [
+        "Flag of Raleigh, North Carolina (reverse).svg"
+      ],
+      "obverseCandidates": []
+    }
+  ]
+}

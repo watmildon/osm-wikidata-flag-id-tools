@@ -113,13 +113,15 @@ function pickBestImage(imagesStr) {
 
 const SPARQL_QUERY = `
 SELECT ?item ?itemLabel ?isFlag
-       (GROUP_CONCAT(DISTINCT ?image;   separator="\\u0001") AS ?images)
-       (GROUP_CONCAT(DISTINCT ?colorQid; separator=",")      AS ?colorQids)
+       (GROUP_CONCAT(DISTINCT ?image;        separator="\\u0001") AS ?images)
+       (GROUP_CONCAT(DISTINCT ?reverseImage; separator="\\u0001") AS ?reverseImages)
+       (GROUP_CONCAT(DISTINCT ?colorQid;     separator=",")      AS ?colorQids)
        (SAMPLE(?width)  AS ?w)
        (SAMPLE(?height) AS ?h)
 WHERE {
   VALUES ?item { __VALUES__ }
   OPTIONAL { ?item wdt:P18 ?image . }
+  OPTIONAL { ?item wdt:P7417 ?reverseImage . }
   OPTIONAL {
     { ?item wdt:P31/wdt:P279* wd:Q69506823 } UNION
     { ?item wdt:P31/wdt:P279* wd:Q14660    }
@@ -158,6 +160,10 @@ function rowToEnrichment(row) {
   const file = image
     ? decodeURIComponent(image.split("Special:FilePath/").pop())
     : null;
+  const reverseImage = pickBestImage(row?.reverseImages?.value);
+  const reverseFile = reverseImage
+    ? decodeURIComponent(reverseImage.split("Special:FilePath/").pop())
+    : null;
   const isFlagEntity = row?.isFlag?.value === "true";
   const colorQids = (row?.colorQids?.value ?? "")
     .split(",").map((s) => s.trim()).filter(Boolean);
@@ -165,7 +171,7 @@ function rowToEnrichment(row) {
   const width = row?.w ? Number(row.w.value) : null;
   const height = row?.h ? Number(row.h.value) : null;
   const shape = width && height && width === height ? "square" : "rectangle";
-  return { name, file, isFlagEntity, wdColors, colors: wdColors, shape };
+  return { name, file, reverseFile, isFlagEntity, wdColors, colors: wdColors, shape };
 }
 
 async function fileExists(path) {
@@ -238,7 +244,9 @@ async function main() {
   // Track per-field deltas for the summary.
   let updated = 0, gainedImage = 0, lostImage = 0, gainedFlagEntity = 0;
   let newColors = 0, shapeFlipped = 0, nameChanged = 0;
+  let gainedReverse = 0, lostReverse = 0, reverseChanged = 0;
   const imageChangedQids = [];
+  const reverseChangedQids = [];
 
   for (const f of data.flags) {
     const e = enrichment.get(f.qid);
@@ -257,6 +265,16 @@ async function main() {
       if (!f.file && e.file) { gainedImage++; imageChangedQids.push(f.qid); }
       else if (f.file && !e.file) lostImage++;
       else if (f.file && e.file) imageChangedQids.push(f.qid); // file swap
+    }
+
+    // Reverse-side image (Wikidata P7417). Treated the same way as the
+    // obverse: download a fresh thumbnail when it changes, drop it when
+    // Wikidata removes the statement.
+    if (!("reverseFile" in ov) && e.reverseFile !== (f.reverseFile ?? null)) {
+      next.reverseFile = e.reverseFile;
+      if (!f.reverseFile && e.reverseFile) { gainedReverse++; reverseChangedQids.push(f.qid); }
+      else if (f.reverseFile && !e.reverseFile) lostReverse++;
+      else if (f.reverseFile && e.reverseFile) { reverseChanged++; reverseChangedQids.push(f.qid); }
     }
 
     // wdColors mirrors Wikidata's current P462-derived palette and is NOT
@@ -293,6 +311,9 @@ async function main() {
   console.log(`  gained an image:           ${gainedImage}`);
   console.log(`  image swapped (had/has):   ${imageChangedQids.length - gainedImage}`);
   console.log(`  lost an image:             ${lostImage}`);
+  console.log(`  gained a reverse image:    ${gainedReverse}`);
+  console.log(`  reverse image swapped:     ${reverseChanged}`);
+  console.log(`  lost a reverse image:      ${lostReverse}`);
   console.log(`  newly pass isFlagEntity:   ${gainedFlagEntity}`);
   console.log(`  colors added/changed:      ${newColors}`);
   console.log(`  shape flipped:             ${shapeFlipped}`);
@@ -304,10 +325,11 @@ async function main() {
 
   // Download new/changed thumbnails. Sequential at ~2.5 req/s, same as the
   // main build, to avoid HTTP 429 from Commons.
-  if (imageChangedQids.length > 0) {
+  if (imageChangedQids.length > 0 || reverseChangedQids.length > 0) {
     await mkdir(THUMB_DIR, { recursive: true });
     await mkdir(FULL_DIR, { recursive: true });
-    console.log(`\nDownloading thumbnails for ${imageChangedQids.length} changed image${imageChangedQids.length === 1 ? "" : "s"}...`);
+    const totalDownloads = imageChangedQids.length + reverseChangedQids.length;
+    console.log(`\nDownloading thumbnails for ${totalDownloads} changed image${totalDownloads === 1 ? "" : "s"}...`);
     const failures = [];
     for (const qid of imageChangedQids) {
       const f = byQid.get(qid);
@@ -319,6 +341,20 @@ async function main() {
         } catch (e) {
           failures.push({ qid, w, error: e.message });
           process.stdout.write(`  ${qid} ${w}px FAIL ${e.message}\n`);
+        }
+        await new Promise((r) => setTimeout(r, 400));
+      }
+    }
+    for (const qid of reverseChangedQids) {
+      const f = byQid.get(qid);
+      if (!f.reverseFile) continue;
+      for (const [w, dir] of [[200, THUMB_DIR], [400, FULL_DIR]]) {
+        try {
+          const bytes = await downloadThumb(f.reverseFile, `${qid}-reverse`, w, dir);
+          process.stdout.write(`  ${qid}-reverse ${w}px ${(bytes / 1024).toFixed(1)} KB\n`);
+        } catch (e) {
+          failures.push({ qid: `${qid}-reverse`, w, error: e.message });
+          process.stdout.write(`  ${qid}-reverse ${w}px FAIL ${e.message}\n`);
         }
         await new Promise((r) => setTimeout(r, 400));
       }

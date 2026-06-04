@@ -216,6 +216,11 @@ main { padding: 12px 12px 24px; }
   background-size: 16px 16px;
   background-position: 0 0, 0 8px, 8px -8px, -8px 0;
 }
+.tile-img-wrap {
+  position: relative;
+  display: block;
+  width: 100%;
+}
 .tile img {
   width: 100%;
   height: 90px;
@@ -229,6 +234,7 @@ main { padding: 12px 12px 24px; }
   background-size: 16px 16px;
   background-position: 0 0, 0 8px, 8px -8px, -8px 0;
   border-radius: 4px;
+  display: block;
 }
 .tile-name {
   font-size: 0.875rem;
@@ -249,6 +255,47 @@ main { padding: 12px 12px 24px; }
   position: relative;
   border-color: #64748b;
 }
+/* Wrapper around the detail dialog's image so the flip button can be
+   absolutely positioned inside the image area (not the dialog body). */
+.detail-img-wrap {
+  position: relative;
+  width: 100%;
+}
+/* Small flip-icon overlay sitting inside the bottom-right corner of the
+   thumbnail / detail image. Translucent dark pill with a white icon so it
+   reads on both light and dark flag designs. */
+.badge-flip {
+  position: absolute;
+  /* Inset from the right edge by the same amount as the other corner
+     badges (warn / withheld). Bottom inset keeps it within the image. */
+  bottom: 4px;
+  right: 4px;
+  background: rgba(15, 23, 42, 0.65);
+  color: #f8fafc;
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  backdrop-filter: blur(2px);
+}
+/* Clickable variant — used on the tile (to flip in place) and on the
+   detail dialog (to flip the larger image). Adds cursor + hover state
+   and removes pointer-events: none so the click registers. */
+.badge-flip-clickable {
+  pointer-events: auto;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  transition: background 120ms ease, transform 120ms ease;
+}
+.badge-flip-clickable:hover {
+  background: rgba(15, 23, 42, 0.85);
+  transform: scale(1.08);
+}
+.badge-flip-clickable:active { transform: scale(0.95); }
 .badge-warn {
   position: absolute;
   top: 4px;
@@ -439,6 +486,47 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   background: transparent;
   border-radius: 0;
 }
+/* Suggested Commons filenames in the missing-reverse-image section. Compact
+   bullet list inside a table cell — keeps the row from ballooning when an
+   entity has three candidates. */
+.reverse-candidates {
+  list-style: disc;
+  margin: 0;
+  padding-left: 18px;
+}
+.reverse-candidates li { margin: 2px 0; }
+.reverse-candidates a {
+  font-size: 0.8125rem;
+  word-break: break-word;
+}
+/* Side label ("Obverse" / "Reverse") above each candidate list on
+   historical rows where both sides matter. */
+.candidate-heading {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  margin: 6px 0 2px;
+}
+.candidate-heading:first-child { margin-top: 0; }
+/* Amber-tinted badge for rows where the Wikipedia list flagged a historical
+   reverse-side variant but our QID is the modern flag entity. Hover for the
+   tooltip explaining why this needs a careful review. */
+.historical-badge {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 1px 6px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: #92400e;
+  background: #fef3c7;
+  border: 1px solid #fcd34d;
+  border-radius: 999px;
+  cursor: help;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
 /* Sub-bucket headings inside the colors section. */
 .colors-subhead {
   font-size: 0.875rem;
@@ -496,7 +584,6 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
 .review-table td {
   text-align: left;
   padding: 12px;
-  border-bottom: 1px solid var(--border);
   vertical-align: middle;
   font-size: 0.875rem;
 }
@@ -508,7 +595,12 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
-.review-table tr:last-child td { border-bottom: none; }
+/* Put the row separator on the <tr> instead of each <td>: per-td borders
+   tear at column boundaries when the cells in a row have very different
+   heights (subpixel rounding on the cell baseline). border-collapse:collapse
+   keeps the tr border rendering as a single hairline across the table. */
+.review-table tr { border-bottom: 1px solid var(--border); }
+.review-table tr:last-child { border-bottom: none; }
 .review-table .num { text-align: right; font-variant-numeric: tabular-nums; }
 .review-table a { color: var(--accent); text-decoration: none; }
 .review-table a:hover { text-decoration: underline; }

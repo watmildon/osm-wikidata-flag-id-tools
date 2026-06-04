@@ -53,7 +53,11 @@
 
   <dialog class="detail" id="detail" aria-label="Selected flag">
     <button class="detail-close" id="detail-close" type="button" aria-label="Close">&times;</button>
-    <img id="detail-img" alt="" />
+    <div class="detail-img-wrap">
+      <img id="detail-img" alt="" />
+      <button id="detail-flip" class="badge-flip badge-flip-clickable" type="button" hidden
+         title="Flip to reverse side" aria-label="Flip to reverse side"></button>
+    </div>
     <h2 id="detail-name"></h2>
     <p id="detail-description" class="detail-description" hidden></p>
     <pre id="detail-tags" class="tags"></pre>

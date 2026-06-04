@@ -362,13 +362,17 @@ function applyRedirects(qidCounts, redirects) {
 // pickBestImage() below rather than depending on SPARQL row ordering.
 const SPARQL_QUERY = `
 SELECT ?item ?itemLabel ?isFlag
-       (GROUP_CONCAT(DISTINCT ?image;   separator="\\u0001") AS ?images)
-       (GROUP_CONCAT(DISTINCT ?colorQid; separator=",")      AS ?colorQids)
+       (GROUP_CONCAT(DISTINCT ?image;       separator="\\u0001") AS ?images)
+       (GROUP_CONCAT(DISTINCT ?reverseImage; separator="\\u0001") AS ?reverseImages)
+       (GROUP_CONCAT(DISTINCT ?colorQid;    separator=",")      AS ?colorQids)
        (SAMPLE(?width)  AS ?w)
        (SAMPLE(?height) AS ?h)
 WHERE {
   VALUES ?item { __VALUES__ }
   OPTIONAL { ?item wdt:P18 ?image . }
+  # P7417 = image of back side. Most flags share obverse and reverse so this
+  # is usually empty; when set, we render a flip-to-reverse button in the UI.
+  OPTIONAL { ?item wdt:P7417 ?reverseImage . }
   OPTIONAL {
     # Accept either Q69506823 (flag design) or Q14660 (flag) ancestry.
     # In Wikidata these are sibling concepts, not parent/child, so we have
@@ -600,6 +604,12 @@ function rowToFlag(qid, count, row) {
   const file = image
     ? decodeURIComponent(image.split("Special:FilePath/").pop())
     : null;
+  // Reverse side (Wikidata P7417 "image of back side"). Same picker so we
+  // pick the canonical SVG when multiple back-side variants are listed.
+  const reverseImage = pickBestImage(row?.reverseImages?.value);
+  const reverseFile = reverseImage
+    ? decodeURIComponent(reverseImage.split("Special:FilePath/").pop())
+    : null;
   const isFlagEntity = row?.isFlag?.value === "true";
 
   const colorQids = (row?.colorQids?.value ?? "")
@@ -621,7 +631,7 @@ function rowToFlag(qid, count, row) {
   const shape = shapeFromDimensions(width, height);
 
   return {
-    qid, name, count, file, isFlagEntity, colors, wdColors, icons: [], shape,
+    qid, name, count, file, reverseFile, isFlagEntity, colors, wdColors, icons: [], shape,
     // flagType / flagName are populated later by the Overpass pass when there
     // is enough single-value OSM usage to draw a high-confidence conclusion.
     // flagName falls back to a label-strip of `name` after the Overpass pass.
@@ -717,6 +727,13 @@ async function pruneOrphanThumbs(flags) {
   const live = new Set(
     flags.filter((f) => !f.imageWithheld && !f.localFile).map((f) => f.qid)
   );
+  // Reverse-side PNGs are cached as <qid>-reverse.png. Keep them only for
+  // flags that still have a reverseFile set; otherwise the reverse is stale.
+  const liveReverse = new Set(
+    flags
+      .filter((f) => f.reverseFile && !f.imageWithheld && !f.localFile)
+      .map((f) => `${f.qid}-reverse`)
+  );
   const orphans = [];
   let cached = 0;
   for (const dir of [THUMB_DIR, FULL_DIR]) {
@@ -731,7 +748,7 @@ async function pruneOrphanThumbs(flags) {
       if (!entry.endsWith(".png")) continue;
       cached++;
       const qid = entry.slice(0, -4);
-      if (live.has(qid)) continue;
+      if (live.has(qid) || liveReverse.has(qid)) continue;
       orphans.push(join(dir, entry));
     }
   }
@@ -760,9 +777,13 @@ async function downloadAllThumbs(flags) {
   // those direct from flags/local/<localFile>. Skip them here so we don't
   // re-fetch the now-irrelevant Wikidata image.
   const withImage = flags.filter((f) => f.file && !f.imageWithheld && !f.localFile);
+  // Reverse-side downloads use a separate <qid>-reverse.png filename so they
+  // coexist with the obverse cache. Only ~30 flags have a P7417 set, so the
+  // extra work is minor.
+  const withReverse = flags.filter((f) => f.reverseFile && !f.imageWithheld && !f.localFile);
   const failures = [];
   let done = 0;
-  const total = withImage.length * 2;
+  const total = (withImage.length + withReverse.length) * 2;
 
   for (const f of withImage) {
     for (const [w, dir] of [[200, THUMB_DIR], [400, FULL_DIR]]) {
@@ -776,6 +797,21 @@ async function downloadAllThumbs(flags) {
       } else {
         process.stdout.write(`  [${done}/${total}] ${f.qid} ${w}px ${(r.bytes / 1024).toFixed(1)} KB\r`);
         // ~2.5 req/s. Higher rates (5/s) provoked HTTP 429s from Commons.
+        await new Promise((r) => setTimeout(r, 400));
+      }
+    }
+  }
+  for (const f of withReverse) {
+    for (const [w, dir] of [[200, THUMB_DIR], [400, FULL_DIR]]) {
+      const r = await downloadThumb(f.reverseFile, `${f.qid}-reverse`, w, dir);
+      done++;
+      if (r.error) {
+        failures.push({ qid: f.qid, name: f.name, w, error: `(reverse) ${r.error}` });
+        process.stdout.write(`  [${done}/${total}] ${f.qid}-reverse ${w}px FAIL ${r.error}\n`);
+      } else if (r.skipped) {
+        process.stdout.write(`  [${done}/${total}] ${f.qid}-reverse ${w}px (cached)\r`);
+      } else {
+        process.stdout.write(`  [${done}/${total}] ${f.qid}-reverse ${w}px ${(r.bytes / 1024).toFixed(1)} KB\r`);
         await new Promise((r) => setTimeout(r, 400));
       }
     }

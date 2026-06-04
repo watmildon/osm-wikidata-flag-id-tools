@@ -128,6 +128,17 @@ export function fullSrc(flag) {
   return `flags/full/${flag.qid}.png`;
 }
 
+// Reverse-side (Wikidata P7417) image for flags where the back differs from
+// the front (Oregon, Paraguay, Saudi Arabia, etc.). Returns null when this
+// flag has no separate reverse — callers should hide their flip UI in that
+// case rather than show a broken image.
+export function reverseSrc(flag) {
+  if (!flag.reverseFile) return null;
+  if (flag.imageWithheld) return null;
+  if (flag.localFile) return null;
+  return `flags/full/${flag.qid}-reverse.png`;
+}
+
 export function renderGrid(flags, onTileClick) {
   const root = document.getElementById("grid");
   root.innerHTML = "";
@@ -143,11 +154,17 @@ export function renderGrid(flags, onTileClick) {
     if (f.imageWithheld) btn.classList.add("tile-withheld");
     else if (!f.file) btn.classList.add("tile-warn");
 
+    // Image lives inside a wrapper so we can anchor the flip badge to the
+    // image bounds (not the whole tile, which includes the name and count
+    // text below). Same trick used by the detail dialog.
+    const imgWrap = document.createElement("span");
+    imgWrap.className = "tile-img-wrap";
     const img = document.createElement("img");
     img.loading = "lazy";
     img.decoding = "async";
     img.alt = `Flag of ${f.name}`;
     img.src = thumbSrc(f);
+    imgWrap.appendChild(img);
 
     const name = document.createElement("span");
     name.className = "tile-name";
@@ -158,7 +175,7 @@ export function renderGrid(flags, onTileClick) {
     count.textContent = (f.count ?? 0).toLocaleString();
     count.title = `${f.count?.toLocaleString() ?? 0} OSM uses`;
 
-    btn.append(img, name, count);
+    btn.append(imgWrap, name, count);
 
     if (f.imageWithheld) {
       const badge = document.createElement("span");
@@ -172,6 +189,42 @@ export function renderGrid(flags, onTileClick) {
       badge.textContent = "no image";
       badge.title = "No image set on the Wikidata entity (P18). Either add one, or the QID is the wrong one for this flag.";
       btn.appendChild(badge);
+    }
+
+    // Flag has a distinct reverse side: drop a small flip-control overlay
+    // in the corner of the thumbnail. Clicking it swaps this tile's image
+    // between obverse and reverse in place, without opening the detail
+    // dialog. The tile itself remains clickable for the detail view.
+    //
+    // Rendered as a <span role="button"> rather than a real <button> because
+    // it lives inside the tile's <button> and nested buttons are invalid HTML.
+    // Keyboard support: Enter/Space activates, same as a real button.
+    const reverse = reverseSrc(f);
+    if (reverse) {
+      const flipCtl = document.createElement("span");
+      flipCtl.className = "badge-flip badge-flip-clickable";
+      flipCtl.setAttribute("role", "button");
+      flipCtl.setAttribute("tabindex", "0");
+      flipCtl.title = "Flip to reverse side";
+      flipCtl.setAttribute("aria-label", "Flip to reverse side");
+      flipCtl.innerHTML =
+        '<svg viewBox="0 0 16 16" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
+        '<path d="M2 6h10l-2.5-2.5M14 10H4l2.5 2.5"/></svg>';
+      let showingReverseTile = false;
+      const toggleSide = (e) => {
+        e.stopPropagation();
+        e.preventDefault();
+        showingReverseTile = !showingReverseTile;
+        img.src = showingReverseTile ? reverse : thumbSrc(f);
+        img.alt = showingReverseTile ? `Reverse of ${f.name}` : `Flag of ${f.name}`;
+        flipCtl.title = showingReverseTile ? "Flip back to front" : "Flip to reverse side";
+        flipCtl.setAttribute("aria-label", flipCtl.title);
+      };
+      flipCtl.addEventListener("click", toggleSide);
+      flipCtl.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") toggleSide(e);
+      });
+      imgWrap.appendChild(flipCtl);
     }
 
     btn.addEventListener("click", () => onTileClick(f));
