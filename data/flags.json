@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-05T09:42:16.477Z",
+  "generated": "2026-06-07T03:38:09.326Z",
   "palette": [
     "red",
     "white",
@@ -867,7 +867,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 279,
+      "count": 280,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1657,7 +1657,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 636,
+      "count": 639,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1694,7 +1694,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16498,
+      "count": 16507,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3317,7 +3317,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 273,
+      "count": 274,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3496,7 +3496,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 218,
+      "count": 221,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4738,7 +4738,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1610,
+      "count": 1613,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5015,7 +5015,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 300,
+      "count": 304,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5355,7 +5355,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 571,
+      "count": 572,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5478,7 +5478,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 921,
+      "count": 922,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6896,7 +6896,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 391,
+      "count": 394,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15886,7 +15886,7 @@
     {
       "qid": "Q830262",
       "name": "flag of Gdańsk",
-      "count": 42,
+      "count": 44,
       "file": "POL Gdańsk flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -18517,6 +18517,23 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q1823647",
+      "name": "flag of Kharkiv Oblast",
+      "count": 1,
+      "file": "Flag of Kharkiv Oblast.svg",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Kharkiv Oblast",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q1827599",
@@ -23154,7 +23171,7 @@
     {
       "qid": "Q4488270",
       "name": "Flags of Kharkiv",
-      "count": 2,
+      "count": 3,
       "file": "Kharkiv-town-flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -35150,7 +35167,7 @@
     {
       "qid": "Q107787322",
       "name": "intersex-inclusive pride flag",
-      "count": 2,
+      "count": 3,
       "file": "Intersex-inclusive pride flag.svg",
       "isFlagEntity": true,
       "colors": [
