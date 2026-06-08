@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T03:38:09.326Z",
+  "generated": "2026-06-08T10:48:28.422Z",
   "palette": [
     "red",
     "white",
@@ -121,22 +121,6 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Volkswagen",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
-      "qid": "Q328",
-      "name": "English Wikipedia",
-      "count": 1,
-      "file": "English Wikipedia screenshot.png",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "English Wikipedia",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
@@ -867,7 +851,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 280,
+      "count": 281,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1657,7 +1641,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 639,
+      "count": 640,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1694,7 +1678,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16507,
+      "count": 16517,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1751,7 +1735,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 549,
+      "count": 552,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2826,7 +2810,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 975,
+      "count": 976,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3075,7 +3059,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 269,
+      "count": 275,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3113,7 +3097,7 @@
     {
       "qid": "Q81970",
       "name": "flag of Hungary",
-      "count": 141,
+      "count": 142,
       "file": "Flag of Hungary.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3277,7 +3261,7 @@
     {
       "qid": "Q83149",
       "name": "flag of Norway",
-      "count": 402,
+      "count": 403,
       "file": "Flag of Norway.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3883,7 +3867,7 @@
     {
       "qid": "Q102987",
       "name": "flag of Haiti",
-      "count": 19,
+      "count": 20,
       "file": "Flag of Haiti.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4738,7 +4722,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1613,
+      "count": 1614,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4790,7 +4774,7 @@
     {
       "qid": "Q124020",
       "name": "flag of Switzerland",
-      "count": 137,
+      "count": 138,
       "file": "Flag of Switzerland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5015,7 +4999,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 304,
+      "count": 305,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5164,7 +5148,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 241,
+      "count": 242,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5478,7 +5462,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 922,
+      "count": 924,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5682,7 +5666,7 @@
     {
       "qid": "Q133015",
       "name": "flag of Croatia",
-      "count": 77,
+      "count": 78,
       "file": "Flag of Croatia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5959,7 +5943,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 152,
+      "count": 153,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10991,7 +10975,7 @@
     {
       "qid": "Q235475",
       "name": "Ikurrina",
-      "count": 35,
+      "count": 36,
       "file": "Flag of the Basque Country.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12104,7 +12088,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 59,
+      "count": 60,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -17267,6 +17251,23 @@
       "description": "Divided by a diagonal blue band (a bend) from upper hoist to lower fly, with the upper triangle white and lower triangle light blue (and additional quarters mirrored). Centered is the Rio de Janeiro state coat of arms: an oval shield with mountain silhouette and ribbon, surrounded by a green wreath, with \"ESTADO DO RIO DE JANEIRO\" on a white ribbon below."
     },
     {
+      "qid": "Q1155768",
+      "name": "Republic of Molossia",
+      "count": 1,
+      "file": null,
+      "reverseFile": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Republic of Molossia",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q1161666",
       "name": "Thales Group",
       "count": 2,
@@ -17726,6 +17727,23 @@
         "yellow"
       ],
       "description": "Divided vertically: the hoist half is yellow bearing a black half-eagle with red claws and a small red crown; the fly half is red bearing a yellow key with intricate bow."
+    },
+    {
+      "qid": "Q1393345",
+      "name": "Fairmont Hotels & Resorts",
+      "count": 1,
+      "file": null,
+      "reverseFile": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Fairmont Hotels & Resorts",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q1398360",
@@ -26794,6 +26812,23 @@
       "wdColors": []
     },
     {
+      "qid": "Q20106031",
+      "name": "flag of Matadepera",
+      "count": 2,
+      "file": "Bandera de Matadepera.svg",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Matadepera",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q20900820",
       "name": "flag of Tokyo",
       "count": 0,
@@ -32982,7 +33017,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 298,
+      "count": 300,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [

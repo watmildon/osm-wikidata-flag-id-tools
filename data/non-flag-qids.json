@@ -30,12 +30,6 @@
     "file": "VW Werk Altes Heizkraftwerk WB edit.jpg"
   },
   {
-    "qid": "Q328",
-    "name": "English Wikipedia",
-    "count": 1,
-    "file": "English Wikipedia screenshot.png"
-  },
-  {
     "qid": "Q414",
     "name": "Argentina",
     "count": 1,
@@ -1230,6 +1224,12 @@
     "file": "UNB OldArtsBuilding.JPG"
   },
   {
+    "qid": "Q1155768",
+    "name": "Republic of Molossia",
+    "count": 1,
+    "file": null
+  },
+  {
     "qid": "Q1161666",
     "name": "Thales Group",
     "count": 2,
@@ -1312,6 +1312,12 @@
     "name": "Flag and coat of arms of Geneva and Canton of Geneva",
     "count": 1,
     "file": "CHE Canton de Genève Flag.svg"
+  },
+  {
+    "qid": "Q1393345",
+    "name": "Fairmont Hotels & Resorts",
+    "count": 1,
+    "file": null
   },
   {
     "qid": "Q1398360",
