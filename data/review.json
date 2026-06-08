@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-03T10:54:08.830Z",
+  "generated": "2026-06-08T03:43:07.091Z",
   "suggestions": [
     {
       "bad_qid": "Q88",
@@ -96,9 +96,8 @@
       "bad_qid": "Q9580",
       "bad_name": "Burgos",
       "count": 1,
-      "suggested_qid": "Q140002990",
-      "suggested_name": "Q140002990",
-      "target_is_stub": true
+      "suggested_qid": "Q131360506",
+      "suggested_name": "Flag of Burgos, Spain"
     },
     {
       "bad_qid": "Q12745",
@@ -160,9 +159,8 @@
       "bad_qid": "Q41470",
       "bad_name": "Kurdistan",
       "count": 1,
-      "suggested_qid": "Q140002994",
-      "suggested_name": "Q140002994",
-      "target_is_stub": true
+      "suggested_qid": "Q208671",
+      "suggested_name": "flag of Kurdistan"
     },
     {
       "bad_qid": "Q42722",
