@@ -152,7 +152,7 @@ export function renderGrid(flags, onTileClick) {
     btn.dataset.qid = f.qid;
     btn.setAttribute("aria-label", `${f.name} — copy OSM tags`);
     if (f.imageWithheld) btn.classList.add("tile-withheld");
-    else if (!f.file) btn.classList.add("tile-warn");
+    else if (!f.file && !f.localFile) btn.classList.add("tile-warn");
 
     // Image lives inside a wrapper so we can anchor the flip badge to the
     // image bounds (not the whole tile, which includes the name and count
@@ -183,7 +183,7 @@ export function renderGrid(flags, onTileClick) {
       badge.textContent = "image withheld";
       badge.title = "The flag design is copyrighted or otherwise can't be redistributed. Use the description and tags below.";
       btn.appendChild(badge);
-    } else if (!f.file) {
+    } else if (!f.file && !f.localFile) {
       const badge = document.createElement("span");
       badge.className = "badge-warn";
       badge.textContent = "no image";
