@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" type="image/svg+xml" href="logo.svg" />
   <style>
-    :root { --row-h: 200px; }
-    @media (max-width: 640px) { :root { --row-h: 340px; } }
+    :root { --row-h: 240px; }
+    @media (max-width: 640px) { :root { --row-h: 390px; } }
 
     .describe-main {
       padding: 0 16px;
@@ -234,12 +234,14 @@
     <div class="describe-filterbar">
       <input type="search" id="search-input" placeholder="Search name or description…" autocomplete="off" spellcheck="false" />
       <label class="check"><input type="checkbox" id="filter-no-desc" /> Missing description only</label>
+      <label class="check" title="Hide descriptions that already have at least one curator 'Looks good' review."><input type="checkbox" id="filter-unreviewed" /> Unreviewed only</label>
       <label class="check"><input type="checkbox" id="filter-has-image" checked /> Has image only</label>
       <label class="check" title="Hide records whose Wikidata entity isn't classified as a flag (P31/P279* → Q14660 / Q69506823). These typically have a photo of the subject as P18 rather than an actual flag image."><input type="checkbox" id="filter-is-flag-entity" checked /> Flag entities only</label>
       <label class="check" title="Hide images whose filename suggests a building, photo, map, or other non-flag content (e.g. JPGs with 'view', 'headquarters', 'street' in the name)."><input type="checkbox" id="filter-hide-wonky" checked /> Hide likely non-flag images</label>
       <select id="sort-select" aria-label="Sort order">
         <option value="count-desc">OSM count (high → low)</option>
         <option value="count-asc">OSM count (low → high)</option>
+        <option value="reviews-asc">Least reviewed first</option>
         <option value="name-asc">Name (A → Z)</option>
         <option value="qid-asc">QID (numeric)</option>
       </select>
@@ -271,6 +273,9 @@
       clearPending,
       onPendingChange,
       onReviewReset,
+      reviewCount,
+      reviewedHere,
+      toggleReview,
       exportOverrides,
     } from "./js/editing.js";
 
@@ -302,6 +307,7 @@
     const FILTER_STORAGE_KEY = "osm-flag-filters-describe";
     const FILTER_DEFAULTS = {
       noDescOnly: false,
+      unreviewedOnly: false,
       hasImageOnly: true,
       flagEntityOnly: true,
       hideWonky: true,
@@ -354,6 +360,7 @@
       let list = allFlags.filter((f) => {
         if (filters.hasImageOnly && !f.file && !f.localFile) return false;
         if (filters.noDescOnly && effectiveDescription(f)) return false;
+        if (filters.unreviewedOnly && reviewCount(f.qid, "description") > 0) return false;
         if (filters.flagEntityOnly && !f.isFlagEntity) return false;
         if (filters.hideWonky && looksWonkyFilename(imageFilename(f))) return false;
         if (q) {
@@ -365,6 +372,15 @@
       switch (filters.sort) {
         case "count-desc": list.sort((a, b) => (b.count ?? 0) - (a.count ?? 0)); break;
         case "count-asc":  list.sort((a, b) => (a.count ?? 0) - (b.count ?? 0)); break;
+        case "reviews-asc":
+          // Tiebreak by OSM count desc so among equally-unreviewed flags, the
+          // most-mapped ones surface first. Mirrors the review-* pages.
+          list.sort((a, b) => {
+            const diff = reviewCount(a.qid, "description") - reviewCount(b.qid, "description");
+            if (diff !== 0) return diff;
+            return (b.count ?? 0) - (a.count ?? 0);
+          });
+          break;
         case "name-asc":   list.sort((a, b) => (a.flagName ?? a.name).localeCompare(b.flagName ?? b.name)); break;
         case "qid-asc":    list.sort((a, b) => qidNum(a.qid) - qidNum(b.qid)); break;
       }
@@ -414,6 +430,17 @@
       missingTag.className = "missing-tag";
       missingTag.textContent = "No description";
       h.appendChild(missingTag);
+      // Review-count badge. Always rendered so the layout doesn't shift when
+      // the count changes 0 → 1 mid-session.
+      const reviewBadge = document.createElement("span");
+      reviewBadge.className = "review-badge";
+      function paintReviewBadge() {
+        const n = reviewCount(flag.qid, "description");
+        reviewBadge.textContent = n === 0 ? "0 reviews" : `${n} review${n === 1 ? "" : "s"}`;
+        reviewBadge.classList.toggle("zero", n === 0);
+      }
+      paintReviewBadge();
+      h.appendChild(reviewBadge);
       meta.appendChild(h);
 
       const line = document.createElement("p");
@@ -443,8 +470,50 @@
         // for the next render window pass.
         if (isEdited(flag.qid, "description")) row.classList.add("edited");
         else row.classList.remove("edited");
+        // Can't sign off on an empty description — keep the button gated as
+        // the user types/clears, rather than waiting for a re-render.
+        syncReviewBtnEnabled();
       });
       meta.appendChild(ta);
+
+      // "Looks good" → toggles the description review counter for this
+      // browser. First click increments, second click undoes. Mirrors the
+      // review-colors / review-icons action row. Disabled when there's no
+      // description to sign off on (an edit that empties it re-gates it; the
+      // shared editing layer also resets the counter to 0 on any value
+      // change, surfaced via the onReviewReset toast below).
+      const actionRow = document.createElement("div");
+      actionRow.className = "row-actions";
+      const reviewBtn = document.createElement("button");
+      reviewBtn.type = "button";
+      reviewBtn.className = "review-btn";
+      function paintReviewBtn() {
+        if (reviewedHere(flag.qid, "description")) {
+          reviewBtn.textContent = "✓ Reviewed (click to undo)";
+          reviewBtn.classList.add("reviewed");
+        } else {
+          reviewBtn.textContent = "Looks good";
+          reviewBtn.classList.remove("reviewed");
+        }
+      }
+      function syncReviewBtnEnabled() {
+        // Allow undo even on an empty description so a stale ✓ can be cleared.
+        const hasDesc = Boolean(effectiveDescription(flag));
+        reviewBtn.disabled = !hasDesc && !reviewedHere(flag.qid, "description");
+        reviewBtn.title = reviewBtn.disabled
+          ? "Add a description before marking it reviewed."
+          : "";
+      }
+      paintReviewBtn();
+      syncReviewBtnEnabled();
+      reviewBtn.addEventListener("click", () => {
+        toggleReview(flag.qid, "description");
+        paintReviewBadge();
+        paintReviewBtn();
+        syncReviewBtnEnabled();
+      });
+      actionRow.appendChild(reviewBtn);
+      meta.appendChild(actionRow);
 
       row.appendChild(imgCell);
       row.appendChild(meta);
@@ -548,14 +617,16 @@
       onPendingChange(updateToolbar);
 
       // Surface "your edit cleared prior reviewers' approval of this
-      // description". The user gets a toast so they know the trust got
-      // invalidated. No DOM re-render needed here — describe.html's
-      // textarea doesn't display the review count.
+      // description". Toast the user, then re-render so the row's review
+      // badge and "Looks good" button repaint their new (zero) state. The
+      // render window preserves the focused textarea's caret/selection, so
+      // rebuilding mid-edit is safe.
       onReviewReset(({ prevCount }) => {
         showToast(
           `Cleared ${prevCount} prior review${prevCount === 1 ? "" : "s"} — description changed`,
           2500,
         );
+        renderWindow(true);
       });
 
       // Wire up filter controls.
@@ -575,6 +646,7 @@
       // filter logic uses the loaded preferences.
       const checkboxFilters = [
         ["filter-no-desc",         "noDescOnly"],
+        ["filter-unreviewed",      "unreviewedOnly"],
         ["filter-has-image",       "hasImageOnly"],
         ["filter-is-flag-entity",  "flagEntityOnly"],
         ["filter-hide-wonky",      "hideWonky"],
