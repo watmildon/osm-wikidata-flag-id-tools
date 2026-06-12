@@ -318,6 +318,12 @@
     "file": "Ikea almhult.jpg"
   },
   {
+    "qid": "Q54151",
+    "name": "Everett",
+    "count": 1,
+    "file": "Everett winter.jpg"
+  },
+  {
     "qid": "Q56414",
     "name": "Anao",
     "count": 1,
@@ -964,6 +970,12 @@
     "name": "Chilean Air Force",
     "count": 1,
     "file": null
+  },
+  {
+    "qid": "Q666049",
+    "name": "Chūō-shi",
+    "count": 1,
+    "file": "Koikawa post office where cultural assets are old.JPG"
   },
   {
     "qid": "Q674311",
@@ -1996,12 +2008,6 @@
     "name": "Belmond Charleston Place",
     "count": 1,
     "file": "The Charleston Place Hotel.jpg"
-  },
-  {
-    "qid": "Q18677875",
-    "name": "Normandy",
-    "count": 1,
-    "file": "Palais de justice de Rouen 3.JPG"
   },
   {
     "qid": "Q19871916",

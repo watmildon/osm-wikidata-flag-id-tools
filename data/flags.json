@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-10T09:54:46.848Z",
+  "generated": "2026-06-12T10:07:36.606Z",
   "palette": [
     "red",
     "white",
@@ -1678,7 +1678,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16567,
+      "count": 16586,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1775,7 +1775,7 @@
     {
       "qid": "Q43175",
       "name": "flag of Japan",
-      "count": 97,
+      "count": 98,
       "file": "Flag of Japan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1812,7 +1812,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2347,
+      "count": 2349,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2303,6 +2303,23 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q54151",
+      "name": "Everett",
+      "count": 1,
+      "file": "Everett winter.jpg",
+      "reverseFile": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Everett",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q56414",
@@ -2810,7 +2827,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 978,
+      "count": 979,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3480,7 +3497,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 221,
+      "count": 222,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5103,7 +5120,7 @@
     {
       "qid": "Q128812",
       "name": "flag of Portugal",
-      "count": 92,
+      "count": 93,
       "file": "Flag of Portugal (official).svg",
       "isFlagEntity": true,
       "colors": [
@@ -5862,7 +5879,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1207,
+      "count": 1208,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6708,7 +6725,7 @@
     {
       "qid": "Q160260",
       "name": "Flag of New Zealand",
-      "count": 155,
+      "count": 156,
       "file": "Flag of New Zealand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6880,7 +6897,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 394,
+      "count": 400,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10806,7 +10823,7 @@
     {
       "qid": "Q221881",
       "name": "flag of Massachusetts",
-      "count": 43,
+      "count": 44,
       "file": "Flag of Massachusetts.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10975,7 +10992,7 @@
     {
       "qid": "Q235475",
       "name": "Ikurrina",
-      "count": 36,
+      "count": 37,
       "file": "Flag of the Basque Country.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14324,9 +14341,26 @@
       "description": "Five horizontal bands of blue (top), white, yellow (narrow), white, and red."
     },
     {
+      "qid": "Q666049",
+      "name": "Chūō-shi",
+      "count": 1,
+      "file": "Koikawa post office where cultural assets are old.JPG",
+      "reverseFile": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Chūō-shi",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q673117",
       "name": "flag of Indiana",
-      "count": 81,
+      "count": 83,
       "file": "Flag of Indiana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15325,7 +15359,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 377,
+      "count": 378,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -17077,7 +17111,7 @@
     {
       "qid": "Q1122078",
       "name": "flag of Alberta",
-      "count": 30,
+      "count": 31,
       "file": "Flag of Alberta.svg",
       "isFlagEntity": true,
       "colors": [
@@ -17721,7 +17755,7 @@
     {
       "qid": "Q1402799",
       "name": "flag of Chicago",
-      "count": 401,
+      "count": 402,
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25618,6 +25652,31 @@
       "aliases": []
     },
     {
+      "qid": "Q10337049",
+      "name": "flag of Yamanashi prefecture",
+      "count": 1,
+      "file": "Flag of Yamanashi Prefecture.svg",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "white",
+        "yellow",
+        "purple"
+      ],
+      "wdColors": [
+        "white",
+        "yellow",
+        "purple"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Yamanashi prefecture",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q10385027",
       "name": "Groton",
       "count": 1,
@@ -26670,22 +26729,6 @@
       "aliases": []
     },
     {
-      "qid": "Q18677875",
-      "name": "Normandy",
-      "count": 1,
-      "file": "Palais de justice de Rouen 3.JPG",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Normandy",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
-    },
-    {
       "qid": "Q19570909",
       "name": "flag of Astana",
       "count": 0,
@@ -27376,7 +27419,7 @@
     {
       "qid": "Q39075174",
       "name": "flag of Occitania",
-      "count": 9,
+      "count": 10,
       "file": "Flag of Occitania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -33230,7 +33273,7 @@
     {
       "qid": "Q98609686",
       "name": "Tino Rangatiratanga flag",
-      "count": 3,
+      "count": 4,
       "file": "Tino Rangatiratanga Maori Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -35159,7 +35202,7 @@
     {
       "qid": "Q107787322",
       "name": "intersex-inclusive pride flag",
-      "count": 3,
+      "count": 4,
       "file": "Intersex-inclusive pride flag.svg",
       "isFlagEntity": true,
       "colors": [

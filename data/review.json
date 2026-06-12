@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-08T03:43:07.091Z",
+  "generated": "2026-06-12T10:07:32.442Z",
   "suggestions": [
     {
       "bad_qid": "Q88",
@@ -429,13 +429,6 @@
       "suggested_qid": "Q2171778",
       "suggested_name": "flag of Perlis",
       "reason": "redirect"
-    },
-    {
-      "bad_qid": "Q18677875",
-      "bad_name": "Normandy",
-      "count": 1,
-      "suggested_qid": "Q3039109",
-      "suggested_name": "flag and coat of arms of Normandy"
     },
     {
       "bad_qid": "Q20050604",
