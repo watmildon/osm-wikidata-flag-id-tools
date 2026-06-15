@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-13T08:54:40.307Z",
+  "generated": "2026-06-15T11:58:55.153Z",
   "palette": [
     "red",
     "white",
@@ -46,6 +46,23 @@
     "other"
   ],
   "flags": [
+    {
+      "qid": "Q30",
+      "name": "United States",
+      "count": 1,
+      "file": "United States - Location Map (2013) - USA - UNOCHA.svg",
+      "reverseFile": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "United States",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
     {
       "qid": "Q67",
       "name": "Airbus Commercial Aircraft",
@@ -189,6 +206,23 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q1571",
+      "name": "Marathi",
+      "count": 1,
+      "file": "Marathi language.svg",
+      "reverseFile": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Marathi",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q1770",
@@ -753,7 +787,7 @@
     {
       "qid": "Q18983",
       "name": "flag of Pennsylvania",
-      "count": 33,
+      "count": 35,
       "file": "Flag of Pennsylvania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -851,7 +885,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 284,
+      "count": 285,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -887,7 +921,7 @@
     {
       "qid": "Q19016",
       "name": "flag of the State of New York",
-      "count": 64,
+      "count": 65,
       "file": "Flag of New York.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1282,7 +1316,7 @@
     {
       "qid": "Q33213",
       "name": "flag of Armenia",
-      "count": 49,
+      "count": 50,
       "file": "Flag of Armenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1678,7 +1712,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16592,
+      "count": 16615,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1735,7 +1769,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 552,
+      "count": 554,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1812,7 +1846,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2349,
+      "count": 2350,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2827,7 +2861,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 979,
+      "count": 980,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3035,7 +3069,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 331,
+      "count": 332,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3076,7 +3110,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 275,
+      "count": 276,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4739,7 +4773,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1614,
+      "count": 1616,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5479,7 +5513,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 924,
+      "count": 932,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -28402,7 +28436,7 @@
     {
       "qid": "Q63991554",
       "name": "flag of the Red Cross",
-      "count": 52,
+      "count": 53,
       "file": "Flag of the Red Cross.svg",
       "isFlagEntity": true,
       "colors": [
@@ -28435,7 +28469,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 193,
+      "count": 194,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -33017,7 +33051,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 301,
+      "count": 303,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -35202,7 +35236,7 @@
     {
       "qid": "Q107787322",
       "name": "intersex-inclusive pride flag",
-      "count": 4,
+      "count": 5,
       "file": "Intersex-inclusive pride flag.svg",
       "isFlagEntity": true,
       "colors": [

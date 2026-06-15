@@ -1,5 +1,11 @@
 [
   {
+    "qid": "Q30",
+    "name": "United States",
+    "count": 1,
+    "file": "United States - Location Map (2013) - USA - UNOCHA.svg"
+  },
+  {
     "qid": "Q67",
     "name": "Airbus Commercial Aircraft",
     "count": 1,
@@ -52,6 +58,12 @@
     "name": "Rimouski",
     "count": 1,
     "file": "RimouskiCentreville.JPG"
+  },
+  {
+    "qid": "Q1571",
+    "name": "Marathi",
+    "count": 1,
+    "file": "Marathi language.svg"
   },
   {
     "qid": "Q1770",
