@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-15T11:58:55.153Z",
+  "generated": "2026-06-16T11:06:41.284Z",
   "palette": [
     "red",
     "white",
@@ -1712,7 +1712,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16615,
+      "count": 16623,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -5050,7 +5050,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 306,
+      "count": 307,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5199,7 +5199,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 247,
+      "count": 248,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5957,7 +5957,7 @@
     {
       "qid": "Q134874",
       "name": "flag of Bolivia",
-      "count": 41,
+      "count": 42,
       "file": "Flag of Bolivia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14446,7 +14446,7 @@
     {
       "qid": "Q676623",
       "name": "flag of Georgia",
-      "count": 45,
+      "count": 46,
       "file": "Flag of the State of Georgia.svg",
       "isFlagEntity": true,
       "colors": [
