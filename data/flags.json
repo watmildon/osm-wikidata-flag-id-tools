@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16T11:06:41.284Z",
+  "generated": "2026-06-17T10:50:44.188Z",
   "palette": [
     "red",
     "white",
@@ -1712,7 +1712,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16623,
+      "count": 16629,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2771,7 +2771,7 @@
     {
       "qid": "Q79198",
       "name": "flag of Vatican City",
-      "count": 64,
+      "count": 65,
       "file": "Flag of Vatican City (2023–present).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2951,7 +2951,7 @@
     {
       "qid": "Q81471",
       "name": "flag of Estonia",
-      "count": 113,
+      "count": 114,
       "file": "Flag of Estonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4256,7 +4256,7 @@
     {
       "qid": "Q103084",
       "name": "flag of Burundi",
-      "count": 6,
+      "count": 7,
       "file": "Flag of Burundi.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5513,7 +5513,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 932,
+      "count": 933,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6515,7 +6515,7 @@
     {
       "qid": "Q159872",
       "name": "flag of Cameroon",
-      "count": 12,
+      "count": 13,
       "file": "Flag of Cameroon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6931,7 +6931,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 400,
+      "count": 401,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
