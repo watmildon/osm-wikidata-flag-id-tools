@@ -19,6 +19,7 @@ import {
   toggleReview,
   onReviewReset,
 } from "./editing.js";
+import { attachFlipControl } from "./flip.js";
 
 const BUFFER_ROWS = 4;
 
@@ -168,13 +169,20 @@ export async function mountReviewChips(config) {
 
     const imgCell = document.createElement("div");
     imgCell.className = "img-cell";
+    const imgWrap = document.createElement("span");
+    imgWrap.className = "flip-img-wrap";
     const img = document.createElement("img");
     img.loading = "lazy";
     img.decoding = "async";
     img.alt = `Flag of ${flag.name}`;
     img.src = thumbSrc(flag);
     img.onerror = () => { img.src = "flags/placeholder.svg"; };
-    imgCell.appendChild(img);
+    imgWrap.appendChild(img);
+    // Flip control for flags with a distinct reverse — a reviewer judging
+    // colors/icons may need the back to confirm. No-op when there's no
+    // reverse. thumbSrc here is the full-size obverse, matching reverseSrc.
+    attachFlipControl(imgWrap, img, flag, thumbSrc);
+    imgCell.appendChild(imgWrap);
 
     const meta = document.createElement("div");
     meta.className = "meta";

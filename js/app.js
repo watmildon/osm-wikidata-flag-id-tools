@@ -1,6 +1,7 @@
 import { loadFlags } from "./data.js";
 import { subscribe, matches, activeCount, clear, setQuery } from "./filters.js";
-import { renderFilters, renderGrid, updateFilterSummary, fullSrc, reverseSrc } from "./render.js";
+import { renderFilters, renderGrid, updateFilterSummary, fullSrc } from "./render.js";
+import { reverseSrc } from "./flip.js";
 import { copyTags, tagsFor, showToast } from "./clipboard.js";
 
 // Inline SVG icons for the detail dialog's action buttons. Matches the

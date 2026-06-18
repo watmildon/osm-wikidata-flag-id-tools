@@ -1,6 +1,7 @@
 import { loadFlags } from "./data.js";
 import { showToast } from "./clipboard.js";
 import { thumbSrc, fullSrc } from "./render.js";
+import { attachFlipControl } from "./flip.js";
 import {
   initEditing,
   pendingCount,
@@ -226,12 +227,21 @@ function renderNeedsChips() {
 
 // ---- flag detail ----
 
+// Drop any flip control left over from the previously-shown flag. The image
+// and its wrapper persist across renders (unlike the virtualized list pages),
+// so we clear and re-attach the control each time rather than leak handlers.
+function clearFlip() {
+  const wrap = document.getElementById("flag-img-wrap");
+  wrap.querySelector(".badge-flip")?.remove();
+}
+
 function renderCurrent() {
   if (queue.length === 0) {
     document.getElementById("flag-name").textContent = "Queue empty";
     document.getElementById("queue-pos").textContent = "0 of 0";
     document.getElementById("flag-img").src = "flags/placeholder.svg";
     document.getElementById("flag-img").alt = "";
+    clearFlip();
     document.getElementById("flag-link").textContent = "";
     document.getElementById("flag-count").textContent = "—";
     document.getElementById("flag-entity-state").textContent = "";
@@ -247,8 +257,11 @@ function renderCurrent() {
   document.getElementById("queue-pos").textContent =
     `${queueIndex + 1} of ${queue.length}`;
   document.getElementById("flag-name").textContent = f.name;
-  document.getElementById("flag-img").src = fullSrc(f);
-  document.getElementById("flag-img").alt = `Flag: ${f.name}`;
+  const flagImg = document.getElementById("flag-img");
+  flagImg.src = fullSrc(f);
+  flagImg.alt = `Flag: ${f.name}`;
+  clearFlip();
+  attachFlipControl(document.getElementById("flag-img-wrap"), flagImg, f, fullSrc);
   const link = document.getElementById("flag-link");
   link.href = `https://www.wikidata.org/wiki/${f.qid}`;
   link.textContent = f.qid;

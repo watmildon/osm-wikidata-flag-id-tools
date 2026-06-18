@@ -217,6 +217,64 @@
       .describe-row { grid-template-columns: 1fr; }
       .describe-row img { max-height: 120px; }
     }
+
+    /* Click-to-zoom: the row thumbnail opens a lightbox with the full-size
+       image so descriptions can be checked against fine detail. */
+    .describe-row img.zoomable { cursor: zoom-in; }
+    .lightbox {
+      border: none;
+      border-radius: 12px;
+      padding: 0;
+      background: var(--bg-elev);
+      color: var(--fg);
+      max-width: 92vw;
+      max-height: 92vh;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    }
+    .lightbox::backdrop { background: rgba(0, 0, 0, 0.6); }
+    .lightbox-fig {
+      margin: 0;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    /* Checker pattern so all-white flags stay visible, matching the row. */
+    .lightbox img {
+      display: block;
+      max-width: 86vw;
+      max-height: 78vh;
+      width: auto;
+      height: auto;
+      background-color: var(--bg-elev);
+      background-image:
+        linear-gradient(45deg, var(--border) 25%, transparent 25%),
+        linear-gradient(-45deg, var(--border) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, var(--border) 75%),
+        linear-gradient(-45deg, transparent 75%, var(--border) 75%);
+      background-size: 16px 16px;
+      background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+      border: 1px solid var(--border);
+      border-radius: 6px;
+    }
+    .lightbox-cap { font-size: 0.875rem; color: var(--muted); text-align: center; }
+    .lightbox-cap a { color: var(--accent); }
+    .lightbox-close {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 32px;
+      height: 32px;
+      border: none;
+      border-radius: 50%;
+      background: rgba(15, 23, 42, 0.65);
+      color: #f8fafc;
+      font-size: 1.25rem;
+      line-height: 1;
+      cursor: pointer;
+    }
+    .lightbox-close:hover { background: rgba(15, 23, 42, 0.85); }
   </style>
 </head>
 <body>
@@ -263,6 +321,14 @@
 
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 
+  <dialog class="lightbox" id="lightbox" aria-label="Enlarged flag image">
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close">&times;</button>
+    <figure class="lightbox-fig">
+      <span class="flip-img-wrap" id="lightbox-img-wrap"><img id="lightbox-img" alt="" /></span>
+      <figcaption class="lightbox-cap" id="lightbox-cap"></figcaption>
+    </figure>
+  </dialog>
+
   <script type="module">
     import {
       initEditing,
@@ -278,6 +344,7 @@
       toggleReview,
       exportOverrides,
     } from "./js/editing.js";
+    import { attachFlipControl } from "./js/flip.js";
 
     const BUFFER_ROWS = 4; // render this many extra rows above/below the viewport
 
@@ -349,6 +416,36 @@
       return false;
     }
 
+    // A real (non-placeholder) image is showing when the flag isn't withheld
+    // and has either a local override or a Wikidata file. Mirrors thumbSrc's
+    // placeholder branches.
+    function hasRealImage(flag) {
+      return !flag.imageWithheld && Boolean(flag.localFile || flag.file);
+    }
+
+    // Open the click-to-zoom lightbox for a flag: full-size image (same file
+    // the row shows, just larger), its flip control if it has a reverse, and
+    // a caption linking to Wikidata.
+    function openLightbox(flag) {
+      const dlg = document.getElementById("lightbox");
+      const wrap = document.getElementById("lightbox-img-wrap");
+      const img = document.getElementById("lightbox-img");
+      img.src = thumbSrc(flag);
+      img.alt = `Flag of ${flag.name}`;
+      // Drop the previous flag's flip control, then re-attach for this one.
+      wrap.querySelector(".badge-flip")?.remove();
+      attachFlipControl(wrap, img, flag, thumbSrc);
+      const cap = document.getElementById("lightbox-cap");
+      cap.textContent = `${flag.flagName ?? flag.name} · `;
+      const a = document.createElement("a");
+      a.href = `https://www.wikidata.org/wiki/${flag.qid}`;
+      a.target = "_blank";
+      a.rel = "noopener";
+      a.textContent = flag.qid;
+      cap.appendChild(a);
+      dlg.showModal();
+    }
+
     function effectiveDescription(flag) {
       // Goes through the shared editing layer so the most recent pending
       // edit wins, then committed overrides, then the flag's own value.
@@ -409,13 +506,34 @@
 
       const imgCell = document.createElement("div");
       imgCell.className = "img-cell";
+      const imgWrap = document.createElement("span");
+      imgWrap.className = "flip-img-wrap";
       const img = document.createElement("img");
       img.loading = "lazy";
       img.decoding = "async";
       img.alt = `Flag of ${flag.name}`;
       img.src = thumbSrc(flag);
       img.onerror = () => { img.src = "flags/placeholder.svg"; };
-      imgCell.appendChild(img);
+      imgWrap.appendChild(img);
+      // Flag with a distinct reverse side: add the in-place flip control.
+      // thumbSrc here is the full-size obverse, matching reverseSrc's full
+      // reverse. No-op for flags without a reverse.
+      attachFlipControl(imgWrap, img, flag, thumbSrc);
+      // Click-to-zoom: enlarge the image in a lightbox to check the
+      // description against fine detail. Only when there's a real image —
+      // enlarging the placeholder is pointless. The flip badge sits on top
+      // and stops propagation, so it flips in place rather than zooming.
+      if (hasRealImage(flag)) {
+        img.classList.add("zoomable");
+        img.setAttribute("role", "button");
+        img.setAttribute("tabindex", "0");
+        img.setAttribute("aria-label", `View larger image of ${flag.name}`);
+        img.addEventListener("click", () => openLightbox(flag));
+        img.addEventListener("keydown", (e) => {
+          if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openLightbox(flag); }
+        });
+      }
+      imgCell.appendChild(imgWrap);
 
       const meta = document.createElement("div");
       meta.className = "meta";
@@ -615,6 +733,14 @@
       }
 
       onPendingChange(updateToolbar);
+
+      // Lightbox dismissal: close button, or a click on the backdrop (the
+      // dialog element itself, not its contents). Esc is handled natively.
+      const lightbox = document.getElementById("lightbox");
+      document.getElementById("lightbox-close").addEventListener("click", () => lightbox.close());
+      lightbox.addEventListener("click", (e) => {
+        if (e.target === lightbox) lightbox.close();
+      });
 
       // Surface "your edit cleared prior reviewers' approval of this
       // description". Toast the user, then re-render so the row's review

@@ -296,6 +296,12 @@ main { padding: 12px 12px 24px; }
   transform: scale(1.08);
 }
 .badge-flip-clickable:active { transform: scale(0.95); }
+/* Anchors a flip control over a flag image on the editor pages (curate /
+   describe / review-*), which don't use the grid/detail wrappers above.
+   Inline flavor shrink-wraps an intrinsic-sized, centered image so the badge
+   hugs the flag's actual corner; block flavor spans a full-width image. */
+.flip-img-wrap { position: relative; display: inline-block; line-height: 0; }
+.flip-img-wrap-block { position: relative; display: block; }
 .badge-warn {
   position: absolute;
   top: 4px;
