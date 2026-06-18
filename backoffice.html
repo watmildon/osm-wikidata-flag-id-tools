@@ -167,23 +167,64 @@
   </main>
 
   <script type="module">
-    // Show "how many flags still need a review of this dimension" next to
-    // each curate-this-site link. Counts use the same "never been confirmed"
-    // semantics the review pages care about: reviews.<field> === 0.
+    // Show "how many flags still need work on this dimension" next to each
+    // curate-this-site link.
     //
-    // The curate page is multi-dimensional, so we count flags missing ANY
-    // of the curatable fields (description, colors, icons, shape, flagType)
-    // — that matches the queue curate.html builds by default.
+    // Two things keep these badges honest against the pages they link to:
+    //
+    // 1. Population. Each count is scoped to the same default content filters
+    //    the curate/describe/review pages apply: a real image present, a
+    //    flag-classified entity, and not a filename that smells like a photo /
+    //    building / map rather than a flag. So junk that the pages hide by
+    //    default doesn't inflate the badge. (The curate page doesn't itself
+    //    apply these by default, but we exclude the same junk for a clean,
+    //    consistent backlog number.)
+    //
+    // 2. Metric. describe / colors / icons use "never been confirmed"
+    //    semantics — reviews.<field> is 0/absent — matching the review pages'
+    //    "Looks good" counter and their "Unreviewed only" filter. Curate is
+    //    multi-dimensional, so it counts flags missing ANY curatable field
+    //    (description, flagType, shape, colors, icons), matching its queue.
+    //
+    // Note: these read the LAST BUILD's flags.json. New review sign-offs in
+    // overrides.json don't move the numbers until the next build regenerates
+    // flags.json.
+
+    // Default-filter heuristics, copied from the curate/describe/review pages
+    // so this standalone page stays in sync with what they hide by default.
+    const FLAG_FILENAME_RE = /^(flag|bandera|bandiera|drapeau|vlag|bandeira|flagga|flagge|flaga|fahne|byrak|zastava|prapor|drapelul)/i;
+    const WONKY_FILENAME_RE = /headquarter|\bview\b|entrance|stadium|\bpark\b|street|\bcenter\b|building|\bhotel\b|\bstore\b|\bstation\b|\bhall\b|library|fountain|harbor|\btower\b|hospital|circuit|college|university|plaza|airport|riverside|montage|skyline|panorama|aerial|location[ -]?map|orthographic|locator|collage|cathedral|church|castle|courthouse|capitol/i;
+    function imageFilename(f) {
+      if (f.imageWithheld) return null;
+      return f.localFile || f.file || null;
+    }
+    function looksLikeFlagFilename(name) {
+      if (!name) return false;
+      if (name.toLowerCase().endsWith(".svg")) return true;
+      return FLAG_FILENAME_RE.test(name);
+    }
+    function looksWonkyFilename(name) {
+      if (!name) return false;
+      if (looksLikeFlagFilename(name)) return false;
+      if (WONKY_FILENAME_RE.test(name.toLowerCase())) return true;
+      if (/\.(jpe?g|tiff?)$/i.test(name)) return true;
+      return false;
+    }
+    // The default content filters: has an image, is a flag entity, and the
+    // filename doesn't look like a non-flag photo.
+    function passesDefaultFilters(f) {
+      if (!f.file && !f.localFile) return false;
+      if (!f.isFlagEntity) return false;
+      if (looksWonkyFilename(imageFilename(f))) return false;
+      return true;
+    }
+
     try {
       const flags = (await (await fetch("data/flags.json")).json()).flags;
-      const counts = {
-        curate: 0,
-        describe: 0,
-        colors: 0,
-        icons: 0,
-      };
+      const counts = { curate: 0, describe: 0, colors: 0, icons: 0 };
       for (const f of flags) {
-        if (!f.description) counts.describe += 1;
+        if (!passesDefaultFilters(f)) continue;
+        if (!(f.reviews?.description)) counts.describe += 1;
         if (!(f.reviews?.colors)) counts.colors += 1;
         if (!(f.reviews?.icons)) counts.icons += 1;
         const needsCurate =
