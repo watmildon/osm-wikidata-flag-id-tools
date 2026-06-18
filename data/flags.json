@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-17T10:50:44.188Z",
+  "generated": "2026-06-18T07:08:44.204Z",
   "palette": [
     "red",
     "white",
@@ -504,7 +504,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -558,7 +559,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -597,7 +599,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -749,7 +752,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -915,7 +919,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -986,7 +991,7 @@
         "subject:wikidata": "Q1456"
       },
       "aliases": [],
-      "description": "A blue field bearing a white palmetto tree in the center and a white crescent in the upper hoist corner.",
+      "description": "A dark blue field bearing a white palmetto tree in the center and a white crescent in the upper hoist corner.",
       "wdColors": [
         "blue",
         "white"
@@ -996,7 +1001,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -1034,7 +1040,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -1075,7 +1082,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -1347,7 +1355,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -1598,7 +1607,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -1669,7 +1679,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -1706,7 +1717,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -1747,7 +1759,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -1803,7 +1816,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -1840,7 +1854,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -1880,7 +1895,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -1905,7 +1921,11 @@
       "count": 0,
       "file": "Flag of Jerusalem.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "yellow",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -2021,7 +2041,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -2135,7 +2156,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -2174,7 +2196,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -2226,7 +2249,8 @@
         "red"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -2696,7 +2720,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -2855,7 +2880,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -2892,7 +2918,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -2945,7 +2972,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -2984,7 +3012,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -3104,7 +3133,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -3142,7 +3172,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -3182,7 +3213,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -3226,7 +3258,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -3266,7 +3299,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -3306,7 +3340,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -3346,7 +3381,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -3387,7 +3423,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -3424,7 +3461,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -3477,7 +3515,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -3562,7 +3601,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -3702,7 +3742,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -4213,7 +4254,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -4666,7 +4708,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "description": 1
+      }
     },
     {
       "qid": "Q121688",
@@ -4715,7 +4760,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -4767,7 +4813,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -4803,7 +4850,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -4856,7 +4904,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -4926,7 +4975,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -4966,7 +5016,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -5081,7 +5132,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -5115,7 +5167,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -5231,7 +5284,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -5353,7 +5407,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -5426,7 +5481,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -5469,7 +5525,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -5507,7 +5564,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -5544,7 +5602,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -5581,7 +5640,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -5633,7 +5693,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -5797,7 +5858,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -5836,7 +5898,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -5951,7 +6014,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -5988,7 +6052,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -6027,7 +6092,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -6239,7 +6305,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -6509,7 +6576,8 @@
         "red"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -6718,7 +6786,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -6795,7 +6864,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -6832,7 +6902,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -6925,7 +6996,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -6966,7 +7038,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -7041,7 +7114,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -7158,7 +7232,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -7192,7 +7267,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -7268,7 +7344,8 @@
       ],
       "description": "Three horizontal bands of blue (top), red (middle, double width), and blue, with a white silhouette of the three-towered Angkor Wat temple centered on the red band.",
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -7583,7 +7660,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -7776,7 +7854,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -8274,7 +8353,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -8466,7 +8546,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -8961,7 +9042,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -9118,7 +9200,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -9200,7 +9283,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -9926,7 +10010,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -10885,7 +10970,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -10959,7 +11045,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -11175,7 +11262,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -11339,7 +11427,7 @@
         "subject:wikidata": "Q759"
       },
       "aliases": [],
-      "description": "A blue field bearing the New Hampshire state seal centered: the frigate USS Raleigh on water, encircled by a green laurel wreath and nine golden stars.",
+      "description": "A blue field bearing the New Hampshire state seal centered: the frigate USS Raleigh on water, encircled by a golden laurel wreath and nine golden stars.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -11375,7 +11463,11 @@
       "count": 4,
       "file": "Flag of the Australian Capital Territory.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "white",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "regional",
@@ -11603,7 +11695,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "description": 1
+      }
     },
     {
       "qid": "Q301628",
@@ -11866,7 +11961,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -12453,7 +12549,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -12734,7 +12831,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -12835,7 +12933,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -13112,7 +13211,11 @@
       "count": 0,
       "file": "Flag of Quebec City.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "yellow",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13575,7 +13678,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -13849,7 +13953,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -14017,7 +14122,7 @@
         "red",
         "yellow"
       ],
-      "description": "Alternating vertical stripes of yellow and red.",
+      "description": "Alternating vertical stripes of five yellow and four red.",
       "reviews": {
         "colors": 1
       }
@@ -14131,7 +14236,7 @@
         "subject:wikidata": "Q816"
       },
       "aliases": [],
-      "description": "Thirteen rays of red and gold alternating in the top half of the flag (six red and seven gold, or vice versa). A copper-colored five-pointed star is centered, with the bottom half of the flag in dark blue.",
+      "description": "Thirteen rays of red and gold alternating in the top half of the flag (seven red and six gold). A copper-colored five-pointed star is centered, with the bottom half of the flag in dark blue.",
       "wdColors": [
         "yellow",
         "blue",
@@ -14245,7 +14350,7 @@
         "subject:wikidata": "Q1973"
       },
       "aliases": [],
-      "description": "A horizontal flag divided into three parts: the top third is a Union Jack defaced in the center with a golden crown, while the bottom two-thirds shows a setting golden sun over wavy blue and white horizontal lines.",
+      "description": "A horizontal flag divided into two parts: the top third is a Union Jack with a small golden crown in the center, while the bottom two-thirds shows a setting golden sun over wavy blue and white horizontal lines.",
       "wdColors": [
         "blue",
         "red",
@@ -14292,7 +14397,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -14479,7 +14585,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -14888,7 +14995,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -15039,7 +15147,7 @@
         "subject:wikidata": "Q829"
       },
       "aliases": [],
-      "description": "Three horizontal bands of blue (top), white, and red (the white band wider than the others). On the white band is a gold-outlined blue hexagon containing a gold beehive above a five-pointed white star.",
+      "description": "Split into three roughly equal horizontal parts with dark blue (top), white, and red. They are not cut evenly across. The white is the outline of mountains. The red has a cutout to accommodate the central emblem. On the white band is a gold-outlined blue hexagon containing a gold beehive above a five-pointed white star.",
       "wdColors": [],
       "svgColors": [
         "darkblue",
@@ -15240,7 +15348,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -15344,7 +15453,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -15388,7 +15498,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "description": 1
+      }
     },
     {
       "qid": "Q752837",
@@ -15438,7 +15551,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -15476,7 +15590,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -15684,7 +15799,10 @@
       "count": 0,
       "file": "Flag of the Arab League.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "green"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15700,7 +15818,10 @@
       "count": 0,
       "file": "Flag of OPEC.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15936,7 +16057,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -16515,7 +16637,11 @@
       "count": 0,
       "file": "Flag of Yerevan.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow",
+        "red"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -16916,7 +17042,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "description": 1
+      }
     },
     {
       "qid": "Q1073859",
@@ -17823,7 +17952,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -17934,7 +18064,7 @@
         "subject:wikidata": "Q1965"
       },
       "aliases": [],
-      "description": "A horizontal flag divided in thirds. The top third is a red field bearing a gold lion passant; the bottom two-thirds is a gold field with a black lymphad (medieval ship) above blue and white wavy horizontal lines.",
+      "description": "A horizontal flag divided into two parts. The top third is a red field bearing a gold lion passant; the bottom two-thirds is a gold field with a black lymphad (medieval ship) above blue and white wavy horizontal lines.",
       "wdColors": [
         "blue",
         "red",
@@ -17983,7 +18113,12 @@
       "count": 0,
       "file": "Flag of Vancouver.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "green",
+        "yellow",
+        "darkblue",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -18053,7 +18188,11 @@
       "count": 0,
       "file": "Bisexual Pride Flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "purple",
+        "pink",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -18288,7 +18427,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -18542,7 +18682,8 @@
       ],
       "description": "A square red field bearing a blue saltire (diagonal cross) edged in white, with thirteen white five-pointed stars arranged along the saltire's arms.",
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -18568,7 +18709,12 @@
       "file": "Flag of Kharkiv Oblast.svg",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "pink",
+        "green",
+        "yellow",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -18710,7 +18856,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -19550,7 +19697,10 @@
       "count": 1,
       "file": "Flag of Perlis.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -19603,7 +19753,12 @@
       "count": 2,
       "file": "Flemish Brabant flag.png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "black",
+        "yellow",
+        "white",
+        "red"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "regional",
@@ -19623,7 +19778,12 @@
       "count": 0,
       "file": "Flag of Kyiv Kurovskyi.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "blue",
+        "white",
+        "red",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20583,7 +20743,13 @@
       "count": 1,
       "file": "Flag of Minsk, Belarus.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "red",
+        "yellow",
+        "darkblue",
+        "blue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20881,7 +21047,11 @@
       "count": 1,
       "file": "Flag of Perak.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "black",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -20963,7 +21133,12 @@
       "count": 1,
       "file": "Flag of Bryansk Oblast (New Version).png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "blue",
+        "yellow",
+        "green"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -21379,7 +21554,11 @@
       "count": 2,
       "file": "Flag of Leinster.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "black",
+        "yellow",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -21441,7 +21620,11 @@
       "count": 0,
       "file": "Flag of Houston, Texas.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "blue",
+        "white",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -21638,7 +21821,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "description": 1
+      }
     },
     {
       "qid": "Q2899131",
@@ -21752,7 +21938,12 @@
       "count": 0,
       "file": "Flag of Tbilisi.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "red",
+        "white",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22451,7 +22642,12 @@
       "count": 0,
       "file": "Flag of Belgrade, Serbia.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "yellow",
+        "white",
+        "red"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22786,7 +22982,11 @@
       "count": 0,
       "file": "Flag of the United States (1795–1818).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22851,7 +23051,12 @@
       "count": 1,
       "file": "Flag of Bryansk.png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "green",
+        "yellow",
+        "black"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -22968,7 +23173,11 @@
       "count": 1,
       "file": "Flag of Malacca.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "yellow",
+        "red"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22985,7 +23194,13 @@
       "count": 1,
       "file": "Flag of Naberezhnye Chelny.png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "green",
+        "red",
+        "yellow",
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -23049,7 +23264,13 @@
       "count": 1,
       "file": "Flag of Ostashkov (Tver oblast).png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "blue",
+        "white",
+        "black",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -23143,7 +23364,13 @@
       "count": 0,
       "file": "Flag of Sarajevo.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "white",
+        "black",
+        "green",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23159,7 +23386,11 @@
       "count": 2,
       "file": "Flag of Sokol (Vologda oblast).png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow",
+        "green"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -23331,7 +23562,13 @@
       "count": 0,
       "file": "Flag of Tampa, Florida.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "green",
+        "white",
+        "yellow",
+        "red",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23485,7 +23722,11 @@
       "count": 0,
       "file": "Cowpens Flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23636,7 +23877,11 @@
       "count": 0,
       "file": "Flag of Birmingham, United Kingdom.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "darkblue",
+        "red"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23769,7 +24014,13 @@
       "count": 0,
       "file": "Flag of Cape Town, South Africa.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "lightblue",
+        "red",
+        "black",
+        "green"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23888,7 +24139,11 @@
       "count": 0,
       "file": "Flag of Harare.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "lightblue",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23936,7 +24191,13 @@
       "count": 0,
       "file": "Flag of Johannesburg, South Africa.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "green",
+        "red",
+        "darkblue",
+        "white",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -23952,7 +24213,12 @@
       "count": 0,
       "file": "Flag of Lima.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "black",
+        "red",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24004,7 +24270,11 @@
       "count": 2,
       "file": "Bandeira municipal de Lisboa.png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "black",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -24244,7 +24514,10 @@
       "count": 0,
       "file": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "lightblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24450,7 +24723,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -24487,7 +24761,8 @@
         "white"
       ],
       "reviews": {
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -24525,7 +24800,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -24567,7 +24843,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -24598,7 +24875,7 @@
         "subject:wikidata": "Q11220"
       },
       "aliases": [],
-      "description": "A dark blue field with the seal of the U.S. Department of the Navy in the center. A yellow scroll inscribed \"United States Navy\" in dark blue lettering appears below the seal.",
+      "description": "A dark blue field with the seal of the U.S. Department of the Navy in the center: a bald eagle flying in front of a tall masted ship. A yellow scroll inscribed \"United States Navy\" in dark blue lettering appears below the seal.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -24718,7 +24995,10 @@
       "count": 0,
       "file": "Flag of Cuenca, Ecuador.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -24985,7 +25265,10 @@
       "count": 9,
       "file": "Flag of the Kannada people.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "regional",
@@ -25002,7 +25285,12 @@
       "count": 0,
       "file": "Flag of Quito.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "red",
+        "yellow",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -25518,7 +25806,12 @@
       "count": 0,
       "file": "Mexico stateflags Mexico City.png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "lightblue",
+        "green",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -25643,7 +25936,10 @@
       "count": 0,
       "file": "Flag of IAEA.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -25659,7 +25955,12 @@
       "count": 1,
       "file": "Flag of Ourinhos SP.png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "green",
+        "yellow",
+        "darkblue",
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -25985,7 +26286,12 @@
       "count": 0,
       "file": "Flag of Chișinău.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "white",
+        "yellow",
+        "red"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -26148,7 +26454,12 @@
       "count": 0,
       "file": "Flag of Seoul.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "green",
+        "red",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -26477,7 +26788,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -26553,7 +26865,8 @@
       ],
       "description": "A red field bearing a white Greek cross extending to the edges of the flag.",
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -26689,7 +27002,11 @@
       "count": 1,
       "file": "Flag of Kedah.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "green",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -26768,7 +27085,11 @@
       "count": 0,
       "file": "Flag of Astana, Kazakhstan (latin).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "red",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -26852,7 +27173,10 @@
       "file": "Bandera de Matadepera.svg",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -27565,7 +27889,15 @@
       "count": 0,
       "file": "Flag of the Organization of American States.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "blue",
+        "darkblue",
+        "lightblue",
+        "green",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28463,7 +28795,8 @@
       ],
       "description": "A white field with a large red Greek cross centered.",
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -28498,7 +28831,8 @@
       ],
       "description": "A solid red field with the McDonald's golden \"M\" arches logo centered.",
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -28621,7 +28955,11 @@
       "count": 0,
       "file": "Flag of the United States (1819–1820).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "white",
+        "red"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28637,7 +28975,11 @@
       "count": 0,
       "file": "Flag of the United States (1820–1822).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28653,7 +28995,11 @@
       "count": 0,
       "file": "Flag of the United States (1822–1836).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28669,7 +29015,11 @@
       "count": 0,
       "file": "Flag of the United States (1836–1837).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28685,7 +29035,11 @@
       "count": 0,
       "file": "US 26 Star GreatStar Flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "darkblue",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28701,7 +29055,11 @@
       "count": 0,
       "file": "Flag of the United States (1845–1846).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28717,7 +29075,11 @@
       "count": 0,
       "file": "Flag of the United States (1846–1847).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "darkblue",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28733,7 +29095,11 @@
       "count": 0,
       "file": "US 29 Star Diamond Pattern Flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28749,7 +29115,11 @@
       "count": 0,
       "file": "Flag of the United States (1848–1851).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28765,7 +29135,11 @@
       "count": 0,
       "file": "Flag of the United States (1851–1858).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28781,7 +29155,11 @@
       "count": 0,
       "file": "Flag of the United States (1858–1859).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28797,7 +29175,11 @@
       "count": 0,
       "file": "US 33 Star GreatStar Flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28839,7 +29221,11 @@
       "count": 0,
       "file": "Flag of the United States (1863–1865).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "darkblue",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28855,7 +29241,11 @@
       "count": 0,
       "file": "US 36 Star Wagon Wheel Flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28871,7 +29261,11 @@
       "count": 0,
       "file": "US 37 Star Medallion Centennial Flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "darkblue",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28887,7 +29281,11 @@
       "count": 0,
       "file": "Flag of the United States (1877–1890).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28903,7 +29301,11 @@
       "count": 0,
       "file": "Flag of the United States (1890–1891).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28919,7 +29321,11 @@
       "count": 0,
       "file": "Flag of the United States (1891–1896).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28935,7 +29341,11 @@
       "count": 0,
       "file": "Flag of the United States (1896–1908).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28951,7 +29361,11 @@
       "count": 0,
       "file": "Flag of the United States (1908–1912).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -28993,7 +29407,11 @@
       "count": 0,
       "file": "US flag 49 stars.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -29872,7 +30290,11 @@
       "count": 0,
       "file": "Flag of the United States (51 stars).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -30960,7 +31382,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -31024,7 +31447,10 @@
       "count": 0,
       "file": "Flag of Albuquerque, New Mexico.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -31108,7 +31534,13 @@
       "count": 0,
       "file": "Flag of El Paso, Texas.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "white",
+        "yellow",
+        "gray",
+        "green"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -31317,7 +31749,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -31887,7 +32320,8 @@
       ],
       "description": "A white field bearing a light blue Y-shape edged in green, with the points of the Y at the upper hoist, lower hoist, and fly. In the white triangle at the hoist, six red six-pointed stars arranged in a ring.",
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -33080,7 +33514,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -33301,7 +33736,8 @@
       ],
       "description": "A solid red field with the white wordmark \"REWE\" centered in large bold letters.",
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -33737,7 +34173,11 @@
       "count": 0,
       "file": "Disability flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "orange",
+        "gray"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -34051,7 +34491,8 @@
       ],
       "description": "A white field with 6 alternating white (top) and blue horizontal blue stripes of equal width.",
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -34363,7 +34804,8 @@
       ],
       "description": "A horizontal bicolor of red (top) and green.",
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -34402,7 +34844,12 @@
       "count": 18,
       "file": "Drapeau de Melun.jpg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "yellow",
+        "gray",
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": "municipal",
@@ -34959,7 +35406,12 @@
       "count": 1,
       "file": "Flag of Bordeaux, France.png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "blue",
+        "white",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -35353,7 +35805,11 @@
       "count": 0,
       "file": "Flag of Tel Aviv.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "blue",
+        "green",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -35557,7 +36013,11 @@
       "count": 0,
       "file": "Flag of Regina.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "white",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -35782,7 +36242,12 @@
       "count": 1,
       "file": "Armoiries Nouméan fr.png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "yellow",
+        "lightblue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -36023,7 +36488,13 @@
       "count": 4,
       "file": "Flag of Cancale.gif",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "green",
+        "yellow",
+        "white",
+        "black"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -36532,7 +37003,12 @@
       "count": 1,
       "file": "Flag of Vandœuvre-lès-Nancy.gif",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -37043,7 +37519,11 @@
       "count": 2,
       "file": "Flag of Redon.gif",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "blue",
+        "black"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -37375,7 +37855,11 @@
       "count": 1,
       "file": "Flag of Ernolsheim-Bruche.gif",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -38711,7 +39195,11 @@
       "count": 1,
       "file": "Flag of Hœrdt.gif",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow",
+        "red"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -38894,7 +39382,11 @@
       "count": 1,
       "file": "Flag of Mehun-sur-Yèvre.gif",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -39392,7 +39884,11 @@
       "count": 1,
       "file": "Flag of Adjuntas, Puerto Rico.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "purple",
+        "white",
+        "green"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -39930,7 +40426,10 @@
       "count": 0,
       "file": "Flag of Bishkek.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -39976,7 +40475,12 @@
       "count": 0,
       "file": "Paralympic flag (2019).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "green",
+        "red",
+        "blue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -39992,7 +40496,11 @@
       "count": 1,
       "file": "Flag of Vitré.gif",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "red",
+        "black"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -40008,7 +40516,11 @@
       "count": 1,
       "file": "Flag of Melesse.gif",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "black",
+        "white"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -40053,7 +40565,11 @@
       "count": 6,
       "file": "Flag of Laakdal.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "red",
+        "black"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -40511,7 +41027,13 @@
       "count": 0,
       "file": "Flag of Jakarta (vectorised).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow",
+        "blue",
+        "green",
+        "red"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -40647,7 +41169,10 @@
       "count": 0,
       "file": "Flag of Stockholm.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -40734,7 +41259,10 @@
       "count": 0,
       "file": "Flag of Atlanta.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -40750,7 +41278,11 @@
       "count": 0,
       "file": "Flag of Tucson, Arizona.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "purple",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -40782,7 +41314,11 @@
       "count": 0,
       "file": "Bandera de Ciudad de Panamá.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "red",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -40798,7 +41334,12 @@
       "count": 0,
       "file": "Saskatoon-flag.png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "green",
+        "white",
+        "purple"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -40814,7 +41355,14 @@
       "count": 0,
       "file": "Bandera de la Ciudad de Guatemala.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "lightblue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -40932,7 +41480,13 @@
       "count": 0,
       "file": "Flag of Sacramento, California.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "darkblue",
+        "blue",
+        "white",
+        "green"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -40948,7 +41502,12 @@
       "count": 0,
       "file": "Flag of Omaha, Nebraska.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "yellow",
+        "white",
+        "red"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -40964,7 +41523,11 @@
       "count": 0,
       "file": "Flag of Asunción.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "blue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -41019,7 +41582,13 @@
       "count": 0,
       "file": "Aroace flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "orange",
+        "white",
+        "lightblue",
+        "darkblue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -41051,7 +41620,10 @@
       "count": 1,
       "file": "Flag of Taichung City old.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -41068,7 +41640,9 @@
       "count": 0,
       "file": "Flag of Helsinki (long).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "blue"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -41245,7 +41819,11 @@
       "count": 0,
       "file": "Flag of Christchurch.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "blue",
+        "red"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -41319,7 +41897,12 @@
       "count": 5,
       "file": "Flag of Evanston, Illinois (2024–present).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "yellow",
+        "green",
+        "white"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -41335,7 +41918,11 @@
       "count": 1,
       "file": "CHE Genève Flag.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "yellow",
+        "red",
+        "black"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
