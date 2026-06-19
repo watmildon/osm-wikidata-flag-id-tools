@@ -1,29 +1,58 @@
 #!/usr/bin/env node
-// Merge two or more overrides.json files (e.g. from separate curators) into
-// data/overrides.json, with per-field conflict detection.
+// Merge one or more curator-submitted overrides.json files into
+// data/overrides.json. Designed for the case where multiple curators
+// downloaded the same baseline, did independent offline reviews, and sent
+// their files back at the same time.
+//
+// Per-field merge rules (applied independently for each (QID, field) slot,
+// using set equality for `colors` / `icons` since those are unordered):
+//
+//   * No file touches this field          → keep the base value as-is.
+//   * One file changes the field          → take the new value.
+//   * Multiple files set the same value   → take that value.
+//   * Multiple files set different values → CONFLICT. Field stays at the
+//                                           base value, conflict is
+//                                           reported, other fields on the
+//                                           same QID still merge normally.
+//
+// Reviews counter has two contributions, summed:
+//
+//   (a) Each file's own positive delta on `reviews.<field>` vs the base
+//       count. A curator who explicitly pressed "Looks good" — bumping
+//       their browser's counter from N to N+1 — registers a +1 here. A
+//       file that just re-exported without touching the counter registers
+//       +0.
+//
+//   (b) Multi-file agreement on a NEW value the base didn't have. If two
+//       curators both set `icons: ["star"]` on a flag that previously had
+//       no icons, the value clearly went in (+0 in (a) since neither
+//       reviewed it as a separate action), and we add (N-1) here for the
+//       agreeing reviewers beyond the first one (the first counts as the
+//       setter, not a reviewer).
+//
+// A file that proposed a value LOSING a conflict has its review for that
+// field dropped entirely — that curator was approving something else.
 //
 // Usage:
-//   node scripts/merge-overrides.mjs alice.json bob.json
-//   node scripts/merge-overrides.mjs --dry alice.json bob.json   # print plan, don't write
-//   node scripts/merge-overrides.mjs --base=data/overrides.json alice.json bob.json
+//   node scripts/merge-overrides.mjs file1.json file2.json [...]
+//   node scripts/merge-overrides.mjs --dry file1.json
+//   node scripts/merge-overrides.mjs --no-build file1.json
+//   node scripts/merge-overrides.mjs --base=alt.json file1.json
 //
-// Behavior:
-//   - Reads --base (default: data/overrides.json) as the existing committed
-//     state.
-//   - Layers each input file on top in argument order. Later inputs win on
-//     conflict, but every conflict is reported.
-//   - A conflict is "same QID, same field, different value". Arrays are
-//     compared as sets (colors/icons are unordered).
-//   - Adding a field the base lacked, or adding a whole new QID, isn't a
-//     conflict — it's just an addition.
-//   - Output is sorted numerically by QID to match the project's canonical
-//     on-disk order.
-//   - Exit codes: 0 clean, 1 unresolved conflicts (still written; review the
-//     report), 2 fatal (bad input, can't read files).
+// Flags:
+//   --dry          Preview the merge; don't write, don't build, don't stage.
+//   --no-build     Write the merged file but skip build + stage steps.
+//   --base=path    Use a different baseline (default: data/overrides.json).
+//
+// Without --dry the script also runs `npm run build` and stages the
+// generated files, same as `apply:overrides`. Conflicts are reported but
+// never block the run; they're a heads-up that those fields stayed at the
+// base value and need a human follow-up.
 
 import { readFile, writeFile, rename } from "node:fs/promises";
 import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
+import { spawn } from "node:child_process";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -31,15 +60,24 @@ const DEFAULT_BASE = join(ROOT, "data", "overrides.json");
 
 const args = process.argv.slice(2);
 const DRY = args.includes("--dry");
+const NO_BUILD = args.includes("--no-build");
 const baseArg = args.find((a) => a.startsWith("--base="));
 const BASE_PATH = baseArg ? resolve(baseArg.slice("--base=".length)) : DEFAULT_BASE;
-const inputs = args.filter((a) => !a.startsWith("--"));
+const inputPaths = args.filter((a) => !a.startsWith("--"));
 
-if (inputs.length === 0) {
-  console.error("usage: node scripts/merge-overrides.mjs [--dry] [--base=path] <input.json> [...]");
+if (inputPaths.length === 0) {
+  console.error(
+    "usage: node scripts/merge-overrides.mjs [--dry] [--no-build] [--base=path] <file.json> [...]",
+  );
   process.exit(2);
 }
 
+// ---------------------------------------------------------------------------
+// Helpers
+// ---------------------------------------------------------------------------
+
+// Set equality for arrays — used for colors/icons since on-disk order
+// isn't semantically meaningful. JSON-string equality for everything else.
 function eqSet(a, b) {
   if (!Array.isArray(a) || !Array.isArray(b)) return false;
   if (a.length !== b.length) return false;
@@ -47,15 +85,32 @@ function eqSet(a, b) {
   for (const x of b) if (!sa.has(x)) return false;
   return true;
 }
-
-// Field-aware value equality. colors/icons are unordered sets; everything
-// else is JSON-string equality.
 function eqValue(field, a, b) {
+  if (a === undefined && b === undefined) return true;
+  if (a === undefined || b === undefined) return false;
   if (field === "colors" || field === "icons") return eqSet(a, b);
   return JSON.stringify(a) === JSON.stringify(b);
 }
 
-async function loadJson(path, allowMissing = false) {
+function validate(label, obj) {
+  if (!obj || typeof obj !== "object" || Array.isArray(obj)) {
+    throw new Error(`${label}: expected a JSON object keyed by QID`);
+  }
+  const bad = [];
+  for (const [qid, val] of Object.entries(obj)) {
+    if (!/^Q\d+$/.test(qid)) bad.push(`${qid} (not a QID)`);
+    else if (val === null || typeof val !== "object" || Array.isArray(val)) {
+      bad.push(`${qid} (value isn't an object)`);
+    }
+  }
+  if (bad.length > 0) {
+    throw new Error(
+      `${label}: ${bad.length} malformed entries: ${bad.slice(0, 5).join(", ")}${bad.length > 5 ? "..." : ""}`,
+    );
+  }
+}
+
+async function loadJson(path, { allowMissing = false } = {}) {
   try {
     return JSON.parse(await readFile(path, "utf8"));
   } catch (e) {
@@ -65,92 +120,262 @@ async function loadJson(path, allowMissing = false) {
   }
 }
 
-const base = await loadJson(BASE_PATH, true);
+// Reviewable fields. Mirrors editing.js — only these three have a
+// per-field counter in the `reviews` sub-object.
+const REVIEW_FIELDS = ["colors", "icons", "description"];
+
+// ---------------------------------------------------------------------------
+// Load inputs and base
+// ---------------------------------------------------------------------------
+
+const base = await loadJson(BASE_PATH, { allowMissing: true });
 console.log(`base: ${BASE_PATH} (${Object.keys(base).length} entries)`);
 
-const merged = structuredClone(base);
-const conflicts = [];   // {qid, field, baseVal, sources: [{path, value}], winner}
-const additions = [];   // {qid, field, value, source}
-const newQids = [];     // {qid, source}
+const inputs = [];
+for (const p of inputPaths) {
+  const path = resolve(p);
+  const obj = await loadJson(path);
+  try { validate(path, obj); }
+  catch (e) { console.error(e.message); process.exit(2); }
+  inputs.push({ path, obj });
+  console.log(`  loaded ${path} — ${Object.keys(obj).length} entries`);
+}
+console.log(`merging ${inputs.length} file${inputs.length === 1 ? "" : "s"}`);
+console.log();
 
-for (const path of inputs) {
-  const overlay = await loadJson(resolve(path));
-  console.log(`overlay: ${path} (${Object.keys(overlay).length} entries)`);
-  for (const [qid, entry] of Object.entries(overlay)) {
-    const existing = merged[qid];
-    if (!existing) {
-      merged[qid] = { ...entry };
-      newQids.push({ qid, source: path });
-      continue;
-    }
-    for (const [field, value] of Object.entries(entry)) {
-      if (!(field in existing)) {
-        existing[field] = value;
-        additions.push({ qid, field, value, source: path });
-        continue;
-      }
-      if (eqValue(field, existing[field], value)) continue;
-      // Real conflict. Later input wins (for "last write wins" semantics),
-      // but record it so the operator can decide.
-      const prior = existing[field];
-      existing[field] = value;
-      // Coalesce into a single conflict record if multiple inputs disagree
-      // on the same qid/field — easier to read.
-      const open = conflicts.find((c) => c.qid === qid && c.field === field);
-      if (open) {
-        open.sources.push({ path, value });
-        open.winner = path;
-      } else {
-        conflicts.push({
-          qid, field,
-          baseVal: base[qid]?.[field],
-          sources: [
-            { path: "(prior)", value: prior },
-            { path, value },
-          ],
-          winner: path,
-        });
-      }
+// ---------------------------------------------------------------------------
+// Per-QID merge
+// ---------------------------------------------------------------------------
+
+const allConflicts = [];   // { qid, field, baseVal, proposals: [{value, paths}] }
+
+function mergeQid(qid) {
+  const baseEntry = base[qid] ?? {};
+  const fileEntries = inputs
+    .filter((f) => qid in f.obj)
+    .map((f) => ({ path: f.path, entry: f.obj[qid] }));
+
+  // Discover every non-reviews field any file touches.
+  const fieldsTouched = new Set();
+  for (const { entry } of fileEntries) {
+    for (const k of Object.keys(entry)) {
+      if (k !== "reviews") fieldsTouched.add(k);
     }
   }
-}
 
-// Numeric QID sort to match the project's canonical on-disk order.
-const sorted = {};
-for (const k of Object.keys(merged).sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)))) {
-  sorted[k] = merged[k];
-}
+  const merged = { ...baseEntry };
+  const conflictedFields = new Set();
+  // For each reviewable field that flipped to a NEW agreed-on value across
+  // multiple files, count the "extra" agreeing files (paths.length - 1)
+  // as additional confirmations the curators didn't separately log.
+  const agreementBonuses = {}; // field -> count
 
-// ---- report ----
+  for (const field of fieldsTouched) {
+    const baseVal = baseEntry[field];
+    const proposals = fileEntries
+      .map((f) => ({ path: f.path, value: f.entry[field] }))
+      .filter((p) => p.value !== undefined);
+    if (proposals.length === 0) continue;
 
-console.log();
-console.log(`additions:    ${additions.length} (new field on existing QID)`);
-console.log(`new QIDs:     ${newQids.length}`);
-console.log(`conflicts:    ${conflicts.length}`);
-console.log();
-
-if (conflicts.length > 0) {
-  console.log("CONFLICTS (later input wins; review and adjust by hand if wrong):");
-  for (const c of conflicts) {
-    console.log(`  ${c.qid} . ${c.field}`);
-    for (const s of c.sources) {
-      console.log(`    ${s.path}: ${JSON.stringify(s.value)}`);
+    // Group proposals by equal value.
+    const groups = [];
+    for (const p of proposals) {
+      const g = groups.find((x) => eqValue(field, x.value, p.value));
+      if (g) g.paths.push(p.path);
+      else groups.push({ value: p.value, paths: [p.path] });
     }
-    console.log(`    winner: ${c.winner}`);
+
+    if (groups.length === 1) {
+      const { value, paths } = groups[0];
+      const isNewValue = !eqValue(field, value, baseVal);
+      if (isNewValue) merged[field] = value;
+      // Multi-file agreement on a new value the base lacked: extras are
+      // independent reviewers who saw the same value. Skip when the value
+      // matches the base (no work was done) or when only one file touched
+      // the field (no agreement to record).
+      if (REVIEW_FIELDS.includes(field) && isNewValue && paths.length > 1) {
+        agreementBonuses[field] = paths.length - 1;
+      }
+    } else {
+      // Disagreement. Field stays at base; record a conflict.
+      conflictedFields.add(field);
+      allConflicts.push({
+        qid, field, baseVal,
+        proposals: groups.map((g) => ({ value: g.value, paths: g.paths })),
+      });
+    }
+  }
+
+  // ---- reviews merge ----
+  // For each reviewable field, sum positive deltas vs base from each file
+  // whose value for that field agreed with the merged outcome. Conflicted
+  // fields contribute nothing — those reviewers were looking at a value
+  // that didn't win.
+  //
+  // If the merged value DIFFERS from the base value, the base reviews
+  // count is stale (it referred to a different value) and resets to 0,
+  // matching editing.js's setField behavior — the merge then adds
+  // confirmations from files that agreed on the new value.
+  const baseReviews = baseEntry.reviews ?? {};
+  const mergedReviews = { ...baseReviews };
+  for (const field of REVIEW_FIELDS) {
+    if (conflictedFields.has(field)) continue;
+    const winningValue = merged[field] ?? baseEntry[field];
+    const valueChanged = !eqValue(field, winningValue, baseEntry[field]);
+    const baseCount = valueChanged ? 0 : (baseReviews[field] ?? 0);
+    if (valueChanged) delete mergedReviews[field];
+    let delta = 0;
+    for (const { entry } of fileEntries) {
+      const fileReviews = entry.reviews ?? {};
+      const fileCount = fileReviews[field];
+      if (typeof fileCount !== "number") continue;
+      // If this file set a value for `field` that doesn't match the
+      // winning value, drop its review for that field. If the file didn't
+      // set a value at all, it's reviewing the existing value — fine.
+      const fileValue = entry[field];
+      if (fileValue !== undefined && !eqValue(field, fileValue, winningValue)) continue;
+      const diff = fileCount - baseCount;
+      if (diff > 0) delta += diff;
+    }
+    if (agreementBonuses[field]) delta += agreementBonuses[field];
+    const next = baseCount + delta;
+    if (next > 0) mergedReviews[field] = next;
+    else if (field in mergedReviews) delete mergedReviews[field];
+  }
+  if (Object.keys(mergedReviews).length > 0) merged.reviews = mergedReviews;
+  else delete merged.reviews;
+
+  return merged;
+}
+
+// Gather every QID mentioned anywhere.
+const allQids = new Set(Object.keys(base));
+for (const { obj } of inputs) for (const q of Object.keys(obj)) allQids.add(q);
+
+const mergedAll = {};
+for (const qid of allQids) {
+  const m = mergeQid(qid);
+  if (Object.keys(m).length > 0) mergedAll[qid] = m;
+}
+
+// ---------------------------------------------------------------------------
+// Report
+// ---------------------------------------------------------------------------
+
+let touched = 0;
+for (const qid of allQids) {
+  const beforeStr = JSON.stringify(base[qid] ?? null);
+  const afterStr = JSON.stringify(mergedAll[qid] ?? null);
+  if (beforeStr !== afterStr) touched++;
+}
+
+console.log("per-file contribution:");
+for (const { path, obj } of inputs) {
+  let novel = 0, agreed = 0;
+  for (const qid of Object.keys(obj)) {
+    const baseEntry = base[qid] ?? {};
+    const entry = obj[qid];
+    for (const k of Object.keys(entry)) {
+      if (k === "reviews") continue;
+      if (eqValue(k, entry[k], baseEntry[k])) agreed++;
+      else novel++;
+    }
+  }
+  console.log(`  ${path}: ${novel} novel field-edits, ${agreed} agreed-with-base`);
+}
+console.log();
+
+console.log(
+  `overall: ${touched} QIDs touched, ${allConflicts.length} field-level conflict${allConflicts.length === 1 ? "" : "s"}`,
+);
+console.log();
+
+if (allConflicts.length > 0) {
+  console.log("CONFLICTS (field stays at base value, needs a human follow-up):");
+  for (const c of allConflicts) {
+    console.log(`  ${c.qid}.${c.field}`);
+    console.log(`    base:  ${JSON.stringify(c.baseVal)}`);
+    for (const p of c.proposals) {
+      const files = p.paths.map((x) => x.split(/[\\/]/).pop()).join(", ");
+      console.log(`    ${JSON.stringify(p.value)}  (from: ${files})`);
+    }
   }
   console.log();
 }
 
 if (DRY) {
-  console.log("--dry: not writing.");
-  process.exit(conflicts.length > 0 ? 1 : 0);
+  console.log("--dry: not writing, not building, not staging.");
+  process.exit(allConflicts.length > 0 ? 1 : 0);
 }
 
-// Atomic write (matches build script's pattern).
+// ---------------------------------------------------------------------------
+// Write merged overrides.json (numeric QID sort, canonical order)
+// ---------------------------------------------------------------------------
+
+const sorted = {};
+for (const k of Object.keys(mergedAll).sort((a, b) => Number(a.slice(1)) - Number(b.slice(1)))) {
+  sorted[k] = mergedAll[k];
+}
 const text = JSON.stringify(sorted, null, 2) + "\n";
 const tmp = `${BASE_PATH}.tmp`;
 await writeFile(tmp, text);
 await rename(tmp, BASE_PATH);
 console.log(`wrote ${BASE_PATH} (${Object.keys(sorted).length} entries).`);
 
-process.exit(conflicts.length > 0 ? 1 : 0);
+if (NO_BUILD) {
+  console.log("--no-build: skipping build + stage. Run `npm run build` yourself when ready.");
+  process.exit(allConflicts.length > 0 ? 1 : 0);
+}
+
+// ---------------------------------------------------------------------------
+// Build + stage (same flow as apply:overrides)
+// ---------------------------------------------------------------------------
+
+console.log();
+console.log("running npm run build...");
+console.log();
+
+// shell:true is required on Windows since Node 20+ tightened its spawn
+// safety for .cmd / .bat files (spawn would otherwise throw EINVAL).
+const build = spawn(
+  process.platform === "win32" ? "npm.cmd" : "npm",
+  ["run", "build"],
+  { cwd: ROOT, stdio: "inherit", shell: process.platform === "win32" },
+);
+const buildCode = await new Promise((res) => build.on("close", res));
+if (buildCode !== 0) {
+  console.error(`\nbuild failed with exit code ${buildCode}.`);
+  console.error("data/overrides.json HAS been updated; flags.json may be inconsistent.");
+  console.error("fix the build error, re-run `npm run build`, then commit.");
+  process.exit(buildCode);
+}
+
+console.log();
+console.log("staging changes...");
+const stage = spawn(
+  "git",
+  ["add", "-A",
+    "data/overrides.json",
+    "data/flags.json",
+    "data/non-flag-qids.json",
+    "data/review.json",
+    "data/.cache/redirects.json",
+    "data/missing-flag-entities-auto.json",
+    "data/missing-p7417.json",
+    "flags/thumb",
+    "flags/full",
+    "flags/local",
+  ],
+  { cwd: ROOT, stdio: "inherit" },
+);
+await new Promise((res) => stage.on("close", res));
+
+const diff = spawn("git", ["diff", "--cached", "--stat"], { cwd: ROOT, stdio: "inherit" });
+await new Promise((res) => diff.on("close", res));
+
+console.log();
+console.log("ready to commit. Suggested:");
+console.log(`  git commit -m "merge curated overrides from ${inputs.length} reviewer${inputs.length === 1 ? "" : "s"}"`);
+console.log("  git push");
+
+process.exit(allConflicts.length > 0 ? 1 : 0);

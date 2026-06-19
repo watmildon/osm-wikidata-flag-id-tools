@@ -111,9 +111,11 @@ console.log();
 console.log("running npm run build...");
 console.log();
 
+// shell:true on Windows: Node 20+ throws EINVAL otherwise on .cmd files.
 const build = spawn(process.platform === "win32" ? "npm.cmd" : "npm", ["run", "build"], {
   cwd: ROOT,
   stdio: "inherit",
+  shell: process.platform === "win32",
 });
 const buildCode = await new Promise((res) => build.on("close", res));
 if (buildCode !== 0) {

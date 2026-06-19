@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18T07:08:44.204Z",
+  "generated": "2026-06-19T02:37:12.305Z",
   "palette": [
     "red",
     "white",
@@ -439,6 +439,23 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q8886",
+      "name": "European Council",
+      "count": 1,
+      "file": "European Council (38185339475).jpg",
+      "reverseFile": null,
+      "isFlagEntity": false,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "European Council",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q9337",
@@ -889,7 +906,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 285,
+      "count": 286,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -991,7 +1008,7 @@
         "subject:wikidata": "Q1456"
       },
       "aliases": [],
-      "description": "A dark blue field bearing a white palmetto tree in the center and a white crescent in the upper hoist corner.",
+      "description": "A blue field bearing a white palmetto tree in the center and a white crescent in the upper hoist corner.",
       "wdColors": [
         "blue",
         "white"
@@ -1001,8 +1018,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
-        "description": 1
+        "colors": 1
       }
     },
     {
@@ -1303,7 +1319,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q30934",
@@ -1435,7 +1454,10 @@
         "red",
         "white"
       ],
-      "description": "Three horizontal bands of red (top), black (double width), and green, with a white crescent and five-pointed star centered on the black band."
+      "description": "Three horizontal bands of red (top), black (double width), and green, with a white crescent and five-pointed star centered on the black band.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q35895",
@@ -1724,7 +1746,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16629,
+      "count": 16638,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1861,7 +1883,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2350,
+      "count": 2352,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3954,7 +3976,10 @@
         "red",
         "yellow"
       ],
-      "description": "A green field with a horizontal red stripe along the top and bottom, and a centered yellow crescent (opening upward) cradling a yellow five-pointed star."
+      "description": "A green field with a horizontal red stripe along the top and bottom, and a centered yellow crescent (opening upward) cradling a yellow five-pointed star.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q102987",
@@ -4103,7 +4128,10 @@
         "red",
         "white"
       ],
-      "description": "Two equal horizontal bands of red (top) and green in the fly, with a vertical white band along the hoist."
+      "description": "Two equal horizontal bands of red (top) and green in the fly, with a vertical white band along the hoist.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q103037",
@@ -4327,7 +4355,10 @@
         "red",
         "white"
       ],
-      "description": "Divided by a white saltire (X-shape) edged in white into four quadrants: top and bottom are red, hoist and fly are green. A centered white disc bears three red six-pointed stars edged in green arranged in a triangle."
+      "description": "Divided by a white saltire (X-shape) edged in white into four quadrants: top and bottom are red, hoist and fly are green. A centered white disc bears three red six-pointed stars edged in green arranged in a triangle.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q103414",
@@ -4457,7 +4488,6 @@
         "black",
         "blue",
         "green",
-        "purple",
         "white"
       ],
       "icons": [],
@@ -4482,7 +4512,10 @@
         "purple",
         "white"
       ],
-      "description": "Three equal horizontal bands of blue (top), white, and green, with a black Basotho hat (mokorotlo) centered on the white band."
+      "description": "Three equal horizontal bands of blue (top), white, and green, with a black Basotho hat (mokorotlo) centered on the white band.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q105037",
@@ -5336,7 +5369,10 @@
         "red",
         "yellow"
       ],
-      "description": "A vertical green band at the hoist, with two horizontal bands in the fly: yellow (top) and red."
+      "description": "A vertical green band at the hoist, with two horizontal bands in the fly: yellow (top) and red.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q130449",
@@ -5440,7 +5476,10 @@
         "red",
         "white"
       ],
-      "description": "A vertical white band at the hoist with five triangular serrations separating it from the red field that covers the rest of the flag."
+      "description": "A vertical white band at the hoist with five triangular serrations separating it from the red field that covers the rest of the flag.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q130774",
@@ -5934,7 +5973,10 @@
         "red",
         "yellow"
       ],
-      "description": "Two equal horizontal bands of red (top) and green, with a yellow five-pointed star centered."
+      "description": "Two equal horizontal bands of red (top) and green, with a yellow five-pointed star centered.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q134521",
@@ -5971,12 +6013,15 @@
         "white",
         "yellow"
       ],
-      "description": "Divided diagonally from the lower hoist to the upper fly: the upper triangle is yellow, the lower is orange. A white dragon holding white jewels in its claws straddles the diagonal, facing the fly."
+      "description": "Divided diagonally from the lower hoist to the upper fly: the upper triangle is yellow, the lower is orange. A white dragon holding white jewels in its claws straddles the diagonal, facing the fly.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1209,
+      "count": 1210,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6137,11 +6182,10 @@
       "file": "Flag of The Gambia.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "green",
-        "purple",
         "red",
-        "white"
+        "white",
+        "darkblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -6166,7 +6210,10 @@
         "red",
         "white"
       ],
-      "description": "Five horizontal bands: red (top), white (narrow), blue, white (narrow), and green."
+      "description": "Five horizontal bands: red (top), white (narrow), blue, white (narrow), and green.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q135034",
@@ -6273,7 +6320,10 @@
         "red",
         "white"
       ],
-      "description": "Two equal horizontal bands of white (top) and green."
+      "description": "Two equal horizontal bands of white (top) and green.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q148807",
@@ -7190,7 +7240,10 @@
         "red",
         "white"
       ],
-      "description": "Three equal horizontal bands of red (top), white, and black."
+      "description": "Three equal horizontal bands of red (top), white, and black.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q162781",
@@ -7571,7 +7624,10 @@
         "red",
         "yellow"
       ],
-      "description": "A red field bearing a yellow hammer crossed with a yellow sickle in the upper hoist, surmounted by a small yellow five-pointed star outlined in yellow."
+      "description": "A red field bearing a yellow hammer crossed with a yellow sickle in the upper hoist, surmounted by a small yellow five-pointed star outlined in yellow.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q165247",
@@ -7906,7 +7962,6 @@
       "file": "Flag of Chad.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "yellow"
@@ -7932,7 +7987,10 @@
         "darkblue",
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q165822",
@@ -7941,7 +7999,6 @@
       "file": "Flag of Namibia.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "green",
         "red",
@@ -7973,7 +8030,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q165872",
@@ -8440,7 +8500,10 @@
         "red",
         "white"
       ],
-      "description": "A red field with a green vertical rectangle centered, bearing a white crescent opening toward the fly."
+      "description": "A red field with a green vertical rectangle centered, bearing a white crescent opening toward the fly.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q169903",
@@ -8485,7 +8548,8 @@
       "colors": [
         "green",
         "red",
-        "yellow"
+        "yellow",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -8508,7 +8572,10 @@
         "red",
         "yellow"
       ],
-      "description": "Three horizontal bands of green (top), yellow (double width), and green, with a red isosceles triangle at the hoist and two black five-pointed stars centered on the yellow band."
+      "description": "Three horizontal bands of green (top), yellow (double width), and green, with a red isosceles triangle at the hoist and two black five-pointed stars centered on the yellow band.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q170064",
@@ -8643,7 +8710,6 @@
       "file": "Flag of Rwanda.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "green",
         "lightblue",
         "yellow"
@@ -8669,7 +8735,10 @@
         "lightblue",
         "yellow"
       ],
-      "description": "Three horizontal bands of light blue (top, double width), yellow, and green, with a yellow sun with 24 rays in the upper fly of the blue band."
+      "description": "Three horizontal bands of light blue (top, double width), yellow, and green, with a yellow sun with 24 rays in the upper fly of the blue band.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q170554",
@@ -8764,7 +8833,6 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "darkblue",
         "red",
         "white"
       ],
@@ -8789,7 +8857,10 @@
         "red",
         "white"
       ],
-      "description": "Eleven equal horizontal stripes of red and white alternating (six red, five white), with a blue square canton in the upper hoist bearing a single white five-pointed star."
+      "description": "Eleven equal horizontal stripes of red and white alternating (six red, five white), with a blue square canton in the upper hoist bearing a single white five-pointed star.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q170809",
@@ -9130,7 +9201,6 @@
       "file": "Flag of Seychelles.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "green",
         "red",
@@ -9162,7 +9232,10 @@
         "white",
         "yellow"
       ],
-      "description": "Five diagonal bands of color radiating from the lower hoist corner toward the fly: blue, yellow, red, white, and green (top to bottom)."
+      "description": "Five diagonal bands of color radiating from the lower hoist corner toward the fly: blue, yellow, red, white, and green (top to bottom).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q173535",
@@ -9491,7 +9564,10 @@
         "white",
         "yellow"
       ],
-      "description": "Divided diagonally from the lower hoist to the upper fly by a black band edged in yellow. The upper triangle is green; the lower triangle is red. Two white five-pointed stars are placed on the black band."
+      "description": "Divided diagonally from the lower hoist to the upper fly by a black band edged in yellow. The upper triangle is green; the lower triangle is red. Two white five-pointed stars are placed on the black band.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q181642",
@@ -9875,7 +9951,6 @@
       "file": "Flag of Nauru.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "white",
         "yellow"
@@ -9901,7 +9976,10 @@
         "darkblue",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q185285",
@@ -10043,7 +10121,10 @@
         "red",
         "white"
       ],
-      "description": "A red field with a centered stylized white five-petaled bauhinia (orchid tree) flower, each petal bearing a small red five-pointed star."
+      "description": "A red field with a centered stylized white five-petaled bauhinia (orchid tree) flower, each petal bearing a small red five-pointed star.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q188072",
@@ -10074,7 +10155,10 @@
       "svgColors": [
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q188477",
@@ -10118,7 +10202,6 @@
       "file": "Flag of Palau.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "lightblue",
         "yellow"
       ],
@@ -10141,7 +10224,10 @@
         "blue",
         "yellow"
       ],
-      "description": "A light blue field with a large yellow disc centered slightly toward the hoist."
+      "description": "A light blue field with a large yellow disc centered slightly toward the hoist.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q188839",
@@ -10371,7 +10457,10 @@
         "lightblue",
         "white"
       ],
-      "description": "A light blue field bearing four white five-pointed stars arranged in a cross pattern (one top, one bottom, one each side) centered."
+      "description": "A light blue field bearing four white five-pointed stars arranged in a cross pattern (one top, one bottom, one each side) centered.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q191731",
@@ -10407,7 +10496,10 @@
         "red",
         "white"
       ],
-      "description": "Three equal horizontal bands of black (top), white, and green, with a red equilateral triangle at the hoist."
+      "description": "Three equal horizontal bands of black (top), white, and green, with a red equilateral triangle at the hoist.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q192119",
@@ -10510,7 +10602,10 @@
         "red",
         "white"
       ],
-      "description": "Seven horizontal bands alternating green and white (four green, three white). A red rectangle in the upper hoist canton bears a white open right hand surrounded by seven small white five-pointed stars in an arc."
+      "description": "Seven horizontal bands alternating green and white (four green, three white). A red rectangle in the upper hoist canton bears a white open right hand surrounded by seven small white five-pointed stars in an arc.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q200260",
@@ -10649,7 +10744,10 @@
         "red",
         "yellow"
       ],
-      "description": "A blue field with a yellow Nordic cross overlaid by a thinner red Nordic cross, both shifted toward the hoist."
+      "description": "A blue field with a yellow Nordic cross overlaid by a thinner red Nordic cross, both shifted toward the hoist.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q204120",
@@ -10803,7 +10901,10 @@
         "red",
         "white"
       ],
-      "description": "A white field with a red horizontal stripe near the top and another near the bottom, and a centered red crescent moon facing the fly with a red five-pointed star to its right."
+      "description": "A white field with a red horizontal stripe near the top and another near the bottom, and a centered red crescent moon facing the fly with a red five-pointed star to its right.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q207587",
@@ -11223,7 +11324,10 @@
         "white",
         "yellow"
       ],
-      "description": "A green field bearing a centered white lotus flower of three petals above white horizontal lines (water), with five small yellow five-pointed stars arched above (one large in the center, two on each side)."
+      "description": "A green field bearing a centered white lotus flower of three petals above white horizontal lines (water), with five small yellow five-pointed stars arched above (one large in the center, two on each side).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q241083",
@@ -11427,7 +11531,7 @@
         "subject:wikidata": "Q759"
       },
       "aliases": [],
-      "description": "A blue field bearing the New Hampshire state seal centered: the frigate USS Raleigh on water, encircled by a golden laurel wreath and nine golden stars.",
+      "description": "A blue field bearing the New Hampshire state seal centered: the frigate USS Raleigh on water, encircled by a green laurel wreath and nine golden stars.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -11652,7 +11756,10 @@
         "white",
         "yellow"
       ],
-      "description": "A blue field with the Kansas state seal centered (a landscape scene with mountains, a steamboat, a wagon train, and \"AD ASTRA PER ASPERA\" in a banner, surrounded by 34 five-pointed stars). Above the seal sits a sunflower with a yellow-and-blue twist below; \"KANSAS\" appears in yellow letters below."
+      "description": "A blue field with the Kansas state seal centered (a landscape scene with mountains, a steamboat, a wagon train, and \"AD ASTRA PER ASPERA\" in a banner, surrounded by 34 five-pointed stars). Above the seal sits a sunflower with a yellow-and-blue twist below; \"KANSAS\" appears in yellow letters below.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q285418",
@@ -12079,7 +12186,10 @@
         "white",
         "yellow"
       ],
-      "description": "A blue field bearing a centered yellow bird with wings spread, standing on a grey stone wall (representation of the historical castle of Udine)."
+      "description": "A blue field bearing a centered yellow bird with wings spread, standing on a grey stone wall (representation of the historical castle of Udine).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q381988",
@@ -12183,9 +12293,12 @@
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
         "red",
-        "white"
+        "white",
+        "green",
+        "yellow",
+        "darkblue",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -12203,7 +12316,10 @@
         "red",
         "white"
       ],
-      "description": "A white field with the Guadeloupe regional logo centered: a stylized green-and-blue square with a yellow sun and a dark blue arc above, with black text \"REGION GUADELOUPE\" below the logo, and a small yellow rectangle at the bottom."
+      "description": "A white field with the Guadeloupe regional logo centered: a stylized green-and-blue square with a yellow sun and a dark blue arc above, with black text \"REGION GUADELOUPE\" below the logo, and a small yellow rectangle at the bottom.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q392167",
@@ -13022,11 +13138,10 @@
         "black",
         "blue",
         "brown",
-        "gray",
         "green",
-        "purple",
         "red",
         "white",
+        "gray",
         "yellow"
       ],
       "icons": [],
@@ -14067,7 +14182,10 @@
       "svgColors": [
         "red",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q618036",
@@ -14122,7 +14240,7 @@
         "red",
         "yellow"
       ],
-      "description": "Alternating vertical stripes of five yellow and four red.",
+      "description": "Alternating vertical stripes of yellow and red.",
       "reviews": {
         "colors": 1
       }
@@ -14149,7 +14267,10 @@
         "blue",
         "white"
       ],
-      "description": "Five equal horizontal bands of blue and white alternating (three blue, two white)."
+      "description": "Five equal horizontal bands of blue and white alternating (three blue, two white).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q629857",
@@ -14236,7 +14357,7 @@
         "subject:wikidata": "Q816"
       },
       "aliases": [],
-      "description": "Thirteen rays of red and gold alternating in the top half of the flag (seven red and six gold). A copper-colored five-pointed star is centered, with the bottom half of the flag in dark blue.",
+      "description": "Thirteen rays of red and gold alternating in the top half of the flag (six red and seven gold, or vice versa). A copper-colored five-pointed star is centered, with the bottom half of the flag in dark blue.",
       "wdColors": [
         "yellow",
         "blue",
@@ -14350,7 +14471,7 @@
         "subject:wikidata": "Q1973"
       },
       "aliases": [],
-      "description": "A horizontal flag divided into two parts: the top third is a Union Jack with a small golden crown in the center, while the bottom two-thirds shows a setting golden sun over wavy blue and white horizontal lines.",
+      "description": "A horizontal flag divided into three parts: the top third is a Union Jack defaced in the center with a golden crown, while the bottom two-thirds shows a setting golden sun over wavy blue and white horizontal lines.",
       "wdColors": [
         "blue",
         "red",
@@ -14596,7 +14717,6 @@
       "file": "Flag of Canton of Zürich.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "lightblue",
         "white"
       ],
@@ -14613,7 +14733,10 @@
         "lightblue",
         "white"
       ],
-      "description": "A square field divided diagonally from the upper hoist to the lower fly: the lower-left triangle is blue, the upper-right triangle is white."
+      "description": "A square field divided diagonally from the upper hoist to the lower fly: the lower-left triangle is blue, the upper-right triangle is white.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q682443",
@@ -14724,7 +14847,10 @@
         "green",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q693558",
@@ -14809,7 +14935,10 @@
         "green",
         "white"
       ],
-      "description": "Two equal horizontal bands of white (top) and green."
+      "description": "Two equal horizontal bands of white (top) and green.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q693717",
@@ -14947,7 +15076,10 @@
       "svgColors": [
         "yellow"
       ],
-      "description": "Two equal horizontal bands of black (top) and yellow."
+      "description": "Two equal horizontal bands of black (top) and yellow.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q701755",
@@ -15147,7 +15279,7 @@
         "subject:wikidata": "Q829"
       },
       "aliases": [],
-      "description": "Split into three roughly equal horizontal parts with dark blue (top), white, and red. They are not cut evenly across. The white is the outline of mountains. The red has a cutout to accommodate the central emblem. On the white band is a gold-outlined blue hexagon containing a gold beehive above a five-pointed white star.",
+      "description": "Three horizontal bands of blue (top), white, and red (the white band wider than the others). On the white band is a gold-outlined blue hexagon containing a gold beehive above a five-pointed white star.",
       "wdColors": [],
       "svgColors": [
         "darkblue",
@@ -15506,7 +15638,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 378,
+      "count": 379,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15955,7 +16087,10 @@
         "red",
         "white"
       ],
-      "description": "Three horizontal bands of red (top, narrow), white (wide), and red (bottom, narrow), with a black bear rampant facing the hoist slightly left of center on the white band."
+      "description": "Three horizontal bands of red (top, narrow), white (wide), and red (bottom, narrow), with a black bear rampant facing the hoist slightly left of center on the white band.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q821112",
@@ -16199,7 +16334,10 @@
         "white",
         "yellow"
       ],
-      "description": "A white field with a navy blue border, bearing the state coat of arms centered: two men flanking a rock inscribed \"June 20, 1863\" with mining and farming tools, surrounded by a wreath of green rhododendron with red flowers, beneath a red banner reading \"STATE OF WEST VIRGINIA\" and above a red ribbon reading \"MONTANI SEMPER LIBERI\"."
+      "description": "A white field with a navy blue border, bearing the state coat of arms centered: two men flanking a rock inscribed \"June 20, 1863\" with mining and farming tools, surrounded by a wreath of green rhododendron with red flowers, beneath a red banner reading \"STATE OF WEST VIRGINIA\" and above a red ribbon reading \"MONTANI SEMPER LIBERI\".",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q846153",
@@ -16371,7 +16509,10 @@
         "red",
         "white"
       ],
-      "description": "A white field with two horizontal red stripes in the lower half and three red five-pointed stars arranged horizontally near the top."
+      "description": "A white field with two horizontal red stripes in the lower half and three red five-pointed stars arranged horizontally near the top.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q908666",
@@ -16512,7 +16653,10 @@
         "green",
         "yellow"
       ],
-      "description": "A yellow field bearing a centered coiled rattlesnake on green grass, with \"DONT TREAD ON ME\" in black letters below."
+      "description": "A yellow field bearing a centered coiled rattlesnake on green grass, with \"DONT TREAD ON ME\" in black letters below.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q920166",
@@ -16855,7 +16999,6 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "darkblue",
         "red",
         "white"
       ],
@@ -16879,7 +17022,10 @@
         "red",
         "white"
       ],
-      "description": "A field of diagonal stripes (white and blue, alternating, running from upper hoist to lower fly), with seven red pompeblêden (water-lily leaf shapes) scattered across the white stripes."
+      "description": "A field of diagonal stripes (white and blue, alternating, running from upper hoist to lower fly), with seven red pompeblêden (water-lily leaf shapes) scattered across the white stripes.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1010514",
@@ -17382,7 +17528,10 @@
       "svgColors": [
         "green",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1151675",
@@ -17544,7 +17693,10 @@
         "white",
         "yellow"
       ],
-      "description": "A square field made of a 7x7 grid of colored squares, with the rainbow colors (white, yellow, orange, red, purple, blue, green) arranged diagonally to form stripes running from the upper hoist to the lower fly."
+      "description": "A square field made of a 7x7 grid of colored squares, with the rainbow colors (white, yellow, orange, red, purple, blue, green) arranged diagonally to form stripes running from the upper hoist to the lower fly.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1205753",
@@ -17918,7 +18070,7 @@
     {
       "qid": "Q1402799",
       "name": "flag of Chicago",
-      "count": 402,
+      "count": 403,
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -18064,7 +18216,7 @@
         "subject:wikidata": "Q1965"
       },
       "aliases": [],
-      "description": "A horizontal flag divided into two parts. The top third is a red field bearing a gold lion passant; the bottom two-thirds is a gold field with a black lymphad (medieval ship) above blue and white wavy horizontal lines.",
+      "description": "A horizontal flag divided in thirds. The top third is a red field bearing a gold lion passant; the bottom two-thirds is a gold field with a black lymphad (medieval ship) above blue and white wavy horizontal lines.",
       "wdColors": [
         "blue",
         "red",
@@ -18808,7 +18960,10 @@
         "green",
         "white"
       ],
-      "description": "Three equal horizontal bands of green (top), white, and green."
+      "description": "Three equal horizontal bands of green (top), white, and green.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1861098",
@@ -18894,7 +19049,10 @@
         "white",
         "yellow"
       ],
-      "description": "Three horizontal bands of blue (top), yellow (with wavy boundaries), and green. A stylized white fleur-de-lis sits in the upper hoist on the blue band."
+      "description": "Three horizontal bands of blue (top), yellow (with wavy boundaries), and green. A stylized white fleur-de-lis sits in the upper hoist on the blue band.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1919103",
@@ -18903,7 +19061,8 @@
       "file": "Flag of Cornwall.svg",
       "isFlagEntity": true,
       "colors": [
-        "white"
+        "white",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -18916,7 +19075,10 @@
       "svgColors": [
         "white"
       ],
-      "description": "A black field bearing a white cross extending to the edges."
+      "description": "A black field bearing a white cross extending to the edges.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q1922718",
@@ -19451,7 +19613,10 @@
         "red",
         "white"
       ],
-      "description": "Two equal horizontal bands of white (top) and red, with a red square in the upper hoist bearing a small white cross extending to its edges."
+      "description": "Two equal horizontal bands of white (top) and red, with a red square in the upper hoist bearing a small white cross extending to its edges.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2133401",
@@ -19891,7 +20056,10 @@
         "red",
         "white"
       ],
-      "description": "A checkerboard pattern of red and white squares (six columns by four rows)."
+      "description": "A checkerboard pattern of red and white squares (six columns by four rows).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2263781",
@@ -19951,7 +20119,10 @@
         "black",
         "white"
       ],
-      "description": "A white field bearing a black silhouette of a Moor's head in profile facing the hoist, wearing a white headband (the Moor of Corsica)."
+      "description": "A white field bearing a black silhouette of a Moor's head in profile facing the hoist, wearing a white headband (the Moor of Corsica).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2265085",
@@ -19984,7 +20155,10 @@
         "red",
         "white"
       ],
-      "description": "A white field with a horizontal red stripe along the top and bottom. Centered between them, six red five-pointed stars (three to each side) flank a black tower silhouette."
+      "description": "A white field with a horizontal red stripe along the top and bottom. Centered between them, six red five-pointed stars (three to each side) flank a black tower silhouette.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2271903",
@@ -20036,7 +20210,6 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "darkblue",
         "red",
         "white"
       ],
@@ -20057,7 +20230,10 @@
         "red",
         "white"
       ],
-      "description": "Four equal horizontal bands of white (top), red, white, and red, with a blue square in the upper hoist (the height of two stripes) bearing a white isosceles triangle pointing upward."
+      "description": "Four equal horizontal bands of white (top), red, white, and red, with a blue square in the upper hoist (the height of two stripes) bearing a white isosceles triangle pointing upward.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2284326",
@@ -20178,7 +20354,6 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "darkblue",
         "red",
         "yellow"
       ],
@@ -20202,7 +20377,10 @@
         "red",
         "yellow"
       ],
-      "description": "Five horizontal bands: red (narrow top), yellow, blue wavy band (middle), yellow, red (narrow bottom)."
+      "description": "Five horizontal bands: red (narrow top), yellow, blue wavy band (middle), yellow, red (narrow bottom).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2340565",
@@ -20266,8 +20444,8 @@
       "file": "Bonnie Blue flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "purple",
-        "white"
+        "white",
+        "darkblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -20281,7 +20459,10 @@
         "purple",
         "white"
       ],
-      "description": "A solid dark blue field with a single large white five-pointed star centered."
+      "description": "A solid dark blue field with a single large white five-pointed star centered.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2361840",
@@ -20309,7 +20490,10 @@
       "svgColors": [
         "white"
       ],
-      "description": "A blue field bearing the Union Flag (without the saltire of Saint Patrick): a white Saint Andrew's saltire overlaid by a red Saint George's cross fimbriated in white."
+      "description": "A blue field bearing the Union Flag (without the saltire of Saint Patrick): a white Saint Andrew's saltire overlaid by a red Saint George's cross fimbriated in white.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2364473",
@@ -20807,7 +20991,6 @@
       "file": "Flag of the United States (1776–1777).svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white"
@@ -20829,7 +21012,10 @@
         "red",
         "white"
       ],
-      "description": "Thirteen alternating horizontal stripes of red and white (seven red, six white), with the British Union Jack (without the red saltire of Saint Patrick) in the upper hoist canton."
+      "description": "Thirteen alternating horizontal stripes of red and white (seven red, six white), with the British Union Jack (without the red saltire of Saint Patrick) in the upper hoist canton.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2516219",
@@ -21039,7 +21225,10 @@
         "blue",
         "yellow"
       ],
-      "description": "Three equal horizontal bands of blue (top), yellow, and black."
+      "description": "Three equal horizontal bands of blue (top), yellow, and black.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2600445",
@@ -21093,7 +21282,10 @@
         "red",
         "yellow"
       ],
-      "description": "Three equal horizontal bands of yellow (top), red, and blue."
+      "description": "Three equal horizontal bands of yellow (top), red, and blue.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2616930",
@@ -21125,7 +21317,10 @@
         "red",
         "yellow"
       ],
-      "description": "A yellow field bearing a red lion rampant outlined in black, facing the hoist."
+      "description": "A yellow field bearing a red lion rampant outlined in black, facing the hoist.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2620742",
@@ -21358,7 +21553,10 @@
         "red",
         "white"
       ],
-      "description": "Two equal horizontal bands of red (top) and white."
+      "description": "Two equal horizontal bands of red (top) and white.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2666488",
@@ -21669,9 +21867,9 @@
       "file": "Flag of Ottawa, Ontario.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
         "green",
-        "white"
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21686,7 +21884,10 @@
         "green",
         "white"
       ],
-      "description": "A blue field at the hoist and a green field in the fly, with a stylized white \"O\" (Ottawa monogram) overlapping the boundary between the two colors."
+      "description": "A blue field at the hoist and a green field in the fly, with a stylized white \"O\" (Ottawa monogram) overlapping the boundary between the two colors.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2790848",
@@ -21793,7 +21994,10 @@
         "red",
         "white"
       ],
-      "description": "Three equal vertical bands of dark red (hoist), white, and light blue, with a brown sun centered on the white band (a face surrounded by wavy and straight rays)."
+      "description": "Three equal vertical bands of dark red (hoist), white, and light blue, with a brown sun centered on the white band (a face surrounded by wavy and straight rays).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2897956",
@@ -21983,7 +22187,10 @@
         "white",
         "yellow"
       ],
-      "description": "A white field bordered in gold, bearing a centered brown phoenix rising from a red flaming crown, with a white banner below reading \"ORO EN PAZ FIERRO EN GUERRA\" and \"SAN FRANCISCO\" in blue letters along the bottom."
+      "description": "A white field bordered in gold, bearing a centered brown phoenix rising from a red flaming crown, with a white banner below reading \"ORO EN PAZ FIERRO EN GUERRA\" and \"SAN FRANCISCO\" in blue letters along the bottom.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2919871",
@@ -22066,7 +22273,10 @@
         "red",
         "yellow"
       ],
-      "description": "A field divided into a rayonné pattern of alternating blue and yellow triangular rays radiating from the center, with a red escutcheon (small shield) centered."
+      "description": "A field divided into a rayonné pattern of alternating blue and yellow triangular rays radiating from the center, with a red escutcheon (small shield) centered.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q2963308",
@@ -22154,7 +22364,10 @@
         "red",
         "white"
       ],
-      "description": "A blue field divided by a white cross (vertical and horizontal bands) with a red disc centered at the intersection bearing a white five-pointed star."
+      "description": "A blue field divided by a white cross (vertical and horizontal bands) with a red disc centered at the intersection bearing a white five-pointed star.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q3038998",
@@ -22265,7 +22478,8 @@
         "purple",
         "red",
         "white",
-        "yellow"
+        "yellow",
+        "orange"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -22284,7 +22498,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q3039042",
@@ -22475,7 +22692,10 @@
         "red",
         "white"
       ],
-      "description": "A blue field bearing a red Saint George's cross (vertical and horizontal red bands) fimbriated in white, overlaid on a white saltire (combined with a red saltire of Saint Patrick, both fimbriated)."
+      "description": "A blue field bearing a red Saint George's cross (vertical and horizontal red bands) fimbriated in white, overlaid on a white saltire (combined with a red saltire of Saint Patrick, both fimbriated).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q3181430",
@@ -22870,7 +23090,10 @@
         "red",
         "white"
       ],
-      "description": "A white field bearing a red Saint George's cross (vertical and horizontal red bands) extending to the edges."
+      "description": "A white field bearing a red Saint George's cross (vertical and horizontal red bands) extending to the edges.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q3744856",
@@ -23388,8 +23611,10 @@
       "isFlagEntity": true,
       "colors": [
         "white",
+        "black",
         "yellow",
-        "green"
+        "green",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -23399,7 +23624,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "A green field with a vertical blue stripe down the center. Over the stripe, a yellow falcon stands with wings spread atop a horizontal scroll of white paper or fabric."
+      "description": "A green field with a vertical blue stripe down the center. Over the stripe, a yellow falcon stands with wings spread atop a horizontal scroll of white paper or fabric.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q4488105",
@@ -23845,7 +24073,6 @@
       "file": "Flag of Baton Rouge, Louisiana.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "blue",
         "darkblue",
         "red",
@@ -24037,7 +24264,6 @@
       "file": "Flag of Cincinnati, Ohio.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white"
@@ -24059,7 +24285,10 @@
         "darkblue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q5456733",
@@ -24183,7 +24412,10 @@
         "white",
         "yellow"
       ],
-      "description": "A horizontal bicolor of yellow (top) with white sunburst rays and orange (bottom). A brown equestrian statue (Andrew Jackson on horseback) is centered across the boundary, with \"CITY OF JACKSONVILLE, FLORIDA\" arched in white text below and a yellow silhouette of the county shape in the lower fly."
+      "description": "A horizontal bicolor of yellow (top) with white sunburst rays and orange (bottom). A brown equestrian statue (Andrew Jackson on horseback) is centered across the boundary, with \"CITY OF JACKSONVILLE, FLORIDA\" arched in white text below and a yellow silhouette of the county shape in the lower fly.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q5456761",
@@ -24363,7 +24595,6 @@
       "file": "Flag of New Orleans, Louisiana.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white",
@@ -24388,7 +24619,10 @@
         "white",
         "yellow"
       ],
-      "description": "Three horizontal bands of red (narrow, top), white (wide, middle), and dark blue (narrow, bottom), with three gold fleurs-de-lis arranged in a triangle (two above, one below) centered on the white band."
+      "description": "Three horizontal bands of red (narrow, top), white (wide, middle), and dark blue (narrow, bottom), with three gold fleurs-de-lis arranged in a triangle (two above, one below) centered on the white band.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q5456797",
@@ -24686,7 +24920,7 @@
     {
       "qid": "Q5456894",
       "name": "flag of the United States Air Force",
-      "count": 99,
+      "count": 100,
       "file": "Flag of the United States Air Force.svg",
       "isFlagEntity": true,
       "colors": [
@@ -24730,7 +24964,7 @@
     {
       "qid": "Q5456895",
       "name": "flag of the United States Coast Guard",
-      "count": 104,
+      "count": 105,
       "file": "Flag of the United States Coast Guard.svg",
       "isFlagEntity": true,
       "colors": [
@@ -24768,7 +25002,7 @@
     {
       "qid": "Q5456897",
       "name": "flag of the United States Marine Corps",
-      "count": 127,
+      "count": 128,
       "file": "Flag of the United States Marine Corps.svg",
       "isFlagEntity": true,
       "colors": [
@@ -24807,7 +25041,7 @@
     {
       "qid": "Q5456898",
       "name": "flag of the United States Army",
-      "count": 120,
+      "count": 121,
       "file": "Flag of the United States Army.svg",
       "isFlagEntity": true,
       "colors": [
@@ -24850,7 +25084,7 @@
     {
       "qid": "Q5456899",
       "name": "flag of the United States Navy",
-      "count": 108,
+      "count": 109,
       "file": "Flag of the United States Navy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -24875,7 +25109,7 @@
         "subject:wikidata": "Q11220"
       },
       "aliases": [],
-      "description": "A dark blue field with the seal of the U.S. Department of the Navy in the center: a bald eagle flying in front of a tall masted ship. A yellow scroll inscribed \"United States Navy\" in dark blue lettering appears below the seal.",
+      "description": "A dark blue field with the seal of the U.S. Department of the Navy in the center. A yellow scroll inscribed \"United States Navy\" in dark blue lettering appears below the seal.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -25277,7 +25511,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "Two equal horizontal bands of yellow (top) and red."
+      "description": "Two equal horizontal bands of yellow (top) and red.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q6393175",
@@ -25355,7 +25592,6 @@
       "file": "Flag of Fort Moultrie, South Carolina.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "white"
       ],
@@ -25374,7 +25610,10 @@
         "darkblue",
         "white"
       ],
-      "description": "A dark blue field with a white crescent moon in the upper hoist, the word \"LIBERTY\" in dark blue arched within the crescent's curve."
+      "description": "A dark blue field with a white crescent moon in the upper hoist, the word \"LIBERTY\" in dark blue arched within the crescent's curve.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q6950149",
@@ -25398,7 +25637,10 @@
         "red",
         "white"
       ],
-      "description": "A red field bearing a centered large white horizontal infinity symbol (figure-eight on its side)."
+      "description": "A red field bearing a centered large white horizontal infinity symbol (figure-eight on its side).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q7011777",
@@ -26120,7 +26362,10 @@
       "svgColors": [
         "black",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q11112064",
@@ -26599,7 +26844,10 @@
         "white",
         "yellow"
       ],
-      "description": "Five horizontal bands of red, blue, yellow, green, and white (top to bottom)."
+      "description": "Five horizontal bands of red, blue, yellow, green, and white (top to bottom).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q14515866",
@@ -26694,7 +26942,10 @@
         "green",
         "white"
       ],
-      "description": "Two equal horizontal bands of green (top) and white."
+      "description": "Two equal horizontal bands of green (top) and white.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q14956815",
@@ -27184,7 +27435,10 @@
       "flagName": "Matadepera",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q20900820",
@@ -27287,7 +27541,10 @@
       "svgColors": [
         "black",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q23979414",
@@ -27619,7 +27876,6 @@
       "file": "Flag of Marseille.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "lightblue",
         "white"
       ],
@@ -27638,7 +27894,10 @@
         "lightblue",
         "white"
       ],
-      "description": "A white field bearing a light blue Nordic-style cross (vertical and horizontal blue bands, with the vertical arm shifted toward the hoist)."
+      "description": "A white field bearing a light blue Nordic-style cross (vertical and horizontal blue bands, with the vertical arm shifted toward the hoist).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q30909105",
@@ -27855,7 +28114,10 @@
         "pink",
         "white"
       ],
-      "description": "Five equal horizontal bands of light blue, pink, white, pink, and light blue."
+      "description": "Five equal horizontal bands of light blue, pink, white, pink, and light blue.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q48790336",
@@ -27929,7 +28191,10 @@
         "blue",
         "white"
       ],
-      "description": "A blue field bearing a centered white stylized Greek temple façade with columns, pediment, and steps, with the white word \"UNESCO\" between the columns."
+      "description": "A blue field bearing a centered white stylized Greek temple façade with columns, pediment, and steps, with the white word \"UNESCO\" between the columns.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q56027897",
@@ -28404,7 +28669,6 @@
       "file": "Flag of the Roman Catholic Archdiocese of Cincinnati.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "red",
         "yellow"
       ],
@@ -28436,7 +28700,8 @@
         "black",
         "blue",
         "red",
-        "yellow"
+        "orange",
+        "lightblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -28452,7 +28717,10 @@
         "red",
         "yellow"
       ],
-      "description": "A blue field bearing a centered scalloped yellow circular border around a black ring of small yellow stars, enclosing a large red letter \"H\" with a small crown above it."
+      "description": "A blue field bearing a centered scalloped yellow circular border around a black ring of small yellow stars, enclosing a large red letter \"H\" with a small crown above it.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q62932637",
@@ -28655,7 +28923,10 @@
         "white",
         "yellow"
       ],
-      "description": "A white field with small gold fleurs-de-lis in regular rows."
+      "description": "A white field with small gold fleurs-de-lis in regular rows.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q63874568",
@@ -29925,7 +30196,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -29942,7 +30213,10 @@
         "white",
         "blue"
       ],
-      "description": "A white field with the Hampton Inn & Suites logo centered: an elongated blue hexagonal badge edged in red, with the words \"Hampton Inn & Suites\" in white script and \"by HILTON\" in white below."
+      "description": "A white field with the Hampton Inn & Suites logo centered: an elongated blue hexagonal badge edged in red, with the words \"Hampton Inn & Suites\" in white script and \"by HILTON\" in white below.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q70143393",
@@ -30193,9 +30467,9 @@
       "file": "HGI-Logo-Color HR.png",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "red",
-        "white"
+        "white",
+        "gray"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -30211,7 +30485,10 @@
         "blue",
         "red",
         "white"
-      ]
+      ],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q74108059",
@@ -31351,7 +31628,7 @@
     {
       "qid": "Q94652289",
       "name": "flag of the United States Space Force",
-      "count": 16,
+      "count": 17,
       "file": "Flag of the United States Space Force.svg",
       "isFlagEntity": true,
       "colors": [
@@ -31646,7 +31923,6 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "purple",
         "yellow"
       ],
       "icons": [],
@@ -31664,7 +31940,10 @@
         "purple",
         "yellow"
       ],
-      "description": "A blue field bearing three gold fleurs-de-lis arranged in a triangle (two above, one below)."
+      "description": "A blue field bearing three gold fleurs-de-lis arranged in a triangle (two above, one below).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q96602573",
@@ -31880,7 +32159,6 @@
       "file": "Flag of Mississippi (1996–2020).svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white"
@@ -31902,7 +32180,10 @@
         "red",
         "white"
       ],
-      "description": "Three horizontal bands of blue (top), white, and red, with a red square canton in the upper hoist bearing the Confederate Battle Flag (blue saltire edged in white with thirteen white five-pointed stars on red)."
+      "description": "Three horizontal bands of blue (top), white, and red, with a red square canton in the upper hoist bearing the Confederate Battle Flag (blue saltire edged in white with thirteen white five-pointed stars on red).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q96912183",
@@ -33634,10 +33915,10 @@
       "file": "Flag of Dayton, Ohio.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
         "green",
         "lightblue",
-        "white"
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -33657,7 +33938,10 @@
         "lightblue",
         "white"
       ],
-      "description": "A light blue field bearing two diagonal stripes (one blue, one white, edged in white) running from the upper fly to the lower hoist, with a green triangular wedge in the lower hoist corner."
+      "description": "A light blue field bearing two diagonal stripes (one blue, one white, edged in white) running from the upper fly to the lower hoist, with a green triangular wedge in the lower hoist corner.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q98400624",
@@ -33771,7 +34055,10 @@
         "red",
         "white"
       ],
-      "description": "Divided into three horizontal sections (black top, white middle, red bottom) by a stylized white koru (spiral fern frond) that curls from the hoist into the fly."
+      "description": "Divided into three horizontal sections (black top, white middle, red bottom) by a stylized white koru (spiral fern frond) that curls from the hoist into the fly.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q98691769",
@@ -34366,7 +34653,10 @@
         "red",
         "white"
       ],
-      "description": "A red field divided by a white Scandinavian-style cross (shifted toward the hoist), with a white fish (rouget) charge in the upper hoist quarter."
+      "description": "A red field divided by a white Scandinavian-style cross (shifted toward the hoist), with a white fish (rouget) charge in the upper hoist quarter.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q106498475",
@@ -34395,7 +34685,10 @@
         "red",
         "yellow"
       ],
-      "description": "Three equal vertical bands of red (hoist), yellow, and black."
+      "description": "Three equal vertical bands of red (hoist), yellow, and black.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q106498488",
@@ -34520,7 +34813,10 @@
         "red",
         "yellow"
       ],
-      "description": "A vertical bicolor of red (hoist) and yellow."
+      "description": "A vertical bicolor of red (hoist) and yellow.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q106498596",
@@ -34602,7 +34898,10 @@
         "red",
         "yellow"
       ],
-      "description": "A vertical bicolor of yellow (hoist) and red."
+      "description": "A vertical bicolor of yellow (hoist) and red.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q106498696",
@@ -34656,7 +34955,10 @@
         "blue",
         "yellow"
       ],
-      "description": "A blue field bearing a yellow Nordic-style cross (with the vertical arm shifted toward the hoist)."
+      "description": "A blue field bearing a yellow Nordic-style cross (with the vertical arm shifted toward the hoist).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q106500855",
@@ -34709,7 +35011,10 @@
         "red",
         "white"
       ],
-      "description": "Three equal vertical bands of red (hoist), white, and red."
+      "description": "Three equal vertical bands of red (hoist), white, and red.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q106501377",
@@ -34885,7 +35190,10 @@
         "blue",
         "yellow"
       ],
-      "description": "A vertical bicolor of blue (hoist) and yellow."
+      "description": "A vertical bicolor of blue (hoist) and yellow.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q106501923",
@@ -35702,7 +36010,8 @@
         "purple",
         "red",
         "white",
-        "yellow"
+        "yellow",
+        "pink"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -35768,7 +36077,10 @@
         "red",
         "white"
       ],
-      "description": "Three equal vertical bands of black (hoist), red, and green, with the Afghan national emblem centered on the red band in white: a mosque flanked by sheaves of wheat and Arabic inscription above."
+      "description": "Three equal vertical bands of black (hoist), red, and green, with the Afghan national emblem centered on the red band in white: a mosque flanked by sheaves of wheat and Arabic inscription above.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q108837351",
@@ -38359,7 +38671,10 @@
         "red",
         "white"
       ],
-      "description": "A red field with a large white sixteen-pointed star (the Star of the Magi) centered."
+      "description": "A red field with a large white sixteen-pointed star (the Star of the Magi) centered.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q113362138",
@@ -38664,7 +38979,10 @@
         "yellow",
         "red"
       ],
-      "description": "Diagonal stripes of yellow and red running from upper hoist to lower fly."
+      "description": "Diagonal stripes of yellow and red running from upper hoist to lower fly.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q113445621",
@@ -40011,7 +40329,10 @@
         "white",
         "yellow"
       ],
-      "description": "Quartered red and yellow: red at the upper hoist and lower fly, yellow at the upper fly and lower hoist. The upper-hoist quarter bears a white crescent enclosing a white five-pointed star."
+      "description": "Quartered red and yellow: red at the upper hoist and lower fly, yellow at the upper fly and lower hoist. The upper-hoist quarter bears a white crescent enclosing a white five-pointed star.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q116211841",
@@ -40632,7 +40953,6 @@
       "file": "Flag of Utah.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "darkblue",
         "red",
         "white",
@@ -40657,7 +40977,10 @@
         "white",
         "yellow"
       ],
-      "description": "Three horizontal bands of dark blue (top), white, and dark red, with the boundary between blue and white forming a mountain silhouette. A blue hexagonal badge bearing a yellow beehive and small white star is centered."
+      "description": "Three horizontal bands of dark blue (top), white, and dark red, with the boundary between blue and white forming a mountain silhouette. A blue hexagonal badge bearing a yellow beehive and small white star is centered.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q122460297",
@@ -40787,7 +41110,10 @@
         "red",
         "white"
       ],
-      "description": "Three equal vertical bands of red (hoist), white, and red."
+      "description": "Three equal vertical bands of red (hoist), white, and red.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q122980426",
@@ -40839,7 +41165,10 @@
         "white",
         "yellow"
       ],
-      "description": "A red field bearing the Occitanie regional logo in yellow at the hoist (a stylized Occitan cross with a column of pellets) and white text reading \"La Région / Occitanie / Pyrénées - Méditerranée\" in the fly."
+      "description": "A red field bearing the Occitanie regional logo in yellow at the hoist (a stylized Occitan cross with a column of pellets) and white text reading \"La Région / Occitanie / Pyrénées - Méditerranée\" in the fly.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q123115016",
@@ -41574,7 +41903,10 @@
         "white",
         "black"
       ],
-      "description": "A black field with a large white letter K at the hoist and a white skull above crossed bones (Jolly Roger) at the fly."
+      "description": "A black field with a large white letter K at the hoist and a white skull above crossed bones (Jolly Roger) at the fly.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q135479239",
@@ -41676,7 +42008,10 @@
         "lightblue",
         "yellow"
       ],
-      "description": "A dark blue field with two wavy vertical bands (light blue and yellow) at the fly, and a yellow Mission Inn bell tower silhouette centered toward the hoist."
+      "description": "A dark blue field with two wavy vertical bands (light blue and yellow) at the fly, and a yellow Mission Inn bell tower silhouette centered toward the hoist.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q137537567",
@@ -41889,7 +42224,10 @@
         "red",
         "yellow"
       ],
-      "description": "Five equal horizontal bands of yellow, red, yellow, red, yellow (top to bottom)."
+      "description": "Five equal horizontal bands of yellow, red, yellow, red, yellow (top to bottom).",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q140002968",
@@ -41910,7 +42248,10 @@
       "flagName": "Evanston",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q140002986",
