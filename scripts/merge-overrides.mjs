@@ -10,10 +10,16 @@
 //   * No file touches this field          → keep the base value as-is.
 //   * One file changes the field          → take the new value.
 //   * Multiple files set the same value   → take that value.
-//   * Multiple files set different values → CONFLICT. Field stays at the
-//                                           base value, conflict is
-//                                           reported, other fields on the
-//                                           same QID still merge normally.
+//   * Multiple files set different values:
+//       (a) For `colors` / `icons` arrays: if exactly one proposal is a
+//           strict superset of every other proposal, take the superset.
+//           Captures the common pattern of one reviewer expanding the
+//           list while others pass through the base unchanged. The
+//           non-expanding reviewers didn't actively review (they just
+//           round-tripped), so no agreement bonus is awarded.
+//       (b) Otherwise → CONFLICT. Field stays at the base value,
+//           conflict is reported, other fields on the same QID still
+//           merge normally.
 //
 // Reviews counter has two contributions, summed:
 //
@@ -90,6 +96,40 @@ function eqValue(field, a, b) {
   if (a === undefined || b === undefined) return false;
   if (field === "colors" || field === "icons") return eqSet(a, b);
   return JSON.stringify(a) === JSON.stringify(b);
+}
+
+// True if `bigger` is a strict superset of `smaller` (every element of
+// `smaller` is also in `bigger`, and `bigger` has at least one extra).
+function isStrictSuperset(bigger, smaller) {
+  if (!Array.isArray(bigger) || !Array.isArray(smaller)) return false;
+  if (bigger.length <= smaller.length) return false;
+  const big = new Set(bigger);
+  for (const x of smaller) if (!big.has(x)) return false;
+  return true;
+}
+
+// True if exactly one of `groups` proposes a value that is a strict
+// superset of every other proposed value for the same field. Used to
+// auto-resolve the "one reviewer expanded the list, others passed through
+// the base" pattern that would otherwise be reported as a conflict.
+function supersetGroupWins(groups, field) {
+  if (field !== "colors" && field !== "icons") return false;
+  if (groups.length < 2) return false;
+  let supersetCount = 0;
+  for (const g of groups) {
+    if (isStrictSupersetOfAll(g.value, groups, field)) supersetCount++;
+  }
+  return supersetCount === 1;
+}
+function isStrictSupersetOfAll(candidate, groups, field) {
+  if (field !== "colors" && field !== "icons") return false;
+  let strictlyBigger = false;
+  for (const g of groups) {
+    if (eqSet(g.value, candidate)) continue;
+    if (!isStrictSuperset(candidate, g.value)) return false;
+    strictlyBigger = true;
+  }
+  return strictlyBigger;
 }
 
 function validate(label, obj) {
@@ -196,6 +236,16 @@ function mergeQid(qid) {
       if (REVIEW_FIELDS.includes(field) && isNewValue && paths.length > 1) {
         agreementBonuses[field] = paths.length - 1;
       }
+    } else if ((field === "colors" || field === "icons")
+               && supersetGroupWins(groups, field)) {
+      // Multi-reviewer pattern: one file expanded the array (added more
+      // items), others just preserved the existing value. Strictly that's
+      // a "disagreement" but contextually the expanding reviewer was the
+      // one who looked at it. Take the superset.
+      const winner = groups.find((g) => isStrictSupersetOfAll(g.value, groups, field));
+      merged[field] = winner.value;
+      // The non-superset reviewers didn't actively review (they just
+      // round-tripped the base), so no agreement bonus.
     } else {
       // Disagreement. Field stays at base; record a conflict.
       conflictedFields.add(field);
