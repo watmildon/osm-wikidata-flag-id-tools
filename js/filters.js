@@ -53,6 +53,12 @@ export function activeCount() {
   return state.colors.size + state.icons.size + (state.shape ? 1 : 0) + (state.query ? 1 : 0);
 }
 
+// Note: flags.json no longer contains non-flag entities. The build pipeline
+// drops records that fail the flag-entity check AND have no curator vouch
+// (localFile / imageWithheld / overrides.json entry) before writing
+// flags.json. So everything reaching this module is already a "verified
+// flag" by construction — no per-record gate needed here.
+
 export function matches(flag) {
   for (const c of state.colors) {
     if (!flag.colors?.includes(c)) return false;

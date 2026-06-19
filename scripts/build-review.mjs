@@ -20,8 +20,14 @@ SELECT ?item ?itemLabel ?flag ?flagLabel ?isFlagEntity ?image WHERE {
   VALUES ?item { __VALUES__ }
   ?item wdt:P163 ?flag .
   OPTIONAL {
+    # Mirror of build-flags.mjs's flag-entity check (P31/P279* or pure
+    # P279* path to flag / flag design / flag or coat of arms).
     { ?flag wdt:P31/wdt:P279* wd:Q69506823 } UNION
-    { ?flag wdt:P31/wdt:P279* wd:Q14660    }
+    { ?flag wdt:P31/wdt:P279* wd:Q14660    } UNION
+    { ?flag wdt:P31/wdt:P279* wd:Q17335294 } UNION
+    { ?flag       wdt:P279*  wd:Q69506823 } UNION
+    { ?flag       wdt:P279*  wd:Q14660    } UNION
+    { ?flag       wdt:P279*  wd:Q17335294 }
     BIND(true AS ?isFlagEntity)
   }
   OPTIONAL { ?flag wdt:P18 ?image . }

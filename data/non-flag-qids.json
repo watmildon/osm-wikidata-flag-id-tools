@@ -714,12 +714,6 @@
     "file": null
   },
   {
-    "qid": "Q329186",
-    "name": "coat of arms of Hesse",
-    "count": 1,
-    "file": "Coat of arms of Hesse.svg"
-  },
-  {
     "qid": "Q329768",
     "name": "Tata",
     "count": 1,
@@ -1134,12 +1128,6 @@
     "file": "Nukerke church.jpg"
   },
   {
-    "qid": "Q913583",
-    "name": "flags of the Confederate States of America",
-    "count": 1,
-    "file": "Flag of the Confederate States (1861–1863).svg"
-  },
-  {
     "qid": "Q913903",
     "name": "Italian Red Cross",
     "count": 1,
@@ -1284,12 +1272,6 @@
     "file": "Genießermarkt Distelhausen.JPG"
   },
   {
-    "qid": "Q1229858",
-    "name": "flag and coat of arms of the canton of St. Gallen",
-    "count": 1,
-    "file": "Flag of Canton of Sankt Gallen 2011.svg"
-  },
-  {
     "qid": "Q1229861",
     "name": "Myanmar",
     "count": 1,
@@ -1326,18 +1308,6 @@
     "file": "Gerald Farinas Holy Name Cathedral from Street.jpg"
   },
   {
-    "qid": "Q1383244",
-    "name": "coat of arms of Sofia",
-    "count": 1,
-    "file": "BG Sofia coa.svg"
-  },
-  {
-    "qid": "Q1392163",
-    "name": "Flag and coat of arms of Geneva and Canton of Geneva",
-    "count": 1,
-    "file": "CHE Canton de Genève Flag.svg"
-  },
-  {
     "qid": "Q1393345",
     "name": "Fairmont Hotels & Resorts",
     "count": 1,
@@ -1366,12 +1336,6 @@
     "name": "Kroaz Du",
     "count": 1,
     "file": "Kroaz Du.svg"
-  },
-  {
-    "qid": "Q1471238",
-    "name": "Franconian Rake",
-    "count": 1,
-    "file": "Frankenrechen.svg"
   },
   {
     "qid": "Q1530761",
@@ -1524,12 +1488,6 @@
     "file": "Midlothianvillagegazeboflag.jpg"
   },
   {
-    "qid": "Q2508330",
-    "name": "Nishan Sahib",
-    "count": 17,
-    "file": "Nishan Sahib.svg"
-  },
-  {
     "qid": "Q2666488",
     "name": "Norridge",
     "count": 2,
@@ -1680,12 +1638,6 @@
     "file": null
   },
   {
-    "qid": "Q3973024",
-    "name": "Q3973024",
-    "count": 1,
-    "file": "Catania-Stemma.svg"
-  },
-  {
     "qid": "Q4042567",
     "name": "Lalandia",
     "count": 6,
@@ -1704,36 +1656,6 @@
     "file": "Office Hoogheemraadschap Hollands Noorderkwartier Heerhugowaard.jpg"
   },
   {
-    "qid": "Q4486440",
-    "name": "flag and coat of arms of Kelantan",
-    "count": 2,
-    "file": "Flag of Kelantan.svg"
-  },
-  {
-    "qid": "Q4486771",
-    "name": "flag of the Federal Territory",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q4487085",
-    "name": "flag and coat of arms of Negeri Sembilan",
-    "count": 1,
-    "file": "Flag of Negeri Sembilan.svg"
-  },
-  {
-    "qid": "Q4487410",
-    "name": "flag and coat of arms of Pahang",
-    "count": 1,
-    "file": "Flag of Pahang.svg"
-  },
-  {
-    "qid": "Q4488105",
-    "name": "flag and coat of arms of Terengganu",
-    "count": 1,
-    "file": "Flag of Terengganu.svg"
-  },
-  {
     "qid": "Q4819532",
     "name": "Auckland Marine Rescue Centre",
     "count": 1,
@@ -1743,12 +1665,6 @@
     "qid": "Q4957300",
     "name": "Brandywine flag",
     "count": 0,
-    "file": null
-  },
-  {
-    "qid": "Q5138565",
-    "name": "Coat of arms of the Macedonian Orthodox Church – Archdiocese of Ohrid",
-    "count": 1,
     "file": null
   },
   {
@@ -1762,12 +1678,6 @@
     "name": "Easy",
     "count": 1,
     "file": "Easy Calama.JPG"
-  },
-  {
-    "qid": "Q5456645",
-    "name": "flag and coat of arms of Johor",
-    "count": 1,
-    "file": "Flag of Johor.svg"
   },
   {
     "qid": "Q5548050",
@@ -1860,12 +1770,6 @@
     "file": null
   },
   {
-    "qid": "Q7242811",
-    "name": "pride flag",
-    "count": 1,
-    "file": "02019 0245 (2) KatowicePride-Parade (cropped).jpg"
-  },
-  {
     "qid": "Q7252767",
     "name": "Proviso Township",
     "count": 1,
@@ -1882,12 +1786,6 @@
     "name": "Royal Canadian Air Force Ensign",
     "count": 2,
     "file": "Air Force Ensign of Canada.svg"
-  },
-  {
-    "qid": "Q7455752",
-    "name": "service flag",
-    "count": 1,
-    "file": "Blue Star Service Banner.svg"
   },
   {
     "qid": "Q7645867",
@@ -1936,12 +1834,6 @@
     "name": "World Scout Emblem",
     "count": 2,
     "file": null
-  },
-  {
-    "qid": "Q8042899",
-    "name": "peace flag",
-    "count": 1,
-    "file": "PACE-flag.svg"
   },
   {
     "qid": "Q10385027",
@@ -2130,26 +2022,8 @@
     "file": "SailGP Season 3 Grand Final - San Francisco - May 2023 (3247).jpg"
   },
   {
-    "qid": "Q78759878",
-    "name": "flag and coat of arms of New Jersey",
-    "count": 2,
-    "file": "Coat of Arms of New Jersey.svg"
-  },
-  {
     "qid": "Q81003878",
     "name": "Sonesta Hotels",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q82876072",
-    "name": "five-color flag",
-    "count": 9,
-    "file": "Vietnamese Five Colors Flag.svg"
-  },
-  {
-    "qid": "Q84069440",
-    "name": "coat of arms of New York",
     "count": 1,
     "file": null
   },
@@ -2188,12 +2062,6 @@
     "name": "Dijk en Waard",
     "count": 1,
     "file": "Koedijk - Sluismolen.jpg"
-  },
-  {
-    "qid": "Q107142855",
-    "name": "QAnon flag",
-    "count": 1,
-    "file": null
   },
   {
     "qid": "Q110069565",
@@ -2241,18 +2109,6 @@
     "qid": "Q122495174",
     "name": "Flag of Auckland City",
     "count": 0,
-    "file": null
-  },
-  {
-    "qid": "Q122980426",
-    "name": "flag of the Mi'kmaq Nation Grand Council",
-    "count": 1,
-    "file": "Mikmaq State Flag.svg"
-  },
-  {
-    "qid": "Q123238514",
-    "name": "lifeguard flag",
-    "count": 1,
     "file": null
   },
   {

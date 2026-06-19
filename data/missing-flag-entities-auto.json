@@ -11,20 +11,11 @@
       "source": "auto"
     },
     {
-      "subject_qid": "Q13972",
-      "subject_name": "Tartu",
+      "subject_qid": "Q16994",
+      "subject_name": "Pays de la Loire",
       "count": 1,
       "p41_files": [
-        "Flag of Tartu, Estonia.svg"
-      ],
-      "source": "auto"
-    },
-    {
-      "subject_qid": "Q15878",
-      "subject_name": "Normandy",
-      "count": 1,
-      "p41_files": [
-        "Flag of Normandie.svg"
+        "Cultural flag of Pays-de-la-Loire.svg"
       ],
       "source": "auto"
     },
@@ -418,6 +409,15 @@
       "source": "auto"
     },
     {
+      "subject_qid": "Q666049",
+      "subject_name": "Chūō-shi",
+      "count": 1,
+      "p41_files": [
+        "Flag of Chuo Yamanashi.svg"
+      ],
+      "source": "auto"
+    },
+    {
       "subject_qid": "Q674311",
       "subject_name": "Kisvárda",
       "count": 1,
@@ -481,6 +481,24 @@
       "source": "auto"
     },
     {
+      "subject_qid": "Q1155768",
+      "subject_name": "Republic of Molossia",
+      "count": 1,
+      "p41_files": [
+        "Flag of the Republic of Molossia.svg"
+      ],
+      "source": "auto"
+    },
+    {
+      "subject_qid": "Q1364344",
+      "subject_name": "Roman Catholic Archdiocese of Chicago",
+      "count": 5,
+      "p41_files": [
+        "Flag of the Roman Catholic Archdiocese of Chicago.svg"
+      ],
+      "source": "auto"
+    },
+    {
       "subject_qid": "Q2390910",
       "subject_name": "Añasco",
       "count": 1,
@@ -522,15 +540,6 @@
       "count": 1,
       "p41_files": [
         "Flag of the NOAA Commissioned Officer Corps.svg"
-      ],
-      "source": "auto"
-    },
-    {
-      "subject_qid": "Q3973024",
-      "subject_name": "Q3973024",
-      "count": 1,
-      "p41_files": [
-        "Catania-Bandiera (senza stemma).svg"
       ],
       "source": "auto"
     },

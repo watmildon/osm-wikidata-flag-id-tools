@@ -98,10 +98,12 @@ so you can fix them in place. Sorted by impact (OSM use count) descending.
     no dedicated "flag of X" entity exists yet. Until someone creates
     one, OSM mappers have nowhere correct to point `flag:wikidata=` at.
   - *Not classified as a flag* — a QID is in OSM as `flag:wikidata=`
-    but Wikidata doesn't have `P31/P279*` reaching either *flag
-    (Q14660)* or *flag design (Q69506823)*. Could be either side's
-    bug: add a `P31` statement on Wikidata, or retag the OSM
-    elements. 
+    but Wikidata doesn't have `P31/P279*` reaching *flag
+    (Q14660)*, *flag design (Q69506823)*, or *flag or coat of arms
+    (Q17335294)*. Could be either side's bug: add a `P31` statement
+    on Wikidata, or retag the OSM elements. These records are
+    hidden from the main identifier so mappers don't reinforce
+    bad tags by copying them.
   - *Missing image* — flag entities with no `P18` image set on
     Wikidata. Add the image on Wikidata and it flows back into this
     site after the next redeploy.

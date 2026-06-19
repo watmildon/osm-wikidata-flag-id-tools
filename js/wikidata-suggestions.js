@@ -244,6 +244,20 @@ function noImageRow(f) {
   return tr;
 }
 
+// ---- Section 2.4: image on P41 instead of P18 ----
+
+// Renders one row of the misplaced-P41 section. Uses the flag's live
+// flags.json record (which has the working thumbnail via the P41
+// fallback), so the curator sees the actual image they're going to be
+// moving from P41 → P18 on Wikidata.
+function misplacedP41Row(flag) {
+  const tr = document.createElement("tr");
+  tr.appendChild(flagCell(flag));
+  tr.appendChild(numCell(flag.count));
+  tr.appendChild(wdEditCell(flag.qid, "Move image from P41 to P18 on Wikidata"));
+  return tr;
+}
+
 // ---- Section 2.5: missing reverse image (P7417) ----
 
 function commonsFileUrl(filename) {
@@ -505,6 +519,18 @@ async function main() {
 
   const noImageBody = document.getElementById("no-image-rows");
   for (const f of noImage) noImageBody.appendChild(noImageRow(f));
+
+  // Misplaced-P41 section. Derive from flags.json: any record whose
+  // image came from the P41 fallback (not the canonical P18). No extra
+  // fetch needed — wdImageProperty is set on the record during build.
+  // Same sort as other sections: highest OSM count first.
+  const p41Flags = flagsForWdFix
+    .filter((f) => f.wdImageProperty === "P41")
+    .sort(byCountDesc);
+  document.getElementById("misplaced-p41-count").textContent =
+    `— ${fmtTotal("records", p41Flags)}`;
+  const p41Body = document.getElementById("misplaced-p41-rows");
+  for (const f of p41Flags) p41Body.appendChild(misplacedP41Row(f));
 
   // Missing-P7417 section. Already sorted by OSM count desc on disk.
   const flagsByQid = new Map(flagsData.flags.map((f) => [f.qid, f]));

@@ -114,6 +114,7 @@ function pickBestImage(imagesStr) {
 const SPARQL_QUERY = `
 SELECT ?item ?itemLabel ?isFlag
        (GROUP_CONCAT(DISTINCT ?image;        separator="\\u0001") AS ?images)
+       (GROUP_CONCAT(DISTINCT ?p41Image;     separator="\\u0001") AS ?p41Images)
        (GROUP_CONCAT(DISTINCT ?reverseImage; separator="\\u0001") AS ?reverseImages)
        (GROUP_CONCAT(DISTINCT ?colorQid;     separator=",")      AS ?colorQids)
        (SAMPLE(?width)  AS ?w)
@@ -121,10 +122,22 @@ SELECT ?item ?itemLabel ?isFlag
 WHERE {
   VALUES ?item { __VALUES__ }
   OPTIONAL { ?item wdt:P18 ?image . }
+  # P41 = image of flag. Misplaced when set on the flag entity itself —
+  # belongs on the subject. Used as a fallback so the flag still shows
+  # up if P18 is empty; misplaced-p41 diagnostic flags the cleanup task.
+  OPTIONAL { ?item wdt:P41 ?p41Image . }
   OPTIONAL { ?item wdt:P7417 ?reverseImage . }
   OPTIONAL {
+    # Mirror of build-flags.mjs: instance-of or subclass-of any of the
+    # three flag ancestors (Q69506823 flag design, Q14660 flag, Q17335294
+    # flag or coat of arms). The pure P279* branches catch class-level
+    # entities like Nishan Sahib (modeled as subclass-of religious flag).
     { ?item wdt:P31/wdt:P279* wd:Q69506823 } UNION
-    { ?item wdt:P31/wdt:P279* wd:Q14660    }
+    { ?item wdt:P31/wdt:P279* wd:Q14660    } UNION
+    { ?item wdt:P31/wdt:P279* wd:Q17335294 } UNION
+    { ?item       wdt:P279*  wd:Q69506823 } UNION
+    { ?item       wdt:P279*  wd:Q14660    } UNION
+    { ?item       wdt:P279*  wd:Q17335294 }
     BIND(true AS ?isFlag)
   }
   OPTIONAL {
@@ -156,7 +169,13 @@ async function enrichBatch(qids) {
 
 function rowToEnrichment(row) {
   const name = row?.itemLabel?.value ?? null;
-  const image = pickBestImage(row?.images?.value);
+  // P18 with P41 fallback. Mirrors rowToFlag in build-flags.mjs.
+  let image = pickBestImage(row?.images?.value);
+  let wdImageProperty = image ? "P18" : null;
+  if (!image) {
+    image = pickBestImage(row?.p41Images?.value);
+    if (image) wdImageProperty = "P41";
+  }
   const file = image
     ? decodeURIComponent(image.split("Special:FilePath/").pop())
     : null;
@@ -171,7 +190,7 @@ function rowToEnrichment(row) {
   const width = row?.w ? Number(row.w.value) : null;
   const height = row?.h ? Number(row.h.value) : null;
   const shape = width && height && width === height ? "square" : "rectangle";
-  return { name, file, reverseFile, isFlagEntity, wdColors, colors: wdColors, shape };
+  return { name, file, wdImageProperty, reverseFile, isFlagEntity, wdColors, colors: wdColors, shape };
 }
 
 async function fileExists(path) {
@@ -265,6 +284,11 @@ async function main() {
       if (!f.file && e.file) { gainedImage++; imageChangedQids.push(f.qid); }
       else if (f.file && !e.file) lostImage++;
       else if (f.file && e.file) imageChangedQids.push(f.qid); // file swap
+    }
+    // Image source property (P18 vs the P41 fallback). Tracks alongside
+    // the file so the misplaced-P41 cleanup queue can identify these.
+    if (e.wdImageProperty !== (f.wdImageProperty ?? null)) {
+      next.wdImageProperty = e.wdImageProperty;
     }
 
     // Reverse-side image (Wikidata P7417). Treated the same way as the

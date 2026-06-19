@@ -362,25 +362,46 @@ function applyRedirects(qidCounts, redirects) {
 // pickBestImage() below rather than depending on SPARQL row ordering.
 const SPARQL_QUERY = `
 SELECT ?item ?itemLabel ?isFlag
-       (GROUP_CONCAT(DISTINCT ?image;       separator="\\u0001") AS ?images)
+       (GROUP_CONCAT(DISTINCT ?image;        separator="\\u0001") AS ?images)
+       (GROUP_CONCAT(DISTINCT ?p41Image;     separator="\\u0001") AS ?p41Images)
        (GROUP_CONCAT(DISTINCT ?reverseImage; separator="\\u0001") AS ?reverseImages)
-       (GROUP_CONCAT(DISTINCT ?colorQid;    separator=",")      AS ?colorQids)
+       (GROUP_CONCAT(DISTINCT ?colorQid;     separator=",")      AS ?colorQids)
        (SAMPLE(?width)  AS ?w)
        (SAMPLE(?height) AS ?h)
 WHERE {
   VALUES ?item { __VALUES__ }
   OPTIONAL { ?item wdt:P18 ?image . }
+  # P41 = image of flag. Belongs on a subject entity (the city/org whose
+  # flag it is), NOT on the flag entity itself. But a small number of
+  # editors put it on the flag entity by mistake. When P18 is empty we
+  # fall back to P41 so the flag shows up immediately; we surface it as
+  # a cleanup task on wikidata-suggestions so the modeling gets fixed.
+  OPTIONAL { ?item wdt:P41 ?p41Image . }
   # P7417 = image of back side. Most flags share obverse and reverse so this
   # is usually empty; when set, we render a flip-to-reverse button in the UI.
   OPTIONAL { ?item wdt:P7417 ?reverseImage . }
   OPTIONAL {
-    # Accept either Q69506823 (flag design) or Q14660 (flag) ancestry.
-    # In Wikidata these are sibling concepts, not parent/child, so we have
-    # to test both. Specialized subtypes like municipal flag (Q21850100),
-    # commercial flag (Q74051479), and bare "flag" (Q14660) all descend
-    # from Q14660 but not Q69506823, and were previously failing the check.
+    # Accept Q69506823 (flag design), Q14660 (flag), OR Q17335294
+    # (flag or coat of arms — a combined heraldic entity, e.g.
+    # "flag and coat of arms of New Jersey"). These are sibling concepts,
+    # not parent/child, so we have to test each branch separately.
+    # Specialized subtypes like municipal flag (Q21850100), commercial flag
+    # (Q74051479), and bare "flag" (Q14660) descend from Q14660 but not
+    # Q69506823, and were previously failing the check.
+    #
+    # Two paths accepted:
+    #   (a) P31/P279*  — entity is an instance of (a subclass of) one of
+    #       the three flag ancestors. The common case.
+    #   (b) P279*      — entity is itself a subclass of a flag ancestor,
+    #       no P31 needed. Catches class-level entities like Nishan Sahib
+    #       (modeled as "subclass of religious flag") that Wikidata treats
+    #       as types/kinds rather than specific flag designs.
     { ?item wdt:P31/wdt:P279* wd:Q69506823 } UNION
-    { ?item wdt:P31/wdt:P279* wd:Q14660    }
+    { ?item wdt:P31/wdt:P279* wd:Q14660    } UNION
+    { ?item wdt:P31/wdt:P279* wd:Q17335294 } UNION
+    { ?item       wdt:P279*  wd:Q69506823 } UNION
+    { ?item       wdt:P279*  wd:Q14660    } UNION
+    { ?item       wdt:P279*  wd:Q17335294 }
     BIND(true AS ?isFlag)
   }
   OPTIONAL {
@@ -600,7 +621,17 @@ function pickBestImage(imagesStr) {
 
 function rowToFlag(qid, count, row) {
   const name = row?.itemLabel?.value ?? qid;
-  const image = pickBestImage(row?.images?.value);
+  // P18 is the canonical image property. P41 ("image of flag") belongs on a
+  // subject entity (city/org) pointing at its flag's image, NOT on the flag
+  // entity itself — but a small number of editors put it on the flag entity
+  // by mistake. We fall back to P41 when P18 is empty so the flag shows up
+  // immediately; the misplaced-p41 diagnostic surfaces the cleanup task.
+  let image = pickBestImage(row?.images?.value);
+  let wdImageProperty = image ? "P18" : null;
+  if (!image) {
+    image = pickBestImage(row?.p41Images?.value);
+    if (image) wdImageProperty = "P41";
+  }
   const file = image
     ? decodeURIComponent(image.split("Special:FilePath/").pop())
     : null;
@@ -631,7 +662,7 @@ function rowToFlag(qid, count, row) {
   const shape = shapeFromDimensions(width, height);
 
   return {
-    qid, name, count, file, reverseFile, isFlagEntity, colors, wdColors, icons: [], shape,
+    qid, name, count, file, wdImageProperty, reverseFile, isFlagEntity, colors, wdColors, icons: [], shape,
     // flagType / flagName are populated later by the Overpass pass when there
     // is enough single-value OSM usage to draw a high-confidence conclusion.
     // flagName falls back to a label-strip of `name` after the Overpass pass.
@@ -968,10 +999,44 @@ async function main() {
     }
   }
 
+  // ---- drop non-flag entries from the kept set ----
+  //
+  // Up to this point `flags` is everything taginfo handed us, regardless of
+  // whether it's actually a flag. We keep records for the back-office
+  // cleanup workflow (review.html OSM-side retags, wikidata-suggestions
+  // "Not classified as a flag" section) by emitting them into
+  // non-flag-qids.json below — but they should NOT enter flags.json or the
+  // identifier/curate UI. Repeatedly downloading Q30 / Q142 / etc. and
+  // shipping them in the dataset just churns the cache and tempts mappers
+  // to copy bad tags from this site.
+  //
+  // Three sparing conditions: a record stays in `flags` if any of these
+  // is true (any one is a vouch that this is a real flag we want to keep):
+  //   (a) it passes the flag-entity SPARQL check (isFlagEntity)
+  //   (b) it has a localFile override (curator committed a side-channel image)
+  //   (c) it has imageWithheld:true (curator marked it identifiable-but-
+  //       not-redistributable)
+  //   (d) it has any other entry in overrides.json — curator touched the
+  //       record at some point, treat that as a vouch
+  //
+  // Anything else is dropped. The dropped records still appear in
+  // non-flag-qids.json (computed below from the full pre-drop list) and
+  // therefore drive the OSM-side review queue + wikidata-suggestions's
+  // "Not classified as a flag" section. They just don't pollute flags.json
+  // or the curator pages anymore.
+  const allFlags = flags;
+  const droppedCount = allFlags.filter((f) =>
+    !f.isFlagEntity && !f.localFile && !f.imageWithheld && !overrides[f.qid]
+  ).length;
+  flags = allFlags.filter((f) =>
+    f.isFlagEntity || f.localFile || f.imageWithheld || Boolean(overrides[f.qid])
+  );
+
   const withImage = flags.filter((f) => f.file).length;
   const flagEntities = flags.filter((f) => f.isFlagEntity).length;
   console.log(
-    `flags: ${flags.length} total | ${withImage} with image | ${flagEntities} pass flag-entity check` +
+    `flags: ${flags.length} kept | ${droppedCount} dropped (not a flag, no curator vouch) | ` +
+    `${withImage} with image | ${flagEntities} pass flag-entity check` +
     (localFileFlags.length ? ` | ${localFileFlags.length} side-channel image${localFileFlags.length === 1 ? "" : "s"}.` : ".")
   );
 
@@ -986,9 +1051,12 @@ async function main() {
 
   await mkdir(DATA_DIR, { recursive: true });
 
-  // Diagnostic file: QIDs that don't pass the Wikidata flag-design check.
-  // Sorted by QID for stable diffs; the review page re-sorts at runtime.
-  const nonFlag = flags
+  // Diagnostic file: QIDs taginfo gave us that don't pass the Wikidata
+  // flag-design check. Computed from `allFlags` (pre-drop) so the
+  // wikidata-suggestions "Not classified as a flag" section and the
+  // refresh:p41-p163 detector still see the full universe of OSM-tagged
+  // non-flag entities. Sorted by QID for stable diffs.
+  const nonFlag = allFlags
     .filter((f) => !f.isFlagEntity)
     .map((f) => ({ qid: f.qid, name: f.name, count: f.count, file: f.file }))
     .sort((a, b) => qidSortKey(a.qid) - qidSortKey(b.qid));
@@ -1001,13 +1069,17 @@ async function main() {
 
   // For the non-flag QIDs, ask Wikidata whether each has a P163 pointing to a
   // real flag entity. Those are the high-confidence "you tagged the wrong
-  // entity" cases mappers can fix.
-  const reviewSuggestions = await buildReviewSuggestions(flags);
+  // entity" cases mappers can fix. Run against the FULL pre-drop list so
+  // review.html surfaces all the cleanup opportunities, not just the ones
+  // we happen to still carry.
+  const reviewSuggestions = await buildReviewSuggestions(allFlags);
 
-  // Redirect suggestions: a mapper is tagging a redirected QID. The canonical
-  // QID lives in our flags list (with the redirect in aliases[]). Surface the
-  // original count attribution so the mapper sees the volume.
-  for (const f of flags) {
+  // Redirect suggestions: a mapper is tagging a redirected QID. The
+  // canonical QID may or may not still be in `flags` after the non-flag
+  // drop, so iterate `allFlags` to make sure we still surface the
+  // suggestion. The aliases[] field is set on the canonical record during
+  // enrichment regardless of flag-ness.
+  for (const f of allFlags) {
     if (!f.aliases || f.aliases.length === 0) continue;
     for (const bad of f.aliases) {
       const badCount = initialCounts.get(bad) ?? 0;

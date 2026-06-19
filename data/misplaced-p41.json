@@ -1,0 +1,36 @@
+{
+  "generated": "2026-06-19T04:59:02.628Z",
+  "note": "Flag entities whose Commons image was set on Wikidata's P41 (image of flag) instead of P18 (image). P41 belongs on the subject entity pointing at its flag's image; flag entities themselves should use P18. Fix by moving the value from P41 to P18 on the flag entity. Our build falls back to P41 so the flag still renders in the meantime; wdImageProperty in flags.json records the source.",
+  "candidates": [
+    {
+      "qid": "Q326826",
+      "name": "Canadian Red Ensign",
+      "count": 2,
+      "file": "Flag of Canada (1921–1957).svg"
+    },
+    {
+      "qid": "Q693569",
+      "name": "flags of New Caledonia",
+      "count": 1,
+      "file": "Flags of New Caledonia.svg"
+    },
+    {
+      "qid": "Q5456709",
+      "name": "flag of Brisbane",
+      "count": 0,
+      "file": "Flag of Brisbane.svg"
+    },
+    {
+      "qid": "Q85761218",
+      "name": "flag of Spokane, Washington",
+      "count": 0,
+      "file": "Flag of Spokane, Washington (2021–present).svg"
+    },
+    {
+      "qid": "Q97164441",
+      "name": "flag of La Paz",
+      "count": 0,
+      "file": "Flag of La paz.svg"
+    }
+  ]
+}

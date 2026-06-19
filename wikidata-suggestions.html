@@ -56,14 +56,19 @@
       <p class="suggestions-blurb">
         OSM mappers tag <code>flag:wikidata=Qxxx</code>, but Wikidata's
         entity has no <code>P31/P279*</code> link to
-        <a href="https://www.wikidata.org/wiki/Q14660" target="_blank" rel="noopener">flag (Q14660)</a>
+        <a href="https://www.wikidata.org/wiki/Q14660" target="_blank" rel="noopener">flag (Q14660)</a>,
+        <a href="https://www.wikidata.org/wiki/Q69506823" target="_blank" rel="noopener">flag design (Q69506823)</a>,
         or
-        <a href="https://www.wikidata.org/wiki/Q69506823" target="_blank" rel="noopener">flag design (Q69506823)</a>.
+        <a href="https://www.wikidata.org/wiki/Q17335294" target="_blank" rel="noopener">flag or coat of arms (Q17335294)</a>.
         The fix could go either way: if the QID really does describe a flag,
         add the right <code>P31</code> statement on Wikidata. If the QID
         describes something else (a country, an organisation, a building)
         and was tagged in error, open the OSM elements in overpass-turbo and
         retag them to point at the correct flag entity.
+        <br/><br/>
+        <strong>Note:</strong> the main identifier hides records that fail
+        this check so mappers don't accidentally reinforce a bad tag.
+        Records still appear in all back office pages for cleanup.
       </p>
       <table class="review-table">
         <thead>
@@ -96,6 +101,39 @@
           </tr>
         </thead>
         <tbody id="no-image-rows"></tbody>
+      </table>
+    </details>
+
+    <details class="suggestions-section" id="section-misplaced-p41">
+      <summary class="suggestions-h2">
+        Image on P41 instead of P18 <span class="muted" id="misplaced-p41-count"></span>
+      </summary>
+      <p class="suggestions-blurb">
+        Flag entities whose Commons image was set on Wikidata's
+        <a href="https://www.wikidata.org/wiki/Property:P41" target="_blank" rel="noopener"><code>P41</code> (image of flag)</a>
+        property instead of
+        <a href="https://www.wikidata.org/wiki/Property:P18" target="_blank" rel="noopener"><code>P18</code> (image)</a>.
+        <code>P41</code> belongs on a subject entity (a city, organisation,
+        etc.) pointing at the image of its flag — not on the flag entity
+        itself. When set here by mistake, mainstream Wikidata consumers
+        miss the image entirely.
+      </p>
+      <p class="suggestions-blurb">
+        Fix on Wikidata: move the value from <code>P41</code> to
+        <code>P18</code> on the flag entity (cut-and-paste is fine; the
+        statement is identical, just on the right property). Our build
+        falls back to <code>P41</code> so the flag still renders in the
+        meantime — you can see the thumbnail in the row below.
+      </p>
+      <table class="review-table">
+        <thead>
+          <tr>
+            <th scope="col">Flag</th>
+            <th scope="col" class="num">OSM uses</th>
+            <th scope="col">Fix</th>
+          </tr>
+        </thead>
+        <tbody id="misplaced-p41-rows"></tbody>
       </table>
     </details>
 

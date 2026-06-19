@@ -12,6 +12,7 @@
     "refresh:wikidata": "node scripts/refresh-wikidata.mjs",
     "refresh:p41-p163": "node scripts/refresh-p41-p163.mjs",
     "refresh:p7417": "node scripts/refresh-missing-p7417.mjs",
+    "refresh:p41-on-flag": "node scripts/refresh-misplaced-p41.mjs",
     "fetch:descriptions": "node scripts/fetch-wikipedia-descriptions.mjs",
     "merge:overrides": "node scripts/merge-overrides.mjs",
     "apply:overrides": "node scripts/apply-overrides.mjs",

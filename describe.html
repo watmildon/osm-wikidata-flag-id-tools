@@ -294,7 +294,7 @@
       <label class="check"><input type="checkbox" id="filter-no-desc" /> Missing description only</label>
       <label class="check" title="Hide descriptions that already have at least one curator 'Looks good' review."><input type="checkbox" id="filter-unreviewed" /> Unreviewed only</label>
       <label class="check"><input type="checkbox" id="filter-has-image" checked /> Has image only</label>
-      <label class="check" title="Hide records whose Wikidata entity isn't classified as a flag (P31/P279* → Q14660 / Q69506823). These typically have a photo of the subject as P18 rather than an actual flag image."><input type="checkbox" id="filter-is-flag-entity" checked /> Flag entities only</label>
+      <label class="check" title="Hide records whose Wikidata entity isn't classified as a flag — must reach Q14660 / Q69506823 / Q17335294 via P31/P279* or pure P279*. These typically have a photo of the subject as P18 rather than an actual flag image."><input type="checkbox" id="filter-is-flag-entity" checked /> Flag entities only</label>
       <label class="check" title="Hide images whose filename suggests a building, photo, map, or other non-flag content (e.g. JPGs with 'view', 'headquarters', 'street' in the name)."><input type="checkbox" id="filter-hide-wonky" checked /> Hide likely non-flag images</label>
       <select id="sort-select" aria-label="Sort order">
         <option value="count-desc">OSM count (high → low)</option>
