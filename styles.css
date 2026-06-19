@@ -281,6 +281,11 @@ main { padding: 12px 12px 24px; }
   pointer-events: none;
   backdrop-filter: blur(2px);
 }
+/* The `hidden` HTML attribute should win over `display: flex` above.
+   Without this rule, .badge-flip's display:flex (same-specificity class
+   selector) overrides the UA stylesheet's [hidden] { display: none }
+   and the badge renders even when the flag has no reverse. */
+.badge-flip[hidden] { display: none; }
 /* Clickable variant — used on the tile (to flip in place) and on the
    detail dialog (to flip the larger image). Adds cursor + hover state
    and removes pointer-events: none so the click registers. */
@@ -330,6 +335,10 @@ main { padding: 12px 12px 24px; }
 }
 
 dialog.detail {
+  /* position:relative makes .detail-close's top/right anchor to the
+     dialog box itself rather than the viewport, which matters when the
+     dialog is open via showModal() and the browser positions it. */
+  position: relative;
   border: none;
   border-radius: 16px;
   background: var(--bg-elev);
@@ -385,15 +394,37 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
 }
 .detail-close {
   position: absolute;
-  top: 8px;
-  right: 12px;
-  background: none;
+  /* Sit just inside the top-right corner of the dialog. The dialog's
+     20px padding-top would otherwise leave the button overlapping
+     content below; with top:10px the button is on top of the image's
+     top edge. z-index keeps it above the image and any overlay badges. */
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  /* Translucent dark pill matching the flip badge so it's visible against
+     light AND dark flags (the default muted-grey was invisible on a white
+     field like the Betsy Ross flag). */
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(15, 23, 42, 0.65);
+  color: #f8fafc;
   border: none;
-  color: var(--muted);
-  font-size: 1.75rem;
-  cursor: pointer;
+  border-radius: 999px;
+  font-size: 1.5rem;
   line-height: 1;
+  cursor: pointer;
+  padding: 0;
+  transition: background 120ms ease, transform 120ms ease;
+  backdrop-filter: blur(2px);
 }
+.detail-close:hover {
+  background: rgba(15, 23, 42, 0.85);
+  transform: scale(1.08);
+}
+.detail-close:active { transform: scale(0.95); }
 .copy-btn {
   width: 100%;
   appearance: none;
