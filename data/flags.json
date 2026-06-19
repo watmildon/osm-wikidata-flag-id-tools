@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T10:22:15.450Z",
+  "generated": "2026-06-19T22:34:06.739Z",
   "palette": [
     "red",
     "white",
@@ -229,7 +229,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -270,7 +270,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -406,7 +406,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -880,7 +881,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -924,7 +926,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -962,7 +964,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1004,7 +1006,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1045,7 +1047,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1124,7 +1126,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1135,9 +1137,9 @@
       "file": "Flag of Jerusalem.svg",
       "isFlagEntity": true,
       "colors": [
-        "lightblue",
-        "yellow",
-        "white"
+        "blue",
+        "white",
+        "yellow"
       ],
       "wdColors": [],
       "icons": [],
@@ -1146,7 +1148,10 @@
       "flagName": "Jerusalem",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q45136",
@@ -1329,7 +1334,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -1369,7 +1375,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -1523,7 +1530,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1650,7 +1657,8 @@
         "white"
       ],
       "icons": [
-        "plant"
+        "plant",
+        "vertical-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -1673,8 +1681,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
-        "description": 1
+        "description": 1,
+        "icons": 2
       }
     },
     {
@@ -1711,7 +1719,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1873,7 +1881,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -1911,7 +1920,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1952,7 +1961,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1970,7 +1979,8 @@
       ],
       "icons": [
         "star",
-        "text"
+        "text",
+        "circle"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -1997,7 +2007,6 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
         "description": 1
       }
     },
@@ -2120,7 +2129,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -2162,7 +2171,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -2276,7 +2285,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -3319,7 +3328,11 @@
       ],
       "icons": [
         "coa",
-        "horizontal-stripes"
+        "horizontal-stripes",
+        "building",
+        "animal",
+        "crown",
+        "plant"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -3350,8 +3363,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
-        "description": 1
+        "description": 1,
+        "icons": 2
       }
     },
     {
@@ -3403,7 +3416,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -3440,7 +3453,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -3478,7 +3491,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -3706,7 +3719,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -3858,7 +3871,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -4019,7 +4032,8 @@
       ],
       "icons": [
         "sun",
-        "horizontal-stripes"
+        "horizontal-stripes",
+        "people"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -4045,8 +4059,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
-        "description": 1
+        "description": 1,
+        "icons": 2
       }
     },
     {
@@ -4089,7 +4103,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -4128,7 +4142,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -4166,7 +4180,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -4541,7 +4555,8 @@
       ],
       "icons": [
         "star",
-        "sun"
+        "sun",
+        "horizontal-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -4568,8 +4583,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
-        "description": 1
+        "description": 1,
+        "icons": 2
       }
     },
     {
@@ -4646,7 +4661,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -5344,7 +5359,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -5502,7 +5517,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -5699,7 +5714,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -9756,7 +9771,10 @@
         "subject:wikidata": "Q3258"
       },
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q258262",
@@ -10095,7 +10113,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -11034,9 +11052,9 @@
       "file": "Flag of Quebec City.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
-        "yellow",
-        "white"
+        "blue",
+        "white",
+        "yellow"
       ],
       "wdColors": [],
       "icons": [],
@@ -11045,7 +11063,10 @@
       "flagName": "Quebec City",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q543471",
@@ -12705,7 +12726,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -12908,7 +12929,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -13094,8 +13115,9 @@
       "file": "Flag of the Arab League.svg",
       "isFlagEntity": true,
       "colors": [
+        "green",
         "white",
-        "green"
+        "yellow"
       ],
       "wdColors": [],
       "icons": [],
@@ -13104,7 +13126,10 @@
       "flagName": "League of Arab States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q784526",
@@ -13113,8 +13138,8 @@
       "file": "Flag of OPEC.svg",
       "isFlagEntity": true,
       "colors": [
-        "lightblue",
-        "white"
+        "white",
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -13123,7 +13148,10 @@
       "flagName": "OPEC",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q786078",
@@ -13411,7 +13439,12 @@
       "count": 1,
       "file": "Flag of Budapest (2011-).svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "green",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -13420,7 +13453,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "description": "A white field bearing the Budapest coat of arms centered — a quartered red shield ensigned with the Hungarian Holy Crown, supported by two golden lions. The top and bottom edges of the flag are bordered by a row of alternating red and green triangles (a stylized Hungarian Árpád motif)."
+      "description": "A white field bearing the Budapest coat of arms centered — a quartered red shield ensigned with the Hungarian Holy Crown, supported by two golden lions. The top and bottom edges of the flag are bordered by a row of alternating red and green triangles (a stylized Hungarian Árpád motif).",
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q862088",
@@ -13715,7 +13751,10 @@
       "flagName": "Yerevan",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q965192",
@@ -14577,7 +14616,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -14690,10 +14729,10 @@
       "file": "Flag of Vancouver.svg",
       "isFlagEntity": true,
       "colors": [
-        "green",
+        "blue",
+        "white",
         "yellow",
-        "darkblue",
-        "white"
+        "green"
       ],
       "wdColors": [],
       "icons": [],
@@ -14702,7 +14741,10 @@
       "flagName": "Vancouver",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q1426512",
@@ -14768,7 +14810,7 @@
       "colors": [
         "purple",
         "pink",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -14777,7 +14819,10 @@
       "flagName": "bisexual pride flag",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q1426561",
@@ -15004,7 +15049,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -15187,7 +15232,10 @@
       "flagName": "Kharkiv Oblast",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q1829577",
@@ -15673,7 +15721,10 @@
       "count": 0,
       "file": "Flag of Warsaw.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15681,7 +15732,10 @@
       "flagName": "Warsaw",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q2084156",
@@ -15879,7 +15933,10 @@
       "count": 0,
       "file": "Flag of Prague.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "yellow"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -15887,7 +15944,10 @@
       "flagName": "Prague",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q2151681",
@@ -16032,7 +16092,7 @@
       "file": "Flag of Perlis.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
+        "blue",
         "yellow"
       ],
       "wdColors": [],
@@ -16045,7 +16105,10 @@
       "aliases": [
         "Q13405065"
       ],
-      "description": "Two equal horizontal bands of yellow (top) and blue."
+      "description": "Two equal horizontal bands of yellow (top) and blue.",
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q2191442",
@@ -16104,7 +16167,10 @@
       },
       "aliases": [],
       "wdColors": [],
-      "description": "A black field bearing a centered gold (yellow) lion rampant with red claws and tongue, holding a small shield with the red and white striped flag of Austria across its chest."
+      "description": "A black field bearing a centered gold (yellow) lion rampant with red claws and tongue, holding a small shield with the red and white striped flag of Austria across its chest.",
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q2225406",
@@ -16125,7 +16191,10 @@
       "flagName": "Kyiv",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q2241052",
@@ -16986,11 +17055,11 @@
       "file": "Flag of Minsk, Belarus.svg",
       "isFlagEntity": true,
       "colors": [
-        "white",
-        "red",
+        "blue",
         "yellow",
-        "darkblue",
-        "blue"
+        "red",
+        "gray",
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -17000,7 +17069,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "description": "A blue field bearing a central figure of the Virgin Mary in red and dark blue robes, standing on a white cloud, flanked by four kneeling angels in white robes with halos and outstretched wings."
+      "description": "A blue field bearing a central figure of the Virgin Mary in red and dark blue robes, standing on a white cloud, flanked by four kneeling angels in white robes with halos and outstretched wings.",
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q2508330",
@@ -17291,7 +17363,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "description": "Three equal horizontal bands of white, yellow, and black."
+      "description": "Three equal horizontal bands of white, yellow, and black.",
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q2616924",
@@ -17384,7 +17459,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "A dark red field bearing the Bryansk Oblast coat of arms centered: a blue shield bearing a yellow fir tree above a yellow plow and red bar, surmounted by a gold crown and framed by red-yellow-green ribbon bows."
+      "description": "A dark red field bearing the Bryansk Oblast coat of arms centered: a blue shield bearing a yellow fir tree above a yellow plow and red bar, surmounted by a gold crown and framed by red-yellow-green ribbon bows.",
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q2621952",
@@ -17699,7 +17777,7 @@
       "file": "Flag of Leinster.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
+        "green",
         "yellow",
         "white"
       ],
@@ -17710,7 +17788,10 @@
       "flagName": "Leinster",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q2727336",
@@ -17760,7 +17841,10 @@
       "flagName": "Houston",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q2772636",
@@ -18057,10 +18141,10 @@
       "file": "Flag of Tbilisi.svg",
       "isFlagEntity": true,
       "colors": [
-        "lightblue",
-        "red",
         "white",
-        "yellow"
+        "yellow",
+        "red",
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -18069,7 +18153,10 @@
       "flagName": "Tbilisi",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q2917560",
@@ -18617,10 +18704,10 @@
       "file": "Flag of Belgrade, Serbia.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
-        "yellow",
+        "blue",
         "white",
-        "red"
+        "red",
+        "yellow"
       ],
       "wdColors": [],
       "icons": [],
@@ -18629,7 +18716,10 @@
       "flagName": "Belgrade",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q3442757",
@@ -18867,7 +18957,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -18876,7 +18966,10 @@
       "flagName": "Star Spangled Banner Flag",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q4042567",
@@ -18916,7 +19009,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "Two horizontal bands, red (top, larger) and green (bottom). Centered straddling the divide, a yellow naval cannon on a wheeled wooden carriage facing the hoist, flanked by two stacked pyramids of black cannonballs."
+      "description": "Two horizontal bands, red (top, larger) and green (bottom). Centered straddling the divide, a yellow naval cannon on a wheeled wooden carriage facing the hoist, flanked by two stacked pyramids of black cannonballs.",
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q4486181",
@@ -19025,9 +19121,10 @@
       "file": "Flag of Malacca.svg",
       "isFlagEntity": true,
       "colors": [
+        "white",
+        "red",
         "darkblue",
-        "yellow",
-        "red"
+        "yellow"
       ],
       "wdColors": [],
       "icons": [],
@@ -19037,7 +19134,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "description": "A red field with a gold heraldic emblem at the upper hoist: a wreath of grain encircling a small shield (yellow with red horizontal stripes); above the shield, a green crescent."
+      "description": "A red field with a gold heraldic emblem at the upper hoist: a wreath of grain encircling a small shield (yellow with red horizontal stripes); above the shield, a green crescent.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q4487042",
@@ -19046,11 +19146,10 @@
       "file": "Flag of Naberezhnye Chelny.png",
       "isFlagEntity": true,
       "colors": [
-        "lightblue",
-        "green",
-        "red",
+        "white",
         "yellow",
-        "white"
+        "green",
+        "red"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19060,7 +19159,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "A light blue field with a stylized yellow ancient sailing ship (with red and green sails) centered above a white wavy band along the lower edge representing water."
+      "description": "A light blue field with a stylized yellow ancient sailing ship (with red and green sails) centered above a white wavy band along the lower edge representing water.",
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q4487085",
@@ -19116,11 +19218,10 @@
       "file": "Flag of Ostashkov (Tver oblast).png",
       "isFlagEntity": true,
       "colors": [
-        "red",
+        "yellow",
         "blue",
         "white",
-        "black",
-        "yellow"
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19130,7 +19231,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "A green field with a white saltire (X-shaped cross) extending corner to corner, dividing the field into four green triangles."
+      "description": "A green field with a white saltire (X-shaped cross) extending corner to corner, dividing the field into four green triangles.",
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q4487410",
@@ -19217,9 +19321,8 @@
       "isFlagEntity": true,
       "colors": [
         "lightblue",
-        "white",
-        "black",
         "green",
+        "black",
         "darkblue"
       ],
       "wdColors": [],
@@ -19229,7 +19332,10 @@
       "flagName": "Sarajevo",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q4487879",
@@ -19238,11 +19344,10 @@
       "file": "Flag of Sokol (Vologda oblast).png",
       "isFlagEntity": true,
       "colors": [
-        "white",
-        "black",
         "yellow",
         "green",
-        "blue"
+        "lightblue",
+        "white"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -19254,7 +19359,7 @@
       "wdColors": [],
       "description": "A green field with a vertical blue stripe down the center. Over the stripe, a yellow falcon stands with wings spread atop a horizontal scroll of white paper or fabric.",
       "reviews": {
-        "colors": 1
+        "colors": 3
       }
     },
     {
@@ -19419,11 +19524,12 @@
       "file": "Flag of Tampa, Florida.svg",
       "isFlagEntity": true,
       "colors": [
-        "green",
         "white",
-        "yellow",
+        "gray",
         "red",
-        "darkblue"
+        "green",
+        "yellow",
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -19432,7 +19538,10 @@
       "flagName": "Tampa",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q4876605",
@@ -19547,9 +19656,9 @@
       "file": "Cowpens Flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "red",
         "white",
-        "darkblue"
+        "red",
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -19558,7 +19667,10 @@
       "flagName": "Cowpens flag",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q5456645",
@@ -19669,8 +19781,8 @@
       "file": "Flag of Birmingham, United Kingdom.svg",
       "isFlagEntity": true,
       "colors": [
+        "blue",
         "yellow",
-        "darkblue",
         "red"
       ],
       "wdColors": [],
@@ -19680,7 +19792,10 @@
       "flagName": "Birmingham",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q5456706",
@@ -19820,7 +19935,10 @@
       "flagName": "Cape Town",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q5456721",
@@ -19934,9 +20052,9 @@
       "file": "Flag of Harare.svg",
       "isFlagEntity": true,
       "colors": [
-        "red",
-        "lightblue",
-        "yellow"
+        "blue",
+        "yellow",
+        "red"
       ],
       "wdColors": [],
       "icons": [],
@@ -19945,7 +20063,10 @@
       "flagName": "Harare",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q5456759",
@@ -19989,11 +20110,12 @@
       "file": "Flag of Johannesburg, South Africa.svg",
       "isFlagEntity": true,
       "colors": [
-        "green",
         "red",
-        "darkblue",
+        "green",
+        "blue",
         "white",
-        "yellow"
+        "yellow",
+        "black"
       ],
       "wdColors": [],
       "icons": [],
@@ -20002,7 +20124,10 @@
       "flagName": "Johannesburg",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q5456768",
@@ -20014,7 +20139,7 @@
         "yellow",
         "black",
         "red",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -20023,7 +20148,10 @@
       "flagName": "Lima",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q5456769",
@@ -20080,7 +20208,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "A field divided diagonally into alternating black and white triangles meeting at center, with the Lisbon coat of arms centered: a black shield bordered in gold bearing a sailing ship on green waves flanked by two black ravens, surmounted by a gold mural crown. White scrolls below read \"MUI NOBRE E SEMPRE LEAL CIDADE DE LISBOA\"."
+      "description": "A field divided diagonally into alternating black and white triangles meeting at center, with the Lisbon coat of arms centered: a black shield bordered in gold bearing a sailing ship on green waves flanked by two black ravens, surmounted by a gold mural crown. White scrolls below read \"MUI NOBRE E SEMPRE LEAL CIDADE DE LISBOA\".",
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q5456775",
@@ -20326,7 +20457,10 @@
       "extraTags": {},
       "aliases": [],
       "localFile": "Q5456822.svg",
-      "description": "A teal field bearing a centered white silhouette portrait of Chief Seattle in profile, facing the hoist."
+      "description": "A teal field bearing a centered white silhouette portrait of Chief Seattle in profile, facing the hoist.",
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q5456835",
@@ -20578,7 +20712,8 @@
       "icons": [
         "text",
         "animal",
-        "map"
+        "map",
+        "tools"
       ],
       "shape": "rectangle",
       "flagType": "military",
@@ -20599,8 +20734,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
-        "description": 1
+        "description": 1,
+        "icons": 2
       }
     },
     {
@@ -20642,7 +20777,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -20757,7 +20892,10 @@
       "flagName": "Cuenca",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q5718574",
@@ -20960,10 +21098,10 @@
       "file": "Flag of Quito.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
         "red",
-        "yellow",
-        "white"
+        "blue",
+        "white",
+        "yellow"
       ],
       "wdColors": [],
       "icons": [],
@@ -20972,7 +21110,10 @@
       "flagName": "Quito",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q6919069",
@@ -21217,9 +21358,10 @@
       "isFlagEntity": true,
       "colors": [
         "white",
-        "lightblue",
+        "yellow",
         "green",
-        "yellow"
+        "blue",
+        "red"
       ],
       "wdColors": [],
       "icons": [],
@@ -21228,7 +21370,10 @@
       "flagName": "Mexico City",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q9260246",
@@ -21356,7 +21501,10 @@
       "flagName": "International Atomic Energy Agency",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q9647178",
@@ -21367,8 +21515,8 @@
       "colors": [
         "green",
         "yellow",
-        "darkblue",
-        "white"
+        "white",
+        "blue"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -21377,7 +21525,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q9647733",
@@ -21635,9 +21786,9 @@
       "file": "Flag of Chișinău.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
-        "white",
         "yellow",
+        "white",
+        "blue",
         "red"
       ],
       "wdColors": [],
@@ -21647,7 +21798,10 @@
       "flagName": "Chișinău",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q12143610",
@@ -21771,10 +21925,10 @@
       "file": "Flag of Seoul.svg",
       "isFlagEntity": true,
       "colors": [
-        "lightblue",
-        "green",
+        "blue",
+        "white",
         "red",
-        "white"
+        "green"
       ],
       "wdColors": [],
       "icons": [],
@@ -21783,7 +21937,10 @@
       "flagName": "Seoul",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q12751889",
@@ -22231,8 +22388,9 @@
       "isFlagEntity": true,
       "colors": [
         "red",
+        "yellow",
         "green",
-        "yellow"
+        "white"
       ],
       "wdColors": [],
       "icons": [],
@@ -22242,7 +22400,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "description": "A red field with a gold heraldic emblem at the upper hoist: a wreath of grain encircling a small shield (yellow with red horizontal stripes); above the shield, a green crescent."
+      "description": "A red field with a gold heraldic emblem at the upper hoist: a wreath of grain encircling a small shield (yellow with red horizontal stripes); above the shield, a green crescent.",
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q17493086",
@@ -22308,7 +22469,10 @@
       "flagName": "Astana",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q20020313",
@@ -22394,7 +22558,12 @@
       "count": 0,
       "file": "Flag of Vilnius.svg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "brown",
+        "yellow",
+        "gray"
+      ],
       "wdColors": [],
       "icons": [],
       "shape": "rectangle",
@@ -22402,7 +22571,10 @@
       "flagName": "Vilnius",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q22271870",
@@ -22984,13 +23156,13 @@
       "file": "Flag of the Organization of American States.svg",
       "isFlagEntity": true,
       "colors": [
-        "red",
-        "white",
         "blue",
-        "darkblue",
-        "lightblue",
+        "white",
+        "yellow",
+        "black",
         "green",
-        "yellow"
+        "lightblue",
+        "red"
       ],
       "wdColors": [],
       "icons": [],
@@ -22999,7 +23171,10 @@
       "flagName": "Organization of American States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q54953696",
@@ -23865,7 +24040,8 @@
       "description": "A solid red field with the McDonald's golden \"M\" arches logo centered.",
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -23989,9 +24165,9 @@
       "file": "Flag of the United States (1819–1820).svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
+        "red",
         "white",
-        "red"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24000,7 +24176,10 @@
       "flagName": "21-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65036999",
@@ -24011,7 +24190,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24020,7 +24199,10 @@
       "flagName": "23-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037000",
@@ -24031,7 +24213,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24040,7 +24222,10 @@
       "flagName": "24-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037004",
@@ -24051,7 +24236,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24060,7 +24245,10 @@
       "flagName": "25-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037012",
@@ -24070,8 +24258,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "darkblue",
-        "white"
+        "white",
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24080,7 +24268,10 @@
       "flagName": "26-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037014",
@@ -24091,7 +24282,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24100,7 +24291,10 @@
       "flagName": "27-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037017",
@@ -24110,8 +24304,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "darkblue",
-        "white"
+        "white",
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24120,7 +24314,10 @@
       "flagName": "28-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037029",
@@ -24131,7 +24328,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24140,7 +24337,10 @@
       "flagName": "29-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037031",
@@ -24151,7 +24351,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24160,7 +24360,10 @@
       "flagName": "30-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037033",
@@ -24171,7 +24374,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24180,7 +24383,10 @@
       "flagName": "31-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037035",
@@ -24191,7 +24397,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24200,7 +24406,10 @@
       "flagName": "32-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037036",
@@ -24211,7 +24420,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24220,7 +24429,10 @@
       "flagName": "33-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037039",
@@ -24256,8 +24468,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "darkblue",
-        "white"
+        "white",
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24266,7 +24478,10 @@
       "flagName": "35-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037042",
@@ -24277,7 +24492,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24286,7 +24501,10 @@
       "flagName": "36-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037044",
@@ -24296,8 +24514,8 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "darkblue",
-        "white"
+        "white",
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24306,7 +24524,10 @@
       "flagName": "37-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037047",
@@ -24317,7 +24538,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24326,7 +24547,10 @@
       "flagName": "38-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037050",
@@ -24337,7 +24561,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24346,7 +24570,10 @@
       "flagName": "43-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037052",
@@ -24357,7 +24584,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24366,7 +24593,10 @@
       "flagName": "44-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037054",
@@ -24377,7 +24607,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24386,7 +24616,10 @@
       "flagName": "45-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037056",
@@ -24397,7 +24630,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24406,7 +24639,10 @@
       "flagName": "46-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037057",
@@ -24443,7 +24679,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -24452,7 +24688,10 @@
       "flagName": "49-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q65037070",
@@ -25285,7 +25524,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25294,7 +25533,10 @@
       "flagName": "51-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q75802290",
@@ -26435,7 +26677,10 @@
       "flagName": "Albuquerque, New Mexico",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q96378013",
@@ -26512,10 +26757,10 @@
       "file": "Flag of El Paso, Texas.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
+        "blue",
+        "brown",
         "white",
-        "yellow",
-        "gray",
+        "black",
         "green"
       ],
       "wdColors": [],
@@ -26525,7 +26770,10 @@
       "flagName": "El Paso",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q96378019",
@@ -28435,7 +28683,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -29085,8 +29334,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "orange",
-        "gray"
+        "gray",
+        "brown"
       ],
       "wdColors": [],
       "icons": [],
@@ -29095,7 +29344,10 @@
       "flagName": "disability flag",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q105652911",
@@ -29773,9 +30025,9 @@
       "file": "Drapeau de Melun.jpg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
+        "red",
+        "blue",
         "yellow",
-        "gray",
         "white"
       ],
       "icons": [],
@@ -29786,7 +30038,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "A red field bearing the city's coat of arms centered: a blue shield with gold fleurs-de-lis surmounted by a crowned crest. Text on a banner below."
+      "description": "A red field bearing the city's coat of arms centered: a blue shield with gold fleurs-de-lis surmounted by a crowned crest. Text on a banner below.",
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q106501843",
@@ -30350,7 +30605,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q106681223",
@@ -30742,8 +31000,9 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
+        "white",
         "green",
-        "white"
+        "yellow"
       ],
       "wdColors": [],
       "icons": [],
@@ -30752,7 +31011,10 @@
       "flagName": "Tel Aviv",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q109648662",
@@ -30760,7 +31022,11 @@
       "count": 2,
       "file": "Bandeira de Laranjal Paulista na frente do Palácio 10 de Outubro.jpg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "blue",
+        "white",
+        "yellow"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -30768,7 +31034,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q110638075",
@@ -30900,7 +31169,13 @@
       "count": 1,
       "file": "Flag-of-Fredericton.jpg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "blue",
+        "white",
+        "green",
+        "yellow",
+        "red"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -30908,7 +31183,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q111594634",
@@ -30917,9 +31195,9 @@
       "file": "Flag of Regina.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
+        "yellow",
         "white",
-        "yellow"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -30928,7 +31206,10 @@
       "flagName": "Regina",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q111595928",
@@ -31130,10 +31411,11 @@
       "file": "Armoiries Nouméan fr.png",
       "isFlagEntity": true,
       "colors": [
-        "red",
-        "white",
         "yellow",
-        "lightblue"
+        "white",
+        "blue",
+        "red",
+        "black"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -31142,7 +31424,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q112963836",
@@ -31376,10 +31661,9 @@
       "file": "Flag of Cancale.gif",
       "isFlagEntity": true,
       "colors": [
-        "lightblue",
         "green",
-        "yellow",
         "white",
+        "yellow",
         "black"
       ],
       "icons": [],
@@ -31390,7 +31674,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "A green field with \"CANCALE\" arched in white letters at the top, and the city coat of arms centered: a light blue shield bearing a white sailing boat between yellow shellfish (oysters), with a black eagle in the upper hoist and surmounted by a gold crown."
+      "description": "A green field with \"CANCALE\" arched in white letters at the top, and the city coat of arms centered: a light blue shield bearing a white sailing boat between yellow shellfish (oysters), with a black eagle in the upper hoist and surmounted by a gold crown.",
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q112964507",
@@ -31888,7 +32175,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "A flag divided vertically green at the hoist and red at the fly, with a central green shield bearing a white eagle in the chief and three white bishop's croziers around a yellow pillar."
+      "description": "A flag divided vertically green at the hoist and red at the fly, with a central green shield bearing a white eagle in the chief and three white bishop's croziers around a yellow pillar.",
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q113289470",
@@ -32403,7 +32693,10 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "Quartered into four squares: upper hoist and lower fly white bearing five black ermine spots each; upper fly and lower hoist blue bearing a white sailing ship."
+      "description": "Quartered into four squares: upper hoist and lower fly white bearing five black ermine spots each; upper fly and lower hoist blue bearing a white sailing ship.",
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q113305608",
@@ -32738,7 +33031,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q113332085",
@@ -34084,7 +34380,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q113546282",
@@ -34271,7 +34570,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q113555538",
@@ -34774,7 +35076,10 @@
       "flagName": "Adjuntas",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q115185304",
@@ -35172,7 +35477,12 @@
       "count": 1,
       "file": "Flaga Gminy Dopiewo (Trzcielin 2023) 1.jpg",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "yellow",
+        "red",
+        "blue"
+      ],
       "icons": [],
       "shape": "rectangle",
       "flagType": null,
@@ -35180,7 +35490,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q117286279",
@@ -35260,8 +35573,8 @@
       "file": "Flag of Bishkek.svg",
       "isFlagEntity": true,
       "colors": [
-        "lightblue",
-        "white"
+        "white",
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -35270,7 +35583,10 @@
       "flagName": "Bishkek",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q118756714",
@@ -35321,7 +35637,10 @@
       "flagName": "Paralympic flag",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q120259831",
@@ -35332,7 +35651,7 @@
       "colors": [
         "white",
         "red",
-        "black"
+        "yellow"
       ],
       "icons": [],
       "shape": "rectangle",
@@ -35341,7 +35660,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q120260301",
@@ -35361,7 +35683,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q120830716",
@@ -35411,7 +35736,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "description": "A yellow field divided by a red vertical pale and a black horizontal fess, forming a thick cross of red and black on yellow."
+      "description": "A yellow field divided by a red vertical pale and a black horizontal fess, forming a thick cross of red and black on yellow.",
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q120987840",
@@ -35844,7 +36172,10 @@
       "flagName": "Jakarta",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q124527551",
@@ -35958,7 +36289,7 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [],
@@ -35967,7 +36298,10 @@
       "flagName": "Stockholm",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q127117943",
@@ -36047,7 +36381,7 @@
       "file": "Flag of Atlanta.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
+        "blue",
         "yellow"
       ],
       "wdColors": [],
@@ -36057,7 +36391,10 @@
       "flagName": "Atlanta",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q129906101",
@@ -36066,9 +36403,12 @@
       "file": "Flag of Tucson, Arizona.svg",
       "isFlagEntity": true,
       "colors": [
+        "blue",
         "white",
+        "yellow",
         "purple",
-        "yellow"
+        "lightblue",
+        "black"
       ],
       "wdColors": [],
       "icons": [],
@@ -36077,7 +36417,10 @@
       "flagName": "Tucson",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q130268700",
@@ -36113,7 +36456,10 @@
       "flagName": "Panama City",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q130601806",
@@ -36122,10 +36468,9 @@
       "file": "Saskatoon-flag.png",
       "isFlagEntity": true,
       "colors": [
-        "yellow",
-        "green",
         "white",
-        "purple"
+        "yellow",
+        "green"
       ],
       "wdColors": [],
       "icons": [],
@@ -36134,7 +36479,10 @@
       "flagName": "Saskatoon",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q130603060",
@@ -36143,10 +36491,10 @@
       "file": "Bandera de la Ciudad de Guatemala.svg",
       "isFlagEntity": true,
       "colors": [
-        "darkblue",
+        "red",
+        "blue",
         "lightblue",
         "green",
-        "red",
         "white",
         "yellow"
       ],
@@ -36157,7 +36505,10 @@
       "flagName": "Guatemala City",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q130739387",
@@ -36249,7 +36600,10 @@
       "flagName": "Sacramento",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q133163324",
@@ -36270,7 +36624,10 @@
       "flagName": "Omaha, Nebraska",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q134438567",
@@ -36290,7 +36647,10 @@
       "flagName": "Asunción",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q134809165",
@@ -36354,7 +36714,10 @@
       "flagName": "aroace pride flag",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q135493209",
@@ -36390,7 +36753,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "description": "A yellow field bearing three large red Chinese characters centered: 臺中市 (Taichung City)."
+      "description": "A yellow field bearing three large red Chinese characters centered: 臺中市 (Taichung City).",
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q136436975",
@@ -36399,7 +36765,9 @@
       "file": "Flag of Helsinki (long).svg",
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "blue",
+        "white",
+        "yellow"
       ],
       "wdColors": [],
       "icons": [],
@@ -36408,7 +36776,10 @@
       "flagName": "Helsinki",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 3
+      }
     },
     {
       "qid": "Q137163818",
@@ -36576,7 +36947,10 @@
       "flagName": "Christchurch",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q139033938",
@@ -36681,7 +37055,10 @@
       "flagName": "Geneva",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "reviews": {
+        "colors": 2
+      }
     },
     {
       "qid": "Q140005435",

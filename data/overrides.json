@@ -47,7 +47,7 @@
     "description": "Three equal vertical bands of black, yellow, and red.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -64,7 +64,7 @@
     "shape": "rectangle",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -130,7 +130,8 @@
     "description": "A vertical blue band at the hoist bearing a single large white five-pointed star, alongside two equal horizontal bands of white (top) and red on the fly.",
     "reviews": {
       "colors": 1,
-      "description": 1
+      "description": 1,
+      "icons": 1
     }
   },
   "Q19016": {
@@ -263,7 +264,8 @@
     "description": "A green field with a vertical red stripe near the hoist containing five traditional carpet medallions (göls) woven in red, black, yellow, and white with an olive branch at its base, plus a white crescent and five small white stars in the upper hoist of the green portion.",
     "reviews": {
       "colors": 1,
-      "description": 1
+      "description": 1,
+      "icons": 1
     }
   },
   "Q41673": {
@@ -280,7 +282,7 @@
     "description": "Three equal horizontal bands of saffron, white, and green, with a navy-blue 24-spoke wheel (Ashoka Chakra) centered on the white band.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -296,7 +298,7 @@
     "description": "Two equal horizontal bands of white above red.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -313,7 +315,7 @@
     "description": "Thirteen alternating red and white horizontal stripes, with a blue rectangle in the upper-left corner containing fifty white stars arranged in nine rows.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -330,7 +332,7 @@
     "description": "Three equal vertical bands of green, white, and red.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -361,16 +363,19 @@
     "shape": "rectangle",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
   "Q44936": {
     "colors": [
-      "lightblue",
-      "yellow",
-      "white"
-    ]
+      "blue",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q45136": {
     "description": "Three equal horizontal bands of green (top), white, and black, with three red five-pointed stars in a row centered on the white band."
@@ -419,7 +424,8 @@
     "description": "A blue Nordic cross on a white field, offset toward the hoist.",
     "reviews": {
       "colors": 1,
-      "description": 1
+      "description": 1,
+      "icons": 1
     }
   },
   "Q48160": {
@@ -435,7 +441,8 @@
     "description": "Three equal horizontal bands of black, red, and gold.",
     "reviews": {
       "colors": 1,
-      "description": 1
+      "description": 1,
+      "icons": 1
     }
   },
   "Q48409": {
@@ -472,7 +479,7 @@
     "description": "A white Nordic cross on a red field, offset toward the hoist.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -507,13 +514,14 @@
       "white"
     ],
     "icons": [
-      "plant"
+      "plant",
+      "vertical-stripes"
     ],
     "shape": "rectangle",
     "reviews": {
       "colors": 1,
-      "icons": 1,
-      "description": 1
+      "description": 1,
+      "icons": 2
     }
   },
   "Q81286": {
@@ -527,7 +535,7 @@
     "description": "A yellow Nordic cross on a light blue field, offset toward the hoist.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -575,7 +583,8 @@
     "description": "A blue field with the Union Jack in the upper hoist quarter, a large white seven-pointed Commonwealth Star below the Union Jack, and five white stars on the fly representing the Southern Cross (one small five-pointed star and four larger seven-pointed stars).",
     "reviews": {
       "colors": 1,
-      "description": 1
+      "description": 1,
+      "icons": 1
     }
   },
   "Q81952": {
@@ -590,7 +599,7 @@
     "description": "A red field with a white crescent and a white five-pointed star next to it, both in the center.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -607,7 +616,7 @@
     "shape": "rectangle",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -621,12 +630,12 @@
     ],
     "reviews": {
       "colors": 1,
-      "icons": 1,
       "description": 1
     },
     "icons": [
       "star",
-      "text"
+      "text",
+      "circle"
     ]
   },
   "Q82205": {
@@ -659,7 +668,7 @@
     "description": "A blue Nordic cross outlined in white on a red field, offset toward the hoist.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -676,7 +685,7 @@
     "description": "A dark blue field overlaid by the red and white crosses of Saint George, Saint Andrew, and Saint Patrick, forming three superimposed crosses on a blue background.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -711,7 +720,7 @@
     "description": "Two equal horizontal bands of red (top) and white.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -859,13 +868,17 @@
     ],
     "icons": [
       "coa",
-      "horizontal-stripes"
+      "horizontal-stripes",
+      "building",
+      "animal",
+      "crown",
+      "plant"
     ],
     "description": "Three horizontal bands of red, yellow, and red, with the yellow band twice as wide as the red bands, bearing the Spanish coat of arms toward the hoist.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
-      "description": 1
+      "description": 1,
+      "icons": 2
     }
   },
   "Q122462": {
@@ -886,7 +899,7 @@
     "description": "Three equal vertical bands of green (hoist), white, and red, with the Mexican coat of arms (a golden eagle perched on a nopal cactus devouring a serpent) centered on the white band.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -901,7 +914,7 @@
     "shape": "rectangle",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -917,7 +930,7 @@
     "description": "A square red field bearing a white Greek cross (equal-armed) centered.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -982,7 +995,7 @@
     "description": "Two equal horizontal bands of blue (top) and yellow.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -1029,7 +1042,7 @@
     "description": "Nine equal horizontal stripes of blue and white alternating (blue at the top and bottom), with a blue canton in the upper hoist bearing a white cross.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -1066,14 +1079,15 @@
     ],
     "icons": [
       "sun",
-      "horizontal-stripes"
+      "horizontal-stripes",
+      "people"
     ],
     "shape": "rectangle",
     "description": "Three equal horizontal bands of light blue, white, and light blue, with a yellow Sun of May (a sun face with rays) centered on the white band.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
-      "description": 1
+      "description": 1,
+      "icons": 2
     }
   },
   "Q130807": {
@@ -1091,7 +1105,7 @@
     "shape": "rectangle",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -1108,7 +1122,7 @@
     "shape": "rectangle",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -1123,7 +1137,7 @@
     "description": "A red field with one large yellow five-pointed star in the upper-left, accompanied by four smaller yellow stars arcing around it.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -1220,13 +1234,14 @@
     ],
     "icons": [
       "star",
-      "sun"
+      "sun",
+      "horizontal-stripes"
     ],
     "description": "A horizontal bicolor of royal blue (top) and crimson red (bottom), with a white equilateral triangle at the hoist. In the center of the triangle is a golden-yellow sun with eight primary rays. Each of the triangle's three vertices bears a small five-pointed golden-yellow star.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
-      "description": 1
+      "description": 1,
+      "icons": 2
     }
   },
   "Q134874": {
@@ -1249,7 +1264,7 @@
     "description": "Five horizontal stripes of red, white, blue, white, and red; the central blue stripe is twice the width of each of the other four.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -1405,7 +1420,7 @@
     "description": "A blue field with the Union Jack in the upper hoist quarter, and four red five-pointed stars edged in white on the fly representing the Southern Cross.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -1455,7 +1470,7 @@
     "description": "Two equal horizontal bands of white (top) and red, with a blue square in the upper hoist (the height of the white band) bearing a single white five-pointed star.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -1513,7 +1528,7 @@
     "shape": "rectangle",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -2213,7 +2228,10 @@
       "yellow",
       "white",
       "blue"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q258262": {
     "description": "A sky-blue field bearing an Osage warrior's tan buffalo-hide shield with six small white crosses, decorated with seven pendant eagle feathers. Crossed atop the shield are a calumet (peace pipe) and an olive branch. \"OKLAHOMA\" appears in white capitals below.",
@@ -2265,7 +2283,7 @@
     "description": "A white field with a wide red stripe along the bottom edge. Centered on the white field is a California grizzly bear walking on a patch of green grass, with a red five-pointed star in the upper-left. The words \"CALIFORNIA REPUBLIC\" appear in black below the bear.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -2474,10 +2492,13 @@
   },
   "Q530807": {
     "colors": [
-      "darkblue",
-      "yellow",
-      "white"
-    ]
+      "blue",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q543471": {
     "description": "A dark red field with four yellow castle towers arranged in a 2x2 pattern in the upper hoist corner, and seven yellow crowns arranged in a 3+2+2 pattern in the lower fly corner."
@@ -2600,6 +2621,12 @@
   "Q663111": {
     "description": "Five horizontal bands of blue (top), white, yellow (narrow), white, and red."
   },
+  "Q669141": {
+    "description": "Coloplast A/S is a Danish multinational company that develops, manufactures and markets medical devices and services related to ostomy, urology, continence, and wound care.",
+    "reviews": {
+      "description": 2
+    }
+  },
   "Q673117": {
     "description": "A blue field with a gold flaming torch centered, surrounded by a ring of thirteen gold five-pointed stars with five additional stars in an inner arc. A nineteenth larger star sits above the torch flame, with the word \"INDIANA\" arched above it in gold.",
     "reviews": {
@@ -2681,6 +2708,12 @@
     "reviews": {
       "colors": 1,
       "description": 1
+    }
+  },
+  "Q725122": {
+    "description": "Laakdal (Dutch pronunciation: [ˈlaːɡdɑl]) is a municipality located in the Belgian province of Antwerp. Laakdal was founded in 1977 out of a merger of the towns Veerle, Eindhout and Vorst. The municipality now comprises the towns of Eindhout, Veerle, Vorst, Varendonk and Vorst-Meerlaar (also known as Klein-Vorst).",
+    "reviews": {
+      "description": 2
     }
   },
   "Q730106": {
@@ -2773,7 +2806,7 @@
     "description": "A red, white, and blue swallowtail (triangular-cut) flag. Two horizontal red stripes top and bottom flank a white middle stripe, with a blue triangular peak at the hoist bearing 13 white stars around a red disc.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -2818,7 +2851,7 @@
     "description": "A white field bearing the central elements of the state seal: a bald eagle in profile perched on a rock, wings uplifted, holding a shield and a banner in its beak, with a rising sun over water in the background. The word \"Illinois\" appears below.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -2857,15 +2890,22 @@
   },
   "Q783961": {
     "colors": [
+      "green",
       "white",
-      "green"
-    ]
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q784526": {
     "colors": [
-      "lightblue",
-      "white"
-    ]
+      "white",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q786078": {
     "description": "A blue field bearing a centered yellow eagle with wings spread and red claws."
@@ -2910,7 +2950,16 @@
     }
   },
   "Q851131": {
-    "description": "A white field bearing the Budapest coat of arms centered — a quartered red shield ensigned with the Hungarian Holy Crown, supported by two golden lions. The top and bottom edges of the flag are bordered by a row of alternating red and green triangles (a stylized Hungarian Árpád motif)."
+    "description": "A white field bearing the Budapest coat of arms centered — a quartered red shield ensigned with the Hungarian Holy Crown, supported by two golden lions. The top and bottom edges of the flag are bordered by a row of alternating red and green triangles (a stylized Hungarian Árpád motif).",
+    "colors": [
+      "red",
+      "white",
+      "green",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q862088": {
     "description": "A field of seven alternating blue and white horizontal stripes (four blue, three white). A red square canton in the upper hoist bears a centered red cross with four red Bolnisi-style crosses (one in each quadrant)."
@@ -2958,7 +3007,10 @@
       "white",
       "yellow",
       "red"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q965192": {
     "description": "A white field bearing a centered red Cross of the Order of Christ (broad red cross with arms widening at the ends) and a smaller white circular medallion at the center bearing the São Paulo coat of arms (a yellow shield with branches surmounted by a gold mural crown, with a red banner reading \"NON DVCOR DVCO\")."
@@ -3117,7 +3169,7 @@
     "description": "Three horizontal white bands separated by two light-blue bands, with four red six-pointed stars centered on the broad middle white band.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -3132,11 +3184,14 @@
   },
   "Q1426496": {
     "colors": [
-      "green",
+      "blue",
+      "white",
       "yellow",
-      "darkblue",
-      "white"
-    ]
+      "green"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q1426512": {
     "description": "A white field bearing a black cross (vertical and horizontal black bands) extending to the edges."
@@ -3148,8 +3203,11 @@
     "colors": [
       "purple",
       "pink",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q1426561": {
     "description": "Three vertical bands of blue (hoist), white (double width), and blue, with the Northwest Territories shield centered on the white band: a quartered shield showing wavy white and blue at top (the Northwest Passage), a red ribbon (the tree line), green areas with gold ingots (mineral wealth), and a white fox head on red."
@@ -3182,7 +3240,7 @@
     "description": "A black field with a white silhouette of a head in profile, a guard tower, and a strand of barbed wire, with the text \"POW * MIA\" above and \"YOU ARE NOT FORGOTTEN\" below.",
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     }
   },
@@ -3228,7 +3286,10 @@
       "green",
       "yellow",
       "white"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q1829577": {
     "description": "Three equal horizontal bands of light blue (top), white, and light blue, with the La Pampa coat of arms centered on the white band (an oval emblem with a green tree, mountains, a gaucho on horseback, and crossed lances behind, with a sunburst above)."
@@ -3292,6 +3353,15 @@
   "Q2070821": {
     "description": "Divided diagonally into three sections by two parallel lines: upper hoist blue (small triangle), white middle band, lower fly yellow (small triangle). A yellow sun with rays sits centered on the white band."
   },
+  "Q2073258": {
+    "colors": [
+      "red",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
+  },
   "Q2084156": {
     "description": "A dark red field with a horizontal black stripe near the top and bottom. Centered is an oval emblem with a light blue interior bearing a white six-pointed star with a small sun face inside, surrounded by a yellow border with small yellow seven-pointed stars."
   },
@@ -3313,6 +3383,15 @@
   "Q2134803": {
     "description": "Thirteen alternating horizontal stripes of black and white, with a red canton in the upper hoist bearing a white disc with a blue silhouette of Brazil, flanked by four yellow five-pointed stars (one in each corner of the canton)."
   },
+  "Q2137315": {
+    "colors": [
+      "red",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
+  },
   "Q2151681": {
     "description": "Divided by a wavy white horizontal band into a blue upper section (with a diagonal triangle from upper hoist) and a green lower triangle, with a red horizontal stripe near the bottom. A large yellow five-pointed star is centered."
   },
@@ -3328,9 +3407,12 @@
   "Q2171778": {
     "description": "Two equal horizontal bands of yellow (top) and blue.",
     "colors": [
-      "darkblue",
+      "blue",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q2191442": {
     "description": "Five horizontal bands of red, white, red, white, red, with a large green diamond centered (overlapping all five bands) bearing the state coat of arms (a white five-pointed star with an eagle and key emblem, surrounded by wheat, foliage, and a red banner reading \"ESTADO DE STA CATARINA\")."
@@ -3342,7 +3424,10 @@
       "yellow",
       "white",
       "red"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q2225406": {
     "colors": [
@@ -3350,7 +3435,10 @@
       "white",
       "red",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q2241052": {
     "description": "Two equal horizontal bands of white (top) and light blue, with the Mendoza coat of arms centered: an oval cartouche showing two clasped hands holding a pike topped with a red Phrygian cap, framed by a green laurel wreath, with the Andes mountain peaks and a golden sunburst above."
@@ -3498,12 +3586,15 @@
   "Q2499570": {
     "description": "A blue field bearing a central figure of the Virgin Mary in red and dark blue robes, standing on a white cloud, flanked by four kneeling angels in white robes with halos and outstretched wings.",
     "colors": [
-      "white",
-      "red",
+      "blue",
       "yellow",
-      "darkblue",
-      "blue"
-    ]
+      "red",
+      "gray",
+      "darkblue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q2508330": {
     "description": "A triangular saffron (or navy blue) flag bearing a black Khanda emblem (a double-edged sword between two curved kirpans circling a chakkar) centered. A tassel hangs from the fly point."
@@ -3553,7 +3644,10 @@
       "yellow",
       "black",
       "white"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q2616924": {
     "description": "Three equal horizontal bands of yellow (top), red, and blue.",
@@ -3574,7 +3668,10 @@
       "blue",
       "yellow",
       "green"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q2621952": {
     "description": "Two equal vertical bands of white (hoist, wide) and red (narrow), with the Vologda coat of arms in the upper hoist (a red shield bearing a hand holding a sword and orb, surmounted by a crown)."
@@ -3616,10 +3713,13 @@
   },
   "Q2709096": {
     "colors": [
-      "black",
+      "green",
       "yellow",
       "white"
-    ]
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q2727336": {
     "description": "A yellow field bearing a red rampant lion centered within a red double-line rectangular border (tressure) decorated with red fleurs-de-lis at the corners and along the sides."
@@ -3629,7 +3729,10 @@
       "blue",
       "white",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q2772636": {
     "description": "A light blue field with white zigzag lines along the top edge (mountains) and white wavy lines along the bottom edge (waves). Centered, a dark blue cogwheel containing a stylized white sluice gate and a vertical yellow wheat sheaf, with a yellow sun rising behind."
@@ -3680,11 +3783,14 @@
   },
   "Q2915836": {
     "colors": [
-      "lightblue",
-      "red",
       "white",
-      "yellow"
-    ]
+      "yellow",
+      "red",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q2917560": {
     "description": "A white field bordered in gold, bearing a centered brown phoenix rising from a red flaming crown, with a white banner below reading \"ORO EN PAZ FIERRO EN GUERRA\" and \"SAN FRANCISCO\" in blue letters along the bottom.",
@@ -3780,11 +3886,14 @@
   },
   "Q3434487": {
     "colors": [
-      "darkblue",
-      "yellow",
+      "blue",
       "white",
-      "red"
-    ]
+      "red",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q3442757": {
     "description": "Three equal horizontal bands of red, white, and blue, with the coat of arms of Herzeg-Bosnia centered on the white band — a small red-and-white checked shield bordered in gold, ensigned by a gold crown."
@@ -3811,8 +3920,11 @@
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q4042567": {
     "description": "Lalandia is the name of three Danish holiday resorts owned by Parken Sport & Entertainment. The original Lalandia Rødby is located in Rødbyhavn, with additional activity centres in Billund (2009) and Søndervig (2022)."
@@ -3824,7 +3936,10 @@
       "green",
       "yellow",
       "black"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q4486181": {
     "description": "A blue field bearing the Zagreb coat of arms centered: a blue shield bordered in yellow showing a white three-towered castle, a yellow six-pointed star in the upper hoist, and a white crescent in the upper fly."
@@ -3838,20 +3953,26 @@
   "Q4486900": {
     "description": "A red field with a gold heraldic emblem at the upper hoist: a wreath of grain encircling a small shield (yellow with red horizontal stripes); above the shield, a green crescent.",
     "colors": [
+      "white",
+      "red",
       "darkblue",
-      "yellow",
-      "red"
-    ]
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 1
+    }
   },
   "Q4487042": {
     "description": "A light blue field with a stylized yellow ancient sailing ship (with red and green sails) centered above a white wavy band along the lower edge representing water.",
     "colors": [
-      "lightblue",
-      "green",
-      "red",
+      "white",
       "yellow",
-      "white"
-    ]
+      "green",
+      "red"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q4487085": {
     "description": "Two equal horizontal bands of red over white, with a blue canton at the upper hoist bearing a yellow crescent and a yellow five-pointed star."
@@ -3862,12 +3983,14 @@
   "Q4487351": {
     "description": "A green field with a white saltire (X-shaped cross) extending corner to corner, dividing the field into four green triangles.",
     "colors": [
-      "red",
+      "yellow",
       "blue",
       "white",
-      "black",
-      "yellow"
-    ]
+      "black"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q4487410": {
     "description": "A yellow field with a black right triangle in the upper hoist quarter, edged along its hypotenuse by a red triangle."
@@ -3878,23 +4001,24 @@
   "Q4487718": {
     "colors": [
       "lightblue",
-      "white",
-      "black",
       "green",
+      "black",
       "darkblue"
-    ]
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q4487879": {
     "description": "A green field with a vertical blue stripe down the center. Over the stripe, a yellow falcon stands with wings spread atop a horizontal scroll of white paper or fabric.",
     "colors": [
-      "white",
-      "black",
       "yellow",
       "green",
-      "blue"
+      "lightblue",
+      "white"
     ],
     "reviews": {
-      "colors": 1
+      "colors": 3
     }
   },
   "Q4488105": {
@@ -3914,12 +4038,16 @@
   },
   "Q4784194": {
     "colors": [
-      "green",
       "white",
-      "yellow",
+      "gray",
       "red",
-      "darkblue"
-    ]
+      "green",
+      "yellow",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q4876605": {
     "flagType": "cultural",
@@ -3943,10 +4071,13 @@
   },
   "Q5179800": {
     "colors": [
-      "red",
       "white",
-      "darkblue"
-    ]
+      "red",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q5456645": {
     "description": "A black field with a white crescent enclosing a white five-pointed star, centered."
@@ -3965,10 +4096,13 @@
   },
   "Q5456702": {
     "colors": [
+      "blue",
       "yellow",
-      "darkblue",
       "red"
-    ]
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q5456706": {
     "description": "Three equal vertical stripes of blue, white, and red. Centered on the white stripe, a shield containing three green hills with a yellow star above, crossed by gold swords."
@@ -3994,7 +4128,10 @@
       "red",
       "black",
       "green"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q5456721": {
     "description": "A white field crossed by four wavy blue horizontal stripes representing the Ohio River. Centered is a large red letter \"C\" enclosing a white disc bearing the Latin motto \"JUNCTA JUVANT\" above a balance scale, a sword, and a caduceus. A small red mural crown sits above the C.",
@@ -4012,10 +4149,13 @@
   },
   "Q5456750": {
     "colors": [
-      "red",
-      "lightblue",
-      "yellow"
-    ]
+      "blue",
+      "yellow",
+      "red"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q5456759": {
     "description": "A horizontal bicolor of yellow (top) with white sunburst rays and orange (bottom). A brown equestrian statue (Andrew Jackson on horseback) is centered across the boundary, with \"CITY OF JACKSONVILLE, FLORIDA\" arched in white text below and a yellow silhouette of the county shape in the lower fly.",
@@ -4025,20 +4165,27 @@
   },
   "Q5456761": {
     "colors": [
-      "green",
       "red",
-      "darkblue",
+      "green",
+      "blue",
       "white",
-      "yellow"
-    ]
+      "yellow",
+      "black"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q5456768": {
     "colors": [
       "yellow",
       "black",
       "red",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q5456769": {
     "description": "A blue field with a grey diagonal band running from lower hoist to upper fly. At the upper hoist over the diagonal, a circular seal: \"CITY OF LAS VEGAS / NEVADA\" around a stylized desert-city emblem."
@@ -4049,7 +4196,10 @@
       "white",
       "black",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q5456775": {
     "colors": [
@@ -4106,7 +4256,10 @@
     "colors": [
       "white",
       "lightblue"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q5456835": {
     "description": "A white field bearing a red Scandinavian-style saltire (red X-shaped cross extending corner to corner)."
@@ -4167,13 +4320,14 @@
     "icons": [
       "text",
       "animal",
-      "map"
+      "map",
+      "tools"
     ],
     "shape": "rectangle",
     "reviews": {
       "colors": 1,
-      "icons": 1,
-      "description": 1
+      "description": 1,
+      "icons": 2
     }
   },
   "Q5456898": {
@@ -4185,7 +4339,7 @@
     ],
     "reviews": {
       "colors": 1,
-      "icons": 1,
+      "icons": 2,
       "description": 1
     },
     "icons": [
@@ -4219,7 +4373,10 @@
     "colors": [
       "red",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q5718574": {
     "flagType": "municipal",
@@ -4257,11 +4414,14 @@
   },
   "Q6393175": {
     "colors": [
-      "darkblue",
       "red",
-      "yellow",
-      "white"
-    ]
+      "blue",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q6919069": {
     "description": "A dark blue field with a white crescent moon in the upper hoist, the word \"LIBERTY\" in dark blue arched within the crescent's curve.",
@@ -4294,10 +4454,14 @@
   "Q8242038": {
     "colors": [
       "white",
-      "lightblue",
+      "yellow",
       "green",
-      "yellow"
-    ]
+      "blue",
+      "red"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q9260246": {
     "description": "A white field with two horizontal blue stripes (one wide, one narrow) in the lower half, and the city coat of arms in the upper hoist (a red shield bearing a white sword crossed with two yellow fish)."
@@ -4309,15 +4473,21 @@
     "colors": [
       "lightblue",
       "white"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q9647178": {
     "colors": [
       "green",
       "yellow",
-      "darkblue",
-      "white"
-    ]
+      "white",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q10955332": {
     "description": "Two equal horizontal bands of yellow (top) and blue, with a black shield centered over the divide bearing a black hammer, retort, and cogwheel (Katowice industrial emblem) on yellow.",
@@ -4353,11 +4523,14 @@
   },
   "Q12143496": {
     "colors": [
-      "darkblue",
-      "white",
       "yellow",
+      "white",
+      "blue",
       "red"
-    ]
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q12143610": {
     "description": "A yellow field bearing a centered red gonfanon — a stylized red banner shape with three rounded pendant tongues, outlined in green."
@@ -4373,11 +4546,14 @@
   },
   "Q12601313": {
     "colors": [
-      "lightblue",
-      "green",
+      "blue",
+      "white",
       "red",
-      "white"
-    ]
+      "green"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q12751889": {
     "description": "A white field bearing a stylized swooping star in black and dark blue with a small red comma-shape above, with \"CITY OF TALLAHASSEE\" in black serif text beneath."
@@ -4436,9 +4612,13 @@
     "description": "A red field with a gold heraldic emblem at the upper hoist: a wreath of grain encircling a small shield (yellow with red horizontal stripes); above the shield, a green crescent.",
     "colors": [
       "red",
+      "yellow",
       "green",
-      "yellow"
-    ]
+      "white"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q17493086": {
     "description": "Two equal horizontal bands of yellow (top) and green."
@@ -4448,7 +4628,10 @@
       "lightblue",
       "red",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q20106031": {
     "colors": [
@@ -4457,6 +4640,17 @@
     ],
     "reviews": {
       "colors": 1
+    }
+  },
+  "Q21752527": {
+    "colors": [
+      "red",
+      "brown",
+      "yellow",
+      "gray"
+    ],
+    "reviews": {
+      "colors": 3
     }
   },
   "Q23925186": {
@@ -4531,14 +4725,17 @@
   },
   "Q48990056": {
     "colors": [
-      "red",
-      "white",
       "blue",
-      "darkblue",
-      "lightblue",
+      "white",
+      "yellow",
+      "black",
       "green",
-      "yellow"
-    ]
+      "lightblue",
+      "red"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q54953696": {
     "description": "A blue field bearing a centered white stylized Greek temple façade with columns, pediment, and steps, with the white word \"UNESCO\" between the columns.",
@@ -4635,7 +4832,8 @@
     "description": "A solid red field with the McDonald's golden \"M\" arches logo centered.",
     "reviews": {
       "colors": 1,
-      "description": 1
+      "description": 1,
+      "icons": 1
     }
   },
   "Q65036972": {
@@ -4646,87 +4844,123 @@
   },
   "Q65036996": {
     "colors": [
-      "darkblue",
+      "red",
       "white",
-      "red"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65036999": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037000": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037004": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037012": {
     "colors": [
       "red",
-      "darkblue",
-      "white"
-    ]
+      "white",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037014": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037017": {
     "colors": [
       "red",
-      "darkblue",
-      "white"
-    ]
+      "white",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037029": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037031": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037033": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037035": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037036": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037039": {
     "description": "A 34-star United States flag (1861–1863): thirteen alternating red and white horizontal stripes with a blue canton at the upper hoist bearing 34 small white five-pointed stars in a circular arrangement with one large star in the center."
@@ -4734,58 +4968,82 @@
   "Q65037040": {
     "colors": [
       "red",
-      "darkblue",
-      "white"
-    ]
+      "white",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037042": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037044": {
     "colors": [
       "red",
-      "darkblue",
-      "white"
-    ]
+      "white",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037047": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037050": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037052": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037054": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037056": {
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037057": {
     "description": "A 48-star United States flag (1912–1959): thirteen alternating red and white horizontal stripes with a blue canton at the upper hoist bearing 48 small white five-pointed stars in six rows of eight."
@@ -4794,8 +5052,11 @@
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q65037070": {
     "description": "Thirteen alternating horizontal stripes of red and white (seven red, six white), with a blue canton in the upper hoist bearing fifty white five-pointed stars arranged in nine offset rows."
@@ -4849,8 +5110,11 @@
     "colors": [
       "red",
       "white",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q77282937": {
     "description": "A yellow field with the City of Glendale seal centered: a dark blue ring containing a small landscape collage of buildings, a bear, and the California outline. \"CITY OF GLENDALE\" in blue block letters runs across the lower portion."
@@ -4905,19 +5169,25 @@
     "colors": [
       "red",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q96378013": {
     "description": "A white field bearing a centered red, white, and blue shield containing a yellow lamp of knowledge, with a winged crown emblem above the shield and the text \"CITY OF AUSTIN\" curved below it in dark blue."
   },
   "Q96378017": {
     "colors": [
-      "darkblue",
+      "blue",
+      "brown",
       "white",
-      "yellow",
-      "gray",
+      "black",
       "green"
-    ]
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q96474154": {
     "description": "Two equal horizontal bands of blue (top) and red, with the Chorzów coat of arms centered over the divide — a yellow-bordered shield divided vertically with a yellow rising eagle on blue at the hoist and a vertical letter F (or hammer) on black at the fly."
@@ -5055,7 +5325,8 @@
     "description": "A circle of twelve five-pointed yellow stars on a blue field.",
     "reviews": {
       "colors": 1,
-      "description": 1
+      "description": 1,
+      "icons": 1
     }
   },
   "Q98153217": {
@@ -5116,9 +5387,12 @@
   "Q105593273": {
     "colors": [
       "yellow",
-      "orange",
-      "gray"
-    ]
+      "gray",
+      "brown"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q105798861": {
     "description": "A vertical tricolor of green, white, and red with the year \"1824\" in black serif numerals on the central white stripe."
@@ -5200,11 +5474,14 @@
   "Q106501701": {
     "description": "A red field bearing the city's coat of arms centered: a blue shield with gold fleurs-de-lis surmounted by a crowned crest. Text on a banner below.",
     "colors": [
-      "darkblue",
+      "red",
+      "blue",
       "yellow",
-      "gray",
       "white"
-    ]
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q106501843": {
     "description": "A vertical bicolor of blue (hoist) and yellow.",
@@ -5272,7 +5549,10 @@
       "blue",
       "white",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q106681223": {
     "description": "A vertical bicolor, black at the hoist and yellow at the fly."
@@ -5328,9 +5608,23 @@
   "Q109513124": {
     "colors": [
       "blue",
+      "white",
       "green",
-      "white"
-    ]
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
+  },
+  "Q109648662": {
+    "colors": [
+      "blue",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q110638075": {
     "description": "A red field bisected by a wide white diagonal band edged in white scallops, running from the upper hoist to the lower fly. The two red triangles each bear three yellow crowns trimmed with white clover-leaf trefoils."
@@ -5338,12 +5632,27 @@
   "Q110728191": {
     "description": "A black field with a rampant white lion crowned in gold, with a red tongue and yellow claws, wearing a gold collar with a small cross."
   },
+  "Q111593132": {
+    "colors": [
+      "blue",
+      "white",
+      "green",
+      "yellow",
+      "red"
+    ],
+    "reviews": {
+      "colors": 3
+    }
+  },
   "Q111594634": {
     "colors": [
-      "darkblue",
+      "yellow",
       "white",
-      "yellow"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q111912959": {
     "description": "A vertical bicolor of blue (hoist) and orange, with a white stylized figure of a boy rolling up his sleeve centered across the boundary."
@@ -5370,11 +5679,15 @@
   },
   "Q112963333": {
     "colors": [
-      "red",
-      "white",
       "yellow",
-      "lightblue"
-    ]
+      "white",
+      "blue",
+      "red",
+      "black"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q112963836": {
     "description": "A flag divided vertically: a white hoist strewn with black ermine spots and a red fly bearing a large yellow crescent moon outlined in black with horns pointing upward."
@@ -5397,12 +5710,14 @@
   "Q112964480": {
     "description": "A green field with \"CANCALE\" arched in white letters at the top, and the city coat of arms centered: a light blue shield bearing a white sailing boat between yellow shellfish (oysters), with a black eagle in the upper hoist and surmounted by a gold crown.",
     "colors": [
-      "lightblue",
       "green",
-      "yellow",
       "white",
+      "yellow",
       "black"
-    ]
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q112964512": {
     "description": "A field of horizontal blue and white stripes overlaid with a broad red diagonal band running from the upper hoist to the lower fly."
@@ -5448,7 +5763,10 @@
       "red",
       "white",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q113289490": {
     "description": "A white field strewn with black ermine spots and charged with three large red axe-headed staves arranged in a row."
@@ -5471,7 +5789,10 @@
       "white",
       "blue",
       "black"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q113329508": {
     "colors": [
@@ -5496,7 +5817,10 @@
       "white",
       "yellow",
       "blue"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q113357638": {
     "description": "Two equal horizontal bands of blue (top) and yellow."
@@ -5564,14 +5888,20 @@
       "white",
       "yellow",
       "red"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q113553388": {
     "colors": [
       "red",
       "white",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q113559437": {
     "description": "A red field bearing three gold lions rampant facing the hoist (two above, one below), each with blue claws and a small blue crown."
@@ -5587,7 +5917,10 @@
       "purple",
       "white",
       "green"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q115527338": {
     "description": "A blue field bearing a centered dark red rectangle with white arched text \"EXERCITVS SALVATIONIS\" across the top and a gold and red eight-pointed star centered, the star inscribed \"SANGVIS ET IGNIS\"."
@@ -5610,11 +5943,25 @@
   "Q116820815": {
     "description": "A dark purple field with \"PORTSMOUTH\" in large white letters arched above a small \"VIRGINIA\" centered. A white wavy band runs across below, and a light blue lower section bears \"TOWN 1752 · CITY 1858\" in dark blue letters."
   },
+  "Q117192105": {
+    "colors": [
+      "white",
+      "yellow",
+      "red",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
+  },
   "Q118121879": {
     "colors": [
-      "lightblue",
-      "white"
-    ]
+      "white",
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q119631640": {
     "colors": [
@@ -5622,21 +5969,30 @@
       "green",
       "red",
       "blue"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q120259831": {
     "colors": [
       "white",
       "red",
-      "black"
-    ]
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q120260301": {
     "colors": [
       "yellow",
       "black",
       "white"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q120987559": {
     "description": "A yellow field divided by a red vertical pale and a black horizontal fess, forming a thick cross of red and black on yellow.",
@@ -5644,7 +6000,10 @@
       "yellow",
       "red",
       "black"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q121799143": {
     "description": "Three horizontal bands of dark blue (top), white, and dark red, with the boundary between blue and white forming a mountain silhouette. A blue hexagonal badge bearing a yellow beehive and small white star is centered.",
@@ -5687,54 +6046,77 @@
       "blue",
       "green",
       "red"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q126622169": {
     "colors": [
       "yellow",
-      "darkblue"
-    ]
+      "blue"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q127117943": {
     "description": "A dark red field bearing the Santiago de Compostela coat of arms centered: a blue shield with a yellow chalice and four white scallop shells around it, plus a Roman-style temple at the lower fly, encircled by a green wreath and surmounted by a gold royal crown."
   },
   "Q128107601": {
     "colors": [
-      "darkblue",
+      "blue",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q129906101": {
     "colors": [
+      "blue",
       "white",
+      "yellow",
       "purple",
-      "yellow"
-    ]
+      "lightblue",
+      "black"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q130530719": {
     "colors": [
       "white",
       "red",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q130601806": {
     "colors": [
-      "yellow",
-      "green",
       "white",
-      "purple"
-    ]
+      "yellow",
+      "green"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q130603060": {
     "colors": [
-      "darkblue",
+      "red",
+      "blue",
       "lightblue",
       "green",
-      "red",
       "white",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q133050415": {
     "colors": [
@@ -5743,7 +6125,10 @@
       "blue",
       "white",
       "green"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q133163324": {
     "colors": [
@@ -5751,14 +6136,20 @@
       "yellow",
       "white",
       "red"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q134438567": {
     "colors": [
       "red",
       "white",
       "blue"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q135472669": {
     "description": "A black field with a large white letter K at the hoist and a white skull above crossed bones (Jolly Roger) at the fly.",
@@ -5773,19 +6164,30 @@
       "white",
       "lightblue",
       "darkblue"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q135992817": {
     "description": "A yellow field bearing three large red Chinese characters centered: 臺中市 (Taichung City).",
     "colors": [
       "red",
       "yellow"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q136436975": {
     "colors": [
-      "blue"
-    ]
+      "blue",
+      "white",
+      "yellow"
+    ],
+    "reviews": {
+      "colors": 3
+    }
   },
   "Q137163818": {
     "description": "A dark blue field with two wavy vertical bands (light blue and yellow) at the fly, and a yellow Mission Inn bell tower silhouette centered toward the hoist.",
@@ -5801,7 +6203,10 @@
       "yellow",
       "blue",
       "red"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   },
   "Q139033938": {
     "description": "Three equal vertical bands of dark blue (hoist), white (double width), and dark blue. The Tamboril coat of arms is centered on the white band: a shield divided into four quadrants showing rural and farming scenes, framed by white cotton bolls and green leaves, with a blue five-pointed star above.",
@@ -5846,6 +6251,9 @@
       "yellow",
       "red",
       "black"
-    ]
+    ],
+    "reviews": {
+      "colors": 2
+    }
   }
 }
