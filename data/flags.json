@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T22:34:06.739Z",
+  "generated": "2026-06-19T23:30:26.610Z",
   "palette": [
     "red",
     "white",
@@ -18970,24 +18970,6 @@
       "reviews": {
         "colors": 3
       }
-    },
-    {
-      "qid": "Q4042567",
-      "name": "Lalandia",
-      "count": 6,
-      "file": "Lalandia, Rødby (2009-03-29).jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": "commercial",
-      "flagName": "Lalandia",
-      "flagTypeSample": 6,
-      "extraTags": {},
-      "aliases": [],
-      "description": "Lalandia is the name of three Danish holiday resorts owned by Parken Sport & Entertainment. The original Lalandia Rødby is located in Rødbyhavn, with additional activity centres in Billund (2009) and Søndervig (2022).",
-      "wdColors": [],
-      "wdImageProperty": "P18"
     },
     {
       "qid": "Q4485668",
