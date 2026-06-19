@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T04:45:07.787Z",
+  "generated": "2026-06-19T10:22:15.450Z",
   "palette": [
     "red",
     "white",
@@ -574,7 +574,7 @@
     {
       "qid": "Q19427",
       "name": "flag of Oregon",
-      "count": 56,
+      "count": 57,
       "file": "Flag of Oregon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -969,7 +969,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16638,
+      "count": 16652,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1090,7 +1090,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2352,
+      "count": 2354,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2127,7 +2127,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 274,
+      "count": 275,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3210,7 +3210,8 @@
       "extraTags": {},
       "aliases": [],
       "description": "A white field bearing the seal of Cook County in the center.",
-      "wdColors": []
+      "wdColors": [],
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q117758",
@@ -4008,7 +4009,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 572,
+      "count": 574,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4325,7 +4326,7 @@
     {
       "qid": "Q133015",
       "name": "flag of Croatia",
-      "count": 78,
+      "count": 79,
       "file": "Flag of Croatia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5466,7 +5467,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 401,
+      "count": 402,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11522,7 +11523,8 @@
         "red",
         "white"
       ],
-      "description": "A white field bearing a red Saint George's cross (vertical and horizontal red bands) extending to the edges."
+      "description": "A white field bearing a red Saint George's cross (vertical and horizontal red bands) extending to the edges.",
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q617649",
@@ -12671,7 +12673,7 @@
     {
       "qid": "Q752559",
       "name": "flag of Ohio",
-      "count": 324,
+      "count": 326,
       "file": "Flag of Ohio.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13054,7 +13056,8 @@
         "red",
         "white"
       ],
-      "description": "A white field with the Union Jack in the upper hoist canton, and in the fly the Southern Cross constellation (five seven-pointed blue stars) plus a larger Commonwealth Star (a seven-pointed blue star) in the lower hoist."
+      "description": "A white field with the Union Jack in the upper hoist canton, and in the fly the Southern Cross constellation (five seven-pointed blue stars) plus a larger Commonwealth Star (a seven-pointed blue star) in the lower hoist.",
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q783490",
@@ -13801,7 +13804,8 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": [],
-      "description": "A white field bearing the USACE castle emblem centered: a red diamond outlined in grey containing a stylized red castle (three towers and a connecting wall) over a small white globe."
+      "description": "A white field bearing the USACE castle emblem centered: a red diamond outlined in grey containing a stylized red castle (three towers and a connecting wall) over a small white globe.",
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q1064042",
@@ -13924,7 +13928,7 @@
     {
       "qid": "Q1084035",
       "name": "Christian Flag",
-      "count": 57,
+      "count": 58,
       "file": "Christian flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14722,7 +14726,8 @@
         "black",
         "white"
       ],
-      "description": "A white field bearing a black cross (vertical and horizontal black bands) extending to the edges."
+      "description": "A white field bearing a black cross (vertical and horizontal black bands) extending to the edges.",
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q1426515",
@@ -14965,7 +14970,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 699,
+      "count": 700,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15124,7 +15129,7 @@
     {
       "qid": "Q1788743",
       "name": "Confederate Battle Flag",
-      "count": 46,
+      "count": 47,
       "file": "North Virginia Third Bunting.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16466,7 +16471,8 @@
       "aliases": [],
       "wdColors": [],
       "svgColors": [],
-      "description": "A white field bearing a red saltire formed of two diagonal raguly (jagged-edged) bands resembling crossed pruned tree branches (the Cross of Burgundy)."
+      "description": "A white field bearing a red saltire formed of two diagonal raguly (jagged-edged) bands resembling crossed pruned tree branches (the Cross of Burgundy).",
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q2329426",
@@ -18745,7 +18751,8 @@
         "red",
         "white"
       ],
-      "description": "A heraldic shield bendy of red and white — four diagonal stripes running from upper-left to lower-right, alternating red and white."
+      "description": "A heraldic shield bendy of red and white — four diagonal stripes running from upper-left to lower-right, alternating red and white.",
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q3633963",
@@ -18886,7 +18893,8 @@
       "extraTags": {},
       "aliases": [],
       "description": "Lalandia is the name of three Danish holiday resorts owned by Parken Sport & Entertainment. The original Lalandia Rødby is located in Rødbyhavn, with additional activity centres in Billund (2009) and Søndervig (2022).",
-      "wdColors": []
+      "wdColors": [],
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q4485668",
@@ -21091,7 +21099,8 @@
         "red",
         "white"
       ],
-      "description": "A light blue field with the red and white Canadian flag (red maple leaf on white center, red vertical bands) in the upper hoist canton, and the RCAF roundel (dark blue and white concentric circles with a red maple leaf at the center) in the fly."
+      "description": "A light blue field with the red and white Canadian flag (red maple leaf on white center, red vertical bands) in the upper hoist canton, and the RCAF roundel (dark blue and white concentric circles with a red maple leaf at the center) in the fly.",
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q7455752",
@@ -21187,7 +21196,7 @@
       "qid": "Q8134193",
       "name": "flag of Dublin",
       "count": 0,
-      "file": null,
+      "file": "IRL Dublin flag.svg",
       "isFlagEntity": true,
       "colors": [],
       "wdColors": [],
@@ -21197,7 +21206,8 @@
       "flagName": "Dublin",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q8242038",
@@ -22084,7 +22094,8 @@
         "lightblue",
         "white"
       ],
-      "description": "A blue field bearing a white Greek cross extending to the edges; centered on the cross, a white shield outlined in blue contains a single blue five-pointed star."
+      "description": "A blue field bearing a white Greek cross extending to the edges; centered on the cross, a white shield outlined in blue contains a single blue five-pointed star.",
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q16630001",
@@ -23824,7 +23835,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 194,
+      "count": 195,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -25011,7 +25022,8 @@
         "red",
         "yellow"
       ],
-      "description": "Three equal horizontal bands of green (top), yellow, and red."
+      "description": "Three equal horizontal bands of green (top), yellow, and red.",
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q70631343",
@@ -26519,7 +26531,7 @@
       "qid": "Q96378019",
       "name": "flag of Memphis",
       "count": 0,
-      "file": null,
+      "file": "Flag of Memphis, Tennessee.svg",
       "isFlagEntity": true,
       "colors": [],
       "wdColors": [],
@@ -26529,7 +26541,8 @@
       "flagName": "Memphis",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q96409154",
@@ -28386,7 +28399,8 @@
         "red",
         "white"
       ],
-      "description": "A white field with the Union Jack in the upper hoist canton, and in the fly the Southern Cross constellation (four red five-pointed stars in a cross pattern plus a smaller fifth)."
+      "description": "A white field with the Union Jack in the upper hoist canton, and in the fly the Southern Cross constellation (four red five-pointed stars in a cross pattern plus a smaller fifth).",
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q98055852",
@@ -34654,7 +34668,7 @@
       "qid": "Q114714073",
       "name": "flag of Honolulu",
       "count": 0,
-      "file": null,
+      "file": "Flag of Honolulu, Hawaii.svg",
       "isFlagEntity": true,
       "colors": [],
       "wdColors": [],
@@ -34664,7 +34678,8 @@
       "flagName": "Honolulu",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q114916903",

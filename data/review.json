@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T02:37:10.607Z",
+  "generated": "2026-06-19T10:22:15.333Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -462,7 +462,7 @@
     {
       "bad_qid": "Q55874812",
       "bad_name": "(Wikidata redirect)",
-      "count": 9,
+      "count": 10,
       "suggested_qid": "Q1788743",
       "suggested_name": "Confederate Battle Flag",
       "reason": "redirect"
