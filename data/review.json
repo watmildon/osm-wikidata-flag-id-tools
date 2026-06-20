@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T10:22:15.333Z",
+  "generated": "2026-06-20T08:51:42.921Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -219,13 +219,6 @@
       "suggested_name": "flag of Riverside County"
     },
     {
-      "bad_qid": "Q108418",
-      "bad_name": "Cook County",
-      "count": 2,
-      "suggested_qid": "Q96970847",
-      "suggested_name": "flag of Cook County"
-    },
-    {
       "bad_qid": "Q150907",
       "bad_name": "Franconia",
       "count": 1,
@@ -394,13 +387,6 @@
       "suggested_name": "flag of Mount Prospect"
     },
     {
-      "bad_qid": "Q1049334",
-      "bad_name": "United States Army Corps of Engineers",
-      "count": 6,
-      "suggested_qid": "Q140002976",
-      "suggested_name": "flag of United States Army Corps of Engineers"
-    },
-    {
       "bad_qid": "Q1191401",
       "bad_name": "Rosemont",
       "count": 4,
@@ -437,14 +423,6 @@
       "suggested_name": "flag of the Greek Orthodox Church"
     },
     {
-      "bad_qid": "Q13405065",
-      "bad_name": "(Wikidata redirect)",
-      "count": 1,
-      "suggested_qid": "Q2171778",
-      "suggested_name": "flag of Perlis",
-      "reason": "redirect"
-    },
-    {
       "bad_qid": "Q20050604",
       "bad_name": "Santa Clara County Fire Department",
       "count": 1,
@@ -458,14 +436,6 @@
       "count": 1,
       "suggested_qid": "Q199621",
       "suggested_name": "flag of Abkhazia"
-    },
-    {
-      "bad_qid": "Q55874812",
-      "bad_name": "(Wikidata redirect)",
-      "count": 10,
-      "suggested_qid": "Q1788743",
-      "suggested_name": "Confederate Battle Flag",
-      "reason": "redirect"
     }
   ]
 }

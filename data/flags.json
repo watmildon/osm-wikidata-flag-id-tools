@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-20T04:57:26.649Z",
+  "generated": "2026-06-20T08:51:44.350Z",
   "palette": [
     "red",
     "white",
@@ -936,7 +936,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 641,
+      "count": 642,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -974,7 +974,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16652,
+      "count": 16660,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1095,7 +1095,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2354,
+      "count": 2355,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1896,7 +1896,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 276,
+      "count": 277,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3248,24 +3248,6 @@
       "reviews": {
         "colors": 1
       }
-    },
-    {
-      "qid": "Q108418",
-      "name": "Cook County",
-      "count": 2,
-      "file": "Daley Plaza 060716.jpg",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": "governmental",
-      "flagName": "Cook County",
-      "flagTypeSample": 21,
-      "extraTags": {},
-      "aliases": [],
-      "description": "A white field bearing the seal of Cook County in the center.",
-      "wdColors": [],
-      "wdImageProperty": "P18"
     },
     {
       "qid": "Q117758",
@@ -9441,7 +9423,7 @@
     {
       "qid": "Q221881",
       "name": "flag of Massachusetts",
-      "count": 45,
+      "count": 46,
       "file": "Flag of Massachusetts.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10937,7 +10919,7 @@
     {
       "qid": "Q492546",
       "name": "flag of Colorado",
-      "count": 41,
+      "count": 42,
       "file": "Flag of Colorado.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11213,7 +11195,7 @@
     {
       "qid": "Q525410",
       "name": "Flag of Réunion",
-      "count": 2,
+      "count": 3,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14109,24 +14091,6 @@
       "reviews": {
         "colors": 1
       }
-    },
-    {
-      "qid": "Q1049334",
-      "name": "United States Army Corps of Engineers",
-      "count": 6,
-      "file": "USACE.gif",
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "United States Army Corps of Engineers",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": [],
-      "description": "A white field bearing the USACE castle emblem centered: a red diamond outlined in grey containing a stylized red castle (three towers and a connecting wall) over a small white globe.",
-      "wdImageProperty": "P18"
     },
     {
       "qid": "Q1064042",
@@ -28268,7 +28232,7 @@
     {
       "qid": "Q96970847",
       "name": "flag of Cook County",
-      "count": 27,
+      "count": 29,
       "file": "Flag of Cook County, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -38098,6 +38062,24 @@
       "reviews": {
         "colors": 1
       }
+    },
+    {
+      "qid": "Q140002976",
+      "name": "flag of United States Army Corps of Engineers",
+      "count": 6,
+      "file": "Chief of Engineers Flag.png",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "United States Army Corps of Engineers",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q140002986",
