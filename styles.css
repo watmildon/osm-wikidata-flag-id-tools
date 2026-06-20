@@ -435,6 +435,66 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
   transform: scale(1.08);
 }
 .detail-close:active { transform: scale(0.95); }
+
+/* Shared click-to-zoom lightbox used by editor pages (describe, review-*).
+   Injected into <body> by js/lightbox.js; pages just call mountLightbox()
+   and the markup + styles come from here. */
+.zoomable { cursor: zoom-in; }
+.lightbox {
+  border: none;
+  border-radius: 12px;
+  padding: 0;
+  background: var(--bg-elev);
+  color: var(--fg);
+  max-width: 92vw;
+  max-height: 92vh;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+.lightbox::backdrop { background: rgba(0, 0, 0, 0.6); }
+.lightbox-fig {
+  margin: 0;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+/* Checker pattern so all-white flags stay visible at the larger size. */
+.lightbox-img {
+  display: block;
+  max-width: 86vw;
+  max-height: 78vh;
+  width: auto;
+  height: auto;
+  background-color: var(--bg-elev);
+  background-image:
+    linear-gradient(45deg, var(--border) 25%, transparent 25%),
+    linear-gradient(-45deg, var(--border) 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, var(--border) 75%),
+    linear-gradient(-45deg, transparent 75%, var(--border) 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+.lightbox-cap { font-size: 0.875rem; color: var(--muted); text-align: center; }
+.lightbox-cap a { color: var(--accent); }
+.lightbox-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: rgba(15, 23, 42, 0.65);
+  color: #f8fafc;
+  font-size: 1.25rem;
+  line-height: 1;
+  cursor: pointer;
+}
+.lightbox-close:hover { background: rgba(15, 23, 42, 0.85); }
+
 .copy-btn {
   width: 100%;
   appearance: none;

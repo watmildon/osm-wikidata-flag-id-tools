@@ -20,6 +20,7 @@ import {
   onReviewReset,
 } from "./editing.js";
 import { attachFlipControl } from "./flip.js";
+import { mountLightbox } from "./lightbox.js";
 
 const BUFFER_ROWS = 4;
 
@@ -76,6 +77,12 @@ export async function mountReviewChips(config) {
   let allFlags = [];
   let visibleFlags = [];
   let rowHeight = 0;
+
+  // Click-to-zoom: row images open a lightbox so reviewers can see fine
+  // detail when judging colors/icons. Using thumbSrc as the lightbox image
+  // matches describe.html — flags/full/<QID>.png is already 400px wide,
+  // which is plenty at lightbox dimensions.
+  const { attachZoom } = mountLightbox(thumbSrc);
 
   // Filter defaults. The search box is intentionally NOT persisted — it
   // feels like transient lookup state, not an ongoing preference.
@@ -182,6 +189,10 @@ export async function mountReviewChips(config) {
     // colors/icons may need the back to confirm. No-op when there's no
     // reverse. thumbSrc here is the full-size obverse, matching reverseSrc.
     attachFlipControl(imgWrap, img, flag, thumbSrc);
+    // Click-to-zoom: open the image in the shared lightbox. No-op when the
+    // flag has no real image. The flip badge stops propagation, so clicking
+    // it flips in place instead of zooming.
+    attachZoom(img, flag);
     imgCell.appendChild(imgWrap);
 
     const meta = document.createElement("div");
