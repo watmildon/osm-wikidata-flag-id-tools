@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19T23:30:26.610Z",
+  "generated": "2026-06-20T04:00:50.772Z",
   "palette": [
     "red",
     "white",
@@ -22789,23 +22789,6 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": []
-    },
-    {
-      "qid": "Q29344371",
-      "name": "Arnold Clark Group",
-      "count": 29,
-      "file": null,
-      "isFlagEntity": false,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": "advertising",
-      "flagName": "Arnold Clark Group",
-      "flagTypeSample": 29,
-      "extraTags": {},
-      "aliases": [],
-      "description": "Arnold Clark is a car dealer based in Glasgow, Scotland. As of 2025, the company has over 200 dealerships across the United Kingdom, and is one of the largest car dealerships in Europe. Annually, Arnold Clark sells in excess of 300,000 vehicles, and sells new vehicles from over 30 international countries.",
-      "wdColors": []
     },
     {
       "qid": "Q30591141",
