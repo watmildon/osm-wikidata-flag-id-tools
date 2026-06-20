@@ -481,19 +481,36 @@ dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
 .lightbox-cap a { color: var(--accent); }
 .lightbox-close {
   position: absolute;
-  top: 8px;
-  right: 8px;
+  /* Sit above the figure padding so the X is clear of the flag image, not
+     overlapping its top edge. Without this, a wide flag fills the figure
+     and the X lands on top of it — invisible against dark fields. */
+  top: 10px;
+  right: 10px;
+  /* Stay above the flag image in the same stacking context. */
+  z-index: 2;
   width: 32px;
   height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: none;
   border-radius: 50%;
+  /* Translucent dark pill matching the main-page detail dialog's close
+     button — visible against both light and dark flags. */
   background: rgba(15, 23, 42, 0.65);
   color: #f8fafc;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   line-height: 1;
+  padding: 0;
   cursor: pointer;
+  transition: background 120ms ease, transform 120ms ease;
+  backdrop-filter: blur(2px);
 }
-.lightbox-close:hover { background: rgba(15, 23, 42, 0.85); }
+.lightbox-close:hover {
+  background: rgba(15, 23, 42, 0.85);
+  transform: scale(1.08);
+}
+.lightbox-close:active { transform: scale(0.95); }
 
 .copy-btn {
   width: 100%;
