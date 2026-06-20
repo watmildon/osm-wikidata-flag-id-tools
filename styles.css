@@ -335,10 +335,18 @@ main { padding: 12px 12px 24px; }
 }
 
 dialog.detail {
-  /* position:relative makes .detail-close's top/right anchor to the
-     dialog box itself rather than the viewport, which matters when the
-     dialog is open via showModal() and the browser positions it. */
-  position: relative;
+  /* position: fixed + viewport centering. The UA stylesheet's default for
+     an open <dialog> is `position: absolute; top: 0; left: 0` (relative to
+     the body), which makes showModal() scroll the page to the top so the
+     dialog is visible — a jarring jump on long pages. Fixed positioning
+     anchors the dialog to the viewport instead, so no page scroll happens.
+     A `position: fixed` element is still a containing block for absolutely
+     positioned children, so .detail-close (position:absolute; top/right)
+     continues to anchor inside the dialog. */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   border: none;
   border-radius: 16px;
   background: var(--bg-elev);
@@ -346,6 +354,8 @@ dialog.detail {
   padding: 20px;
   max-width: min(92vw, 480px);
   width: 92vw;
+  max-height: 90vh;
+  overflow-y: auto;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
 }
 dialog.detail::backdrop { background: rgba(0, 0, 0, 0.5); }
