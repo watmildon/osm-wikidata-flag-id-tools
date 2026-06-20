@@ -19487,7 +19487,7 @@
       "qid": "Q4696942",
       "name": "Flag of Santa Cruz Department",
       "count": 1,
-      "file": "Organisk utvikling 2. Er den levende naturen vesensforskjellig fra den døde? (Kristine Bonnevie, 1929).pdf",
+      "file": "Flag of Santa Cruz.svg",
       "isFlagEntity": true,
       "colors": [],
       "icons": [],
@@ -19497,7 +19497,8 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q4784194",
