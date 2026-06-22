@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T09:45:33.796Z",
+  "generated": "2026-06-22T11:49:12.647Z",
   "palette": [
     "red",
     "white",
@@ -936,7 +936,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 643,
+      "count": 644,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -974,7 +974,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16666,
+      "count": 16687,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1311,7 +1311,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 282,
+      "count": 283,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2416,7 +2416,7 @@
     {
       "qid": "Q102392",
       "name": "flag of Scotland",
-      "count": 21,
+      "count": 20,
       "file": "Flag of Scotland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9717,7 +9717,7 @@
     {
       "qid": "Q241083",
       "name": "flag of Wisconsin",
-      "count": 53,
+      "count": 54,
       "file": "Flag of Wisconsin.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10639,34 +10639,6 @@
         "darkblue",
         "white"
       ],
-      "reviews": {
-        "colors": 1
-      }
-    },
-    {
-      "qid": "Q460072",
-      "name": "flag of the Commonwealth of Nations",
-      "count": 1,
-      "file": "Infobox Commonwealth of Nations flag.svg",
-      "isFlagEntity": true,
-      "colors": [
-        "darkblue",
-        "yellow"
-      ],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Commonwealth of Nations",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": [],
-      "svgColors": [
-        "black",
-        "darkblue",
-        "yellow"
-      ],
-      "description": "A blue field bearing a centered yellow globe (with grid lines) inside a curving fan of 61 yellow sun rays radiating outward (forming a stylized \"C\" shape).",
       "reviews": {
         "colors": 1
       }
