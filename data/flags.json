@@ -32067,7 +32067,7 @@
       "qid": "Q111940360",
       "name": "Black American Heritage Flag",
       "count": 1,
-      "file": null,
+      "file": "Black American Heritage flag.svg",
       "isFlagEntity": true,
       "colors": [],
       "icons": [],
@@ -32077,7 +32077,8 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdColors": []
+      "wdColors": [],
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q112118624",
