@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-22T23:31:04.099Z",
+  "generated": "2026-06-23T09:34:35.565Z",
   "palette": [
     "red",
     "white",
@@ -688,7 +688,7 @@
     {
       "qid": "Q33213",
       "name": "flag of Armenia",
-      "count": 50,
+      "count": 51,
       "file": "Flag of Armenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -974,7 +974,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16687,
+      "count": 16706,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1095,7 +1095,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2356,
+      "count": 2357,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1897,7 +1897,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 277,
+      "count": 278,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4575,7 +4575,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1211,
+      "count": 1212,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5586,7 +5586,7 @@
     {
       "qid": "Q160877",
       "name": "flag of Saudi Arabia",
-      "count": 76,
+      "count": 77,
       "file": "Flag of Saudi Arabia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6887,7 +6887,7 @@
     {
       "qid": "Q168941",
       "name": "flag of Panama",
-      "count": 43,
+      "count": 44,
       "file": "Flag of Panama.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13122,7 +13122,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 379,
+      "count": 380,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
