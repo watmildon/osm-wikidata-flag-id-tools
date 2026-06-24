@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T09:34:35.565Z",
+  "generated": "2026-06-24T09:23:40.202Z",
   "palette": [
     "red",
     "white",
@@ -936,7 +936,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 644,
+      "count": 645,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -974,7 +974,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16706,
+      "count": 16710,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1016,7 +1016,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 555,
+      "count": 556,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1658,7 +1658,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 980,
+      "count": 982,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4575,7 +4575,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1212,
+      "count": 1214,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10496,7 +10496,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 60,
+      "count": 61,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
