@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-24T09:23:40.202Z",
+  "generated": "2026-06-25T08:57:04.907Z",
   "palette": [
     "red",
     "white",
@@ -974,7 +974,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16710,
+      "count": 16714,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1016,7 +1016,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 556,
+      "count": 557,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9496,7 +9496,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 95,
+      "count": 105,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
