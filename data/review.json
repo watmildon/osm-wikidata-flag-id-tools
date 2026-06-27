@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-23T19:59:24.649Z",
+  "generated": "2026-06-27T08:32:40.703Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -437,6 +437,14 @@
       "count": 1,
       "suggested_qid": "Q199621",
       "suggested_name": "flag of Abkhazia"
+    },
+    {
+      "bad_qid": "Q55874812",
+      "bad_name": "(Wikidata redirect)",
+      "count": 1,
+      "suggested_qid": "Q1788743",
+      "suggested_name": "Confederate Battle Flag",
+      "reason": "redirect"
     }
   ]
 }

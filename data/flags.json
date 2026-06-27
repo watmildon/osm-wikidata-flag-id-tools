@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26T08:59:09.076Z",
+  "generated": "2026-06-27T08:32:40.864Z",
   "palette": [
     "red",
     "white",
@@ -280,7 +280,7 @@
     {
       "qid": "Q18983",
       "name": "flag of Pennsylvania",
-      "count": 35,
+      "count": 36,
       "file": "Flag of Pennsylvania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -936,7 +936,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 646,
+      "count": 647,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -974,7 +974,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16721,
+      "count": 16731,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1658,7 +1658,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 983,
+      "count": 984,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3719,7 +3719,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 307,
+      "count": 308,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9496,7 +9496,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 105,
+      "count": 107,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13122,7 +13122,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 380,
+      "count": 381,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14380,7 +14380,7 @@
     {
       "qid": "Q1122078",
       "name": "flag of Alberta",
-      "count": 31,
+      "count": 32,
       "file": "Flag of Alberta.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14849,7 +14849,7 @@
     {
       "qid": "Q1402799",
       "name": "flag of Chicago",
-      "count": 403,
+      "count": 404,
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15301,7 +15301,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 700,
+      "count": 702,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29497,7 +29497,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 304,
+      "count": 305,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
