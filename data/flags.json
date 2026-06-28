@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T08:32:40.864Z",
+  "generated": "2026-06-28T08:48:01.383Z",
   "palette": [
     "red",
     "white",
@@ -536,7 +536,7 @@
     {
       "qid": "Q19379",
       "name": "flag of North Carolina",
-      "count": 41,
+      "count": 42,
       "file": "Flag of North Carolina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -936,7 +936,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 647,
+      "count": 648,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -974,7 +974,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16731,
+      "count": 16743,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2263,7 +2263,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 223,
+      "count": 225,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3488,7 +3488,7 @@
     {
       "qid": "Q124020",
       "name": "flag of Switzerland",
-      "count": 138,
+      "count": 139,
       "file": "Flag of Switzerland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4053,7 +4053,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 574,
+      "count": 575,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4180,7 +4180,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 934,
+      "count": 938,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4575,7 +4575,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1214,
+      "count": 1215,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9425,7 +9425,7 @@
     {
       "qid": "Q221881",
       "name": "flag of Massachusetts",
-      "count": 46,
+      "count": 47,
       "file": "Flag of Massachusetts.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14612,7 +14612,7 @@
     {
       "qid": "Q1229858",
       "name": "flag and coat of arms of the canton of St. Gallen",
-      "count": 1,
+      "count": 4,
       "file": "Flag of Canton of Sankt Gallen 2011.svg",
       "isFlagEntity": true,
       "colors": [
