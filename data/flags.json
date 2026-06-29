@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-28T08:48:01.383Z",
+  "generated": "2026-06-29T01:40:55.837Z",
   "palette": [
     "red",
     "white",
@@ -95,7 +95,8 @@
         "green"
       ],
       "icons": [
-        "coa"
+        "map",
+        "plant"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -118,7 +119,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -153,7 +155,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -232,7 +234,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -273,7 +275,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -344,7 +346,8 @@
         "people",
         "weapon",
         "crown",
-        "text"
+        "text",
+        "circle"
       ],
       "shape": "rectangle",
       "flagType": "regional",
@@ -372,7 +375,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2,
+        "description": 1
       }
     },
     {
@@ -388,8 +392,7 @@
       ],
       "icons": [
         "star",
-        "horizontal-stripes",
-        "vertical-stripes"
+        "horizontal-stripes"
       ],
       "shape": "rectangle",
       "flagType": "regional",
@@ -410,7 +413,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -471,7 +474,10 @@
         "darkblue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "plant",
+        "crescent"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "South Carolina",
@@ -491,7 +497,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -506,7 +513,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "bird",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Louisiana",
@@ -530,7 +540,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -546,7 +557,11 @@
         "yellow",
         "black"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "star",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "North Carolina",
@@ -589,7 +604,10 @@
         "animal",
         "bird",
         "plant",
-        "text"
+        "text",
+        "ship",
+        "water",
+        "sun"
       ],
       "shape": "rectangle",
       "flagType": "regional",
@@ -600,14 +618,16 @@
         "subject:wikidata": "Q824"
       },
       "aliases": [],
-      "description": "A navy blue field with gold lettering \"STATE OF OREGON\" arched above the state escutcheon (showing a covered wagon, mountains, an ocean sunset, ships, and a banner reading \"THE UNION\") encircled by 33 gold stars. The date \"1859\" appears in gold below.",
+      "description": "A navy blue field with gold lettering \"STATE OF OREGON\" arched above the state escutcheon (showing a covered wagon, mountains, an ocean sunset, ships, and a banner reading \"THE UNION\") encircled by 33 gold stars. The date \"1859\" appears in gold below. The reverse side is a blue field with a yellow beaver in the center",
       "wdColors": [],
       "svgColors": [
         "purple",
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1,
+        "description": 1
       },
       "reverseFile": "Flag of Oregon (reverse).svg"
     },
@@ -621,7 +641,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Georgia",
@@ -643,7 +665,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -696,7 +719,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Armenia",
@@ -815,7 +840,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "plant",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Lebanon",
@@ -838,7 +866,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -855,8 +884,7 @@
       ],
       "icons": [
         "star",
-        "crescent",
-        "vertical-stripes"
+        "crescent"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -885,7 +913,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -929,7 +957,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -967,7 +995,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -1009,7 +1037,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -1050,7 +1078,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -1088,7 +1116,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1129,7 +1157,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -1268,7 +1296,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1306,7 +1334,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2,
+        "description": 1
       }
     },
     {
@@ -1344,7 +1373,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -1385,7 +1414,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -1399,7 +1428,7 @@
         "black"
       ],
       "icons": [
-        "animal"
+        "bird"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -1422,7 +1451,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -1439,7 +1469,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "cultural",
       "flagName": "LGBT Pride",
@@ -1467,7 +1499,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -1536,7 +1569,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -1592,7 +1625,8 @@
         "red"
       ],
       "icons": [
-        "coa"
+        "coa",
+        "vertical-stripes"
       ],
       "shape": "square",
       "flagType": "national",
@@ -1618,7 +1652,9 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -1631,7 +1667,9 @@
         "black",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Afghanistan",
@@ -1652,7 +1690,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -1691,7 +1730,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 2
+        "icons": 3
       }
     },
     {
@@ -1728,7 +1767,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -1768,7 +1807,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -1808,7 +1847,9 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -1891,7 +1932,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -1929,7 +1970,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -1970,7 +2011,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -2016,7 +2057,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -2056,7 +2098,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -2072,7 +2114,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "sun",
+        "crescent",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Azerbaijan",
@@ -2098,7 +2144,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -2138,7 +2185,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -2180,7 +2227,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -2195,7 +2242,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "crescent",
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Algeria",
@@ -2233,7 +2284,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Iceland",
@@ -2294,7 +2347,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -2424,7 +2477,9 @@
         "blue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "diagonal"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Scotland",
@@ -2445,7 +2500,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -2458,7 +2514,10 @@
         "darkblue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Honduras",
@@ -2478,7 +2537,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -2982,7 +3042,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -3143,7 +3203,10 @@
         "darkblue",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "vertical-stripes",
+        "weapon"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Barbados",
@@ -3165,7 +3228,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -3357,10 +3421,8 @@
       "icons": [
         "coa",
         "horizontal-stripes",
-        "building",
         "animal",
-        "crown",
-        "plant"
+        "crown"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -3392,7 +3454,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 2
+        "icons": 3
       }
     },
     {
@@ -3444,7 +3506,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -3481,7 +3543,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -3519,7 +3581,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -3570,7 +3632,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Iran",
@@ -3609,7 +3673,8 @@
         "white"
       ],
       "icons": [
-        "triangle"
+        "triangle",
+        "horizontal-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -3634,8 +3699,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
-        "description": 1
+        "description": 1,
+        "icons": 2
       }
     },
     {
@@ -3713,7 +3778,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2,
+        "description": 1
       }
     },
     {
@@ -3750,7 +3816,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -3764,7 +3830,10 @@
         "green",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "crescent"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Pakistan",
@@ -3786,7 +3855,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -3799,7 +3869,10 @@
         "blue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Israel",
@@ -3819,7 +3892,9 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -3836,7 +3911,8 @@
         "black"
       ],
       "icons": [
-        "coa"
+        "coa",
+        "vertical-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -3864,7 +3940,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -3902,7 +3978,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -3953,7 +4029,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Latvia",
@@ -3973,7 +4051,9 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -3988,7 +4068,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "bird",
+        "horizontal-stripes",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Egypt",
@@ -4013,7 +4097,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -4091,7 +4176,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 2
+        "icons": 3
       }
     },
     {
@@ -4134,7 +4219,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -4173,7 +4258,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -4211,7 +4296,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -4249,7 +4334,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -4264,7 +4349,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross",
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Malta",
@@ -4325,7 +4413,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2,
+        "description": 1
       }
     },
     {
@@ -4365,7 +4454,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -4414,7 +4503,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2,
+        "description": 1
       }
     },
     {
@@ -4428,7 +4518,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Luxembourg",
@@ -4452,7 +4544,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -4467,7 +4560,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "United Arab Emirates",
@@ -4492,7 +4587,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -4587,7 +4683,8 @@
       "icons": [
         "star",
         "sun",
-        "horizontal-stripes"
+        "horizontal-stripes",
+        "triangle"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -4615,7 +4712,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 2
+        "icons": 3
       }
     },
     {
@@ -4629,7 +4726,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Bolivia",
@@ -4692,7 +4791,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -4896,7 +4995,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Catalunya",
@@ -5114,7 +5215,9 @@
         "green",
         "red"
       ],
-      "icons": [],
+      "icons": [
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Morocco",
@@ -5136,7 +5239,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -5310,7 +5414,7 @@
         "black"
       ],
       "icons": [
-        "star"
+        "triangle"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -5418,7 +5522,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -5433,7 +5537,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Colombia",
@@ -5457,7 +5563,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -5537,7 +5644,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -5579,7 +5686,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -5618,7 +5725,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2,
+        "description": 1
       }
     },
     {
@@ -5632,7 +5740,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "triangle",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Bosnia and Herzegovina",
@@ -5779,7 +5890,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -5793,7 +5904,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "crescent",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Tunisia",
@@ -5815,7 +5930,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -5867,7 +5983,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "building"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Cambodia",
@@ -5892,7 +6011,8 @@
       "description": "Three horizontal bands of blue (top), red (middle, double width), and blue, with a white silhouette of the three-towered Angkor Wat temple centered on the red band.",
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -5906,7 +6026,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "triangle",
+        "horizontal-stripes",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Cuba",
@@ -5929,7 +6053,9 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -5981,7 +6107,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Myanmar",
@@ -6006,7 +6135,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -6052,7 +6182,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -6175,7 +6305,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Venezuela",
@@ -6268,7 +6401,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Kuwait",
@@ -6379,7 +6514,10 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "sun",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Kyrgyzstan",
@@ -6401,7 +6539,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -6618,7 +6757,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "sun"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "North Macedonia",
@@ -6639,7 +6780,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -6855,7 +6997,8 @@
       ],
       "icons": [
         "star",
-        "crescent"
+        "crescent",
+        "horizontal-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -6881,7 +7024,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -6895,7 +7039,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Panama",
@@ -7100,7 +7246,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "triangle",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Jordan",
@@ -7142,7 +7292,9 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Costa Rica",
@@ -7188,7 +7340,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "coa",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Paraguay",
@@ -7212,7 +7368,10 @@
         "red",
         "white",
         "yellow"
-      ]
+      ],
+      "reviews": {
+        "icons": 1
+      }
     },
     {
       "qid": "Q170543",
@@ -7468,7 +7627,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "sun",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Uruguay",
@@ -7492,7 +7654,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -7581,7 +7744,9 @@
         "lightblue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "map"
+      ],
       "shape": "rectangle",
       "flagType": "governmental",
       "flagName": "United Nations",
@@ -7601,7 +7766,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -7615,7 +7781,9 @@
         "green",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "diagonal"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Jamaica",
@@ -7639,7 +7807,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -7798,7 +7967,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -7853,7 +8023,9 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "El Salvador",
@@ -8229,7 +8401,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross",
+        "coa"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Dominican Republic",
@@ -8255,7 +8430,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -8414,7 +8590,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "bird",
+        "star",
+        "triangle"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Papua New Guinea",
@@ -8438,7 +8618,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -9530,7 +9711,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -9609,7 +9790,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross",
+        "diagonal"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Ikurrina",
@@ -9631,7 +9815,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -9730,7 +9915,12 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "coa",
+        "people",
+        "text",
+        "tools"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Wisconsin",
@@ -9754,7 +9944,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -9896,7 +10087,13 @@
         "yellow",
         "lightblue"
       ],
-      "icons": [],
+      "icons": [
+        "water",
+        "ship",
+        "coa",
+        "text",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "New Hampshire",
@@ -9920,7 +10117,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -10301,7 +10499,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -10316,7 +10514,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Arkansas",
@@ -10338,7 +10539,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -10503,7 +10705,9 @@
         "blue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Québec",
@@ -10523,7 +10727,9 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -10721,7 +10927,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "crescent",
+        "star",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Singapore",
@@ -10743,7 +10953,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -10758,7 +10969,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "crescent",
+        "star",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Uzbekistan",
@@ -10783,7 +10998,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -10871,7 +11087,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "bird",
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Iowa",
@@ -10891,7 +11111,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -10906,7 +11127,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Colorado",
@@ -10931,7 +11155,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -10983,7 +11208,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "diagonal"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Alabama",
@@ -11004,7 +11231,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -11513,7 +11741,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -11679,7 +11907,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "circle",
+        "vertical-stripes",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Tennessee",
@@ -11698,7 +11930,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -11828,7 +12061,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Provence",
@@ -11951,7 +12186,9 @@
         "yellow",
         "orange"
       ],
-      "icons": [],
+      "icons": [
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Arizona",
@@ -11961,7 +12198,7 @@
         "subject:wikidata": "Q816"
       },
       "aliases": [],
-      "description": "Thirteen rays of red and gold alternating in the top half of the flag (six red and seven gold, or vice versa). A copper-colored five-pointed star is centered, with the bottom half of the flag in dark blue.",
+      "description": "Thirteen rays of red and yellow alternating in the top half of the flag (seven red and six yellow). An orange five-pointed star is centered, with the bottom half of the flag in dark blue.",
       "wdColors": [
         "yellow",
         "blue",
@@ -11974,7 +12211,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "description": 1
       }
     },
     {
@@ -12070,7 +12308,12 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "cross",
+        "diagonal",
+        "sun",
+        "crown"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "British Columbia",
@@ -12094,7 +12337,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -12233,7 +12477,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2,
+        "description": 1
       }
     },
     {
@@ -12248,7 +12493,13 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "text",
+        "people",
+        "building",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Georgia",
@@ -12273,7 +12524,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -12684,7 +12936,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -12700,7 +12952,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "coa",
+        "text",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Washington",
@@ -12775,7 +13031,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "building",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Utah",
@@ -12900,7 +13159,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "coa"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Missouri",
@@ -12961,7 +13223,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -13330,7 +13592,9 @@
         "blue",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": "governmental",
       "flagName": "ASEAN",
@@ -13544,7 +13808,9 @@
         "lightblue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Minnesota",
@@ -13562,7 +13828,8 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -13576,7 +13843,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "cross",
+        "crown"
+      ],
       "shape": "rectangle",
       "flagType": "municipal",
       "flagName": "Gdańsk",
@@ -13594,7 +13864,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -14089,7 +14360,13 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal",
+        "cross",
+        "diagonal",
+        "coa",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "New South Wales",
@@ -14114,7 +14391,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -14207,7 +14485,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": "religious",
       "flagName": "Christianity",
@@ -14229,7 +14509,9 @@
         "white"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1,
+        "description": 1
       }
     },
     {
@@ -14460,7 +14742,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2,
+        "description": 1
       }
     },
     {
@@ -14542,7 +14825,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "coa",
+        "diagonal",
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Ontario",
@@ -14672,7 +14959,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2,
+        "description": 1
       }
     },
     {
@@ -14883,7 +15171,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -14937,7 +15225,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "ship",
+        "water",
+        "animal"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "New Brunswick",
@@ -14963,7 +15255,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -15335,7 +15628,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -15425,7 +15718,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2,
+        "description": 1
       }
     },
     {
@@ -15471,7 +15765,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "diagonal",
+        "star"
+      ],
       "shape": "square",
       "flagType": "military",
       "flagName": "Confederate States of America",
@@ -15498,7 +15795,8 @@
       "description": "A square red field bearing a blue saltire (diagonal cross) edged in white, with thirteen white five-pointed stars arranged along the saltire's arms.",
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -15610,7 +15908,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Baden",
@@ -15631,7 +15931,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -17438,7 +17739,9 @@
         "yellow",
         "darkblue"
       ],
-      "icons": [],
+      "icons": [
+        "triangle"
+      ],
       "shape": "rectangle",
       "flagType": "religious",
       "flagName": "Nishan Sahib",
@@ -18386,7 +18689,10 @@
         "yellow",
         "blue"
       ],
-      "icons": [],
+      "icons": [
+        "vertical-stripes",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Acadia",
@@ -18950,7 +19256,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Normandie",
@@ -18969,7 +19277,8 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -21155,7 +21464,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
+        "icons": 2,
         "description": 1
       }
     },
@@ -21193,7 +21502,7 @@
         "white"
       ],
       "reviews": {
-        "icons": 1,
+        "icons": 2,
         "description": 1,
         "colors": 1
       }
@@ -21235,7 +21544,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 2
+        "icons": 3
       }
     },
     {
@@ -21277,7 +21586,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
+        "icons": 3,
         "description": 1
       }
     },
@@ -21298,7 +21607,8 @@
         "text",
         "bird",
         "circle",
-        "ship"
+        "ship",
+        "water"
       ],
       "shape": "rectangle",
       "flagType": "military",
@@ -21324,7 +21634,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -22787,7 +23097,11 @@
         "white",
         "blue"
       ],
-      "icons": [],
+      "icons": [
+        "triangle",
+        "horizontal-stripes",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Puerto Rico",
@@ -22851,7 +23165,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Savoy",
@@ -22869,7 +23185,8 @@
       "description": "A red field bearing a white Greek cross extending to the edges of the flag.",
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -24453,7 +24770,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Confederate States of America",
@@ -24472,7 +24792,8 @@
       ],
       "description": "Three horizontal bands of red (top), white, and red, with a blue canton in the upper hoist bearing a circle of white five-pointed stars.",
       "reviews": {
-        "colors": 1
+        "colors": 1,
+        "icons": 1
       }
     },
     {
@@ -24686,7 +25007,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": "organisation",
       "flagName": "Red Cross",
@@ -24707,7 +25030,8 @@
       "description": "A white field with a large red Greek cross centered.",
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -24744,7 +25068,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -27747,7 +28071,10 @@
         "yellow",
         "pink"
       ],
-      "icons": [],
+      "icons": [
+        "triangle",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "cultural",
       "flagName": "Progress Pride",
@@ -27783,7 +28110,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -28350,7 +28678,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Cook County",
@@ -29528,7 +29858,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -29736,7 +30066,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "advertising",
       "flagName": "REWE",
@@ -29754,7 +30086,8 @@
       "description": "A solid red field with the white wordmark \"REWE\" centered in large bold letters.",
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -30508,7 +30841,9 @@
         "blue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "municipal",
       "flagName": "Dunkirk",
@@ -30526,7 +30861,8 @@
       "description": "A white field with 6 alternating white (top) and blue horizontal blue stripes of equal width.",
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
@@ -30846,7 +31182,9 @@
         "green",
         "red"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "municipal",
       "flagName": "Bayonne",
@@ -30864,7 +31202,8 @@
       "description": "A horizontal bicolor of red (top) and green.",
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 1
       }
     },
     {
