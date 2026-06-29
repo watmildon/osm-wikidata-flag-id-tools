@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-29T01:40:55.837Z",
+  "generated": "2026-06-29T02:21:32.318Z",
   "palette": [
     "red",
     "white",
@@ -95,8 +95,7 @@
         "green"
       ],
       "icons": [
-        "map",
-        "plant"
+        "coa"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -120,7 +119,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -346,8 +345,7 @@
         "people",
         "weapon",
         "crown",
-        "text",
-        "circle"
+        "text"
       ],
       "shape": "rectangle",
       "flagType": "regional",
@@ -375,8 +373,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2,
-        "description": 1
+        "description": 1,
+        "icons": 5
       }
     },
     {
@@ -392,7 +390,8 @@
       ],
       "icons": [
         "star",
-        "horizontal-stripes"
+        "horizontal-stripes",
+        "vertical-stripes"
       ],
       "shape": "rectangle",
       "flagType": "regional",
@@ -411,7 +410,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
         "icons": 2
       }
@@ -604,10 +603,7 @@
         "animal",
         "bird",
         "plant",
-        "text",
-        "ship",
-        "water",
-        "sun"
+        "text"
       ],
       "shape": "rectangle",
       "flagType": "regional",
@@ -618,7 +614,7 @@
         "subject:wikidata": "Q824"
       },
       "aliases": [],
-      "description": "A navy blue field with gold lettering \"STATE OF OREGON\" arched above the state escutcheon (showing a covered wagon, mountains, an ocean sunset, ships, and a banner reading \"THE UNION\") encircled by 33 gold stars. The date \"1859\" appears in gold below. The reverse side is a blue field with a yellow beaver in the center",
+      "description": "A navy blue field with gold lettering \"STATE OF OREGON\" arched above the state escutcheon (showing a covered wagon, mountains, an ocean sunset, ships, and a banner reading \"THE UNION\") encircled by 33 gold stars. The date \"1859\" appears in gold below.",
       "wdColors": [],
       "svgColors": [
         "purple",
@@ -626,8 +622,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
-        "description": 1
+        "icons": 2,
+        "description": 2
       },
       "reverseFile": "Flag of Oregon (reverse).svg"
     },
@@ -884,7 +880,8 @@
       ],
       "icons": [
         "star",
-        "crescent"
+        "crescent",
+        "vertical-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -911,7 +908,7 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
         "icons": 2
       }
@@ -994,7 +991,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -1036,7 +1033,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -1077,7 +1074,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -1156,7 +1153,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -1371,7 +1368,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
         "icons": 2
       }
@@ -1412,7 +1409,7 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
         "icons": 2
       }
@@ -1428,7 +1425,7 @@
         "black"
       ],
       "icons": [
-        "bird"
+        "animal"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -1452,7 +1449,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -1568,7 +1565,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -1625,8 +1622,7 @@
         "red"
       ],
       "icons": [
-        "coa",
-        "vertical-stripes"
+        "coa"
       ],
       "shape": "square",
       "flagType": "national",
@@ -1653,8 +1649,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1,
-        "description": 1
+        "description": 1,
+        "icons": 2
       }
     },
     {
@@ -1705,8 +1701,7 @@
         "white"
       ],
       "icons": [
-        "plant",
-        "vertical-stripes"
+        "plant"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -1728,9 +1723,9 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
-        "icons": 3
+        "icons": 5
       }
     },
     {
@@ -1766,7 +1761,7 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -1930,7 +1925,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
         "icons": 2
       }
@@ -1969,7 +1964,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -2029,8 +2024,7 @@
       ],
       "icons": [
         "star",
-        "text",
-        "circle"
+        "text"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -2058,7 +2052,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 1
+        "icons": 5
       }
     },
     {
@@ -2184,7 +2178,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -2226,7 +2220,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -2346,7 +2340,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -2743,7 +2737,12 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "coa",
+        "weapon",
+        "plant"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Haiti",
@@ -3420,9 +3419,7 @@
       ],
       "icons": [
         "coa",
-        "horizontal-stripes",
-        "animal",
-        "crown"
+        "horizontal-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -3452,9 +3449,9 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
-        "icons": 3
+        "icons": 5
       }
     },
     {
@@ -3505,7 +3502,7 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -3542,7 +3539,7 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -3673,8 +3670,7 @@
         "white"
       ],
       "icons": [
-        "triangle",
-        "horizontal-stripes"
+        "triangle"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -3700,7 +3696,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 2
+        "icons": 5
       }
     },
     {
@@ -3815,7 +3811,7 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -3911,8 +3907,7 @@
         "black"
       ],
       "icons": [
-        "coa",
-        "vertical-stripes"
+        "coa"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -3940,7 +3935,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2
+        "icons": 5
       }
     },
     {
@@ -3977,7 +3972,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -4148,8 +4143,7 @@
       ],
       "icons": [
         "sun",
-        "horizontal-stripes",
-        "people"
+        "horizontal-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -4174,9 +4168,9 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
-        "icons": 3
+        "icons": 5
       }
     },
     {
@@ -4295,7 +4289,7 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -4682,9 +4676,7 @@
       ],
       "icons": [
         "star",
-        "sun",
-        "horizontal-stripes",
-        "triangle"
+        "sun"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -4710,9 +4702,9 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
-        "icons": 3
+        "icons": 5
       }
     },
     {
@@ -5414,7 +5406,7 @@
         "black"
       ],
       "icons": [
-        "triangle"
+        "star"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -5445,7 +5437,8 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 1,
+        "icons": 2
       }
     },
     {
@@ -5685,7 +5678,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -6997,8 +6990,7 @@
       ],
       "icons": [
         "star",
-        "crescent",
-        "horizontal-stripes"
+        "crescent"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -7025,7 +7017,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -7462,10 +7454,10 @@
       "file": "Flag of Eritrea.svg",
       "isFlagEntity": true,
       "colors": [
+        "blue",
         "green",
         "red",
-        "yellow",
-        "lightblue"
+        "yellow"
       ],
       "icons": [
         "plant",
@@ -7495,7 +7487,7 @@
       ],
       "description": "A red isosceles triangle with its base on the hoist and apex at the fly, dividing the field into a green upper triangle and a blue lower triangle. A yellow olive wreath surrounding a yellow upright olive branch sits centered on the red triangle near the hoist.",
       "reviews": {
-        "colors": 1
+        "colors": 2
       }
     },
     {
@@ -9430,7 +9422,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "bird",
+        "coa",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "United States Virgin Islands",
@@ -9755,7 +9751,10 @@
         "green",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "plant",
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Norfolk Island",
@@ -10288,14 +10287,19 @@
         "blue",
         "brown",
         "darkblue",
-        "gray",
         "green",
         "lightblue",
         "red",
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal",
+        "text",
+        "people",
+        "bird",
+        "coa"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Michigan",
@@ -10305,7 +10309,7 @@
         "subject:wikidata": "Q1166"
       },
       "aliases": [],
-      "description": "A dark blue field bearing the Michigan coat of arms in the center: a light blue shield with a man on a peninsula holding a long gun, supported by an elk and a moose, beneath a golden eagle.",
+      "description": "A dark blue field bearing the Michigan coat of arms in the center: a light blue shield with a man on a peninsula holding a long gun, supported by an elk and a moose, beneath a golden eagle, bordered on top by a red banner and on bottom by two white banners.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -10320,8 +10324,7 @@
         "yellow"
       ],
       "reviews": {
-        "description": 1,
-        "colors": 1
+        "description": 1
       }
     },
     {
@@ -10498,7 +10501,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -11468,14 +11471,16 @@
       "file": "Flag of Quebec City.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
+        "darkblue",
         "white",
         "yellow"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "ship"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Quebec City",
       "flagTypeSample": null,
       "extraTags": {},
@@ -12090,9 +12095,11 @@
         "blue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Tallinn flag",
       "flagTypeSample": null,
       "extraTags": {},
@@ -12198,7 +12205,7 @@
         "subject:wikidata": "Q816"
       },
       "aliases": [],
-      "description": "Thirteen rays of red and yellow alternating in the top half of the flag (seven red and six yellow). An orange five-pointed star is centered, with the bottom half of the flag in dark blue.",
+      "description": "Thirteen rays of red and gold alternating in the top half of the flag (six red and seven gold, or vice versa). A copper-colored five-pointed star is centered, with the bottom half of the flag in dark blue.",
       "wdColors": [
         "yellow",
         "blue",
@@ -12212,7 +12219,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "description": 1
+        "description": 2
       }
     },
     {
@@ -12802,7 +12809,10 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "coa",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Schleswig-Holstein",
@@ -13222,7 +13232,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -13618,11 +13628,17 @@
       "isFlagEntity": true,
       "colors": [
         "green",
+        "yellow",
         "white",
-        "yellow"
+        "black"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "plant",
+        "text",
+        "crescent",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "League of Arab States",
@@ -15170,7 +15186,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -15382,9 +15398,11 @@
         "blue"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "cultural",
       "flagName": "bisexual pride flag",
       "flagTypeSample": null,
       "extraTags": {},
@@ -15392,7 +15410,7 @@
       "reviews": {
         "colors": 3
       },
-      "description": "Three horizontal bands of magenta-pink, purple, and royal blue, the middle purple band narrower than the others."
+      "description": "Three horizontal bars of pink, purple, and blue. The pink and blue bands are wider, while the purple band is narrower."
     },
     {
       "qid": "Q1426561",
@@ -15564,11 +15582,13 @@
       "isFlagEntity": true,
       "colors": [
         "black",
-        "darkblue",
         "red",
-        "white"
+        "white",
+        "blue"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "leather flag",
@@ -15586,7 +15606,7 @@
         "red",
         "white"
       ],
-      "description": "Nine alternating horizontal bands of dark blue and black (with white stripes between), with a large red heart in the upper hoist corner.",
+      "description": "Nine alternating horizontal bands: starting from the top four stripes of black and blue, a single white stripe, and four stripes of blue and black. With a large red heart in the upper hoist corner.",
       "reviews": {
         "colors": 1
       }
@@ -15627,7 +15647,7 @@
         "white"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "icons": 3,
         "description": 1
       }
@@ -16480,7 +16500,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal",
+        "crown",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Limburg",
@@ -16498,7 +16522,7 @@
         "white",
         "yellow"
       ],
-      "description": "Three equal horizontal bands of white (top), blue, and yellow, with a red crowned lion rampant facing the hoist centered (overlapping all three bands).",
+      "description": "Three horizontal bands of white (top), blue, and yellow, the white and yellow bands are equally sized while the blue is narrower, with a red crowned lion rampant facing the hoist centered (overlapping all three bands).",
       "reviews": {
         "colors": 1
       }
@@ -16605,19 +16629,19 @@
       "file": "Bandera de la Provincia de San Luis.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "blue",
         "brown",
-        "gray",
         "green",
-        "lightblue",
-        "orange",
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal",
+        "sun",
+        "coa"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "regional",
       "flagName": "San Luis Province",
       "flagTypeSample": null,
       "extraTags": {},
@@ -17637,7 +17661,9 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "plant"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Brussels-Capital Region",
@@ -18114,11 +18140,14 @@
       "isFlagEntity": true,
       "colors": [
         "red",
-        "blue",
         "yellow",
-        "green"
+        "green",
+        "brown"
       ],
-      "icons": [],
+      "icons": [
+        "plant",
+        "crown"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Bryansk Oblast",
@@ -19124,23 +19153,27 @@
       "file": "Flag of Milwaukee, Wisconsin.svg",
       "isFlagEntity": true,
       "colors": [
-        "black",
         "darkblue",
         "lightblue",
-        "purple",
         "red",
         "white",
-        "yellow",
-        "orange"
+        "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "people",
+        "plant",
+        "building",
+        "tools",
+        "water",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": "municipal",
       "flagName": "Milwaukee",
       "flagTypeSample": 5,
       "extraTags": {},
       "aliases": [],
-      "description": "A light blue field bearing a centered emblem of a gear, ship, factory, and city skyline with industry symbols. \"MILWAUKEE\" appears in red letters across the bottom; \"1846\" appears in yellow on the right.",
+      "description": "A light blue field bearing a centered emblem of a gear, ship, factory, and city skyline with industry symbols. \"MILWAUKEE\" appears in red letters across the bottom, a golden stalk of barley on the left, and \"1846\" appears in yellow on the right.",
       "wdColors": [],
       "svgColors": [
         "black",
@@ -20186,13 +20219,15 @@
       "colors": [
         "gray",
         "green",
-        "red",
-        "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "animal",
+        "building"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Chelyabinsk",
       "flagTypeSample": null,
       "extraTags": {},
@@ -20206,7 +20241,7 @@
         "white",
         "yellow"
       ],
-      "description": "A red field with a wide yellow horizontal stripe across the center. A white camel with a yellow saddle stands centered on the flag, straddling all three areas.",
+      "description": "Three horizontal bands of yellow, gray, and green. The gray middle band has the appearance of a brick wall. A yellow camel stands centered on the flag.",
       "reviews": {
         "colors": 1
       }
@@ -20218,11 +20253,15 @@
       "file": "Alex K Chernihiv prapor 1992.svg",
       "isFlagEntity": true,
       "colors": [
+        "red",
         "white",
         "yellow",
         "black"
       ],
-      "icons": [],
+      "icons": [
+        "bird",
+        "crown"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Chernihiv",
@@ -20238,7 +20277,7 @@
         "white",
         "yellow"
       ],
-      "description": "A white field bordered top and bottom by horizontal yellow stripes. Centered, a black double-headed eagle with a small red shield on its chest, a yellow scepter, and a yellow crown above.",
+      "description": "A white field bordered top and bottom by horizontal yellow stripes. Centered, a black eagle with a yellow scepter and crown. A narrow yellow border is on all sides except the hoist side.",
       "reviews": {
         "colors": 1
       }
@@ -20303,9 +20342,7 @@
       "colors": [
         "white",
         "black",
-        "brown",
-        "yellow",
-        "gray"
+        "brown"
       ],
       "wdColors": [
         "white",
@@ -20325,7 +20362,7 @@
       "aliases": [],
       "description": "7 equal horizontal stripes with bark brown and the top, white in the middle, and black on the bottom. The other stripes have colors in between. Abear paw silhouette covers the upper left quadrant.",
       "reviews": {
-        "colors": 1
+        "colors": 2
       }
     },
     {
@@ -20415,14 +20452,18 @@
       "file": "Cowpens Flag.svg",
       "isFlagEntity": true,
       "colors": [
+        "darkblue",
         "white",
-        "red",
-        "blue"
+        "red"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "circle",
+        "star"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "historical",
       "flagName": "Cowpens flag",
       "flagTypeSample": null,
       "extraTags": {},
@@ -20836,14 +20877,20 @@
       "file": "Flag of Harare.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
-        "yellow",
-        "red"
+        "gray",
+        "red",
+        "yellow"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "animal",
+        "bird",
+        "plant",
+        "sun",
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Harare",
       "flagTypeSample": null,
       "extraTags": {},
@@ -20851,7 +20898,7 @@
       "reviews": {
         "colors": 3
       },
-      "description": "A blue field with gold sun rays radiating from the top center, crossed by a red horizontal stripe bearing two gold leaves, with a small gold bird perched on a basket at the bottom."
+      "description": "Three horizontal stripes, grey (top) with yellow rays shining from the center of the flag, red in the middle with two yellow leaves, and grey on the bottom with a small yellow bird in the middle. The stripes are separated by thin lines of yellow."
     },
     {
       "qid": "Q5456759",
@@ -21220,7 +21267,7 @@
       "colors": [
         "red",
         "white",
-        "darkblue"
+        "blue"
       ],
       "wdColors": [],
       "icons": [
@@ -21235,7 +21282,7 @@
       "extraTags": {},
       "aliases": [],
       "reviews": {
-        "colors": 1
+        "colors": 2
       },
       "description": "A dark blue field over two unequal red horizontal stripes separated and bordered by thin white lines at the bottom; centered on the blue field, a white silhouette of a man with a paddle stands in a boat on white wavy water, surrounded by a circle of thirteen white stars."
     },
@@ -21250,15 +21297,20 @@
         "lightblue"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "people",
+        "text",
+        "water",
+        "circle"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Seattle",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
       "localFile": "Q5456822.svg",
-      "description": "A teal field bearing a centered white silhouette portrait of Chief Seattle in profile, facing the hoist.",
+      "description": "A teal field bearing a centered white silhouette portrait of Chief Seattle in profile, facing the hoist. Text around the portrait reads \"City of Goodwill\" and \"Seattle\".",
       "reviews": {
         "colors": 2
       }
@@ -21521,8 +21573,7 @@
       "icons": [
         "text",
         "animal",
-        "map",
-        "tools"
+        "map"
       ],
       "shape": "rectangle",
       "flagType": "military",
@@ -21544,7 +21595,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 3
+        "icons": 5
       }
     },
     {
@@ -21607,8 +21658,7 @@
         "text",
         "bird",
         "circle",
-        "ship",
-        "water"
+        "ship"
       ],
       "shape": "rectangle",
       "flagType": "military",
@@ -21634,7 +21684,7 @@
       ],
       "reviews": {
         "colors": 1,
-        "icons": 2
+        "icons": 5
       }
     },
     {
@@ -21926,13 +21976,18 @@
       "file": "Flag of Quito.svg",
       "isFlagEntity": true,
       "colors": [
+        "darkblue",
         "red",
-        "blue",
+        "yellow",
+        "green",
         "white",
-        "yellow"
+        "lightblue"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "vertical-stripes",
+        "coa"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Quito",
@@ -24242,9 +24297,9 @@
       "file": "Polysexuality Pride Flag.svg",
       "isFlagEntity": true,
       "colors": [
+        "blue",
         "green",
-        "pink",
-        "lightblue"
+        "pink"
       ],
       "wdColors": [
         "blue",
@@ -25066,7 +25121,7 @@
       ],
       "description": "A solid red field with the McDonald's golden \"M\" arches logo centered.",
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
         "icons": 2
       }
@@ -25200,7 +25255,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25224,7 +25279,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25248,20 +25303,23 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "star"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "historical",
       "flagName": "24-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
       "reviews": {
-        "colors": 3
+        "colors": 1
       },
-      "description": "Thirteen alternating red and white horizontal stripes with a blue canton at the hoist bearing twenty-four white five-pointed stars in four rows."
+      "description": "Thirteen alternating red and white horizontal stripes, with a blue rectangle in the upper-left corner containing twenty-four white stars arranged in four rows."
     },
     {
       "qid": "Q65037004",
@@ -25272,7 +25330,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25296,7 +25354,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25320,7 +25378,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25344,7 +25402,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25366,9 +25424,9 @@
       "file": "US 29 Star Diamond Pattern Flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "red",
+        "darkblue",
         "white",
-        "blue"
+        "red"
       ],
       "wdColors": [],
       "icons": [],
@@ -25392,7 +25450,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25414,9 +25472,9 @@
       "file": "Flag of the United States (1851–1858).svg",
       "isFlagEntity": true,
       "colors": [
-        "red",
+        "darkblue",
         "white",
-        "blue"
+        "red"
       ],
       "wdColors": [],
       "icons": [],
@@ -25440,7 +25498,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25464,7 +25522,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25517,7 +25575,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25541,7 +25599,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25565,12 +25623,15 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "star"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "historical",
       "flagName": "37-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
@@ -25578,7 +25639,7 @@
       "reviews": {
         "colors": 3
       },
-      "description": "Thirteen alternating red and white horizontal stripes with a blue canton in the upper hoist. The 37 white stars in the canton are arranged in concentric circles with a central star."
+      "description": "13 horizontal stripes of alternating red and white. A blue field on the upper left corner contains 37 white stars arranged in two concentric circles."
     },
     {
       "qid": "Q65037047",
@@ -25589,7 +25650,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25613,7 +25674,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25637,7 +25698,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25661,7 +25722,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25685,7 +25746,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -25738,7 +25799,7 @@
       "colors": [
         "red",
         "white",
-        "blue"
+        "darkblue"
       ],
       "wdColors": [],
       "icons": [],
@@ -26598,9 +26659,9 @@
       "file": "Flag of the United States (51 stars).svg",
       "isFlagEntity": true,
       "colors": [
-        "red",
+        "darkblue",
         "white",
-        "blue"
+        "red"
       ],
       "wdColors": [],
       "icons": [],
@@ -26846,7 +26907,9 @@
         "orange",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "sun"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "People's Flag of Milwaukee",
@@ -26865,7 +26928,7 @@
         "white",
         "yellow"
       ],
-      "description": "Two horizontal bands — orange (top) and dark blue. Centered straddling the divide, a stylized white half-sun rising over three light blue wavy water stripes (the People's Flag of Milwaukee).",
+      "description": "Two horizontal bands — orange (top) and dark blue. Centered straddling the divide, a stylized white half-sun rising over three light blue wavy water stripes.",
       "reviews": {
         "colors": 1
       }
@@ -27450,9 +27513,10 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
+        "blue",
         "green",
         "red",
-        "lightblue"
+        "white"
       ],
       "icons": [],
       "shape": "square",
@@ -27476,7 +27540,7 @@
       ],
       "description": "A square red field surrounded by concentric square frames of green, yellow, and blue, with a jagged red border around the outside (representing flame).",
       "reviews": {
-        "colors": 1
+        "colors": 2
       }
     },
     {
@@ -27817,9 +27881,12 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "coa"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Austin, Texas",
       "flagTypeSample": null,
       "extraTags": {},
@@ -27866,7 +27933,10 @@
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "description": "Two official flags. The first is a white field with a blue saltire (St Andrew's cross) and the round city seal of Charlotte–Mecklenburg County centered. The second is a green field with a stylized white crown."
+      "description": "Two official flags. The first is a white field with a blue saltire (St Andrew's cross) and the round city seal of Charlotte–Mecklenburg County centered. The second is a green field with a stylized white crown.",
+      "reviews": {
+        "colors": 1
+      }
     },
     {
       "qid": "Q96378017",
@@ -27875,11 +27945,11 @@
       "file": "Flag of El Paso, Texas.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
-        "brown",
+        "darkblue",
         "white",
-        "black",
-        "green"
+        "brown",
+        "green",
+        "black"
       ],
       "wdColors": [],
       "icons": [],
@@ -28156,6 +28226,7 @@
       "colors": [
         "white",
         "orange",
+        "red",
         "pink"
       ],
       "wdColors": [
@@ -29856,7 +29927,7 @@
         "yellow"
       ],
       "reviews": {
-        "colors": 1,
+        "colors": 2,
         "description": 1,
         "icons": 2
       }
@@ -30431,8 +30502,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "blue",
-        "white"
+        "white",
+        "darkblue"
       ],
       "wdColors": [
         "yellow",
@@ -30523,8 +30594,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "gray",
-        "brown"
+        "orange",
+        "gray"
       ],
       "wdColors": [],
       "icons": [],
@@ -30549,7 +30620,8 @@
         "blue",
         "green",
         "white",
-        "darkblue"
+        "purple",
+        "lightblue"
       ],
       "wdColors": [
         "blue",
@@ -31273,7 +31345,9 @@
         "blue",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Annemasse",
@@ -32134,7 +32208,9 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
-        "white"
+        "white",
+        "pink",
+        "purple"
       ],
       "wdColors": [
         "blue",
@@ -32276,9 +32352,10 @@
       "file": "Flag of Tel Aviv.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
         "white",
+        "blue",
         "green",
+        "red",
         "yellow"
       ],
       "wdColors": [],
@@ -32385,10 +32462,10 @@
       "file": "Omnisexuality flag.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
+        "purple",
         "pink",
-        "lightblue",
-        "black"
+        "gray",
+        "darkblue"
       ],
       "wdColors": [
         "blue",
@@ -32485,8 +32562,8 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
-        "white",
-        "blue"
+        "darkblue",
+        "white"
       ],
       "wdColors": [],
       "icons": [],
@@ -32509,7 +32586,9 @@
       "isFlagEntity": true,
       "colors": [
         "green",
-        "white"
+        "white",
+        "blue",
+        "yellow"
       ],
       "wdColors": [
         "green",
@@ -34367,9 +34446,11 @@
         "yellow",
         "red"
       ],
-      "icons": [],
+      "icons": [
+        "animal"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Ferrette",
       "flagTypeSample": null,
       "extraTags": {},
@@ -34814,7 +34895,9 @@
         "yellow",
         "red"
       ],
-      "icons": [],
+      "icons": [
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Roquebrune-Cap-Martin",
@@ -34828,7 +34911,7 @@
       "reviews": {
         "colors": 1
       },
-      "description": "A vertical bicolor of yellow at the hoist and red at the fly."
+      "description": "Two equal vertical bands of yellow (hoist) and red."
     },
     {
       "qid": "Q113356972",
@@ -36390,7 +36473,10 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": "indigenous",
       "flagName": "United Tribes of New Zealand",
@@ -36574,9 +36660,12 @@
         "green"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "cross",
+        "diagonal"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Adjuntas",
       "flagTypeSample": null,
       "extraTags": {},
@@ -37073,7 +37162,12 @@
       "isFlagEntity": true,
       "colors": [
         "white",
-        "yellow"
+        "yellow",
+        "green",
+        "darkblue",
+        "brown",
+        "black",
+        "red"
       ],
       "wdColors": [
         "white",
@@ -37367,9 +37461,12 @@
         "blue",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "bird",
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Thuin",
       "flagTypeSample": null,
       "extraTags": {},
@@ -37383,7 +37480,7 @@
       "reviews": {
         "colors": 1
       },
-      "description": "A blue square at the hoist bearing three white birds (ducks) in a row at the top, beside a plain white panel at the fly."
+      "description": "A vertical bicolor of blue and (hoist) white. With three white martlets in the upper hoist corner."
     },
     {
       "qid": "Q122872146",
@@ -37845,6 +37942,7 @@
       "isFlagEntity": true,
       "colors": [
         "yellow",
+        "black",
         "blue"
       ],
       "wdColors": [],
@@ -37962,12 +38060,13 @@
       "file": "Flag of Tucson, Arizona.svg",
       "isFlagEntity": true,
       "colors": [
-        "blue",
+        "darkblue",
         "white",
         "yellow",
         "purple",
-        "lightblue",
-        "black"
+        "black",
+        "green",
+        "orange"
       ],
       "wdColors": [],
       "icons": [],
@@ -38007,7 +38106,8 @@
       "colors": [
         "white",
         "red",
-        "yellow"
+        "yellow",
+        "brown"
       ],
       "wdColors": [],
       "icons": [],
@@ -38031,7 +38131,8 @@
       "colors": [
         "white",
         "yellow",
-        "green"
+        "green",
+        "red"
       ],
       "wdColors": [],
       "icons": [],
@@ -38053,12 +38154,12 @@
       "file": "Bandera de la Ciudad de Guatemala.svg",
       "isFlagEntity": true,
       "colors": [
-        "red",
-        "blue",
-        "lightblue",
-        "green",
         "white",
-        "yellow"
+        "blue",
+        "gray",
+        "green",
+        "yellow",
+        "red"
       ],
       "wdColors": [],
       "icons": [],
@@ -38202,9 +38303,10 @@
       "file": "Flag of Asunción.svg",
       "isFlagEntity": true,
       "colors": [
-        "red",
+        "blue",
+        "gray",
         "white",
-        "blue"
+        "red"
       ],
       "wdColors": [],
       "icons": [],
@@ -38334,6 +38436,7 @@
       "isFlagEntity": true,
       "colors": [
         "blue",
+        "darkblue",
         "white",
         "yellow"
       ],
@@ -38510,9 +38613,10 @@
       "file": "Flag of Christchurch.svg",
       "isFlagEntity": true,
       "colors": [
-        "yellow",
         "blue",
-        "red"
+        "yellow",
+        "red",
+        "white"
       ],
       "wdColors": [],
       "icons": [],
