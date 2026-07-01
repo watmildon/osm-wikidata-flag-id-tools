@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27T08:32:40.703Z",
+  "generated": "2026-07-01T14:29:33.226Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -194,9 +194,8 @@
       "bad_qid": "Q93347",
       "bad_name": "Mostar",
       "count": 2,
-      "suggested_qid": "Q140002979",
-      "suggested_name": "Q140002979",
-      "target_is_stub": true
+      "suggested_qid": "Q12645606",
+      "suggested_name": "flag of Mostar"
     },
     {
       "bad_qid": "Q95121",
