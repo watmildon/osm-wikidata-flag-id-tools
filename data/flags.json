@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T09:40:57.957Z",
+  "generated": "2026-07-02T08:52:09.761Z",
   "palette": [
     "red",
     "white",
@@ -707,7 +707,7 @@
     {
       "qid": "Q33213",
       "name": "flag of Armenia",
-      "count": 51,
+      "count": 53,
       "file": "Flag of Armenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 648,
+      "count": 649,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16778,
+      "count": 16790,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2357,
+      "count": 2356,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 991,
+      "count": 992,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3661,7 +3661,7 @@
     {
       "qid": "Q127155",
       "name": "flag of the Czech Republic",
-      "count": 111,
+      "count": 112,
       "file": "Flag of the Czech Republic.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1216,
+      "count": 1218,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9673,7 +9673,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 107,
+      "count": 108,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10468,7 +10468,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 271,
+      "count": 272,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13446,7 +13446,7 @@
     {
       "qid": "Q760401",
       "name": "flag of Andalusia",
-      "count": 42,
+      "count": 43,
       "file": "Flag of Andalucía.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14831,7 +14831,7 @@
     {
       "qid": "Q1165949",
       "name": "flag of Ontario",
-      "count": 39,
+      "count": 40,
       "file": "Flag of Ontario.svg",
       "isFlagEntity": true,
       "colors": [
@@ -28125,7 +28125,7 @@
     {
       "qid": "Q96633914",
       "name": "“Progress” pride flag",
-      "count": 17,
+      "count": 18,
       "file": "LGBTQ+ rainbow flag Quasar \"Progress\" variant.svg",
       "isFlagEntity": true,
       "colors": [
