@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-07T09:36:30.766Z",
+  "generated": "2026-07-08T13:58:20.678Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 174,
+      "count": 175,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16822,
+      "count": 16829,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 559,
+      "count": 560,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2359,
+      "count": 2366,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 298,
+      "count": 299,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1535,7 +1535,7 @@
     {
       "qid": "Q60149",
       "name": "flag of Denmark",
-      "count": 817,
+      "count": 818,
       "file": "Flag of Denmark.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1731,7 +1731,7 @@
     {
       "qid": "Q81286",
       "name": "flag of Sweden",
-      "count": 649,
+      "count": 650,
       "file": "Flag of Sweden.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 119,
+      "count": 122,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 276,
+      "count": 277,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 370,
+      "count": 371,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3736,7 +3736,7 @@
     {
       "qid": "Q127296",
       "name": "flag of South Korea",
-      "count": 68,
+      "count": 69,
       "file": "Flag of South Korea.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 308,
+      "count": 309,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3896,7 +3896,7 @@
     {
       "qid": "Q128812",
       "name": "flag of Portugal",
-      "count": 94,
+      "count": 95,
       "file": "Flag of Portugal (official).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 577,
+      "count": 579,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15614,7 +15614,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 704,
+      "count": 705,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -20472,6 +20472,32 @@
         "colors": 3
       },
       "description": "Thirteen alternating red and white horizontal stripes with a blue canton at the hoist bearing thirteen white five-pointed stars arranged in a circle around a central star."
+    },
+    {
+      "qid": "Q5330844",
+      "name": "Easton Flag",
+      "count": 0,
+      "file": "Flag of Easton, Pennsylvania.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "wdColors": [
+        "red",
+        "white",
+        "blue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Easton Flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q5456645",
@@ -29898,7 +29924,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 308,
+      "count": 313,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
