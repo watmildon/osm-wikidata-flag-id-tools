@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01T14:29:33.226Z",
+  "generated": "2026-07-09T09:34:02.418Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -385,6 +385,14 @@
       "count": 2,
       "suggested_qid": "Q140002984",
       "suggested_name": "flag of Mount Prospect"
+    },
+    {
+      "bad_qid": "Q1141173",
+      "bad_name": "Marriott International",
+      "count": 1,
+      "suggested_qid": "Q101221290",
+      "suggested_name": "Marriott flag",
+      "target_is_stub": true
     },
     {
       "bad_qid": "Q1191401",

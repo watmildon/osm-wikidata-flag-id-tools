@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08T13:58:20.678Z",
+  "generated": "2026-07-09T09:34:02.577Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 175,
+      "count": 176,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -503,7 +503,7 @@
     {
       "qid": "Q19374",
       "name": "flag of Louisiana",
-      "count": 52,
+      "count": 53,
       "file": "Flag of Louisiana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 651,
+      "count": 649,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16829,
+      "count": 16835,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 560,
+      "count": 561,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2366,
+      "count": 2371,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1261,7 +1261,7 @@
     {
       "qid": "Q46585",
       "name": "flag of the Netherlands",
-      "count": 101,
+      "count": 102,
       "file": "Flag of the Netherlands.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 299,
+      "count": 300,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1535,7 +1535,7 @@
     {
       "qid": "Q60149",
       "name": "flag of Denmark",
-      "count": 818,
+      "count": 819,
       "file": "Flag of Denmark.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 995,
+      "count": 996,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 279,
+      "count": 284,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 277,
+      "count": 278,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 371,
+      "count": 372,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1619,
+      "count": 1620,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3896,7 +3896,7 @@
     {
       "qid": "Q128812",
       "name": "flag of Portugal",
-      "count": 95,
+      "count": 96,
       "file": "Flag of Portugal (official).svg",
       "isFlagEntity": true,
       "colors": [
@@ -11590,7 +11590,7 @@
     {
       "qid": "Q567838",
       "name": "flag of South Dakota",
-      "count": 9,
+      "count": 10,
       "file": "Flag of South Dakota.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11701,7 +11701,7 @@
     {
       "qid": "Q590821",
       "name": "flag of Kentucky",
-      "count": 98,
+      "count": 99,
       "file": "Flag of Kentucky.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11904,7 +11904,7 @@
     {
       "qid": "Q605195",
       "name": "flag of Tennessee",
-      "count": 24,
+      "count": 25,
       "file": "Flag of Tennessee.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12225,7 +12225,7 @@
     {
       "qid": "Q633087",
       "name": "flag of Montana",
-      "count": 13,
+      "count": 14,
       "file": "Flag of Montana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12454,7 +12454,7 @@
     {
       "qid": "Q673117",
       "name": "flag of Indiana",
-      "count": 84,
+      "count": 85,
       "file": "Flag of Indiana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12952,7 +12952,7 @@
     {
       "qid": "Q731163",
       "name": "flag of Washington",
-      "count": 32,
+      "count": 33,
       "file": "Flag of Washington.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13158,7 +13158,7 @@
     {
       "qid": "Q752557",
       "name": "flag of Missouri",
-      "count": 39,
+      "count": 40,
       "file": "Flag of Missouri.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13201,7 +13201,7 @@
     {
       "qid": "Q752559",
       "name": "flag of Ohio",
-      "count": 326,
+      "count": 327,
       "file": "Flag of Ohio.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13394,7 +13394,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 382,
+      "count": 383,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13887,7 +13887,7 @@
     {
       "qid": "Q837312",
       "name": "flag of North Dakota",
-      "count": 8,
+      "count": 9,
       "file": "Flag of North Dakota.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14678,7 +14678,7 @@
     {
       "qid": "Q1122078",
       "name": "flag of Alberta",
-      "count": 32,
+      "count": 33,
       "file": "Flag of Alberta.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29924,7 +29924,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 313,
+      "count": 314,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
