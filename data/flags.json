@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09T09:34:02.577Z",
+  "generated": "2026-07-10T09:30:17.814Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16835,
+      "count": 16839,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 996,
+      "count": 995,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 122,
+      "count": 123,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 372,
+      "count": 374,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 944,
+      "count": 945,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4980,7 +4980,7 @@
     {
       "qid": "Q148807",
       "name": "flag of Catalonia",
-      "count": 27,
+      "count": 28,
       "file": "Flag of Catalonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14367,7 +14367,7 @@
     {
       "qid": "Q1064042",
       "name": "flag of New South Wales",
-      "count": 37,
+      "count": 38,
       "file": "Flag of New South Wales.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29924,7 +29924,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 314,
+      "count": 315,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
