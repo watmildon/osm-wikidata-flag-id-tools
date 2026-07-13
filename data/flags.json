@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11T13:12:23.318Z",
+  "generated": "2026-07-13T09:20:44.289Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 176,
+      "count": 177,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 289,
+      "count": 290,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 649,
+      "count": 650,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16851,
+      "count": 16863,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 561,
+      "count": 562,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2371,
+      "count": 2373,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 300,
+      "count": 301,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1455,7 +1455,7 @@
     {
       "qid": "Q51401",
       "name": "LGBTQ pride flag",
-      "count": 35,
+      "count": 51,
       "file": "Gay Pride Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 996,
+      "count": 998,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1769,7 +1769,7 @@
     {
       "qid": "Q81471",
       "name": "flag of Estonia",
-      "count": 115,
+      "count": 116,
       "file": "Flag of Estonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2145,7 +2145,7 @@
     {
       "qid": "Q83149",
       "name": "flag of Norway",
-      "count": 404,
+      "count": 405,
       "file": "Flag of Norway.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 278,
+      "count": 279,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 374,
+      "count": 375,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1620,
+      "count": 1621,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4176,7 +4176,7 @@
     {
       "qid": "Q130807",
       "name": "flag of Slovenia",
-      "count": 130,
+      "count": 131,
       "file": "Flag of Slovenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4454,7 +4454,7 @@
     {
       "qid": "Q133015",
       "name": "flag of Croatia",
-      "count": 81,
+      "count": 82,
       "file": "Flag of Croatia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6011,7 +6011,7 @@
     {
       "qid": "Q163008",
       "name": "flag of Cuba",
-      "count": 57,
+      "count": 58,
       "file": "Flag of Cuba.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10509,7 +10509,7 @@
     {
       "qid": "Q369833",
       "name": "flag of Arkansas",
-      "count": 19,
+      "count": 20,
       "file": "Flag of Arkansas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13201,7 +13201,7 @@
     {
       "qid": "Q752559",
       "name": "flag of Ohio",
-      "count": 327,
+      "count": 328,
       "file": "Flag of Ohio.svg",
       "isFlagEntity": true,
       "colors": [
@@ -18827,7 +18827,7 @@
     {
       "qid": "Q2914899",
       "name": "Royal Air Force Ensign",
-      "count": 2,
+      "count": 3,
       "file": "Air Force Ensign of the United Kingdom.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19281,7 +19281,7 @@
     {
       "qid": "Q3039109",
       "name": "flag and coat of arms of Normandy",
-      "count": 40,
+      "count": 41,
       "file": "Flag of Normandie.svg",
       "isFlagEntity": true,
       "colors": [
@@ -22085,7 +22085,7 @@
     {
       "qid": "Q7195389",
       "name": "Pine Tree Flag",
-      "count": 0,
+      "count": 1,
       "file": "An Appeal to Heaven Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29924,7 +29924,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 315,
+      "count": 316,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -38825,6 +38825,24 @@
       "extraTags": {},
       "aliases": [],
       "description": "Thirteen alternating red and white horizontal stripes with a blue canton in the upper hoist. The canton holds thirteen white five-pointed stars in a circle around the white numerals \"250\"."
+    },
+    {
+      "qid": "Q140522752",
+      "name": "George Washington's headquarters flag",
+      "count": 1,
+      "file": "Washington's Headquarters Flag.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "George Washington's headquarters flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     }
   ]
 }
