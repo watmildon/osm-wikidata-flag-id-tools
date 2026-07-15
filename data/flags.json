@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-13T09:20:44.289Z",
+  "generated": "2026-07-15T08:03:54.227Z",
   "palette": [
     "red",
     "white",
@@ -592,7 +592,7 @@
     {
       "qid": "Q19427",
       "name": "flag of Oregon",
-      "count": 58,
+      "count": 59,
       "file": "Flag of Oregon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16863,
+      "count": 16874,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 998,
+      "count": 1004,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1731,7 +1731,7 @@
     {
       "qid": "Q81286",
       "name": "flag of Sweden",
-      "count": 650,
+      "count": 652,
       "file": "Flag of Sweden.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2145,7 +2145,7 @@
     {
       "qid": "Q83149",
       "name": "flag of Norway",
-      "count": 405,
+      "count": 406,
       "file": "Flag of Norway.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 375,
+      "count": 376,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1223,
+      "count": 1225,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4710,7 +4710,7 @@
     {
       "qid": "Q134874",
       "name": "flag of Bolivia",
-      "count": 42,
+      "count": 43,
       "file": "Flag of Bolivia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5644,7 +5644,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 407,
+      "count": 408,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9673,7 +9673,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 108,
+      "count": 109,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13394,7 +13394,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 383,
+      "count": 384,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15614,7 +15614,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 705,
+      "count": 706,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21505,7 +21505,7 @@
     {
       "qid": "Q5456894",
       "name": "flag of the United States Air Force",
-      "count": 100,
+      "count": 101,
       "file": "Flag of the United States Air Force.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21549,7 +21549,7 @@
     {
       "qid": "Q5456895",
       "name": "flag of the United States Coast Guard",
-      "count": 105,
+      "count": 106,
       "file": "Flag of the United States Coast Guard.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21588,7 +21588,7 @@
     {
       "qid": "Q5456897",
       "name": "flag of the United States Marine Corps",
-      "count": 128,
+      "count": 129,
       "file": "Flag of the United States Marine Corps.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21627,7 +21627,7 @@
     {
       "qid": "Q5456898",
       "name": "flag of the United States Army",
-      "count": 121,
+      "count": 122,
       "file": "Flag of the United States Army.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21670,7 +21670,7 @@
     {
       "qid": "Q5456899",
       "name": "flag of the United States Navy",
-      "count": 109,
+      "count": 110,
       "file": "Flag of the United States Navy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29924,7 +29924,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 316,
+      "count": 318,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
