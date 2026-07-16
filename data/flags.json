@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T08:03:54.227Z",
+  "generated": "2026-07-16T08:07:56.902Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16874,
+      "count": 16886,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2373,
+      "count": 2376,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 283,
+      "count": 284,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1004,
+      "count": 1007,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 279,
+      "count": 280,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2310,7 +2310,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 225,
+      "count": 226,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1621,
+      "count": 1622,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4176,7 +4176,7 @@
     {
       "qid": "Q130807",
       "name": "flag of Slovenia",
-      "count": 131,
+      "count": 132,
       "file": "Flag of Slovenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 945,
+      "count": 946,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1225,
+      "count": 1226,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5602,7 +5602,7 @@
     {
       "qid": "Q160861",
       "name": "flag of Slovakia",
-      "count": 95,
+      "count": 96,
       "file": "Flag of Slovakia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5725,7 +5725,7 @@
     {
       "qid": "Q162033",
       "name": "flag of Bosnia and Herzegovina",
-      "count": 23,
+      "count": 24,
       "file": "Flag of Bosnia and Herzegovina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10701,7 +10701,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 61,
+      "count": 60,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11701,7 +11701,7 @@
     {
       "qid": "Q590821",
       "name": "flag of Kentucky",
-      "count": 99,
+      "count": 100,
       "file": "Flag of Kentucky.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14493,7 +14493,7 @@
     {
       "qid": "Q1084035",
       "name": "Christian Flag",
-      "count": 58,
+      "count": 59,
       "file": "Christian flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15777,7 +15777,7 @@
     {
       "qid": "Q1788743",
       "name": "Confederate Battle Flag",
-      "count": 47,
+      "count": 48,
       "file": "North Virginia Third Bunting.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19317,7 +19317,7 @@
     {
       "qid": "Q3173323",
       "name": "Union Jack",
-      "count": 2,
+      "count": 3,
       "file": "Flag of the United Kingdom (3-5).svg",
       "isFlagEntity": true,
       "colors": [
@@ -29924,7 +29924,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 318,
+      "count": 319,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
