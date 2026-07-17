@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-15T08:03:54.069Z",
+  "generated": "2026-07-17T08:04:57.295Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -161,6 +161,13 @@
       "count": 3,
       "suggested_qid": "Q140002972",
       "suggested_name": "flag of Sandinista National Liberation Front"
+    },
+    {
+      "bad_qid": "Q38076",
+      "bad_name": "McDonald's",
+      "count": 1,
+      "suggested_qid": "Q64300176",
+      "suggested_name": "McDonald's flag"
     },
     {
       "bad_qid": "Q38453",

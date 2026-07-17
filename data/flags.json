@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16T08:07:56.902Z",
+  "generated": "2026-07-17T08:04:58.727Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16886,
+      "count": 16897,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1261,7 +1261,7 @@
     {
       "qid": "Q46585",
       "name": "flag of the Netherlands",
-      "count": 102,
+      "count": 103,
       "file": "Flag of the Netherlands.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 301,
+      "count": 302,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1007,
+      "count": 1008,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 376,
+      "count": 377,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1622,
+      "count": 1624,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 946,
+      "count": 947,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1226,
+      "count": 1230,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5086,6 +5086,32 @@
       "reviews": {
         "colors": 1
       }
+    },
+    {
+      "qid": "Q158591",
+      "name": "flag of Guernsey",
+      "count": 1,
+      "file": "Flag of Guernsey.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white",
+        "yellow"
+      ],
+      "wdColors": [
+        "red",
+        "white",
+        "yellow"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Guernsey",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q159538",
@@ -12306,7 +12332,7 @@
     {
       "qid": "Q637134",
       "name": "flag of British Columbia",
-      "count": 55,
+      "count": 56,
       "file": "Flag of British Columbia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13446,7 +13472,7 @@
     {
       "qid": "Q760401",
       "name": "flag of Andalusia",
-      "count": 43,
+      "count": 44,
       "file": "Flag of Andalucía.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19281,7 +19307,7 @@
     {
       "qid": "Q3039109",
       "name": "flag and coat of arms of Normandy",
-      "count": 41,
+      "count": 42,
       "file": "Flag of Normandie.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19317,7 +19343,7 @@
     {
       "qid": "Q3173323",
       "name": "Union Jack",
-      "count": 3,
+      "count": 4,
       "file": "Flag of the United Kingdom (3-5).svg",
       "isFlagEntity": true,
       "colors": [
