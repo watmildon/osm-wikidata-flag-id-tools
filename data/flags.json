@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T08:04:58.727Z",
+  "generated": "2026-07-18T02:09:42.994Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 650,
+      "count": 653,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16897,
+      "count": 16900,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2376,
+      "count": 2373,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1535,7 +1535,7 @@
     {
       "qid": "Q60149",
       "name": "flag of Denmark",
-      "count": 819,
+      "count": 820,
       "file": "Flag of Denmark.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1008,
+      "count": 1010,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 377,
+      "count": 378,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 309,
+      "count": 310,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 583,
+      "count": 584,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 947,
+      "count": 948,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5470,7 +5470,7 @@
     {
       "qid": "Q160255",
       "name": "flag of Peru",
-      "count": 35,
+      "count": 36,
       "file": "Flag of Peru.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6359,7 +6359,7 @@
     {
       "qid": "Q165542",
       "name": "flag of Ecuador",
-      "count": 19,
+      "count": 22,
       "file": "Bandera de Ecuador.svg",
       "isFlagEntity": true,
       "colors": [
