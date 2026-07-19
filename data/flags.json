@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18T02:09:42.994Z",
+  "generated": "2026-07-19T08:11:39.379Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 653,
+      "count": 656,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16900,
+      "count": 16905,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 562,
+      "count": 563,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2373,
+      "count": 2376,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1613,7 +1613,7 @@
     {
       "qid": "Q79198",
       "name": "flag of Vatican City",
-      "count": 65,
+      "count": 66,
       "file": "Flag of Vatican City (2023–present).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1624,
+      "count": 1625,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1230,
+      "count": 1231,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4750,7 +4750,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 153,
+      "count": 154,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7679,7 +7679,7 @@
     {
       "qid": "Q171117",
       "name": "flag of England",
-      "count": 11,
+      "count": 12,
       "file": "Flag of England.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10727,7 +10727,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 60,
+      "count": 61,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25144,7 +25144,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 195,
+      "count": 198,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
