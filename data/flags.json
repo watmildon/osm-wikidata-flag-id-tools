@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-19T08:11:39.379Z",
+  "generated": "2026-07-20T08:52:56.694Z",
   "palette": [
     "red",
     "white",
@@ -916,7 +916,7 @@
     {
       "qid": "Q41673",
       "name": "flag of India",
-      "count": 121,
+      "count": 122,
       "file": "Flag of India.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16905,
+      "count": 16916,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 563,
+      "count": 564,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2376,
+      "count": 2380,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1010,
+      "count": 1013,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 284,
+      "count": 285,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 255,
+      "count": 256,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1231,
+      "count": 1232,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5548,7 +5548,7 @@
     {
       "qid": "Q160425",
       "name": "flag of Colombia",
-      "count": 50,
+      "count": 51,
       "file": "Flag of Colombia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5872,7 +5872,7 @@
     {
       "qid": "Q162781",
       "name": "flag of Iraq",
-      "count": 129,
+      "count": 131,
       "file": "Flag of Iraq.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6037,7 +6037,7 @@
     {
       "qid": "Q163008",
       "name": "flag of Cuba",
-      "count": 58,
+      "count": 62,
       "file": "Flag of Cuba.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9929,7 +9929,7 @@
     {
       "qid": "Q241083",
       "name": "flag of Wisconsin",
-      "count": 54,
+      "count": 55,
       "file": "Flag of Wisconsin.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11354,7 +11354,7 @@
     {
       "qid": "Q520966",
       "name": "flag of Rhode Island",
-      "count": 10,
+      "count": 11,
       "file": "Flag of Rhode Island.svg",
       "isFlagEntity": true,
       "colors": [
