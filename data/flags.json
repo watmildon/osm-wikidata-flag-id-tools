@@ -21131,7 +21131,7 @@
       "qid": "Q5456784",
       "name": "flag of Nashville, Tennessee",
       "count": 0,
-      "file": null,
+      "file": "Flag of Nashville.png",
       "isFlagEntity": true,
       "colors": [],
       "wdColors": [],
@@ -21141,7 +21141,8 @@
       "flagName": "Nashville, Tennessee",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "wdImageProperty": "P18"
     },
     {
       "qid": "Q5456786",
