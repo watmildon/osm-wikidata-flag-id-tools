@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20T08:52:56.694Z",
+  "generated": "2026-07-22T08:23:46.452Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 656,
+      "count": 657,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16916,
+      "count": 16926,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 564,
+      "count": 565,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 302,
+      "count": 303,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 285,
+      "count": 286,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2464,7 +2464,7 @@
     {
       "qid": "Q102392",
       "name": "flag of Scotland",
-      "count": 20,
+      "count": 21,
       "file": "Flag of Scotland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 584,
+      "count": 585,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1232,
+      "count": 1234,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7908,7 +7908,7 @@
     {
       "qid": "Q173201",
       "name": "flag of Seychelles",
-      "count": 8,
+      "count": 9,
       "file": "Flag of Seychelles.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10176,7 +10176,7 @@
     {
       "qid": "Q258262",
       "name": "flag of Oklahoma",
-      "count": 57,
+      "count": 58,
       "file": "Flag of Oklahoma.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10494,7 +10494,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 272,
+      "count": 273,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13420,7 +13420,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 384,
+      "count": 386,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15640,7 +15640,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 706,
+      "count": 709,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16716,6 +16716,32 @@
       "reviews": {
         "colors": 1
       }
+    },
+    {
+      "qid": "Q2168186",
+      "name": "flag of the Lublin Voivodeship",
+      "count": 1,
+      "file": "POL województwo lubelskie flag.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white",
+        "yellow"
+      ],
+      "wdColors": [
+        "red",
+        "white",
+        "yellow"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Lublin Voivodeship",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q2169543",
@@ -29951,7 +29977,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 319,
+      "count": 320,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
