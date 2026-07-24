@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-23T08:25:07.113Z",
+  "generated": "2026-07-24T02:26:32.317Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 177,
+      "count": 178,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16932,
+      "count": 16941,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1014,
+      "count": 1017,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2310,7 +2310,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 226,
+      "count": 227,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 378,
+      "count": 379,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 586,
+      "count": 588,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4176,7 +4176,7 @@
     {
       "qid": "Q130807",
       "name": "flag of Slovenia",
-      "count": 132,
+      "count": 133,
       "file": "Flag of Slovenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4220,7 +4220,7 @@
     {
       "qid": "Q130811",
       "name": "flag of Romania",
-      "count": 126,
+      "count": 127,
       "file": "Flag of Romania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10494,7 +10494,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 273,
+      "count": 274,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11147,7 +11147,7 @@
     {
       "qid": "Q492546",
       "name": "flag of Colorado",
-      "count": 42,
+      "count": 43,
       "file": "Flag of Colorado.svg",
       "isFlagEntity": true,
       "colors": [
@@ -24843,7 +24843,7 @@
     {
       "qid": "Q63063601",
       "name": "flag of Santa Clara",
-      "count": 4,
+      "count": 5,
       "file": "Flag of Santa Clara, California.png",
       "isFlagEntity": true,
       "colors": [
@@ -29977,7 +29977,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 322,
+      "count": 323,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
