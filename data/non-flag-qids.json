@@ -18,6 +18,12 @@
     "file": "AlexandriaOleTowne.jpg"
   },
   {
+    "qid": "Q183",
+    "name": "Germany",
+    "count": 1,
+    "file": "Aerial view of Berlin (32881394137).jpg"
+  },
+  {
     "qid": "Q231",
     "name": "Walloon Region",
     "count": 2,
@@ -44,7 +50,7 @@
   {
     "qid": "Q458",
     "name": "European Union",
-    "count": 5,
+    "count": 6,
     "file": "Flag of Europe.svg"
   },
   {
@@ -112,6 +118,12 @@
     "name": "Association of Southeast Asian Nations",
     "count": 1,
     "file": "ASEAN HQ 1.jpg"
+  },
+  {
+    "qid": "Q7899",
+    "name": "Fulda",
+    "count": 1,
+    "file": "Flagge Landkreis Fulda.svg"
   },
   {
     "qid": "Q8886",

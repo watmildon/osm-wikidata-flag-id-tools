@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-17T08:04:57.295Z",
+  "generated": "2026-07-25T08:02:20.906Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -14,6 +14,13 @@
       "count": 1,
       "suggested_qid": "Q140002987",
       "suggested_name": "flag of Alexandria"
+    },
+    {
+      "bad_qid": "Q183",
+      "bad_name": "Germany",
+      "count": 1,
+      "suggested_qid": "Q48160",
+      "suggested_name": "flag of Germany"
     },
     {
       "bad_qid": "Q231",
@@ -32,7 +39,7 @@
     {
       "bad_qid": "Q458",
       "bad_name": "European Union",
-      "count": 5,
+      "count": 6,
       "suggested_qid": "Q122482",
       "suggested_name": "flag of Europe"
     },
