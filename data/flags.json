@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-25T08:02:21.062Z",
+  "generated": "2026-07-26T08:22:08.851Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 657,
+      "count": 658,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 284,
+      "count": 285,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1018,
+      "count": 1021,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1769,7 +1769,7 @@
     {
       "qid": "Q81471",
       "name": "flag of Estonia",
-      "count": 116,
+      "count": 117,
       "file": "Flag of Estonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 379,
+      "count": 380,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1234,
+      "count": 1236,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10727,7 +10727,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 61,
+      "count": 62,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12114,7 +12114,7 @@
     {
       "qid": "Q619799",
       "name": "Tallinn flag",
-      "count": 2,
+      "count": 3,
       "file": "Flag of Tallinn.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29977,7 +29977,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 323,
+      "count": 324,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
