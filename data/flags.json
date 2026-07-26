@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T08:22:08.851Z",
+  "generated": "2026-07-26T19:05:53.204Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16949,
+      "count": 16961,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 567,
+      "count": 569,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2386,
+      "count": 2387,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1627,
+      "count": 1628,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3661,7 +3661,7 @@
     {
       "qid": "Q127155",
       "name": "flag of the Czech Republic",
-      "count": 112,
+      "count": 113,
       "file": "Flag of the Czech Republic.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 950,
+      "count": 953,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5116,7 +5116,7 @@
     {
       "qid": "Q159538",
       "name": "flag of Somalia",
-      "count": 9,
+      "count": 11,
       "file": "Flag of Somalia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9929,7 +9929,7 @@
     {
       "qid": "Q241083",
       "name": "flag of Wisconsin",
-      "count": 55,
+      "count": 56,
       "file": "Flag of Wisconsin.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13420,7 +13420,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 386,
+      "count": 387,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15640,7 +15640,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 710,
+      "count": 711,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [

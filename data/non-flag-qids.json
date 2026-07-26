@@ -1,7 +1,7 @@
 [
   {
     "qid": "Q30",
-    "name": "United States of America",
+    "name": "United States",
     "count": 1,
     "file": "United States - Location Map (2013) - USA - UNOCHA.svg"
   },
@@ -1863,6 +1863,12 @@
     "qid": "Q11895836",
     "name": "Q11895836",
     "count": 2,
+    "file": null
+  },
+  {
+    "qid": "Q12057827",
+    "name": "Symbols of Karlovy Vary Region",
+    "count": 1,
     "file": null
   },
   {
