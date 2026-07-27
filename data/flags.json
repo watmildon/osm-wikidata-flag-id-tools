@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26T19:05:53.204Z",
+  "generated": "2026-07-27T09:45:42.464Z",
   "palette": [
     "red",
     "white",
@@ -630,7 +630,7 @@
     {
       "qid": "Q26491",
       "name": "flag of Georgia",
-      "count": 46,
+      "count": 47,
       "file": "Flag of Georgia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 658,
+      "count": 660,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 16961,
+      "count": 16974,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 569,
+      "count": 573,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2387,
+      "count": 2388,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1021,
+      "count": 1022,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 332,
+      "count": 333,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 953,
+      "count": 954,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5916,7 +5916,7 @@
     {
       "qid": "Q162789",
       "name": "flag of Tunisia",
-      "count": 24,
+      "count": 28,
       "file": "Flag of Tunisia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10915,7 +10915,7 @@
     {
       "qid": "Q462621",
       "name": "Torres Strait Islander flag",
-      "count": 30,
+      "count": 31,
       "file": "Torres Strait Flag Day 2021 - 51222675210.jpg",
       "isFlagEntity": true,
       "colors": [
@@ -11077,7 +11077,7 @@
     {
       "qid": "Q492524",
       "name": "flag of Wyoming",
-      "count": 9,
+      "count": 10,
       "file": "Flag of Wyoming.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11147,7 +11147,7 @@
     {
       "qid": "Q492546",
       "name": "flag of Colorado",
-      "count": 43,
+      "count": 44,
       "file": "Flag of Colorado.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13058,7 +13058,7 @@
     {
       "qid": "Q736625",
       "name": "flag of Utah",
-      "count": 26,
+      "count": 27,
       "file": "Flag of Utah.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14393,7 +14393,7 @@
     {
       "qid": "Q1064042",
       "name": "flag of New South Wales",
-      "count": 38,
+      "count": 39,
       "file": "Flag of New South Wales.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14970,7 +14970,7 @@
     {
       "qid": "Q1285625",
       "name": "Australian Aboriginal flag",
-      "count": 77,
+      "count": 78,
       "file": "Australian Aboriginal Flag.svg",
       "isFlagEntity": true,
       "colors": [
