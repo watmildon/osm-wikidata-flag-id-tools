@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31T08:44:47.677Z",
+  "generated": "2026-08-01T13:13:24.695Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 179,
+      "count": 181,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -240,7 +240,7 @@
     {
       "qid": "Q16611",
       "name": "flag of Russia",
-      "count": 139,
+      "count": 140,
       "file": "Flag of Russia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 661,
+      "count": 662,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17062,
+      "count": 17071,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 335,
+      "count": 336,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 123,
+      "count": 124,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 381,
+      "count": 382,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 244,
+      "count": 245,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4017,7 +4017,7 @@
     {
       "qid": "Q130449",
       "name": "flag of Latvia",
-      "count": 61,
+      "count": 62,
       "file": "Flag of Latvia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5226,7 +5226,7 @@
     {
       "qid": "Q159865",
       "name": "flag of Morocco",
-      "count": 22,
+      "count": 21,
       "file": "Flag of Morocco.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10494,7 +10494,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 277,
+      "count": 278,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16814,7 +16814,7 @@
     {
       "qid": "Q2191442",
       "name": "flag of Santa Catarina",
-      "count": 2,
+      "count": 3,
       "file": "Bandeira de Santa Catarina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21680,7 +21680,7 @@
     {
       "qid": "Q5456898",
       "name": "flag of the United States Army",
-      "count": 121,
+      "count": 122,
       "file": "Flag of the United States Army.svg",
       "isFlagEntity": true,
       "colors": [
@@ -22024,6 +22024,24 @@
         "colors": 1
       },
       "description": "A white field with the word MERCOSUL in large blue capitals across the lower portion, a green curved horizon line above the word, and four blue four-pointed stars arranged in the Southern Cross constellation above the horizon."
+    },
+    {
+      "qid": "Q5718948",
+      "name": "Purépecha Flag",
+      "count": 1,
+      "file": null,
+      "wdImageProperty": null,
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Purépecha Flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q6363891",
@@ -25171,7 +25189,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 198,
+      "count": 199,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -29977,7 +29995,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 324,
+      "count": 325,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
