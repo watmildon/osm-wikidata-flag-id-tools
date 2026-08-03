@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-02T18:21:50.091Z",
+  "generated": "2026-08-03T09:38:05.281Z",
   "palette": [
     "red",
     "white",
@@ -281,7 +281,7 @@
     {
       "qid": "Q18983",
       "name": "flag of Pennsylvania",
-      "count": 36,
+      "count": 37,
       "file": "Flag of Pennsylvania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -327,7 +327,7 @@
     {
       "qid": "Q18993",
       "name": "flag of Virginia",
-      "count": 81,
+      "count": 83,
       "file": "Flag of Virginia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -418,7 +418,7 @@
     {
       "qid": "Q19016",
       "name": "flag of the State of New York",
-      "count": 65,
+      "count": 66,
       "file": "Flag of New York.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 662,
+      "count": 666,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17071,
+      "count": 17086,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2389,
+      "count": 2390,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1535,7 +1535,7 @@
     {
       "qid": "Q60149",
       "name": "flag of Denmark",
-      "count": 820,
+      "count": 821,
       "file": "Flag of Denmark.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1025,
+      "count": 1027,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 336,
+      "count": 337,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 289,
+      "count": 290,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 245,
+      "count": 246,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 954,
+      "count": 955,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1240,
+      "count": 1242,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4750,7 +4750,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 156,
+      "count": 157,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6806,7 +6806,7 @@
     {
       "qid": "Q167584",
       "name": "flag of Moldova",
-      "count": 12,
+      "count": 14,
       "file": "Flag of Moldova.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14393,7 +14393,7 @@
     {
       "qid": "Q1064042",
       "name": "flag of New South Wales",
-      "count": 39,
+      "count": 41,
       "file": "Flag of New South Wales.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16142,7 +16142,7 @@
     {
       "qid": "Q2020381",
       "name": "flag of Pomeranian Voivodeship",
-      "count": 13,
+      "count": 14,
       "file": "POL województwo pomorskie flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -18879,7 +18879,7 @@
     {
       "qid": "Q2914899",
       "name": "Royal Air Force Ensign",
-      "count": 3,
+      "count": 4,
       "file": "Air Force Ensign of the United Kingdom.svg",
       "isFlagEntity": true,
       "colors": [
@@ -23241,7 +23241,7 @@
     {
       "qid": "Q15994084",
       "name": "flag of Puerto Rico",
-      "count": 30,
+      "count": 31,
       "file": "Flag of Puerto Rico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29995,7 +29995,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 325,
+      "count": 326,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -37826,7 +37826,7 @@
     {
       "qid": "Q124128386",
       "name": "flag for the Green Flag Award",
-      "count": 61,
+      "count": 62,
       "file": "Green Flag Award.jpg",
       "isFlagEntity": true,
       "colors": [
@@ -38860,7 +38860,7 @@
     {
       "qid": "Q140005435",
       "name": "flag of Henrico County",
-      "count": 3,
+      "count": 4,
       "file": "Flag of Henrico County, Virginia.png",
       "isFlagEntity": true,
       "colors": [
@@ -38911,6 +38911,24 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "George Washington's headquarters flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q140812125",
+      "name": "Flag of the NSW State Emergency Service",
+      "count": 2,
+      "file": "Flag of the New South Wales SES.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "NSW State Emergency Service",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": []
