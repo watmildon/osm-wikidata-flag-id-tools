@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-03T09:38:05.281Z",
+  "generated": "2026-08-04T08:31:50.681Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17086,
+      "count": 17091,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 575,
+      "count": 579,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 304,
+      "count": 303,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1027,
+      "count": 1039,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 246,
+      "count": 247,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1627,
+      "count": 1628,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4017,7 +4017,7 @@
     {
       "qid": "Q130449",
       "name": "flag of Latvia",
-      "count": 62,
+      "count": 63,
       "file": "Flag of Latvia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5548,7 +5548,7 @@
     {
       "qid": "Q160425",
       "name": "flag of Colombia",
-      "count": 50,
+      "count": 51,
       "file": "Flag of Colombia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10216,7 +10216,7 @@
     {
       "qid": "Q266618",
       "name": "flag of Prince Edward Island",
-      "count": 7,
+      "count": 9,
       "file": "Flag of Prince Edward Island.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10727,7 +10727,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 62,
+      "count": 64,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11310,7 +11310,7 @@
     {
       "qid": "Q512175",
       "name": "flag of Manitoba",
-      "count": 13,
+      "count": 15,
       "file": "Flag of the Province of Manitoba.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11890,7 +11890,7 @@
     {
       "qid": "Q601976",
       "name": "flag of Nova Scotia",
-      "count": 10,
+      "count": 12,
       "file": "Flag of Nova Scotia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12052,7 +12052,7 @@
     {
       "qid": "Q618036",
       "name": "flag of Toronto",
-      "count": 7,
+      "count": 11,
       "file": "Flag of Toronto, Canada.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12293,7 +12293,7 @@
     {
       "qid": "Q636719",
       "name": "flag of Newfoundland and Labrador",
-      "count": 8,
+      "count": 10,
       "file": "Flag of Newfoundland and Labrador.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12332,7 +12332,7 @@
     {
       "qid": "Q637134",
       "name": "flag of British Columbia",
-      "count": 56,
+      "count": 58,
       "file": "Flag of British Columbia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12664,7 +12664,7 @@
     {
       "qid": "Q693558",
       "name": "flag of Saskatchewan",
-      "count": 8,
+      "count": 10,
       "file": "Flag of Saskatchewan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14704,7 +14704,7 @@
     {
       "qid": "Q1122078",
       "name": "flag of Alberta",
-      "count": 33,
+      "count": 35,
       "file": "Flag of Alberta.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14857,7 +14857,7 @@
     {
       "qid": "Q1165949",
       "name": "flag of Ontario",
-      "count": 45,
+      "count": 49,
       "file": "Flag of Ontario.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15257,7 +15257,7 @@
     {
       "qid": "Q1418784",
       "name": "flag of New Brunswick",
-      "count": 40,
+      "count": 42,
       "file": "Flag of New Brunswick.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15441,7 +15441,7 @@
     {
       "qid": "Q1426561",
       "name": "flag of the Northwest Territories",
-      "count": 7,
+      "count": 9,
       "file": "Flag of the Northwest Territories.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15561,7 +15561,7 @@
     {
       "qid": "Q1426630",
       "name": "flag of Nunavut",
-      "count": 8,
+      "count": 10,
       "file": "Flag of Nunavut.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16269,7 +16269,7 @@
     {
       "qid": "Q2062018",
       "name": "flag of Yukon",
-      "count": 8,
+      "count": 10,
       "file": "Flag of Yukon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29995,7 +29995,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 326,
+      "count": 327,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
