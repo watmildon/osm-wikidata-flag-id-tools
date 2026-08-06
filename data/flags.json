@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-04T08:31:50.681Z",
+  "generated": "2026-08-06T08:30:47.886Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 181,
+      "count": 182,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 290,
+      "count": 291,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17091,
+      "count": 17103,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1417,7 +1417,7 @@
     {
       "qid": "Q48409",
       "name": "flag of Albania",
-      "count": 22,
+      "count": 23,
       "file": "Flag of Albania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1535,7 +1535,7 @@
     {
       "qid": "Q60149",
       "name": "flag of Denmark",
-      "count": 821,
+      "count": 822,
       "file": "Flag of Denmark.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 337,
+      "count": 339,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 124,
+      "count": 125,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2058,7 +2058,7 @@
     {
       "qid": "Q82205",
       "name": "flag of Ireland",
-      "count": 118,
+      "count": 119,
       "file": "Flag of Ireland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 280,
+      "count": 281,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2310,7 +2310,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 227,
+      "count": 228,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1628,
+      "count": 1629,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 597,
+      "count": 598,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1242,
+      "count": 1243,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9699,7 +9699,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 109,
+      "count": 110,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12928,7 +12928,7 @@
     {
       "qid": "Q730106",
       "name": "flag of Florida",
-      "count": 93,
+      "count": 94,
       "file": "Flag of Florida.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12978,7 +12978,7 @@
     {
       "qid": "Q731163",
       "name": "flag of Washington",
-      "count": 35,
+      "count": 36,
       "file": "Flag of Washington.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15640,7 +15640,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 715,
+      "count": 716,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29995,7 +29995,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 327,
+      "count": 328,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -37826,7 +37826,7 @@
     {
       "qid": "Q124128386",
       "name": "flag for the Green Flag Award",
-      "count": 62,
+      "count": 63,
       "file": "Green Flag Award.jpg",
       "isFlagEntity": true,
       "colors": [
