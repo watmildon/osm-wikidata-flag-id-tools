@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06T08:30:47.886Z",
+  "generated": "2026-08-07T07:10:37.154Z",
   "palette": [
     "red",
     "white",
@@ -327,7 +327,7 @@
     {
       "qid": "Q18993",
       "name": "flag of Virginia",
-      "count": 83,
+      "count": 84,
       "file": "Flag of Virginia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17103,
+      "count": 17106,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 579,
+      "count": 580,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2390,
+      "count": 2392,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1300,7 +1300,7 @@
     {
       "qid": "Q46835",
       "name": "flag of Austria",
-      "count": 91,
+      "count": 92,
       "file": "Flag of Austria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2145,7 +2145,7 @@
     {
       "qid": "Q83149",
       "name": "flag of Norway",
-      "count": 406,
+      "count": 407,
       "file": "Flag of Norway.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2310,7 +2310,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 228,
+      "count": 229,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 382,
+      "count": 383,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 247,
+      "count": 249,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1629,
+      "count": 1630,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3736,7 +3736,7 @@
     {
       "qid": "Q127296",
       "name": "flag of South Korea",
-      "count": 69,
+      "count": 70,
       "file": "Flag of South Korea.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1243,
+      "count": 1245,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4750,7 +4750,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 157,
+      "count": 158,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4980,7 +4980,7 @@
     {
       "qid": "Q148807",
       "name": "flag of Catalonia",
-      "count": 28,
+      "count": 29,
       "file": "Flag of Catalonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6806,7 +6806,7 @@
     {
       "qid": "Q167584",
       "name": "flag of Moldova",
-      "count": 14,
+      "count": 16,
       "file": "Flag of Moldova.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9699,7 +9699,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 110,
+      "count": 113,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10727,7 +10727,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 64,
+      "count": 65,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11230,7 +11230,7 @@
     {
       "qid": "Q497997",
       "name": "flag of Alabama",
-      "count": 23,
+      "count": 24,
       "file": "Flag of Alabama.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13344,7 +13344,7 @@
     {
       "qid": "Q752569",
       "name": "flag of Maryland",
-      "count": 56,
+      "count": 57,
       "file": "Flag of Maryland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16480,6 +16480,28 @@
       "reviews": {
         "colors": 1
       }
+    },
+    {
+      "qid": "Q2106586",
+      "name": "flag of Zagreb",
+      "count": 1,
+      "file": "Flag of Zagreb.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "blue"
+      ],
+      "wdColors": [
+        "blue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Zagreb",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q2132438",
@@ -19806,7 +19828,7 @@
     {
       "qid": "Q4486181",
       "name": "flag of Zagreb County",
-      "count": 2,
+      "count": 1,
       "file": "Flag of Zagreb.svg",
       "isFlagEntity": true,
       "colors": [
@@ -23241,7 +23263,7 @@
     {
       "qid": "Q15994084",
       "name": "flag of Puerto Rico",
-      "count": 31,
+      "count": 32,
       "file": "Flag of Puerto Rico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29995,7 +30017,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 328,
+      "count": 329,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
