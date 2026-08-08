@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-07T12:56:18.655Z",
+  "generated": "2026-08-08T12:41:24.703Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17112,
+      "count": 17116,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 383,
+      "count": 384,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 249,
+      "count": 250,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 598,
+      "count": 600,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4750,7 +4750,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 158,
+      "count": 160,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
