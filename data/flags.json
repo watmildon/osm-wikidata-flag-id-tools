@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11T07:01:42.489Z",
+  "generated": "2026-08-12T07:19:45.420Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17126,
+      "count": 17132,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2394,
+      "count": 2395,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 306,
+      "count": 307,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1042,
+      "count": 1043,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 125,
+      "count": 126,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2310,7 +2310,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 230,
+      "count": 232,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 387,
+      "count": 388,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 250,
+      "count": 252,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 956,
+      "count": 957,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5670,7 +5670,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 412,
+      "count": 414,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13420,7 +13420,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 387,
+      "count": 386,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -37571,6 +37571,38 @@
       }
     },
     {
+      "qid": "Q121800081",
+      "name": "2011 flag of Utah",
+      "count": 1,
+      "file": "Flag of Utah (2011–2024).svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white",
+        "brown",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "wdColors": [
+        "red",
+        "white",
+        "brown",
+        "yellow",
+        "blue",
+        "green"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "2011 flag of Utah",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q122460297",
       "name": "flag of Thuin",
       "count": 1,
@@ -37844,6 +37876,24 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q123944372",
+      "name": "1983 flag of Minnesota",
+      "count": 1,
+      "file": "Flag of Minnesota (1983–2024).svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "1983 flag of Minnesota",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q124128386",
