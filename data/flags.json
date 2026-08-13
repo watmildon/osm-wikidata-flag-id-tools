@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T07:19:45.420Z",
+  "generated": "2026-08-13T07:21:54.835Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17132,
+      "count": 17146,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2395,
+      "count": 2398,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 285,
+      "count": 286,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 307,
+      "count": 308,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 388,
+      "count": 389,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 600,
+      "count": 601,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1261,
+      "count": 1264,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11230,7 +11230,7 @@
     {
       "qid": "Q497997",
       "name": "flag of Alabama",
-      "count": 24,
+      "count": 25,
       "file": "Flag of Alabama.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15947,7 +15947,7 @@
     {
       "qid": "Q1882040",
       "name": "flag of Baden",
-      "count": 17,
+      "count": 18,
       "file": "Flagge Großherzogtum Baden (1891–1918).svg",
       "isFlagEntity": true,
       "colors": [
@@ -19355,7 +19355,7 @@
     {
       "qid": "Q3039109",
       "name": "flag and coat of arms of Normandy",
-      "count": 42,
+      "count": 44,
       "file": "Flag of Normandie.svg",
       "isFlagEntity": true,
       "colors": [
