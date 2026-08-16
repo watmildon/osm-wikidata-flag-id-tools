@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-15T12:31:05.673Z",
+  "generated": "2026-08-16T12:32:32.824Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 182,
+      "count": 183,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17173,
+      "count": 17181,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 308,
+      "count": 309,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1731,7 +1731,7 @@
     {
       "qid": "Q81286",
       "name": "flag of Sweden",
-      "count": 655,
+      "count": 656,
       "file": "Flag of Sweden.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 341,
+      "count": 344,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 252,
+      "count": 258,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1633,
+      "count": 1634,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 259,
+      "count": 260,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4176,7 +4176,7 @@
     {
       "qid": "Q130807",
       "name": "flag of Slovenia",
-      "count": 133,
+      "count": 134,
       "file": "Flag of Slovenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1277,
+      "count": 1284,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -8410,7 +8410,7 @@
     {
       "qid": "Q184265",
       "name": "flag of Dominican Republic",
-      "count": 21,
+      "count": 22,
       "file": "Flag of the Dominican Republic.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10915,7 +10915,7 @@
     {
       "qid": "Q462621",
       "name": "Torres Strait Islander flag",
-      "count": 31,
+      "count": 33,
       "file": "Torres Strait Flag Day 2021 - 51222675210.jpg",
       "isFlagEntity": true,
       "colors": [
@@ -11230,7 +11230,7 @@
     {
       "qid": "Q497997",
       "name": "flag of Alabama",
-      "count": 26,
+      "count": 27,
       "file": "Flag of Alabama.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14970,7 +14970,7 @@
     {
       "qid": "Q1285625",
       "name": "Australian Aboriginal flag",
-      "count": 78,
+      "count": 80,
       "file": "Australian Aboriginal Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -17026,7 +17026,7 @@
     {
       "qid": "Q2263781",
       "name": "flag of Hainaut",
-      "count": 2,
+      "count": 3,
       "file": "Flag of Hainaut.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30017,7 +30017,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 336,
+      "count": 337,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -38080,6 +38080,24 @@
         "yellow",
         "lightblue"
       ]
+    },
+    {
+      "qid": "Q126113156",
+      "name": "flag of Coclé",
+      "count": 1,
+      "file": "Bandera de la Provincia de Coclé.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Coclé",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q126489298",
