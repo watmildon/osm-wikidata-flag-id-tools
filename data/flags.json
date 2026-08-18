@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T12:37:07.433Z",
+  "generated": "2026-08-18T12:38:31.945Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17188,
+      "count": 17197,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 309,
+      "count": 310,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1051,
+      "count": 1052,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 390,
+      "count": 389,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 258,
+      "count": 259,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3547,7 +3547,7 @@
     {
       "qid": "Q124020",
       "name": "flag of Switzerland",
-      "count": 142,
+      "count": 143,
       "file": "Flag of Switzerland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1284,
+      "count": 1286,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10494,7 +10494,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 280,
+      "count": 281,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12894,7 +12894,7 @@
     {
       "qid": "Q707471",
       "name": "flag of Bavaria",
-      "count": 17,
+      "count": 19,
       "file": "Flag of Bavaria (striped).svg",
       "isFlagEntity": true,
       "colors": [
@@ -24936,7 +24936,7 @@
     {
       "qid": "Q63874022",
       "name": "first flag of the Confederate States",
-      "count": 19,
+      "count": 18,
       "file": "Flag of the Confederate States (1861–1863).svg",
       "isFlagEntity": true,
       "colors": [
@@ -25041,7 +25041,7 @@
     {
       "qid": "Q63874423",
       "name": "Bourbon royal standard",
-      "count": 11,
+      "count": 10,
       "file": "Pavillon royal de France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30017,7 +30017,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 337,
+      "count": 338,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
