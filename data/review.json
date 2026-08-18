@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T18:34:22.028Z",
+  "generated": "2026-08-18T01:02:32.176Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -454,7 +454,7 @@
     },
     {
       "bad_qid": "Q31354462",
-      "bad_name": "De facto Republic of Abkhazia",
+      "bad_name": "Republic of Abkhazia",
       "count": 1,
       "suggested_qid": "Q199621",
       "suggested_name": "flag of Abkhazia"
