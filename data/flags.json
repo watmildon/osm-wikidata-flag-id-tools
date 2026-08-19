@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T12:38:31.945Z",
+  "generated": "2026-08-19T12:39:34.544Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 183,
+      "count": 184,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17197,
+      "count": 17206,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 581,
+      "count": 582,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2399,
+      "count": 2400,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 259,
+      "count": 263,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1635,
+      "count": 1637,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 312,
+      "count": 313,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1286,
+      "count": 1301,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9699,7 +9699,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 114,
+      "count": 116,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11107,7 +11107,7 @@
     {
       "qid": "Q492541",
       "name": "flag of Iowa",
-      "count": 20,
+      "count": 21,
       "file": "Flag of Iowa.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15179,7 +15179,7 @@
     {
       "qid": "Q1402799",
       "name": "flag of Chicago",
-      "count": 404,
+      "count": 405,
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15640,7 +15640,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 717,
+      "count": 718,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19355,7 +19355,7 @@
     {
       "qid": "Q3039109",
       "name": "flag and coat of arms of Normandy",
-      "count": 44,
+      "count": 45,
       "file": "Flag of Normandie.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30017,7 +30017,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 338,
+      "count": 339,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [

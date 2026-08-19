@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-18T01:02:32.176Z",
+  "generated": "2026-08-19T12:39:34.372Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -39,7 +39,7 @@
     {
       "bad_qid": "Q458",
       "bad_name": "European Union",
-      "count": 6,
+      "count": 7,
       "suggested_qid": "Q122482",
       "suggested_name": "flag of Europe"
     },
@@ -49,6 +49,13 @@
       "count": 3,
       "suggested_qid": "Q645967",
       "suggested_name": "flag of Hamburg"
+    },
+    {
+      "bad_qid": "Q1200",
+      "bad_name": "Rhineland-Palatinate",
+      "count": 1,
+      "suggested_qid": "Q693758",
+      "suggested_name": "flag of Rhineland-Palatinate"
     },
     {
       "bad_qid": "Q1770",

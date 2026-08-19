@@ -50,7 +50,7 @@
   {
     "qid": "Q458",
     "name": "European Union",
-    "count": 6,
+    "count": 7,
     "file": "Flag of Europe.svg"
   },
   {
@@ -58,6 +58,12 @@
     "name": "Hamburg",
     "count": 3,
     "file": "Hamburg view St. Nikolai.jpg"
+  },
+  {
+    "qid": "Q1200",
+    "name": "Rhineland-Palatinate",
+    "count": 1,
+    "file": "Mainz Deutschhaus BW 2012-08-18 13-28-02.jpg"
   },
   {
     "qid": "Q1336",
@@ -1048,6 +1054,12 @@
     "name": "Edeka",
     "count": 6,
     "file": "Hamburg CityNord Edeka.jpg"
+  },
+  {
+    "qid": "Q707297",
+    "name": "Rhenish Hesse",
+    "count": 1,
+    "file": "Rheinhessen-selztal-bei-dolgesheim-d-schmidt-10-2002.jpg"
   },
   {
     "qid": "Q749243",
