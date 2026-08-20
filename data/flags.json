@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T12:39:34.544Z",
+  "generated": "2026-08-20T12:41:20.967Z",
   "palette": [
     "red",
     "white",
@@ -240,7 +240,7 @@
     {
       "qid": "Q16611",
       "name": "flag of Russia",
-      "count": 140,
+      "count": 141,
       "file": "Flag of Russia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17206,
+      "count": 17222,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2400,
+      "count": 2401,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1535,7 +1535,7 @@
     {
       "qid": "Q60149",
       "name": "flag of Denmark",
-      "count": 822,
+      "count": 825,
       "file": "Flag of Denmark.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1052,
+      "count": 1053,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3858,7 +3858,7 @@
     {
       "qid": "Q128480",
       "name": "flag of Israel",
-      "count": 61,
+      "count": 62,
       "file": "Flag of Israel.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 260,
+      "count": 261,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 959,
+      "count": 962,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1301,
+      "count": 1321,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5670,7 +5670,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 417,
+      "count": 418,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10494,7 +10494,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 281,
+      "count": 282,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11107,7 +11107,7 @@
     {
       "qid": "Q492541",
       "name": "flag of Iowa",
-      "count": 21,
+      "count": 22,
       "file": "Flag of Iowa.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11310,7 +11310,7 @@
     {
       "qid": "Q512175",
       "name": "flag of Manitoba",
-      "count": 15,
+      "count": 16,
       "file": "Flag of the Province of Manitoba.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13420,7 +13420,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 386,
+      "count": 388,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14109,6 +14109,24 @@
       }
     },
     {
+      "qid": "Q912004",
+      "name": "flag of Jammu and Kashmir",
+      "count": 1,
+      "file": "Flag of Jammu and Kashmir (1952-2019).svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Jammu and Kashmir",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q912854",
       "name": "flag of South Australia",
       "count": 2,
@@ -14519,7 +14537,7 @@
     {
       "qid": "Q1084035",
       "name": "Christian Flag",
-      "count": 59,
+      "count": 60,
       "file": "Christian flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15640,7 +15658,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 718,
+      "count": 720,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -18989,7 +19007,7 @@
     {
       "qid": "Q2919871",
       "name": "flag of Winnipeg",
-      "count": 1,
+      "count": 2,
       "file": "Flag of Winnipeg.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19055,6 +19073,24 @@
       "reviews": {
         "colors": 1
       }
+    },
+    {
+      "qid": "Q2993349",
+      "name": "flag of Saratov Oblast",
+      "count": 1,
+      "file": "Flag of Saratov Oblast.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Saratov Oblast",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q2993812",
@@ -30017,7 +30053,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 339,
+      "count": 340,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
