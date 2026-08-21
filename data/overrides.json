@@ -581,13 +581,13 @@
       "white"
     ],
     "icons": [
-      "plant"
+      "plant",
+      "vertical-stripes"
     ],
     "shape": "rectangle",
     "reviews": {
       "colors": 2,
-      "description": 1,
-      "icons": 5
+      "description": 1
     },
     "description": "A red and white vertical triband with a stylized red maple leaf centered on the white middle panel."
   },
@@ -830,7 +830,7 @@
     "reviews": {
       "colors": 1,
       "description": 1,
-      "icons": 1
+      "icons": 2
     },
     "icons": [
       "diagonal"
@@ -1455,7 +1455,8 @@
     ],
     "icons": [
       "star",
-      "sun"
+      "sun",
+      "triangle"
     ],
     "description": "A horizontal bicolor of royal blue (top) and crimson red (bottom), with a white equilateral triangle at the hoist. In the center of the triangle is a golden-yellow sun with eight primary rays. Each of the triangle's three vertices bears a small five-pointed golden-yellow star.",
     "reviews": {
@@ -2297,7 +2298,10 @@
     "description": "A white field bearing a red Saint George's cross (vertical and horizontal red bands) extending to the edges.",
     "reviews": {
       "colors": 1
-    }
+    },
+    "icons": [
+      "cross"
+    ]
   },
   "Q171124": {
     "description": "A green field with two superimposed triangles based on the hoist: a white-edged red triangle (the \"golden arrowhead\") atop a black-edged golden triangle, both pointing toward the fly.",
@@ -2420,7 +2424,12 @@
     ],
     "reviews": {
       "colors": 1
-    }
+    },
+    "icons": [
+      "vertical-stripes",
+      "bird",
+      "weapon"
+    ]
   },
   "Q179383": {
     "description": "A green field divided by a triple cross of yellow, black, and white bands (vertical and horizontal). A red disc centered at the intersection bears a purple sisserou parrot perched on a branch, surrounded by ten green five-pointed stars edged in yellow.",
@@ -2961,7 +2970,12 @@
       "red",
       "white"
     ],
-    "description": "A red field with the British Union Jack in the canton and the shield of the Canadian coat of arms — quartered with the lions of England, the lion of Scotland, the harp of Ireland, three fleurs-de-lis of France, and a sprig of three red maple leaves on white — in the fly."
+    "description": "A red field with the British Union Jack in the canton and the shield of the Canadian coat of arms — quartered with the lions of England, the lion of Scotland, the harp of Ireland, three fleurs-de-lis of France, and a sprig of three red maple leaves on white — in the fly.",
+    "icons": [
+      "coa",
+      "animal",
+      "plant"
+    ]
   },
   "Q328889": {
     "description": "A blue field bearing a centered grey latte stone surmounted by a white five-pointed star, encircled by a Carolinian mwarmwar (lei garland of pink flowers and green leaves)."
@@ -3379,7 +3393,12 @@
     ],
     "reviews": {
       "colors": 1
-    }
+    },
+    "icons": [
+      "animal",
+      "coa",
+      "diagonal"
+    ]
   },
   "Q605195": {
     "description": "A red field with a vertical blue stripe along the fly, bordered by a thin white stripe. In the center of the red field is a blue circle bordered in white containing three white five-pointed stars.",
@@ -4400,7 +4419,10 @@
     }
   },
   "Q1759664": {
-    "description": "Quartered: upper hoist and lower fly red bearing three gold lions passant (England); upper fly yellow bearing a red lion rampant within a red double tressure (Scotland); lower hoist blue bearing a gold harp with a white winged maiden (Ireland)."
+    "description": "Quartered: upper hoist and lower fly red bearing three gold lions passant (England); upper fly yellow bearing a red lion rampant within a red double tressure (Scotland); lower hoist blue bearing a gold harp with a white winged maiden (Ireland).",
+    "icons": [
+      "animal"
+    ]
   },
   "Q1788743": {
     "description": "A square red field bearing a blue saltire (diagonal cross) edged in white, with thirteen white five-pointed stars arranged along the saltire's arms.",
@@ -5075,7 +5097,10 @@
     ],
     "reviews": {
       "colors": 1
-    }
+    },
+    "icons": [
+      "animal"
+    ]
   },
   "Q2750384": {
     "colors": [
@@ -5153,7 +5178,12 @@
     ],
     "reviews": {
       "colors": 1
-    }
+    },
+    "flagType": "governmental",
+    "icons": [
+      "star",
+      "cross"
+    ]
   },
   "Q2902319": {
     "description": "A blue field with a central white rectangle (panel) bearing the City of Edmonton coat of arms — a shield with a sunburst, river bend, and crown — above the text \"THE CITY OF EDMONTON\". A purple banner across the shield reads \"INDUSTRY · INTEGRITY · PROGRESS\".",
@@ -5170,7 +5200,11 @@
     }
   },
   "Q2914899": {
-    "description": "A light blue field with the Union Jack in the upper hoist canton, and the RAF roundel (concentric circles of dark blue, white, and red) in the fly."
+    "description": "A light blue field with the Union Jack in the upper hoist canton, and the RAF roundel (concentric circles of dark blue, white, and red) in the fly.",
+    "flagType": "military",
+    "icons": [
+      "circle"
+    ]
   },
   "Q2915836": {
     "colors": [
@@ -6329,7 +6363,11 @@
     "reviews": {
       "colors": 3
     },
-    "description": "A white field bearing the stylized Seoul logo: a red disc, a green curved shape, and a blue brush-stroke figure forming an abstract human figure."
+    "description": "A white field bearing the stylized Seoul logo: a red disc, a green curved shape, and a blue brush-stroke figure forming an abstract human figure.",
+    "flagType": "municipal",
+    "icons": [
+      "people"
+    ]
   },
   "Q12751889": {
     "description": "A white field bearing a stylized swooping star in black and dark blue with a small red comma-shape above, with \"CITY OF TALLAHASSEE\" in black serif text beneath.",
@@ -6517,7 +6555,12 @@
     }
   },
   "Q24189944": {
-    "description": "A blue field bearing a red Nordic-style cross with yellow fimbriation, with four emblems in the quarters: a sailing ship, a golden ram, a brown bull’s head, and a sheaf of wheat."
+    "description": "A blue field bearing a red Nordic-style cross with yellow fimbriation, with four emblems in the quarters: a sailing ship, a golden ram, a brown bull’s head, and a sheaf of wheat.",
+    "flagType": "municipal",
+    "icons": [
+      "ship",
+      "animal"
+    ]
   },
   "Q27500175": {
     "description": "A red field with the British Union Jack in the canton at the upper hoist. Across the bottom of the field in white, the words \"LIBERTY AND UNION\"."
@@ -6929,7 +6972,12 @@
       "white",
       "darkblue"
     ],
-    "description": "Thirteen alternating red and white horizontal stripes with a blue canton at the hoist bearing twenty-three white five-pointed stars."
+    "description": "Thirteen alternating red and white horizontal stripes with a blue canton at the hoist bearing twenty-three white five-pointed stars.",
+    "flagType": "historical",
+    "icons": [
+      "horizontal-stripes",
+      "star"
+    ]
   },
   "Q65037000": {
     "colors": [
@@ -7478,7 +7526,11 @@
     }
   },
   "Q96912183": {
-    "description": "A blue field with the seal of the United States Merchant Marine centered — an eagle perched atop a roundel containing an anchor and shield, ringed by the text \"UNITED STATES MERCHANT MARINE\". The yellow inscription \"IN PEACE AND WAR\" curves above the seal; \"1775\" appears below in yellow."
+    "description": "A blue field with the seal of the United States Merchant Marine centered — an eagle perched atop a roundel containing an anchor and shield, ringed by the text \"UNITED STATES MERCHANT MARINE\". The yellow inscription \"IN PEACE AND WAR\" curves above the seal; \"1775\" appears below in yellow.",
+    "icons": [
+      "text",
+      "bird"
+    ]
   },
   "Q96912281": {
     "description": "A dark blue field with a small disc near the top of the hoist bearing horizontal stripes of blue, yellow, and red. Below it is a gold eagle clutching a banner reading \"US ARMY TRAINING AND DOCTRINE COMMAND\"."
@@ -8009,7 +8061,10 @@
     }
   },
   "Q106677780": {
-    "description": "A flag divided into quarters by a white cross. Each green quarter bears a single yellow anchor; the white cross is charged with multiple yellow fleurs-de-lis."
+    "description": "A flag divided into quarters by a white cross. Each green quarter bears a single yellow anchor; the white cross is charged with multiple yellow fleurs-de-lis.",
+    "icons": [
+      "cross"
+    ]
   },
   "Q106677791": {
     "description": "A vertical tricolor of blue, green, and blue.",
@@ -8178,7 +8233,25 @@
       "gray",
       "darkblue"
     ],
-    "description": "Five equal horizontal bands of light pink, magenta, dark indigo, blue, and light blue."
+    "description": "Five equal horizontal bands of light pink, magenta, dark indigo, blue, and light blue.",
+    "flagType": "cultural",
+    "icons": [
+      "horizontal-stripes"
+    ]
+  },
+  "Q111591444": {
+    "description": "A white field with the shape of Ohio in grey. \"MIami Township\" is displayed on top, with the I in red, \"am\" in white, and the rest in black. Underneath is a small black shape representing Clermont County, with a red pin icon showing the location of Miami Township. \"Clermont County OH\" is written in small black letters next to it.",
+    "flagType": "municipal",
+    "colors": [
+      "red",
+      "white",
+      "black",
+      "gray"
+    ],
+    "icons": [
+      "map",
+      "text"
+    ]
   },
   "Q111593132": {
     "colors": [
@@ -8328,7 +8401,10 @@
     }
   },
   "Q112964507": {
-    "description": "A red field with a black canton at the upper hoist containing a yellow rampant lion."
+    "description": "A red field with a black canton at the upper hoist containing a yellow rampant lion.",
+    "icons": [
+      "animal"
+    ]
   },
   "Q112964512": {
     "description": "A field of horizontal blue and white stripes overlaid with a broad red diagonal band running from the upper hoist to the lower fly.",
@@ -8581,7 +8657,8 @@
     "reviews": {
       "colors": 1
     },
-    "description": "A light blue field with three yellow scallop-shaped or stylized flower charges, two above and one below."
+    "description": "A light blue field with three yellow scallop-shaped or stylized flower charges, two above and one below.",
+    "flagType": "municipal"
   },
   "Q113341364": {
     "colors": [
@@ -8905,7 +8982,12 @@
     "reviews": {
       "colors": 1
     },
-    "description": "A yellow field with the green word \"OAKLAND\" arched above a green oak tree, with the date \"1852\" in green below."
+    "description": "A yellow field with the green word \"OAKLAND\" arched above a green oak tree, with the date \"1852\" in green below.",
+    "flagType": "municipal",
+    "icons": [
+      "plant",
+      "text"
+    ]
   },
   "Q116481827": {
     "description": "A red field with the Union Jack in the upper hoist canton, and four white five-pointed stars in the fly arranged as the Southern Cross constellation.",
@@ -9216,7 +9298,13 @@
     "reviews": {
       "colors": 2
     },
-    "description": "A dark blue field with a large yellow circular ring overlaid on a yellow Latin cross. A small white and red disc in the center holds a stylized scene of pioneer figures and animals."
+    "description": "A dark blue field with a large yellow circular ring overlaid on a yellow Latin cross. A small white and red disc in the center holds a stylized scene of pioneer figures and animals.",
+    "flagType": "municipal",
+    "icons": [
+      "circle",
+      "people",
+      "animal"
+    ]
   },
   "Q134438567": {
     "colors": [
@@ -9358,5 +9446,16 @@
   },
   "Q140033446": {
     "description": "Thirteen alternating red and white horizontal stripes with a blue canton in the upper hoist. The canton holds thirteen white five-pointed stars in a circle around the white numerals \"250\"."
+  },
+  "Q140522752": {
+    "description": "A dark blue field with thirteen white stars",
+    "flagType": "military",
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "icons": [
+      "star"
+    ]
   }
 }
