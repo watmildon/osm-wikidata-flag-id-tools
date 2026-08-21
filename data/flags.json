@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T12:39:30.306Z",
+  "generated": "2026-08-21T23:16:26.133Z",
   "palette": [
     "red",
     "white",
@@ -1701,7 +1701,8 @@
         "white"
       ],
       "icons": [
-        "plant"
+        "plant",
+        "vertical-stripes"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -1724,8 +1725,7 @@
       ],
       "reviews": {
         "colors": 2,
-        "description": 1,
-        "icons": 5
+        "description": 1
       }
     },
     {
@@ -2495,7 +2495,7 @@
       "reviews": {
         "colors": 1,
         "description": 1,
-        "icons": 1
+        "icons": 2
       }
     },
     {
@@ -4676,7 +4676,8 @@
       ],
       "icons": [
         "star",
-        "sun"
+        "sun",
+        "triangle"
       ],
       "shape": "rectangle",
       "flagType": "national",
@@ -7686,7 +7687,9 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "England",
@@ -8130,7 +8133,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "vertical-stripes",
+        "bird",
+        "weapon"
+      ],
       "shape": "rectangle",
       "flagType": "national",
       "flagName": "Guatemala",
@@ -10400,7 +10407,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "coa",
+        "animal",
+        "plant"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Canadian Red Ensign",
@@ -11899,7 +11910,11 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal",
+        "coa",
+        "diagonal"
+      ],
       "shape": "rectangle",
       "flagType": "regional",
       "flagName": "Nova Scotia",
@@ -15782,7 +15797,9 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Royal Standard of the United Kingdom",
@@ -18604,7 +18621,9 @@
         "red",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "animal"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Royal Standard of Scotland",
@@ -18867,9 +18886,12 @@
         "white",
         "lightblue"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "cross"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "governmental",
       "flagName": "Australian Civil Aviation Ensign",
       "flagTypeSample": null,
       "extraTags": {},
@@ -18934,9 +18956,11 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "circle"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "military",
       "flagName": "Royal Air Force Ensign",
       "flagTypeSample": null,
       "extraTags": {},
@@ -23033,9 +23057,11 @@
         "green"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "people"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Seoul",
       "flagTypeSample": null,
       "extraTags": {},
@@ -23798,9 +23824,12 @@
         "brown",
         "blue"
       ],
-      "icons": [],
+      "icons": [
+        "ship",
+        "animal"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Adelaide",
       "flagTypeSample": null,
       "extraTags": {},
@@ -25443,9 +25472,12 @@
         "darkblue"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "star"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "historical",
       "flagName": "23-star flag of the United States",
       "flagTypeSample": null,
       "extraTags": {},
@@ -28525,7 +28557,10 @@
         "brown",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "text",
+        "bird"
+      ],
       "shape": "rectangle",
       "flagType": "military",
       "flagName": "United States Merchant Marine",
@@ -31993,7 +32028,9 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Q106677780",
@@ -32632,9 +32669,11 @@
         "blue",
         "purple"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "cultural",
       "flagName": "omnisexual pride flag",
       "flagTypeSample": null,
       "extraTags": {},
@@ -32674,11 +32713,15 @@
       "colors": [
         "red",
         "white",
-        "black"
+        "black",
+        "gray"
       ],
-      "icons": [],
+      "icons": [
+        "map",
+        "text"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Miami Township",
       "flagTypeSample": null,
       "extraTags": {},
@@ -32687,7 +32730,8 @@
         "red",
         "white",
         "black"
-      ]
+      ],
+      "description": "A white field with the shape of Ohio in grey. \"MIami Township\" is displayed on top, with the I in red, \"am\" in white, and the rest in black. Underneath is a small black shape representing Clermont County, with a red pin icon showing the location of Miami Township. \"Clermont County OH\" is written in small black letters next to it."
     },
     {
       "qid": "Q111593132",
@@ -33254,7 +33298,9 @@
         "white",
         "black"
       ],
-      "icons": [],
+      "icons": [
+        "animal"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Bergues",
@@ -34712,7 +34758,7 @@
       ],
       "icons": [],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Oberhausbergen",
       "flagTypeSample": null,
       "extraTags": {},
@@ -36954,9 +37000,12 @@
         "yellow",
         "green"
       ],
-      "icons": [],
+      "icons": [
+        "plant",
+        "text"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Oakland",
       "flagTypeSample": null,
       "extraTags": {},
@@ -38513,9 +38562,13 @@
         "red"
       ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "circle",
+        "people",
+        "animal"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "municipal",
       "flagName": "Omaha, Nebraska",
       "flagTypeSample": null,
       "extraTags": {},
@@ -39037,15 +39090,21 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "blue",
+        "white"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "star"
+      ],
       "shape": "rectangle",
-      "flagType": null,
+      "flagType": "military",
       "flagName": "George Washington's headquarters flag",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field with thirteen white stars"
     },
     {
       "qid": "Q140812125",
