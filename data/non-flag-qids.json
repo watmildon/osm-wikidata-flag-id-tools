@@ -1254,12 +1254,6 @@
     "file": "Banta, Nathaniel Moore House (Arlington Heights, IL) 02.JPG"
   },
   {
-    "qid": "Q1010514",
-    "name": "Bureau of International Expositions",
-    "count": 2,
-    "file": "Siège du Bureau international des Expositions Paris.jpg"
-  },
-  {
     "qid": "Q1020714",
     "name": "Melrose Park",
     "count": 1,
@@ -1282,6 +1276,12 @@
     "name": "Cencosud",
     "count": 1,
     "file": "Oficinas centrales Cencosud, Las Condes, Santiago 20260731.jpg"
+  },
+  {
+    "qid": "Q1066188",
+    "name": "Charles Sturt University",
+    "count": 1,
+    "file": "CSU South Wagga Campus - Kay Hull Veterinary Teaching Hospital 1.jpg"
   },
   {
     "qid": "Q1112515",
