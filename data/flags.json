@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-22T12:32:14.812Z",
+  "generated": "2026-08-23T12:33:19.090Z",
   "palette": [
     "red",
     "white",
@@ -125,7 +125,7 @@
     {
       "qid": "Q12188",
       "name": "flag of Brittany",
-      "count": 102,
+      "count": 103,
       "file": "Flag of Brittany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 291,
+      "count": 295,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -592,7 +592,7 @@
     {
       "qid": "Q19427",
       "name": "flag of Oregon",
-      "count": 60,
+      "count": 61,
       "file": "Flag of Oregon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -869,7 +869,7 @@
     {
       "qid": "Q41327",
       "name": "flag of Turkmenistan",
-      "count": 276,
+      "count": 277,
       "file": "Flag of Turkmenistan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -916,7 +916,7 @@
     {
       "qid": "Q41673",
       "name": "flag of India",
-      "count": 121,
+      "count": 122,
       "file": "Flag of India.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17256,
+      "count": 17287,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 581,
+      "count": 583,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1082,7 +1082,7 @@
     {
       "qid": "Q43175",
       "name": "flag of Japan",
-      "count": 98,
+      "count": 99,
       "file": "Flag of Japan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2400,
+      "count": 2401,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1455,7 +1455,7 @@
     {
       "qid": "Q51401",
       "name": "LGBTQ pride flag",
-      "count": 51,
+      "count": 53,
       "file": "Gay Pride Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1054,
+      "count": 1058,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 343,
+      "count": 344,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 125,
+      "count": 126,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 281,
+      "count": 282,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2726,7 +2726,7 @@
     {
       "qid": "Q102987",
       "name": "flag of Haiti",
-      "count": 18,
+      "count": 19,
       "file": "Flag of Haiti.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3048,7 +3048,7 @@
     {
       "qid": "Q103070",
       "name": "flag of Togo",
-      "count": 5,
+      "count": 6,
       "file": "Flag of Togo (3-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 263,
+      "count": 265,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3736,7 +3736,7 @@
     {
       "qid": "Q127296",
       "name": "flag of South Korea",
-      "count": 68,
+      "count": 69,
       "file": "Flag of South Korea.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 311,
+      "count": 312,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3858,7 +3858,7 @@
     {
       "qid": "Q128480",
       "name": "flag of Israel",
-      "count": 60,
+      "count": 61,
       "file": "Flag of Israel.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 961,
+      "count": 962,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1362,
+      "count": 1371,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5265,7 +5265,7 @@
     {
       "qid": "Q159872",
       "name": "flag of Cameroon",
-      "count": 11,
+      "count": 13,
       "file": "Flag of Cameroon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5421,7 +5421,7 @@
     {
       "qid": "Q160250",
       "name": "flag of South África",
-      "count": 23,
+      "count": 24,
       "file": "Flag of South Africa.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5590,7 +5590,7 @@
     {
       "qid": "Q160676",
       "name": "flag of Ghana",
-      "count": 11,
+      "count": 12,
       "file": "Flag of Ghana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7794,7 +7794,7 @@
     {
       "qid": "Q172517",
       "name": "flag of Jamaica",
-      "count": 19,
+      "count": 20,
       "file": "Flag of Jamaica.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10505,7 +10505,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 289,
+      "count": 291,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12266,7 +12266,7 @@
     {
       "qid": "Q633087",
       "name": "flag of Montana",
-      "count": 14,
+      "count": 15,
       "file": "Flag of Montana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13033,7 +13033,7 @@
     {
       "qid": "Q734071",
       "name": "flag of Nebraska",
-      "count": 18,
+      "count": 19,
       "file": "Flag of Nebraska.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13242,7 +13242,7 @@
     {
       "qid": "Q752559",
       "name": "flag of Ohio",
-      "count": 330,
+      "count": 334,
       "file": "Flag of Ohio.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13857,7 +13857,7 @@
     {
       "qid": "Q828147",
       "name": "flag of Minnesota",
-      "count": 30,
+      "count": 31,
       "file": "Flag of Minnesota.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14534,7 +14534,7 @@
     {
       "qid": "Q1084035",
       "name": "Christian Flag",
-      "count": 60,
+      "count": 61,
       "file": "Christian flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14872,7 +14872,7 @@
     {
       "qid": "Q1165949",
       "name": "flag of Ontario",
-      "count": 52,
+      "count": 53,
       "file": "Flag of Ontario.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15655,7 +15655,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 721,
+      "count": 728,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15751,7 +15751,7 @@
     {
       "qid": "Q1740429",
       "name": "flag of South Vietnam",
-      "count": 77,
+      "count": 78,
       "file": "Flag of South Vietnam.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21646,7 +21646,7 @@
     {
       "qid": "Q5456894",
       "name": "flag of the United States Air Force",
-      "count": 102,
+      "count": 103,
       "file": "Flag of the United States Air Force.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21690,7 +21690,7 @@
     {
       "qid": "Q5456895",
       "name": "flag of the United States Coast Guard",
-      "count": 107,
+      "count": 109,
       "file": "Flag of the United States Coast Guard.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21729,7 +21729,7 @@
     {
       "qid": "Q5456897",
       "name": "flag of the United States Marine Corps",
-      "count": 131,
+      "count": 133,
       "file": "Flag of the United States Marine Corps.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21768,7 +21768,7 @@
     {
       "qid": "Q5456898",
       "name": "flag of the United States Army",
-      "count": 123,
+      "count": 124,
       "file": "Flag of the United States Army.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21811,7 +21811,7 @@
     {
       "qid": "Q5456899",
       "name": "flag of the United States Navy",
-      "count": 111,
+      "count": 112,
       "file": "Flag of the United States Navy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -22267,22 +22267,6 @@
       "extraTags": {},
       "aliases": [],
       "description": "A white field bearing a green pine tree centered, with the words \"AN APPEAL TO HEAVEN\" in black above."
-    },
-    {
-      "qid": "Q7242811",
-      "name": "pride flag",
-      "count": 1,
-      "file": "02019 0245 (2) KatowicePride-Parade (cropped).jpg",
-      "isFlagEntity": true,
-      "colors": [],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "pride flag",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": []
     },
     {
       "qid": "Q7373877",
@@ -27284,7 +27268,7 @@
     {
       "qid": "Q78549965",
       "name": "flag of the New York City Department of Parks and Recreation",
-      "count": 2,
+      "count": 3,
       "file": null,
       "isFlagEntity": true,
       "colors": [
@@ -32426,7 +32410,7 @@
     {
       "qid": "Q107787322",
       "name": "intersex-inclusive pride flag",
-      "count": 5,
+      "count": 6,
       "file": "Intersex-inclusive pride flag.svg",
       "isFlagEntity": true,
       "colors": [
