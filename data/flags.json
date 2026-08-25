@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24T12:42:24.308Z",
+  "generated": "2026-08-25T12:40:40.261Z",
   "palette": [
     "red",
     "white",
@@ -327,7 +327,7 @@
     {
       "qid": "Q18993",
       "name": "flag of Virginia",
-      "count": 90,
+      "count": 91,
       "file": "Flag of Virginia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -546,7 +546,7 @@
     {
       "qid": "Q19379",
       "name": "flag of North Carolina",
-      "count": 42,
+      "count": 43,
       "file": "Flag of North Carolina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 673,
+      "count": 675,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17331,
+      "count": 17361,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 584,
+      "count": 586,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1535,7 +1535,7 @@
     {
       "qid": "Q60149",
       "name": "flag of Denmark",
-      "count": 823,
+      "count": 824,
       "file": "Flag of Denmark.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1058,
+      "count": 1060,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2270,7 +2270,7 @@
     {
       "qid": "Q93335",
       "name": "flag of Iceland",
-      "count": 15,
+      "count": 16,
       "file": "Flag of Iceland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 388,
+      "count": 390,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1647,
+      "count": 1648,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3858,7 +3858,7 @@
     {
       "qid": "Q128480",
       "name": "flag of Israel",
-      "count": 62,
+      "count": 63,
       "file": "Flag of Israel.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 962,
+      "count": 964,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1378,
+      "count": 1381,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6316,7 +6316,7 @@
     {
       "qid": "Q165538",
       "name": "flag of Venezuela",
-      "count": 24,
+      "count": 25,
       "file": "Flag of Venezuela.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10505,7 +10505,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 303,
+      "count": 308,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10738,7 +10738,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 72,
+      "count": 74,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11241,7 +11241,7 @@
     {
       "qid": "Q497997",
       "name": "flag of Alabama",
-      "count": 27,
+      "count": 28,
       "file": "Flag of Alabama.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12225,7 +12225,7 @@
     {
       "qid": "Q632491",
       "name": "flag of Arizona",
-      "count": 54,
+      "count": 55,
       "file": "Flag of Arizona.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15655,7 +15655,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 732,
+      "count": 734,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25266,7 +25266,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 202,
+      "count": 207,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -30078,7 +30078,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 339,
+      "count": 341,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
