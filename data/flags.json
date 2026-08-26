@@ -13609,7 +13609,7 @@
       "name": "Australian White Ensign",
       "count": 3,
       "file": "Naval Ensign of Australia.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "darkblue",
         "red",
