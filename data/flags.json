@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T12:40:40.261Z",
+  "generated": "2026-08-26T12:44:09.627Z",
   "palette": [
     "red",
     "white",
@@ -592,7 +592,7 @@
     {
       "qid": "Q19427",
       "name": "flag of Oregon",
-      "count": 61,
+      "count": 62,
       "file": "Flag of Oregon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17361,
+      "count": 17434,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 586,
+      "count": 587,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 344,
+      "count": 345,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 290,
+      "count": 291,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 265,
+      "count": 267,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1648,
+      "count": 1649,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3858,7 +3858,7 @@
     {
       "qid": "Q128480",
       "name": "flag of Israel",
-      "count": 63,
+      "count": 67,
       "file": "Flag of Israel.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1381,
+      "count": 1388,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10505,7 +10505,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 308,
+      "count": 329,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10738,7 +10738,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 74,
+      "count": 75,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10926,7 +10926,7 @@
     {
       "qid": "Q462621",
       "name": "Torres Strait Islander flag",
-      "count": 34,
+      "count": 35,
       "file": "Torres Strait Flag Day 2021 - 51222675210.jpg",
       "isFlagEntity": true,
       "colors": [
@@ -12067,7 +12067,7 @@
     {
       "qid": "Q618036",
       "name": "flag of Toronto",
-      "count": 11,
+      "count": 12,
       "file": "Flag of Toronto, Canada.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14872,7 +14872,7 @@
     {
       "qid": "Q1165949",
       "name": "flag of Ontario",
-      "count": 53,
+      "count": 54,
       "file": "Flag of Ontario.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14985,7 +14985,7 @@
     {
       "qid": "Q1285625",
       "name": "Australian Aboriginal flag",
-      "count": 81,
+      "count": 82,
       "file": "Australian Aboriginal Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15574,6 +15574,32 @@
       "description": "A white field divided by a red cross (vertical and horizontal red bands). The four quarters each bear a different emblem: a blue fleur-de-lis (upper hoist), a red Lancastrian rose (upper fly), a purple thistle (lower hoist), and a green shamrock (lower fly)."
     },
     {
+      "qid": "Q1426622",
+      "name": "flag of Los Angeles",
+      "count": 1,
+      "file": "Flag of Los Angeles, California.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "green",
+        "red"
+      ],
+      "wdColors": [
+        "yellow",
+        "green",
+        "red"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Los Angeles",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q1426630",
       "name": "flag of Nunavut",
       "count": 10,
@@ -15655,7 +15681,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 734,
+      "count": 741,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21729,7 +21755,7 @@
     {
       "qid": "Q5456897",
       "name": "flag of the United States Marine Corps",
-      "count": 133,
+      "count": 134,
       "file": "Flag of the United States Marine Corps.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25266,7 +25292,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 207,
+      "count": 208,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -26384,7 +26410,7 @@
     {
       "qid": "Q67485913",
       "name": "flag of The American Legion",
-      "count": 4,
+      "count": 5,
       "file": null,
       "isFlagEntity": true,
       "colors": [
@@ -26486,7 +26512,7 @@
     {
       "qid": "Q70119112",
       "name": "flag of Hampton by Hilton",
-      "count": 4,
+      "count": 5,
       "file": "Flag of Hampton Inn & Suites by Hilton.png",
       "isFlagEntity": true,
       "colors": [
