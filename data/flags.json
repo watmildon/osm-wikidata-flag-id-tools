@@ -30079,7 +30079,7 @@
       "name": "New Zealand White Ensign",
       "count": 3,
       "file": "Naval Ensign of New Zealand.svg",
-      "isFlagEntity": false,
+      "isFlagEntity": true,
       "colors": [
         "darkblue",
         "red",
