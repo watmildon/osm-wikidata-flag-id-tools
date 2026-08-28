@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T12:44:09.627Z",
+  "generated": "2026-08-28T08:58:23.996Z",
   "palette": [
     "red",
     "white",
@@ -418,7 +418,7 @@
     {
       "qid": "Q19016",
       "name": "flag of the State of New York",
-      "count": 67,
+      "count": 68,
       "file": "Flag of New York.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17434,
+      "count": 17562,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2404,
+      "count": 2405,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1060,
+      "count": 1061,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1731,7 +1731,7 @@
     {
       "qid": "Q81286",
       "name": "flag of Sweden",
-      "count": 654,
+      "count": 655,
       "file": "Flag of Sweden.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2310,7 +2310,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 232,
+      "count": 233,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3005,7 +3005,7 @@
     {
       "qid": "Q103064",
       "name": "flag of North Korea",
-      "count": 117,
+      "count": 118,
       "file": "Flag of North Korea.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 390,
+      "count": 393,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 267,
+      "count": 268,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1649,
+      "count": 1650,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3547,7 +3547,7 @@
     {
       "qid": "Q124020",
       "name": "flag of Switzerland",
-      "count": 141,
+      "count": 142,
       "file": "Flag of Switzerland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 312,
+      "count": 313,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 607,
+      "count": 608,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 964,
+      "count": 965,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1388,
+      "count": 1398,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5151,7 +5151,7 @@
     {
       "qid": "Q159741",
       "name": "flag of Nepal",
-      "count": 11,
+      "count": 12,
       "file": "Flag of Nepal.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6162,7 +6162,7 @@
     {
       "qid": "Q163832",
       "name": "flag of Serbia",
-      "count": 118,
+      "count": 122,
       "file": "Flag of Serbia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9024,7 +9024,7 @@
     {
       "qid": "Q189612",
       "name": "flag of Jersey",
-      "count": 1,
+      "count": 2,
       "file": "Flag of Jersey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10505,7 +10505,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 329,
+      "count": 353,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10738,7 +10738,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 75,
+      "count": 76,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12225,7 +12225,7 @@
     {
       "qid": "Q632491",
       "name": "flag of Arizona",
-      "count": 55,
+      "count": 58,
       "file": "Flag of Arizona.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12426,7 +12426,7 @@
     {
       "qid": "Q645967",
       "name": "flag of Hamburg",
-      "count": 1,
+      "count": 4,
       "file": "Flag of Hamburg.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13110,7 +13110,7 @@
     {
       "qid": "Q736760",
       "name": "flag of Idaho",
-      "count": 7,
+      "count": 9,
       "file": "Flag of Idaho.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13281,7 +13281,7 @@
     {
       "qid": "Q752562",
       "name": "flag of Nevada",
-      "count": 10,
+      "count": 14,
       "file": "Flag of Nevada.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14455,7 +14455,7 @@
     {
       "qid": "Q1073663",
       "name": "flag of Castile and León",
-      "count": 16,
+      "count": 17,
       "file": "Flag of Castile and León.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14534,7 +14534,7 @@
     {
       "qid": "Q1084035",
       "name": "Christian Flag",
-      "count": 61,
+      "count": 62,
       "file": "Christian flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15681,7 +15681,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 741,
+      "count": 752,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19734,33 +19734,6 @@
       }
     },
     {
-      "qid": "Q3633924",
-      "name": "bendy",
-      "count": 3,
-      "file": "Ecu bandé argent gueules.svg",
-      "isFlagEntity": false,
-      "colors": [
-        "black",
-        "red",
-        "white"
-      ],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "bendy",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": [],
-      "wdColors": [],
-      "svgColors": [
-        "black",
-        "red",
-        "white"
-      ],
-      "description": "A heraldic shield bendy of red and white — four diagonal stripes running from upper-left to lower-right, alternating red and white.",
-      "wdImageProperty": "P18"
-    },
-    {
       "qid": "Q3633963",
       "name": "flag of Milan",
       "count": 3,
@@ -21672,7 +21645,7 @@
     {
       "qid": "Q5456894",
       "name": "flag of the United States Air Force",
-      "count": 103,
+      "count": 104,
       "file": "Flag of the United States Air Force.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21716,7 +21689,7 @@
     {
       "qid": "Q5456895",
       "name": "flag of the United States Coast Guard",
-      "count": 109,
+      "count": 110,
       "file": "Flag of the United States Coast Guard.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21755,7 +21728,7 @@
     {
       "qid": "Q5456897",
       "name": "flag of the United States Marine Corps",
-      "count": 134,
+      "count": 136,
       "file": "Flag of the United States Marine Corps.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21794,7 +21767,7 @@
     {
       "qid": "Q5456898",
       "name": "flag of the United States Army",
-      "count": 124,
+      "count": 125,
       "file": "Flag of the United States Army.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21837,7 +21810,7 @@
     {
       "qid": "Q5456899",
       "name": "flag of the United States Navy",
-      "count": 112,
+      "count": 113,
       "file": "Flag of the United States Navy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26800,7 +26773,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 4,
+      "count": 6,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30104,7 +30077,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 341,
+      "count": 343,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -34415,6 +34388,34 @@
         "colors": 1
       },
       "description": "A vertical bicolor of yellow at the hoist and blue at the fly."
+    },
+    {
+      "qid": "Q113318966",
+      "name": "flag of Montbard",
+      "count": 3,
+      "file": "Flag of Montbard.gif",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "blue",
+        "red",
+        "white"
+      ],
+      "wdColors": [
+        "yellow",
+        "blue",
+        "red",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Montbard",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q113320155",

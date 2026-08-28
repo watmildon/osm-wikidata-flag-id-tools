@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-19T12:39:34.372Z",
+  "generated": "2026-08-28T08:58:22.587Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -42,13 +42,6 @@
       "count": 7,
       "suggested_qid": "Q122482",
       "suggested_name": "flag of Europe"
-    },
-    {
-      "bad_qid": "Q1055",
-      "bad_name": "Hamburg",
-      "count": 3,
-      "suggested_qid": "Q645967",
-      "suggested_name": "flag of Hamburg"
     },
     {
       "bad_qid": "Q1200",
