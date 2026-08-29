@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T08:58:22.587Z",
+  "generated": "2026-08-29T12:15:13.995Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -35,13 +35,6 @@
       "count": 1,
       "suggested_qid": "Q130774",
       "suggested_name": "flag of Argentina"
-    },
-    {
-      "bad_qid": "Q458",
-      "bad_name": "European Union",
-      "count": 7,
-      "suggested_qid": "Q122482",
-      "suggested_name": "flag of Europe"
     },
     {
       "bad_qid": "Q1200",
@@ -411,7 +404,7 @@
     {
       "bad_qid": "Q1191401",
       "bad_name": "Rosemont",
-      "count": 5,
+      "count": 1,
       "suggested_qid": "Q140002970",
       "suggested_name": "flag of Rosemont"
     },

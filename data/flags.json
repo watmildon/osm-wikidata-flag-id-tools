@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28T08:58:23.996Z",
+  "generated": "2026-08-29T12:15:17.552Z",
   "palette": [
     "red",
     "white",
@@ -240,7 +240,7 @@
     {
       "qid": "Q16611",
       "name": "flag of Russia",
-      "count": 141,
+      "count": 142,
       "file": "Flag of Russia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17562,
+      "count": 17613,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1850,7 +1850,7 @@
     {
       "qid": "Q81526",
       "name": "flag of Andorra",
-      "count": 9,
+      "count": 10,
       "file": "Flag of Andorra.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 291,
+      "count": 292,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1650,
+      "count": 1657,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3661,7 +3661,7 @@
     {
       "qid": "Q127155",
       "name": "flag of the Czech Republic",
-      "count": 111,
+      "count": 112,
       "file": "Flag of the Czech Republic.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 608,
+      "count": 609,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 965,
+      "count": 966,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1398,
+      "count": 1399,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5671,7 +5671,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 416,
+      "count": 417,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10505,7 +10505,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 353,
+      "count": 363,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15194,7 +15194,7 @@
     {
       "qid": "Q1402799",
       "name": "flag of Chicago",
-      "count": 405,
+      "count": 407,
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15681,7 +15681,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 752,
+      "count": 756,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -18637,6 +18637,24 @@
       "description": "A dark green field with a large golden Celtic harp centered."
     },
     {
+      "qid": "Q2726006",
+      "name": "flag of Moscow Oblast",
+      "count": 1,
+      "file": "Flag of Moscow oblast.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Moscow Oblast",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q2727336",
       "name": "Royal Standard of Scotland",
       "count": 1,
@@ -20239,6 +20257,24 @@
         "colors": 3
       },
       "description": "A light blue field bearing a yellow-bordered shield with a white castle topped by two green peaks above a blue river, centered."
+    },
+    {
+      "qid": "Q4487795",
+      "name": "flag of Sergiyev Posad",
+      "count": 1,
+      "file": "Flag of Sergiev Posad (Moscow oblast).png",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Sergiyev Posad",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q4487879",
@@ -25265,7 +25301,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 208,
+      "count": 209,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -30077,7 +30113,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 343,
+      "count": 344,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30477,7 +30513,7 @@
     {
       "qid": "Q100711795",
       "name": "Tree City USA flag",
-      "count": 10,
+      "count": 11,
       "file": "Tree City USA - DPLA - 311c0c8ed551f658c2102efe58f12c1e.jpg",
       "isFlagEntity": true,
       "colors": [
@@ -39009,6 +39045,24 @@
         "colors": 1
       },
       "description": "A dark green field on the hoist side, separated by a thin white diagonal from a yellow wedge and a blue triangle at the fly; a large white compass star with eight points sits at the center where the colors meet."
+    },
+    {
+      "qid": "Q140002970",
+      "name": "flag of Rosemont",
+      "count": 4,
+      "file": "Flag of Rosemont, Illinois.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Rosemont",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q140002976",

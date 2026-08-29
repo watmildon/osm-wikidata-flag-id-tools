@@ -48,12 +48,6 @@
     "file": "Flag of Argentina.svg"
   },
   {
-    "qid": "Q458",
-    "name": "European Union",
-    "count": 7,
-    "file": "Flag of Europe.svg"
-  },
-  {
     "qid": "Q1200",
     "name": "Rhineland-Palatinate",
     "count": 1,
@@ -346,12 +340,6 @@
     "name": "Toyota",
     "count": 3,
     "file": "Headquarter of Toyota Motor Corporation 3.JPG"
-  },
-  {
-    "qid": "Q54078",
-    "name": "IKEA",
-    "count": 11,
-    "file": "IKEA (8020223012).jpg"
   },
   {
     "qid": "Q54151",
@@ -1044,12 +1032,6 @@
     "file": "Mairie Saverdun (09).jpg"
   },
   {
-    "qid": "Q701755",
-    "name": "Edeka",
-    "count": 6,
-    "file": "Hamburg CityNord Edeka.jpg"
-  },
-  {
     "qid": "Q707297",
     "name": "Rhenish Hesse",
     "count": 1,
@@ -1188,18 +1170,6 @@
     "file": null
   },
   {
-    "qid": "Q955764",
-    "name": "University of Illinois Chicago",
-    "count": 5,
-    "file": "University of Illinois at Chicago -1.jpg"
-  },
-  {
-    "qid": "Q966971",
-    "name": "Castorama",
-    "count": 16,
-    "file": "Castorama (Stettin).jpg"
-  },
-  {
     "qid": "Q974038",
     "name": "Budapest District XII",
     "count": 1,
@@ -1298,7 +1268,7 @@
   {
     "qid": "Q1191401",
     "name": "Rosemont",
-    "count": 5,
+    "count": 1,
     "file": "River Road, Rosemont, Illinois.JPG"
   },
   {
@@ -1340,7 +1310,7 @@
   {
     "qid": "Q1364344",
     "name": "Archdiocese of Chicago",
-    "count": 5,
+    "count": 1,
     "file": "Gerald Farinas Holy Name Cathedral from Street.jpg"
   },
   {
@@ -1674,12 +1644,6 @@
     "file": null
   },
   {
-    "qid": "Q4042567",
-    "name": "Lalandia",
-    "count": 6,
-    "file": "Lalandia, Rødby (2009-03-29).jpg"
-  },
-  {
     "qid": "Q4257536",
     "name": "Lieutenant Governor of New Brunswick",
     "count": 1,
@@ -1713,12 +1677,6 @@
     "qid": "Q5548050",
     "name": "Orland Township",
     "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q5600639",
-    "name": "Greater Manchester Fire and Rescue Service",
-    "count": 6,
     "file": null
   },
   {
@@ -1908,12 +1866,6 @@
     "file": "OK, Agerbæk 2024.jpg"
   },
   {
-    "qid": "Q12371122",
-    "name": "Alexela Concert Hall",
-    "count": 5,
-    "file": null
-  },
-  {
     "qid": "Q13019706",
     "name": "list of French flags",
     "count": 1,
@@ -1929,12 +1881,6 @@
     "qid": "Q14956815",
     "name": "Novant Health",
     "count": 2,
-    "file": null
-  },
-  {
-    "qid": "Q16324560",
-    "name": "Stark Danmark",
-    "count": 6,
     "file": null
   },
   {
@@ -2104,12 +2050,6 @@
     "name": "Camp Floyd Cemetery",
     "count": 1,
     "file": "Camp Floyd Cemetery.jpeg"
-  },
-  {
-    "qid": "Q110069565",
-    "name": "Hoppenbrouwers",
-    "count": 6,
-    "file": null
   },
   {
     "qid": "Q110073017",
