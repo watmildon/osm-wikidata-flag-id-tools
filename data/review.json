@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T12:15:13.995Z",
+  "generated": "2026-08-29T20:22:23.933Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -80,7 +80,7 @@
     },
     {
       "bad_qid": "Q7172",
-      "bad_name": "League of Arab States",
+      "bad_name": "Arab League",
       "count": 1,
       "suggested_qid": "Q783961",
       "suggested_name": "flag of the League of Arab States"
