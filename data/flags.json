@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T12:15:17.552Z",
+  "generated": "2026-08-30T11:12:55.050Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17613,
+      "count": 17656,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1061,
+      "count": 1063,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 345,
+      "count": 346,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2310,7 +2310,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 233,
+      "count": 234,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1399,
+      "count": 1401,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5671,7 +5671,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 417,
+      "count": 418,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7256,7 +7256,7 @@
     {
       "qid": "Q170064",
       "name": "flag of Jordan",
-      "count": 20,
+      "count": 21,
       "file": "Flag of Jordan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9635,7 +9635,7 @@
     {
       "qid": "Q221881",
       "name": "flag of Massachusetts",
-      "count": 50,
+      "count": 51,
       "file": "Flag of Massachusetts.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10505,7 +10505,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 363,
+      "count": 367,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13242,7 +13242,7 @@
     {
       "qid": "Q752559",
       "name": "flag of Ohio",
-      "count": 334,
+      "count": 335,
       "file": "Flag of Ohio.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13281,7 +13281,7 @@
     {
       "qid": "Q752562",
       "name": "flag of Nevada",
-      "count": 14,
+      "count": 17,
       "file": "Flag of Nevada.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14408,7 +14408,7 @@
     {
       "qid": "Q1064042",
       "name": "flag of New South Wales",
-      "count": 41,
+      "count": 42,
       "file": "Flag of New South Wales.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15681,7 +15681,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 756,
+      "count": 758,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25301,7 +25301,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 209,
+      "count": 210,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -39192,7 +39192,7 @@
     {
       "qid": "Q140936143",
       "name": "Flag of Fire and Rescue New South Wales",
-      "count": 1,
+      "count": 2,
       "file": null,
       "wdImageProperty": null,
       "reverseFile": null,
