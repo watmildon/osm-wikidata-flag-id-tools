@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-29T20:22:23.933Z",
+  "generated": "2026-08-31T12:38:23.281Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -7,6 +7,13 @@
       "count": 1,
       "suggested_qid": "Q42537",
       "suggested_name": "flag of the United States"
+    },
+    {
+      "bad_qid": "Q36",
+      "bad_name": "Poland",
+      "count": 1,
+      "suggested_qid": "Q42436",
+      "suggested_name": "flag of Poland"
     },
     {
       "bad_qid": "Q88",

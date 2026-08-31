@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30T11:12:55.050Z",
+  "generated": "2026-08-31T12:38:23.376Z",
   "palette": [
     "red",
     "white",
@@ -327,7 +327,7 @@
     {
       "qid": "Q18993",
       "name": "flag of Virginia",
-      "count": 91,
+      "count": 95,
       "file": "Flag of Virginia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17656,
+      "count": 17671,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2405,
+      "count": 2406,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 310,
+      "count": 311,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1613,7 +1613,7 @@
     {
       "qid": "Q79198",
       "name": "flag of Vatican City",
-      "count": 66,
+      "count": 67,
       "file": "Flag of Vatican City (2023–present).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1063,
+      "count": 1064,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1657,
+      "count": 1661,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 273,
+      "count": 283,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 966,
+      "count": 967,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1401,
+      "count": 1403,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4711,7 +4711,7 @@
     {
       "qid": "Q134874",
       "name": "flag of Bolivia",
-      "count": 41,
+      "count": 42,
       "file": "Flag of Bolivia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5471,7 +5471,7 @@
     {
       "qid": "Q160255",
       "name": "flag of Peru",
-      "count": 34,
+      "count": 35,
       "file": "Flag of Peru.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26809,7 +26809,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 6,
+      "count": 7,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -32445,7 +32445,7 @@
     {
       "qid": "Q107787322",
       "name": "intersex-inclusive pride flag",
-      "count": 6,
+      "count": 7,
       "file": "Intersex-inclusive pride flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -39246,7 +39246,7 @@
     {
       "qid": "Q141144981",
       "name": "Flag of Municipality of Athens",
-      "count": 13,
+      "count": 24,
       "file": "Athens Municipal Flag.png",
       "wdImageProperty": "P18",
       "reverseFile": null,
