@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-31T12:38:23.376Z",
+  "generated": "2026-09-01T11:03:31.754Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 184,
+      "count": 188,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17671,
+      "count": 17679,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 587,
+      "count": 588,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1224,7 +1224,7 @@
     {
       "qid": "Q46008",
       "name": "flag of Laos",
-      "count": 9,
+      "count": 10,
       "file": "Flag of Laos.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1064,
+      "count": 1065,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 346,
+      "count": 347,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 292,
+      "count": 293,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 283,
+      "count": 284,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1403,
+      "count": 1419,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4711,7 +4711,7 @@
     {
       "qid": "Q134874",
       "name": "flag of Bolivia",
-      "count": 42,
+      "count": 41,
       "file": "Flag of Bolivia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12034,7 +12034,7 @@
     {
       "qid": "Q617649",
       "name": "Flag of Wallonia",
-      "count": 10,
+      "count": 11,
       "file": "Flag of Wallonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15681,7 +15681,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 758,
+      "count": 759,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25301,7 +25301,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 210,
+      "count": 211,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -30113,7 +30113,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 344,
+      "count": 345,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
