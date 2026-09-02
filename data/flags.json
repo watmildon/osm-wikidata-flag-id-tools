@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-01T11:03:31.754Z",
+  "generated": "2026-09-02T10:35:26.049Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17679,
+      "count": 17684,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 588,
+      "count": 589,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 393,
+      "count": 394,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3547,7 +3547,7 @@
     {
       "qid": "Q124020",
       "name": "flag of Switzerland",
-      "count": 142,
+      "count": 143,
       "file": "Flag of Switzerland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3896,7 +3896,7 @@
     {
       "qid": "Q128812",
       "name": "flag of Portugal",
-      "count": 95,
+      "count": 96,
       "file": "Flag of Portugal (official).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1419,
+      "count": 1422,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4828,7 +4828,7 @@
     {
       "qid": "Q135014",
       "name": "flag of the Gambia",
-      "count": 3,
+      "count": 4,
       "file": "Flag of The Gambia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5671,7 +5671,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 418,
+      "count": 421,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10505,7 +10505,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 367,
+      "count": 371,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13073,7 +13073,7 @@
     {
       "qid": "Q736625",
       "name": "flag of Utah",
-      "count": 27,
+      "count": 28,
       "file": "Flag of Utah.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13487,7 +13487,7 @@
     {
       "qid": "Q760401",
       "name": "flag of Andalusia",
-      "count": 44,
+      "count": 45,
       "file": "Flag of Andalucía.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26809,7 +26809,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 7,
+      "count": 8,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
