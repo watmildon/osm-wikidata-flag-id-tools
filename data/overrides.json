@@ -1573,6 +1573,18 @@
       "colors": 1
     }
   },
+  "Q158591": {
+    "colors": [
+      "white",
+      "red",
+      "yellow"
+    ],
+    "icons": [
+      "cross"
+    ],
+    "shape": "rectangle",
+    "description": "A white field with a red cross throughout, and a smaller yellow cross with flared arms superimposed at its centre."
+  },
   "Q159538": {
     "description": "A light blue field with a single large white five-pointed star centered.",
     "colors": [
@@ -4207,6 +4219,21 @@
       "horizontal-stripes"
     ]
   },
+  "Q1302227": {
+    "colors": [
+      "blue",
+      "yellow",
+      "white"
+    ],
+    "icons": [
+      "horizontal-stripes",
+      "sun",
+      "crescent",
+      "star"
+    ],
+    "shape": "rectangle",
+    "description": "A blue field crossed by a broad yellow horizontal band through the centre. In the upper hoist are a yellow sun and a white crescent moon."
+  },
   "Q1383244": {
     "description": "A quartered shield topped with a silver mural crown of towers and flanked by green olive branches: the quarters show a crowned female figure (Saint Sofia), a red building, a small silver shield with a rampant lion on a striped field, and a domed building; a red ribbon below carries the motto in Cyrillic."
   },
@@ -4354,6 +4381,22 @@
   },
   "Q1426620": {
     "description": "A white field divided by a red cross (vertical and horizontal red bands). The four quarters each bear a different emblem: a blue fleur-de-lis (upper hoist), a red Lancastrian rose (upper fly), a purple thistle (lower hoist), and a green shamrock (lower fly)."
+  },
+  "Q1426622": {
+    "colors": [
+      "green",
+      "yellow",
+      "red",
+      "white"
+    ],
+    "icons": [
+      "vertical-stripes",
+      "coa",
+      "circle",
+      "text"
+    ],
+    "shape": "rectangle",
+    "description": "Three vertical bands of green, yellow, and red separated by zigzag edges. Centered on the yellow band is the round city seal in white, bearing a quartered shield with a bear, a lion, an eagle and grapes, ringed by the words CITY OF LOS ANGELES and FOUNDED 1781."
   },
   "Q1426630": {
     "description": "Two equal vertical bands of yellow (hoist) and white, with a red inukshuk (stone landmark figure) centered on the boundary and a blue five-pointed star in the upper fly.",
@@ -4575,6 +4618,23 @@
       "colors": 1
     }
   },
+  "Q2106586": {
+    "colors": [
+      "lightblue",
+      "white",
+      "yellow",
+      "green",
+      "black"
+    ],
+    "icons": [
+      "coa",
+      "building",
+      "star",
+      "crescent"
+    ],
+    "shape": "rectangle",
+    "description": "A light blue field with the city coat of arms centered: a yellow-edged shield showing a white fortified castle with three towers and an open gate, standing on a green mound, with a yellow star at the upper left and a white crescent moon at the upper right."
+  },
   "Q2132438": {
     "description": "Two equal horizontal bands of white (top) and red, with a red square in the upper hoist bearing a small white cross extending to its edges.",
     "reviews": {
@@ -4648,6 +4708,22 @@
     "reviews": {
       "colors": 1
     }
+  },
+  "Q2168186": {
+    "colors": [
+      "white",
+      "red",
+      "yellow",
+      "black"
+    ],
+    "icons": [
+      "horizontal-stripes",
+      "coa",
+      "animal",
+      "crown"
+    ],
+    "shape": "rectangle",
+    "description": "Three horizontal bands of white, red, and yellow, with a red shield centered bearing a white stag leaping to the hoist, wearing a yellow crown around its neck."
   },
   "Q2169543": {
     "description": "A field bordered with a decorative copper and gold pattern, bearing a central panel with a winged golden lion of Saint Mark (gold body, white wings, halo) on a dark blue ground holding an open book. A vertical column of seven small coats of arms (one for each Venetian province) runs along the fly.",
@@ -4863,6 +4939,18 @@
     "reviews": {
       "colors": 1
     }
+  },
+  "Q2453540": {
+    "colors": [
+      "white",
+      "red"
+    ],
+    "icons": [
+      "cross",
+      "weapon"
+    ],
+    "shape": "rectangle",
+    "description": "A white field with a red cross throughout, and an upright red sword in the upper hoist quarter, point upward."
   },
   "Q2474848": {
     "description": "A blue field bearing a stylized white-edged grey iris flower centered, with two yellow petals at the base.",
@@ -5088,6 +5176,23 @@
     },
     "description": "A dark green field with a large golden Celtic harp centered."
   },
+  "Q2726006": {
+    "colors": [
+      "red",
+      "white",
+      "blue",
+      "yellow",
+      "green"
+    ],
+    "icons": [
+      "coa",
+      "animal",
+      "people",
+      "weapon"
+    ],
+    "shape": "rectangle",
+    "description": "A plain red field with a small emblem in the upper hoist: Saint George in blue cloak on a white horse, spearing a yellow dragon beneath the horse's hooves."
+  },
   "Q2727336": {
     "description": "A yellow field bearing a red rampant lion centered within a red double-line rectangular border (tressure) decorated with red fleurs-de-lis at the corners and along the sides.",
     "colors": [
@@ -5232,6 +5337,22 @@
     "reviews": {
       "colors": 1
     }
+  },
+  "Q2993349": {
+    "colors": [
+      "white",
+      "red",
+      "lightblue",
+      "yellow"
+    ],
+    "icons": [
+      "horizontal-stripes",
+      "coa",
+      "crown",
+      "plant"
+    ],
+    "shape": "rectangle",
+    "description": "A white field over a red lower band, with the regional arms centered: a light blue shield bearing three silver fish meeting at their tails, topped by a yellow crown and flanked by yellow wheat ears tied with a ribbon."
   },
   "Q2993812": {
     "description": "A solid red field bearing the Krasnoyarsk Krai coat of arms centered — a small shield with a rampant golden lion holding a shovel and sickle, surmounted by a golden crown and wreathed in golden oak and cedar branches with a blue ribbon."
@@ -5557,6 +5678,21 @@
     },
     "description": "A light blue field bearing a yellow-bordered shield with a white castle topped by two green peaks above a blue river, centered."
   },
+  "Q4487795": {
+    "colors": [
+      "lightblue",
+      "white",
+      "yellow",
+      "black"
+    ],
+    "icons": [
+      "building",
+      "weapon",
+      "cross"
+    ],
+    "shape": "rectangle",
+    "description": "A light blue upper field with a white crenellated wall of masonry across the lower two-thirds. Above the wall stands a white bell tower with a golden onion dome and cross, flanked by two crossed yellow halberds. A dark arched gateway is set in the wall below."
+  },
   "Q4487879": {
     "description": "A green field with a vertical blue stripe down the center. Over the stripe, a yellow falcon stands with wings spread atop a horizontal scroll of white paper or fabric.",
     "colors": [
@@ -5686,6 +5822,20 @@
       "circle",
       "star"
     ]
+  },
+  "Q5330844": {
+    "colors": [
+      "darkblue",
+      "white",
+      "red"
+    ],
+    "icons": [
+      "star",
+      "horizontal-stripes",
+      "circle"
+    ],
+    "shape": "rectangle",
+    "description": "A dark blue field with thirteen white eight-pointed stars arranged in a circle around a single central star in the fly. In the canton are thirteen alternating red and white horizontal stripes."
   },
   "Q5456645": {
     "description": "A black field with a white crescent enclosing a white five-pointed star, centered.",
@@ -5872,6 +6022,22 @@
     "reviews": {
       "colors": 1
     }
+  },
+  "Q5456784": {
+    "colors": [
+      "purple",
+      "white",
+      "yellow",
+      "blue"
+    ],
+    "icons": [
+      "circle",
+      "coa",
+      "people",
+      "text"
+    ],
+    "shape": "rectangle",
+    "description": "A deep blue-violet field with a narrow yellow vertical stripe at the fly. Centered is a white disc edged with yellow points, bearing a blue figure standing beside a plough and pillars, a fleur-de-lis above, ringed by the words THE METROPOLITAN GOVERNMENT OF NASHVILLE AND DAVIDSON COUNTY."
   },
   "Q5456786": {
     "description": "A red field with a white canton at the upper hoist containing a green pine tree.",
@@ -8587,6 +8753,21 @@
     },
     "description": "A vertical bicolor of yellow at the hoist and blue at the fly."
   },
+  "Q113318966": {
+    "colors": [
+      "blue",
+      "yellow",
+      "red",
+      "white",
+      "black"
+    ],
+    "icons": [
+      "coa",
+      "animal"
+    ],
+    "shape": "rectangle",
+    "description": "A blue field with two yellow fish standing upright back to back in the centre, each spotted black. In the upper hoist corner is a quarter bearing white fleurs-de-lis on blue beside red and white vertical stripes, and below it a panel of yellow and blue diagonal stripes with a red border."
+  },
   "Q113329508": {
     "colors": [
       "yellow",
@@ -9124,6 +9305,23 @@
       "colors": 1
     }
   },
+  "Q121800081": {
+    "colors": [
+      "darkblue",
+      "yellow",
+      "white",
+      "red",
+      "brown"
+    ],
+    "icons": [
+      "coa",
+      "circle",
+      "bird",
+      "text"
+    ],
+    "shape": "rectangle",
+    "description": "A dark blue field with a thin yellow ring enclosing the state emblem: a bald eagle with outstretched wings above a white shield bearing a golden beehive, the word INDUSTRY above it and UTAH 1847 below. Two American flags on staffs flank the shield, and the date 1896 sits beneath in white."
+  },
   "Q122460297": {
     "colors": [
       "blue",
@@ -9178,6 +9376,23 @@
     ],
     "description": "Quartered: blue with three gold fleurs-de-lis in the first and fourth quarters, red with a gold lion passant in the second and third quarters."
   },
+  "Q123944372": {
+    "colors": [
+      "blue",
+      "white",
+      "yellow",
+      "red",
+      "green"
+    ],
+    "icons": [
+      "coa",
+      "circle",
+      "star",
+      "text"
+    ],
+    "shape": "rectangle",
+    "description": "A medium blue field with the state seal centered in a white and yellow ring: a farmer ploughing beside a tree stump while a mounted rider crosses the horizon, framed by a red wreath of flowers, nineteen yellow stars, the dates 1858, 1819 and 1893, and the word MINNESOTA below."
+  },
   "Q124128386": {
     "imageWithheld": true,
     "description": "A solid green field bearing the Green Flag Award logo centered: a stylized white tree silhouette and ribbon inside a green disc, with \"GREEN FLAG AWARD\" in white letters below."
@@ -9206,6 +9421,18 @@
       "colors": 1
     },
     "description": "A yellow field bearing two red cows with blue horns and collars, one above the other, both facing the hoist."
+  },
+  "Q126113156": {
+    "colors": [
+      "red",
+      "gray",
+      "white"
+    ],
+    "icons": [
+      "vertical-stripes"
+    ],
+    "shape": "rectangle",
+    "description": "Three vertical bands of red, grey, and white. Two grey diamonds sit on the red band, two white diamonds on the grey band, and two red diamonds on the white band, each pair set diagonally."
   },
   "Q126622169": {
     "colors": [
@@ -9427,6 +9654,21 @@
     },
     "description": "A dark green field on the hoist side, separated by a thin white diagonal from a yellow wedge and a blue triangle at the fly; a large white compass star with eight points sits at the center where the colors meet."
   },
+  "Q140002970": {
+    "colors": [
+      "white",
+      "red",
+      "green",
+      "black"
+    ],
+    "icons": [
+      "plant",
+      "text",
+      "circle"
+    ],
+    "shape": "rectangle",
+    "description": "A white field with a red rose centered in a wreath of green laurel branches, the word ROSEMONT arched above in black blackletter and the date 1956 below. The words VILLAGE OF ROSEMONT appear in black serif capitals across the lower half."
+  },
   "Q140002976": {
     "description": "A red field with a white castle of three crenellated towers centered, the device of the U.S. Army Corps of Engineers; the hoist and fly edges are trimmed with a fringe."
   },
@@ -9457,5 +9699,70 @@
     "icons": [
       "star"
     ]
+  },
+  "Q140812125": {
+    "colors": [
+      "darkblue",
+      "white",
+      "red",
+      "yellow",
+      "green"
+    ],
+    "icons": [
+      "cross",
+      "coa",
+      "crown",
+      "plant",
+      "circle"
+    ],
+    "shape": "rectangle",
+    "description": "A dark blue ensign with the Union Jack in the canton. In the fly is a yellow circular badge enclosing a red waratah flower with green leaves, topped by a crown and wrapped in a scroll reading STATE EMERGENCY SERVICE NEW SOUTH WALES."
+  },
+  "Q141137230": {
+    "colors": [
+      "white",
+      "red",
+      "darkblue",
+      "yellow"
+    ],
+    "icons": [
+      "cross",
+      "crown",
+      "text",
+      "ship"
+    ],
+    "shape": "rectangle",
+    "description": "A white field with a red cross throughout, fimbriated in dark blue. A yellow crown sits above a yellow foul anchor at the centre of the cross, and the red letters R, N, L and I fill the four quarters."
+  },
+  "Q141144566": {
+    "colors": [
+      "darkblue",
+      "yellow",
+      "white"
+    ],
+    "icons": [
+      "horizontal-stripes",
+      "text",
+      "circle",
+      "coa",
+      "ship"
+    ],
+    "shape": "rectangle",
+    "description": "A dark blue field with a broad yellow horizontal band across the centre. The words Norfolk and Virginia appear in dark blue blackletter on the band, flanking the round city seal in white and blue, which shows a sailing ship and a plough ringed by the words TOWN 1682 BOROUGH 1736 CITY 1845 and CITY OF NORFOLK VIRGINIA."
+  },
+  "Q141144981": {
+    "colors": [
+      "blue",
+      "white",
+      "red",
+      "yellow"
+    ],
+    "icons": [
+      "cross",
+      "circle",
+      "coa"
+    ],
+    "shape": "rectangle",
+    "description": "A blue field inside a yellow-edged red border, with a white cross throughout. Centered on the cross is a yellow laurel wreath encircling a small blue roundel bearing an owl."
   }
 }
