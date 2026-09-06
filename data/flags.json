@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-05T09:55:55.893Z",
+  "generated": "2026-09-06T02:06:29.467Z",
   "palette": [
     "red",
     "white",
@@ -5097,8 +5097,8 @@
       "reverseFile": null,
       "isFlagEntity": true,
       "colors": [
-        "red",
         "white",
+        "red",
         "yellow"
       ],
       "wdColors": [
@@ -5106,13 +5106,16 @@
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Guernsey",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a red cross throughout, and a smaller yellow cross with flared arms superimposed at its centre."
     },
     {
       "qid": "Q159538",
@@ -15028,15 +15031,25 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "blue",
+        "yellow",
+        "white"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "sun",
+        "crescent",
+        "star"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Székelys",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field crossed by a broad yellow horizontal band through the centre. In the upper hoist are a yellow sun and a white crescent moon."
     },
     {
       "qid": "Q1383244",
@@ -15582,22 +15595,29 @@
       "reverseFile": null,
       "isFlagEntity": true,
       "colors": [
-        "yellow",
         "green",
-        "red"
+        "yellow",
+        "red",
+        "white"
       ],
       "wdColors": [
         "yellow",
         "green",
         "red"
       ],
-      "icons": [],
+      "icons": [
+        "vertical-stripes",
+        "coa",
+        "circle",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Los Angeles",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Three vertical bands of green, yellow, and red separated by zigzag edges. Centered on the yellow band is the round city seal in white, bearing a quartered shield with a bear, a lion, an eagle and grapes, ringed by the words CITY OF LOS ANGELES and FOUNDED 1781."
     },
     {
       "qid": "Q1426630",
@@ -16533,18 +16553,28 @@
       "reverseFile": null,
       "isFlagEntity": true,
       "colors": [
-        "blue"
+        "lightblue",
+        "white",
+        "yellow",
+        "green",
+        "black"
       ],
       "wdColors": [
         "blue"
       ],
-      "icons": [],
+      "icons": [
+        "coa",
+        "building",
+        "star",
+        "crescent"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Zagreb",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A light blue field with the city coat of arms centered: a yellow-edged shield showing a white fortified castle with three towers and an open gate, standing on a green mound, with a yellow star at the upper left and a white crescent moon at the upper right."
     },
     {
       "qid": "Q2132438",
@@ -16791,22 +16821,29 @@
       "reverseFile": null,
       "isFlagEntity": true,
       "colors": [
-        "red",
         "white",
-        "yellow"
+        "red",
+        "yellow",
+        "black"
       ],
       "wdColors": [
         "red",
         "white",
         "yellow"
       ],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "coa",
+        "animal",
+        "crown"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Lublin Voivodeship",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Three horizontal bands of white, red, and yellow, with a red shield centered bearing a white stag leaping to the hoist, wearing a yellow crown around its neck."
     },
     {
       "qid": "Q2169543",
@@ -17775,20 +17812,24 @@
       "reverseFile": null,
       "isFlagEntity": true,
       "colors": [
-        "red",
-        "white"
+        "white",
+        "red"
       ],
       "wdColors": [
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "cross",
+        "weapon"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "City of London",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a red cross throughout, and an upright red sword in the upper hoist quarter, point upward."
     },
     {
       "qid": "Q2474848",
@@ -18644,15 +18685,27 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "white",
+        "blue",
+        "yellow",
+        "green"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "coa",
+        "animal",
+        "people",
+        "weapon"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Moscow Oblast",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A plain red field with a small emblem in the upper hoist: Saint George in blue cloak on a white horse, spearing a yellow dragon beneath the horse's hooves."
     },
     {
       "qid": "Q2727336",
@@ -19156,15 +19209,26 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "red",
+        "lightblue",
+        "yellow"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "coa",
+        "crown",
+        "plant"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Saratov Oblast",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A white field over a red lower band, with the regional arms centered: a light blue shield bearing three silver fish meeting at their tails, topped by a yellow crown and flanked by yellow wheat ears tied with a ribbon."
     },
     {
       "qid": "Q2993812",
@@ -20266,15 +20330,25 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "lightblue",
+        "white",
+        "yellow",
+        "black"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "building",
+        "weapon",
+        "cross"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Sergiyev Posad",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A light blue upper field with a white crenellated wall of masonry across the lower two-thirds. Above the wall stands a white bell tower with a golden onion dome and cross, flanked by two crossed yellow halberds. A dark arched gateway is set in the wall below."
     },
     {
       "qid": "Q4487879",
@@ -20657,22 +20731,27 @@
       "reverseFile": null,
       "isFlagEntity": true,
       "colors": [
-        "red",
+        "darkblue",
         "white",
-        "blue"
+        "red"
       ],
       "wdColors": [
         "red",
         "white",
         "blue"
       ],
-      "icons": [],
+      "icons": [
+        "star",
+        "horizontal-stripes",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Easton Flag",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field with thirteen white eight-pointed stars arranged in a circle around a single central star in the fly. In the canton are thirteen alternating red and white horizontal stripes."
     },
     {
       "qid": "Q5456645",
@@ -21282,16 +21361,27 @@
       "count": 0,
       "file": "Flag of Nashville.png",
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "purple",
+        "white",
+        "yellow",
+        "blue"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "circle",
+        "coa",
+        "people",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Nashville, Tennessee",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": [],
-      "wdImageProperty": "P18"
+      "wdImageProperty": "P18",
+      "description": "A deep blue-violet field with a narrow yellow vertical stripe at the fly. Centered is a white disc edged with yellow points, bearing a blue figure standing beside a plough and pillars, a fleur-de-lis above, ringed by the words THE METROPOLITAN GOVERNMENT OF NASHVILLE AND DAVIDSON COUNTY."
     },
     {
       "qid": "Q5456786",
@@ -34434,10 +34524,11 @@
       "reverseFile": null,
       "isFlagEntity": true,
       "colors": [
-        "yellow",
         "blue",
+        "yellow",
         "red",
-        "white"
+        "white",
+        "black"
       ],
       "wdColors": [
         "yellow",
@@ -34445,13 +34536,17 @@
         "red",
         "white"
       ],
-      "icons": [],
+      "icons": [
+        "coa",
+        "animal"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Montbard",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field with two yellow fish standing upright back to back in the centre, each spotted black. In the upper hoist corner is a quarter bearing white fleurs-de-lis on blue beside red and white vertical stripes, and below it a panel of yellow and blue diagonal stripes with a red border."
     },
     {
       "qid": "Q113320155",
@@ -37717,12 +37812,11 @@
       "reverseFile": null,
       "isFlagEntity": true,
       "colors": [
-        "red",
-        "white",
-        "brown",
+        "darkblue",
         "yellow",
-        "blue",
-        "green"
+        "white",
+        "red",
+        "brown"
       ],
       "wdColors": [
         "red",
@@ -37732,13 +37826,19 @@
         "blue",
         "green"
       ],
-      "icons": [],
+      "icons": [
+        "coa",
+        "circle",
+        "bird",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "2011 flag of Utah",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field with a thin yellow ring enclosing the state emblem: a bald eagle with outstretched wings above a white shield bearing a golden beehive, the word INDUSTRY above it and UTAH 1847 below. Two American flags on staffs flank the shield, and the date 1896 sits beneath in white."
     },
     {
       "qid": "Q122460297",
@@ -38023,15 +38123,27 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "blue",
+        "white",
+        "yellow",
+        "red",
+        "green"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "coa",
+        "circle",
+        "star",
+        "text"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "1983 flag of Minnesota",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A medium blue field with the state seal centered in a white and yellow ring: a farmer ploughing beside a tree stump while a mounted rider crosses the horizon, framed by a red wreath of flowers, nineteen yellow stars, the dates 1858, 1819 and 1893, and the word MINNESOTA below."
     },
     {
       "qid": "Q124128386",
@@ -38227,15 +38339,22 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "red",
+        "gray",
+        "white"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "vertical-stripes"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Coclé",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "Three vertical bands of red, grey, and white. Two grey diamonds sit on the red band, two white diamonds on the grey band, and two red diamonds on the white band, each pair set diagonally."
     },
     {
       "qid": "Q126489298",
@@ -39054,15 +39173,25 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "red",
+        "green",
+        "black"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "plant",
+        "text",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Rosemont",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a red rose centered in a wreath of green laurel branches, the word ROSEMONT arched above in black blackletter and the date 1956 below. The words VILLAGE OF ROSEMONT appear in black serif capitals across the lower half."
     },
     {
       "qid": "Q140002976",
@@ -39179,15 +39308,28 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "white",
+        "red",
+        "yellow",
+        "green"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "cross",
+        "coa",
+        "crown",
+        "plant",
+        "circle"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "NSW State Emergency Service",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue ensign with the Union Jack in the canton. In the fly is a yellow circular badge enclosing a red waratah flower with green leaves, topped by a crown and wrapped in a scroll reading STATE EMERGENCY SERVICE NEW SOUTH WALES."
     },
     {
       "qid": "Q140936143",
@@ -39215,15 +39357,26 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "white",
+        "red",
+        "darkblue",
+        "yellow"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "cross",
+        "crown",
+        "text",
+        "ship"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Royal National Lifeboat Institution Flag",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A white field with a red cross throughout, fimbriated in dark blue. A yellow crown sits above a yellow foul anchor at the centre of the cross, and the red letters R, N, L and I fill the four quarters."
     },
     {
       "qid": "Q141144566",
@@ -39233,15 +39386,26 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "darkblue",
+        "yellow",
+        "white"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "horizontal-stripes",
+        "text",
+        "circle",
+        "coa",
+        "ship"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Norfolk",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A dark blue field with a broad yellow horizontal band across the centre. The words Norfolk and Virginia appear in dark blue blackletter on the band, flanking the round city seal in white and blue, which shows a sailing ship and a plough ringed by the words TOWN 1682 BOROUGH 1736 CITY 1845 and CITY OF NORFOLK VIRGINIA."
     },
     {
       "qid": "Q141144981",
@@ -39251,15 +39415,25 @@
       "wdImageProperty": "P18",
       "reverseFile": null,
       "isFlagEntity": true,
-      "colors": [],
+      "colors": [
+        "blue",
+        "white",
+        "red",
+        "yellow"
+      ],
       "wdColors": [],
-      "icons": [],
+      "icons": [
+        "cross",
+        "circle",
+        "coa"
+      ],
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Municipality of Athens",
       "flagTypeSample": null,
       "extraTags": {},
-      "aliases": []
+      "aliases": [],
+      "description": "A blue field inside a yellow-edged red border, with a white cross throughout. Centered on the cross is a yellow laurel wreath encircling a small blue roundel bearing an owl."
     },
     {
       "qid": "Q141283192",
