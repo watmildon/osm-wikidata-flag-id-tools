@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T02:06:29.467Z",
+  "generated": "2026-09-06T10:13:46.195Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17756,
+      "count": 17765,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 293,
+      "count": 303,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 284,
+      "count": 285,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 313,
+      "count": 314,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 609,
+      "count": 611,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4220,7 +4220,7 @@
     {
       "qid": "Q130811",
       "name": "flag of Romania",
-      "count": 125,
+      "count": 126,
       "file": "Flag of Romania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 968,
+      "count": 972,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10315,7 +10315,7 @@
     {
       "qid": "Q285418",
       "name": "flag of Michigan",
-      "count": 51,
+      "count": 52,
       "file": "Flag of Michigan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12269,7 +12269,7 @@
     {
       "qid": "Q633087",
       "name": "flag of Montana",
-      "count": 15,
+      "count": 16,
       "file": "Flag of Montana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -23097,6 +23097,24 @@
       }
     },
     {
+      "qid": "Q12147203",
+      "name": "flag of the Ukrainian Insurgent Army",
+      "count": 1,
+      "file": "Flag of the Ukrainian Insurgent Army.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Ukrainian Insurgent Army",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q12373049",
       "name": "flag of Pärnu",
       "count": 13,
@@ -30203,7 +30221,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 346,
+      "count": 347,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
