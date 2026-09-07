@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-06T10:13:46.195Z",
+  "generated": "2026-09-07T02:48:10.169Z",
   "palette": [
     "red",
     "white",
@@ -23587,6 +23587,24 @@
       "reviews": {
         "colors": 1
       }
+    },
+    {
+      "qid": "Q16934037",
+      "name": "Serapis flag",
+      "count": 0,
+      "file": null,
+      "wdImageProperty": null,
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Serapis flag",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q17053858",
