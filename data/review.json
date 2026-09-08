@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-02T20:28:57.681Z",
+  "generated": "2026-09-08T02:58:27.260Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -182,13 +182,6 @@
       "count": 1,
       "suggested_qid": "Q140002993",
       "suggested_name": "flag of Columbia"
-    },
-    {
-      "bad_qid": "Q41470",
-      "bad_name": "Kurdistan",
-      "count": 1,
-      "suggested_qid": "Q208671",
-      "suggested_name": "flag of Kurdistan"
     },
     {
       "bad_qid": "Q42722",
