@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08T10:32:37.185Z",
+  "generated": "2026-09-09T10:43:46.979Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 188,
+      "count": 189,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -592,7 +592,7 @@
     {
       "qid": "Q19427",
       "name": "flag of Oregon",
-      "count": 62,
+      "count": 63,
       "file": "Flag of Oregon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17780,
+      "count": 17795,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 312,
+      "count": 313,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 348,
+      "count": 349,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3661,7 +3661,7 @@
     {
       "qid": "Q127155",
       "name": "flag of the Czech Republic",
-      "count": 112,
+      "count": 113,
       "file": "Flag of the Czech Republic.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4220,7 +4220,7 @@
     {
       "qid": "Q130811",
       "name": "flag of Romania",
-      "count": 126,
+      "count": 127,
       "file": "Flag of Romania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 973,
+      "count": 975,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1449,
+      "count": 1454,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7870,7 +7870,7 @@
     {
       "qid": "Q172533",
       "name": "flag of Nicaragua",
-      "count": 23,
+      "count": 24,
       "file": "Flag of Nicaragua.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10929,7 +10929,7 @@
     {
       "qid": "Q462621",
       "name": "Torres Strait Islander flag",
-      "count": 35,
+      "count": 36,
       "file": "Torres Strait Flag Day 2021 - 51222675210.jpg",
       "isFlagEntity": true,
       "colors": [
@@ -13245,7 +13245,7 @@
     {
       "qid": "Q752559",
       "name": "flag of Ohio",
-      "count": 336,
+      "count": 337,
       "file": "Flag of Ohio.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14988,7 +14988,7 @@
     {
       "qid": "Q1285625",
       "name": "Australian Aboriginal flag",
-      "count": 82,
+      "count": 83,
       "file": "Australian Aboriginal Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 762,
+      "count": 763,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19926,7 +19926,7 @@
     {
       "qid": "Q3979151",
       "name": "Star Spangled Banner Flag",
-      "count": 0,
+      "count": 1,
       "file": "Flag of the United States (1795–1818).svg",
       "isFlagEntity": true,
       "colors": [
@@ -26953,7 +26953,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 21,
+      "count": 23,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30257,7 +30257,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 352,
+      "count": 353,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
