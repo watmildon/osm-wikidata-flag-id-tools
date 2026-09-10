@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T10:43:46.979Z",
+  "generated": "2026-09-10T10:34:03.913Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17795,
+      "count": 17799,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2408,
+      "count": 2409,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 349,
+      "count": 350,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 398,
+      "count": 399,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1661,
+      "count": 1663,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 614,
+      "count": 616,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 975,
+      "count": 978,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1454,
+      "count": 1462,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7998,7 +7998,7 @@
     {
       "qid": "Q173548",
       "name": "flag of Mauritius",
-      "count": 7,
+      "count": 8,
       "file": "Flag of Mauritius.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13438,7 +13438,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 388,
+      "count": 389,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13490,7 +13490,7 @@
     {
       "qid": "Q760401",
       "name": "flag of Andalusia",
-      "count": 46,
+      "count": 47,
       "file": "Flag of Andalucía.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26953,7 +26953,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 23,
+      "count": 28,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
