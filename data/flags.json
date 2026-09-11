@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10T10:34:03.913Z",
+  "generated": "2026-09-11T10:34:26.546Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 678,
+      "count": 679,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17799,
+      "count": 17805,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 594,
+      "count": 595,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1082,7 +1082,7 @@
     {
       "qid": "Q43175",
       "name": "flag of Japan",
-      "count": 100,
+      "count": 102,
       "file": "Flag of Japan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2409,
+      "count": 2412,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 313,
+      "count": 314,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1731,7 +1731,7 @@
     {
       "qid": "Q81286",
       "name": "flag of Sweden",
-      "count": 657,
+      "count": 658,
       "file": "Flag of Sweden.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1663,
+      "count": 1662,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 978,
+      "count": 979,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1462,
+      "count": 1470,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10315,7 +10315,7 @@
     {
       "qid": "Q285418",
       "name": "flag of Michigan",
-      "count": 52,
+      "count": 53,
       "file": "Flag of Michigan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -22859,7 +22859,7 @@
     {
       "qid": "Q10986849",
       "name": "flag of Kashubia",
-      "count": 11,
+      "count": 12,
       "file": "POL Kaszuby flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26953,7 +26953,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 28,
+      "count": 33,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30257,7 +30257,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 353,
+      "count": 354,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
