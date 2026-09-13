@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-12T10:03:08.510Z",
+  "generated": "2026-09-13T11:03:32.081Z",
   "palette": [
     "red",
     "white",
@@ -592,7 +592,7 @@
     {
       "qid": "Q19427",
       "name": "flag of Oregon",
-      "count": 63,
+      "count": 64,
       "file": "Flag of Oregon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17810,
+      "count": 17824,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 596,
+      "count": 597,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1082,7 +1082,7 @@
     {
       "qid": "Q43175",
       "name": "flag of Japan",
-      "count": 102,
+      "count": 103,
       "file": "Flag of Japan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2412,
+      "count": 2413,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1077,
+      "count": 1083,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1972,7 +1972,7 @@
     {
       "qid": "Q81970",
       "name": "flag of Hungary",
-      "count": 143,
+      "count": 146,
       "file": "Flag of Hungary.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 285,
+      "count": 286,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 399,
+      "count": 400,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1664,
+      "count": 1666,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3858,7 +3858,7 @@
     {
       "qid": "Q128480",
       "name": "flag of Israel",
-      "count": 67,
+      "count": 70,
       "file": "Flag of Israel.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 981,
+      "count": 984,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1471,
+      "count": 1475,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4751,7 +4751,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 159,
+      "count": 163,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5674,7 +5674,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 423,
+      "count": 424,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12498,7 +12498,7 @@
     {
       "qid": "Q673117",
       "name": "flag of Indiana",
-      "count": 86,
+      "count": 87,
       "file": "Flag of Indiana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26953,7 +26953,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 33,
+      "count": 34,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
