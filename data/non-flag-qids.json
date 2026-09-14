@@ -336,6 +336,12 @@
     "file": "IUCN-Headquarters.jpg"
   },
   {
+    "qid": "Q49193",
+    "name": "Brockton",
+    "count": 1,
+    "file": "BrocktonCityHall.jpg"
+  },
+  {
     "qid": "Q49768",
     "name": "Social Democratic Party of Germany",
     "count": 1,
@@ -1214,7 +1220,7 @@
   {
     "qid": "Q985536",
     "name": "Skokie",
-    "count": 1,
+    "count": 2,
     "file": "Skokie, Illinois.jpg"
   },
   {
