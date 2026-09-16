@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15T11:01:20.413Z",
+  "generated": "2026-09-16T10:48:50.185Z",
   "palette": [
     "red",
     "white",
@@ -630,7 +630,7 @@
     {
       "qid": "Q26491",
       "name": "flag of Georgia",
-      "count": 54,
+      "count": 66,
       "file": "Flag of Georgia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17849,
+      "count": 17863,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1455,7 +1455,7 @@
     {
       "qid": "Q51401",
       "name": "LGBTQ pride flag",
-      "count": 53,
+      "count": 54,
       "file": "Gay Pride Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 401,
+      "count": 402,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1487,
+      "count": 1493,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5632,7 +5632,7 @@
     {
       "qid": "Q160861",
       "name": "flag of Slovakia",
-      "count": 95,
+      "count": 98,
       "file": "Flag of Slovakia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13860,7 +13860,7 @@
     {
       "qid": "Q828147",
       "name": "flag of Minnesota",
-      "count": 31,
+      "count": 32,
       "file": "Flag of Minnesota.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14035,7 +14035,7 @@
     {
       "qid": "Q862088",
       "name": "flag of Adjara",
-      "count": 7,
+      "count": 19,
       "file": "Flag of Adjara.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 764,
+      "count": 765,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21771,7 +21771,7 @@
     {
       "qid": "Q5456894",
       "name": "flag of the United States Air Force",
-      "count": 104,
+      "count": 105,
       "file": "Flag of the United States Air Force.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21815,7 +21815,7 @@
     {
       "qid": "Q5456895",
       "name": "flag of the United States Coast Guard",
-      "count": 110,
+      "count": 111,
       "file": "Flag of the United States Coast Guard.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21854,7 +21854,7 @@
     {
       "qid": "Q5456897",
       "name": "flag of the United States Marine Corps",
-      "count": 136,
+      "count": 137,
       "file": "Flag of the United States Marine Corps.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21893,7 +21893,7 @@
     {
       "qid": "Q5456898",
       "name": "flag of the United States Army",
-      "count": 125,
+      "count": 126,
       "file": "Flag of the United States Army.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21936,7 +21936,7 @@
     {
       "qid": "Q5456899",
       "name": "flag of the United States Navy",
-      "count": 113,
+      "count": 114,
       "file": "Flag of the United States Navy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26953,7 +26953,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 40,
+      "count": 42,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30257,7 +30257,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 359,
+      "count": 362,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
