@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T10:43:46.817Z",
+  "generated": "2026-09-19T20:00:58.163Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -31,7 +31,7 @@
     },
     {
       "bad_qid": "Q231",
-      "bad_name": "Walloon Region",
+      "bad_name": "Wallonia",
       "count": 2,
       "suggested_qid": "Q617649",
       "suggested_name": "Flag of Wallonia"
