@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19T10:16:42.617Z",
+  "generated": "2026-09-20T10:37:07.779Z",
   "palette": [
     "red",
     "white",
@@ -592,7 +592,7 @@
     {
       "qid": "Q19427",
       "name": "flag of Oregon",
-      "count": 64,
+      "count": 65,
       "file": "Flag of Oregon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17880,
+      "count": 17893,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 402,
+      "count": 403,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 269,
+      "count": 270,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 620,
+      "count": 621,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 992,
+      "count": 993,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4981,7 +4981,7 @@
     {
       "qid": "Q148807",
       "name": "flag of Catalonia",
-      "count": 30,
+      "count": 31,
       "file": "Flag of Catalonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9709,7 +9709,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 116,
+      "count": 117,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11244,7 +11244,7 @@
     {
       "qid": "Q497997",
       "name": "flag of Alabama",
-      "count": 28,
+      "count": 29,
       "file": "Flag of Alabama.svg",
       "isFlagEntity": true,
       "colors": [
