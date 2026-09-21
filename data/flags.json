@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20T10:37:07.779Z",
+  "generated": "2026-09-21T11:57:11.288Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17893,
+      "count": 17902,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 600,
+      "count": 601,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2417,
+      "count": 2419,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1088,
+      "count": 1089,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1666,
+      "count": 1665,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 993,
+      "count": 995,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10023,7 +10023,7 @@
     {
       "qid": "Q242502",
       "name": "flag of American Samoa",
-      "count": 3,
+      "count": 4,
       "file": "Flag of American Samoa.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30275,7 +30275,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 364,
+      "count": 366,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
