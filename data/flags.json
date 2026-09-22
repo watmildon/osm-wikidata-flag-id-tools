@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-21T11:57:11.288Z",
+  "generated": "2026-09-22T10:56:09.638Z",
   "palette": [
     "red",
     "white",
@@ -916,7 +916,7 @@
     {
       "qid": "Q41673",
       "name": "flag of India",
-      "count": 122,
+      "count": 123,
       "file": "Flag of India.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17902,
+      "count": 17918,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 601,
+      "count": 602,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2419,
+      "count": 2420,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 270,
+      "count": 273,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 995,
+      "count": 998,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1510,
+      "count": 1514,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6248,7 +6248,7 @@
     {
       "qid": "Q165230",
       "name": "flag of the Soviet Union",
-      "count": 3,
+      "count": 4,
       "file": "Flag of the Soviet Union.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7870,7 +7870,7 @@
     {
       "qid": "Q172533",
       "name": "flag of Nicaragua",
-      "count": 24,
+      "count": 25,
       "file": "Flag of Nicaragua.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12350,7 +12350,7 @@
     {
       "qid": "Q637134",
       "name": "flag of British Columbia",
-      "count": 58,
+      "count": 59,
       "file": "Flag of British Columbia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13036,7 +13036,7 @@
     {
       "qid": "Q734071",
       "name": "flag of Nebraska",
-      "count": 19,
+      "count": 20,
       "file": "Flag of Nebraska.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13438,7 +13438,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 389,
+      "count": 392,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15207,7 +15207,7 @@
     {
       "qid": "Q1402799",
       "name": "flag of Chicago",
-      "count": 407,
+      "count": 413,
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 768,
+      "count": 770,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21815,7 +21815,7 @@
     {
       "qid": "Q5456895",
       "name": "flag of the United States Coast Guard",
-      "count": 111,
+      "count": 114,
       "file": "Flag of the United States Coast Guard.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26971,7 +26971,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 46,
+      "count": 47,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [

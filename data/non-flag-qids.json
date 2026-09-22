@@ -2,7 +2,7 @@
   {
     "qid": "Q30",
     "name": "United States",
-    "count": 1,
+    "count": 2,
     "file": "United States - Location Map (2013) - USA - UNOCHA.svg"
   },
   {
@@ -10,6 +10,12 @@
     "name": "Poland",
     "count": 1,
     "file": "Warsaw Old Town Market Square 10.JPG"
+  },
+  {
+    "qid": "Q38",
+    "name": "Italy",
+    "count": 1,
+    "file": "Satellite image of Italy in March 2003.jpg"
   },
   {
     "qid": "Q67",
@@ -112,6 +118,12 @@
     "name": "Arab League",
     "count": 1,
     "file": "Arab Leage HQ 977.PNG"
+  },
+  {
+    "qid": "Q7184",
+    "name": "NATO",
+    "count": 1,
+    "file": "НАТО Самит 2021 NATO Summit 2021 -14.06.2021- (51245988182).jpg"
   },
   {
     "qid": "Q7768",
@@ -1604,7 +1616,7 @@
   {
     "qid": "Q2963322",
     "name": "Chicago Park District",
-    "count": 3,
+    "count": 4,
     "file": "Lake front bike5.JPG"
   },
   {
