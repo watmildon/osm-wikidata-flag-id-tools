@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T10:56:09.638Z",
+  "generated": "2026-09-23T10:44:17.528Z",
   "palette": [
     "red",
     "white",
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 298,
+      "count": 299,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 685,
+      "count": 686,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17918,
+      "count": 17924,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2420,
+      "count": 2422,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2145,7 +2145,7 @@
     {
       "qid": "Q83149",
       "name": "flag of Norway",
-      "count": 412,
+      "count": 413,
       "file": "Flag of Norway.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 621,
+      "count": 623,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 998,
+      "count": 999,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1514,
+      "count": 1518,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5674,7 +5674,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 425,
+      "count": 433,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -8730,7 +8730,7 @@
     {
       "qid": "Q185692",
       "name": "flag of Wales",
-      "count": 13,
+      "count": 14,
       "file": "Flag of Wales.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12996,7 +12996,7 @@
     {
       "qid": "Q731163",
       "name": "flag of Washington",
-      "count": 36,
+      "count": 37,
       "file": "Flag of Washington.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30275,7 +30275,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 366,
+      "count": 368,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
