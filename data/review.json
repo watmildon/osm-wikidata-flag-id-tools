@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-22T10:56:09.541Z",
+  "generated": "2026-09-24T11:08:24.272Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -421,6 +421,14 @@
       "count": 1,
       "suggested_qid": "Q140002970",
       "suggested_name": "flag of Rosemont"
+    },
+    {
+      "bad_qid": "Q1972821",
+      "bad_name": "United Service Organizations",
+      "count": 1,
+      "suggested_qid": "Q119990989",
+      "suggested_name": "United Service Organizations flag",
+      "target_is_stub": true
     },
     {
       "bad_qid": "Q2485604",
