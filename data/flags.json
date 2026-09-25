@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T11:08:24.374Z",
+  "generated": "2026-09-25T11:07:20.683Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 189,
+      "count": 190,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 17930,
+      "count": 18008,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2422,
+      "count": 2424,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 403,
+      "count": 404,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1666,
+      "count": 1667,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 623,
+      "count": 625,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 999,
+      "count": 1000,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1521,
+      "count": 1525,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4751,7 +4751,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 165,
+      "count": 167,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26971,7 +26971,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 47,
+      "count": 48,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30275,7 +30275,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 368,
+      "count": 369,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
