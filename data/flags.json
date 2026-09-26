@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-25T11:07:20.683Z",
+  "generated": "2026-09-26T10:46:44.258Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18008,
+      "count": 18028,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 289,
+      "count": 292,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 625,
+      "count": 626,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1000,
+      "count": 1001,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1525,
+      "count": 1530,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5509,7 +5509,7 @@
     {
       "qid": "Q160260",
       "name": "Flag of New Zealand",
-      "count": 157,
+      "count": 158,
       "file": "Flag of New Zealand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6773,7 +6773,7 @@
     {
       "qid": "Q167119",
       "name": "flag of North Macedonia",
-      "count": 33,
+      "count": 34,
       "file": "Flag of North Macedonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11403,7 +11403,7 @@
     {
       "qid": "Q524824",
       "name": "flag of Vermont",
-      "count": 9,
+      "count": 10,
       "file": "Flag of Vermont.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21771,7 +21771,7 @@
     {
       "qid": "Q5456894",
       "name": "flag of the United States Air Force",
-      "count": 105,
+      "count": 106,
       "file": "Flag of the United States Air Force.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21854,7 +21854,7 @@
     {
       "qid": "Q5456897",
       "name": "flag of the United States Marine Corps",
-      "count": 137,
+      "count": 138,
       "file": "Flag of the United States Marine Corps.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21893,7 +21893,7 @@
     {
       "qid": "Q5456898",
       "name": "flag of the United States Army",
-      "count": 126,
+      "count": 127,
       "file": "Flag of the United States Army.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21936,7 +21936,7 @@
     {
       "qid": "Q5456899",
       "name": "flag of the United States Navy",
-      "count": 114,
+      "count": 115,
       "file": "Flag of the United States Navy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26971,7 +26971,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 48,
+      "count": 52,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -28122,7 +28122,7 @@
     {
       "qid": "Q94652289",
       "name": "flag of the United States Space Force",
-      "count": 17,
+      "count": 18,
       "file": "Flag of the United States Space Force.svg",
       "isFlagEntity": true,
       "colors": [
@@ -37111,6 +37111,24 @@
       "extraTags": {},
       "aliases": [],
       "wdColors": []
+    },
+    {
+      "qid": "Q115516837",
+      "name": "Flag of Gorzów Wielkopolski",
+      "count": 1,
+      "file": "POL Gorzów Wielkopolski flag.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Gorzów Wielkopolski",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q115527338",
