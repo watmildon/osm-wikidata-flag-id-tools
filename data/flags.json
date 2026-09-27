@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-26T10:46:44.258Z",
+  "generated": "2026-09-27T11:21:49.241Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18028,
+      "count": 18034,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 602,
+      "count": 603,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 292,
+      "count": 297,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 316,
+      "count": 317,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1089,
+      "count": 1090,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 404,
+      "count": 407,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 273,
+      "count": 274,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1667,
+      "count": 1668,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3896,7 +3896,7 @@
     {
       "qid": "Q128812",
       "name": "flag of Portugal",
-      "count": 97,
+      "count": 98,
       "file": "Flag of Portugal (official).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1001,
+      "count": 1002,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5674,7 +5674,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 433,
+      "count": 439,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12610,7 +12610,7 @@
     {
       "qid": "Q687062",
       "name": "flag of Saxony-Anhalt",
-      "count": 5,
+      "count": 6,
       "file": "Flag of Saxony-Anhalt (state).svg",
       "isFlagEntity": true,
       "colors": [
@@ -12996,7 +12996,7 @@
     {
       "qid": "Q731163",
       "name": "flag of Washington",
-      "count": 37,
+      "count": 38,
       "file": "Flag of Washington.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15285,7 +15285,7 @@
     {
       "qid": "Q1418784",
       "name": "flag of New Brunswick",
-      "count": 43,
+      "count": 44,
       "file": "Flag of New Brunswick.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30275,7 +30275,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 369,
+      "count": 371,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
