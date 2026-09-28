@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27T11:21:49.241Z",
+  "generated": "2026-09-28T12:51:40.469Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18034,
+      "count": 18039,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2424,
+      "count": 2425,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 129,
+      "count": 131,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 286,
+      "count": 287,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1002,
+      "count": 1004,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1530,
+      "count": 1537,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4751,7 +4751,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 167,
+      "count": 169,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 770,
+      "count": 772,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16651,7 +16651,7 @@
     {
       "qid": "Q2134803",
       "name": "flag of the State of São Paulo",
-      "count": 8,
+      "count": 9,
       "file": "Bandeira do estado de São Paulo.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26971,7 +26971,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 52,
+      "count": 54,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
