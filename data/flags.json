@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28T12:51:40.469Z",
+  "generated": "2026-09-29T12:05:39.282Z",
   "palette": [
     "red",
     "white",
@@ -86,7 +86,7 @@
     {
       "qid": "Q4633",
       "name": "flag of Cyprus",
-      "count": 34,
+      "count": 35,
       "file": "Flag of Cyprus.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18039,
+      "count": 18071,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 603,
+      "count": 604,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2425,
+      "count": 2426,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1261,7 +1261,7 @@
     {
       "qid": "Q46585",
       "name": "flag of the Netherlands",
-      "count": 103,
+      "count": 104,
       "file": "Flag of the Netherlands.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1300,7 +1300,7 @@
     {
       "qid": "Q46835",
       "name": "flag of Austria",
-      "count": 89,
+      "count": 90,
       "file": "Flag of Austria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 297,
+      "count": 298,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1731,7 +1731,7 @@
     {
       "qid": "Q81286",
       "name": "flag of Sweden",
-      "count": 658,
+      "count": 659,
       "file": "Flag of Sweden.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 131,
+      "count": 130,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2145,7 +2145,7 @@
     {
       "qid": "Q83149",
       "name": "flag of Norway",
-      "count": 413,
+      "count": 414,
       "file": "Flag of Norway.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3547,7 +3547,7 @@
     {
       "qid": "Q124020",
       "name": "flag of Switzerland",
-      "count": 144,
+      "count": 145,
       "file": "Flag of Switzerland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3661,7 +3661,7 @@
     {
       "qid": "Q127155",
       "name": "flag of the Czech Republic",
-      "count": 113,
+      "count": 114,
       "file": "Flag of the Czech Republic.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4220,7 +4220,7 @@
     {
       "qid": "Q130811",
       "name": "flag of Romania",
-      "count": 128,
+      "count": 129,
       "file": "Flag of Romania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1004,
+      "count": 1010,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4335,7 +4335,7 @@
     {
       "qid": "Q131469",
       "name": "flag of Malta",
-      "count": 26,
+      "count": 27,
       "file": "Flag of Malta.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4454,7 +4454,7 @@
     {
       "qid": "Q133015",
       "name": "flag of Croatia",
-      "count": 84,
+      "count": 85,
       "file": "Flag of Croatia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1537,
+      "count": 1540,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6649,7 +6649,7 @@
     {
       "qid": "Q165822",
       "name": "flag of Namibia",
-      "count": 4,
+      "count": 5,
       "file": "Flag of Namibia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11244,7 +11244,7 @@
     {
       "qid": "Q497997",
       "name": "flag of Alabama",
-      "count": 29,
+      "count": 31,
       "file": "Flag of Alabama.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13438,7 +13438,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 393,
+      "count": 394,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15866,7 +15866,7 @@
     {
       "qid": "Q1788743",
       "name": "Confederate Battle Flag",
-      "count": 49,
+      "count": 50,
       "file": "North Virginia Third Bunting.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26971,7 +26971,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 54,
+      "count": 55,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
