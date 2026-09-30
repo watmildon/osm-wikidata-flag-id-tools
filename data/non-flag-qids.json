@@ -792,6 +792,12 @@
     "file": "Des Plaines, IL.jpg"
   },
   {
+    "qid": "Q391077",
+    "name": "Hanover Park",
+    "count": 1,
+    "file": null
+  },
+  {
     "qid": "Q397826",
     "name": "Aguadilla",
     "count": 1,
@@ -1802,7 +1808,7 @@
   {
     "qid": "Q6825322",
     "name": "Metropolitan Water Reclamation District of Greater Chicago",
-    "count": 1,
+    "count": 3,
     "file": null
   },
   {
