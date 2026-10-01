@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-24T11:08:24.272Z",
+  "generated": "2026-10-01T12:23:56.262Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -56,6 +56,13 @@
       "count": 1,
       "suggested_qid": "Q693758",
       "suggested_name": "flag of Rhineland-Palatinate"
+    },
+    {
+      "bad_qid": "Q1243",
+      "bad_name": "Veneto",
+      "count": 1,
+      "suggested_qid": "Q2169543",
+      "suggested_name": "flag of Veneto"
     },
     {
       "bad_qid": "Q1770",
