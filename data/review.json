@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T12:23:56.262Z",
+  "generated": "2026-10-02T11:50:56.844Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -235,7 +235,7 @@
     {
       "bad_qid": "Q105037",
       "bad_name": "Callao",
-      "count": 2,
+      "count": 1,
       "suggested_qid": "Q140002980",
       "suggested_name": "flag of Callao"
     },

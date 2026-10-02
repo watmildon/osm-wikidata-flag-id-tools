@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T12:23:56.413Z",
+  "generated": "2026-10-02T11:50:58.977Z",
   "palette": [
     "red",
     "white",
@@ -592,7 +592,7 @@
     {
       "qid": "Q19427",
       "name": "flag of Oregon",
-      "count": 65,
+      "count": 66,
       "file": "Flag of Oregon.svg",
       "isFlagEntity": true,
       "colors": [
@@ -630,7 +630,7 @@
     {
       "qid": "Q26491",
       "name": "flag of Georgia",
-      "count": 66,
+      "count": 67,
       "file": "Flag of Georgia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 688,
+      "count": 689,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18129,
+      "count": 18136,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 298,
+      "count": 299,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 318,
+      "count": 319,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1455,7 +1455,7 @@
     {
       "qid": "Q51401",
       "name": "LGBTQ pride flag",
-      "count": 54,
+      "count": 55,
       "file": "Gay Pride Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1092,
+      "count": 1093,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 130,
+      "count": 131,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 274,
+      "count": 275,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1669,
+      "count": 1670,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1014,
+      "count": 1016,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1544,
+      "count": 1545,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5716,7 +5716,7 @@
     {
       "qid": "Q160877",
       "name": "flag of Saudi Arabia",
-      "count": 76,
+      "count": 77,
       "file": "Flag of Saudi Arabia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6165,7 +6165,7 @@
     {
       "qid": "Q163832",
       "name": "flag of Serbia",
-      "count": 122,
+      "count": 123,
       "file": "Flag of Serbia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9709,7 +9709,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 117,
+      "count": 118,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19690,7 +19690,7 @@
     {
       "qid": "Q3434487",
       "name": "flag of Belgrade",
-      "count": 0,
+      "count": 1,
       "file": "Flag of Belgrade, Serbia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -26971,7 +26971,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 55,
+      "count": 56,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30275,7 +30275,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 372,
+      "count": 373,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -39319,6 +39319,24 @@
       "extraTags": {},
       "aliases": [],
       "description": "A red field with a white castle of three crenellated towers centered, the device of the U.S. Army Corps of Engineers; the hoist and fly edges are trimmed with a fringe."
+    },
+    {
+      "qid": "Q140002980",
+      "name": "flag of Callao",
+      "count": 1,
+      "file": "Bandera del Callao.png",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Callao",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q140002986",
