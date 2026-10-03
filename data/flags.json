@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T11:50:58.977Z",
+  "generated": "2026-10-03T11:04:02.466Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 689,
+      "count": 690,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18136,
+      "count": 18148,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 319,
+      "count": 320,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 627,
+      "count": 631,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1016,
+      "count": 1019,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1545,
+      "count": 1547,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5632,7 +5632,7 @@
     {
       "qid": "Q160861",
       "name": "flag of Slovakia",
-      "count": 98,
+      "count": 99,
       "file": "Flag of Slovakia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6810,7 +6810,7 @@
     {
       "qid": "Q167584",
       "name": "flag of Moldova",
-      "count": 14,
+      "count": 15,
       "file": "Flag of Moldova.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12498,7 +12498,7 @@
     {
       "qid": "Q673117",
       "name": "flag of Indiana",
-      "count": 87,
+      "count": 88,
       "file": "Flag of Indiana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13362,7 +13362,7 @@
     {
       "qid": "Q752569",
       "name": "flag of Maryland",
-      "count": 60,
+      "count": 61,
       "file": "Flag of Maryland.svg",
       "isFlagEntity": true,
       "colors": [
