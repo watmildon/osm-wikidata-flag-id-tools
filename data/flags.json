@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T11:45:22.895Z",
+  "generated": "2026-10-05T13:33:07.599Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18157,
+      "count": 18162,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1670,
+      "count": 1671,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3547,7 +3547,7 @@
     {
       "qid": "Q124020",
       "name": "flag of Switzerland",
-      "count": 145,
+      "count": 146,
       "file": "Flag of Switzerland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 316,
+      "count": 317,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 631,
+      "count": 633,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1026,
+      "count": 1029,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4751,7 +4751,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 171,
+      "count": 172,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12748,7 +12748,7 @@
     {
       "qid": "Q693701",
       "name": "flag of Saxony",
-      "count": 3,
+      "count": 4,
       "file": "Flag of Saxony.svg",
       "isFlagEntity": true,
       "colors": [
@@ -17207,7 +17207,7 @@
     {
       "qid": "Q2271903",
       "name": "flag of Misiones Province",
-      "count": 3,
+      "count": 4,
       "file": "Bandera de la Provincia de Misiones.svg",
       "isFlagEntity": true,
       "colors": [
