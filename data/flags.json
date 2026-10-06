@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-05T13:33:07.599Z",
+  "generated": "2026-10-06T12:43:10.064Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18162,
+      "count": 18172,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 407,
+      "count": 408,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1671,
+      "count": 1673,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1029,
+      "count": 1031,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1547,
+      "count": 1549,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4751,7 +4751,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 172,
+      "count": 173,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4981,7 +4981,7 @@
     {
       "qid": "Q148807",
       "name": "flag of Catalonia",
-      "count": 31,
+      "count": 33,
       "file": "Flag of Catalonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5674,7 +5674,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 439,
+      "count": 440,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13438,7 +13438,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 398,
+      "count": 401,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -22947,6 +22947,30 @@
       }
     },
     {
+      "qid": "Q11907861",
+      "name": "flag of Cubelles",
+      "count": 1,
+      "file": "Bandera de Cubelles.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "red"
+      ],
+      "wdColors": [
+        "yellow",
+        "red"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Cubelles",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q12060608",
       "name": "flag of Samogitia",
       "count": 2,
@@ -26941,7 +26965,7 @@
     {
       "qid": "Q74052383",
       "name": "Hilton Garden Inn flag",
-      "count": 5,
+      "count": 6,
       "file": "HGI-Logo-Color HR.png",
       "isFlagEntity": true,
       "colors": [
@@ -39460,7 +39484,7 @@
     {
       "qid": "Q140936143",
       "name": "Flag of Fire and Rescue New South Wales",
-      "count": 2,
+      "count": 3,
       "file": null,
       "wdImageProperty": null,
       "reverseFile": null,
