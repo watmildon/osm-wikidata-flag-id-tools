@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-06T12:43:10.064Z",
+  "generated": "2026-10-07T12:36:48.350Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18172,
+      "count": 18180,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2145,7 +2145,7 @@
     {
       "qid": "Q83149",
       "name": "flag of Norway",
-      "count": 419,
+      "count": 420,
       "file": "Flag of Norway.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 275,
+      "count": 276,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3547,7 +3547,7 @@
     {
       "qid": "Q124020",
       "name": "flag of Switzerland",
-      "count": 146,
+      "count": 147,
       "file": "Flag of Switzerland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1549,
+      "count": 1553,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4751,7 +4751,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 173,
+      "count": 175,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13438,7 +13438,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 401,
+      "count": 402,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30299,7 +30299,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 374,
+      "count": 375,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
