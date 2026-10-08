@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02T11:50:56.844Z",
+  "generated": "2026-10-08T12:46:41.294Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -170,6 +170,13 @@
       "suggested_name": "flag of Paraná"
     },
     {
+      "bad_qid": "Q15558",
+      "bad_name": "Cubelles",
+      "count": 2,
+      "suggested_qid": "Q11907861",
+      "suggested_name": "flag of Cubelles"
+    },
+    {
       "bad_qid": "Q15878",
       "bad_name": "Normandy",
       "count": 1,
@@ -315,6 +322,13 @@
       "count": 1,
       "suggested_qid": "Q140002996",
       "suggested_name": "flag of Des Plaines"
+    },
+    {
+      "bad_qid": "Q474489",
+      "bad_name": "Cunit",
+      "count": 2,
+      "suggested_qid": "Q20105547",
+      "suggested_name": "flag of Cunit"
     },
     {
       "bad_qid": "Q486459",

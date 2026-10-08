@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T12:36:48.350Z",
+  "generated": "2026-10-08T12:46:41.460Z",
   "palette": [
     "red",
     "white",
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 189,
+      "count": 188,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18180,
+      "count": 18190,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 604,
+      "count": 603,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1261,7 +1261,7 @@
     {
       "qid": "Q46585",
       "name": "flag of the Netherlands",
-      "count": 104,
+      "count": 103,
       "file": "Flag of the Netherlands.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 299,
+      "count": 298,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 320,
+      "count": 322,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1535,7 +1535,7 @@
     {
       "qid": "Q60149",
       "name": "flag of Denmark",
-      "count": 825,
+      "count": 824,
       "file": "Flag of Denmark.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1731,7 +1731,7 @@
     {
       "qid": "Q81286",
       "name": "flag of Sweden",
-      "count": 659,
+      "count": 658,
       "file": "Flag of Sweden.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 131,
+      "count": 132,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2058,7 +2058,7 @@
     {
       "qid": "Q82205",
       "name": "flag of Ireland",
-      "count": 118,
+      "count": 117,
       "file": "Flag of Ireland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 408,
+      "count": 407,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3547,7 +3547,7 @@
     {
       "qid": "Q124020",
       "name": "flag of Switzerland",
-      "count": 147,
+      "count": 146,
       "file": "Flag of Switzerland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 317,
+      "count": 318,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 291,
+      "count": 292,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1031,
+      "count": 1032,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4504,7 +4504,7 @@
     {
       "qid": "Q133022",
       "name": "flag of Luxembourg",
-      "count": 40,
+      "count": 39,
       "file": "Flag of Luxembourg.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1553,
+      "count": 1556,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4981,7 +4981,7 @@
     {
       "qid": "Q148807",
       "name": "flag of Catalonia",
-      "count": 33,
+      "count": 35,
       "file": "Flag of Catalonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5960,7 +5960,7 @@
     {
       "qid": "Q162980",
       "name": "flag of Montenegro",
-      "count": 9,
+      "count": 8,
       "file": "Flag of Montenegro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10741,7 +10741,7 @@
     {
       "qid": "Q392167",
       "name": "flag of Quebec",
-      "count": 78,
+      "count": 79,
       "file": "Flag of Quebec.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12946,7 +12946,7 @@
     {
       "qid": "Q730106",
       "name": "flag of Florida",
-      "count": 96,
+      "count": 97,
       "file": "Flag of Florida.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 777,
+      "count": 778,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -23826,7 +23826,7 @@
     {
       "qid": "Q20020313",
       "name": "Navajo Nation Flag",
-      "count": 3,
+      "count": 4,
       "file": "Navajo flag.svg",
       "isFlagEntity": true,
       "colors": [

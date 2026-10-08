@@ -72,12 +72,6 @@
     "file": "Palazzo Balbi (Venice).jpg"
   },
   {
-    "qid": "Q1336",
-    "name": "Rimouski",
-    "count": 1,
-    "file": "RimouskiCentreville.JPG"
-  },
-  {
     "qid": "Q1571",
     "name": "Marathi",
     "count": 1,
@@ -190,6 +184,12 @@
     "name": "Paraná",
     "count": 1,
     "file": "PicoParana2006.jpg"
+  },
+  {
+    "qid": "Q15558",
+    "name": "Cubelles",
+    "count": 2,
+    "file": "Cubelles 2020.jpg"
   },
   {
     "qid": "Q15786",
@@ -814,6 +814,12 @@
     "name": "Moncton",
     "count": 1,
     "file": "Moncton Montage b.png"
+  },
+  {
+    "qid": "Q474489",
+    "name": "Cunit",
+    "count": 2,
+    "file": "PlayasCalas.PNG"
   },
   {
     "qid": "Q476322",
