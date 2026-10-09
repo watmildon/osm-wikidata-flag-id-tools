@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T12:46:41.460Z",
+  "generated": "2026-10-09T12:32:24.962Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18190,
+      "count": 18196,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2427,
+      "count": 2428,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 407,
+      "count": 408,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1673,
+      "count": 1674,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 318,
+      "count": 319,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1032,
+      "count": 1034,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1556,
+      "count": 1559,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6319,7 +6319,7 @@
     {
       "qid": "Q165538",
       "name": "flag of Venezuela",
-      "count": 26,
+      "count": 27,
       "file": "Flag of Venezuela.svg",
       "isFlagEntity": true,
       "colors": [
@@ -8420,7 +8420,7 @@
     {
       "qid": "Q184265",
       "name": "flag of Dominican Republic",
-      "count": 20,
+      "count": 22,
       "file": "Flag of the Dominican Republic.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10508,7 +10508,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 372,
+      "count": 374,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21854,7 +21854,7 @@
     {
       "qid": "Q5456897",
       "name": "flag of the United States Marine Corps",
-      "count": 139,
+      "count": 140,
       "file": "Flag of the United States Marine Corps.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30299,7 +30299,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 375,
+      "count": 376,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
