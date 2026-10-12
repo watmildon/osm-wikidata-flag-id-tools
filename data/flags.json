@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-11T12:04:15.363Z",
+  "generated": "2026-10-12T14:22:39.086Z",
   "palette": [
     "red",
     "white",
@@ -86,7 +86,7 @@
     {
       "qid": "Q4633",
       "name": "flag of Cyprus",
-      "count": 35,
+      "count": 34,
       "file": "Flag of Cyprus.svg",
       "isFlagEntity": true,
       "colors": [
@@ -200,7 +200,7 @@
     {
       "qid": "Q12990",
       "name": "flag of Belgium",
-      "count": 188,
+      "count": 187,
       "file": "Flag of Belgium (civil).svg",
       "isFlagEntity": true,
       "colors": [
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 301,
+      "count": 303,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18222,
+      "count": 18234,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2427,
+      "count": 2426,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1261,7 +1261,7 @@
     {
       "qid": "Q46585",
       "name": "flag of the Netherlands",
-      "count": 103,
+      "count": 104,
       "file": "Flag of the Netherlands.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1300,7 +1300,7 @@
     {
       "qid": "Q46835",
       "name": "flag of Austria",
-      "count": 90,
+      "count": 89,
       "file": "Flag of Austria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 299,
+      "count": 298,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1535,7 +1535,7 @@
     {
       "qid": "Q60149",
       "name": "flag of Denmark",
-      "count": 824,
+      "count": 823,
       "file": "Flag of Denmark.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1731,7 +1731,7 @@
     {
       "qid": "Q81286",
       "name": "flag of Sweden",
-      "count": 658,
+      "count": 657,
       "file": "Flag of Sweden.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1769,7 +1769,7 @@
     {
       "qid": "Q81471",
       "name": "flag of Estonia",
-      "count": 117,
+      "count": 116,
       "file": "Flag of Estonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1809,7 +1809,7 @@
     {
       "qid": "Q81477",
       "name": "flag of Lithuania",
-      "count": 63,
+      "count": 62,
       "file": "Flag of Lithuania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1972,7 +1972,7 @@
     {
       "qid": "Q81970",
       "name": "flag of Hungary",
-      "count": 146,
+      "count": 145,
       "file": "Flag of Hungary.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 408,
+      "count": 407,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3661,7 +3661,7 @@
     {
       "qid": "Q127155",
       "name": "flag of the Czech Republic",
-      "count": 114,
+      "count": 113,
       "file": "Flag of the Czech Republic.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 319,
+      "count": 318,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3896,7 +3896,7 @@
     {
       "qid": "Q128812",
       "name": "flag of Portugal",
-      "count": 99,
+      "count": 98,
       "file": "Flag of Portugal (official).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 292,
+      "count": 291,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4017,7 +4017,7 @@
     {
       "qid": "Q130449",
       "name": "flag of Latvia",
-      "count": 61,
+      "count": 60,
       "file": "Flag of Latvia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 633,
+      "count": 634,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4176,7 +4176,7 @@
     {
       "qid": "Q130807",
       "name": "flag of Slovenia",
-      "count": 133,
+      "count": 132,
       "file": "Flag of Slovenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4220,7 +4220,7 @@
     {
       "qid": "Q130811",
       "name": "flag of Romania",
-      "count": 129,
+      "count": 128,
       "file": "Flag of Romania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4335,7 +4335,7 @@
     {
       "qid": "Q131469",
       "name": "flag of Malta",
-      "count": 27,
+      "count": 26,
       "file": "Flag of Malta.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4454,7 +4454,7 @@
     {
       "qid": "Q133015",
       "name": "flag of Croatia",
-      "count": 85,
+      "count": 84,
       "file": "Flag of Croatia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4504,7 +4504,7 @@
     {
       "qid": "Q133022",
       "name": "flag of Luxembourg",
-      "count": 39,
+      "count": 38,
       "file": "Flag of Luxembourg.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5632,7 +5632,7 @@
     {
       "qid": "Q160861",
       "name": "flag of Slovakia",
-      "count": 99,
+      "count": 98,
       "file": "Flag of Slovakia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5674,7 +5674,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 440,
+      "count": 442,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9709,7 +9709,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 118,
+      "count": 117,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13860,7 +13860,7 @@
     {
       "qid": "Q828147",
       "name": "flag of Minnesota",
-      "count": 32,
+      "count": 33,
       "file": "Flag of Minnesota.svg",
       "isFlagEntity": true,
       "colors": [
@@ -18680,7 +18680,7 @@
     {
       "qid": "Q2726006",
       "name": "flag of Moscow Oblast",
-      "count": 1,
+      "count": 2,
       "file": "Flag of Moscow oblast.svg",
       "wdImageProperty": "P18",
       "reverseFile": null,
@@ -20351,6 +20351,24 @@
       "description": "A light blue upper field with a white crenellated wall of masonry across the lower two-thirds. Above the wall stands a white bell tower with a golden onion dome and cross, flanked by two crossed yellow halberds. A dark arched gateway is set in the wall below."
     },
     {
+      "qid": "Q4487798",
+      "name": "flag of Sergiyevo-Posadsky District",
+      "count": 1,
+      "file": "Flag of Sergiev Posad rayon (Moscow oblast).png",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Sergiyevo-Posadsky District",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q4487879",
       "name": "flag of Sokolsky District",
       "count": 2,
@@ -20458,6 +20476,24 @@
         "yellow"
       ],
       "description": "A solid green field with the city coat of arms centered: a green shield bordered yellow containing a yellow cornucopia spilling fruit and flowers, with a caduceus (winged staff with two serpents) crossed behind it."
+    },
+    {
+      "qid": "Q4488299",
+      "name": "flag of Khotkovo",
+      "count": 1,
+      "file": "Flag of Khotkovo (Moscow oblast).png",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Khotkovo",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q4490372",
