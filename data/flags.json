@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12T14:22:39.086Z",
+  "generated": "2026-10-13T13:31:33.802Z",
   "palette": [
     "red",
     "white",
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 303,
+      "count": 302,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -916,7 +916,7 @@
     {
       "qid": "Q41673",
       "name": "flag of India",
-      "count": 125,
+      "count": 128,
       "file": "Flag of India.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18234,
+      "count": 18245,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 603,
+      "count": 604,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2426,
+      "count": 2431,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1613,7 +1613,7 @@
     {
       "qid": "Q79198",
       "name": "flag of Vatican City",
-      "count": 70,
+      "count": 71,
       "file": "Flag of Vatican City (2023–present).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 291,
+      "count": 293,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4220,7 +4220,7 @@
     {
       "qid": "Q130811",
       "name": "flag of Romania",
-      "count": 128,
+      "count": 129,
       "file": "Flag of Romania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1035,
+      "count": 1037,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1562,
+      "count": 1565,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4751,7 +4751,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 176,
+      "count": 178,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5632,7 +5632,7 @@
     {
       "qid": "Q160861",
       "name": "flag of Slovakia",
-      "count": 98,
+      "count": 99,
       "file": "Flag of Slovakia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9638,7 +9638,7 @@
     {
       "qid": "Q221881",
       "name": "flag of Massachusetts",
-      "count": 52,
+      "count": 53,
       "file": "Flag of Massachusetts.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10847,7 +10847,7 @@
     {
       "qid": "Q458651",
       "name": "Blue Flag beach",
-      "count": 19,
+      "count": 20,
       "file": null,
       "isFlagEntity": true,
       "colors": [
@@ -12946,7 +12946,7 @@
     {
       "qid": "Q730106",
       "name": "flag of Florida",
-      "count": 97,
+      "count": 98,
       "file": "Flag of Florida.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 778,
+      "count": 779,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21851,7 +21851,7 @@
     {
       "qid": "Q5456895",
       "name": "flag of the United States Coast Guard",
-      "count": 115,
+      "count": 116,
       "file": "Flag of the United States Coast Guard.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21929,7 +21929,7 @@
     {
       "qid": "Q5456898",
       "name": "flag of the United States Army",
-      "count": 128,
+      "count": 129,
       "file": "Flag of the United States Army.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21972,7 +21972,7 @@
     {
       "qid": "Q5456899",
       "name": "flag of the United States Navy",
-      "count": 116,
+      "count": 117,
       "file": "Flag of the United States Navy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30335,7 +30335,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 377,
+      "count": 378,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
