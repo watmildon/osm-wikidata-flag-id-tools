@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-13T13:31:33.802Z",
+  "generated": "2026-10-15T10:49:49.066Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18245,
+      "count": 18271,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1097,
+      "count": 1099,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 306,
+      "count": 307,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2058,7 +2058,7 @@
     {
       "qid": "Q82205",
       "name": "flag of Ireland",
-      "count": 117,
+      "count": 118,
       "file": "Flag of Ireland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 276,
+      "count": 277,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4176,7 +4176,7 @@
     {
       "qid": "Q130807",
       "name": "flag of Slovenia",
-      "count": 132,
+      "count": 133,
       "file": "Flag of Slovenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4220,7 +4220,7 @@
     {
       "qid": "Q130811",
       "name": "flag of Romania",
-      "count": 129,
+      "count": 130,
       "file": "Flag of Romania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1037,
+      "count": 1040,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1565,
+      "count": 1574,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7053,7 +7053,7 @@
     {
       "qid": "Q168941",
       "name": "flag of Panama",
-      "count": 43,
+      "count": 44,
       "file": "Flag of Panama.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12070,7 +12070,7 @@
     {
       "qid": "Q618036",
       "name": "flag of Toronto",
-      "count": 13,
+      "count": 14,
       "file": "Flag of Toronto, Canada.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13438,7 +13438,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 403,
+      "count": 406,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14537,7 +14537,7 @@
     {
       "qid": "Q1084035",
       "name": "Christian Flag",
-      "count": 62,
+      "count": 63,
       "file": "Christian flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14875,7 +14875,7 @@
     {
       "qid": "Q1165949",
       "name": "flag of Ontario",
-      "count": 59,
+      "count": 60,
       "file": "Flag of Ontario.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15207,7 +15207,7 @@
     {
       "qid": "Q1402799",
       "name": "flag of Chicago",
-      "count": 415,
+      "count": 417,
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 779,
+      "count": 783,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30335,7 +30335,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 378,
+      "count": 379,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [

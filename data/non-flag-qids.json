@@ -786,6 +786,12 @@
     "file": "Des Plaines, IL.jpg"
   },
   {
+    "qid": "Q391071",
+    "name": "Evergreen Park",
+    "count": 1,
+    "file": "Evergreen Plaza, Evergreen Park, Illinois.jpg"
+  },
+  {
     "qid": "Q391077",
     "name": "Hanover Park",
     "count": 1,
@@ -1218,6 +1224,12 @@
     "file": null
   },
   {
+    "qid": "Q955764",
+    "name": "University of Illinois Chicago",
+    "count": 7,
+    "file": "University of Illinois at Chicago -1.jpg"
+  },
+  {
     "qid": "Q974038",
     "name": "Budapest District XII",
     "count": 1,
@@ -1358,7 +1370,7 @@
   {
     "qid": "Q1340186",
     "name": "Chicago Police Department",
-    "count": 1,
+    "count": 2,
     "file": null
   },
   {
@@ -1634,7 +1646,7 @@
   {
     "qid": "Q2963308",
     "name": "Chicago Fire Department",
-    "count": 1,
+    "count": 2,
     "file": null
   },
   {
