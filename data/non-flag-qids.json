@@ -768,6 +768,12 @@
     "file": "Oak park lake street.jpg"
   },
   {
+    "qid": "Q338720",
+    "name": "North Chicago",
+    "count": 1,
+    "file": null
+  },
+  {
     "qid": "Q353080",
     "name": "Addison",
     "count": 1,
@@ -1582,6 +1588,12 @@
     "name": "Santa Isabel",
     "count": 2,
     "file": "Jauca 2, Santa Isabel, Puerto Rico - panoramio.jpg"
+  },
+  {
+    "qid": "Q2487297",
+    "name": "Academic Medical Center Amsterdam",
+    "count": 1,
+    "file": "Academisch Medisch Centrum Amsterdam 001.jpg"
   },
   {
     "qid": "Q2500754",

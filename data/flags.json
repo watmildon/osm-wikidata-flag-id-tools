@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T10:49:49.066Z",
+  "generated": "2026-10-17T10:07:06.051Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 690,
+      "count": 691,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18271,
+      "count": 18295,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1300,7 +1300,7 @@
     {
       "qid": "Q46835",
       "name": "flag of Austria",
-      "count": 89,
+      "count": 90,
       "file": "Flag of Austria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 407,
+      "count": 408,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3457,7 +3457,7 @@
     {
       "qid": "Q122462",
       "name": "flag of Mexico",
-      "count": 277,
+      "count": 278,
       "file": "Flag of Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 293,
+      "count": 294,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1040,
+      "count": 1041,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1574,
+      "count": 1577,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4791,7 +4791,7 @@
     {
       "qid": "Q134933",
       "name": "flag of Senegal",
-      "count": 9,
+      "count": 10,
       "file": "Flag of Senegal.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5632,7 +5632,7 @@
     {
       "qid": "Q160861",
       "name": "flag of Slovakia",
-      "count": 99,
+      "count": 100,
       "file": "Flag of Slovakia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12498,7 +12498,7 @@
     {
       "qid": "Q673117",
       "name": "flag of Indiana",
-      "count": 89,
+      "count": 90,
       "file": "Flag of Indiana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12535,7 +12535,7 @@
     {
       "qid": "Q676623",
       "name": "flag of Georgia",
-      "count": 46,
+      "count": 47,
       "file": "Flag of the State of Georgia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15332,7 +15332,7 @@
     {
       "qid": "Q1426379",
       "name": "flag of Amsterdam",
-      "count": 1,
+      "count": 2,
       "file": "Flag of Amsterdam.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 783,
+      "count": 784,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -28559,7 +28559,7 @@
     {
       "qid": "Q96633914",
       "name": "“Progress” pride flag",
-      "count": 20,
+      "count": 21,
       "file": "LGBTQ+ rainbow flag Quasar \"Progress\" variant.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30335,7 +30335,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 379,
+      "count": 381,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
