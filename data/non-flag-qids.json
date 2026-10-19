@@ -284,7 +284,7 @@
   {
     "qid": "Q35919",
     "name": "Lexus",
-    "count": 2,
+    "count": 1,
     "file": "Lexus of Sapporo.jpg"
   },
   {
@@ -374,7 +374,7 @@
   {
     "qid": "Q53268",
     "name": "Toyota",
-    "count": 3,
+    "count": 1,
     "file": "Headquarter of Toyota Motor Corporation 3.JPG"
   },
   {
@@ -478,12 +478,6 @@
     "name": "Sisak-Moslavina County",
     "count": 1,
     "file": "Sisačko-moslovačka županija.jpg"
-  },
-  {
-    "qid": "Q61757",
-    "name": "Hortobágy National Park",
-    "count": 1,
-    "file": "Hortobagy-ziehbrunnen.jpg"
   },
   {
     "qid": "Q78267",
@@ -618,12 +612,6 @@
     "file": "Maywood Station IL - May 2016.jpg"
   },
   {
-    "qid": "Q181642",
-    "name": "Suzuki Motor Corporation",
-    "count": 1,
-    "file": "Suzuki Motor.jpg"
-  },
-  {
     "qid": "Q182500",
     "name": "Community of Portuguese Language Countries",
     "count": 1,
@@ -690,12 +678,6 @@
     "file": "440 - Place Colbert - Rochefort.jpg"
   },
   {
-    "qid": "Q214948",
-    "name": "Cegléd",
-    "count": 1,
-    "file": "Cegléd - Church.jpg"
-  },
-  {
     "qid": "Q243007",
     "name": "Naperville",
     "count": 1,
@@ -720,12 +702,6 @@
     "file": "Bensenville Downtown 2017 01.jpg"
   },
   {
-    "qid": "Q277681",
-    "name": "Semmelweis University",
-    "count": 2,
-    "file": "Semmelweis University, main building.jpg"
-  },
-  {
     "qid": "Q309350",
     "name": "Northwestern University",
     "count": 3,
@@ -748,18 +724,6 @@
     "name": "Elk Grove Village",
     "count": 1,
     "file": "Aerial view of warehouses in Elk Grove Village, IL.jpg"
-  },
-  {
-    "qid": "Q329768",
-    "name": "Tata",
-    "count": 1,
-    "file": "Tata Castle 5.jpg"
-  },
-  {
-    "qid": "Q330195",
-    "name": "Budapest District IV",
-    "count": 3,
-    "file": "UjpestVaroshazaFotoThalerTamas.JPG"
   },
   {
     "qid": "Q331397",
@@ -936,12 +900,6 @@
     "file": "Merrillville Skyline with US 30.jpg"
   },
   {
-    "qid": "Q549181",
-    "name": "MOL Group",
-    "count": 2,
-    "file": "Mol Campus.jpg"
-  },
-  {
     "qid": "Q569763",
     "name": "Wufeng District",
     "count": 1,
@@ -1016,7 +974,7 @@
   {
     "qid": "Q597182",
     "name": "Budapest District VIII",
-    "count": 3,
+    "count": 1,
     "file": "Wenckheim Palace, IMG 0168 - Hungary, Pest.jpg"
   },
   {
@@ -1030,12 +988,6 @@
     "name": "Niles",
     "count": 4,
     "file": "Leaning Tower of Niles.jpg"
-  },
-  {
-    "qid": "Q613220",
-    "name": "Budapest District XXI",
-    "count": 1,
-    "file": "Promontor Udvar Shopping Centre.JPG"
   },
   {
     "qid": "Q614274",
@@ -1066,12 +1018,6 @@
     "name": "Chūō-shi",
     "count": 1,
     "file": "Koikawa post office where cultural assets are old.JPG"
-  },
-  {
-    "qid": "Q674311",
-    "name": "Kisvárda",
-    "count": 1,
-    "file": "Kisvárda, főtér 2.JPG"
   },
   {
     "qid": "Q682443",
@@ -1158,12 +1104,6 @@
     "file": "Temecula City Hall.jpg"
   },
   {
-    "qid": "Q843006",
-    "name": "Nagykálló",
-    "count": 1,
-    "file": "Nagykálló, vármegyeháza 2023 02.jpg"
-  },
-  {
     "qid": "Q846153",
     "name": "San Roque",
     "count": 2,
@@ -1206,22 +1146,10 @@
     "file": null
   },
   {
-    "qid": "Q920166",
-    "name": "ibis Hotels",
-    "count": 1,
-    "file": null
-  },
-  {
     "qid": "Q929693",
     "name": "New Fatherland",
     "count": 1,
     "file": "Flag of Chile (1818–1912).svg"
-  },
-  {
-    "qid": "Q942875",
-    "name": "International Union of Guides and Scouts of Europe",
-    "count": 1,
-    "file": "Flag of the International Union of the Guides and Scouts of Europe.jpg"
   },
   {
     "qid": "Q947913",
@@ -1234,12 +1162,6 @@
     "name": "University of Illinois Chicago",
     "count": 7,
     "file": "University of Illinois at Chicago -1.jpg"
-  },
-  {
-    "qid": "Q974038",
-    "name": "Budapest District XII",
-    "count": 1,
-    "file": "12csillebérccivertanlégi civertan license.jpg"
   },
   {
     "qid": "Q979996",
@@ -1702,12 +1624,6 @@
     "name": "Appleton International Airport",
     "count": 1,
     "file": "Appleton International Airport Tower and Gulfstream Hangar.jpg"
-  },
-  {
-    "qid": "Q3295867",
-    "name": "The Coca-Cola Company",
-    "count": 1,
-    "file": "Coca-ColaHQ.jpg"
   },
   {
     "qid": "Q3462972",

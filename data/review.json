@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T12:46:41.294Z",
+  "generated": "2026-10-19T12:05:02.080Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -303,13 +303,6 @@
       "suggested_name": "Q106677780"
     },
     {
-      "bad_qid": "Q330195",
-      "bad_name": "Budapest District IV",
-      "count": 3,
-      "suggested_qid": "Q140002974",
-      "suggested_name": "flag of Budapest District IV"
-    },
-    {
       "bad_qid": "Q368526",
       "bad_name": "Yauco",
       "count": 2,
@@ -347,7 +340,7 @@
     {
       "bad_qid": "Q597182",
       "bad_name": "Budapest District VIII",
-      "count": 3,
+      "count": 1,
       "suggested_qid": "Q140002975",
       "suggested_name": "flag of Budapest District VIII"
     },
