@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T12:05:03.392Z",
+  "generated": "2026-10-20T10:54:16.990Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 691,
+      "count": 693,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18305,
+      "count": 18339,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 307,
+      "count": 308,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1675,
+      "count": 1676,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3736,7 +3736,7 @@
     {
       "qid": "Q127296",
       "name": "flag of South Korea",
-      "count": 70,
+      "count": 71,
       "file": "Flag of South Korea.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4017,7 +4017,7 @@
     {
       "qid": "Q130449",
       "name": "flag of Latvia",
-      "count": 60,
+      "count": 61,
       "file": "Flag of Latvia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1046,
+      "count": 1050,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7870,7 +7870,7 @@
     {
       "qid": "Q172533",
       "name": "flag of Nicaragua",
-      "count": 25,
+      "count": 26,
       "file": "Flag of Nicaragua.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9638,7 +9638,7 @@
     {
       "qid": "Q221881",
       "name": "flag of Massachusetts",
-      "count": 53,
+      "count": 54,
       "file": "Flag of Massachusetts.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13860,7 +13860,7 @@
     {
       "qid": "Q828147",
       "name": "flag of Minnesota",
-      "count": 33,
+      "count": 34,
       "file": "Flag of Minnesota.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 784,
+      "count": 790,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
