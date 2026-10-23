@@ -1346,7 +1346,7 @@
   {
     "qid": "Q1530761",
     "name": "Glen Ellyn",
-    "count": 1,
+    "count": 2,
     "file": "Glen-ellyn-historic-district.jpg"
   },
   {
@@ -1690,6 +1690,12 @@
     "name": "Brandywine flag",
     "count": 0,
     "file": null
+  },
+  {
+    "qid": "Q5146678",
+    "name": "College of DuPage",
+    "count": 1,
+    "file": "College of DuPage.JPG"
   },
   {
     "qid": "Q5331091",
