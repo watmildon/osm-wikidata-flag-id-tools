@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-23T10:58:45.329Z",
+  "generated": "2026-10-27T11:34:23.355Z",
   "palette": [
     "red",
     "white",
@@ -281,7 +281,7 @@
     {
       "qid": "Q18983",
       "name": "flag of Pennsylvania",
-      "count": 38,
+      "count": 39,
       "file": "Flag of Pennsylvania.svg",
       "isFlagEntity": true,
       "colors": [
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 302,
+      "count": 303,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -466,7 +466,7 @@
     {
       "qid": "Q19373",
       "name": "flag of South Carolina",
-      "count": 48,
+      "count": 49,
       "file": "Flag of South Carolina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -916,7 +916,7 @@
     {
       "qid": "Q41673",
       "name": "flag of India",
-      "count": 128,
+      "count": 129,
       "file": "Flag of India.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 693,
+      "count": 696,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18393,
+      "count": 18412,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 605,
+      "count": 607,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1082,7 +1082,7 @@
     {
       "qid": "Q43175",
       "name": "flag of Japan",
-      "count": 105,
+      "count": 107,
       "file": "Flag of Japan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 299,
+      "count": 304,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 322,
+      "count": 321,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1455,7 +1455,7 @@
     {
       "qid": "Q51401",
       "name": "LGBTQ pride flag",
-      "count": 55,
+      "count": 57,
       "file": "Gay Pride Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1102,
+      "count": 1104,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1769,7 +1769,7 @@
     {
       "qid": "Q81471",
       "name": "flag of Estonia",
-      "count": 116,
+      "count": 117,
       "file": "Flag of Estonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 352,
+      "count": 354,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 133,
+      "count": 132,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2058,7 +2058,7 @@
     {
       "qid": "Q82205",
       "name": "flag of Ireland",
-      "count": 118,
+      "count": 119,
       "file": "Flag of Ireland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2618,7 +2618,7 @@
     {
       "qid": "Q102960",
       "name": "flag of Nigeria",
-      "count": 12,
+      "count": 13,
       "file": "Flag of Nigeria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1677,
+      "count": 1679,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3858,7 +3858,7 @@
     {
       "qid": "Q128480",
       "name": "flag of Israel",
-      "count": 72,
+      "count": 73,
       "file": "Flag of Israel.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 295,
+      "count": 294,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 634,
+      "count": 635,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4176,7 +4176,7 @@
     {
       "qid": "Q130807",
       "name": "flag of Slovenia",
-      "count": 133,
+      "count": 135,
       "file": "Flag of Slovenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1063,
+      "count": 1071,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1584,
+      "count": 1602,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4751,7 +4751,7 @@
     {
       "qid": "Q134885",
       "name": "flag of Thailand",
-      "count": 180,
+      "count": 181,
       "file": "Flag of Thailand.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5674,7 +5674,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 443,
+      "count": 445,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -8807,7 +8807,7 @@
     {
       "qid": "Q186456",
       "name": "flag of Hong Kong",
-      "count": 11,
+      "count": 12,
       "file": "Flag of Hong Kong.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10226,7 +10226,7 @@
     {
       "qid": "Q266618",
       "name": "flag of Prince Edward Island",
-      "count": 11,
+      "count": 12,
       "file": "Flag of Prince Edward Island.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10929,7 +10929,7 @@
     {
       "qid": "Q462621",
       "name": "Torres Strait Islander flag",
-      "count": 36,
+      "count": 38,
       "file": "Torres Strait Flag Day 2021 - 51222675210.jpg",
       "isFlagEntity": true,
       "colors": [
@@ -12912,7 +12912,7 @@
     {
       "qid": "Q707471",
       "name": "flag of Bavaria",
-      "count": 19,
+      "count": 18,
       "file": "Flag of Bavaria (striped).svg",
       "isFlagEntity": true,
       "colors": [
@@ -13245,7 +13245,7 @@
     {
       "qid": "Q752559",
       "name": "flag of Ohio",
-      "count": 338,
+      "count": 339,
       "file": "Flag of Ohio.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14271,7 +14271,7 @@
     {
       "qid": "Q938601",
       "name": "flag of Galicia",
-      "count": 17,
+      "count": 18,
       "file": "Flag of Galicia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14988,7 +14988,7 @@
     {
       "qid": "Q1285625",
       "name": "Australian Aboriginal flag",
-      "count": 83,
+      "count": 85,
       "file": "Australian Aboriginal Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15285,7 +15285,7 @@
     {
       "qid": "Q1418784",
       "name": "flag of New Brunswick",
-      "count": 46,
+      "count": 47,
       "file": "Flag of New Brunswick.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 791,
+      "count": 793,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16727,6 +16727,24 @@
         "colors": 3
       },
       "description": "Two equal horizontal bands of yellow over red."
+    },
+    {
+      "qid": "Q2145071",
+      "name": "Flag of Graubünden",
+      "count": 1,
+      "file": "CHE Graubünden Flag.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Graubünden",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q2151681",
@@ -20693,6 +20711,32 @@
       }
     },
     {
+      "qid": "Q4988901",
+      "name": "flag of Warmian-Masurian Voivodeship",
+      "count": 2,
+      "file": "POL województwo warmińsko-mazurskie flag.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white",
+        "yellow"
+      ],
+      "wdColors": [
+        "red",
+        "white",
+        "yellow"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Warmian-Masurian Voivodeship",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q5138565",
       "name": "Coat of arms of the Macedonian Orthodox Church – Archdiocese of Ohrid",
       "count": 1,
@@ -22584,6 +22628,30 @@
         "colors": 3
       },
       "description": "A buff field bearing the Mexico City coat of arms centered: a blue shield with a triple-towered gold castle on a bridge above water, flanked by three gold lions, all within a yellow border charged with green prickly-pear cactus pads."
+    },
+    {
+      "qid": "Q8980339",
+      "name": "flag of Kagoshima Prefecture",
+      "count": 1,
+      "file": "Flag of Kagoshima Prefecture.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "red",
+        "white"
+      ],
+      "wdColors": [
+        "red",
+        "white"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Kagoshima Prefecture",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q9260246",
@@ -27009,7 +27077,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 58,
+      "count": 65,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [

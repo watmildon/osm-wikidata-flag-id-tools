@@ -282,12 +282,6 @@
     "file": "Logo of Croatian Defence Council 2.svg"
   },
   {
-    "qid": "Q35919",
-    "name": "Lexus",
-    "count": 1,
-    "file": "Lexus of Sapporo.jpg"
-  },
-  {
     "qid": "Q36008",
     "name": "Mercedes-Benz",
     "count": 1,
@@ -364,18 +358,6 @@
     "name": "Social Democratic Party of Germany",
     "count": 1,
     "file": null
-  },
-  {
-    "qid": "Q51403",
-    "name": "Man in Black",
-    "count": 1,
-    "file": null
-  },
-  {
-    "qid": "Q53268",
-    "name": "Toyota",
-    "count": 1,
-    "file": "Headquarter of Toyota Motor Corporation 3.JPG"
   },
   {
     "qid": "Q54151",
@@ -678,6 +660,12 @@
     "file": "440 - Place Colbert - Rochefort.jpg"
   },
   {
+    "qid": "Q220222",
+    "name": "Nation of Islam",
+    "count": 1,
+    "file": "Elijah Muhammad and Cassius Clay NYWTS.jpg"
+  },
+  {
     "qid": "Q243007",
     "name": "Naperville",
     "count": 1,
@@ -970,12 +958,6 @@
     "name": "Organization of Turkic States",
     "count": 1,
     "file": "Headquarter of The Organization of Turkic States in 2022 (1).jpg"
-  },
-  {
-    "qid": "Q597182",
-    "name": "Budapest District VIII",
-    "count": 1,
-    "file": "Wenckheim Palace, IMG 0168 - Hungary, Pest.jpg"
   },
   {
     "qid": "Q599694",

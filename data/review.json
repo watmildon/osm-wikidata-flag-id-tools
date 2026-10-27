@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T10:54:16.850Z",
+  "generated": "2026-10-27T11:34:19.998Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -336,13 +336,6 @@
       "count": 1,
       "suggested_qid": "Q140002998",
       "suggested_name": "flag of Monterey"
-    },
-    {
-      "bad_qid": "Q597182",
-      "bad_name": "Budapest District VIII",
-      "count": 1,
-      "suggested_qid": "Q140002975",
-      "suggested_name": "flag of Budapest District VIII"
     },
     {
       "bad_qid": "Q599694",
