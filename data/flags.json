@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-28T12:05:03.607Z",
+  "generated": "2026-10-29T12:15:07.650Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 696,
+      "count": 697,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18430,
+      "count": 18439,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1082,7 +1082,7 @@
     {
       "qid": "Q43175",
       "name": "flag of Japan",
-      "count": 107,
+      "count": 110,
       "file": "Flag of Japan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2433,
+      "count": 2435,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1300,7 +1300,7 @@
     {
       "qid": "Q46835",
       "name": "flag of Austria",
-      "count": 90,
+      "count": 91,
       "file": "Flag of Austria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 322,
+      "count": 323,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1455,7 +1455,7 @@
     {
       "qid": "Q51401",
       "name": "LGBTQ pride flag",
-      "count": 57,
+      "count": 59,
       "file": "Gay Pride Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1104,
+      "count": 1105,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2145,7 +2145,7 @@
     {
       "qid": "Q83149",
       "name": "flag of Norway",
-      "count": 420,
+      "count": 421,
       "file": "Flag of Norway.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 409,
+      "count": 410,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3781,7 +3781,7 @@
     {
       "qid": "Q127974",
       "name": "flag of Ukraine",
-      "count": 319,
+      "count": 320,
       "file": "Flag of Ukraine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1074,
+      "count": 1077,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1606,
+      "count": 1614,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4981,7 +4981,7 @@
     {
       "qid": "Q148807",
       "name": "flag of Catalonia",
-      "count": 36,
+      "count": 38,
       "file": "Flag of Catalonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5552,7 +5552,7 @@
     {
       "qid": "Q160425",
       "name": "flag of Colombia",
-      "count": 50,
+      "count": 51,
       "file": "Flag of Colombia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5755,7 +5755,7 @@
     {
       "qid": "Q162033",
       "name": "flag of Bosnia and Herzegovina",
-      "count": 26,
+      "count": 27,
       "file": "Flag of Bosnia and Herzegovina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12880,7 +12880,7 @@
     {
       "qid": "Q698762",
       "name": "flag of Baden-Württemberg",
-      "count": 6,
+      "count": 7,
       "file": "Flag of Baden-Württemberg.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13245,7 +13245,7 @@
     {
       "qid": "Q752559",
       "name": "flag of Ohio",
-      "count": 339,
+      "count": 340,
       "file": "Flag of Ohio.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 794,
+      "count": 795,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -27077,7 +27077,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 65,
+      "count": 68,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30381,7 +30381,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 381,
+      "count": 383,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
