@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-31T11:39:44.556Z",
+  "generated": "2026-11-01T12:38:55.101Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18459,
+      "count": 18467,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 288,
+      "count": 289,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3858,7 +3858,7 @@
     {
       "qid": "Q128480",
       "name": "flag of Israel",
-      "count": 74,
+      "count": 75,
       "file": "Flag of Israel.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4545,7 +4545,7 @@
     {
       "qid": "Q134247",
       "name": "flag of the United Arab Emirates",
-      "count": 16,
+      "count": 17,
       "file": "Flag of the United Arab Emirates.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6692,7 +6692,7 @@
     {
       "qid": "Q165872",
       "name": "flag of Brunei",
-      "count": 7,
+      "count": 8,
       "file": "Flag of Brunei.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11244,7 +11244,7 @@
     {
       "qid": "Q497997",
       "name": "flag of Alabama",
-      "count": 33,
+      "count": 34,
       "file": "Flag of Alabama.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13362,7 +13362,7 @@
     {
       "qid": "Q752569",
       "name": "flag of Maryland",
-      "count": 65,
+      "count": 66,
       "file": "Flag of Maryland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 795,
+      "count": 796,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15884,7 +15884,7 @@
     {
       "qid": "Q1788743",
       "name": "Confederate Battle Flag",
-      "count": 50,
+      "count": 49,
       "file": "North Virginia Third Bunting.svg",
       "isFlagEntity": true,
       "colors": [
@@ -28605,7 +28605,7 @@
     {
       "qid": "Q96633914",
       "name": "“Progress” pride flag",
-      "count": 21,
+      "count": 22,
       "file": "LGBTQ+ rainbow flag Quasar \"Progress\" variant.svg",
       "isFlagEntity": true,
       "colors": [
