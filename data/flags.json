@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-01T12:38:55.101Z",
+  "generated": "2026-11-02T14:42:54.126Z",
   "palette": [
     "red",
     "white",
@@ -327,7 +327,7 @@
     {
       "qid": "Q18993",
       "name": "flag of Virginia",
-      "count": 100,
+      "count": 101,
       "file": "Flag of Virginia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 303,
+      "count": 304,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18467,
+      "count": 18474,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 607,
+      "count": 610,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1300,7 +1300,7 @@
     {
       "qid": "Q46835",
       "name": "flag of Austria",
-      "count": 91,
+      "count": 92,
       "file": "Flag of Austria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1107,
+      "count": 1108,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1972,7 +1972,7 @@
     {
       "qid": "Q81970",
       "name": "flag of Hungary",
-      "count": 145,
+      "count": 146,
       "file": "Flag of Hungary.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 295,
+      "count": 296,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1614,
+      "count": 1615,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5674,7 +5674,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 446,
+      "count": 447,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7760,7 +7760,7 @@
     {
       "qid": "Q172446",
       "name": "flag of the United Nations",
-      "count": 27,
+      "count": 29,
       "file": "Flag of the United Nations.svg",
       "isFlagEntity": true,
       "colors": [
