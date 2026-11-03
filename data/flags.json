@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02T14:42:54.126Z",
+  "generated": "2026-11-03T13:35:39.091Z",
   "palette": [
     "red",
     "white",
@@ -707,7 +707,7 @@
     {
       "qid": "Q33213",
       "name": "flag of Armenia",
-      "count": 53,
+      "count": 52,
       "file": "Flag of Armenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 698,
+      "count": 702,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18474,
+      "count": 18484,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 610,
+      "count": 611,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 289,
+      "count": 288,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1078,
+      "count": 1085,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1615,
+      "count": 1616,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9817,7 +9817,7 @@
     {
       "qid": "Q235475",
       "name": "Ikurrina",
-      "count": 38,
+      "count": 39,
       "file": "Flag of the Basque Country.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9903,7 +9903,7 @@
     {
       "qid": "Q238759",
       "name": "flag of Macau",
-      "count": 2,
+      "count": 3,
       "file": "Flag of Macau.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11281,7 +11281,7 @@
     {
       "qid": "Q499127",
       "name": "flag of Maine",
-      "count": 7,
+      "count": 8,
       "file": "Flag of Maine.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12350,7 +12350,7 @@
     {
       "qid": "Q637134",
       "name": "flag of British Columbia",
-      "count": 63,
+      "count": 64,
       "file": "Flag of British Columbia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12946,7 +12946,7 @@
     {
       "qid": "Q730106",
       "name": "flag of Florida",
-      "count": 98,
+      "count": 99,
       "file": "Flag of Florida.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13438,7 +13438,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 414,
+      "count": 415,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25569,7 +25569,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 215,
+      "count": 218,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -30381,7 +30381,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 383,
+      "count": 384,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [

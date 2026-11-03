@@ -68,7 +68,7 @@
   {
     "qid": "Q1243",
     "name": "Veneto",
-    "count": 1,
+    "count": 2,
     "file": "Palazzo Balbi (Venice).jpg"
   },
   {
@@ -256,6 +256,12 @@
     "name": "BYD Auto",
     "count": 4,
     "file": "BYD Zhengzhou All-Terrain Circuit entrance.png"
+  },
+  {
+    "qid": "Q28206",
+    "name": "Augusta",
+    "count": 1,
+    "file": "Augusta, Maine skyline.jpg"
   },
   {
     "qid": "Q28459",
