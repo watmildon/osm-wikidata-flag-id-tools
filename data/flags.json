@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T13:35:39.091Z",
+  "generated": "2026-11-04T13:44:39.600Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 702,
+      "count": 704,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18484,
+      "count": 18494,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 611,
+      "count": 613,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1455,7 +1455,7 @@
     {
       "qid": "Q51401",
       "name": "LGBTQ pride flag",
-      "count": 61,
+      "count": 62,
       "file": "Gay Pride Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3896,7 +3896,7 @@
     {
       "qid": "Q128812",
       "name": "flag of Portugal",
-      "count": 98,
+      "count": 99,
       "file": "Flag of Portugal (official).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1085,
+      "count": 1087,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1616,
+      "count": 1617,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9322,7 +9322,7 @@
     {
       "qid": "Q202189",
       "name": "flag of Niue",
-      "count": 2,
+      "count": 3,
       "file": "Flag of Niue.svg",
       "isFlagEntity": true,
       "colors": [
@@ -24559,7 +24559,7 @@
     {
       "qid": "Q47013273",
       "name": "transgender pride flag",
-      "count": 4,
+      "count": 5,
       "file": "Transgender Pride flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25569,7 +25569,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 218,
+      "count": 219,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -30381,7 +30381,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 384,
+      "count": 385,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
