@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-04T13:44:39.600Z",
+  "generated": "2026-11-05T13:57:29.329Z",
   "palette": [
     "red",
     "white",
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18494,
+      "count": 18500,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 613,
+      "count": 614,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1224,7 +1224,7 @@
     {
       "qid": "Q46008",
       "name": "flag of Laos",
-      "count": 10,
+      "count": 11,
       "file": "Flag of Laos.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1890,7 +1890,7 @@
     {
       "qid": "Q81676",
       "name": "flag of Australia",
-      "count": 354,
+      "count": 355,
       "file": "Flag of Australia (converted).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2058,7 +2058,7 @@
     {
       "qid": "Q82205",
       "name": "flag of Ireland",
-      "count": 119,
+      "count": 120,
       "file": "Flag of Ireland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1087,
+      "count": 1101,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25569,7 +25569,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 219,
+      "count": 220,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -30381,7 +30381,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 385,
+      "count": 386,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
