@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-07T12:24:39.031Z",
+  "generated": "2026-11-08T12:43:36.381Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 709,
+      "count": 715,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18515,
+      "count": 18523,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1082,7 +1082,7 @@
     {
       "qid": "Q43175",
       "name": "flag of Japan",
-      "count": 121,
+      "count": 123,
       "file": "Flag of Japan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2437,
+      "count": 2438,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1224,7 +1224,7 @@
     {
       "qid": "Q46008",
       "name": "flag of Laos",
-      "count": 11,
+      "count": 10,
       "file": "Flag of Laos.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1455,7 +1455,7 @@
     {
       "qid": "Q51401",
       "name": "LGBTQ pride flag",
-      "count": 62,
+      "count": 63,
       "file": "Gay Pride Flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 289,
+      "count": 290,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 412,
+      "count": 413,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1108,
+      "count": 1109,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6731,7 +6731,7 @@
     {
       "qid": "Q165905",
       "name": "flag of Kenya",
-      "count": 13,
+      "count": 14,
       "file": "Flag of Kenya.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9939,7 +9939,7 @@
     {
       "qid": "Q241083",
       "name": "flag of Wisconsin",
-      "count": 58,
+      "count": 59,
       "file": "Flag of Wisconsin.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13245,7 +13245,7 @@
     {
       "qid": "Q752559",
       "name": "flag of Ohio",
-      "count": 340,
+      "count": 341,
       "file": "Flag of Ohio.svg",
       "isFlagEntity": true,
       "colors": [
