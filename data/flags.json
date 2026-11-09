@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08T12:43:36.381Z",
+  "generated": "2026-11-09T15:06:11.965Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 715,
+      "count": 716,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18523,
+      "count": 18535,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 614,
+      "count": 623,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1082,7 +1082,7 @@
     {
       "qid": "Q43175",
       "name": "flag of Japan",
-      "count": 123,
+      "count": 126,
       "file": "Flag of Japan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 323,
+      "count": 324,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2310,7 +2310,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 234,
+      "count": 233,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 413,
+      "count": 414,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9939,7 +9939,7 @@
     {
       "qid": "Q241083",
       "name": "flag of Wisconsin",
-      "count": 59,
+      "count": 60,
       "file": "Flag of Wisconsin.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13748,7 +13748,7 @@
     {
       "qid": "Q818665",
       "name": "flag of Tristan da Cunha",
-      "count": 2,
+      "count": 3,
       "file": "Flag of Tristan da Cunha.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15410,7 +15410,7 @@
     {
       "qid": "Q1426515",
       "name": "flag of the Community of Madrid",
-      "count": 12,
+      "count": 13,
       "file": "Flag of the Community of Madrid.svg",
       "isFlagEntity": true,
       "colors": [
@@ -22632,7 +22632,7 @@
     {
       "qid": "Q8980339",
       "name": "flag of Kagoshima Prefecture",
-      "count": 1,
+      "count": 2,
       "file": "Flag of Kagoshima Prefecture.svg",
       "wdImageProperty": "P18",
       "reverseFile": null,
@@ -30381,7 +30381,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 386,
+      "count": 387,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -39584,7 +39584,7 @@
     {
       "qid": "Q141137230",
       "name": "Royal National Lifeboat Institution Flag",
-      "count": 1,
+      "count": 2,
       "file": "Flag of the Royal National Lifeboat Institution.svg",
       "wdImageProperty": "P18",
       "reverseFile": null,
