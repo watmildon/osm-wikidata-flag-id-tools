@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03T13:35:38.938Z",
+  "generated": "2026-11-10T14:17:41.897Z",
   "suggestions": [
     {
       "bad_qid": "Q30",
@@ -119,13 +119,6 @@
       "count": 1,
       "suggested_qid": "Q783490",
       "suggested_name": "flag of the Association of Southeast Asian Nations"
-    },
-    {
-      "bad_qid": "Q8886",
-      "bad_name": "European Council",
-      "count": 1,
-      "suggested_qid": "Q122482",
-      "suggested_name": "flag of Europe"
     },
     {
       "bad_qid": "Q9337",

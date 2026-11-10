@@ -138,12 +138,6 @@
     "file": "Flagge Landkreis Fulda.svg"
   },
   {
-    "qid": "Q8886",
-    "name": "European Council",
-    "count": 1,
-    "file": "European Council (38185339475).jpg"
-  },
-  {
     "qid": "Q9337",
     "name": "Flemish Region",
     "count": 1,
@@ -850,6 +844,12 @@
     "name": "Kankakee County",
     "count": 1,
     "file": "Kankakee County Courthouse.jpg"
+  },
+  {
+    "qid": "Q503308",
+    "name": "Southwest Airlines",
+    "count": 1,
+    "file": "Southwest Airlines plane.jpg"
   },
   {
     "qid": "Q504114",
