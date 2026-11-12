@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T14:34:56.451Z",
+  "generated": "2026-11-12T23:10:54.259Z",
   "palette": [
     "red",
     "white",
@@ -39715,6 +39715,24 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "St. Pete Beach",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q141780965",
+      "name": "Rojinegra flag",
+      "count": 1,
+      "file": "Bandera Rojinegra.png",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Rojinegra flag",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": []
