@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T13:30:52.180Z",
+  "generated": "2026-11-12T14:34:56.451Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 719,
+      "count": 723,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18555,
+      "count": 18567,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1613,7 +1613,7 @@
     {
       "qid": "Q79198",
       "name": "flag of Vatican City",
-      "count": 71,
+      "count": 72,
       "file": "Flag of Vatican City (2023–present).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1111,
+      "count": 1112,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2228,7 +2228,7 @@
     {
       "qid": "Q83392",
       "name": "flag of Algeria",
-      "count": 39,
+      "count": 40,
       "file": "Flag of Algeria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2464,7 +2464,7 @@
     {
       "qid": "Q102392",
       "name": "flag of Scotland",
-      "count": 21,
+      "count": 23,
       "file": "Flag of Scotland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 414,
+      "count": 415,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1625,
+      "count": 1631,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5674,7 +5674,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 447,
+      "count": 448,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15727,7 +15727,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 801,
+      "count": 803,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21855,7 +21855,7 @@
     {
       "qid": "Q5456894",
       "name": "flag of the United States Air Force",
-      "count": 108,
+      "count": 109,
       "file": "Flag of the United States Air Force.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30407,7 +30407,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 387,
+      "count": 388,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
