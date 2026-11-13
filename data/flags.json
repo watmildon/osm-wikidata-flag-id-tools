@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-12T23:10:54.259Z",
+  "generated": "2026-11-13T13:53:32.503Z",
   "palette": [
     "red",
     "white",
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 305,
+      "count": 304,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 723,
+      "count": 725,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18567,
+      "count": 18573,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1112,
+      "count": 1114,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2464,7 +2464,7 @@
     {
       "qid": "Q102392",
       "name": "flag of Scotland",
-      "count": 23,
+      "count": 24,
       "file": "Flag of Scotland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4133,7 +4133,7 @@
     {
       "qid": "Q130774",
       "name": "flag of Argentina",
-      "count": 635,
+      "count": 636,
       "file": "Flag of Argentina.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1631,
+      "count": 1634,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7147,7 +7147,7 @@
     {
       "qid": "Q169441",
       "name": "flag of Maldives",
-      "count": 11,
+      "count": 12,
       "file": "Flag of Maldives.svg",
       "isFlagEntity": true,
       "colors": [
@@ -8038,7 +8038,7 @@
     {
       "qid": "Q173554",
       "name": "flag of El Salvador",
-      "count": 28,
+      "count": 29,
       "file": "Flag of El Salvador.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9939,7 +9939,7 @@
     {
       "qid": "Q241083",
       "name": "flag of Wisconsin",
-      "count": 60,
+      "count": 61,
       "file": "Flag of Wisconsin.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12295,7 +12295,7 @@
     {
       "qid": "Q633087",
       "name": "flag of Montana",
-      "count": 17,
+      "count": 16,
       "file": "Flag of Montana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12972,7 +12972,7 @@
     {
       "qid": "Q730106",
       "name": "flag of Florida",
-      "count": 99,
+      "count": 100,
       "file": "Flag of Florida.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13464,7 +13464,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 416,
+      "count": 417,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15727,7 +15727,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 803,
+      "count": 804,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21855,7 +21855,7 @@
     {
       "qid": "Q5456894",
       "name": "flag of the United States Air Force",
-      "count": 109,
+      "count": 110,
       "file": "Flag of the United States Air Force.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21899,7 +21899,7 @@
     {
       "qid": "Q5456895",
       "name": "flag of the United States Coast Guard",
-      "count": 117,
+      "count": 118,
       "file": "Flag of the United States Coast Guard.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21938,7 +21938,7 @@
     {
       "qid": "Q5456897",
       "name": "flag of the United States Marine Corps",
-      "count": 141,
+      "count": 142,
       "file": "Flag of the United States Marine Corps.svg",
       "isFlagEntity": true,
       "colors": [
@@ -21977,7 +21977,7 @@
     {
       "qid": "Q5456898",
       "name": "flag of the United States Army",
-      "count": 130,
+      "count": 131,
       "file": "Flag of the United States Army.svg",
       "isFlagEntity": true,
       "colors": [
@@ -22020,7 +22020,7 @@
     {
       "qid": "Q5456899",
       "name": "flag of the United States Navy",
-      "count": 118,
+      "count": 119,
       "file": "Flag of the United States Navy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29249,7 +29249,7 @@
     {
       "qid": "Q96970847",
       "name": "flag of Cook County",
-      "count": 29,
+      "count": 30,
       "file": "Flag of Cook County, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
