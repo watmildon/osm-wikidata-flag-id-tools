@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-14T12:56:14.376Z",
+  "generated": "2026-11-15T13:24:49.469Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 727,
+      "count": 728,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18586,
+      "count": 18590,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1041,7 +1041,7 @@
     {
       "qid": "Q42876",
       "name": "flag of Italy",
-      "count": 624,
+      "count": 625,
       "file": "Flag of Italy.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1261,7 +1261,7 @@
     {
       "qid": "Q46585",
       "name": "flag of the Netherlands",
-      "count": 105,
+      "count": 104,
       "file": "Flag of the Netherlands.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 325,
+      "count": 330,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 299,
+      "count": 300,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 291,
+      "count": 290,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1110,
+      "count": 1111,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1635,
+      "count": 1636,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5474,7 +5474,7 @@
     {
       "qid": "Q160255",
       "name": "flag of Peru",
-      "count": 35,
+      "count": 36,
       "file": "Flag of Peru.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7147,7 +7147,7 @@
     {
       "qid": "Q169441",
       "name": "flag of Maldives",
-      "count": 12,
+      "count": 7,
       "file": "Flag of Maldives.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7683,7 +7683,7 @@
     {
       "qid": "Q171117",
       "name": "flag of England",
-      "count": 13,
+      "count": 12,
       "file": "Flag of England.svg",
       "isFlagEntity": true,
       "colors": [
@@ -8730,7 +8730,7 @@
     {
       "qid": "Q185692",
       "name": "flag of Wales",
-      "count": 15,
+      "count": 14,
       "file": "Flag of Wales.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10961,32 +10961,6 @@
       }
     },
     {
-      "qid": "Q463964",
-      "name": "flag of Northern Ireland",
-      "count": 1,
-      "file": "Flag of Northern Ireland (1953–1972).svg",
-      "wdImageProperty": "P18",
-      "reverseFile": null,
-      "isFlagEntity": true,
-      "colors": [
-        "blue",
-        "red",
-        "white"
-      ],
-      "wdColors": [
-        "blue",
-        "red",
-        "white"
-      ],
-      "icons": [],
-      "shape": "rectangle",
-      "flagType": null,
-      "flagName": "Northern Ireland",
-      "flagTypeSample": null,
-      "extraTags": {},
-      "aliases": []
-    },
-    {
       "qid": "Q483659",
       "name": "flag of Singapore",
       "count": 22,
@@ -12938,7 +12912,7 @@
     {
       "qid": "Q707471",
       "name": "flag of Bavaria",
-      "count": 18,
+      "count": 24,
       "file": "Flag of Bavaria (striped).svg",
       "isFlagEntity": true,
       "colors": [
@@ -30407,7 +30381,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 388,
+      "count": 392,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
