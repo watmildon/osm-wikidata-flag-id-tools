@@ -1194,6 +1194,12 @@
     "file": "Downtown Melrose Park.jpg"
   },
   {
+    "qid": "Q1026229",
+    "name": "Miraflores",
+    "count": 1,
+    "file": "Miraflores Lima Peru skyline.jpg"
+  },
+  {
     "qid": "Q1029504",
     "name": "University of National and World Economy",
     "count": 1,
@@ -1510,6 +1516,12 @@
     "name": "Midlothian",
     "count": 1,
     "file": "Midlothianvillagegazeboflag.jpg"
+  },
+  {
+    "qid": "Q2632912",
+    "name": "San Isidro",
+    "count": 1,
+    "file": "Bandera de San Isidro (Lima).jpg"
   },
   {
     "qid": "Q2666488",

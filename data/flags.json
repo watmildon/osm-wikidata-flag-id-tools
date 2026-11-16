@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T13:24:49.469Z",
+  "generated": "2026-11-16T14:43:15.968Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 728,
+      "count": 732,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18590,
+      "count": 18603,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2438,
+      "count": 2441,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 330,
+      "count": 331,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1693,7 +1693,7 @@
     {
       "qid": "Q80110",
       "name": "flag of Canada",
-      "count": 1115,
+      "count": 1117,
       "file": "Flag of Canada (Pantone).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 290,
+      "count": 291,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2501,7 +2501,7 @@
     {
       "qid": "Q102939",
       "name": "flag of Honduras",
-      "count": 19,
+      "count": 20,
       "file": "Flag of Honduras (1949–2022, 2026–present).svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1683,
+      "count": 1684,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1111,
+      "count": 1112,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5474,7 +5474,7 @@
     {
       "qid": "Q160255",
       "name": "flag of Peru",
-      "count": 36,
+      "count": 38,
       "file": "Flag of Peru.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7303,7 +7303,7 @@
     {
       "qid": "Q170289",
       "name": "flag of Costa Rica",
-      "count": 34,
+      "count": 35,
       "file": "Flag of Costa Rica (state).svg",
       "isFlagEntity": true,
       "colors": [
@@ -8038,7 +8038,7 @@
     {
       "qid": "Q173554",
       "name": "flag of El Salvador",
-      "count": 29,
+      "count": 30,
       "file": "Flag of El Salvador.svg",
       "isFlagEntity": true,
       "colors": [
@@ -8126,7 +8126,7 @@
     {
       "qid": "Q178179",
       "name": "flag of Guatemala",
-      "count": 24,
+      "count": 25,
       "file": "Flag of Guatemala.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9939,7 +9939,7 @@
     {
       "qid": "Q241083",
       "name": "flag of Wisconsin",
-      "count": 61,
+      "count": 62,
       "file": "Flag of Wisconsin.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10111,7 +10111,7 @@
     {
       "qid": "Q248102",
       "name": "flag of New Hampshire",
-      "count": 28,
+      "count": 29,
       "file": "Flag of New Hampshire.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12228,7 +12228,7 @@
     {
       "qid": "Q632491",
       "name": "flag of Arizona",
-      "count": 58,
+      "count": 59,
       "file": "Flag of Arizona.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12646,7 +12646,7 @@
     {
       "qid": "Q687222",
       "name": "flag of North Rhine-Westphalia",
-      "count": 6,
+      "count": 7,
       "file": "Flag of North Rhine-Westphalia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13202,7 +13202,7 @@
     {
       "qid": "Q752557",
       "name": "flag of Missouri",
-      "count": 40,
+      "count": 41,
       "file": "Flag of Missouri.svg",
       "isFlagEntity": true,
       "colors": [
@@ -14875,7 +14875,7 @@
     {
       "qid": "Q1165949",
       "name": "flag of Ontario",
-      "count": 63,
+      "count": 64,
       "file": "Flag of Ontario.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 807,
+      "count": 809,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30381,7 +30381,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 392,
+      "count": 393,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -38344,7 +38344,7 @@
     {
       "qid": "Q124128386",
       "name": "flag for the Green Flag Award",
-      "count": 64,
+      "count": 63,
       "file": "Green Flag Award.jpg",
       "isFlagEntity": true,
       "colors": [
@@ -39725,6 +39725,30 @@
       "shape": "rectangle",
       "flagType": null,
       "flagName": "Frederick County",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
+      "qid": "Q142174128",
+      "name": "Q142174128",
+      "count": 1,
+      "file": "Banner Hattingen.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [
+        "yellow",
+        "blue"
+      ],
+      "wdColors": [
+        "yellow",
+        "blue"
+      ],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Q142174128",
       "flagTypeSample": null,
       "extraTags": {},
       "aliases": []
