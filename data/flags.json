@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17T15:28:15.879Z",
+  "generated": "2026-11-18T15:03:53.980Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 733,
+      "count": 735,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18628,
+      "count": 18631,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2448,
+      "count": 2449,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 300,
+      "count": 301,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2464,7 +2464,7 @@
     {
       "qid": "Q102392",
       "name": "flag of Scotland",
-      "count": 24,
+      "count": 25,
       "file": "Flag of Scotland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1684,
+      "count": 1685,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1639,
+      "count": 1642,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9903,7 +9903,7 @@
     {
       "qid": "Q238759",
       "name": "flag of Macau",
-      "count": 3,
+      "count": 4,
       "file": "Flag of Macau.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16223,7 +16223,7 @@
     {
       "qid": "Q2020381",
       "name": "flag of Pomeranian Voivodeship",
-      "count": 14,
+      "count": 15,
       "file": "POL województwo pomorskie flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -25569,7 +25569,7 @@
     {
       "qid": "Q64300176",
       "name": "McDonald's flag",
-      "count": 221,
+      "count": 222,
       "file": "Flag of the McDonald's Corporation (pre-2006).svg",
       "isFlagEntity": true,
       "colors": [
@@ -27077,7 +27077,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 72,
+      "count": 73,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
