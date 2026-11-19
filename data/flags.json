@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18T15:03:53.980Z",
+  "generated": "2026-11-19T15:12:43.408Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 735,
+      "count": 737,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18631,
+      "count": 18639,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2186,7 +2186,7 @@
     {
       "qid": "Q83278",
       "name": "flag of the United Kingdom",
-      "count": 293,
+      "count": 294,
       "file": "Flag of the United Kingdom (1-2).svg",
       "isFlagEntity": true,
       "colors": [
@@ -2310,7 +2310,7 @@
     {
       "qid": "Q101472",
       "name": "flag of Indonesia",
-      "count": 234,
+      "count": 235,
       "file": "Flag of Indonesia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 415,
+      "count": 416,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4454,7 +4454,7 @@
     {
       "qid": "Q133015",
       "name": "flag of Croatia",
-      "count": 84,
+      "count": 85,
       "file": "Flag of Croatia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1642,
+      "count": 1651,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13490,7 +13490,7 @@
     {
       "qid": "Q760401",
       "name": "flag of Andalusia",
-      "count": 47,
+      "count": 48,
       "file": "Flag of Andalucía.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13637,7 +13637,7 @@
     {
       "qid": "Q783490",
       "name": "flag of the Association of Southeast Asian Nations",
-      "count": 36,
+      "count": 37,
       "file": "Infobox ASEAN flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13860,7 +13860,7 @@
     {
       "qid": "Q828147",
       "name": "flag of Minnesota",
-      "count": 34,
+      "count": 35,
       "file": "Flag of Minnesota.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 809,
+      "count": 810,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -27077,7 +27077,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 73,
+      "count": 80,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30381,7 +30381,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 393,
+      "count": 394,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -39696,7 +39696,7 @@
     {
       "qid": "Q141780965",
       "name": "Rojinegra flag",
-      "count": 1,
+      "count": 3,
       "file": "Bandera Rojinegra.png",
       "wdImageProperty": "P18",
       "reverseFile": null,
