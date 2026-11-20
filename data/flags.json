@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19T15:12:43.408Z",
+  "generated": "2026-11-20T14:51:57.234Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 737,
+      "count": 743,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18639,
+      "count": 18645,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1082,7 +1082,7 @@
     {
       "qid": "Q43175",
       "name": "flag of Japan",
-      "count": 126,
+      "count": 130,
       "file": "Flag of Japan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1112,
+      "count": 1113,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1651,
+      "count": 1656,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13438,7 +13438,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 418,
+      "count": 419,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 810,
+      "count": 811,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -19565,7 +19565,7 @@
     {
       "qid": "Q3039109",
       "name": "flag and coat of arms of Normandy",
-      "count": 48,
+      "count": 49,
       "file": "Flag of Normandie.svg",
       "isFlagEntity": true,
       "colors": [
@@ -27077,7 +27077,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 80,
+      "count": 82,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -29223,7 +29223,7 @@
     {
       "qid": "Q96970847",
       "name": "flag of Cook County",
-      "count": 30,
+      "count": 31,
       "file": "Flag of Cook County, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30963,7 +30963,7 @@
     {
       "qid": "Q104781511",
       "name": "Trump flag",
-      "count": 2,
+      "count": 3,
       "file": "2021 storming of the United States Capitol IMG 6223a (50813059681).jpg",
       "isFlagEntity": true,
       "colors": [],
