@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T14:51:57.234Z",
+  "generated": "2026-11-21T14:10:09.074Z",
   "palette": [
     "red",
     "white",
@@ -240,7 +240,7 @@
     {
       "qid": "Q16611",
       "name": "flag of Russia",
-      "count": 144,
+      "count": 146,
       "file": "Flag of Russia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 304,
+      "count": 306,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -503,7 +503,7 @@
     {
       "qid": "Q19374",
       "name": "flag of Louisiana",
-      "count": 53,
+      "count": 54,
       "file": "Flag of Louisiana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 743,
+      "count": 747,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18645,
+      "count": 18652,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1113,
+      "count": 1116,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1656,
+      "count": 1659,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10186,7 +10186,7 @@
     {
       "qid": "Q258262",
       "name": "flag of Oklahoma",
-      "count": 59,
+      "count": 60,
       "file": "Flag of Oklahoma.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10549,7 +10549,7 @@
     {
       "qid": "Q369833",
       "name": "flag of Arkansas",
-      "count": 20,
+      "count": 21,
       "file": "Flag of Arkansas.svg",
       "isFlagEntity": true,
       "colors": [
