@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-21T14:10:09.074Z",
+  "generated": "2026-11-23T17:20:01.687Z",
   "palette": [
     "red",
     "white",
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 306,
+      "count": 308,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 747,
+      "count": 751,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18652,
+      "count": 18661,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2449,
+      "count": 2452,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 304,
+      "count": 307,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 301,
+      "count": 302,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2013,7 +2013,7 @@
     {
       "qid": "Q82194",
       "name": "flag of Brazil",
-      "count": 132,
+      "count": 134,
       "file": "Flag of Brazil.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3406,7 +3406,7 @@
     {
       "qid": "Q121688",
       "name": "flag of Spain",
-      "count": 416,
+      "count": 417,
       "file": "Flag of Spain.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3941,7 +3941,7 @@
     {
       "qid": "Q129132",
       "name": "flag of Greece",
-      "count": 297,
+      "count": 301,
       "file": "Flag of Greece.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1116,
+      "count": 1129,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1659,
+      "count": 1660,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -11244,7 +11244,7 @@
     {
       "qid": "Q497997",
       "name": "flag of Alabama",
-      "count": 34,
+      "count": 35,
       "file": "Flag of Alabama.svg",
       "isFlagEntity": true,
       "colors": [
@@ -16952,7 +16952,7 @@
     {
       "qid": "Q2191442",
       "name": "flag of Santa Catarina",
-      "count": 3,
+      "count": 4,
       "file": "Bandeira de Santa Catarina.svg",
       "isFlagEntity": true,
       "colors": [
