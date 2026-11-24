@@ -1436,7 +1436,7 @@
   {
     "qid": "Q2023995",
     "name": "Sauk Village",
-    "count": 1,
+    "count": 2,
     "file": "Sauk Trail looking east.jpg"
   },
   {
@@ -1450,6 +1450,12 @@
     "name": "Roosevelt University",
     "count": 1,
     "file": "1 RU Wabash-Building-entrance.jpg"
+  },
+  {
+    "qid": "Q2134249",
+    "name": "Homewood",
+    "count": 1,
+    "file": "Ridge Road in Downtown Homewood.jpg"
   },
   {
     "qid": "Q2140778",
@@ -1604,7 +1610,7 @@
   {
     "qid": "Q2963322",
     "name": "Chicago Park District",
-    "count": 4,
+    "count": 5,
     "file": "Lake front bike5.JPG"
   },
   {

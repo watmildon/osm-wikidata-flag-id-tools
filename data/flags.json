@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-23T17:20:01.687Z",
+  "generated": "2026-11-24T16:56:14.443Z",
   "palette": [
     "red",
     "white",
@@ -707,7 +707,7 @@
     {
       "qid": "Q33213",
       "name": "flag of Armenia",
-      "count": 52,
+      "count": 53,
       "file": "Flag of Armenia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 751,
+      "count": 753,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18661,
+      "count": 18683,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1338,7 +1338,7 @@
     {
       "qid": "Q47891",
       "name": "flag of Finland",
-      "count": 307,
+      "count": 308,
       "file": "Flag of Finland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3088,7 +3088,7 @@
     {
       "qid": "Q103084",
       "name": "flag of Burundi",
-      "count": 5,
+      "count": 6,
       "file": "Flag of Burundi.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1660,
+      "count": 1666,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13438,7 +13438,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 419,
+      "count": 420,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15207,7 +15207,7 @@
     {
       "qid": "Q1402799",
       "name": "flag of Chicago",
-      "count": 419,
+      "count": 420,
       "file": "Flag of Chicago, Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -27077,7 +27077,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 82,
+      "count": 86,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30381,7 +30381,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 394,
+      "count": 396,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30853,7 +30853,7 @@
     {
       "qid": "Q101483306",
       "name": "Veterans of Foreign Wars flag",
-      "count": 2,
+      "count": 3,
       "file": null,
       "isFlagEntity": true,
       "colors": [
