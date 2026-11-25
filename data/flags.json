@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24T16:56:14.443Z",
+  "generated": "2026-11-25T16:45:25.293Z",
   "palette": [
     "red",
     "white",
@@ -380,7 +380,7 @@
     {
       "qid": "Q19000",
       "name": "flag of Texas",
-      "count": 308,
+      "count": 309,
       "file": "Flag of Texas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 753,
+      "count": 756,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18683,
+      "count": 18698,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1185,7 +1185,7 @@
     {
       "qid": "Q45136",
       "name": "flag of Syria",
-      "count": 10,
+      "count": 11,
       "file": "Flag of Syria (2025-).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 302,
+      "count": 303,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3736,7 +3736,7 @@
     {
       "qid": "Q127296",
       "name": "flag of South Korea",
-      "count": 71,
+      "count": 72,
       "file": "Flag of South Korea.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1129,
+      "count": 1132,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4504,7 +4504,7 @@
     {
       "qid": "Q133022",
       "name": "flag of Luxembourg",
-      "count": 38,
+      "count": 40,
       "file": "Flag of Luxembourg.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1666,
+      "count": 1668,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -5674,7 +5674,7 @@
     {
       "qid": "Q160872",
       "name": "flag of Chile",
-      "count": 448,
+      "count": 449,
       "file": "Flag of Chile.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6773,7 +6773,7 @@
     {
       "qid": "Q167119",
       "name": "flag of North Macedonia",
-      "count": 34,
+      "count": 35,
       "file": "Flag of North Macedonia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -7760,7 +7760,7 @@
     {
       "qid": "Q172446",
       "name": "flag of the United Nations",
-      "count": 29,
+      "count": 30,
       "file": "Flag of the United Nations.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10186,7 +10186,7 @@
     {
       "qid": "Q258262",
       "name": "flag of Oklahoma",
-      "count": 60,
+      "count": 61,
       "file": "Flag of Oklahoma.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10269,7 +10269,7 @@
     {
       "qid": "Q284396",
       "name": "flag of Kansas",
-      "count": 8,
+      "count": 10,
       "file": "Flag of Kansas.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10508,7 +10508,7 @@
     {
       "qid": "Q330517",
       "name": "flag of California",
-      "count": 376,
+      "count": 377,
       "file": "Flag of California.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12228,7 +12228,7 @@
     {
       "qid": "Q632491",
       "name": "flag of Arizona",
-      "count": 59,
+      "count": 61,
       "file": "Flag of Arizona.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12395,7 +12395,7 @@
     {
       "qid": "Q642998",
       "name": "flag of New Mexico",
-      "count": 22,
+      "count": 23,
       "file": "Flag of New Mexico.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12996,7 +12996,7 @@
     {
       "qid": "Q731163",
       "name": "flag of Washington",
-      "count": 39,
+      "count": 40,
       "file": "Flag of Washington.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13202,7 +13202,7 @@
     {
       "qid": "Q752557",
       "name": "flag of Missouri",
-      "count": 41,
+      "count": 42,
       "file": "Flag of Missouri.svg",
       "isFlagEntity": true,
       "colors": [
@@ -13438,7 +13438,7 @@
     {
       "qid": "Q752837",
       "name": "flag of Illinois",
-      "count": 420,
+      "count": 421,
       "file": "Flag of Illinois.svg",
       "isFlagEntity": true,
       "colors": [
@@ -15701,7 +15701,7 @@
     {
       "qid": "Q1463762",
       "name": "National League of Families POW/MIA flag",
-      "count": 811,
+      "count": 812,
       "file": "United States POW-MIA flag.svg",
       "isFlagEntity": true,
       "colors": [
@@ -38066,6 +38066,24 @@
         "colors": 1
       },
       "description": "A vertical bicolor of blue and (hoist) white. With three white martlets in the upper hoist corner."
+    },
+    {
+      "qid": "Q122495174",
+      "name": "Flag of Auckland City",
+      "count": 0,
+      "file": null,
+      "wdImageProperty": null,
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Auckland City",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
     },
     {
       "qid": "Q122872146",
