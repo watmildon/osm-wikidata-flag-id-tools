@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25T16:45:25.293Z",
+  "generated": "2026-11-26T16:21:11.451Z",
   "palette": [
     "red",
     "white",
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 756,
+      "count": 757,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18698,
+      "count": 18705,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1120,7 +1120,7 @@
     {
       "qid": "Q43192",
       "name": "flag of France",
-      "count": 2452,
+      "count": 2453,
       "file": "Flag of France.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 331,
+      "count": 332,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -2145,7 +2145,7 @@
     {
       "qid": "Q83149",
       "name": "flag of Norway",
-      "count": 425,
+      "count": 439,
       "file": "Flag of Norway.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1668,
+      "count": 1675,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -6165,7 +6165,7 @@
     {
       "qid": "Q163832",
       "name": "flag of Serbia",
-      "count": 123,
+      "count": 124,
       "file": "Flag of Serbia.svg",
       "isFlagEntity": true,
       "colors": [
@@ -9709,7 +9709,7 @@
     {
       "qid": "Q225360",
       "name": "flag of Bulgaria",
-      "count": 117,
+      "count": 118,
       "file": "Flag of Bulgaria.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10315,7 +10315,7 @@
     {
       "qid": "Q285418",
       "name": "flag of Michigan",
-      "count": 53,
+      "count": 54,
       "file": "Flag of Michigan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10869,7 +10869,7 @@
     {
       "qid": "Q459788",
       "name": "flag of NATO",
-      "count": 16,
+      "count": 17,
       "file": "Flag of NATO.svg",
       "isFlagEntity": true,
       "colors": [
@@ -27077,7 +27077,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 86,
+      "count": 87,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -30381,7 +30381,7 @@
     {
       "qid": "Q98055852",
       "name": "flag of the European Union",
-      "count": 396,
+      "count": 398,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
