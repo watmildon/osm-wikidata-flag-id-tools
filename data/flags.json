@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-26T16:21:11.451Z",
+  "generated": "2026-11-27T16:05:23.370Z",
   "palette": [
     "red",
     "white",
@@ -503,7 +503,7 @@
     {
       "qid": "Q19374",
       "name": "flag of Louisiana",
-      "count": 54,
+      "count": 55,
       "file": "Flag of Louisiana.svg",
       "isFlagEntity": true,
       "colors": [
@@ -961,7 +961,7 @@
     {
       "qid": "Q42436",
       "name": "flag of Poland",
-      "count": 757,
+      "count": 759,
       "file": "Flag of Poland.svg",
       "isFlagEntity": true,
       "colors": [
@@ -999,7 +999,7 @@
     {
       "qid": "Q42537",
       "name": "flag of the United States of America",
-      "count": 18705,
+      "count": 18713,
       "file": "Flag of the United States (DDD-F-416E specifications).svg",
       "isFlagEntity": true,
       "colors": [
@@ -1082,7 +1082,7 @@
     {
       "qid": "Q43175",
       "name": "flag of Japan",
-      "count": 130,
+      "count": 131,
       "file": "Flag of Japan.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1376,7 +1376,7 @@
     {
       "qid": "Q48160",
       "name": "flag of Germany",
-      "count": 332,
+      "count": 333,
       "file": "Flag of Germany.svg",
       "isFlagEntity": true,
       "colors": [
@@ -1933,7 +1933,7 @@
     {
       "qid": "Q81952",
       "name": "flag of Turkey",
-      "count": 303,
+      "count": 304,
       "file": "Flag of Turkey.svg",
       "isFlagEntity": true,
       "colors": [
@@ -3510,7 +3510,7 @@
     {
       "qid": "Q122482",
       "name": "flag of Europe",
-      "count": 1685,
+      "count": 1686,
       "file": "Flag of Europe.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4259,7 +4259,7 @@
     {
       "qid": "Q131147",
       "name": "flag of China",
-      "count": 1132,
+      "count": 1133,
       "file": "Flag of the People's Republic of China.svg",
       "isFlagEntity": true,
       "colors": [
@@ -4665,7 +4665,7 @@
     {
       "qid": "Q134627",
       "name": "flag of the Philippines",
-      "count": 1675,
+      "count": 1683,
       "file": "Flag of the Philippines.svg",
       "isFlagEntity": true,
       "colors": [
@@ -10186,7 +10186,7 @@
     {
       "qid": "Q258262",
       "name": "flag of Oklahoma",
-      "count": 61,
+      "count": 62,
       "file": "Flag of Oklahoma.svg",
       "isFlagEntity": true,
       "colors": [
@@ -12880,7 +12880,7 @@
     {
       "qid": "Q698762",
       "name": "flag of Baden-Württemberg",
-      "count": 7,
+      "count": 8,
       "file": "Flag of Baden-Württemberg.svg",
       "isFlagEntity": true,
       "colors": [
@@ -27077,7 +27077,7 @@
     {
       "qid": "Q74484535",
       "name": "flag of Bangsamoro",
-      "count": 87,
+      "count": 90,
       "file": "Flag of Bangsamoro.svg",
       "isFlagEntity": true,
       "colors": [
@@ -37071,6 +37071,24 @@
       ]
     },
     {
+      "qid": "Q114643306",
+      "name": "flag of the Chickasaw Nation",
+      "count": 1,
+      "file": "Flag of the Chickasaw Nation.svg",
+      "wdImageProperty": "P18",
+      "reverseFile": null,
+      "isFlagEntity": true,
+      "colors": [],
+      "wdColors": [],
+      "icons": [],
+      "shape": "rectangle",
+      "flagType": null,
+      "flagName": "Chickasaw Nation",
+      "flagTypeSample": null,
+      "extraTags": {},
+      "aliases": []
+    },
+    {
       "qid": "Q114714073",
       "name": "flag of Honolulu",
       "count": 0,
@@ -38362,7 +38380,7 @@
     {
       "qid": "Q124128386",
       "name": "flag for the Green Flag Award",
-      "count": 63,
+      "count": 60,
       "file": "Green Flag Award.jpg",
       "isFlagEntity": true,
       "colors": [
